@@ -1,0 +1,197 @@
+<ng-container *ngIf="product$ | async as product">
+  <div
+    *ngIf="
+        product?.symbols?.length ||
+          product?.description ||
+          product?.remarks ||
+          (productAtributes$ | async)?.length;
+        else noDetails
+      "
+    class="container"
+    id="description"
+  >
+    <ngb-accordion
+      #acc="ngbAccordion"
+      (panelChange)="handleChange($event)"
+      activeIds="panel-description"
+    >
+      <ngb-panel *ngIf="product?.symbols?.length" id="panel-symbols">
+        <ng-template ngbPanelTitle>
+          <div class="accordion-button">
+            <span>{{ 'accordion.features' | cxTranslate }}</span>
+            <span *ngIf="openById['panel-symbols']" class="indicator">-</span>
+            <span *ngIf="!openById['panel-symbols']" class="indicator">+</span>
+          </div>
+          <hr/>
+        </ng-template>
+        <ng-template ngbPanelContent>
+          <div class="container">
+            <div class="symbol">
+              <div
+                *ngFor="let symbol of product.symbols"
+                class="symbol-container"
+              >
+                <div class="symbol-content">
+                  <img
+                    class="symbol-img"
+                    src="{{ getProductSymbolUrl(symbol.icon.url) }}"
+                  />
+                  <p>{{ symbol.name }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel *ngIf="product?.summary" id="panel-description">
+        <ng-template ngbPanelTitle>
+          <div class="accordion-button">
+            <span>{{ 'accordion.productDetails' | cxTranslate }}</span>
+            <span *ngIf="openById['panel-description']" class="indicator"
+            >-</span
+            >
+            <span *ngIf="!openById['panel-description']" class="indicator"
+            >+</span
+            >
+          </div>
+          <hr/>
+        </ng-template>
+        <ng-template ngbPanelContent>
+          <div [innerHTML]="product?.summary" class="container"></div>
+        </ng-template>
+      </ngb-panel>
+      <ng-container *ngIf="productAtributes$ | async as product">
+        <ng-container
+          *ngFor="let attributes of productAtributes$ | async; let i = index"
+        >
+          <ngb-panel
+            *ngIf="attributes?.group !== 'undefined'"
+            id="panel-attributes-{{ i }}"
+          >
+            <ng-template ngbPanelTitle>
+              <div class="accordion-button">
+                <span>{{ attributes?.groupLabel }}</span>
+                <span
+                  *ngIf="openById['panel-attributes-' + i]"
+                  class="indicator"
+                >-</span
+                >
+                <span
+                  *ngIf="!openById['panel-attributes-' + i]"
+                  class="indicator"
+                >+</span
+                >
+              </div>
+              <hr/>
+            </ng-template>
+            <ng-template ngbPanelContent>
+              <ng-container
+                *ngIf="attributes?.group !== 'Performances'; else performances"
+              >
+                <div class="container">
+                  <table class="product-attributes">
+                    <tr *ngFor="let feature of attributes?.features">
+                      <td class="feature-name">{{ feature?.name }}</td>
+                      <td class="feature-value">
+                        <ul>
+                          <li
+                            *ngFor="let featureValue of feature?.featureValues"
+                          >
+                            {{ featureValue?.value
+                            }}{{ feature?.featureUnit?.symbol }}
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </ng-container>
+              <ng-template #performances>
+                <div class="container performance-table-wrapper">
+                  <table class="product-performance-attributes">
+                    <ng-container
+                      *ngFor="
+                          let performanceFeatures of attributes?.features;
+                          let i = index
+                        "
+                    >
+                      <ng-container *ngIf="i === 0; else rest">
+                        <tr>
+                          <td class="performance-header">
+                            {{ performanceFeatures[0] }}
+                          </td>
+                          <td
+                            *ngFor="
+                                let performanceValue of performanceFeatures[1]
+                              "
+                            class="performance-header"
+                          >
+                            <ng-container
+                              *ngFor="
+                                  let featureValue of performanceValue?.featureValues
+                                "
+                            >
+                              {{ featureValue?.value
+                              }}{{ feature?.featureUnit?.symbol }}
+                            </ng-container>
+                          </td>
+                        </tr>
+                      </ng-container>
+                      <ng-template #rest>
+                        <tr>
+                          <td class="performance-value">
+                            {{ performanceFeatures[0] }}
+                          </td>
+                          <td
+                            *ngFor="
+                                let performanceValue of performanceFeatures[1]
+                              "
+                            class="performance-value"
+                          >
+                            <ng-container
+                              *ngFor="
+                                  let featureValue of performanceValue?.featureValues
+                                "
+                            >
+                              {{ featureValue?.value
+                              }}{{ feature?.featureUnit?.symbol }}
+                            </ng-container>
+                          </td>
+                        </tr>
+                      </ng-template>
+                    </ng-container>
+                  </table>
+                </div>
+              </ng-template>
+            </ng-template>
+          </ngb-panel>
+        </ng-container>
+      </ng-container>
+      <ngb-panel *ngIf="product?.remarks" id="panel-remarks">
+        <ng-template ngbPanelTitle>
+          <div class="accordion-button">
+            <span>{{ 'accordion.remarks' | cxTranslate }}</span>
+            <span *ngIf="openById['panel-remarks']" class="indicator">-</span>
+            <span *ngIf="!openById['panel-remarks']" class="indicator">+</span>
+          </div>
+          <hr/>
+        </ng-template>
+        <ng-template ngbPanelContent>
+          <ng-container *ngIf="product$ | async as product">
+            <div [innerHTML]="product?.remarks" class="container"></div>
+          </ng-container>
+        </ng-template>
+      </ngb-panel>
+    </ngb-accordion>
+  </div>
+  <ng-template #noDetails>
+    <div class="container">
+      <h5
+        (click)="processLinks($event)"
+        class="no-details"
+        innerHtml="{{ 'productDetails.noDetails' | cxTranslate }}"
+      ></h5>
+    </div>
+  </ng-template>
+
+</ng-container>

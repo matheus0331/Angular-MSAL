@@ -1,0 +1,7 @@
+@import '@spartacus/styles/scss/mixins';
+
+@include media-breakpoint-up(xl) {
+  .modal-xl {
+    max-width: $modal-xl !important;
+  }
+}

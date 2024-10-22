@@ -1,0 +1,38 @@
+<ng-container>
+  <ng-template #alternativeProductsDialog>
+    <app-franke-alternative-products-carousel-modal-content
+      (actionClick)="handleActionClick($event)"
+      [productCode]="order.product.code"
+      [quantity]="order.orderQuantity"
+      [requestDate]="deliveryDate"
+    >
+      <ng-template #alternativeProductsCarouselAction>
+        <app-franke-alternative-products-carousel-item-action>
+          {{
+          'orderDetails.alternativeProducts.replaceOrderItem' | cxTranslate
+          }}
+        </app-franke-alternative-products-carousel-item-action>
+      </ng-template>
+    </app-franke-alternative-products-carousel-modal-content>
+  </ng-template>
+
+  <ng-template #replaceProductDialog>
+    <app-order-details-product-replacement-modal-content
+      (replaceActionClick)="handleReplaceActionClick($event)"
+      *ngIf="selectedForReplacement"
+      [alternative]="selectedForReplacement"
+      [order]="order"
+    >
+    </app-order-details-product-replacement-modal-content>
+  </ng-template>
+
+  <button
+    (click)="openAlternativeProductsModal()"
+    class="btn-link-action alternative-products-btn"
+    type="button"
+  >
+    {{
+    'orderDetails.alternativeProducts.checkAlternativeProducts' | cxTranslate
+    }}
+  </button>
+</ng-container>

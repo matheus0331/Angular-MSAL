@@ -1,0 +1,41 @@
+<ng-container *ngIf="components$ | async as components">
+  <div
+    [attr.aria-label]="ariaLabel | cxTranslate"
+    class="container"
+    role="region"
+    tabindex="-1"
+  >
+    <ng-container *ngFor="let component of components; let i = index">
+      <ng-container *ngIf="component">
+        <button
+          (click)="select(i, $event)"
+          [attr.aria-expanded]="i === activeTabNum"
+          [class.active]="i === activeTabNum"
+          class="tabs"
+        >
+          {{
+          component.title | cxTranslate: {param: tabTitleParams[i] | async}
+          }}
+          <span aria-hidden="true" class="accordion-icon"></span>
+        </button>
+      </ng-container>
+    </ng-container>
+    <ng-container *ngFor="let component of components; let i = index">
+      <ng-container *ngIf="component">
+        <div
+          [class.active]="i === activeTabNum"
+          class="extended-tab-paragraph-content"
+          role="presentation"
+          tabindex="0"
+        >
+          <ng-template [cxOutletContext]="{}" [cxOutlet]="component.flexType">
+            <ng-container
+              (cxComponentRef)="tabCompLoaded($event)"
+              [cxComponentWrapper]="component"
+            ></ng-container>
+          </ng-template>
+        </div>
+      </ng-container>
+    </ng-container>
+  </div>
+</ng-container>

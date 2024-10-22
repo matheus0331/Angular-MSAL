@@ -1,0 +1,101 @@
+@mixin title-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $color,
+  $text-transform: none
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+  text-transform: $text-transform;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 28px 0px;
+  height: 76px;
+
+  background: var(--section-bg-color);
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    padding: 26px 0px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    padding: 56px 0px;
+    height: 164px;
+  }
+
+  .title {
+    display: flex;
+
+    .align-icons {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+    }
+
+    margin: 5px;
+
+    @include title-text(
+        var(--franke-m-font-size),
+        var(--font-weight-base),
+        21px,
+        var(--text-color),
+        uppercase
+    );
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @include title-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px,
+          var(--text-color),
+          uppercase
+      );
+    }
+
+    @media only screen and (min-width: 992px) {
+      @include title-text(
+          23px,
+          var(--font-weight-base),
+          35px,
+          var(--text-color),
+          uppercase
+      );
+      margin: 18px;
+    }
+  }
+
+  .subtitle {
+    @include title-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        16px,
+        var(--dark-grey)
+    );
+
+    @media only screen and (min-width: 992px) {
+      @include title-text(
+          var(--franke-m-font-size),
+          var(--font-weight-base),
+          21px,
+          var(--dark-grey)
+      );
+      margin: 18px;
+    }
+  }
+}
+
+.back {
+  text-align: left;
+  display: block;
+  width: 1140px;
+  margin: 12px auto;
+}

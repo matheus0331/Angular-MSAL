@@ -1,0 +1,219 @@
+{
+  "searchSupport": {
+    "placeholder": "Søk her...",
+    "results": "resultater",
+    "manualTitle": "",
+    "manualDownload": "",
+    "text": "Søk etter en Artikkelnummer, produktkode eller et produktnavn",
+    "more": "Mer",
+    "allResults": "alle resultater",
+    "manualDescription": "",
+    "resultsFor": "Viser resultater for:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal Spørsmål",
+    "message1": "Hei, jeg er Laura. Jeg er klient agent. Hvordan kan jeg hjelpe deg?",
+    "title": "Personlig assistent",
+    "message2": "Du kan velge mellom alternativ nedenfor eller spør ditt eget spørsmål.",
+    "contact": "Kontakt Franke",
+    "complaint": "Sende inn en klage"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Trenger du hjelp med produktet, eller har du spørsmål?",
+    "title": "Hei, vi er her for å hjelpe"
+  },
+  "contactForm": {
+    "contactType": "Velg kontaktmetode",
+    "files": "Last opp bilder for å støtte forespørselen",
+    "funNumber": "",
+    "request": "Beskriv forespørselen",
+    "ticketAddSucess": "billett opprettet!",
+    "ticketAddFail": "Feil ved oppretting av billett, prøv igjen!",
+    "subTitle2": "Bruk vårt kontaktskjema!",
+    "generalContactCategories": "Velg kategori",
+    "deleteFiles": "Slett",
+    "productSubCategories": "Velg underkategori",
+    "title": "Flere spørsmål?",
+    "subTitle1": "Kunne ikke finne svaret på spørsmålet ditt i vår FAQ",
+    "productCategories": "Velg produkt",
+    "orderNumber": "Ordrenummer"
+  },
+  "product": {
+    "id": "Artikkel"
+  },
+  "faq": {
+    "print": "Skriv ut denne siden",
+    "customerServicesQuestions": "Kundeservice",
+    "pageTitle": "ofte stilte spørsmål",
+    "productQuestionsTitle": "Franke Produkter",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Ordre og forsendelse"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Du kan ha opp til maksimalt 4 adresser.",
+    "updateAddress": "Oppdater adresse",
+    "editShippingAddress": "Rediger leveringsadresse",
+    "deliveryAddressTitle": "Leveringsadresse",
+    "addNewShippingAddress": "Legg til en ny leveringsadresse",
+    "addAddress": "Legg til en adresse",
+    "billingAddressTitle": "Fakturaadresse",
+    "addNewAddress": "Legg til en ny adresse",
+    "backToAddressList": "Tilbake til adresseliste",
+    "areYouSureToDeleteAddress": "Er du sikker på at du vil slette denne adressen?"
+  },
+  "addressCard": {
+    "shipTo": "Send til",
+    "setAsDefault": "Satt som standard",
+    "billTo": "Faktura til",
+    "selected": "Valgt",
+    "default": "Standard"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Etternavn",
+      "placeholder": "Etternavn"
+    },
+    "aptSuite": "Leilighet",
+    "saveAsDefault": "Lagre som standard",
+    "firstName": {
+      "label": "Fornavn",
+      "placeholder": "Fornavn"
+    },
+    "zipCode": {
+      "placeholder": "Postnummer",
+      "label": "Postnummer"
+    },
+    "address1": "Adresse 1",
+    "setAsDefault": "Sett som standard",
+    "title": "Tittel",
+    "userAddressDeleteSuccess": "Adresse slettet!",
+    "userAddressAddSuccess": "Ny adresse ble lagt til!",
+    "city": {
+      "placeholder": "By",
+      "label": "By"
+    },
+    "invalidAddress": "Ugyldig adresse",
+    "chooseAddress": "Velg adresse",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "Telefonnummer (valgfritt)"
+    },
+    "titleRequired": "Tittel er påkrevd.",
+    "state": "Fylke",
+    "address2": "Adresse 2 (valgfritt)",
+    "selectOne": "Velg en...",
+    "country": "Land",
+    "streetAddress": "Gate",
+    "userAddressUpdateSuccess": "Adresse oppdatert!"
+  },
+  "wishlist": {
+    "addToCart": "Legg i handlekurv",
+    "empty": "Ingen produkter på din ønskeliste"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Opprett en konto?",
+    "invoiceHasBeenSentByEmail": "Du vil motta din ordrebekreftelse via e-post",
+    "placedOn": "Plassert på",
+    "status": "Status",
+    "frequency": "Frekvens",
+    "orderItems": "Bestill varer",
+    "orderPlacedSuccessfully": "Ordre  vellykket",
+    "nextOrderDate": "Neste ordre dato",
+    "confirmationOfOrder": "Ordrebekreftelse:",
+    "cancelled": "Kansellert",
+    "createAccountForNext": "Opprett en konto for <{{email}}> for en raskere behandling ved ditt neste besøk.",
+    "replenishmentNumber": "Etterfylling #",
+    "orderNumber": "Ordrenummer",
+    "thankYou": "Takk for din bestilling!",
+    "active": "Aktiv"
+  },
+  "checkoutPO": {
+    "placeholder": "skriv inn referansenummer",
+    "poNumber": "Innkjøpsordrenummer",
+    "availableLabel": "Frakt adresser tilgjengelig for deg, avhenger av kostnadssted",
+    "costCenter": "Kostnadssted",
+    "noPoNumber": "Ingen"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Auto påfyll ordre",
+    "confirmThatRead": "Jeg bekrefter at jeg har lest og godtar",
+    "termsAndConditions": "Betingelser og vilkår",
+    "recurrencePeriodType_WEEKLY": "Uke (r)",
+    "poNumber": "Innkjøpsordrenummer",
+    "dayOfMonth": "En dag",
+    "every": "Hver",
+    "placeOrder": "Legg inn bestilling",
+    "scheduleReplenishmentOrder": "Tidsplan påfyll ordre",
+    "recurrencePeriodType_DAILY": "Dag (er)",
+    "repeatOnDays": "Gjenta på følgende dager",
+    "funNumber": "Artikkel {{fun}}",
+    "editShippingAddress": "Rediger leveringsadresse",
+    "startOn": "Begynn på",
+    "additionalDetailsTitle": "Tilleggsbestillingsdetaljer",
+    "deliveryAddressTitle": "Leveringsadresse",
+    "orderType_PLACE_ORDER": "Ingen (engangsordre)",
+    "invoiceAddressTitle": "Fakturaadresse",
+    "recurrencePeriodType_MONTHLY": "Måned",
+    "requestedDate": "Forespurt dato:",
+    "orderType": "Ordretype:",
+    "checkoutError": "Feil oppsto. Vennligst kontakt kundestøtte",
+    "itemsTitle": "Varer som skal leveres",
+    "additionalReference": "Tilleggsreferanse:",
+    "orderItems": "Bestill varer",
+    "quantity": "Antall: {{count}}",
+    "reference": "Tilleggsreferanse",
+    "orderNumber": "Ordrenummer:",
+    "review": "Anmeldelse",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Etterfylling ordre",
+    "deliveryDate": "Forespurt leveringsdato:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Leveringsadresse",
+    "reviewOrder": "Se ordre",
+    "paymentDetails": "Betalingsinformasjon",
+    "billingTask": "Valgt fakturaadresse",
+    "billingAddress": "Fakturaadresse",
+    "methodOfPayment": "Betalingsmetode",
+    "deliveryMode": "Leverings metode",
+    "reviewTask": "Vennligst gå gjennom bestillingen din i sammendrag",
+    "shippingTask": "Valgt leveringsadresse",
+    "invoicePayment": "Fakturabetaling"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Standard faktura adresse",
+    "enteredAddress": "Angitt adresse",
+    "selectYourInvoiceAddress": "Velg din faktura adresse",
+    "verifyYourAddress": "Bekrefte adressen din",
+    "invoiceAddress": "Faktura adresse",
+    "editAddress": "Rediger adresse",
+    "chooseAddressToUse": "Velg hvilken adresse du ønsker å bruke:",
+    "shipToThisAddress": "Levere til denne adressen",
+    "saveAddress": "Lagre adresse",
+    "addNewAddress": "Legg til en ny adresse",
+    "defaultShippingAddress": "Standard leveringsadresse",
+    "selectInvoiceAddress": "Velg denne adressen",
+    "selectYourBillingAddress": "Velg faktureringsadresse",
+    "suggestedAddress": "Foreslått adresse",
+    "billingAddress": "Fakturaadresse",
+    "selectYourShippingAddress": "Velg leveringsadresse",
+    "shippingAddress": "Leveringsadresse",
+    "ensureAccuracySuggestChange": "For å sikre leveringspresisjon, foreslår vi at endringen valgt nedenfor."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Standard Leveranse",
+    "shippingMethod": "Forsendelsesmetode",
+    "premiumDelivery": "Premium levering"
+  },
+  "checkout": {
+    "back": "Tilbake",
+    "invalid": {
+      "accountType": "Kontoen din ikke tillater deg å betale her."
+    },
+    "backToCart": "Tilbake til handlekurv",
+    "continue": "Fortsette"
+  }
+}

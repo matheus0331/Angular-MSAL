@@ -1,0 +1,168 @@
+/**
+  *
+  * These customizations can be implemented in each component's scss file, and it's probably
+  * the best approach beacause it will be better organized
+  *
+  * For now they are here just to give an overall different look and feel
+  *
+ **/
+
+@import '_typography.scss';
+
+// CheckBoxes
+@mixin checkbox {
+  &:hover {
+    text-decoration: none;
+
+    &:not(.selected)::before {
+      border-color: var(--accent-color);
+      background: var(--checkbox-shadow);
+      box-shadow: 0 0 0 3px var(--checkbox-shadow);
+    }
+
+    &::before {
+      border-color: var(--accent-color);
+      background: var(--accent-color);
+      box-shadow: 0 0 0 3px var(--checkbox-shadow);
+
+      content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 -4 24 24" fill="none" stroke="' + var(
+          --checkbox-shadow
+        ) + '" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>');
+
+      @media only screen and (min-width: 768px) {
+        content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 -4 24 24" fill="none" stroke="' + var(
+            --checkbox-shadow
+          ) + '" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>');
+      }
+    }
+  }
+
+  &::before {
+    content: '';
+    color: transparent;
+    flex-shrink: 0;
+    font-size: 12px;
+    font-weight: bold;
+    width: 16px;
+    height: 16px;
+    border-radius: 0.15rem;
+    border: solid 2px var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 13px 3px 0px;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 16px;
+
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  &.selected::before {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 -4 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>');
+
+    @media only screen and (min-width: 768px) {
+      content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 -4 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>');
+    }
+  }
+}
+
+@mixin switch {
+  $toggle-background-color-on: var(--element-color);
+  $toggle-background-color-off: var(--grey);
+  $toggle-control-color: var(--white);
+  $toggle-width: 30px;
+  $toggle-height: 20px;
+  $toggle-gutter: 2px;
+  $toggle-radius: 50%;
+  $toggle-control-speed: 0.1s;
+  $toggle-control-ease: ease-in;
+
+  // These are our computed variables
+  // change at your own risk.
+  $toggle-radius: calc($toggle-height / 2);
+  $toggle-control-size: $toggle-height - ($toggle-gutter * 2);
+  .toggle-control {
+    display: block;
+    position: relative;
+    padding-left: $toggle-width + 10;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    input:checked ~ .control {
+      background-color: $toggle-background-color-on;
+
+      &:after {
+        left: $toggle-width - $toggle-control-size - $toggle-gutter;
+      }
+    }
+
+    .control {
+      position: absolute;
+      top: 3px;
+      left: 0;
+      height: $toggle-height;
+      width: $toggle-width;
+      border-radius: $toggle-radius;
+      background-color: $toggle-background-color-off;
+      transition: background-color $toggle-control-speed $toggle-control-ease;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: $toggle-gutter;
+        top: $toggle-gutter;
+        width: $toggle-control-size;
+        height: $toggle-control-size;
+        border-radius: $toggle-radius;
+        background: $toggle-control-color;
+        transition: left $toggle-control-speed $toggle-control-ease;
+      }
+    }
+  }
+}
+
+// Background color for the body
+body {
+  background-color: var(--white);
+}
+
+// Default color for text
+a,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--text-color);
+
+  &:hover {
+    color: var(--text-color);
+  }
+}
+
+input,
+textarea {
+  color: var(--text-color);
+}
+
+.price {
+  color: var(--element-color);
+}
+
+// Global class for buttons (must remove .btn-primary in the future)

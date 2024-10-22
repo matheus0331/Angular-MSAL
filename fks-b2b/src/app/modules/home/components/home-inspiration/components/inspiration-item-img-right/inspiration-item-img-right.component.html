@@ -1,0 +1,57 @@
+<ng-container *ngIf="isDesktop$ | async; else isTablet">
+  <div class="child-wrapper">
+    <div class="child-details">
+      <div [innerHTML]="inspirationItem?.title" class="child-title"></div>
+      <div
+        [innerHTML]="inspirationItem?.description"
+        class="child-description"
+      ></div>
+      <div class="child-button">
+        <cx-generic-link
+          [url]="
+            inspirationItem?.link?.localizedUrl
+              ? inspirationItem?.link?.localizedUrl
+              : inspirationItem?.link?.url
+          "
+        >
+          <div
+            [innerHTML]="inspirationItem?.link?.linkName"
+            class="btn explore-btn"
+          ></div>
+        </cx-generic-link>
+      </div>
+    </div>
+    <div class="child-img">
+      <img [src]="imgSource()"/>
+    </div>
+  </div>
+</ng-container>
+
+<ng-template #isTablet>
+  <div class="child-wrapper">
+    <div class="child-img">
+      <img [src]="imgSource()"/>
+    </div>
+    <div class="child-details">
+      <div [innerHTML]="inspirationItem?.title" class="child-title"></div>
+      <div
+        [innerHTML]="inspirationItem?.description"
+        class="child-description"
+      ></div>
+      <div class="child-button">
+        <cx-generic-link
+          [url]="
+            inspirationItem?.link?.localizedUrl
+              ? inspirationItem?.link?.localizedUrl
+              : inspirationItem?.link?.url
+          "
+        >
+          <div
+            [innerHTML]="inspirationItem?.link?.linkName"
+            class="btn explore-btn"
+          ></div>
+        </cx-generic-link>
+      </div>
+    </div>
+  </div>
+</ng-template>

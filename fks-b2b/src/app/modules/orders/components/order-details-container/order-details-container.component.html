@@ -1,0 +1,43 @@
+<div class="container">
+  <div [routerLink]="'/my-account/orders'" class="return-to-orders">
+    <cx-icon
+      class="{{ (isDesktop$ | async) ? 'medium' : 'small' }}"
+      type="ARROW_LEFT"
+    ></cx-icon>
+    <div class="back-text">
+      {{ 'orderDetails.returnToOrdersButton' | cxTranslate }}
+    </div>
+  </div>
+  <nav #nav="ngbNav" [destroyOnHide]="false" class="nav-tabs container" ngbNav>
+    <ng-container ngbNavItem>
+      <a ngbNavLink>
+        {{
+        'orderDetails.tabs.order'
+          | cxTranslate: {orderNumber: orderNumber$ | async}
+        }}
+      </a>
+      <ng-template ngbNavContent>
+        <app-order-details></app-order-details>
+      </ng-template>
+    </ng-container>
+    <ng-container ngbNavItem>
+      <a ngbNavLink>
+        {{ 'orderDetails.tabs.deliveries' | cxTranslate }}
+      </a>
+      <ng-template ngbNavContent>
+        <app-order-details-deliveries></app-order-details-deliveries>
+      </ng-template>
+    </ng-container>
+
+    <ng-container ngbNavItem>
+      <a ngbNavLink>
+        {{ 'orderDetails.invoices' | cxTranslate }}
+      </a>
+      <ng-template ngbNavContent>
+        <app-order-details-invoices></app-order-details-invoices>
+      </ng-template>
+    </ng-container>
+  </nav>
+
+  <div [ngbNavOutlet]="nav" class="mt-2"></div>
+</div>

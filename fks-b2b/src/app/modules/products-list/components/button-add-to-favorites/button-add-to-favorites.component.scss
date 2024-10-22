@@ -1,0 +1,26 @@
+.button-wrapper {
+  width: 100%;
+
+  .item-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+    border: none;
+    height: 43.62px;
+    width: 100%;
+
+    .is-fav {
+      color: var(--brand-color);
+    }
+
+    &:hover {
+      .is-fav {
+        color: var(--white);
+      }
+
+      color: var(--white);
+      background-color: var(--brand-color);
+    }
+  }
+}

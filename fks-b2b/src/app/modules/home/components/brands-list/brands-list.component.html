@@ -1,0 +1,11 @@
+<div class="brands-container">
+  <h3>{{ 'brands.title' | cxTranslate }}</h3>
+  <p>
+    {{ 'brands.description' | cxTranslate }}
+  </p>
+  <div class="logos">
+    <ng-container *ngFor="let brand of brands$ | async">
+      <img [src]="apiEndpoint + brand?.logo?.url" class="brand-logo"/>
+    </ng-container>
+  </div>
+</div>

@@ -1,0 +1,88 @@
+<div *ngIf="visible" class="search-results">
+  <div *ngIf="results$ | async as result" class="results">
+    <div
+      *ngIf="result.message"
+      [innerHTML]="result.message"
+      class="message"
+    ></div>
+    <div class="row">
+      <div *ngIf="result.products" class="products">
+        <div class="all-search-results">
+          <div>
+            <span class="results-number">{{ result.products.length }}</span>
+            <span>{{
+              result.products.length >= 100
+                ? '+ ' + ('searchSupport.results' | cxTranslate)
+                : ' ' + ('searchSupport.results' | cxTranslate)
+              }}</span>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            *ngFor="let product of result.products | slice: 0:4"
+            class="column"
+          >
+            <div class="card">
+              <a
+                (blur)="close($event)"
+                (click)="emitProduct(product); closeResults()"
+                (keydown.arrowdown)="focusNextChild($event)"
+                (keydown.arrowup)="focusPreviousChild($event)"
+                (keydown.enter)="close($event, true)"
+                (keydown.escape)="close($event, true)"
+                (mousedown)="close($event, true)"
+                [class.has-media]="config.displayProductImages"
+                class="image"
+              >
+                <cx-media
+                  *ngIf="config.displayProductImages"
+                  [alt]="product.summary"
+                  [container]="
+                    product.images?.PRIMARY?.thumbnail
+                      ? product.images?.PRIMARY?.thumbnail
+                      : product.images?.PRIMARY
+                  "
+                ></cx-media>
+                <img
+                  *ngIf="!product.images"
+                  class="product-img-placeholder"
+                  src="{{ productImgPlaceholder }}"
+                />
+              </a>
+              <div class="product-info">
+                <div [innerHTML]="product.nameHtml" class="name"></div>
+                <div class="bottom-info">
+                  <div class="price">{{ product.price?.formattedValue }}</div>
+                  <div class="fun-number">
+                    {{
+                    'productList.articleNumber'
+                      | cxTranslate: {fun: product.code}
+                    }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="result.products" class="all-results-section">
+        <div class="all-results">
+          {{ 'searchSupport.more' | cxTranslate }}
+        </div>
+        <div class="column">
+          <div
+            *ngIf="result.typoSuggestions && result.products.length > 0"
+            class="row"
+          >
+            <span class="results-for"
+            >{{ 'searchSupport.resultsFor' | cxTranslate }}
+              <span class="typo-suggestion">
+                {{ result.typoSuggestions }}
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,60 @@
+@import './../../../../assets/scss/_theme';
+
+.container {
+  max-width: 600px;
+
+  .user-profile,
+  .notifications {
+    margin-bottom: 20px;
+
+    .label-content {
+      color: var(--label-color);
+      font-size: var(--franke-s-font-size);
+      line-height: 21px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+
+      @media only screen and (min-width: 992px) {
+        font-size: var(--franke-button-font-size);
+      }
+    }
+
+    .neuter {
+      background-color: var(--background-neuter-color);
+      color: var(--grey);
+      font-size: var(--franke-button-font-size);
+      line-height: 24px;
+
+      @media only screen and (min-width: 992px) {
+        font-size: var(--franke-font-size-base);
+      }
+    }
+  }
+
+  .notifications {
+    margin-top: 50px;
+
+    .notifications-toggle {
+      @include switch;
+      color: var(--text-color);
+      font-size: var(--franke-m-font-size);
+      line-height: 24px;
+
+      @media only screen and (min-width: 992px) {
+        font-size: var(--franke-font-size-base);
+      }
+
+      display: flex;
+      justify-content: space-between;
+
+      .toggle-control {
+        padding-left: 30px;
+        margin-left: 10px;
+
+        .control {
+          top: 1px;
+        }
+      }
+    }
+  }
+}

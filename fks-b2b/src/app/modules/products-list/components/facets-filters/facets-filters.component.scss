@@ -1,0 +1,23 @@
+.facets {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  margin: 14px 14px 200px 0px;
+  padding-top: 8px;
+}
+
+.close {
+  margin-right: 4px;
+}
+
+.inner {
+  transform: translate3d(0, 0, 0);
+  width: 95vw;
+  height: 95vh;
+  padding: 16px;
+  background-color: var(--cx-color-background);
+  transition: transform 0.3s ease-in-out;
+  max-height: 100vh;
+  overflow: scroll;
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    padding: 32px;
+  }
+}

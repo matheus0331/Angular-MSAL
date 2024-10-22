@@ -1,0 +1,163 @@
+@import '../../../../assets/scss/typography';
+
+.user-panel.container {
+  @media only screen and (min-width: 768px) {
+    padding: 0;
+  }
+}
+
+.user-panel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    margin-top: -10px;
+    margin-bottom: 49px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    justify-content: flex-end;
+    margin-bottom: 0;
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1.188rem;
+
+    @media only screen and (max-width: 991px) {
+      width: 100%;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      padding-right: 1.875rem;
+    }
+
+    @media only screen and (min-width: 992px) {
+      padding: 0;
+      cursor: pointer;
+    }
+
+    p {
+      margin: 0;
+      @media only screen and (max-width: 991px) {
+        font-size: var(--franke-m-font-size);
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 21px;
+      }
+    }
+  }
+
+  .notification-center {
+    display: flex;
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      margin-right: 0.8rem;
+    }
+  }
+}
+
+.user-panel-icon {
+  margin-bottom: 2px;
+
+  @media only screen and (min-width: 992px) {
+    margin: 0 0 6px 26px;
+  }
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: var(--accent-color);
+  z-index: 10;
+
+  @media only screen and (max-width: 991px) {
+    overflow-y: scroll;
+  }
+
+  @media only screen and (min-width: 992px) {
+    position: absolute;
+    width: 279px;
+    height: auto;
+    top: unset;
+    background: var(--white);
+    box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.035),
+    0px 7px 5px rgba(0, 0, 0, 0.028), 0px 3px 2px rgba(0, 0, 0, 0.012);
+    padding: 36px 26px;
+  }
+
+  .top-part {
+    height: 132px;
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      height: 162px;
+    }
+    background-color: var(--white);
+
+    .close-menu {
+      color: var(--accent-color);
+      display: flex;
+      padding: 12px 12px;
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        padding: 22px 24px;
+      }
+    }
+  }
+
+  .menu-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+
+    padding: 0 1.188rem;
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      padding: 0 1.875rem;
+    }
+
+    @media only screen and (max-width: 991px) {
+      justify-content: space-between;
+      border-color: var(--nav-nodes-border);
+      height: 61px;
+    }
+
+    @media only screen and (min-width: 992px) {
+      padding: 30px 5px;
+      &:first-of-type {
+        padding: 0 5px 30px 5px;
+      }
+
+      &:last-of-type {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+    }
+
+    a {
+      @media only screen and (max-width: 991px) {
+        color: var(--white);
+      }
+      display: flex;
+      text-decoration: none;
+
+      p {
+        @media only screen and (max-width: 991px) {
+          color: var(--white);
+          font-size: var(--franke-m-font-size);
+          font-weight: var(--font-weight-base);
+        }
+        margin: 0;
+      }
+
+      cx-icon {
+        margin-right: 15px;
+      }
+    }
+
+    .chevron-icon {
+      color: var(--white);
+    }
+  }
+}

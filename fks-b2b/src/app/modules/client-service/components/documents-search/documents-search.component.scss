@@ -1,0 +1,502 @@
+@mixin search-text($font-size, $font-weight, $line-height, $color) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+}
+
+.search-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--section-bg-color);
+  padding: 24px 15px;
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    padding: 24px 64px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    padding: 32px 0px;
+  }
+
+  .search-title {
+    @include search-text(
+        var(--franke-m-font-size),
+        var(--font-weight-base),
+        21px,
+        var(--text-color)
+    );
+    margin-bottom: 26px;
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @include search-text(
+          var(--franke-small-font-size),
+          var(--font-weight-base),
+          25px,
+          var(--text-color)
+      );
+      margin-bottom: 16px;
+    }
+
+    @media only screen and (min-width: 992px) {
+      @include search-text(
+          var(--franke-h4-font-size),
+          var(--font-weight-base),
+          37px,
+          var(--text-color)
+      );
+      margin-bottom: 18px;
+    }
+  }
+
+  .search-description {
+    @include search-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px,
+        var(--text-color)
+    );
+    margin-bottom: 26px;
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      margin-bottom: 16px;
+    }
+
+    @media only screen and (min-width: 992px) {
+      @include search-text(
+          var(--franke-m-font-size),
+          var(--font-weight-base),
+          21px,
+          var(--text-color)
+      );
+      margin-bottom: 18px;
+    }
+  }
+
+  .search-box-wrapper {
+    max-width: 800px;
+    width: 100%;
+  }
+
+  .active {
+    z-index: 15;
+  }
+}
+
+app-franke-search-box ::ng-deep .search-bar {
+  max-width: 800px;
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: var(--white);
+  border: 1px solid var(--grey);
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    height: 53px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    height: 60px;
+  }
+
+  .search-icon-wrapper {
+    color: var(--text-color);
+
+    margin-left: 21px;
+    margin-right: 16px;
+
+    @media only screen and (min-width: 992px) {
+      margin-left: 24px;
+      margin-right: 10px;
+    }
+  }
+
+  .searchbox {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  label {
+    width: 100%;
+
+    input {
+      border: none;
+      width: calc(100% - 100px);
+      @include search-text(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          15px,
+          var(--text-color)
+      );
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include search-text(
+            var(--franke-m-font-size),
+            var(--font-weight-base),
+            18px,
+            var(--text-color)
+        );
+      }
+
+      @media only screen and (min-width: 992px) {
+        @include search-text(
+            var(--franke-small-font-size),
+            var(--font-weight-base),
+            25px,
+            var(--text-color)
+        );
+      }
+
+      &::placeholder {
+        @include search-text(10px, var(--font-weight-base), 15px, var(--grey));
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          @include search-text(
+              var(--franke-s-font-size),
+              var(--font-weight-base),
+              18px,
+              var(--grey)
+          );
+        }
+
+        @media only screen and (min-width: 992px) {
+          @include search-text(
+              var(--franke-small-font-size),
+              var(--font-weight-base),
+              25px,
+              var(--grey)
+          );
+        }
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .toggle-search {
+    margin-right: 24px;
+    right: 0;
+    position: absolute;
+
+    .cx-icon {
+      cursor: pointer;
+    }
+  }
+}
+
+.container {
+  color: var(--text-color);
+
+  .product-fun-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 27px 0 2px;
+    @include search-text(
+        var(--franke-m-font-size),
+        var(--font-weight-base),
+        150%,
+        var(--text-color)
+    );
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      margin: 64px 0 29px;
+      @include search-text(
+          var(--franke-h5-font-size),
+          var(--font-weight-base),
+          150%,
+          var(--text-color)
+      );
+    }
+
+    @media only screen and (min-width: 992px) {
+      margin: 64px 0 29px;
+
+      @include search-text(
+          var(--franke-h4-font-size),
+          var(--font-weight-base),
+          35px,
+          var(--text-color)
+      );
+    }
+  }
+}
+
+:host ::ng-deep {
+  .btn {
+    width: 100%;
+    border: none;
+    background-color: var(--white);
+    transition: none;
+
+    &:focus {
+      box-shadow: none;
+      text-decoration: none;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.accordion-button {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+
+  .manual-title {
+    @include search-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px,
+        var(--text-color)
+    );
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @include search-text(
+          var(--franke-m-font-size),
+          var(--font-weight-base),
+          21px,
+          var(--text-color)
+      );
+    }
+
+    @media only screen and (min-width: 992px) {
+      @include search-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px,
+          var(--text-color)
+      );
+    }
+  }
+
+  &:focus {
+    text-decoration: none;
+    outline: none;
+  }
+
+  .indicator {
+    color: var(--brand-color);
+  }
+}
+
+.manual-description {
+  @include search-text(
+      var(--franke-s-font-size),
+      var(--font-weight-base),
+      18px,
+      var(--text-color)
+  );
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    @include search-text(
+        var(--franke-m-font-size),
+        var(--font-weight-base),
+        21px,
+        var(--text-color)
+    );
+  }
+
+  @media only screen and (min-width: 992px) {
+    margin: 0 40px;
+    @include search-text(
+        var(--franke-font-size-base),
+        var(--font-weight-base),
+        24px,
+        var(--text-color)
+    );
+  }
+}
+
+.download-link {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  @media only screen and (min-width: 992px) {
+    margin: 15px 40px 0;
+  }
+
+  a {
+    margin-bottom: 20px;
+
+    @include search-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px,
+        var(--grey)
+    );
+
+    cx-icon {
+      &.doc-icon {
+        margin-right: 9px;
+      }
+
+      &.downl-icon {
+        margin-left: 7px;
+      }
+    }
+
+    @media only screen and (min-width: 992px) {
+      @include search-text(
+          var(--franke-m-font-size),
+          var(--font-weight-base),
+          21px,
+          var(--grey)
+      );
+    }
+  }
+}
+
+:host ::ng-deep .btn {
+  width: 100%;
+  border: none;
+  background-color: var(--white);
+
+  &:focus {
+    box-shadow: none;
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.container {
+  font-size: var(--franke-s-font-size);
+
+  @media only screen and (max-width: 991px) {
+    padding: 0;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    font-size: var(--franke-m-font-size);
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: var(--franke-font-size-base);
+  }
+}
+
+.no-details {
+  @media only screen and (max-width: 991px) {
+    font-size: var(--franke-m-font-size);
+  }
+}
+
+.accordion-button {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  font-size: var(--franke-s-font-size);
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    font-size: var(--franke-m-font-size);
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: var(--franke-font-size-base);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  .indicator {
+    color: var(--brand-color);
+  }
+}
+
+.product-downloads {
+  width: 100%;
+
+  tr {
+    border-top: 1px solid var(--wrapper-border-color);
+    border-bottom: 1px solid var(--wrapper-border-color);
+  }
+
+  .feature-name {
+    width: 50%;
+    background-color: #f0f0f0;
+    padding: 8px 45px;
+  }
+
+  .feature-value {
+    width: 50%;
+    padding: 8px 0;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  .performance-header {
+    background-color: #f0f0f0;
+    padding: 8px 45px;
+  }
+
+  .performance-value {
+    padding: 8px 45px;
+  }
+}
+
+.product-downloads {
+  .name {
+    @media only screen and (max-width: 767px) {
+      padding: 15px;
+    }
+  }
+
+  .value {
+    @media only screen and (max-width: 767px) {
+      padding: 15px;
+      ul {
+        padding-inline-start: 0px;
+      }
+    }
+  }
+}
+
+.performance-table-wrapper {
+  @media only screen and (max-width: 991px) {
+    overflow-x: scroll;
+  }
+
+  .product-performance-attributes {
+    @media only screen and (max-width: 991px) {
+      width: 900px;
+    }
+  }
+}
+
+.symbol {
+  display: flex;
+
+  .symbol-container {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 20px;
+
+    .symbol-content {
+      display: inline-flex;
+      align-items: center;
+
+      .symbol-img {
+        margin-right: 10px;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

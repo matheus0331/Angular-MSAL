@@ -1,0 +1,33 @@
+<ng-container *ngFor="let child of node?.children; index as i">
+  <div class="footer-column-{{ i + 1 }}">
+    <div class="wrapper">
+      <ng-container *ngFor="let child of child?.children">
+        <div class="footer-link">
+          <div *ngIf="i === 1">
+            <div class="social-icons" *ngFor="let socialIcon of socialIcons">
+              <cx-icon
+                *ngIf="(child?.title | uppercase) == socialIcon"
+                type="{{ socialIcon }}"
+              ></cx-icon>
+            </div>
+          </div>
+          <cx-generic-link
+            [url]="child?.localizedUrl ? child?.localizedUrl : child?.url"
+            [target]="
+              (
+                child?.localizedUrl
+                  ? child?.localizedUrl?.startsWith('http')
+                  : child?.url?.startsWith('http')
+              )
+                ? true
+                : false
+            "
+            class="child"
+          >
+            <div [innerHTML]="child?.title"></div>
+          </cx-generic-link>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</ng-container>

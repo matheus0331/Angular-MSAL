@@ -1,0 +1,125 @@
+@import '../../../../../assets/scss/typography';
+@import 'bootstrap/scss/bootstrap';
+
+@mixin order-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $color,
+  $text-transform: none
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color !important;
+  text-transform: $text-transform;
+}
+
+.container {
+  @media only screen and (min-width: 768px) {
+    padding: 0;
+  }
+
+  @media only screen and (min-width: 992px) {
+    max-width: 1220px;
+  }
+}
+
+.nav-tabs.container {
+  padding-left: 15px;
+
+  @media only screen and (min-width: 768px) {
+    padding: 0;
+  }
+  @media only screen and (min-width: 992px) {
+    max-width: 1220px;
+  }
+}
+
+.nav-tabs {
+  margin-bottom: 26px;
+  align-items: center;
+
+  @media only screen and (max-width: 991px) {
+    border-bottom: none;
+  }
+
+  @media only screen and (min-width: 992px) {
+    margin-bottom: 40px;
+  }
+
+  .nav-link {
+    border: none;
+    padding: 0 0 5px !important;
+    margin-right: 14px;
+    letter-spacing: 0.01em;
+
+    @include order-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px,
+        var(--text-color),
+        uppercase
+    );
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      padding: 10px 0 !important;
+    }
+    @media only screen and (min-width: 768px) {
+      margin-right: 24px;
+    }
+    @media only screen and (min-width: 992px) {
+      padding: 10px 0 !important;
+
+      @include order-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px,
+          var(--text-color),
+          uppercase
+      );
+    }
+  }
+
+  .nav-link.active {
+    border-bottom: 2px solid !important;
+    border-color: var(--brand-color) !important;
+    @media only screen and (min-width: 992px) {
+      border-bottom: 4px solid !important;
+      border-color: var(--brand-color) !important;
+    }
+  }
+}
+
+.return-to-orders {
+  display: flex;
+  margin-bottom: 28px;
+  align-items: center;
+  @media only screen and (min-width: 992px) {
+    margin-bottom: 68px;
+  }
+  cursor: pointer;
+
+  .back-text {
+    margin-left: 10px;
+    @include order-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px,
+        var(--text-color),
+        uppercase
+    );
+    @media only screen and (min-width: 992px) {
+      @include order-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px,
+          var(--text-color),
+          uppercase
+      );
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

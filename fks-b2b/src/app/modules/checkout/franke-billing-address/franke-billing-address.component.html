@@ -1,0 +1,30 @@
+<ng-container *ngIf="cards$ | async as cards">
+  <div class="container">
+    <ng-container *ngIf="!forceLoader && (isLoading$ | async) === false; else loading">
+      <ng-container *ngIf="cards?.length">
+        <div class="cx-checkout-body row">
+          <div *ngFor="let card of cards; let i = index" class="cx-shipping-address-card col-md-6">
+            <div class="cx-shipping-address-card-inner">
+              <app-card
+                (sendCard)="selectAddress(card.address)"
+                [border]="true"
+                [content]="card.card"
+                [fitToContainer]="true">
+              </app-card>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </ng-container>
+  </div>
+
+  <ng-template #loading>
+    <div class="cx-spinner">
+      <cx-spinner></cx-spinner>
+    </div>
+  </ng-template>
+</ng-container>
+
+<div class="SideContent">
+  <app-cart-navigation-buttons></app-cart-navigation-buttons>
+</div>

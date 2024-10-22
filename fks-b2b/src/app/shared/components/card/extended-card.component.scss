@@ -1,0 +1,126 @@
+@import '../../../../assets/scss/typography.scss';
+
+.cx-card {
+  height: 256px;
+  left: 118px;
+  top: 819px;
+  display: flex;
+  flex-direction: column;
+
+  background: var(--white);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12),
+    0px 12px 42px -4px rgba(24, 39, 75, 0.12);
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .card-header {
+    height: 45px;
+    background-color: transparent;
+    border-bottom: none;
+    color: var(--element-color);
+
+    .cx-card-delete-msg {
+      font-size: var(--franke-s-font-size);
+
+      @media only screen and (min-width: 768px) {
+        font-size: var(--franke-button-font-size);
+      }
+
+      @media only screen and (min-width: 992px) {
+        font-size: var(--franke-font-size-base);
+      }
+    }
+
+    .header-icon {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--text-color);
+    font-size: var(--franke-s-font-size);
+
+    @media only screen and (min-width: 768px) {
+      font-size: var(--franke-button-font-size);
+    }
+
+    @media only screen and (min-width: 992px) {
+      font-size: var(--franke-font-size-base);
+    }
+
+    .cx-card-actions {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+
+      a {
+        color: var(--grey);
+        margin-left: 20px;
+
+        font-size: var(--franke-s-font-size);
+
+        .test svg {
+          height: 9px;
+          width: 9px;
+        }
+
+        @media only screen and (min-width: 768px) {
+          font-size: var(--franke-button-font-size);
+          margin-left: 30px;
+        }
+
+        @media only screen and (min-width: 992px) {
+          font-size: var(--franke-font-size-base);
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+}
+
+.cx-card-inactive {
+  height: 256px;
+  left: 118px;
+  top: 819px;
+
+  background: var(--background-neuter-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12),
+    0px 12px 42px -4px rgba(24, 39, 75, 0.12);
+
+  .card-header {
+    height: 45px;
+    background-color: transparent;
+    border-bottom: none;
+    color: var(--element-color);
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .card-body {
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: var(--franke-s-font-size);
+
+    @media only screen and (min-width: 768px) {
+      font-size: var(--franke-button-font-size);
+    }
+
+    @media only screen and (min-width: 992px) {
+      font-size: var(--franke-font-size-base);
+    }
+  }
+}

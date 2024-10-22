@@ -1,0 +1,116 @@
+<div *ngIf="model$ | async as model; else loadingProducts">
+  <div *ngIf="isDesktop$ | async; else nonDesktop" class="listing-page">
+    <div class="controls">
+      <div class="container">
+        <div class="filter-controls">
+          <div (click)="hideFilters()" class="hide-filters">
+            <div class="slider-icon">
+              <cx-icon class="slider-icon small" type="SLIDERS"></cx-icon>
+            </div>
+            <span>{{ 'productList.filters' | cxTranslate }}</span>
+          </div>
+          <div
+            *ngIf="(facetList$ | async)?.activeFacets.length > 0"
+            class="remove-filters"
+          >
+            <div *ngIf="isCategoryPage$ | async; else outletPage">
+              <span
+                [queryParams]="queryParamsForLink$ | async"
+                routerLink="./"
+                queryParamsHandling="merge-duplicates"
+              >{{ 'productList.clearFilters' | cxTranslate }}</span>
+            </div>
+            <ng-template #outletPage>
+              <div *ngIf="isOutletPage$ | async; else bundlePage">
+                <span
+                  [queryParams]="getQueryParamsOutlet() | async"
+                  routerLink="./"
+                >{{ 'productList.clearFilters' | cxTranslate }}</span
+                >
+              </div>
+              <ng-template #bundlePage>
+                <div *ngIf="isBundlePage$ | async; else searchPage">
+                  <span
+                    [queryParams]="getQueryParamsBundles() | async"
+                    routerLink="./"
+                  >{{ 'productList.clearFilters' | cxTranslate }}</span
+                  >
+                </div>
+                <ng-template #searchPage>
+                  <span routerLink="./">{{
+                    'productList.clearFilters' | cxTranslate
+                    }}</span>
+                </ng-template>
+              </ng-template>
+            </ng-template>
+          </div>
+        </div>
+        <div class="page-controls">
+          <span *ngIf="model$ | async as model" class="results"
+          >{{ model.pagination.totalResults }}
+            {{ 'productList.results' | cxTranslate }}</span
+          >
+          <app-button-change-view-mode
+            (modeChange)="productsListComponent.setViewMode($event)"
+            [mode]="productsListComponent.viewMode$ | async"
+            class="view-mode"
+          ></app-button-change-view-mode>
+          <app-button-sort-products
+            (sortListEvent)="productsListComponent.sortList($event)"
+            *ngIf="model$ | async as model"
+            [selectedOption]="model.pagination.sort"
+            [sortOptions]="model.sorts"
+            class="sort"
+            placeholder="{{ 'productList.sortByRelevance' | cxTranslate }}"
+          ></app-button-sort-products>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="isCategoryPage$ | async" class="quick-filters container">
+      <app-quick-filters></app-quick-filters>
+    </div>
+    <div class="container content">
+      <app-products-list-filters class="filters"></app-products-list-filters>
+      <app-products-list
+        [model$]="model$"
+        [viewMode$]="productsListComponent.viewMode$"
+        class="product-list"
+      ></app-products-list>
+    </div>
+  </div>
+
+  <ng-template #nonDesktop>
+    <div class="listing-page">
+      <div class="controls">
+        <div class="container">
+          <app-products-list-filters
+            class="filters"
+          ></app-products-list-filters>
+
+          <div class="page-controls">
+            <app-button-sort-products
+              (sortListEvent)="productsListComponent.sortList($event)"
+              *ngIf="model$ | async as model"
+              [selectedOption]="model.pagination.sort"
+              [sortOptions]="model.sorts"
+              class="sort"
+              placeholder="{{ 'productList.sortByRelevance' | cxTranslate }}"
+            ></app-button-sort-products>
+          </div>
+        </div>
+      </div>
+      <div class="container content">
+        <app-products-list
+          [model$]="model$"
+          [viewMode$]="productsListComponent.viewMode$"
+          class="product-list"
+        ></app-products-list>
+      </div>
+    </div>
+  </ng-template>
+</div>
+<ng-template #loadingProducts>
+  <div class="cx-spinner">
+    <cx-spinner></cx-spinner>
+  </div>
+</ng-template>

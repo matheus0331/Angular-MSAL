@@ -1,0 +1,110 @@
+/**
+  *
+  * This file has spartacus global variables that can be overriden
+  *
+ **/
+
+@import '_fonts.scss';
+
+$font-family-base: Antarctica, sans-serif;
+
+// change theme-colors here
+$primary: #1f7bc0 !default;
+$primary-accent: #055f9f !default;
+$secondary: #6c7079 !default;
+$success: #38871f !default;
+$success-accent: #f0fbe4 !default;
+$danger: #db0002 !default;
+$danger-accent: #fff1f1 !default;
+$warning: #ffc107 !default;
+$warning-accent: #fff5df !default;
+$info: #17a2b8 !default;
+$info-accent: #deeffe !default;
+$light: #ffffff !default;
+$medium: #d3d6db !default;
+$dark: #6c7079 !default;
+$background: #ffffff !default;
+$background-dark: #ffffff !default;
+$inverse: #ffffff !default;
+$text: #14293a !default;
+$transparent: transparent !default;
+$visual-focus: #6d9df7 !default;
+$background-focus: rgba(80, 176, 244, 0.1);
+$border-focus: rgba(166, 204, 232, 0.6);
+
+$font-weight-lighter: 300;
+// $font-weight-light: 400;
+$font-weight-base: normal;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 300;
+
+
+$hamburger-layer-color: var(--accent-color);
+
+:root {
+  /* Colors */
+  --white: #ffffff;
+  --black: #000000;
+  --green: #3c5d5f;
+  --red: #e73743;
+  --grey: #898b8d;
+  --dark-grey: #53565a;
+  --light-grey: #b2b1b1;
+  --lighter-grey: #d9d8d7;
+  --blue: #2762a1;
+  --champagne: #f0e1e1;
+
+  /* Theme Colors */
+  --brand-color: var(--red);
+  --accent-color: var(--black);
+  --hover-color: var(--black);
+  --element-color: var(--green);
+  --text-color: var(--black);
+  --footer-color: var(--black);
+  --declaimer-color: var(--champagne);
+
+  --section-bg-color: var(--lighter-grey);
+  --secondary-section-color: var(--lighter-grey);
+  --background-neuter-color: var(--lighter-grey);
+  --label-color: var(--dark-grey);
+  --nav-nodes-border: var(--dark-grey);
+  --success-color: #029e11;
+  --warning-color: #ff9901;
+  --danger-color: var(--red);
+
+  /* Borders */
+  --header-border-color: var(--lighter-grey);
+  --wrapper-border-color: var(--lighter-grey);
+  --input-border: var(--grey);
+  --hover-border: var(--lighter-grey);
+  --card-border: var(--light-grey);
+  /* Shadows */
+  --checkbox-shadow: var(--lighter-grey);
+
+  /* Fonts */
+  --franke-font-size-base: 1rem; //16px
+  --franke-h1-font-size: 3.815rem; //61.04px
+  --franke-h2-font-size: 3.05rem; //48.83px
+  --franke-h3-font-size: 2.441rem; //39.06px
+  --franke-h4-font-size: 1.563rem; //25px
+  --franke-h5-font-size: 1.25rem; //20px
+
+  --franke-small-font-size: 1.0625rem; //17px
+  --franke-button-font-size: 0.875rem; //14px
+  --franke-nav-nodes-font-size: 0.9375rem; //15px
+
+  --franke-extra-small-tablet-font-size: 0.625rem; //10px
+  --franke-banner-card-title: 2rem; //32px
+
+  --franke-m-font-size: 0.875rem; //14px
+  --franke-s-font-size: 0.75rem; //12px
+  --franke-xs-font-size: 0.625rem; //10px
+
+  /* Font weights */
+  --font-weight-lighter: #{$font-weight-lighter};
+  --font-weight-light: #{$font-weight-base};
+  --font-weight-base: #{$font-weight-base};
+  --font-weight-semi-bold: #{$font-weight-semi-bold};
+  --font-weight-bold: #{$font-weight-base};
+  --cx-font-weight-bold: 400 !important;
+}

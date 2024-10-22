@@ -1,0 +1,8 @@
+import '@spartacus/storefront';
+
+
+export const enum FRANKE_LAUNCH_CALLER {
+  ALTERNATIVE_PRODUCTS = 'ALTERNATIVE_PRODUCTS',
+  REPLACE_PRODUCTS = 'REPLACE_PRODUCTS',
+}
+

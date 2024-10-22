@@ -1,0 +1,88 @@
+@mixin text-style($font-size, $font-weight, $line-height) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+.carousel-title-without-btn {
+  margin-bottom: 24px;
+  border-top: 1px solid var(--wrapper-border-color);
+  padding-top: 20px;
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    margin-bottom: 38px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    margin-bottom: 56px;
+    padding-top: 60px;
+  }
+}
+
+.carousel-title-with-btn {
+  margin-bottom: 8px;
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    margin-bottom: 16px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    margin-bottom: 28px;
+  }
+}
+
+.carousel-btn {
+  margin-bottom: 24px;
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    margin-bottom: 38px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    margin-bottom: 56px;
+  }
+}
+
+.without-indicators {
+  margin-bottom: 60px;
+}
+
+.section-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 56px;
+
+  > .btn {
+    font-size: 0.875rem;
+    line-height: 21px;
+    margin-bottom: 96px;
+  }
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+
+  @include text-style(
+    var(--franke-button-font-size),
+    var(--font-weight-base),
+    21px
+  );
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    @include text-style(
+      var(--franke-font-size-base),
+      var(--font-weight-base),
+      24px
+    );
+  }
+
+  @media only screen and (min-width: 992px) {
+    @include text-style(
+      var(--franke-h4-font-size),
+      var(--font-weight-base),
+      34px
+    );
+  }
+}

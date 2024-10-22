@@ -1,0 +1,1693 @@
+{
+  "searchSupport": {
+    "placeholder": "Cerca qui...",
+    "results": "risultati",
+    "manualTitle": "Manuale del proprietario",
+    "manualDownload": "Scarica Specifica",
+    "text": "Ricerca per codice prodotto o nome prodotto",
+    "more": "mostra di più",
+    "allResults": "tutti i risultati",
+    "manualDescription": "Il documento più completo della configurazione e l'utilizzo del prodotto.",
+    "resultsFor": "Visualizzazione dei risultati per:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal FAQ",
+    "message1": "Ciao, sono Laura. Come posso aiutarti?",
+    "title": "Personal assistant",
+    "message2": "Puoi scegliere tra le opzioni qui sotto o fare una domanda",
+    "contact": "Contatta Franke",
+    "complaint": "Invia una segnalazione"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Hai bisogno di aiuto con il tuo prodotto o hai una domanda?",
+    "title": "Ciao, siamo qui per aiutarti"
+  },
+  "contactForm": {
+    "contactType": "Seleziona la modalità che preferisci per essere contattato",
+    "files": "Carica immagini per aiutarci a rispondere alla tua richiesta",
+    "funNumber": "Codice prodotto",
+    "request": "Descrivi la tua richiesta",
+    "ticketAddSucess": "Ticket creato!",
+    "ticketAddFail": "Errore nella creazione del ticket, prova di nuovo!",
+    "subTitle2": "Utilizza il nostro contact form!",
+    "generalContactCategories": "Seleziona la tipologia",
+    "deleteFiles": "Elimina",
+    "productSubCategories": "Seleziona la sotto tipologia",
+    "title": "Ulteriori domande?",
+    "subTitle1": "Non riesci a trovare risposte alla tua domanda nelle nostre FAQ?",
+    "productCategories": "Seleziona il prodotto",
+    "orderNumber": "Numero ordine"
+  },
+  "product": {
+    "id": "Codice Prodotto"
+  },
+  "faq": {
+    "print": "Stampa questa pagina",
+    "customerServicesQuestions": "Servizio Clienti",
+    "pageTitle": "Domande Frequenti",
+    "productQuestionsTitle": "Franke Prodotti",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Ordini e Spedizioni"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "È possibile avere fino a un massimo di 4 indirizzi.",
+    "updateAddress": "Aggiorna indirizzo",
+    "editShippingAddress": "Modifica indirizzo di spedizione",
+    "deliveryAddressTitle": "Indirizzo di consegna",
+    "addNewShippingAddress": "Aggiungi un nuovo indirizzo di spedizione",
+    "addAddress": "Aggiungi un indirizzo",
+    "billingAddressTitle": "Indirizzo di Fatturazione",
+    "addNewAddress": "Aggiungi un nuovo indirizzo",
+    "backToAddressList": "Torna alla lista degli indirizzi",
+    "areYouSureToDeleteAddress": "Sei sicuro di voler cancellare questo indirizzo?"
+  },
+  "addressCard": {
+    "shipTo": "Spedire a",
+    "setAsDefault": "Imposta come predefinito",
+    "billTo": "Fatturare a",
+    "selected": "Selezionato",
+    "default": "PREDEFINITO"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Cognome",
+      "placeholder": "Cognome"
+    },
+    "aptSuite": "Scala, piano, interno",
+    "saveAsDefault": "Salva come predefinito",
+    "firstName": {
+      "label": "Nome",
+      "placeholder": "Nome"
+    },
+    "zipCode": {
+      "placeholder": "Codice Postale",
+      "label": "Cap"
+    },
+    "address1": "Indirizzo 1",
+    "setAsDefault": "Imposta come predefinito",
+    "title": "Titolo",
+    "userAddressDeleteSuccess": "Indirizzo cancellato con successo!",
+    "userAddressAddSuccess": "Nuovo indirizzo aggiunto con successo!",
+    "city": {
+      "placeholder": "Città",
+      "label": "Città"
+    },
+    "invalidAddress": "Indirizzo non valido",
+    "chooseAddress": "Scegli indirizzo",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "Numero di telefono (facoltativo)"
+    },
+    "titleRequired": "Il titolo è obbligatorio",
+    "state": "Provincia",
+    "address2": "Indirizzo 2 (opzionale)",
+    "selectOne": "Seleziona una voce ...",
+    "country": "Nazione",
+    "streetAddress": "Via",
+    "userAddressUpdateSuccess": "Indirizzo aggiornato con successo!"
+  },
+  "wishlist": {
+    "addToCart": "Aggiungi al carrello",
+    "empty": "Non ci sono prodotti nella tua wishlist"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Vuoi creare un account?",
+    "invoiceHasBeenSentByEmail": "Riceverai a breve la tua fattura via email.",
+    "placedOn": "Confermato il",
+    "status": "Stato",
+    "frequency": "Frequenza",
+    "orderItems": "Articoli ordinati",
+    "orderPlacedSuccessfully": "Ordine confermato con successo",
+    "nextOrderDate": "Prossima data ordine",
+    "confirmationOfOrder": "Conferma dell'ordine:",
+    "cancelled": "Annullato",
+    "createAccountForNext": "Crea un account con <{{email}}> per un checkout più veloce alla tua prossima visita.",
+    "replenishmentNumber": "Rifornimento #",
+    "orderNumber": "Numero d'ordine",
+    "thankYou": "Grazie per il tuo ordine!",
+    "active": "Attivo"
+  },
+  "checkoutPO": {
+    "placeholder": "Inserisci P.O",
+    "poNumber": "Numero dell'ordine di acquisto",
+    "availableLabel": "Gli indirizzi di spedizione disponibili dipendono sull'unità del centro di costo",
+    "costCenter": "Centro di costo",
+    "noPoNumber": "Nessuna"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Ordine di rifornimento automatico",
+    "confirmThatRead": "Confermo di aver letto e accettato",
+    "termsAndConditions": "Termini e Condizioni",
+    "recurrencePeriodType_WEEKLY": "Settimana(e)",
+    "poNumber": "Numero ordine d'acquisto",
+    "dayOfMonth": "Nel giorno",
+    "every": "Ogni",
+    "placeOrder": "Invia ordine",
+    "scheduleReplenishmentOrder": "Pianifica l'ordine di rifornimento",
+    "recurrencePeriodType_DAILY": "Giorno(i)",
+    "repeatOnDays": "Ripetere nei seguenti giorni",
+    "funNumber": "CODICE: {{fun}}",
+    "editShippingAddress": "Modifica indirizzo di spedizione",
+    "startOn": "Inizia",
+    "additionalDetailsTitle": "Ulteriori dettagli dell'ordine",
+    "deliveryAddressTitle": "Indirizzo di consegna",
+    "orderType_PLACE_ORDER": "Nessuno (ordinare una sola volta)",
+    "invoiceAddressTitle": "Indirizzo di fatturazione",
+    "recurrencePeriodType_MONTHLY": "Mese",
+    "requestedDate": "Data richiesta:",
+    "orderType": "Tipo di ordine:",
+    "checkoutError": "Errore. Si prega di contattare l'assistenza clienti",
+    "itemsTitle": "Articoli da consegnare",
+    "additionalReference": "Ulteriori informazioni:",
+    "orderItems": "Articoli ordinati",
+    "quantity": "Quantità: {{count}}",
+    "reference": "Riferimento",
+    "orderNumber": "Numero d'ordine:",
+    "review": "Rivedi",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Ordine di rifornimento",
+    "deliveryDate": "Data di consegna richiesta:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Indirizzo di spedizione",
+    "reviewOrder": "Rivedi l'ordine",
+    "paymentDetails": "Dettagli del pagamento",
+    "billingTask": "Seleziona indirizzo di fatturatione",
+    "billingAddress": "Indirizzo di fatturazione",
+    "methodOfPayment": "Metodo di pagamento",
+    "deliveryMode": "Modalità di consegna",
+    "reviewTask": "Per favore, controlla il riepilogo del tuo ordine",
+    "shippingTask": "Seleziona indirizzo di consegna",
+    "invoicePayment": "Pagamento della fattura"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Indirizzo di fatturazione predefinito",
+    "enteredAddress": "indirizzo inserito",
+    "selectYourInvoiceAddress": "Seleziona il tuo indirizzo di fatturazione",
+    "verifyYourAddress": "Verifica il tuo indirizzo",
+    "invoiceAddress": "Indirizzo della fattura",
+    "editAddress": "Modifica indirizzo",
+    "chooseAddressToUse": "Si prega di scegliere quale indirizzo si desidera utilizzare:",
+    "shipToThisAddress": "Spedire a questo indirizzo",
+    "saveAddress": "Salva indirizzo",
+    "addNewAddress": "Aggiungi un nuovo indirizzo",
+    "defaultShippingAddress": "indirizzo di spedizione predefinito",
+    "selectInvoiceAddress": "Seleziona questo indirizzo",
+    "selectYourBillingAddress": "Seleziona il tuo indirizzo di fatturazione",
+    "suggestedAddress": "Indirizzo suggerito",
+    "billingAddress": "Indirizzo di fatturazione",
+    "selectYourShippingAddress": "Seleziona il tuo indirizzo di spedizione",
+    "shippingAddress": "indirizzo di spedizione",
+    "ensureAccuracySuggestChange": "Per garantire l'accuratezza della consegna, suggeriamo la modifica selezionata di seguito."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Consegna standard",
+    "shippingMethod": "metodo di spedizione",
+    "premiumDelivery": "Consegna Premium"
+  },
+  "checkout": {
+    "back": "Indietro",
+    "invalid": {
+      "accountType": "Il pagamento tramite questa carta non è andato a buon fine"
+    },
+    "backToCart": "Ritorna al carrello",
+    "continue": "Continua"
+  },
+  "loginForm": {
+    "emailAddress": {
+      "placeholder": "Inserisci l'email",
+      "label": "Indirizzo email"
+    },
+    "password": {
+      "placeholder": "Password",
+      "label": "Password"
+    },
+    "forgotPassword": "Ha dimenticato la password?",
+    "wrongEmailFormat": "Questo non è un formato di email valido.",
+    "guestCheckout": "Checkout come ospite",
+    "signIn": "Login",
+    "register": "Registrati",
+    "dontHaveAccount": "Non hai ancora un account?"
+  },
+  "checkoutLogin": {
+    "emailsMustMatch": "l'Email non corrisponde",
+    "emailAddress": {
+      "label": "Indirizzo email",
+      "placeholder": "Inserisci l'email"
+    },
+    "continue": "Continua",
+    "emailIsRequired": "formato email non valido",
+    "confirmEmail": {
+      "label": "Conferma email",
+      "placeholder": "Conferma email"
+    }
+  },
+  "anonymousConsents": {
+    "banner": {
+      "viewDetails": "Visualizza dettagli",
+      "allowAll": "Autorizza tutto",
+      "title": "Questo sito web utilizza i cookie",
+      "description": "Utilizziamo i cookies per personalizzare il contenuto e migliorare l'esperienza dell'utente."
+    },
+    "preferences": "Preferenze consenso",
+    "dialog": {
+      "clearAll": "Cancella tutto",
+      "legalDescription": "Utilizziamo i cookies per personalizzare il contenuto e migliorare l'esperienza dell'utente. Potremmo anche condividere i dati riguardanti l'uso del sito con i nostri social media. Per maggiori informazioni, si prega di vedere la nostra privacy policy.",
+      "title": "Gestione consensi",
+      "selectAll": "Seleziona tutto"
+    }
+  },
+  "forgottenPassword": {
+    "resetPassword": "Reimposta la password",
+    "passwordResetSuccess": "Password modificata con successo! Ora è possibile accedere utilizzando la nuova password.",
+    "enterEmailAddressAssociatedWithYourAccount": "Inserisci l'indirizzo email associato al tuo account",
+    "emailAddress": {
+      "label": "Indirizzo email",
+      "placeholder": "Inserisci l'email"
+    },
+    "enterValidEmail": "Inserisci un'email valida.",
+    "passwordResetEmailSent": "Ti è stata inviata un'e-mail con tutte le informazioni su come reimpostare la password."
+  },
+  "register": {
+    "titleRequired": "Il titolo è obbligatorio",
+    "newPassword": "nuova password",
+    "confirmThatRead": "Confermo di aver letto e concordato con",
+    "firstName": {
+      "label": "Nome",
+      "placeholder": "nome"
+    },
+    "createAccount": "Crea un account",
+    "bothPasswordMustMatch": "Entrambe le password devono corrispondere",
+    "register": "Registrati",
+    "resetPassword": "Reimposta la password",
+    "postRegisterMessage": "Effettua il login con le credenziali fornite.",
+    "emailAddress": {
+      "placeholder": "Indirizzo email",
+      "label": "Indirizzo email"
+    },
+    "title": "Titolo",
+    "confirmPassword": {
+      "action": "Conferma password",
+      "placeholder": "conferma password",
+      "label": "Conferma password"
+    },
+    "termsAndConditions": "Termini e Condizioni",
+    "lastName": {
+      "label": "Cognome",
+      "placeholder": "Cognome"
+    },
+    "password": {
+      "placeholder": "Password",
+      "label": "Password"
+    },
+    "emailMarketing": "Utilizza i miei dati personali per ricevere newsletter con finalità di marketing. Per modificare le tue impostazioni vai su gestione consensi del tuo account.",
+    "managementInMyAccount": "Gestione nel mio account.",
+    "passwordMinRequirements": "La password deve essere minimo di sei caratteri minimi e contenere una lettera maiuscola, un numero, un simbolo",
+    "confirmNewPassword": "Conferma la nuova password",
+    "signIn": "Ho già un account. Login",
+    "selectTitle": "Seleziona Titolo"
+  },
+  "stockNotification": {
+    "subscriptionDialog": {
+      "manageSubscriptionsLink": "I miei interessi",
+      "notifiedPrefix": "Riceverai una notifica tramite:",
+      "header": "Notifica out of stock",
+      "manageChannelsSuffix": "pagina.",
+      "manageSubscriptionsSuffix": "pagina.",
+      "subscribing": "È possibile gestire le iscrizioni",
+      "manageChannelsLink": "Preferenze di notifica",
+      "manageChannelsPrefix": "Gestisci le modalità di notifica preferite",
+      "manageSubscriptionsPrefix": "È possibile gestire le iscrizioni",
+      "okBtn": "ok",
+      "notifiedSuffix": "Appena il prodotto sarà di nuovo disponibile."
+    },
+    "notified": "Riceverai una notifica quando il prodotto sarà nuovamente disponibile.",
+    "getNotifySuffix": "Per ricevere una notifica quando il prodotto è disponibile.",
+    "activateChannelsPrefix": "Per essere avvisato è necessario attivare",
+    "activateChannelsSuffix": ".",
+    "notifyMe": "Inviami una notifica quando il prodotto è disponibile",
+    "getNotified": "Ricevi una notifica quando il prodotto sarà di nuovo disponibile",
+    "stopNotify": "Annulla ricezione notifiche",
+    "channelsLink": "Metodi di notifica",
+    "getNotify": "Ricevi una notifica quando il prodotto sarà disponibile.",
+    "unsubscribeSuccess": "Hai annullato con successo l'iscrizione alla notifica di ritorno in stock"
+  },
+  "accordion": {
+    "features": "Caratteristiche",
+    "remarks": "Osservazioni",
+    "dimensions": "Dimensioni",
+    "productDetails": "Dettagli del prodotto"
+  },
+  "productSummary": {
+    "preLaunchBody": "Puoi preordinare questo articolo per la consegna non appena lo stock è disponibile",
+    "id": "Numero d'articolo",
+    "substitutesProducts": "Vedere le alternative",
+    "availabilityCheck": {
+      "noFurtherInfoSingular": "Al momento, non sono disponibili ulteriori informazioni per l'unità {{ quantity }} rimanente",
+      "priceTooltip": "Il prezzo indicato è IVA esclusa",
+      "itemsNotAvailable": "Ci sono {{quantity}} unità disponibili il {{ date }}",
+      "itemsAvailableSingular": "C'è {{quantity}} unità disponibile il {{ date }}",
+      "itemsNotAvailableSingular": "C'è {{quantity}} unità disponibile il {{ date }}",
+      "deliveryDateInfo": "Data di consegna stimata, 7 giorni dalla data   dell'ordine",
+      "noFurtherInfo": "Al momento, non sono disponibili ulteriori informazioni per le rimanenti {{ quantity }} unità",
+      "button": "Verificare la disponibilità",
+      "errorMessage": "Impossibile caricare le informazioni al momento, riprova più tardi",
+      "itemsAvailable": "Ci sono {{quantity}} unità disponibili il {{ date }}",
+      "dateTitle": "Data di consegna richiesta"
+    },
+    "promotionTooltip": "Il prezzo scontato sarà visibile nel carrello",
+    "description": "Descrizione",
+    "showReviews": "Mostra le recensioni",
+    "localSalesNumber": "Codice (locale)",
+    "share": "Condividi",
+    "referenceNumber": "Numero di riferimento",
+    "unrecognizedError": "Ops! Abbiamo dimenticato qualcosa. Si prega di contattare il nostro team di assistenza clienti per ordinare questo prodotto.",
+    "catalogPrice": "Prezzo Catalogo",
+    "more": "Vedi altro",
+    "preLaunchTitle": "Preordinabile"
+  },
+  "productList": {
+    "clearFilters": "Cancellare i filtri",
+    "listingPageSubtitle": "I prezzi mostrati sono i prezzi di listino",
+    "searchResultsTitle": "{{numberOfResults}} risultati per  \"{{query}}\"",
+    "view": "Visualizza",
+    "backToTopBtn": "TORNA IN CIMA",
+    "wishlist": "Preferiti",
+    "discontinuedProductsFilter": "Mostra i prodotti fuori produzione",
+    "pageOf": "Pagina {{x}} di {{y}}",
+    "articleNumber": "Numero d'articolo {{fun}}",
+    "previous": "Precedente",
+    "filterBy": {
+      "action": "filtra per",
+      "label": "filtra per"
+    },
+    "appliedFilter": "Filtro applicato:",
+    "showMoreBtn": "MOSTRA DI PIÙ",
+    "description": "Descrizione",
+    "notAvailableDescription": "Pezzi di ricambio e gli accessori possono ancora essere acquistati per questo prodotto",
+    "sortByRelevance": "Ordina per Rilevanza",
+    "cart": "Carrello",
+    "showMore": "Mostra di più...",
+    "filters": "Filters",
+    "results": "risultati",
+    "showLess": "Mostra meno...",
+    "notAvailable": "",
+    "next": "Successivo"
+  },
+  "productDetails": {
+    "noDetails": "Nessun ulteriore dettaglio per questo prodotto. In caso di domande su questo prodotto, inviaci un messaggio tramite il nostro <u><a class=\"form\" href=\"/client-service\">modulo Contattaci.</a></u>",
+    "reviews": "Recensioni",
+    "shipping": "spedizione",
+    "specification": "Dettagli",
+    "productDetails": "Dettagli del prodotto",
+    "quantity": "Quantità",
+    "id": "ID",
+    "imageDisclaimer": "Immagine mostrata solo per riferimento. Si prega di consultare la descrizione e il disegno tecnico per ulteriori informazioni",
+    "showReviews": "Mostra le recensioni",
+    "share": "Condividi",
+    "noReviews": "Nessuna recensione"
+  },
+  "productReview": {
+    "overallRating": "Valutazione complessiva",
+    "more": "Di Più",
+    "reviewerName": "nome del revisore (opzionale)",
+    "rating": "Valutazione",
+    "writeReview": "Scrivi una recensione",
+    "writeYourComments": "Scrivi i tuoi commenti",
+    "less": "Di meno",
+    "reviewTitle": "titolo della recensione",
+    "thankYouForReview": "Grazie per la recensione! Ti informiamo che le recensioni possono richiedere una verifica prima di apparire qui."
+  },
+  "addToCart": {
+    "selectStyleAndSize": "Seleziona lo stile e le dimensioni per controllare le azione",
+    "addToCartFailed": "Prodotto non aggiunto al carrello. Prova di nuovo!",
+    "itemsAddedToYourCart": "Prodotto (i) aggiunto (i) al carrello",
+    "items": "Prodotti",
+    "viewCart": "Vedi il carrello",
+    "inStock": "Disponibile",
+    "quantity": "Quantità",
+    "addToCartSuccessfully": "Prodotto aggiunto al carrello con successo",
+    "itemsIncrementedInYourCart": "Questo articolo era già nel carrello. La quantità è stata aggiornata.",
+    "updatingCart": "Aggiornamento carrello ...",
+    "outOfStock": "Non disponibile",
+    "addToCart": "Aggiungi al carrello",
+    "proceedToCheckout": "procedi al checkout"
+  },
+  "TabPanelContainer": {
+    "tabs": {
+      "ProductSpecsTabComponent": "Dettagli",
+      "ProductDetailsTabComponent": "Dettagli del prodotto",
+      "ProductReviewsTabComponent": "Recensioni",
+      "deliveryTab": "spedizione",
+      "ProductDownloadsTabComponent": "download"
+    }
+  },
+  "alternativeProducts": {
+    "similarProductRecommendations": "Prodotti alternativi suggeriti",
+    "declaimer": "Nota: alcune caratteristiche dei prodotti alternativi suggeriti potrebbero non corrispondere esattamente alla tua richiesta. Verifica con attenzione prima di procedere con la sostituzione del prodotto.",
+    "goToProduct": "Vai al prodotto",
+    "article": "Articolo",
+    "showAlternativeProducts": "Mostra prodotti alternativi",
+    "noRecommendations": "Non sono presenti prodotti alternativi suggeriti per l'articolo selezionato."
+  },
+  "addToWishList": {
+    "remove": "Rimuovi dalla wishlist",
+    "addToWishlistSuccessfully": "Prodotto aggiunto ai preferiti con successo",
+    "add": "Aggiungi ai miei preferiti",
+    "addToWishlistFailed": "Prodotto non aggiunto ai favoriti. Prova di nuovo!",
+    "anonymous": "Accedi per aggiungere alla wishlist"
+  },
+  "variant": {
+    "size": "Dimensioni",
+    "color": "Colore",
+    "selectedStyle": "stile selezionato",
+    "style": "Stile",
+    "sizeGuideLabel": "Guida di stile"
+  },
+  "productFacetNavigation": {
+    "appliedFilter": "Filtro applicato:",
+    "showMore": "Mostra di più...",
+    "showLess": "Mostra meno...",
+    "filterBy": {
+      "action": "filtra per",
+      "label": "filtra per"
+    },
+    "sortByRelevance": "Ordina per Rilevanza"
+  },
+  "productDownloads": {
+    "productSheet": "Scheda prodotto"
+  },
+  "productReferences": {
+    "id": "Numero d'articolo"
+  },
+  "emptyCart": {
+    "cartIsEmpty": "Il tuo carrello è vuoto",
+    "suggestion": "Cerca un prodotto",
+    "suggestionTitle": "Suggerimenti:"
+  },
+  "additionalInfo": {
+    "title": "Ulteriori informazioni in merito al tuo ordine",
+    "additionalReference": "Ulteriori informazioni",
+    "poNumber": "",
+    "orderType": "Tipologia ordine",
+    "orderNumber": "Riferimento"
+  },
+  "orderCost": {
+    "subtotalSingular": "Prezzo finale ({{count}} articolo):",
+    "orderDiscounts": "",
+    "toBeDetermined": "TBD",
+    "totalCatalogPrice": "Prezzo di listino ({{count}} articoli):",
+    "totalCatalogPriceSingular": "Prezzo di listino ({{count}} articolo):",
+    "crossChannelPromo": "Sconto promozionale",
+    "orderSummary": "Riepilogo ordine",
+    "subtotal": "Prezzo finale ({{count}} articoli):",
+    "discountsApplied": "{{discountMessage}} è stato applicato",
+    "salesTax": "IVA:",
+    "totalDiscounts": "Sconti applicati",
+    "shipping": "Spedizione:",
+    "crossCategoryPromo": "Sconto d'azione",
+    "discount": "Hai salvato:",
+    "grossTax": "IVA non inclusa",
+    "mainPromoIncluded": "Promozioni incluse nel prezzo netto",
+    "total": "Totale incl. IVA:",
+    "productDiscounts": "",
+    "totalNetWithoutTax": "Prezzo netto, IVA esclusa",
+    "estimatedShipping": "Costi di spedizione prevista:",
+    "mainFeesIncluded": "Costi aggiuntivi inclusi nel prezzo netto"
+  },
+  "cartItems": {
+    "discount": "Sconto",
+    "checkAvailabilityInfoNoUnits": "Al momento sono disponibili 0 unità di questo articolo. Quantità completa richiesta disponibile da {{ date }}",
+    "checkAvailabilityInfoSingular": "Attualmente è disponibile solo {{quantity}} unità di questo articolo. Quantità interamente richiesta disponibile da {{date}}",
+    "unitPrice": "Prezzo un.:",
+    "item": "Dettagli del prodotto",
+    "checkAvailabilityNoFurtherInfoSingular": "Al momento, non sono disponibili ulteriori informazioni per l'unità {{ quantity }} rimanente",
+    "checkAvailabilityInfo": "Al momento sono disponibili solo {{quantity}} unità di questo articolo. Quantità completa richiesta disponibile da {{ date }}",
+    "itemPrice": "Prezzo finale",
+    "changeQuantity": "Cambiare la quantità",
+    "cartTotal": "Carrello totale ({{count}} articolo)",
+    "funNumber": "Codice:",
+    "brand": "Brand",
+    "availability": "Disponibilità",
+    "deliveryDate": "Data di consegna richiesta",
+    "id": "Codice",
+    "ecoTax": "Eco Tax:",
+    "quantity": "Quantità:",
+    "remove": "Rimuovi",
+    "availabilityInfo": "I prodotti non disponibili possono essere ordinati. Ti invieremo una notifica non appena sarà disponibile una data di consegna prevista.",
+    "quantityTitle": "La quantità rappresenta il numero totale di questo articolo nel tuo carrello.",
+    "checkAvailabilityError": "Impossibile caricare le informazioni al momento, riprova più tardi",
+    "additionalFees": "Tasse aggiuntive:",
+    "cartTotal_plural": "Carrello totale ({{count}} articoli)",
+    "additionalFeesTooltip": "Costi aggiuntivi come i costi di trasporto/spedizione, i costi di imballaggio, i supplementi espressi, le assicurazioni, i supplementi per l'inflazione, i costi di riciclaggio, i costi di elaborazione, l'importo minimo della fattura ecc.",
+    "deliveryDateInfo": "Data di consegna stimata, 7 giorni dalla data   dell'ordine",
+    "checkAvailabilityNoFurtherInfo": "Al momento, non sono disponibili ulteriori informazioni per le rimanenti {{ quantity }} unità",
+    "description": "Descrizione",
+    "estimatedDeliveryDate": "La data di consegna prevista è {{ date }}",
+    "total": "Totale"
+  },
+  "voucher": {
+    "applyVoucherSuccess": "{{VoucherCode}} è stato applicato.",
+    "apply": "Applica",
+    "coupon_plural": "Codici promozionali",
+    "availableCouponsLabel": "È possibile aggiungere questi codici promozionali a questo ordine.",
+    "placeholder": "Codice promozionale",
+    "availableCoupons": "Codici promozionali disponibili",
+    "removeVoucherSuccess": "{{VoucherCode}} è stato rimosso.",
+    "vouchersApplied": "Codici promozionali applicati",
+    "coupon": "Hai un codice promozionale?",
+    "anchorLabel": "Inserisci o rimuovi il codice promozionale"
+  },
+  "cartAlternativeProducts": {
+    "checkAlternativeProducts": "Mostra prodotti alternativi",
+    "replaceCartItem": "Sostituisci l'articolo nel carrello con questo prodotto",
+    "cartItemReplacedSuccessfully": "Prodotto sostituito con successo",
+    "cartItemReplacedError": "Attenzione! Potrebbe esserci un problema con la sostituzione del tuo prodotto. Per favore, riprova"
+  },
+  "saveForLaterItems": {
+    "itemTotal_plural": "Salvato per dopo ({{count}} articoli)",
+    "stock": "Stock",
+    "cartTitle": "Carrello",
+    "saveForLater": "Salva per dopo",
+    "moveToCart": "Sposta carrello",
+    "forceInStock": "Disponibile",
+    "itemTotal": "Salvato per dopo ({{count}} articolo)"
+  },
+  "cartDetails": {
+    "cartName": "Carrello # {{code}}",
+    "continueShopping": "Continua a fare acquisti",
+    "proceedToCheckout": "Procedi all’acquisto",
+    "id": "ID"
+  },
+  "dashboard": {
+    "ticketHistoryCreatedBy": "Creato da: {{name}}",
+    "invoiceAddressesTitle": "Indirizzi di fatturazione",
+    "noStatistics": "Nessuna statistica al momento",
+    "openReturns": "Resi aperti",
+    "ticketHistoryStatusCompleted": "Completato",
+    "ticketHistoryTitle": "Cronologia dei ticket",
+    "deliveryAddressesTitle": "Indirizzi di consegna",
+    "analyticsTab": "Analytics",
+    "openOrders": "Ordini aperti",
+    "ticketHistoryStatusOpen": "Aperto",
+    "netTurnover": "Fatturato netto",
+    "ticketHistoryLastUpdate": "Ultimo aggiornamento: {{date}}",
+    "ticketHistoryLastUpdateBy": "Ultimo aggiornamento di: {{name}}",
+    "turnoverLastYear": "Fatturato dello scorso anno",
+    "ticketHistoryStatusInProcess": "In corso",
+    "openOrdersEndOfYear": "Ordini aperti fino alla fine dell'anno",
+    "ticketHistoryStatusClosed": "Chiuso",
+    "ticketHistoryCode": "ID: {{code}}",
+    "ticketHistoryCreated": "Creato: {{date}}",
+    "noTicketHistory": "Nessun biglietti è stato ancora creato"
+  },
+  "myInterests": {
+    "sortByMostRecent": "Ordina per più recente",
+    "lowStock": "Pochi pezzi disponibili",
+    "header": "I miei interessi",
+    "expirationDate": "- Valido Fino  {{ expirationDate }}",
+    "sorting": {
+      "byNameDesc": "Nome (discendente)",
+      "byNameAsc": "Nome (ascendente)"
+    },
+    "noInterests": "Non risultano interessi ancora registrati.",
+    "notifications": "Notifiche",
+    "outOfStock": "Non disponibile",
+    "BACK_IN_STOCK": "Di nuovo disponibile",
+    "price": "Prezzo",
+    "remove": "Rimuovi",
+    "productId": "ID {{code}}",
+    "inStock": "Disponibile",
+    "item": "ARTICOLO"
+  },
+  "returnRequestList": {
+    "date": "data di creazione",
+    "sortByMostRecent": "Ordina per Più recente",
+    "statusDisplay_APPROVING": "Approvazione",
+    "status": "Stato",
+    "statusDisplay_COMPLETED": "Completato",
+    "statusDisplay_CANCELLING": "Annullamento",
+    "statusDisplay_WAIT": "Attendi",
+    "statusDisplay_PAYMENT_REVERSED": "Pagamento annullato",
+    "statusDisplay_RECEIVED": "Ricevuto",
+    "statusDisplay_TAX_REVERSAL_FAILED": "Disinquinamento fiscale non riuscita",
+    "statusDisplay_RECEIVING": "Ricezione",
+    "statusDisplay_APPROVAL_PENDING": "In attesa di approvazione",
+    "statusDisplay_PAYMENT_REVERSAL_FAILED": "Annullamento pagamento non riuscito",
+    "statusDisplay_REVERSING_PAYMENT": "Pagamento in fase di annullamento",
+    "returnRequestId": "Reso #",
+    "statusDisplay_TAX_REVERSED": "Tax Reversed",
+    "statusDisplay_REVERSING_TAX": "Inversione fiscale",
+    "statusDisplay_CANCELED": "Annullato",
+    "orderId": "Ordine #"
+  },
+  "updateProfileForm": {
+    "parentCompany": "Società madre",
+    "lastName": {
+      "placeholder": "Cognome",
+      "label": "Cognome"
+    },
+    "none": "Nessuno",
+    "firstName": {
+      "label": "nome",
+      "placeholder": "nome"
+    },
+    "lastNameIsRequired": "il cognome è richiesto",
+    "title": "Titolo",
+    "email": "La tua email",
+    "profileUpdateSuccess": "Dati personali aggiornati correttamente",
+    "customerNumber": "Numero cliente",
+    "customerId": "cliente #",
+    "firstNameIsRequired": "Il nome è richiesto"
+  },
+  "returnRequest": {
+    "estimatedRefund": "rimborso stimato",
+    "summary": "TResi otali",
+    "cancelSuccess": "La tua richiesta di reso ({{rma}}) è stata annullata",
+    "itemPrice": "Prezzo dell'articolo",
+    "deliveryCode": "Spese di spedizione",
+    "subtotal": "totale parziale",
+    "total": "Totale",
+    "cancel": "Annulla Richiesta di Reso",
+    "returnQty": "Reso Quantità",
+    "note": "I totali sono stimati e potrebbero non includere tasse applicabili o altri oneri.",
+    "status": "Stato reso",
+    "returnRequestId": "Reso Richiesta #",
+    "item": "Descrizione",
+    "orderCode": "Per ordine #"
+  },
+  "closeAccount": {
+    "confirmAccountClosureMessage": "Sei sicuro di voler chiudere il tuo account?",
+    "accountClosedFailure": "Impossibile chiudere l'account",
+    "closeMyAccount": "Chiudere il mio account",
+    "accountClosedSuccessfully": "Account chiuso con successo",
+    "confirmAccountClosure": "Conferma chiusura account"
+  },
+  "notificationCenter": {
+    "noNotifications": "Al momento non ci sono notifiche",
+    "backInStockNotificationMessage": "Il prodotto è di nuovo disponibile",
+    "notificationMessage": "La data di consegna di uno o più articoli del suo ordine è cambiata.",
+    "productNumber": "Prodotto {{productCode}}",
+    "emailNotifications": "Ricevi un'e-mail quando viene aggiornata la data di consegna di un ordine",
+    "orderNumber": "Ordine {{orderNumber}}",
+    "notifications": "Notifiche"
+  },
+  "updateEmailForm": {
+    "password": {
+      "placeholder": "Inserisci la password",
+      "label": "Password"
+    },
+    "enterValidEmail": "Inserisci una email valida.",
+    "emailUpdateSuccess": "Corretto. Entra con {{ newUid }}",
+    "confirmNewEmailAddress": {
+      "label": "Conferma nuovo indirizzo email",
+      "placeholder": "Inserisci l'email"
+    },
+    "newEmailAddress": {
+      "placeholder": "Inserisci l'email",
+      "label": "Nuovo Indirizzo Email"
+    },
+    "pleaseInputPassword": "Per favore inserisci la password",
+    "bothEmailMustMatch": "Entrambe le email devono corrispondere"
+  },
+  "menu": {
+    "addressBook": "Rubrica",
+    "orders": "Cronologia ordini",
+    "profile": "Profilo",
+    "email": "E-mail",
+    "signOut": "Disconnetti",
+    "password": "Parola d'ordine",
+    "dashboard": "Pannello di controllo",
+    "wishlist": "Lista dei desideri"
+  },
+  "consentManagementForm": {
+    "clearAll": "Cancella tutto",
+    "message": {
+      "success": {
+        "withdrawn": "Consenso ritirato con successo.",
+        "given": "Consenso dato con successo."
+      }
+    },
+    "selectAll": "Seleziona tutto"
+  },
+  "updatePasswordForm": {
+    "oldPassword": {
+      "label": "vecchia password",
+      "placeholder": "vecchia password"
+    },
+    "oldPasswordIsRequired": "è richiesta la vecchia password.",
+    "passwordUpdateSuccess": "Password aggiornata con successo",
+    "newPassword": {
+      "label": "nuova password",
+      "placeholder": "nuova password"
+    },
+    "confirmPassword": {
+      "placeholder": "conferma password",
+      "label": "Conferma la nuova password"
+    },
+    "passwordMinRequirements": "La password deve essere minimo di sei caratteri minimi e contenere una lettera maiuscola, un numero, un simbolo",
+    "bothPasswordMustMatch": "Entrambe le password devono corrispondere"
+  },
+  "myCoupons": {
+    "endDateAsc": "Data fine (ascendente)",
+    "sortByMostRecent": "Ordina per più recente",
+    "startDateDesc": "Data di inizio (discendente)",
+    "status": "Stato:",
+    "notesSuffix": "pagina.",
+    "findProducts": "Trova prodotti",
+    "effectiveTitle": "Valido",
+    "ExpireSoon": "In scadenza",
+    "PreSession": "VALIDO DA",
+    "startDateAsc": "Data di inizio (ascendente)",
+    "claimCustomerCoupon": "Hai utilizzato con successo questo codice promozionale",
+    "notesPreffix": "È possibile impostare i metodi preferiti per ricevere le notifiche sui codici promozionali",
+    "dialogTitle": "Codice promozionale",
+    "readMore": "Leggi di più",
+    "endDateDesc": "Data fine (discendente)",
+    "myCoupons": "I miei codici promozionali",
+    "notification": "Notifica",
+    "Effective": "VALIDO/APPLICATO",
+    "notesLink": "Metodi di notifica",
+    "noCouponsMessage": "Non ci sono codici promozionali disponibili."
+  },
+  "notificationPreference": {
+    "SITE_MESSAGE": "SiteMessage",
+    "noteMessage": "Se si disattivano tutti i metodi non sarai più in grado di ricevere ulteriori notifiche.",
+    "note": "Nota:",
+    "EMAIL": "E-mail:",
+    "SMS": "SMS:",
+    "message": "Seleziona i metodi di notifica che preferisci"
+  },
+  "AccountOrderHistoryTabContainer": {
+    "tabs": {
+      "AccountOrderHistoryComponent": "Tutti gli ordini ({{param}})",
+      "OrderReturnRequestListComponent": "Resi ({{param}})"
+    }
+  },
+  "searchBox": {
+    "resultsFor": "Visualizzazione dei risultati per:",
+    "help": {
+      "empty": "Cerca qui...",
+      "insufficientChars": "Si prega di digitare più caratteri",
+      "noMatch": "Non abbiamo trovato nessun risultato",
+      "exactMatch": "{{ term }}"
+    },
+    "searchBarMobileText": "Ricerca di prodotti",
+    "more": "Di più",
+    "results": "risultati",
+    "searchBarText": "Ricerca prodotti, colore, materiale",
+    "placeholder": "Cerca qui...",
+    "allResults": "Tutti i risultati"
+  },
+  "pageMetaResolver": {
+    "product": {
+      "title": "{{title}}",
+      "heading": "{{heading}}",
+      "description": "{{description}}"
+    },
+    "checkout": {
+      "title": "Acquista {{count}} articolo",
+      "title_plural": "Acquista {{count}} articoli"
+    },
+    "search": {
+      "findProductTitle_plural": "{{Count}} risultati per \"{{coupon}}\"",
+      "title": "{{Count}} risultato per \"{{query}}\"",
+      "title_plural": "{{count}} risultati per \"{{query}}\"",
+      "findProductTitle": "{{Count}} risultato per \"{{coupon}}\""
+    },
+    "category": {
+      "title_plural": "{{Count}} risultati per {{query}}",
+      "title": "{{count}} risultato {{query}}"
+    }
+  },
+  "breadcrumbs": {
+    "dashboardPage": {
+      "dashboardPageTitle": "Pannello di controllo",
+      "dashboardPageSubTitle": "Tutti i dati sulla tua attività"
+    },
+    "checkoutPageTitle": "Check-out",
+    "orderConfirmationPageTitle": "Conferma dell'ordine",
+    "addressBookPageTitle": "Rubrica",
+    "listingPage": {
+      "listingPageSubTitle": "I prezzi indicati sono prezzi di listino",
+      "searchPageTitle": "Risultati per  \"{{query}}\""
+    },
+    "orderHistoryPageTitle": "Cronologia ordini",
+    "profilePageTitle": "Il mio account",
+    "privacyPageTitle": "Politica sulla privacy e sui cookie",
+    "imprintPageTitle": "Informazioni legali",
+    "bundlesPageTitle": "Set",
+    "outletPageTitle": "Outlet",
+    "shoppingCartPageTitle": "Carrello",
+    "wishlistPageTitle": "Preferiti",
+    "termsPageTitle": "Condizioni d'uso",
+    "promotionPageSubTitle": "Il prezzo scontato sarà visibile nel carrello",
+    "promotion": "Promozione"
+  },
+  "common": {
+    "save": "Salva",
+    "edit": "Modificare",
+    "delete": "Elimina",
+    "confirm": "Conferma",
+    "connected": "Collegato",
+    "noData": "Nessun dato.",
+    "continue": "Continua",
+    "cancel": "Annulla",
+    "remove": "Rimuovi",
+    "offline": "Offline",
+    "home": "Casa",
+    "submit": "Invia",
+    "done": "Fatto",
+    "other": "Altro",
+    "back": "Indietro",
+    "online": "Online"
+  },
+  "httpHandlers": {
+    "sessionExpired": "La tua sessione è scaduta. Per favore esegui l'accesso di nuovo.",
+    "validationErrors": {
+      "missing": {
+        "card_cardType": "La carta di credito selezionata non è supportata. Si prega di selezionarne un'altra.",
+        "billTo_street1": "L'indirizzo inserito non è valido.",
+        "billTo_state": "Lo stato / provincia per questa carta di credito non è valido",
+        "billTo_firstName": "Il nome inserito non è valido.",
+        "billTo_street2": "L''indirizzo inserito non è valido.",
+        "card_expirationYear": "La data di scadenza della carta di credito inserita non è valida.",
+        "billTo_city": "La città inserita non è valida per questa carta di credito.",
+        "card_cvNumber": "Il codice di sicurezza inserito non è valido.",
+        "billTo_country": "Il paese inserito non è valido per questa carta di credito.",
+        "card_expirationMonth": "La data di scadenza della carta di credito inserita non è valida.",
+        "card_accountNumber": "Il numero della carta di credito inserito non è valido.",
+        "billTo_lastName": "Il cognome inserito non è valido.",
+        "billTo_postalCode": "Il codice postale non è valido per questa carta di credito.",
+        "country": {
+          "isocode": "Paese mancante"
+        }
+      },
+      "invalid": {
+        "code": "Il codice non è valido.",
+        "uid": "UID non è valido.",
+        "firstName": "Il nome inserito non è valido.",
+        "password": "La password immessa non è valida.",
+        "card_expirationMonth": "La data di scadenza della carta di credito inserita non è valida.",
+        "lastName": "Il cognome inserito non è valido."
+      }
+    },
+    "cartNotFound": "Carrello non trovato.",
+    "conflict": "Esiste già",
+    "unauthorized": {
+      "invalid_client": "Le credenziali inserite non sono corrette",
+      "common": "Si è verificato un errore di autorizzazione sconosciuto."
+    },
+    "badGateway": "Si è verificato un errore del server. Per favore riprova più tardi.",
+    "unknownError": "Si è verificato un errore sconosciuto",
+    "gatewayTimeout": "Il server non ha risposto, si prega di riprovare più tardi.",
+    "badRequestPleaseLoginAgain": "{{ errorMessage  }}. Per favore esegui l'accesso di nuovo.",
+    "forbidden": "Non sei autorizzato a eseguire questa azione. Si prega di contattare l'amministratore se si pensa che questo sia un errore.",
+    "badRequestOldPasswordIncorrect": "Vecchia password errata.",
+    "internalServerError": "Si è verificato un errore interno del server. Per favore riprova più tardi.",
+    "invalidCodeProvided": "Codice fornito non valido."
+  },
+  "navigation": {
+    "shopAll": "Acquista tutti {{navNode}}>"
+  },
+  "carousel": {
+    "button": "Sfoglia tutto"
+  },
+  "formErrors": {
+    "cxInvalidPassword": "Questo non è un formato di password valido",
+    "date": {
+      "invalid": "Utilizzare una data valida",
+      "required": "Questo campo è obbligatorio",
+      "max": "La data non può essere successiva a {{max}}",
+      "min": "La data non può essere prima di {{min}}",
+      "pattern": "Utilizzare data nel formato aaaa-mm-gg"
+    },
+    "globalMessage": "Il form che si sta tentando di inviare contiene degli errori.",
+    "cxInvalidEmail": "Questo non è un formato e-mail valido",
+    "cxNoSelectedItemToCancel": "Selezionare almeno un elemento",
+    "cxEmailsMustMatch": "I campi email devono corrispondere",
+    "cxPasswordsMustMatch": "I campi password devono corrispondere",
+    "cxNegativeAmount": "L'importo deve essere uguale o maggiore di zero",
+    "required": "Questo campo è obbligatorio",
+    "cxContainsSpecialCharacters": "Il campo non può contenere caratteri speciali",
+    "cxStarRatingEmpty": "Il campo valutazione è necessario"
+  },
+  "errorHandlers": {
+    "refreshThePage": "Si prega di aggiornare la pagina.",
+    "loadPage": "Si è verificato un errore. Verrai reindirizzato alla pagina di accesso in 5 secondi! Mi dispiace per quello.",
+    "scriptFailedToLoad": "Impossibile caricare il file o documento"
+  },
+  "skipLink": {
+    "labels": {
+      "footer": "Footer",
+      "productList": "Elenco prodotti",
+      "header": "Intestazione",
+      "productFacets": "Gamme di prodotto",
+      "main": "Contenuto principale"
+    },
+    "skipTo": "Passa a"
+  },
+  "miniCart": {
+    "count": "{{count}}",
+    "total": "{{totale}}",
+    "item": "{{Count}} prodotto attualmente nel carrello",
+    "item_plural": "{{Count}} prodotti attualmente nel carrello"
+  },
+  "miniLogin": {
+    "signInRegister": "Entra / Registrati",
+    "userGreeting": "Ciao, {{name}}"
+  },
+  "sorting": {
+    "rma": "Numero di reso",
+    "replenishmentNumber": "Rifornimento Numero",
+    "orderNumber": "Numero d'ordine",
+    "date": "Data",
+    "nextOrderDate": "Prossima data disponibile per l'ordine"
+  },
+  "spinner": {
+    "loading": "Caricamento in corso..."
+  },
+  "orderDetails": {
+    "tracking": {
+      "noTrackingNumber": "Tracciamento della spedizione non disponibile",
+      "trackingNumber": "Tracking / Numero spedizione",
+      "itemStatus": {
+        "pickedUp": "Prelevato",
+        "partiallyPickedUp": "Parzialmente prelevato",
+        "delivered": "Consegnato",
+        "exception": "Eccezione"
+      },
+      "quantity": "Quantità",
+      "deliveryStatus": {
+        "inProcess": "In corso",
+        "delivered": "Consegnato"
+      },
+      "deliveryType": "Stato della spedizione",
+      "status": "Stato",
+      "noTrackingResults": "Nessuna informazione disponibile al momento",
+      "deliveryNumber": "N. spedizione {{code}}",
+      "product": "Prodotto"
+    },
+    "consignmentTracking": {
+      "dialog": {
+        "carrier": "Servizio di consegna",
+        "header": "Informazioni sul tracking",
+        "shipped": "Spedito",
+        "trackingId": "Tracking / Numero spedizione",
+        "estimate": "Consegna stimata",
+        "loadingHeader": "Monitoraggio della spedizione",
+        "noTracking": "Il pacco non è stato spedito dal magazzino. Le informazioni sul tracking saranno disponibili dopo la spedizione dell'ordine."
+      },
+      "action": "Rintraccia il pacco"
+    },
+    "purchaseOrderId": "Ordine d'acquisto #",
+    "unit": "Unità",
+    "deliveryStatus_READY_FOR_PICKUP": "Pronto per il ritiro",
+    "statusE": "Spedito",
+    "cancellationAndReturn": {
+      "item": "Articolo",
+      "itemPrice": "Prezzo dell'articolo",
+      "cancelAction": "Cancella articoli",
+      "cancelQty": "Quantità da cancellare",
+      "cancelSuccess": "La vostra richiesta di cancellazione è stata presentata (l'ordine originale {{}} orderCode sarà aggiornato)",
+      "setAll": "Impostare tutti i quantitativi al massimo",
+      "returnSuccess": "La richiesta di reso ({{rma}}) è stata inoltrata",
+      "returnAction": "Richiedi un reso",
+      "totalPrice": "Totale",
+      "returnQty": "Quantità da rendere",
+      "submit": "Invia la richiesta",
+      "quantity": "Quantità massima"
+    },
+    "statusDisplay_open": "Aperto",
+    "deliveryStatus_READY": "In corso",
+    "funColumn": "ID",
+    "invoices": "Fatture",
+    "cancelReplenishment": {
+      "description": "Annullare tutti i futuri ordini di rifornimento?",
+      "title": "Annulla Rifornimento",
+      "reject": "No",
+      "accept": "sì",
+      "cancelSuccess": "L'ordine di rifornimento # {{replenishmentOrderCode}} è stato annullato con successo"
+    },
+    "deliveryStatus_DELIVERING": "Spedito",
+    "statusF": "Consegnato",
+    "status": "Stato",
+    "costCenterAndUnit": "Centro di costo / Unità",
+    "placedBy": "effettuato da",
+    "deliveryStatus_PICKUP_COMPLETE": "Pickup completato",
+    "brandColumn": "Brand",
+    "orderId": "Ordine #",
+    "deliveryStatus_DELIVERY_REJECTED": "Consegna rifiutata",
+    "alternativeProducts": {
+      "replaceAction": "Sostituisci il prodotto nell'ordine",
+      "areYouSure": "Sei certo di voler sostituire questo prodotto nell'ordine?",
+      "cancelAction": "Cancella",
+      "article": "Articolo FUN",
+      "productReplacedError": "Attenzione! Potrebbe esserci un problema con la sostituzione del tuo prodotto. Per favore, riprova",
+      "productReplacedSuccessfully": "Prodotto sostituito con successo!",
+      "productReplacementTitle": "Sostituzione del prodotto",
+      "checkAlternativeProducts": "Mostra prodotti alternativi",
+      "replaceOrderItem": "Sostituisci l'articolo ordinato con questo prodotto",
+      "newPrice": "Prezzo nuovo"
+    },
+    "notAvailableOnRequestDate": "Nessuna disponibilità per la data richiesta",
+    "statusDisplay_cancelling": "Annullamento in sospeso",
+    "costCenterAndUnitValue": "{{costCenterName}} / {{unitName}}",
+    "deliveryStatus_PICKPACK": "Spedizione in preparazione",
+    "statusDisplay_cancelled": "Annullato",
+    "statusDisplay_merchant": {
+      "approved": "Merchant Approvato",
+      "rejected": "Merchant Rifiutato"
+    },
+    "descriptionColumn": "Descrizione",
+    "statusDisplay_approved": "Approvato",
+    "statusCC": "Completato",
+    "statusDisplay_error": "in attesa",
+    "statusColumn": "Stato",
+    "costCenter": "Centro di costo",
+    "shippedOn": "Spedito il",
+    "expectedDeliveryDateColumn": "Data di consegna originale",
+    "productColumn": "Prodotto",
+    "tabs": {
+      "deliveries": "Spedizione prodotti",
+      "order": "Ordine {{orderNumber}}"
+    },
+    "materialColumn": "Materiale",
+    "statusDisplay_pending": {
+      "merchant": {
+        "approval": "In attesa di approvazione Merchant"
+      },
+      "approval": "In attesa di approvazione"
+    },
+    "deliveryStatus_PAYMENT_NOT_CAPTURED": "Problema di pagamento",
+    "payByAccount": "Paga tramite account",
+    "deliveryStatus_READY_FOR_SHIPPING": "Pronto per la spedizione",
+    "deliveryStatus_TAX_NOT_COMMITTED": "Problema fiscale",
+    "deliveryStatus_WAITING": "In attesa",
+    "statusC": "Consegna creata",
+    "replenishmentId": "Rifornimento #",
+    "cancelled": "Annullato",
+    "statusDisplay_created": "Creato",
+    "statusDisplay_rejected": "Respinto",
+    "none": "Nessuno {{value}}",
+    "statusDisplay_processing": "in attesa",
+    "placed": "effettuato",
+    "statusAA": "Aperto",
+    "paidByCreditCard": "(Pagato con carta di credito)",
+    "deliveryStatus_CANCELLED": "Annullato",
+    "statusD": "Scelto",
+    "frequency": "Frequenza",
+    "deliveryStatus_IN_TRANSIT": "In transito",
+    "deliveryStatus_DELIVERY_COMPLETED": "Consegnato",
+    "startOn": "Inizia",
+    "statusDD": "Annullato",
+    "quantityColumn": "Quantità",
+    "statusDisplay_Error": "in attesa",
+    "brandMissing": "Senza brand",
+    "nextOrderDate": "Prossima data utile per effettuare l'ordine",
+    "priceColumn": "Prezzo unico",
+    "statusBB": "Consegnato in parte",
+    "emptyPurchaseOrderId": "Nessuno",
+    "deliveryStatus_SHIPPED": "Spedito",
+    "statusDisplay_assigned": {
+      "admin": "Assegnato all'amministratore"
+    },
+    "statusDisplay_completed": "Completato",
+    "statusA": "Ordine riconosciuto",
+    "returnToOrdersButton": "Torna agli ordini",
+    "confirmedDeliveryDateColumn": "Data di consegna prevista",
+    "statusB": "Ordine confermato"
+  },
+  "orderHistory": {
+    "purchaseOrderNumberColumn": "Numero ordine:",
+    "sortByMostRecent": "Ordina per Più recente",
+    "statusPlaceholder": "Stato",
+    "noOrdersFilter": "Nessun risultato trovato.",
+    "deliveryDateColumn": "Data di consegna prevista",
+    "past12months": "12 mesi",
+    "startShopping": "Inizia ad acquistare",
+    "date": "Data",
+    "orderChannelColumn": "Canale",
+    "orderNumberFilter": "Numero ordine:",
+    "noOrders": "Non abbiamo ordini per questo account.",
+    "frequency": "Frequenza",
+    "noReplenishmentOrders": "Non abbiamo nessun ordine di rifornimento per questo account.",
+    "startOn": "Inizio",
+    "nextOrderDate": "Prossima data utile per effettuare l'ordine",
+    "invoice": "Fattura",
+    "lastOrders": "Visualizza gli ordini degli ultimi:",
+    "cancel": "Annulla",
+    "statusF": "Consegnato",
+    "status": "Stato",
+    "statusB": "Ordine confermato",
+    "orderStatusFilter": "Stato:",
+    "orderReferencePlaceholder": "Riferimento",
+    "emptyPurchaseOrderId": "Nessuno",
+    "statusCC": "Completato",
+    "pageOfPages": "Pagina {{page}} di {{pageCount}}",
+    "statusBB": "Confermato",
+    "previousPage": "Precedente",
+    "statusE": "Spedito",
+    "replenishmentHistory": "Storico Rifornimenti",
+    "orderReferenceColumn": "Riferimento",
+    "orderHistory": "Cronologia ordini",
+    "notFound": "Nessun ordine trovato",
+    "invoiceType": "Tipo di fattura",
+    "orderId": "Ordine #",
+    "statusAA": "Accettato",
+    "total": "Totale",
+    "cancelled": "Annullato",
+    "statusColumn": "Status",
+    "returns": "Resi",
+    "statusC": "Consegna creata",
+    "past6months": "6 mesi",
+    "creditNotes": "Nota di credito",
+    "replenishmentOrderHistory": "Storico Ordini di Rifornimento",
+    "allOrdersTab": "TUTTI GLI ORDINI ({{count}})",
+    "replenishmentOrderId": "Rifornimento #",
+    "orderType": "Tipo d'ordine:",
+    "orderReferenceFilter": "Riferimento:",
+    "orders": "Ordini",
+    "nextPage": "Successivo",
+    "valueColumn": "Valore",
+    "purchaseOrderNumber": "Numero d'ordine #",
+    "orderNumberColumn": "Numero ordine:",
+    "dateFilter": "Data:",
+    "past3months": "3 mesi",
+    "statusA": "Ordine riconosciuto",
+    "past9months": "9 mesi",
+    "orderAdditionalReferenceColumn": "Riferimento aggiuntive",
+    "quotes": "Offerte",
+    "statusD": "Scelto"
+  },
+  "orderInvoices": {
+    "orderType": {
+      "value": ""
+    },
+    "invoiceNumberColumn": "Numero di fattura",
+    "amountColumn": "Quantità",
+    "referenceColumn": "Riferimento",
+    "purchaseOrderColumn": "Ordine",
+    "nameColumn": "Nome",
+    "pdfColumn": "PDF",
+    "lineItemColumn": "Elemento pubblicitario",
+    "downloadPDF": "PDF",
+    "noInvoices": "Nessuna fattura trovata",
+    "invoices": "Fatture ({{count}})",
+    "invoiceNumberFilter": "Numero di fattura:",
+    "documentDateColumn": "Data",
+    "taxAmountColumn": "Ammontare della tassa",
+    "orderNumberColumn": "Numero d'ordine",
+    "textColumn": "Testo",
+    "noInvoicesFilter": "Nessun risultato trovato."
+  },
+  "productQuestions": {
+    "hoods": {
+      "questions": {
+        "1": {
+          "question": "Dove posso acquistare le part di ricambio della cappa ?",
+          "answer": "I ricambi originali Franke sono forniti dalla rete dei centri assistenza autorizzati Franke. Per avere il riferimento del centro di assistenza autorizzato a lei più vicino la invitiamo a contattare il numero verde Franke 800 359 359 [oppure clicca qui](https://www.franke.com/it/it/hs/assistenza/dove-trovare-franke/trova-punto-vendita.html)"
+        },
+        "2": {
+          "answer": "Consultando il libretto di istruzioni è possibile ritrovare tutte le informazioni utili per una corretta installazione. Inoltre è possibile rivolgersi ai nostri Centri di Assistenza Tecnica, i quali saranno in grado di rispondere ed intervenire per qualsiasi vostra necessità. (N.B. l’eventuale intervento del Centro di Assistenza Tecnica, è a pagamento).",
+          "question": "A chi posso rivolgermi se ho problemi con l'installazione?"
+        },
+        "3": {
+          "answer": "La rumorosità di una cappa è generata dal flusso d'aria che passa nel suo interno durante il funzionamento. Abbiamo costruito i componenti interni delle nostre cappe in modo che il flusso d'aria trovi pochi ostacoli al suo passaggio, con ottimi risultati in termini di efficacia e bassa emissione di rumore. Un accorgimento efficace per evitare l'incremento della rumorosità è quello di utilizzare, per la fuoriuscita dell'aria, tubazioni ben dimensionate (120-150 mm di diametro). I filtri sporchi o saturi possono ostacolare il flusso dell’aria: la pulizia (o sostituzione) periodica dei filtri garantisce un agevole flusso dell’aria.",
+          "question": "Come posso ridurre il rumore della cappa se eccessivo?"
+        },
+        "4": {
+          "question": "Come va installata correttamente la cappa?",
+          "answer": "La cappa va istallata ad una distanza minima è di 65 cm dal piano cottura. Ti consigliamo di non istallarla a più di 75 cm dal piano cottura perché possa aspirare correttamente i vapori. Lo scarico dei fumi, inoltre, deve essere il più vicino possibile alla cappa: scegli tubazioni di 150 mm di diametro (o comunque non inferiori ai 120 mm), non più lunghe di 3-4 metri e con al massimo 2 curve. ATTENZIONE: la garanzia non copre eventuali danni causati dal mancato rispetto delle distanze minime di sicurezza."
+        },
+        "5": {
+          "answer": "Il modello di ogni cappa è riportato nell’etichetta all’interno del prodotto (raggiungibile rimuovendo i filtri metallici/griglia) che presenta un codice assistenza, nella parte alta destra, di 7 o 9 cifre che inizia per 63…, oppure un codice di 10 cifre con formato 110.xxxx.xxx.",
+          "question": "Come posso identificare il modello della cappa?"
+        },
+        "6": {
+          "question": "E' meglio installare la cappa in versione aspirante o filtrante?",
+          "answer": "Ti raccomandiamo di istallare la cappa in versione aspirante che è la soluzione più efficace, sicura e silenziosa: efficace perché espelle l’aria inquinata all’esterno attraverso un tubo di scarico; sicura perché richiama all’interno aria nuova. E la sicurezza è importante, soprattutto in presenza di apparecchi a gas: lo dice anche la Legge 46/90; silenziosa perché la velocità di rotazione del gruppo motore è, in generale, molto più bassa e si formano meno vortici interni."
+        },
+        "7": {
+          "question": "Perché il centro di assistenza tecnica non interviene per problemi legati all'estetica del prodotto?",
+          "answer": "Perché il difetto estetico deve essere “denunciato” all’installatore, direttamente all’installazione, ovvero all’apertura dell’imballo della cappa. Reclami successivi, non possono essere riconosciuti in garanzia e l’eventuale intervento del Centro di Assistenza Tecnica sarà fuori garanzia."
+        },
+        "8": {
+          "answer": "È facile avere la cappa sempre bella e pulita: bastano un panno morbido e un detergente neutro, privo di cloro per non danneggiare la finitura.",
+          "question": "Come va pulita la cappa?"
+        },
+        "9": {
+          "question": "Cosa sono i filtri? Ogni quanto devo sostituirli?",
+          "answer": "I filtri sono parte integrante della cappa, la loro manutenzione influisce sull’efficacia, la sicurezza e la rumorosità della cappa. I filtri antigrasso proteggono il motore dai grassi contenuti nei vapori aspirati dalla cappa. I filtri in metallo presenti sulle cappe Franke assicurano un'elevata cattura delle particelle di grasso. Per mantenerli efficienti basta lavarli, a mano o in lavastoviglie, in media ogni 2 mesi. I filtri sintetici, eventualmente presenti su alcuni vecchi modelli, non sono lavabili e vanno sostituiti quando impregnati di grasso, all’incirca ogni 2 mesi. I filtri antiodore sono cartucce di carboni attivi da installare esclusivamente sulle cappe in versione filtrante. Non sono lavabili e vanno sostituiti periodicamente, in media ogni 3 mesi."
+        },
+        "10": {
+          "question": "Quali tubazioni sono consigliate per avere la migliore prestazione di aspirazione?",
+          "answer": "Una tubazione di diametro pari a 150 mm. È l’ottimale per cappe con portata da 300 mc/h in su. Qualora non sia possibile l’installazione della suddetta tubazione, consigliamo una tubazione di diametro pari a 120 mm. Tubazioni più piccole inficiano negativamente sulla portata e sulla rumorosità della cappa."
+        },
+        "11": {
+          "question": "Ho una spia che lampeggia. Devo chiamare un'assistenza?",
+          "answer": "Prima di chiamare l’Assistenza tecnica per richiedere un intervento, consultare il libretto di istruzioni della cappa ai paragrafi “Uso” e “Manutenzione”, al fine di verificare se la spia è in realtà un allarme sulla cappa che può essere spento semplicemente eseguendo un reset sui comandi dell’apparecchio."
+        },
+        "12": {
+          "question": "La cappa fa una vinrazione anomala. Cosa devo fare?",
+          "answer": "Verificare o far verificare dall’installatore l’installazione eseguita, in modo da appurare che sia stata fatta a “regola d’arte” e comunque seguendo le fasi descritte nel libretto di istruzioni fornito con la cappa. Se l’installazione è corretta e la rumorosità effettivamente deriva dal prodotto, occorre far intervenire il Tecnico del Centro di Assistenza Tecnica autorizzato"
+        },
+        "13": {
+          "answer": "Verificare o far verificare dall’installatore l’installazione eseguita, in modo da appurare che sia stata fatta a “regola d’arte” e comunque seguendo le fasi descritte nel libretto di istruzioni fornito con la cappa. Se l’installazione è corretta e la scarsa aspirazione deriva da un difetto del prodotto, occorre far intervenire il Tecnico del Centro di Assistenza Tecnica autorizzato",
+          "question": "La cappa non aspira bene cosa devo fare?"
+        }
+      },
+      "category": "Cappe"
+    },
+    "equipment": {
+      "questions": {
+        "1": {
+          "question": "Perché dovrei scegliere gli accessori Franke?",
+          "answer": "Gli accessori Franke vi aiutano a mantenere la cucina pulita e ordinata, aumentano così il piacere di cucinare. I nostri taglieri e le nostre vaschette forate sono perfettamente adattati alla forma dei nostri lavelli per rendervi il lavoro più agevole."
+        },
+        "2": {
+          "answer": "",
+          "question": ""
+        },
+        "3": {
+          "question": "",
+          "answer": ""
+        },
+        "4": {
+          "question": "",
+          "answer": ""
+        },
+        "5": {
+          "question": "",
+          "answer": ""
+        },
+        "6": {
+          "answer": "",
+          "question": ""
+        },
+        "7": {
+          "question": "Come posso evitare che il distributore di detersivo si intasi?",
+          "answer": "Potete diluire un detersivo forte condensato con una proporzione di 1/3 di acqua e 2/3 di detersivo in modo che il distributore di detersivo non si intasi. Inoltre, è consigliabile pulire il distributore di detersivo regolarmente."
+        }
+      },
+      "category": "Accessori"
+    },
+    "sinks": {
+      "questions": {
+        "1": {
+          "answer": "I fori ai lavelli in acciaio inox si dovrebbero operare prima dell'acquisto. Vi preghiamo di ordinare i lavelli fin dal principio con tutti i fori necessari. Se operate autonomamente fori a un lavello in acciaio inox, è possibile che attorno al foro si formino ammaccature e, a causa del calore d'attrito, macchie marroni. I lavelli in Fragranit sono forniti con fori pilota come punti di rottura predeterminati. È possibile aprire dei fori come indicato di seguito:\n- posizionare attentamente il lavello nel ritaglio del piano di lavoro. Questo garantisce sufficiente stabilità.\n- Collocare uno piccolo punzone piatto al centro dell'adesivo sul foro pilota prescelto. NON APRIRE IL FORO PILOTA DAL BASSO!\n- Dare martellate decise al punzone.\n- Rimuovere la carota affinché morsetti di fissaggio, rubinetti o accessori possano essere montati nella posizione appropriata.\n- Si prega di attenersi alle istruzioni di montaggio fornite con il lavello.",
+          "question": "Come posso operare fori addizionali al mio lavello in acciaio inox?"
+        },
+        "2": {
+          "answer": "- I lavelli vanno puliti regolarmente.\n- Per la pulizia utilizzate acqua calda, detersivo e una spugna. Sciacquate abbondantemente con acqua pulita e infine asciugate il lavello.\n- Per rimuovere lo sporco ostinato e le macchie l’ideale è uno speciale detergente per acciaio inox o un latte detergente delicato. Strofinate sempre nella direzione della trama superficiale, sciacquate accuratamente e infine asciugate il lavello.\n- Così il lavello rimarrà splendente\n- Versate un po' di olio minerale su di un panno umido. Applicatelo con il panno sull'intera superficie del lavello e lucidate fino a quando il lavello è nuovamente splendente.",
+          "question": "Avete consigli su come mantenere sempre come nuovi i miei lavelli in acciaio inox?"
+        },
+        "3": {
+          "answer": "Non pulite mai il lavello con lana d'acciaio, spugne abrasive, spazzole d'acciaio o simili. Tali utensili possono rilasciare particelle molto piccole che intaccano la superficie del lavello e possono portare alla formazione di ruggine.",
+          "question": "Cosa dovrei evitare nella pulizia dei lavelli?"
+        },
+        "4": {
+          "question": "Posso collocare un tappetino in gomma sul lavello?",
+          "answer": "No. Sui tappetini di gomma si accumula acqua, che porta a depositi di ferro e macchie sulla superficie."
+        },
+        "5": {
+          "question": "Il mio nuovo lavello in acciaio inox si graffierà con il tempo?",
+          "answer": "Come quasi tutti gli oggetti in acciaio inox, nel corso del tempo anche i lavelli in acciaio inox si graffiano. È inevitabile. Ma il più a lungo il lavello è in uso, meno evidenti sono i graffi."
+        },
+        "6": {
+          "answer": "L'acciaio inox può sopportare temperature molto alte o basse, nonché improvvisi sbalzi di temperatura. Ciò significa che potete versare l'acqua di cottura della pasta nel lavello e raffreddare immediatamente la pasta con acqua gelida senza che il lavello subisca alcun danno.",
+          "question": "I lavelli in acciaio inox sono resistenti alle temperature estreme?"
+        },
+        "7": {
+          "question": "Perché l'acqua lascia tracce sulla superficie del lavello?",
+          "answer": "Se le gocce d'acqua rimangono sull'acciaio inox, l'acqua evapora e lascia in quei punti una pellicola superficiale. Tali macchie d'acqua possono essere eliminate con un panno morbido e un po' di detersivo liquido. In caso di depositi più resistenti, l'ieale è una soluzione delicata di acqua e aceto. Sciacquate abbondantemente e asciugate con un canovaccio.\nSuggerimenti di manutenzione per il vostro lavello: Dopo l'uso, sciacquate il lavello con acqua e asciugate con un canovaccio in modo che la superficie non sia esposta all'ossigeno nell'aria. L'ossigeno reagisce con il cromo dell'acciaio e forma una robusta pellicola di ossido di cromo sulla superficie dell'acciaio che rappresenta la migliore protezione possibile per il vostro lavello. Grazie a questa pellicola, l'acciaio inox è resistente alla corrosione ed estremamente resistente."
+        },
+        "8": {
+          "answer": "L'acciaio inox è un materiale eccezionale che non può arrugginire. Tuttavia, le particelle di ferro, provenienti ad esempio da utensili da cucina in metallo, aderiscono facilmente alle superfici in acciaio inox. Queste particelle di ferro arrugginiscono. Versate un po' di un prodotto per metallo, ad esempio Autosol®, su un panno umido o asciutto e pulite il fondo e le pareti del lavello. Strofinate sempre seguendo la direzione della trama superficiale. Potete pulire il fondo e le pareti del lavello - ma NON le superfici lucide! - anche con carta abrasiva come Scotch-Brite®. Quando le superfici lucidate diventano opache, è possibile donare loro nuova lucentezza con un lucido per metalli. Ma non usate un bagno di pulizia per l'argento! Sciacquate abbondantemente e asciugate con un canovaccio.\nSuggerimenti di manutenzione per il vostro lavello: Dopo l'uso, sciacquate il lavello con acqua e asciugate con un canovaccio in modo che la superficie non sia esposta all'ossigeno nell'aria. L'ossigeno reagisce con il cromo dell'acciaio e forma una robusta pellicola di ossido di cromo sulla superficie dell'acciaio che rappresenta la migliore protezione possibile per il vostro lavello. Grazie a questa pellicola, l'acciaio inox è resistente alla corrosione ed estremamente resistente.",
+          "question": "Nel mio lavello ci sono macchie di ruggine: come può essere???"
+        },
+        "9": {
+          "question": "Quali altri materiali utilizza Franke per i suoi lavelli oltre all'acciaio inox?",
+          "answer": "Franke produce lavelli per ogni stile d'arredo. Realizziamo lavelli in materiali di vari colori e trame. Oltre all'acciaio inox, Franke realizza lavelli anche in Fragranit, Tectonite, ceramica e vetro."
+        },
+        "10": {
+          "question": "I lavelli Franke sono porosi?",
+          "answer": "No. I lavelli Franke, ad esempio, sono costituiti da acciaio inox di alta qualità, ceramica o Fragranit. Nessuno di questi materiali è poroso."
+        },
+        "11": {
+          "question": "Qual è la differenza tra un lavello da sottopiano e un lavello da soprapiano?",
+          "answer": "Un lavello da soprapiano viene inserito dall'alto nel ritaglio del piano di lavoro, in modo che il bordo del lavello posi sul piano di lavoro. Un lavello da sottopiano è montato dal basso con speciali elementi di fissaggio al piano di lavoro, in modo che lo spigolo lucido del piano di lavoro in granito, marmo o altro materiale sia visibile sopra il bacino. Il ritaglio per un lavello da sottopiano, dunque, è più elaborato rispetto a quello per un lavello a incasso. Di conseguenza, i lavelli da sottopiano sono la versione più costosa."
+        },
+        "12": {
+          "answer": "La combinazione di bacini più adatta dipende esclusivamente dalle vostre esigenze. Se lavorate spesso con grandi piastre, padelle o pentole, un lavello con un bacino grande e uno piccolo è di solito la scelta migliore. Una combinazione di due bacini della stessa dimensione, tuttavia, è una buona soluzione per lavaggio e risciacquo.",
+          "question": "Qual è la migliore combinazione di bacini?"
+        },
+        "13": {
+          "answer": "Il lavello è utilizzato per preparare alimenti, per cucinare, nella successiva pulizia e per molto altro. Questo lo rende l'elemento della cucina più intensamente utilizzato.\nPer maggiori informazioni sulla scelta di un lavello da cucina Scegliere il giusto lavello.",
+          "question": "Come devo procedere nella scelta del mio lavello per la cucina?"
+        },
+        "14": {
+          "question": "Ci sono lavelli di diversi tipi di acciaio inox?",
+          "answer": "Sì. Ci sono lavelli in acciaio inox che conquistano con la lucentezza iniziale, ma nel tempo sono soggetti a ruggine o corrosione. Ciò significa che non tutti i lavelli in acciaio inox sono identici in termini di qualità e materiali. Cercate acciaio inox di alta qualità con un contenuto ottimale di cromo e nichel, contraddistinto da un'elevata resistenza alla corrosione e durevolezza."
+        },
+        "15": {
+          "question": "A cosa dovrei porre attenzione nelle superfici in acciaio inox?",
+          "answer": "Cercate una lucentezza satinata delicata e opaca piuttosto che una lucentezza meramente superficiale. La lucentezza satinata è il risultato di una sofisticata fabbricazione meccanica e una finitura artigianale e assicura che il lavello conservi la propria bellezza per molti anni. Senza crepe, scheggiature, ruggine o scolorimento. Molti ritengono addirittura che questi lavelli, grazie alla patina che si sviluppa nel corso del tempo, diventino sempre più belli con gli anni."
+        },
+        "16": {
+          "answer": "Quando si confrontano le capacità dei diversi lavelli, bisogna fare attenzione a 3 importanti misure:\n- Profondità - distanza tra il bordo superiore del lavello e il fondo al livello dello scolo\n- Inclinazione delle pareti - inclinazione delle pareti laterali dal bordo superiore fino al fondo del lavello\n- Raggio angolare - misura della forma compresa tra tra le pareti laterali e il fondo del bacino\nPiù profondo il bacino, maggiore l'inclinazione delle pareti e più stretto (piccolo) il raggio, maggiore è la capacità del lavello.",
+          "question": "Come è possibile determinare la capacità di un lavello?"
+        },
+        "17": {
+          "answer": "assicura che l'acqua non si raffreddi troppo rapidamente nel lavello.",
+          "question": "Quale scopo ha l'isolamento sotto il lavello?"
+        },
+        "18": {
+          "answer": "Per maggiori informazioni [Perché Franke?](https://www.franke.com/ch/it/hs/competenza-tecnica/perche-franke.html)",
+          "question": "Perché dovrei comprare un lavello Franke e non di un altro produttore?"
+        },
+        "20": {
+          "question": "",
+          "answer": ""
+        },
+        "21": {
+          "answer": "",
+          "question": ""
+        },
+        "22": {
+          "answer": "",
+          "question": ""
+        },
+        "23": {
+          "question": "",
+          "answer": ""
+        },
+        "24": {
+          "answer": "",
+          "question": ""
+        },
+        "25": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      "category": "Lavelli"
+    },
+    "hobs": {
+      "questions": {
+        "1": {
+          "question": "Dove posso acquistare le parti di ricambio del piano cottura?",
+          "answer": "I ricambi originali Franke sono forniti dalla rete dei centri assstenza autorizzati Franke. Per avere il riferimento del centro assistenza autorizzato a lei più vicino la invitiamo a contattare il numero verde Franke 800 359 359 [oppure clicca qui](https://www.franke.com/it/it/hs/assistenza/dove-trovare-franke/trova-punto-vendita.html)"
+        },
+        "2": {
+          "answer": "Per le riparazioni in garanzia e fuori garanzia Franke si avvale di una rete di centri assistenza aurorizzati. Per avere il riferimento del centro assistenza autorizzato a lei più vicino la invitiamo a contattare il numero verde Franke 800 359 359",
+          "question": "A chi posso rivolgermi per la riparazione del mio piano cottura Franke?"
+        },
+        "3": {
+          "answer": "La valvola di sicurezza è un dispositivo che protegge dalla fuoriuscita accidentale del gas. Mediante il funzionamento di una termocoppia il passaggio del gas viene bloccato in caso di anomalo spegnimento della fiamma dovuto per esempio dal trabocco di liquidi o da una corrente d'aria.",
+          "question": "Come funziona la valvola di sicurezza di un piano cottura?"
+        },
+        "4": {
+          "question": "La fiamma del bruciatore non si accende?",
+          "answer": "Avvertite il rumore (\"tic tic\") della scarica della candeletta ceramica quando tentate di accendere il bruciatore? Se no verificate la presenza dell'alimentazione elettrica."
+        },
+        "5": {
+          "question": "La fiamma del bruciatore non si accende?",
+          "answer": "Se la fiamma del bruciatore non si accende verificare in primo luogo se il piattello e lo spargifiamma sono mal posizionati sul bruciatore. Verificare anche che la candeletta ceramica bianca che genere la scintilla non sia sporca e quindi non in grado di scaricare la scintilla sullo spargifiamma. In tal caso la candeletta è da pulire con un panno umido e da asciugare."
+        },
+        "6": {
+          "answer": "Il rumore da voi avvertito è generato dalla scarica elettrica della candeletta ceramica di accensione. Potrebbe essersi inumidita, a causa di unn trabocco di liquidi, la zona del piano cottura che contiene la centralina elettrica di accensione. Provate a scollegare e lasciate scollegata per una giornata l'alimentazione elettrica. Nel caso il problema persista contattate un centro assistenza autorizzato Franke.",
+          "question": "Avvertite un continuo rumore tipo \"tic tic\" provenire dal piano cottura?"
+        },
+        "7": {
+          "question": "Come posso mantenere le parti in ghisa in utilizzo sul piano cottura?",
+          "answer": "Per una corretta manutenzione le parti in ghisa del piano cottura devono sempre essere lavate a mano con un detergente neutro. E' sconsigliato il lavaggio in lavastoviglie in quanto questo tipo di lavaggio risulta essere troppo aggressivo e causerebbe opacità sulla superficie della ghisa."
+        },
+        "11": {
+          "question": "Come funziona un piano ad induzione?",
+          "answer": "Il piano cottura ad induzione funziona tramite una campo magnetico che genera calore sul fondo della pentola quando ques'ultima viene posizionata a contattao della superficie del piano. La pentola utilizzata su questo tipo di piano cottura, deve essere di materiale apposito che contenga ferro ed il suo fondo deve essere liscio per un ottimale resa dell'induttore. Pentole in Inox non magnetico, alluminio o rame così come tegami in terracotta o ceramica non risultano adatti per essere utilizati con l'induzione."
+        },
+        "12": {
+          "question": "Quali sono i vantaggi nell'utilizzo di un piano cottura ad induzione?",
+          "answer": "Il grande benficio del piano ad inuzione è dato dalla rapidità di cottura. L'ebollizione dell'acqua per fare della pasta avviene per esempio in tempi molto più brevi rispetto all'utilizzo di un normale piano a gas. E' da considerarsi anche la facilità della pulizia in quanto la superficie del piano ad induzione è completamente piatta. Altro fattore importante è il totale controllo elettronico dei comandi che consente una totale sicurezza e svariate funzioni d'uso."
+        },
+        "13": {
+          "answer": "I piani ad induzione hanno generalmente un assorbimento superiore alla potenza di 3 kW disponibile presso l'abitazione. Tuttavia per permettere l'uso e contenere i consumi Franke (su alcuni modelli della gamma) permette il settaggio del massimo livello di assorbimento del piano ad induzione. E' logico che riducendo la potenza si limita la possibilità di sfruttare il prodotto alle massime prestazioni.",
+          "question": "E' possibile utilizzare il piano ad induzione con una potenza di 3 kW?"
+        },
+        "14": {
+          "answer": "Il piano di cottura in vetroceramica funziona mediante delle resistenze elettriche radianti, poste sotto il vetro che diffondono il calore nella zona di cottura corrispondente. Il piano ad induzone invece funziona tramite delle bobine (induttori)che innescano un campo magnetico solo se la pentola (con fondo ferroso) viene appoggiata sulla superficie del piano in corrispondenza della zona di cottura selezionata.",
+          "question": "Qual è la differenza tra un piano di cottura in vetroceramica ed un piano di cottura ad induzione?"
+        },
+        "16": {
+          "answer": "Suggeriamo di procedere alla pulizia quando la superficie del piano è ancora tiepida e le spie di indicatore calore residuo si sono spente. Per la pulizia utilizzare un raschietto per rimuovere tutti i residui di cibo avendo cura di non produrre graffi sulla sueprficie del vetro. Risciacquare quindi con acqua ed asciugare bene con un panno pulito. Il costante utilizzo del raschietto riduce l'impiego di prodotti chimici per la pulizia.",
+          "question": "Come si pulisce la supericie di un piano induzione o vetrocermaico?"
+        },
+        "17": {
+          "answer": "",
+          "question": ""
+        }
+      },
+      "category": "Piani cottura"
+    },
+    "fittings": {
+      "questions": {
+        "1": {
+          "answer": "I rubinetti moderni, con una cura adeguata, durano a lungo indipendentemente dal materiale e dal design. Non pulite i rubinetti con detergenti abrasivi o altri detergenti aggressivi. Un panno morbido inumidito con acqua fredda, di norma, è più che sufficiente. In generale, il cromo è il più resistente.",
+          "question": "I rubinetti sono ugualmente duraturi indipendentemente dal materiale e dal design?"
+        },
+        "2": {
+          "question": "",
+          "answer": ""
+        },
+        "3": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      "category": "Rubinetti da cucina"
+    }
+  },
+  "customerServicesQuestions": {
+    "customerService": {
+      "category": "Assistenza clienti",
+      "questions": {
+        "1": {
+          "answer": "Potete contattare il team di assistenza clienti compilando il <u><a class=\"form\" href=\"/client-service\">modulo di contatto</a></u> presente nella sezione di assistenza clienti.",
+          "question": "Come faccio a contattare il team di assistenza clienti?"
+        },
+        "2": {
+          "answer": "",
+          "question": ""
+        }
+      }
+    },
+    "complaints": {
+      "questions": {
+        "1": {
+          "question": "Come posso presentare un reclamo?",
+          "answer": "Per presentare un reclamo, vi invitiamo a visitare la sezione di assistenza clienti e a compilare il <u><a class=\"form\" href=\"/client-service\">modulo di reclamo.</a></u>"
+        },
+        "3": {
+          "question": "Dove posso trovare il mio numero di pratica?",
+          "answer": "Quando presentate un reclamo, ricevete un’e-mail di conferma in cui è indicato un numero di pratica. Se non trovate il messaggio nella vostra casella di posta, controllate la cartella della posta indesiderata."
+        },
+        "4": {
+          "answer": "Inviateci un messaggio attraverso il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>",
+          "question": "Ho un’altra domanda. Chi posso contattare?"
+        }
+      },
+      "category": "Reclami"
+    }
+  },
+  "portalQuestions": {
+    "spareParts": {
+      "questions": {
+        "1": {
+          "answer": "I ricambi sono componenti essenziali sostitutivi per il vostro prodotto. Gli accessori sono elementi aggiuntivi che integrano il funzionamento di un prodotto, ma senza i quali il prodotto può comunque funzionare normalmente.",
+          "question": "Che differenza c’è tra un ricambio e un accessorio?"
+        },
+        "2": {
+          "question": "Come posso trovare il ricambio giusto per il mio prodotto?",
+          "answer": "Per avere la certezza di trovare il ricambio giusto, è essenziale innanzitutto identificare il prodotto. Troverete quindi un elenco dei ricambi disponibili per il prodotto specifico selezionato. In alternativa, potete consultare direttamente la pagina che elenca tutti i ricambi, usare le nostre opzioni di filtro avanzate, quindi scorrere i risultati per trovare il ricambio specifico."
+        },
+        "3": {
+          "answer": "Se non riuscite a trovare o selezionare il componente che cercate, significa che non è disponibile. VI invitiamo a contattare il nostro team di assistenza clienti compilando il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>",
+          "question": "Perché non riesco a trovare o selezionare un componente nel catalogo dei ricambi?"
+        },
+        "4": {
+          "answer": "Inviateci un messaggio attraverso il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>",
+          "question": "Ho un’altra domanda. Chi posso contattare?"
+        }
+      },
+      "category": "Ricambi"
+    },
+    "products": {
+      "questions": {
+        "1": {
+          "question": "Sul portale di Franke Partner Portal sono disponibili tutti i prodotti contenuti nel catalogo attuale?",
+          "answer": "Sì. Sul portale di Franke Partner Portal sono disponibili tutti i prodotti del catalogo attuale."
+        },
+        "2": {
+          "answer": "Sì. Sono presenti prodotti fuori produzione per consentirvi di accedere ai relativi ricambi o di scaricare la documentazione specifica.",
+          "question": "Sul portale di Franke Partner Portal si possono trovare prodotti fuori produzione?"
+        },
+        "3": {
+          "answer": "Potete cercare un prodotto inserendo direttamente il codice FUN o il codice interno di vendita, oppure digitando nome, colore, materiale o ogni altra caratteristica del prodotto. La funzione di ricerca vi suggerirà prodotti compatibili con le parole chiave inserite.",
+          "question": "Come funziona la ricerca dei prodotti?"
+        },
+        "4": {
+          "question": "Non riesco a trovare il prodotto che sto cercando.",
+          "answer": "Inviateci un messaggio attraverso il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>"
+        },
+        "5": {
+          "answer": "Tutte le informazioni relative a un prodotto si trovano nella pagina dei dettagli del prodotto.",
+          "question": "Dove posso trovare disegni esplosi di un prodotto specifico?"
+        },
+        "6": {
+          "answer": "Inviateci un messaggio attraverso il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>",
+          "question": "Come posso richiedere un preventivo per progetti o volumi più consistenti?"
+        },
+        "7": {
+          "answer": "Inviateci un messaggio attraverso il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>",
+          "question": "Come posso richiedere un preventivo per piani di lavoro su misura?"
+        },
+        "8": {
+          "question": "Ho un’altra domanda. Chi posso contattare?",
+          "answer": "Inviateci un messaggio attraverso il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>"
+        }
+      },
+      "category": "Prodotti"
+    },
+    "userAccount": {
+      "questions": {
+        "2": {
+          "answer": "Per modificare i dettagli personali, dovete contattare il nostro team di assistenza clienti compilando il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>",
+          "question": "Come faccio a modificare i miei dettagli personali/aziendali?"
+        },
+        "3": {
+          "answer": "I vostri dati personali saranno trattati in modo strettamente confidenziale e non saranno venduti, riutilizzati, affittati, condivisi o diffusi in alcun modo a terzi. A tal proposito, consultate la nostra <u><a href=\"/privacy\">politica sulla privacy.</a></u>",
+          "question": "In che modo sono protetti e archiviati i miei dati personali?"
+        },
+        "4": {
+          "answer": "Per eliminare il vostro account, dovete contattare il nostro team di assistenza clienti compilando il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>",
+          "question": "Come faccio a eliminare il mio account?"
+        },
+        "5": {
+          "answer": "Potete consultare la nostra informativa sulla privacy <u><a href=\"/privacy\">qui.</a></u>",
+          "question": "Dove posso consultare la politica sulla privacy di Franke?"
+        },
+        "6": {
+          "answer": "Inviateci un messaggio attraverso il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>",
+          "question": "Ho un’altra domanda. Chi posso contattare?"
+        }
+      },
+      "category": "Account utente"
+    },
+    "guarantee": {
+      "questions": {
+        "1": {
+          "answer": "I termini della garanzia sono gli stessi validi per gli altri canali di ordinazione. Per informazioni dettagliate sulla garanzia, consultate le <u><a href=\"/terms\">condizioni generali.</a></u>",
+          "question": "Quali sono i termini della garanzia e in quali casi ho il diritto di richiedere una riparazione in garanzia?"
+        },
+        "2": {
+          "answer": "Inviateci un messaggio attraverso il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>",
+          "question": "Ho un’altra domanda. Chi posso contattare?"
+        }
+      },
+      "category": "Garanzia"
+    }
+  },
+  "ordersAndShipmentQuestions": {
+    "order": {
+      "questions": {
+        "1": {
+          "question": "Come posso vedere se un prodotto è disponibile a magazzino o meno?",
+          "answer": "In ogni pagina di prodotto mostreremo se l'articolo è disponibile e la data di disponibilità. Basterà semplicemente fare clic sul pulsante \"verifica disponibilità\""
+        },
+        "2": {
+          "answer": "Puoi ordinare un prodotto una volta verificata la sua disponibilità per la data da te richiesta.",
+          "question": "Posso ordinare degli articoli momentaneamente esauriti?"
+        },
+        "3": {
+          "answer": "Potete accedere allo storico completo degli ordini e delle fatture dalla voce di menu <u><a href=\"/my-account/orders\">Odini</a></u> menu.",
+          "question": "Dove posso trovare un riepilogo dei miei ordini in corso, ordini arretrati e fatture?"
+        },
+        "5": {
+          "answer": "No, non c’è alcun quantitativo di ordine minimo. Per ordini di valore ridotto, ci riserviamo il diritto di addebitare una commissione aggiuntiva.",
+          "question": "Esiste un quantitativo di ordine minimo?"
+        },
+        "6": {
+          "answer": "No, se desiderate aggiungere altri prodotti dovete effettuare un nuovo ordine.",
+          "question": ""
+        },
+        "7": {
+          "answer": "Per verificare se potete annullare l’ordine, contattate il nostro team di assistenza clienti compilando il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>",
+          "question": "Posso annullare un ordine che è già stato inoltrato?"
+        },
+        "8": {
+          "question": "Quali modalità di pagamento offrite? È possibile ottenere una dilazione del pagamento?",
+          "answer": "Le modalità di pagamento dipendono dalla modalità standard concordata con il vostro Account Manager. Al momento non offriamo modalità di pagamento alternative attraverso il portale."
+        },
+        "9": {
+          "answer": "Inviateci un messaggio attraverso il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>",
+          "question": "Ho un’altra domanda. Chi posso contattare?"
+        }
+      },
+      "category": "Ordine"
+    },
+    "returns": {
+      "questions": {
+        "1": {
+          "question": "È possibile rendere la merce acquistata sul portale di Franke Partner Portal? Dove posso consultare le condizioni generali per i resi?",
+          "answer": "Per effettuare un reso, vi invitiamo a contattare il nostro team di assistenza clienti compilando il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>"
+        },
+        "2": {
+          "answer": "",
+          "question": ""
+        },
+        "3": {
+          "question": "Il mio ordine o parte di esso risulta danneggiato o difettoso. Cosa devo fare?",
+          "answer": "Per presentare un reclamo, vi invitiamo a visitare la sezione di assistenza clienti e a compilare il <u><a class=\"form\" href=\"/client-service\">modulo di reclamo.</a></u>"
+        },
+        "4": {
+          "question": "Ho un’altra domanda. Chi posso contattare?",
+          "answer": "Inviateci un messaggio attraverso il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>"
+        }
+      },
+      "category": "Resi"
+    },
+    "shipment": {
+      "questions": {
+        "2": {
+          "answer": "Al momento è disponibile solo la consegna standard. Per il futuro sono previste altre opzioni di consegna.",
+          "question": "Quali metodi di spedizione sono disponibili sul portale di Franke Partner Portal?"
+        },
+        "3": {
+          "question": "Offrite la consegna espressa?",
+          "answer": "Al momento permettiamo solo la consegna standard. Altre opzioni di consegna seguiranno."
+        },
+        "4": {
+          "question": "Il portale di Franke Partner Portal offre la consegna internazionale?",
+          "answer": "No, è possibile consegnare ordini solo nel paese da cui sono stati inoltrati."
+        },
+        "5": {
+          "answer": "Per verificare lo stato di un ordine, selezionate la voce di menu <u><a href=\"/my-account/orders\">Odini</a></u>. Troverete una panoramica degli ordini da cui potrete verificare lo stato di ognuno di essi.",
+          "question": "Come posso verificare lo stato del mio ordine?"
+        },
+        "6": {
+          "answer": "No, quando inoltrate un ordine dovete selezionare un indirizzo di consegna, a cui sarà spedita la merce. Potete aggiungere fino a quattro indirizzi diversi nella vostra rubrica.",
+          "question": "Posso ritirare la merce ordinata di persona, direttamente dal vostro magazzino?"
+        },
+        "7": {
+          "answer": "Inviateci un messaggio attraverso il <u><a class=\"form\" href=\"/client-service\">modulo di contatto.</a></u>",
+          "question": "Ho un’altra domanda. Chi posso contattare?"
+        }
+      },
+      "category": "Spedizione"
+    }
+  }
+}

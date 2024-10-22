@@ -1,0 +1,21 @@
+<div *ngIf="isDesktop$ | async; else nonDesktop">
+  <app-facets-active-filters></app-facets-active-filters>
+  <app-facets-filters></app-facets-filters>
+</div>
+
+<ng-template #nonDesktop>
+  <button #trigger (click)="launch()" class="btn dialog-trigger">
+    <cx-icon type="SLIDERS"></cx-icon>
+    {{ 'productList.filterBy.label' | cxTranslate }}
+  </button>
+
+  <app-facets-active-filters></app-facets-active-filters>
+
+  <app-facets-filters
+    (closeList)="close()"
+    *ngIf="isOpen$ | async"
+    [class.active]="isActive$ | async"
+    [class.dialog]="hasTrigger"
+    [isDialog]="hasTrigger"
+  ></app-facets-filters>
+</ng-template>

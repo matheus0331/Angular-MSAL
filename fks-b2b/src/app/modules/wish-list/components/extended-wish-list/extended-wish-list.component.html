@@ -1,0 +1,41 @@
+<ng-container *ngIf="wishLists$ | async as wishList2">
+  <ng-container *ngIf="wishList2?.entries?.length > 0; else emptyWishList">
+    <div class="container">
+      <div class="wish-list-wrapper">
+        <div *ngIf="isDesktop$ | async" class="wish-list-header">
+          <div class="wish-list-header-description">
+            {{ 'cartItems.description' | cxTranslate }}
+          </div>
+          <div class="wish-list-header-price">
+            {{ 'cartItems.itemPrice' | cxTranslate }}
+          </div>
+        </div>
+
+        <div *ngFor="let entry of wishList2?.entries" class="wish-list-table">
+          <app-extended-wish-list-grid-item
+            (remove)="removeEntry($event)"
+            *ngIf="
+              (isPortrait$ | async) && (isMobile$ | async);
+              else nonPortrait
+            "
+            [cartEntry]="entry"
+            [isLoading]="loading$ | async"
+            class="wish-list-grid-items"
+          ></app-extended-wish-list-grid-item>
+          <ng-template #nonPortrait>
+            <app-extended-wish-list-item
+              (remove)="removeEntry($event)"
+              [cartEntry]="entry"
+              [isLoading]="loading$ | async"
+              class="wish-list-items"
+            ></app-extended-wish-list-item>
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</ng-container>
+
+<ng-template #emptyWishList>
+  <h2>{{ 'wishlist.empty' | cxTranslate }}</h2>
+</ng-template>

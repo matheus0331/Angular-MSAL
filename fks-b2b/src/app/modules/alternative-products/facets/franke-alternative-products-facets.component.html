@@ -1,0 +1,15 @@
+<ng-container *ngFor="let facet of facets">
+  <div class="custom-control custom-switch">
+    <input
+      (click)="handleFacetChange(facet)"
+      [attr.checked]="facet.active === 'true' ? 'checked' : null"
+      [id]="facet.fieldName"
+      [name]="facet.fieldName"
+      class="custom-control-input"
+      type="checkbox"
+    />
+    <label [for]="facet.fieldName" class="custom-control-label">{{
+      facet.characteristic
+      }}</label>
+  </div>
+</ng-container>

@@ -1,0 +1,126 @@
+@import '../../../../../assets/scss/typography';
+
+@mixin pagination-text($font-size, $font-weight, $line-height, $color) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+}
+
+.order-navigation {
+  display: flex;
+  align-items: center;
+
+  .page-of-pages {
+    margin: 8px;
+    @include pagination-text(
+        var(--franke-font-size-base),
+        var(--font-weight-base),
+        24px,
+        var(--text-color)
+    );
+  }
+
+  .page {
+    width: 26px;
+    height: 26px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include pagination-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px,
+        var(--text-color)
+    );
+    background: var(--secondary-section-color);
+
+    &.current {
+      background: var(--text-color);
+      color: var(--white);
+    }
+
+    &:hover:not(.current) {
+      cursor: pointer;
+      text-decoration: underline;
+      filter: brightness(90%);
+    }
+
+    @media only screen and (min-width: 992px) {
+      width: 42px;
+      height: 40px;
+      margin: 8px;
+
+      @include pagination-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px,
+          var(--text-color)
+      );
+    }
+  }
+
+  .scroll {
+    display: flex;
+
+    .skip-five-button,
+    .end-number,
+    .start-number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--secondary-section-color);
+      width: 42px;
+      height: 40px;
+      margin: 8px;
+      @include pagination-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px,
+          var(--text-color)
+      );
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        filter: brightness(90%);
+      }
+    }
+  }
+
+  .prev-page,
+  .next-page {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    @include pagination-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px,
+        var(--text-color)
+    );
+    @media only screen and (min-width: 992px) {
+      margin: 8px;
+
+      @include pagination-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px,
+          var(--text-color)
+      );
+    }
+
+    .cx-icon,
+    cx-icon {
+      @media only screen and (min-width: 992px) {
+        margin-bottom: 2px;
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}

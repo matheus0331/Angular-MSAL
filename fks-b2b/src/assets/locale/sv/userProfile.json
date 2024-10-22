@@ -1,0 +1,56 @@
+{
+  "searchSupport": {
+    "placeholder": "Sök här...",
+    "results": "Resultat",
+    "manualTitle": "",
+    "manualDownload": "",
+    "text": "Sök efter ett FUN nummer, produktkod eller produktnamn",
+    "more": "Mer",
+    "allResults": "alla resultat",
+    "manualDescription": "",
+    "resultsFor": "Visar resultat för:"
+  },
+  "chat": {
+    "faq": "Franke FAQ",
+    "message1": "Hej, jag heter Laura. Jag är din personliga assistent. Hur kan jag hjälpa dig?",
+    "title": "Personlig assistent",
+    "message2": "Du kan välja mellan alternativ nedan eller ställa din egen fråga.",
+    "contact": "Kontakta Franke",
+    "complaint": "Skicka ett klagomål"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Behöver du hjälp med din produkt eller har du en fråga?",
+    "title": "Hej, vi är här för att hjälpa"
+  },
+  "contactForm": {
+    "contactType": "Välj kontakttyp",
+    "files": "Ladda upp bilder för att stödja din fråga",
+    "funNumber": "",
+    "request": "Beskriv din fråga",
+    "ticketAddSucess": "Ticket skapat!",
+    "ticketAddFail": "Fel vid skapande av ticket, försök igen!",
+    "subTitle2": "Använd vårt enkla kontaktformulär!",
+    "generalContactCategories": "Välj kategori",
+    "deleteFiles": "Radera",
+    "productSubCategories": "Välj underkategori",
+    "title": "Fler frågor?",
+    "subTitle1": "Det gick inte att hitta svaret på din fråga i vår FAQ",
+    "productCategories": "Välj produkt",
+    "orderNumber": "Ordernummer"
+  },
+  "product": {
+    "id": "FUN nummer"
+  },
+  "faq": {
+    "print": "Skriv ut den här sidan",
+    "customerServicesQuestions": "Kundtjänst",
+    "pageTitle": "Vanliga frågor (FAQ)",
+    "productQuestionsTitle": "Franke produkter",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Order och transport"
+  },
+  "videoTutorial": {
+    "title": ""
+  }
+}

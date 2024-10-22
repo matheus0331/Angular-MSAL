@@ -1,0 +1,24 @@
+<ng-container>
+  <div (click)="toggleSearch()" class="search-box">
+    <span class="search-box-content">
+      <cx-icon type="SEARCH"></cx-icon>
+      <span class="search-box-description">{{
+        'searchBox.placeholder' | cxTranslate
+        }}</span></span
+    >
+  </div>
+</ng-container>
+
+<ng-template cxOutletPos="after" cxOutletRef="NavigationBar">
+  <!--   <cx-searchbox class="d-none d-lg-block" [queryText]="query" *ngIf="visible"></cx-searchbox> -->
+  <app-franke-search-box
+    (startFocus)="open()"
+    (toggle)="toggleSearch()"
+    (value)="onChanged($event)"
+    [searchText]="displaySearchText(isMobile$ | async) | cxTranslate"
+  ></app-franke-search-box>
+  <app-search-results
+    [searchInput]="searchInput"
+    [visible]="visible"
+  ></app-search-results>
+</ng-template>

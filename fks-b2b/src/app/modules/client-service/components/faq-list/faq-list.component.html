@@ -1,0 +1,214 @@
+<div class="container">
+  <div class="wrapper">
+    <div class="title">
+      {{ 'faq.pageTitle' | cxTranslate }}
+    </div>
+
+    <div
+      *ngIf="
+        ('faq.portalQuestionsTitle' | cxTranslate) && faqPortalQuestions$
+          | async as faqPortalQuestions
+      "
+      class="question-list"
+    >
+      <div class="portal-questions-title">
+        {{ 'faq.portalQuestionsTitle' | cxTranslate }}
+      </div>
+      <ng-container
+        *ngFor="let faqCategory of faqPortalQuestions | keyvalue; index as i"
+      >
+        <ngb-accordion #acc="ngbAccordion" (panelChange)="handleChange($event)">
+          <ngb-panel *ngIf="faqCategory.value.category">
+            <ng-template ngbPanelTitle>
+              <div class="accordion-button">
+                <span>{{ faqCategory.value.category }}</span>
+                <div *ngIf="openById['ngb-panel-' + i + '']" class="indicator">
+                  -
+                </div>
+                <div *ngIf="!openById['ngb-panel-' + i + '']" class="indicator">
+                  +
+                </div>
+              </div>
+              <hr/>
+            </ng-template>
+            <ng-template ngbPanelContent>
+              <div
+                *ngFor="let question of faqCategory.value.questions | keyvalue"
+              >
+                <div
+                  (click)="
+                    getAnswer(
+                      faqCategory.value.category,
+                      question.key,
+                      'portal'
+                    )
+                  "
+                  *ngIf="question.value.question"
+                  [innerHTML]="question.value.question"
+                  class="category-question"
+                ></div>
+              </div>
+            </ng-template>
+          </ngb-panel>
+        </ngb-accordion>
+      </ng-container>
+    </div>
+
+    <div
+      *ngIf="
+        ('faq.customerServicesQuestions' | cxTranslate) &&
+          faqCustomerServicesQuestions$ | async as faqCustomerServicesQuestions$
+      "
+      class="question-list"
+    >
+      <div class="customer-service-questions-title">
+        {{ 'faq.customerServicesQuestions' | cxTranslate }}
+      </div>
+      <ng-container
+        *ngFor="
+          let faqCategory of faqCustomerServicesQuestions$ | keyvalue;
+          index as i
+        "
+      >
+        <ngb-accordion #acc="ngbAccordion" (panelChange)="handleChange($event)">
+          <ngb-panel *ngIf="faqCategory.value.category">
+            <ng-template ngbPanelTitle>
+              <div class="accordion-button">
+                <span>{{ faqCategory.value.category }}</span>
+                <div *ngIf="openById['ngb-panel-' + i + '']" class="indicator">
+                  -
+                </div>
+                <div *ngIf="!openById['ngb-panel-' + i + '']" class="indicator">
+                  +
+                </div>
+              </div>
+              <hr/>
+            </ng-template>
+            <ng-template ngbPanelContent>
+              <div
+                *ngFor="let question of faqCategory.value.questions | keyvalue"
+              >
+                <div
+                  (click)="
+                    getAnswer(
+                      faqCategory.value.category,
+                      question.key,
+                      'customer'
+                    )
+                  "
+                  *ngIf="question.value.question"
+                  [innerHTML]="question.value.question"
+                  class="category-question"
+                ></div>
+              </div>
+            </ng-template>
+          </ngb-panel>
+        </ngb-accordion>
+      </ng-container>
+    </div>
+
+    <div
+      *ngIf="
+        ('faq.ordersAndShipmentQuestions' | cxTranslate) &&
+          faqOrdersAndShipmentQuestions$
+          | async as faqOrdersAndShipmentQuestions$
+      "
+      class="question-list"
+    >
+      <div class="orders-questions-title">
+        {{ 'faq.ordersAndShipmentQuestions' | cxTranslate }}
+      </div>
+      <ng-container
+        *ngFor="
+          let faqCategory of faqOrdersAndShipmentQuestions$ | keyvalue;
+          index as i
+        "
+      >
+        <ngb-accordion #acc="ngbAccordion" (panelChange)="handleChange($event)">
+          <ngb-panel *ngIf="faqCategory.value.category">
+            <ng-template ngbPanelTitle>
+              <div class="accordion-button">
+                <span>{{ faqCategory.value.category }}</span>
+                <div *ngIf="openById['ngb-panel-' + i + '']" class="indicator">
+                  -
+                </div>
+                <div *ngIf="!openById['ngb-panel-' + i + '']" class="indicator">
+                  +
+                </div>
+              </div>
+              <hr/>
+            </ng-template>
+            <ng-template ngbPanelContent>
+              <div
+                *ngFor="let question of faqCategory.value.questions | keyvalue"
+              >
+                <div
+                  (click)="
+                    getAnswer(
+                      faqCategory.value.category,
+                      question.key,
+                      'orders'
+                    )
+                  "
+                  *ngIf="question.value.question"
+                  [innerHTML]="question.value.question"
+                  class="category-question"
+                ></div>
+              </div>
+            </ng-template>
+          </ngb-panel>
+        </ngb-accordion>
+      </ng-container>
+    </div>
+
+    <div
+      *ngIf="
+        ('faq.productQuestionsTitle' | cxTranslate) && faqProductQuestions$
+          | async as faqProductQuestions
+      "
+      class="question-list"
+    >
+      <div class="product-questions-title">
+        {{ 'faq.productQuestionsTitle' | cxTranslate }}
+      </div>
+      <ng-container
+        *ngFor="let faqCategory of faqProductQuestions | keyvalue; index as i"
+      >
+        <ngb-accordion #acc="ngbAccordion" (panelChange)="handleChange($event)">
+          <ngb-panel *ngIf="faqCategory.value.category">
+            <ng-template ngbPanelTitle>
+              <div class="accordion-button">
+                <span>{{ faqCategory.value.category }}</span>
+                <div *ngIf="openById['ngb-panel-' + i + '']" class="indicator">
+                  -
+                </div>
+                <div *ngIf="!openById['ngb-panel-' + i + '']" class="indicator">
+                  +
+                </div>
+              </div>
+              <hr/>
+            </ng-template>
+            <ng-template ngbPanelContent>
+              <div
+                *ngFor="let question of faqCategory.value.questions | keyvalue"
+              >
+                <div
+                  (click)="
+                    getAnswer(
+                      faqCategory.value.category,
+                      question.key,
+                      'product'
+                    )
+                  "
+                  *ngIf="question.value.question"
+                  [innerHTML]="question.value.question"
+                  class="category-question"
+                ></div>
+              </div>
+            </ng-template>
+          </ngb-panel>
+        </ngb-accordion>
+      </ng-container>
+    </div>
+  </div>
+</div>

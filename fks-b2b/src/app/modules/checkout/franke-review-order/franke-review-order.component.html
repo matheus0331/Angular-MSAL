@@ -1,0 +1,117 @@
+<div class="container">
+  <div class="main-wrapper">
+    <div class="title">
+      <div class="review-order-icons">
+        <cx-icon type="MAP_PIN"></cx-icon>
+      </div>
+      {{ 'checkoutReview.deliveryAddressTitle' | cxTranslate }}
+    </div>
+    <div *ngIf="deliveryAddress$ | async as deliveryAddress" class="delivery-address">
+      <div class="delivery-address-padding"></div>
+      <div class="delivery-address-info">
+        <div *ngIf="deliveryAddress.companyName; else showDeliveryName" class="name">
+          {{ deliveryAddress.companyName }}
+        </div>
+        <ng-template #showDeliveryName>
+          <div *ngIf="deliveryAddress.firstName || deliveryAddress.lastName" class="name">
+            {{ deliveryAddress.firstName }} {{ deliveryAddress.lastName }}
+          </div>
+        </ng-template>
+        <div class="address">{{ deliveryAddress.line1 }}, {{ deliveryAddress.line2 }}</div>
+        <div class="region">{{ deliveryAddress.town }}</div>
+        <div class="postal-code">{{ deliveryAddress.postalCode }}</div>
+        <div class="country">{{ deliveryAddress.country.name }}</div>
+      </div>
+    </div>
+
+    <div class="title">
+      <div class="review-order-icons">
+        <cx-icon type="CREDIT_CARD"></cx-icon>
+      </div>
+      {{ 'checkoutReview.invoiceAddressTitle' | cxTranslate }}
+    </div>
+    <div *ngIf="invoiceAddress$ | async as invoiceAddress" class="invoice-address">
+      <div class="invoice-address-padding"></div>
+      <div class="invoice-address-info">
+        <div *ngIf="invoiceAddress.companyName; else showBillingName" class="name">
+          {{ invoiceAddress.companyName }}
+        </div>
+        <ng-template #showBillingName>
+          <div *ngIf="invoiceAddress.firstName || invoiceAddress.lastName" class="name">
+            {{ invoiceAddress.firstName }} {{ invoiceAddress.lastName }}
+          </div>
+        </ng-template>
+        <div class="address">
+          {{ invoiceAddress.line1 }}, {{ invoiceAddress.line2 }}
+        </div>
+        <div class="region">
+          {{ invoiceAddress.town }}
+        </div>
+        <div class="postal-code">{{ invoiceAddress.postalCode }}</div>
+        <div class="country">{{ invoiceAddress.country.name }}</div>
+      </div>
+    </div>
+
+    <div class="title">
+      <div class="review-order-icons">
+        <cx-icon type="CLIPBOARD_LIST"></cx-icon>
+      </div>
+      {{ 'checkoutReview.additionalDetailsTitle' | cxTranslate }}
+    </div>
+    <div class="additional-details">
+      <div class="additional-details-padding"></div>
+      <div class="additional-details-headers">
+        <div *ngIf="reference$ | async" class="reference">
+          {{ 'checkoutReview.reference' | cxTranslate }}
+        </div>
+        <div *ngIf="deliveryDate$ | async" class="delivery-date">
+          {{ 'checkoutReview.deliveryDate' | cxTranslate }}
+        </div>
+      </div>
+      <div class="additional-details-info">
+        <div *ngIf="reference$ | async" class="reference">
+          {{ reference$ | async }}
+        </div>
+        <div *ngIf="deliveryDate$ | async" class="delivery-date">
+          {{ deliveryDate$ | async }}
+        </div>
+      </div>
+    </div>
+
+    <div class="title">
+      <div class="review-order-icons">
+        <cx-icon type="CHECK_CIRCLE"></cx-icon>
+      </div>
+      {{ 'checkoutReview.itemsTitle' | cxTranslate }}
+    </div>
+    <ng-container *ngIf="(isLoading$ | async) === false; else loadingEntries">
+      <div *ngIf="entries$ | async as entries">
+        <div *ngFor="let entry of entries" class="products">
+          <app-franke-review-order-item-promotion-banner
+            [entry]="entry"></app-franke-review-order-item-promotion-banner>
+          <div class="product">
+            <div class="product-image">
+              <cx-media [container]="getThumbnailFormatImage(entry.product.images)"></cx-media>
+            </div>
+            <div class="product-info">
+              <div class="product-name">{{ entry.product.name }}</div>
+              <div
+                class="product-fun-number">{{ 'checkoutReview.funNumber' | cxTranslate: {fun: entry.product.code} }}</div>
+              <div class="product-quantity">{{'checkoutReview.quantity' | cxTranslate: {count: entry.quantity} }}</div>
+            </div>
+            <div class="product-price">{{ entry.totalPrice?.formattedValue }}</div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+    <ng-template #loadingEntries>
+      <div class="cx-spinner">
+        <cx-spinner></cx-spinner>
+      </div>
+    </ng-template>
+  </div>
+</div>
+
+<div class="SideContent">
+  <app-cart-navigation-buttons></app-cart-navigation-buttons>
+</div>

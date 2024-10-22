@@ -1,0 +1,11 @@
+@mixin product-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $text-transform: none
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: $text-transform;
+}

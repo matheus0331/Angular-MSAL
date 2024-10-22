@@ -1,0 +1,1207 @@
+{
+  "searchSupport": {
+    "placeholder": "Sök här...",
+    "results": "Resultat",
+    "manualTitle": "",
+    "manualDownload": "",
+    "text": "Sök efter ett FUN nummer, produktkod eller produktnamn",
+    "more": "Mer",
+    "allResults": "alla resultat",
+    "manualDescription": "",
+    "resultsFor": "Visar resultat för:"
+  },
+  "chat": {
+    "faq": "Franke FAQ",
+    "message1": "Hej, jag heter Laura. Jag är din personliga assistent. Hur kan jag hjälpa dig?",
+    "title": "Personlig assistent",
+    "message2": "Du kan välja mellan alternativ nedan eller ställa din egen fråga.",
+    "contact": "Kontakta Franke",
+    "complaint": "Skicka ett klagomål"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Behöver du hjälp med din produkt eller har du en fråga?",
+    "title": "Hej, vi är här för att hjälpa"
+  },
+  "contactForm": {
+    "contactType": "Välj kontakttyp",
+    "files": "Ladda upp bilder för att stödja din fråga",
+    "funNumber": "",
+    "request": "Beskriv din fråga",
+    "ticketAddSucess": "Ticket skapat!",
+    "ticketAddFail": "Fel vid skapande av ticket, försök igen!",
+    "subTitle2": "Använd vårt enkla kontaktformulär!",
+    "generalContactCategories": "Välj kategori",
+    "deleteFiles": "Radera",
+    "productSubCategories": "Välj underkategori",
+    "title": "Fler frågor?",
+    "subTitle1": "Det gick inte att hitta svaret på din fråga i vår FAQ",
+    "productCategories": "Välj produkt",
+    "orderNumber": "Ordernummer"
+  },
+  "product": {
+    "id": "FUN nummer"
+  },
+  "faq": {
+    "print": "Skriv ut den här sidan",
+    "customerServicesQuestions": "Kundtjänst",
+    "pageTitle": "Vanliga frågor (FAQ)",
+    "productQuestionsTitle": "Franke produkter",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Order och transport"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Du kan ha upp till maximalt 4 adresser.",
+    "updateAddress": "Uppdatera adress",
+    "editShippingAddress": "Redigera leveransadress",
+    "deliveryAddressTitle": "Leveransadress",
+    "addNewShippingAddress": "Lägg till en ny leveransadress",
+    "addAddress": "Lägg till adress",
+    "billingAddressTitle": "Fakturaadress",
+    "addNewAddress": "Lägg till en ny adress",
+    "backToAddressList": "Tillbaka till adresslista",
+    "areYouSureToDeleteAddress": "Är du säker på att du vill radera den här adressen?"
+  },
+  "addressCard": {
+    "shipTo": "Leverans till",
+    "setAsDefault": "Ange som standard",
+    "billTo": "Faktura till",
+    "selected": "Vald",
+    "default": "Standard"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Efternamn",
+      "placeholder": "Efternamn"
+    },
+    "aptSuite": "Lgh",
+    "saveAsDefault": "Spara som standard",
+    "firstName": {
+      "label": "Förnamn",
+      "placeholder": "Förnamn"
+    },
+    "zipCode": {
+      "placeholder": "Postnummer",
+      "label": "Postnummer"
+    },
+    "address1": "Adress 1",
+    "setAsDefault": "Ange som standard",
+    "title": "Titel",
+    "userAddressDeleteSuccess": "Adress raderats!",
+    "userAddressAddSuccess": "Ny adress har lagts till!",
+    "city": {
+      "placeholder": "Stad",
+      "label": "Stad"
+    },
+    "invalidAddress": "Ogiltig adress",
+    "chooseAddress": "Välj adress",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "telefonnummer (valfritt)"
+    },
+    "titleRequired": "Titel krävs.",
+    "state": "Län",
+    "address2": "Adress 2 (valfritt)",
+    "selectOne": "Välj en...",
+    "country": "Land",
+    "streetAddress": "Gata",
+    "userAddressUpdateSuccess": "Adress uppdaterats!"
+  },
+  "wishlist": {
+    "addToCart": "Lägg till i varukorg",
+    "empty": "Inga produkter i favoriter"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Skapa ett konto?",
+    "invoiceHasBeenSentByEmail": "Du kommer att få en orderbekräftelse via e-post",
+    "placedOn": "Placerad på",
+    "status": "Status",
+    "frequency": "Frekvens",
+    "orderItems": "Beställda artiklar",
+    "orderPlacedSuccessfully": "Order lagd",
+    "nextOrderDate": "Nästa orderdatum",
+    "confirmationOfOrder": "Orderbekräftelse:",
+    "cancelled": "Borttagen",
+    "createAccountForNext": "Skapa ett konto för <{{email}}> för en snabbare utcheckning vid ditt nästa besök.",
+    "replenishmentNumber": "påfyllnad #",
+    "orderNumber": "Ordernummer",
+    "thankYou": "Tack för din beställning!",
+    "active": "Aktiv"
+  },
+  "checkoutPO": {
+    "placeholder": "Ange beställningsnummer",
+    "poNumber": "Beställningsnummer",
+    "availableLabel": "Leveransadresser tillgängliga för dig beror på enhetens kostnadsställe",
+    "costCenter": "Kostnadsställe",
+    "noPoNumber": "Ingen"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Automatisk påfyllnadsorder",
+    "confirmThatRead": "Jag bekräftar att jag har läst och godkänner",
+    "termsAndConditions": "Allmänna Villkor",
+    "recurrencePeriodType_WEEKLY": "Vecka (or)",
+    "poNumber": "Beställningsnummer",
+    "dayOfMonth": "Dag",
+    "every": "Varje",
+    "placeOrder": "Beställa",
+    "scheduleReplenishmentOrder": "Schema påfyllnadsorder",
+    "recurrencePeriodType_DAILY": "Dag (ar)",
+    "repeatOnDays": "Upprepa följande dagarna",
+    "funNumber": "FUN: {{fun}}",
+    "editShippingAddress": "Redigera leveransadress",
+    "startOn": "Börja på",
+    "additionalDetailsTitle": "Ytterligare beställningsinformation",
+    "deliveryAddressTitle": "Leveransadress",
+    "orderType_PLACE_ORDER": "Ingen (en endast engångsorder)",
+    "invoiceAddressTitle": "Fakturaadress",
+    "recurrencePeriodType_MONTHLY": "Månad",
+    "requestedDate": "Begärt datum:",
+    "orderType": "Ordertyp:",
+    "checkoutError": "Fel inträffade. Vänligen kontakta kundsupport",
+    "itemsTitle": "Artiklar som ska levereras",
+    "additionalReference": "Ytterligare referens:",
+    "orderItems": "Beställda artiklar",
+    "quantity": "Antal: {{count}}",
+    "reference": "Referens",
+    "orderNumber": "Ordernummer:",
+    "review": "Granska",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Påfyllnadsorder",
+    "deliveryDate": "Begärt leveransdatum:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Leveransadress",
+    "reviewOrder": "Granska order",
+    "paymentDetails": "betalningsinformation",
+    "billingTask": "Vald faktureringsadress",
+    "billingAddress": "Fakturaadress",
+    "methodOfPayment": "Betalningsmetod",
+    "deliveryMode": "Leverans metod",
+    "reviewTask": "Granska din beställning i sammanställningen",
+    "shippingTask": "Vald leveransadress",
+    "invoicePayment": "Faktura betalning"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Standardfakturaadress",
+    "enteredAddress": "Angiven adress",
+    "selectYourInvoiceAddress": "Välj din fakturaadress",
+    "verifyYourAddress": "Verifiera din adress",
+    "invoiceAddress": "Fakturaadress",
+    "editAddress": "Ändra adress",
+    "chooseAddressToUse": "Välj vilken adress du vill använda:",
+    "shipToThisAddress": "Leverera till denna adress",
+    "saveAddress": "Spara adress",
+    "addNewAddress": "Lägg till en ny adress",
+    "defaultShippingAddress": "Standardleveransadress",
+    "selectInvoiceAddress": "Välj den här adressen",
+    "selectYourBillingAddress": "Välj din faktureringsadress",
+    "suggestedAddress": "Föreslagen adress",
+    "billingAddress": "Fakturaadress",
+    "selectYourShippingAddress": "Välj leveransadress",
+    "shippingAddress": "Leveransadress",
+    "ensureAccuracySuggestChange": "För att säkerställa leveranssäkerhet, föreslår vi förändringen vald nedan."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Standard leverans",
+    "shippingMethod": "Frakt metod",
+    "premiumDelivery": "Express leverans"
+  },
+  "checkout": {
+    "back": "Tillbaka",
+    "invalid": {
+      "accountType": "Ditt konto tillåter inte dig att gå till kassan här."
+    },
+    "backToCart": "Tillbaka till varukorgen",
+    "continue": "Fortsätt"
+  },
+  "loginForm": {
+    "emailAddress": {
+      "placeholder": "Skriv in e-mail",
+      "label": "E-postadress"
+    },
+    "password": {
+      "placeholder": "Lösenord",
+      "label": "Lösenord"
+    },
+    "forgotPassword": "Glömt ditt lösenord?",
+    "wrongEmailFormat": "Detta är inte en giltig e-postformat.",
+    "guestCheckout": "Utcheckning gäst",
+    "signIn": "Logga in",
+    "register": "Registrera",
+    "dontHaveAccount": "Har du inget konto?"
+  },
+  "checkoutLogin": {
+    "emailsMustMatch": "e-post matchar inte",
+    "emailAddress": {
+      "label": "E-postadress",
+      "placeholder": "Skriv in e-postadress"
+    },
+    "continue": "Fortsätta",
+    "emailIsRequired": "Ogiltigt e-postformat",
+    "confirmEmail": {
+      "label": "Bekräfta e-postadress",
+      "placeholder": "Bekräfta e-postadress"
+    }
+  },
+  "anonymousConsents": {
+    "banner": {
+      "viewDetails": "Visa detaljer",
+      "allowAll": "Tillåt alla",
+      "title": "Denna webbplats använder cookies",
+      "description": "Vi använder cookies / webbläsare lagring för att anpassa innehåll och förbättra användarupplevelsen."
+    },
+    "preferences": "Samtyckespreferenser",
+    "dialog": {
+      "clearAll": "Rensa alla",
+      "legalDescription": "Vi använder cookies / webbläsare lagring för att anpassa innehåll och förbättra användarupplevelsen. Vi kan också dela data om din webbplats användning med våra sociala medier. För mer kan du läsa vår sekretesspolicy.",
+      "title": "Samtyckeshantering",
+      "selectAll": "Välj alla"
+    }
+  },
+  "forgottenPassword": {
+    "resetPassword": "Återställ lösenord",
+    "passwordResetSuccess": "Nu kan du logga in med ditt nya lösenord.",
+    "enterEmailAddressAssociatedWithYourAccount": "Ange den e-postadress kopplad till ditt konto",
+    "emailAddress": {
+      "label": "E-postadress",
+      "placeholder": "Skriv in e-mail"
+    },
+    "enterValidEmail": "Ange en giltig e-postadress",
+    "passwordResetEmailSent": "Ett mail har skickats till dig med information om hur man återställer lösenordet."
+  },
+  "register": {
+    "titleRequired": "Titel krävs",
+    "newPassword": "Nytt lösenord",
+    "confirmThatRead": "Jag bekräftar att jag har läst och godkänner",
+    "firstName": {
+      "label": "Förnamn",
+      "placeholder": "Förnamn"
+    },
+    "createAccount": "Skapa ett konto",
+    "bothPasswordMustMatch": "Både lösenorden måste matcha",
+    "register": "Registrera",
+    "resetPassword": "Återställ lösenord",
+    "postRegisterMessage": "Logga in med tillhandahållna referenser.",
+    "emailAddress": {
+      "placeholder": "E-postadress",
+      "label": "E-postadress"
+    },
+    "title": "Titel",
+    "confirmPassword": {
+      "action": "Bekräfta lösenord",
+      "placeholder": "Bekräfta lösenord",
+      "label": "Bekräfta lösenord"
+    },
+    "termsAndConditions": "Allmänna Villkor",
+    "lastName": {
+      "label": "Efternamn",
+      "placeholder": "Efternamn"
+    },
+    "password": {
+      "placeholder": "Lösenord",
+      "label": "Lösenord"
+    },
+    "emailMarketing": "Använd mina personuppgifter för att ta emot e-post nyhetsbrev för marknadsföringskampanjer. Om du vill ändra inställningarna går det att göra i Mitt konto.",
+    "managementInMyAccount": "Mitt konto.",
+    "passwordMinRequirements": "Lösenordet måste vara minst sex tecken och innehåller en stor bokstav, en siffra, en symbol",
+    "confirmNewPassword": "Bekräfta nytt lösenord",
+    "signIn": "Jag har redan ett konto. Logga in",
+    "selectTitle": "Välj titel"
+  },
+  "stockNotification": {
+    "subscriptionDialog": {
+      "manageSubscriptionsLink": "Mina intressen",
+      "notifiedPrefix": "Du kommer att meddelas på:",
+      "header": "Tillfälligt slut prenumeration",
+      "manageChannelsSuffix": "Sida.",
+      "manageSubscriptionsSuffix": "Sida.",
+      "subscribing": "Du kan hantera dina prenumerationer på",
+      "manageChannelsLink": "Aviseringshantering",
+      "manageChannelsPrefix": "Hantera föredragna aviserings kanaler på",
+      "manageSubscriptionsPrefix": "Du kan hantera dina prenumerationer på",
+      "okBtn": "OK",
+      "notifiedSuffix": "Så snart denna produkt är tillbaka i lager."
+    },
+    "notified": "Du kommer att meddelas när denna produkt är tillbaka i lager.",
+    "getNotifySuffix": "att få meddelande när denna produkt finns tillgänglig.",
+    "activateChannelsPrefix": "För att bli meddelad måste du aktivera",
+    "activateChannelsSuffix": ".",
+    "notifyMe": "MEDDELA MIG",
+    "getNotified": "Få ett meddelande när produkten åter finns i lager.",
+    "stopNotify": "STOPP ANMÄLAN",
+    "channelsLink": "aviserings kanaler",
+    "getNotify": "Få ett meddelande när denna produkt finns tillgänglig.",
+    "unsubscribeSuccess": "Du har avslutat prenumerationen på meddelandet om tillbaka-i-lager"
+  },
+  "accordion": {
+    "features": "Funktioner",
+    "remarks": "Anmärkningar",
+    "dimensions": "Mått",
+    "productDetails": "Produktinformation"
+  },
+  "productSummary": {
+    "preLaunchBody": "",
+    "id": "FUN ID #",
+    "substitutesProducts": "Se alternativ",
+    "availabilityCheck": {
+      "noFurtherInfoSingular": "För närvarande finns ingen ytterligare information tillgänglig för den återstående {{quantity}} enheten",
+      "priceTooltip": "",
+      "itemsNotAvailable": "Det finns {{quantity}} stycken tillgängliga {{date}}",
+      "itemsAvailableSingular": "Det finns {{quantity}} enhet tillgänglig {{date}}",
+      "itemsNotAvailableSingular": "Det finns {{quantity}} enhet tillgänglig {{date}}",
+      "deliveryDateInfo": "Beräknat leveransdatum, 2 dagar från inköpsdatum. För slutligt leveransdatum, se beställningshistorik.",
+      "noFurtherInfo": "För närvarande finns ingen ytterligare information tillgänglig för de återstående {{quantity}} enheterna",
+      "button": "Kontrollera tillgänglighet",
+      "errorMessage": "Det går inte att ladda informationen just nu, försök igen senare",
+      "itemsAvailable": "Det finns {{quantity}} stycken tillgängliga {{date}}",
+      "dateTitle": "Leveransdatum"
+    },
+    "promotionTooltip": "Det slutliga rabatterade priset kommer att vara synligt i varukorgen.",
+    "description": "Beskrivning",
+    "showReviews": "Visa recensioner",
+    "localSalesNumber": "Lokalt ID #",
+    "share": "Dela",
+    "referenceNumber": "Referensnummer",
+    "unrecognizedError": "",
+    "catalogPrice": "Katalogpris",
+    "more": "Se mer",
+    "preLaunchTitle": ""
+  },
+  "productList": {
+    "clearFilters": "Rensa filter",
+    "listingPageSubtitle": "Priserna som visas är katalogpriser",
+    "searchResultsTitle": "{{numberOfResults}} resultat för \"{{query}}\"",
+    "view": "Se",
+    "backToTopBtn": "TILLBAKA TILL TOPPEN",
+    "wishlist": "favoriter",
+    "discontinuedProductsFilter": "Visa utgångna produkter",
+    "pageOf": "Sidan {{x}} av {{y}}",
+    "articleNumber": "FUN {{fun}}",
+    "previous": "Föregående",
+    "filterBy": {
+      "action": "Filtrera efter",
+      "label": "Filtrera efter"
+    },
+    "appliedFilter": "Tillämpad filtrering:",
+    "showMoreBtn": "VISA MER",
+    "description": "Beskrivning",
+    "notAvailableDescription": "Reservdelar och tillbehör kan fortfarande köpas för denna produkt",
+    "sortByRelevance": "Sortera efter relevans",
+    "cart": "Varukorg",
+    "showMore": "Visa mer...",
+    "filters": "filter",
+    "results": "Resultat",
+    "showLess": "Visa mindre...",
+    "notAvailable": "Produkten har utgått",
+    "next": "Nästa"
+  },
+  "productDetails": {
+    "noDetails": "Inga ytterligare detaljer för denna produkt. Om du har några frågor angående den här produkten kan du skicka ett meddelande till oss via vårt <u> <a class=\"form\" href=\"/client-service\"> kontaktformulär. </a> </u>",
+    "reviews": "recensioner",
+    "shipping": "Frakt",
+    "specification": "specifikationer",
+    "productDetails": "Produktinformation",
+    "quantity": "Antal",
+    "id": "ID",
+    "imageDisclaimer": "Bilden visas endast som referens. Se beskrivning och teknisk ritning för mer information",
+    "showReviews": "Visa recensioner",
+    "share": "Dela med sig",
+    "noReviews": "Inga recensioner ännu"
+  },
+  "productReview": {
+    "overallRating": "Helhetsbetyg",
+    "more": "Mer",
+    "reviewerName": "Recensent namn (frivilligt)",
+    "rating": "Betyg",
+    "writeReview": "Skriv en recension",
+    "writeYourComments": "Skriv dina kommentarer",
+    "less": "Mindre",
+    "reviewTitle": "Recensionstitel",
+    "thankYouForReview": "Tack för översynen! Observera att recensioner kan kräva godkännande innan de visas här."
+  },
+  "addToCart": {
+    "selectStyleAndSize": "Välj stil och storlek för att kontrollera lager",
+    "addToCartFailed": "Lägg till produkten i varukorgen misslyckades! Försök igen.",
+    "itemsAddedToYourCart": "Produkt(er) har lagts till din varukorg",
+    "items": "artiklar",
+    "viewCart": "Visa varukorgen",
+    "inStock": "Tillgänglig",
+    "quantity": "Antal",
+    "addToCartSuccessfully": "Produkten har lagts till i varukorgen",
+    "itemsIncrementedInYourCart": "Denna post var redan i varukorgen. Kvantiteten uppdaterades.",
+    "updatingCart": "Uppdaterar varukorg ...",
+    "outOfStock": "Inte tillgänglig",
+    "addToCart": "Lägg till i varukorg",
+    "proceedToCheckout": "Fortsätt till utcheckningen"
+  },
+  "TabPanelContainer": {
+    "tabs": {
+      "ProductSpecsTabComponent": "specifikationer",
+      "ProductDetailsTabComponent": "Produktinformation",
+      "ProductReviewsTabComponent": "recensioner",
+      "deliveryTab": "Frakt",
+      "ProductDownloadsTabComponent": "Nedladdningar"
+    }
+  },
+  "alternativeProducts": {
+    "similarProductRecommendations": "",
+    "declaimer": "",
+    "goToProduct": "",
+    "article": "",
+    "showAlternativeProducts": "",
+    "noRecommendations": ""
+  },
+  "addToWishList": {
+    "remove": "Ta bort från favoriter",
+    "addToWishlistSuccessfully": "Varan tillagd i favoriter",
+    "add": "Lägg till i favoriter",
+    "addToWishlistFailed": "Lägg till produkten i favoriter misslyckades! Försök igen.",
+    "anonymous": "Logga in för att lägga till i favoriter"
+  },
+  "variant": {
+    "size": "Storlek",
+    "color": "Färg",
+    "selectedStyle": "vald stil",
+    "style": "Stil",
+    "sizeGuideLabel": "Stil guide"
+  },
+  "productFacetNavigation": {
+    "appliedFilter": "Tillämpad filtrering:",
+    "showMore": "Visa mer...",
+    "showLess": "Visa mindre...",
+    "filterBy": {
+      "action": "Filtrera efter",
+      "label": "Filtrera efter"
+    },
+    "sortByRelevance": "Sortera efter relevans"
+  },
+  "productDownloads": {
+    "productSheet": "Produktblad"
+  },
+  "productReferences": {
+    "id": "FUN"
+  },
+  "emptyCart": {
+    "cartIsEmpty": "Din varukorg är tom",
+    "suggestion": "Sök produkt",
+    "suggestionTitle": "Förslag:"
+  },
+  "additionalInfo": {
+    "title": "Ytterligare information om din order",
+    "additionalReference": "Lägga till en referens",
+    "poNumber": "Ange ditt inköpsordernummer eller annan referens som skrivs ut på fakturan",
+    "orderType": "Ordertyp",
+    "orderNumber": "Referens"
+  },
+  "orderCost": {
+    "subtotalSingular": "Slutpris ({{count}} artikel):",
+    "orderDiscounts": "",
+    "toBeDetermined": "Att bestämmas",
+    "totalCatalogPrice": "Katalogpris ({{count}} artiklar):",
+    "totalCatalogPriceSingular": "Katalogpris ({{count}} artikel):",
+    "crossChannelPromo": "",
+    "orderSummary": "Summering",
+    "subtotal": "Slutpris ({{count}} artiklar):",
+    "discountsApplied": "{{discountMessage}} har tillämpats",
+    "salesTax": "Moms:",
+    "totalDiscounts": "Rabatter tillämpas",
+    "shipping": "Leverans",
+    "crossCategoryPromo": "",
+    "discount": "Du sparade:",
+    "grossTax": "Moms ej inkluderat",
+    "mainPromoIncluded": "",
+    "total": "Total inkl. moms:",
+    "productDiscounts": "",
+    "totalNetWithoutTax": "",
+    "estimatedShipping": "Beräknad leverans:",
+    "mainFeesIncluded": ""
+  },
+  "cartItems": {
+    "discount": "Rabatt",
+    "checkAvailabilityInfoNoUnits": "0 stycken av denna artikel är tillgängliga just nu. Full begärd mängd tillgänglig från {{date}}",
+    "checkAvailabilityInfoSingular": "Endast {{quantity}} stycke av denna artikel är tillgängliga just nu. Full begärd mängd tillgänglig från {{date}}",
+    "unitPrice": "Enhetspris:",
+    "item": "Produkter",
+    "checkAvailabilityNoFurtherInfoSingular": "För närvarande finns ingen ytterligare information tillgänglig för den återstående {{quantity}} enheten",
+    "checkAvailabilityInfo": "Endast {{quantity}} stycken av denna artikel är tillgängliga just nu. Full begärd mängd tillgänglig från {{date}}",
+    "itemPrice": "Slutpris",
+    "changeQuantity": "Ändra kvantitet",
+    "cartTotal": "Varukorg total ({{count}} artikel)",
+    "funNumber": "FUN nummer",
+    "brand": "Varumärke",
+    "availability": "Tillgänglighet",
+    "deliveryDate": "Leveransdatum",
+    "id": "FUN",
+    "ecoTax": "Eco Tax:",
+    "quantity": "Antal:",
+    "remove": "Ta bort",
+    "availabilityInfo": "",
+    "quantityTitle": "Antalet representerar det totala antalet av denna artikel i varukorgen.",
+    "checkAvailabilityError": "Det går inte att ladda informationen just nu. Försök igen senare",
+    "additionalFees": "",
+    "cartTotal_plural": "Varukorg total ({{count}} artiklar)",
+    "additionalFeesTooltip": "",
+    "deliveryDateInfo": "Beräknat leveransdatum, 2 dagar från inköpsdatum. För slutligt leveransdatum, beställningshistorik.",
+    "checkAvailabilityNoFurtherInfo": "För närvarande finns ingen ytterligare information tillgänglig för de återstående {{quantity}} enheterna",
+    "description": "Beskrivning",
+    "estimatedDeliveryDate": "Beräknat leveransdatum är  {{ date }}",
+    "total": "Total"
+  },
+  "voucher": {
+    "applyVoucherSuccess": "{{voucherCode}} har tillämpats",
+    "apply": "Tillämpa",
+    "coupon_plural": "Rabattkoder",
+    "availableCouponsLabel": "Du kan lägga till rabattkoder till denna beställning",
+    "placeholder": "Rabattkod",
+    "availableCoupons": "Giltiga rabattkoder",
+    "removeVoucherSuccess": "{{voucherCode}} har tagits bort.",
+    "vouchersApplied": "Tillagda rabattkoder",
+    "coupon": "Har du en rabattkod?",
+    "anchorLabel": "Lägg till eller ta bort rabattkod"
+  },
+  "cartAlternativeProducts": {
+    "checkAlternativeProducts": "",
+    "replaceCartItem": "",
+    "cartItemReplacedSuccessfully": "",
+    "cartItemReplacedError": ""
+  },
+  "saveForLaterItems": {
+    "itemTotal_plural": "Sparad till senare ({{count}} artiklar)",
+    "stock": "Lager",
+    "cartTitle": "Kundvagn",
+    "saveForLater": "Spara till senare",
+    "moveToCart": "Flytta till varukorg",
+    "forceInStock": "Tillgängligt",
+    "itemTotal": "Sparad till senare ({{count}} artikel)"
+  },
+  "cartDetails": {
+    "cartName": "Varukorg #{{code}}",
+    "continueShopping": "Fortsätt handla",
+    "proceedToCheckout": "Fortsätt till utcheckning",
+    "id": "ID"
+  },
+  "dashboard": {
+    "ticketHistoryCreatedBy": "Inlagd av: {{name}}",
+    "invoiceAddressesTitle": "Faktura Adresser",
+    "noStatistics": "Ingen statistik för tillfället",
+    "openReturns": "öppna Returns",
+    "ticketHistoryStatusCompleted": "",
+    "ticketHistoryTitle": "Ärendehistorik",
+    "deliveryAddressesTitle": "Leveransadresser",
+    "analyticsTab": "Analytics",
+    "openOrders": "öppna order",
+    "ticketHistoryStatusOpen": "Åpen",
+    "netTurnover": "nettoomsättning",
+    "ticketHistoryLastUpdate": "Senaste ändring: {{datum}}",
+    "ticketHistoryLastUpdateBy": "Senast uppdatering av: {{name}}",
+    "turnoverLastYear": "Förra året omsättning",
+    "ticketHistoryStatusInProcess": "",
+    "openOrdersEndOfYear": "Öppna order till slutet av året",
+    "ticketHistoryStatusClosed": "Stängd",
+    "ticketHistoryCode": "ID: {{code}}",
+    "ticketHistoryCreated": "Skapat: {{date}}",
+    "noTicketHistory": "Ingen ärendehistorik för tillfället"
+  },
+  "myInterests": {
+    "sortByMostRecent": "Sortera efter senaste",
+    "lowStock": "Lågt lagersaldo",
+    "header": "Mina intressen",
+    "expirationDate": "Giltigt till {{EXPIRATIONDATE}}",
+    "sorting": {
+      "byNameDesc": "Namn (fallande)",
+      "byNameAsc": "Namn (stigande)"
+    },
+    "noInterests": "Du har inga registrerade intressen än.",
+    "notifications": "Aviseringar",
+    "outOfStock": "Inte tillgänglig",
+    "BACK_IN_STOCK": "Tillbaka på lager",
+    "price": "Pris",
+    "remove": "Ta bort",
+    "productId": "ID {{kod}}",
+    "inStock": "Tillgängligt",
+    "item": "Artikel"
+  },
+  "returnRequestList": {
+    "date": "Skapat datum",
+    "sortByMostRecent": "Sortera efter senaste",
+    "statusDisplay_APPROVING": "Godkännande",
+    "status": "Status",
+    "statusDisplay_COMPLETED": "Avslutad",
+    "statusDisplay_CANCELLING": "Avbokande",
+    "statusDisplay_WAIT": "Vänta",
+    "statusDisplay_PAYMENT_REVERSED": "Betalning återförd",
+    "statusDisplay_RECEIVED": "Mottagen",
+    "statusDisplay_TAX_REVERSAL_FAILED": "Momsåterföring misslyckades",
+    "statusDisplay_RECEIVING": "Tar emot",
+    "statusDisplay_APPROVAL_PENDING": "Godkännande avvaktar",
+    "statusDisplay_PAYMENT_REVERSAL_FAILED": "Betalningsåterföring misslyckades",
+    "statusDisplay_REVERSING_PAYMENT": "Återföra betalning",
+    "returnRequestId": "Retur #",
+    "statusDisplay_TAX_REVERSED": "Moms återfört",
+    "statusDisplay_REVERSING_TAX": "Återföra moms",
+    "statusDisplay_CANCELED": "Avbokad",
+    "orderId": "Order #"
+  },
+  "updateProfileForm": {
+    "parentCompany": "Moderbolag",
+    "lastName": {
+      "placeholder": "Efternamn",
+      "label": "Efternamn"
+    },
+    "none": "ingen",
+    "firstName": {
+      "label": "Förnamn",
+      "placeholder": "Förnamn"
+    },
+    "lastNameIsRequired": "Efternamn krävs",
+    "title": "titel",
+    "email": "Din e-postadress",
+    "profileUpdateSuccess": "Personuppgifter har uppdaterats",
+    "customerNumber": "Kundnummer",
+    "customerId": "Kund #",
+    "firstNameIsRequired": "Förnamn krävs"
+  },
+  "returnRequest": {
+    "estimatedRefund": "Beräknad återbetalning",
+    "summary": "Retur total",
+    "cancelSuccess": "Din returbegäran ({{rma}}) avbröts",
+    "itemPrice": "Varupris",
+    "deliveryCode": "Leverans kostnad",
+    "subtotal": "Delsumma",
+    "total": "Total",
+    "cancel": "Avbryta retur begäran",
+    "returnQty": "Retur antal",
+    "note": "Totalsummorna är uppskattade och kanske inte inkluderar tillämpliga skatter eller andra avgifter.",
+    "status": "Retur status",
+    "returnRequestId": "Retur begäran #",
+    "item": "Beskrivning",
+    "orderCode": "För beställning #"
+  },
+  "closeAccount": {
+    "confirmAccountClosureMessage": "Är du säker på att du vill avsluta ditt konto?",
+    "accountClosedFailure": "Det gick inte att stänga kontot",
+    "closeMyAccount": "Stäng mitt konto",
+    "accountClosedSuccessfully": "Konto stängt",
+    "confirmAccountClosure": "Bekräfta kontostängning"
+  },
+  "notificationCenter": {
+    "noNotifications": "För närvarande finns det inga meddelanden",
+    "backInStockNotificationMessage": "Produkten finns i lager igen",
+    "notificationMessage": "Leveransdatumet för en eller flera artiklar i din beställning har ändrats.",
+    "productNumber": "Produkt {{productCode}}",
+    "emailNotifications": "Få ett e-postmeddelande när leveransdatumet för en beställning uppdateras",
+    "orderNumber": "Beställning {{orderNumber}}",
+    "notifications": "Meddelanden"
+  },
+  "updateEmailForm": {
+    "password": {
+      "placeholder": "Skriv in lösenord",
+      "label": "Lösenord"
+    },
+    "enterValidEmail": "Ange en giltig e-postadress",
+    "emailUpdateSuccess": "Accepterad. Du måste logga in med {{newUid}}",
+    "confirmNewEmailAddress": {
+      "label": "Bekräfta ny e-postadress",
+      "placeholder": "Skriv e-postadress"
+    },
+    "newEmailAddress": {
+      "placeholder": "Skriv e-postadress",
+      "label": "Ny e-postadress"
+    },
+    "pleaseInputPassword": "Vänligen skriv in lösenord",
+    "bothEmailMustMatch": "Båda e-postadresserna måste matcha"
+  },
+  "menu": {
+    "addressBook": "Adressbok",
+    "orders": "Beställningshistorik",
+    "profile": "Profil",
+    "email": "E-post",
+    "signOut": "Logga ut",
+    "password": "Lösenord",
+    "dashboard": "Översikt",
+    "wishlist": "Favoriter"
+  },
+  "consentManagementForm": {
+    "clearAll": "Rensa alla",
+    "message": {
+      "success": {
+        "withdrawn": "Samtycke tillbakadragits.",
+        "given": "Samtycke ges."
+      }
+    },
+    "selectAll": "Välj alla"
+  },
+  "updatePasswordForm": {
+    "oldPassword": {
+      "label": "Gammalt lösenord",
+      "placeholder": "Gammalt lösenord"
+    },
+    "oldPasswordIsRequired": "Gamla lösenordet krävs.",
+    "passwordUpdateSuccess": "Lösenord uppdaterats",
+    "newPassword": {
+      "label": "Nytt lösenord",
+      "placeholder": "Nytt lösenord"
+    },
+    "confirmPassword": {
+      "placeholder": "Bekräfta lösenord",
+      "label": "Bekräfta nytt lösenord"
+    },
+    "passwordMinRequirements": "Lösenordet måste vara minst sex tecken och innehåller en stor bokstav, en siffra, en symbol",
+    "bothPasswordMustMatch": "Båda lösenorden måste matcha"
+  },
+  "myCoupons": {
+    "endDateAsc": "Slutdatum (Stigande)",
+    "sortByMostRecent": "Sortera efter senaste",
+    "startDateDesc": "Startdatum (fallande)",
+    "status": "Status:",
+    "notesSuffix": "sida.",
+    "findProducts": "Hitta produkter",
+    "effectiveTitle": "Effektiv:",
+    "ExpireSoon": "Utgår snart",
+    "PreSession": "EFFEKTIV SNART (Gäller från ....)?",
+    "startDateAsc": "Startdatum (stigande)",
+    "claimCustomerCoupon": "Du har inlöst denna rabattkod.",
+    "notesPreffix": "Du kan ställa in önskade kanaler för att ta emot kampanjmeddelanden på .......",
+    "dialogTitle": "Rabattkod",
+    "readMore": "Läs mer",
+    "endDateDesc": "Slutdatum (fallande)",
+    "myCoupons": "Mina rabattkoder",
+    "notification": "Avisering",
+    "Effective": "EFFEKTIV (applicerad / giltig)",
+    "notesLink": "Aviserings kanaler",
+    "noCouponsMessage": "Du har inga rabattkoder tillgängliga."
+  },
+  "notificationPreference": {
+    "SITE_MESSAGE": "SiteMessage",
+    "noteMessage": "Om du inaktiverar alla kanaler du inte kommer att kunna ta emot ytterligare meddelanden.",
+    "note": "Notera:",
+    "EMAIL": "E-post:",
+    "SMS": "SMS:",
+    "message": "Välj önskade kanaler aviseringar"
+  },
+  "AccountOrderHistoryTabContainer": {
+    "tabs": {
+      "AccountOrderHistoryComponent": "Alla ordrar ({{param}})",
+      "OrderReturnRequestListComponent": "Returer ({{param}})"
+    }
+  },
+  "searchBox": {
+    "resultsFor": "Visar resultat för:",
+    "help": {
+      "empty": "Skriv in din fråga",
+      "insufficientChars": "Vänligen skriv fler tecken",
+      "noMatch": "Vi kunde inte hitta några resultat",
+      "exactMatch": "{{ termin }}"
+    },
+    "searchBarMobileText": "Sök efter produkter",
+    "more": "Mer",
+    "results": "Resultat",
+    "searchBarText": "Sök efter produkter, färg, material",
+    "placeholder": "Sök här...",
+    "allResults": "alla resultat"
+  },
+  "pageMetaResolver": {
+    "product": {
+      "title": "{{title}}",
+      "heading": "{{heading}}",
+      "description": "{{beskrivning}}"
+    },
+    "checkout": {
+      "title": "Kassan {{count}} objekt",
+      "title_plural": "Kassa {{count}} objekt"
+    },
+    "search": {
+      "findProductTitle_plural": "{{Count}} resultat promo koder \"{{kupong}}\"",
+      "title": "{{Count}} resultat för \"{{query}}\"",
+      "title_plural": "{{count}} resultat för \"{{query}}\"",
+      "findProductTitle": "{{Count}} resultatet för promo code \"{{kupong}}\""
+    },
+    "category": {
+      "title_plural": "{{Count}} resultat {{query}}",
+      "title": "{{Count}} resultat för {{query}}"
+    }
+  },
+  "breadcrumbs": {
+    "dashboardPage": {
+      "dashboardPageTitle": "Dashboard",
+      "dashboardPageSubTitle": "Alla data om ditt företag"
+    },
+    "checkoutPageTitle": "Kontrollera",
+    "orderConfirmationPageTitle": "Orderbekräftelse",
+    "addressBookPageTitle": "Adressbok",
+    "listingPage": {
+      "listingPageSubTitle": "Priserna som visas är katalogpriser",
+      "searchPageTitle": "Visar resultat för \"{{query}}\""
+    },
+    "orderHistoryPageTitle": "Beställningshistorik",
+    "profilePageTitle": "Mitt konto",
+    "privacyPageTitle": "Integritets- och Cookiepolicy",
+    "imprintPageTitle": "Ansvarig utgivare",
+    "bundlesPageTitle": "Bundles",
+    "outletPageTitle": "Outlets",
+    "shoppingCartPageTitle": "Din varukorg",
+    "wishlistPageTitle": "Favoriter",
+    "termsPageTitle": "Villkor",
+    "promotionPageSubTitle": "Det slutliga rabatterade priset kommer att vara synligt i kundvagnen.",
+    "promotion": "Befordran"
+  },
+  "common": {
+    "save": "Spara",
+    "edit": "Redigera",
+    "delete": "Radera",
+    "confirm": "Bekräfta",
+    "connected": "Ansluten",
+    "noData": "Inga data",
+    "continue": "Fortsätt",
+    "cancel": "Avbryt",
+    "remove": "Ta bort",
+    "offline": "Off-line",
+    "home": "Hem",
+    "submit": "Skicka in",
+    "done": "Klar",
+    "other": "Övrig",
+    "back": "Tillbaka",
+    "online": "Uppkopplad"
+  },
+  "httpHandlers": {
+    "sessionExpired": "Din session har gått ut. Vänligen logga in igen.",
+    "validationErrors": {
+      "missing": {
+        "card_cardType": "Valt kreditkort stöds inte. Välj ett annat.",
+        "billTo_street1": "Adressen är inte giltig.",
+        "billTo_state": "Den stat / provins angett är inte giltigt för kreditkort.",
+        "billTo_firstName": "Det första namnet som angavs är inte giltigt.",
+        "billTo_street2": "Adressen är inte giltig.",
+        "card_expirationYear": "Kreditkortet utgångsdatum angett är inte giltigt.",
+        "billTo_city": "Angiven stad är inte giltigt för kreditkoret.",
+        "card_cvNumber": "Angiven säkerhetskod är inte giltig.",
+        "billTo_country": "Angivet land är inte giltigt för kreditkortet.",
+        "card_expirationMonth": "Kreditkortets utgångsdatum som är angett är inte giltigt.",
+        "card_accountNumber": "Kreditkortsnumret är ogiltigt.",
+        "billTo_lastName": "Efternamnet som angavs är inte giltigt.",
+        "billTo_postalCode": "Postnumret är inte giltigt för kreditkort.",
+        "country": {
+          "isocode": "Land saknas"
+        }
+      },
+      "invalid": {
+        "code": "Koden är inte giltigt.",
+        "uid": "UID är inte giltigt.",
+        "firstName": "Förnamnet som angavs är inte giltigt.",
+        "password": "Lösenordet är inte giltigt.",
+        "card_expirationMonth": "Kreditkortets utgångsdatum som angavs är inte giltigt.",
+        "lastName": "Angivet efternamn  är inte giltigt."
+      }
+    },
+    "cartNotFound": "Vaurkorgen kan inte hittas.",
+    "conflict": "Existerar redan",
+    "unauthorized": {
+      "invalid_client": "Ogiltiga kundreferenser",
+      "common": "Ett okänt fel inträffade"
+    },
+    "badGateway": "Ett serverfel inträffade. Vänligen försök igen senare.",
+    "unknownError": "Ett okänt fel uppstod",
+    "gatewayTimeout": "Servern svarade inte, försök igen senare.",
+    "badRequestPleaseLoginAgain": "{{ felmeddelande }}. Vänligen logga in igen.",
+    "forbidden": "Du har inte behörighet att utföra den här åtgärden. Kontakta administratören.",
+    "badRequestOldPasswordIncorrect": "Gammalt lösenord felaktigt.",
+    "internalServerError": "Ett internt serverfel inträffade. Vänligen försök igen senare.",
+    "invalidCodeProvided": "Ogiltig kod angiven."
+  },
+  "navigation": {
+    "shopAll": "Köp alla {{navNode}}>"
+  },
+  "carousel": {
+    "button": "Bläddra bland alla"
+  },
+  "formErrors": {
+    "cxInvalidPassword": "Detta är inte ett giltigt lösenordsformat",
+    "date": {
+      "invalid": "Använd ett giltigt datum",
+      "required": "Detta fält är tvingande",
+      "max": "Datum kan inte vara efter {{max}}",
+      "min": "Datum kan inte vara före {{min}}",
+      "pattern": "Använd datumformat åååå-mm-dd"
+    },
+    "globalMessage": "Formuläret du försöker skicka innehåller fel.",
+    "cxInvalidEmail": "Detta är inte en giltig e-postformat",
+    "cxNoSelectedItemToCancel": "Välj minst ett objekt",
+    "cxEmailsMustMatch": "E-postfälten måste matcha",
+    "cxPasswordsMustMatch": "lösenorden måste vara lika",
+    "cxNegativeAmount": "Mängden måste vara lika med eller större än noll",
+    "required": "Detta fält är tvingande",
+    "cxContainsSpecialCharacters": "Fältet får inte innehålla specialtecken",
+    "cxStarRatingEmpty": "Betygsfältet är obligatoriskt"
+  },
+  "errorHandlers": {
+    "refreshThePage": "Uppdatera sidan.",
+    "loadPage": "Ett fel uppstod. Du kommer att omdirigeras till inloggningssidan i 5 sekunder! Förlåt för det.",
+    "scriptFailedToLoad": "Det gick inte att ladda skriptet."
+  },
+  "skipLink": {
+    "labels": {
+      "footer": "sidfot",
+      "productList": "Produktlista",
+      "header": "Rubrik",
+      "productFacets": "Produktportfölj",
+      "main": "Innehåll"
+    },
+    "skipTo": "Hoppa till"
+  },
+  "miniCart": {
+    "count": "{{räkna}}",
+    "total": "{{total}}",
+    "item": "{{Count}} objekt i din varukorg",
+    "item_plural": "{{Count}} objekt i din varukorg"
+  },
+  "miniLogin": {
+    "signInRegister": "Logga in/Registrera",
+    "userGreeting": "Hej, {{name}}"
+  },
+  "sorting": {
+    "rma": "returnummer",
+    "replenishmentNumber": "Påfyllnadsnummer",
+    "orderNumber": "Ordernummer",
+    "date": "Datum",
+    "nextOrderDate": "Nästa orderdatum"
+  },
+  "spinner": {
+    "loading": "Läser in..."
+  },
+  "orderDetails": {
+    "tracking": {
+      "noTrackingNumber": "",
+      "trackingNumber": "",
+      "itemStatus": {
+        "pickedUp": "",
+        "partiallyPickedUp": "",
+        "delivered": "",
+        "exception": ""
+      },
+      "quantity": "",
+      "deliveryStatus": {
+        "inProcess": "",
+        "delivered": ""
+      },
+      "deliveryType": "",
+      "status": "",
+      "noTrackingResults": "",
+      "deliveryNumber": "",
+      "product": ""
+    },
+    "consignmentTracking": {
+      "dialog": {
+        "carrier": "Leveransservice",
+        "header": "Spårningsinformation",
+        "shipped": "Skickad",
+        "trackingId": "Spårningsnummer",
+        "estimate": "Beräknad leverans",
+        "loadingHeader": "Leveransspårning",
+        "noTracking": "Paketet har inte sänds från lagret. Spårningsinformation kommer att finnas tillgänglig efter paketet lämnat lagret."
+      },
+      "action": "Spåra beställning"
+    },
+    "purchaseOrderId": "Inköpsorder #",
+    "unit": "Enhet",
+    "deliveryStatus_READY_FOR_PICKUP": "Redo för upphämtning",
+    "statusE": "Skickas",
+    "cancellationAndReturn": {
+      "item": "Artikel",
+      "itemPrice": "Artikelpris",
+      "cancelAction": "Ta bort objekt",
+      "cancelQty": "Kvantitet att ta bort",
+      "cancelSuccess": "Din begäran om att borttag lämnades (ursprunglig order {{ORDERCODE}} kommer att uppdateras)",
+      "setAll": "Sätt antal till max",
+      "returnSuccess": "Din retur begäran ({{rma}}) lämnades",
+      "returnAction": "Begär en retur",
+      "totalPrice": "Total",
+      "returnQty": "Antal att returnera",
+      "submit": "Skicka förfrågan",
+      "quantity": "Max antal"
+    },
+    "statusDisplay_open": "Åpen",
+    "deliveryStatus_READY": "Pågående",
+    "funColumn": "FUN",
+    "invoices": "Fakturor",
+    "cancelReplenishment": {
+      "description": "Avbryta eventuella framtida påfyllnings order?",
+      "title": "Avbryt påfyllning",
+      "reject": "Nej",
+      "accept": "Ja",
+      "cancelSuccess": "Påfyllning order # {{replenishmentOrderCode}} har annullerats"
+    },
+    "deliveryStatus_DELIVERING": "Skickad",
+    "statusF": "Levererat",
+    "status": "Status",
+    "costCenterAndUnit": "Kostnadscenter / Enhet",
+    "placedBy": "Utfärdad av",
+    "deliveryStatus_PICKUP_COMPLETE": "Upphämtning klar",
+    "brandColumn": "Varumärke",
+    "orderId": "Order #",
+    "deliveryStatus_DELIVERY_REJECTED": "Leveransen avvisas",
+    "alternativeProducts": {
+      "replaceAction": "",
+      "areYouSure": "",
+      "cancelAction": "",
+      "article": "",
+      "productReplacedError": "",
+      "productReplacedSuccessfully": "",
+      "productReplacementTitle": "",
+      "checkAlternativeProducts": "",
+      "replaceOrderItem": "",
+      "newPrice": ""
+    },
+    "notAvailableOnRequestDate": "",
+    "statusDisplay_cancelling": "Avvaktar avbokning",
+    "costCenterAndUnitValue": "{{CostCenterName}} / {{enhetsnamn}}",
+    "deliveryStatus_PICKPACK": "Förberedelser för leverans",
+    "statusDisplay_cancelled": "Avbokad",
+    "statusDisplay_merchant": {
+      "approved": "Köp godkänt",
+      "rejected": "Köp avvisat"
+    },
+    "descriptionColumn": "Beskrivning",
+    "statusDisplay_approved": "Godkänd",
+    "statusCC": "",
+    "statusDisplay_error": "Avvaktar",
+    "statusColumn": "Status",
+    "costCenter": "Kostnadscenter",
+    "shippedOn": "Levererad den",
+    "expectedDeliveryDateColumn": "Original leveransdatum",
+    "productColumn": "Produkt",
+    "tabs": {
+      "deliveries": "",
+      "order": "Order  {{orderNumber}}"
+    },
+    "materialColumn": "Material",
+    "statusDisplay_pending": {
+      "merchant": {
+        "approval": "Avvaktar köpets godkännande"
+      },
+      "approval": "Väntar på godkännande"
+    },
+    "deliveryStatus_PAYMENT_NOT_CAPTURED": "Betalningsproblem",
+    "payByAccount": "Betala med konto",
+    "deliveryStatus_READY_FOR_SHIPPING": "Leveransklar",
+    "deliveryStatus_TAX_NOT_COMMITTED": "Moms ej utfärdad",
+    "deliveryStatus_WAITING": "Avvaktar",
+    "statusC": "Leverans skapad",
+    "replenishmentId": "Påfyllnadsorder #",
+    "cancelled": "Borttagen",
+    "statusDisplay_created": "Skapad",
+    "statusDisplay_rejected": "Avvisat",
+    "none": "Ingen {{value}}",
+    "statusDisplay_processing": "Väntar på",
+    "placed": "Placerad",
+    "statusAA": "",
+    "paidByCreditCard": "(Betalas med kreditkort)",
+    "deliveryStatus_CANCELLED": "Avbokad",
+    "statusD": "Plockad",
+    "frequency": "Frekvens",
+    "deliveryStatus_IN_TRANSIT": "i transit",
+    "deliveryStatus_DELIVERY_COMPLETED": "Leveransen komplett",
+    "startOn": "Börja på",
+    "statusDD": "",
+    "quantityColumn": "Kvantitet",
+    "statusDisplay_Error": "Avvaktar",
+    "brandMissing": "Inget märke",
+    "nextOrderDate": "Nästa orderdatum",
+    "priceColumn": "Pris/st",
+    "statusBB": "",
+    "emptyPurchaseOrderId": "Ingen",
+    "deliveryStatus_SHIPPED": "Skickad",
+    "statusDisplay_assigned": {
+      "admin": "Tilldelad till administratör"
+    },
+    "statusDisplay_completed": "Avslutad",
+    "statusA": "Beställning erkänt",
+    "returnToOrdersButton": "Tillbaka till order",
+    "confirmedDeliveryDateColumn": "Förväntat leveransdatum",
+    "statusB": "Leverans skapad"
+  },
+  "orderHistory": {
+    "purchaseOrderNumberColumn": "Beställningsnummer",
+    "sortByMostRecent": "Sortera efter senaste",
+    "statusPlaceholder": "Status",
+    "noOrdersFilter": "Inga matchningar funna.",
+    "deliveryDateColumn": "Beräknat leveransdatum",
+    "past12months": "12 månader",
+    "startShopping": "Börja handla",
+    "date": "Datum",
+    "orderChannelColumn": "Kanal",
+    "orderNumberFilter": "Ordernummer:",
+    "noOrders": "Vi har inga beställningar för detta konto.",
+    "frequency": "Frekvens",
+    "noReplenishmentOrders": "Vi har inga påfyllning order poster för detta konto.",
+    "startOn": "Börja på",
+    "nextOrderDate": "Nästa orderdatum",
+    "invoice": "",
+    "lastOrders": "Visar order för det gångna:",
+    "cancel": "Avbryt",
+    "statusF": "Levererat",
+    "status": "Status",
+    "statusB": "Beställning bekräftad",
+    "orderStatusFilter": "Status:",
+    "orderReferencePlaceholder": "Referens",
+    "emptyPurchaseOrderId": "Ingen",
+    "statusCC": "",
+    "pageOfPages": "Sida {{page}} av {{pageCount}}",
+    "statusBB": "",
+    "previousPage": "Föregående",
+    "statusE": "Skickas",
+    "replenishmentHistory": "Tidigare påfyllningsorder",
+    "orderReferenceColumn": "Referens",
+    "orderHistory": "Beställningshistorik",
+    "notFound": "Inga order hittade",
+    "invoiceType": "",
+    "orderId": "Ordning #",
+    "statusAA": "",
+    "total": "Total",
+    "cancelled": "Avbrutet",
+    "statusColumn": "Status",
+    "returns": "",
+    "statusC": "Leverans skapad",
+    "past6months": "6 månader",
+    "creditNotes": "",
+    "replenishmentOrderHistory": "Påfyllning orderhistorik",
+    "allOrdersTab": "Alla beställningar ({{count}})",
+    "replenishmentOrderId": "påfyllning #",
+    "orderType": "",
+    "orderReferenceFilter": "Referens:",
+    "orders": "",
+    "nextPage": "Nästa",
+    "valueColumn": "Värde",
+    "purchaseOrderNumber": "Inköpsnummer",
+    "orderNumberColumn": "Ordernummer",
+    "dateFilter": "Datum:",
+    "past3months": "3 månader",
+    "statusA": "Beställning erkänt",
+    "past9months": "9 månader",
+    "orderAdditionalReferenceColumn": "Ytterligare referens",
+    "quotes": "",
+    "statusD": "Plockad"
+  },
+  "orderInvoices": {
+    "orderType": {
+      "value": ""
+    },
+    "invoiceNumberColumn": "Fakturanummer",
+    "amountColumn": "Belopp",
+    "referenceColumn": "Referens",
+    "purchaseOrderColumn": "Inköpsorder",
+    "nameColumn": "namn",
+    "pdfColumn": "PDF",
+    "lineItemColumn": "Rad",
+    "downloadPDF": "PDF",
+    "noInvoices": "Inga fakturor hittade",
+    "invoices": "Fakturor ({{count}})",
+    "invoiceNumberFilter": "Fakturanummer:",
+    "documentDateColumn": "Datum",
+    "taxAmountColumn": "Skattebeloppet",
+    "orderNumberColumn": "Ordernummer",
+    "textColumn": "Text",
+    "noInvoicesFilter": "Inga matchningar funna."
+  }
+}

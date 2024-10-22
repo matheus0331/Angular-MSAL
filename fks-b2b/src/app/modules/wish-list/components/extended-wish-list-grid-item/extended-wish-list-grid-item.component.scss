@@ -1,0 +1,124 @@
+@mixin item-font-size {
+  font-size: var(--franke-m-font-size);
+  line-height: 21px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  border: 0.7px solid rgba(27, 34, 43, 0.25);
+  padding: 24px 24px 22px;
+
+  .item-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+
+    a {
+      text-decoration: none;
+    }
+
+    cx-media,
+    img {
+      height: 185px;
+    }
+  }
+
+  .item-info {
+    .item-name {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: var(--element-color);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 4; /* number of lines to show */
+      -webkit-box-orient: vertical;
+
+      margin-bottom: 18px;
+
+      @include item-font-size();
+    }
+
+    .item-price {
+      display: flex;
+      align-items: center;
+      margin-bottom: 18px;
+
+      color: var(--text-color);
+
+      @include item-font-size();
+    }
+
+    .item-fun {
+      color: var(--grey);
+      margin-bottom: 22px;
+
+      @include item-font-size();
+    }
+  }
+
+  .item-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    .add-to-cart {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .remove-item {
+      .remove-button {
+        color: var(--element-color);
+        background-color: transparent;
+        text-decoration-line: underline;
+
+        @include item-font-size();
+      }
+    }
+  }
+}
+
+app-extended-add-to-cart ::ng-deep {
+  button {
+    @include item-font-size();
+  }
+}
+
+.purchasable-status {
+  background: #fff7e8;
+  box-shadow: 0px 43.8794px 67.5068px rgba(0, 0, 0, 0.07),
+  0px 18.3318px 28.2027px rgba(0, 0, 0, 0.0503198),
+  0px 9.80105px 15.0785px rgba(0, 0, 0, 0.0417275),
+  0px 5.49439px 8.4529px rgba(0, 0, 0, 0.035),
+  0px 2.91803px 4.48927px rgba(0, 0, 0, 0.0282725),
+  0px 1.21426px 1.86809px rgba(0, 0, 0, 0.0196802);
+  border-radius: 1.68767px;
+  z-index: 1;
+
+  p {
+    margin: 0;
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .title-container {
+    display: flex;
+
+    cx-icon {
+      margin: 3px 0 0 3px;
+    }
+
+    .title {
+      font-weight: var(--font-weight-base);
+    }
+  }
+
+  .description {
+    margin: 0 19px;
+  }
+}

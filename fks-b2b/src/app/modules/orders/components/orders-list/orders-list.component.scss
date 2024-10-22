@@ -1,0 +1,485 @@
+@import '../../../../../assets/scss/typography';
+@import 'bootstrap/scss/bootstrap';
+
+@mixin order-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $color,
+  $text-transform: none
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+  text-transform: $text-transform;
+}
+
+@mixin status($color) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &::before {
+    @include status-dot($color);
+  }
+}
+
+@mixin status-dot($color) {
+  width: 9px;
+  height: 9px;
+  background: $color;
+  border-radius: 50%;
+  content: '';
+  margin-right: 11px;
+  margin-bottom: 1px;
+}
+
+.status {
+  &-completed {
+    @include status(#5ec62c);
+  }
+
+  &-waiting,
+  &-acknowledged {
+    @include status(#9c9c9c);
+  }
+
+  &-processing,
+  &-confirmed {
+    @include status(#ffd930);
+  }
+}
+
+a {
+  margin-right: 14px;
+
+  @media only screen and (min-width: 768px) {
+    margin-right: 24px;
+  }
+
+  .total-orders,
+  .invoices {
+    display: flex;
+
+    @include order-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px,
+        var(--text-color),
+        uppercase
+    );
+
+    @media only screen and (min-width: 992px) {
+      @include order-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px,
+          var(--text-color),
+          uppercase
+      );
+    }
+
+    letter-spacing: 0.01em;
+  }
+}
+
+.past-orders {
+  visibility: visible;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  @include order-text(
+      var(--franke-s-font-size),
+      var(--font-weight-base),
+      18px,
+      var(--text-color)
+  );
+
+  .past-orders-text {
+    display: none;
+    @media only screen and (min-width: 768px) {
+      display: flex;
+    }
+  }
+
+  @include order-text(
+      var(--franke-s-font-size),
+      var(--font-weight-base),
+      18px,
+      var(--text-color)
+  );
+  @media only screen and (min-width: 992px) {
+    @include order-text(
+        var(--franke-font-size-base),
+        var(--font-weight-base),
+        24px,
+        var(--text-color)
+    );
+  }
+}
+
+.nav-tabs.container {
+  padding-left: 15px;
+
+  @media only screen and (min-width: 768px) {
+    padding: 0;
+  }
+  @media only screen and (min-width: 992px) {
+    max-width: 1220px;
+  }
+}
+
+form {
+  .container {
+    @media only screen and (min-width: 768px) {
+      padding: 0;
+    }
+
+    @media only screen and (min-width: 992px) {
+      max-width: 1220px;
+    }
+  }
+}
+
+.order-history-filters {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+
+  .filter-wrapper {
+    margin-bottom: 10px;
+    @media only screen and (min-width: 992px) {
+      margin-bottom: 14px;
+    }
+
+    .filter-title {
+      @include order-text(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          21px,
+          var(--label-color)
+      );
+      @media only screen and (min-width: 992px) {
+        @include order-text(
+            var(--franke-button-font-size),
+            var(--font-weight-base),
+            21px,
+            var(--label-color)
+        );
+      }
+    }
+
+    input {
+      @include order-text(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          18px,
+          var(--text-color)
+      );
+
+      @media only screen and (min-width: 992px) {
+        @include order-text(
+            var(--franke-font-size-base),
+            var(--font-weight-base),
+            24px,
+            var(--text-color)
+        );
+      }
+    }
+
+    .filter-order-reference,
+    .filter-order-number,
+    .filter-order-status {
+      border: 1px solid var(--input-border);
+      border-radius: 4px;
+      width: 140px;
+      height: 29px;
+      margin-right: 13px;
+      padding: 5px 9px;
+
+      @media only screen and (min-width: 992px) {
+        width: 262px;
+        height: 44px;
+        margin-right: 24px;
+        padding: 10px 18px;
+
+        .ng-select {
+          padding: 0 !important;
+          min-height: 0;
+          margin: 0 !important;
+
+          .ng-value-container {
+            color: var(--text-color) !important;
+          }
+        }
+      }
+    }
+
+    .filter-order-types-dropdown {
+      text-transform: capitalize;
+    }
+
+    .filter-order-status-dropdown,
+    .filter-order-types-dropdown {
+      border: 1px solid var(--input-border);
+      border-radius: 4px;
+      width: 140px;
+      height: 29px;
+      margin-right: 13px;
+      font-size: var(--franke-s-font-size);
+
+      @media only screen and (min-width: 992px) {
+        width: 262px;
+        height: 44px;
+        margin-right: 24px;
+        font-size: var(--franke-font-size-base);
+
+        .ng-select,
+        .ng-select-container,
+        .ng-select.ng-select-single,
+        .ng-select-container {
+          padding: 0 !important;
+          min-height: 0;
+          margin: 0 !important;
+
+          .ng-value-container {
+            color: var(--text-color) !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.table-wrapper {
+  border: 1px solid var(--wrapper-border-color);
+  @media only screen and (max-width: 991px) {
+    overflow-x: scroll;
+  }
+
+  .table {
+    margin-bottom: 0;
+    @media only screen and (max-width: 991px) {
+      width: 1000px;
+    }
+
+    .table-header {
+      background: var(--accent-color);
+
+      th {
+        @include order-text(
+            var(--franke-s-font-size),
+            var(--font-weight-base),
+            18px,
+            var(--white)
+        );
+        padding: 19px 0;
+        text-align: center;
+        user-select: none;
+        vertical-align: middle;
+
+        @media only screen and (min-width: 992px) {
+          @include order-text(
+              var(--franke-font-size-base),
+              var(--font-weight-base),
+              150%,
+              var(--white)
+          );
+          padding: 40px 0;
+          &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .asc::after {
+        content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 16" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>');
+      }
+
+      .desc::after {
+        content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 16" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+      }
+
+      .column-order-number {
+        text-align: start;
+        width: 20%;
+        padding-left: 30px;
+      }
+
+      .column-channel {
+        width: 20%;
+      }
+
+      .column-order-reference {
+        width: 20%;
+      }
+
+      .column-status {
+        width: 20%;
+      }
+
+      .column-value {
+        text-align: end;
+        padding-right: 24px;
+        width: 20%;
+      }
+    }
+
+    .table-body {
+      tr {
+        &:hover {
+          background: #f0f5ff;
+          border: 1px solid var(--hover-border);
+          cursor: pointer;
+        }
+      }
+
+      .order  {
+        td {
+          text-align: center;
+          padding: 19px 0;
+          @include order-text(
+              var(--franke-s-font-size),
+              var(--font-weight-base),
+              18px,
+              var(--text-color)
+          );
+
+          @media only screen and (min-width: 992px) {
+            padding: 40px 0;
+
+            @include order-text(
+                var(--franke-font-size-base),
+                var(--font-weight-base),
+                24px,
+                var(--text-color)
+            );
+          }
+        }
+
+        .row-order-number {
+          text-align: start;
+          padding-left: 30px;
+        }
+
+        .row-value {
+          text-align: end;
+          padding-right: 24px;
+        }
+      }
+    }
+  }
+}
+
+.products-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px -15px 50px -15px;
+  justify-content: center;
+}
+
+.no-orders-filter {
+  margin-top: 40px;
+}
+
+:host ::ng-deep {
+  ng-select {
+    // overflow: auto;
+    &.custom-dropdown {
+      .ng-value-container {
+        .ng-placeholder {
+          display: block;
+        }
+      }
+
+      &.ng-dirty {
+        .ng-select-container {
+          .ng-value-container {
+            .ng-placeholder {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    .ng-select-container {
+      line-height: unset !important;
+      padding: 0.5rem 0 !important;
+      /*
+      @include media-breakpoint-down(md) {
+        line-height: 27px !important;
+        padding: 0 !important;
+        min-height: 24px !important;
+      }
+      @include media-breakpoint-down(sm) {
+        padding: 0 9px !important;
+      }
+       */
+    }
+
+    .ng-select-container.ng-has-value {
+      @media only screen and (max-width: 767px) {
+        min-width: 0;
+        padding: 0;
+        padding-bottom: 5px;
+      }
+
+      .ng-value-container {
+        .ng-input {
+          top: 0;
+        }
+
+        @media only screen and (max-width: 767px) {
+          padding: 0;
+        }
+      }
+
+      .ng-arrow-wrapper {
+        @media only screen and (max-width: 767px) {
+          width: unset;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .nav-tabs {
+    margin-bottom: 26px;
+    align-items: center;
+
+    @media only screen and (max-width: 991px) {
+      border-bottom: none;
+    }
+
+    @media only screen and (min-width: 992px) {
+      margin-bottom: 40px;
+    }
+
+    .nav-link {
+      border: none !important;
+      color: #a4a6b3 !important;
+      padding: 0 0 5px !important;
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        padding: 10px 0 !important;
+      }
+      @media only screen and (min-width: 992px) {
+        padding: 10px 0 !important;
+      }
+    }
+
+    .nav-link.active {
+      color: var(--text-color) !important;
+
+      border-bottom: 2px solid !important;
+      border-color: var(--brand-color) !important;
+      @media only screen and (min-width: 992px) {
+        border-bottom: 4px solid !important;
+        border-color: var(--brand-color) !important;
+      }
+    }
+  }
+}

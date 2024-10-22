@@ -1,0 +1,45 @@
+<cx-page-slot position="Notification"></cx-page-slot>
+<div class="title-wrapper">
+  <div class="title">
+    <div *ngIf="titleIcon$ | async as icon" class="align-icons">
+      <div *ngIf="icon === 'ORDER_HISTORY_BDCRMB'">
+        <cx-icon [type]="icon" class="breadcrumb-icon"></cx-icon>
+      </div>
+      <div *ngIf="icon === 'MY_PROFILE_BDCRMB'">
+        <cx-icon [type]="icon" class="breadcrumb-icon"></cx-icon>
+      </div>
+      <div *ngIf="icon === 'ADDRESS_BOOK_BDCRMB'">
+        <cx-icon [type]="icon" class="breadcrumb-icon"></cx-icon>
+      </div>
+      <div *ngIf="icon === 'WISHLIST_BDCRMB'">
+        <cx-icon [type]="icon" class="breadcrumb-icon"></cx-icon>
+      </div>
+      <div *ngIf="icon === 'CHECKOUT_BDCRMB'">
+        <cx-icon [type]="icon" class="breadcrumb-icon"></cx-icon>
+      </div>
+      <div *ngIf="icon === 'CART_BDCRMB'">
+        <cx-icon [type]="icon" class="breadcrumb-icon"></cx-icon>
+      </div>
+    </div>
+    <div *ngIf="pageTitle$ | async; else listingPage">
+      {{ pageTitle$ | async | cxTranslate }}
+    </div>
+    <ng-template #listingPage>
+      <div *ngIf="searchTitle$ | async; else familyPage">
+        {{ searchTitle$ | async | cxTranslate }}
+      </div>
+      <ng-template #familyPage>
+        {{ productFamily$ | async }}
+      </ng-template>
+    </ng-template>
+  </div>
+  <div *ngIf="listingPageSubTitle$ | async" class="subtitle">
+    {{ 'breadcrumbs.listingPage.listingPageSubTitle' | cxTranslate }}
+  </div>
+  <div *ngIf="promotionPageSubTitle$ | async" class="subtitle">
+    {{ 'breadcrumbs.promotionPageSubTitle' | cxTranslate }}
+  </div>
+  <div *ngIf="dashboardPageSubTitle$ | async" class="subtitle">
+    {{ 'breadcrumbs.dashboardPage.dashboardPageSubTitle' | cxTranslate }}
+  </div>
+</div>

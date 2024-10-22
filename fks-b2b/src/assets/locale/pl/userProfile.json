@@ -1,0 +1,56 @@
+{
+  "searchSupport": {
+    "placeholder": "Szukaj tutaj...",
+    "results": "Wyniki",
+    "manualTitle": "Instrukcja użytkowania",
+    "manualDownload": "Pobierz specyfikację",
+    "text": "Wpisz numer katalogowy, model lub symbol produktu",
+    "more": "Więcej",
+    "allResults": "Wszystkie wyniki",
+    "manualDescription": "Dokumentacja produktu",
+    "resultsFor": "Pokazuje wyniki dla:"
+  },
+  "chat": {
+    "faq": "Franke Portal B2B pytania",
+    "message1": "Cześć, jestem Laura. Jestem specjalistą ds. obsługi klienta. Jak mogę ci pomóc?",
+    "title": "Osobisty asystent",
+    "message2": "Możesz wybrać jedną z opcji poniżej lub zadać własne pytanie.",
+    "contact": "Kontakt Franke",
+    "complaint": "Złóż zażalenie"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "",
+    "title": "Dzień dobry, jeśli poszukujesz informacji o produkcie Franke"
+  },
+  "contactForm": {
+    "contactType": "Wybierz sposób kontaktu",
+    "files": "Dodaj zdjęcia do swojego zapytania",
+    "funNumber": "Nr katalogowy",
+    "request": "Opisz swoje zapytanie",
+    "ticketAddSucess": "Zapytanie wysłane",
+    "ticketAddFail": "Błąd podczas wysyłania zapytania, spróbuj ponownie.",
+    "subTitle2": "Jeśli Twoje pytanie dotyczy produktów Franke, zapraszamy do zakładki \"FAQ / pytania i odpowiedzi\" na stronie www.franke.pl.",
+    "generalContactCategories": "Wybierz kategorię",
+    "deleteFiles": "Usuń",
+    "productSubCategories": "Wybierz podkategorię",
+    "title": "Więcej pytań?",
+    "subTitle1": "Jeżeli nie możesz znaleźć odpowiedzi na swoje pytanie w zakładce często zadawane pytania. Możesz skorzystać z formularza kontaktowego!",
+    "productCategories": "Wybierz produkt",
+    "orderNumber": "Numer zamówienia"
+  },
+  "product": {
+    "id": "Nr katalogowy"
+  },
+  "faq": {
+    "print": "Wydrukuj tę stronę",
+    "customerServicesQuestions": "Obsługa klienta",
+    "pageTitle": "Często Zadawane Pytania",
+    "productQuestionsTitle": "Produkty Franke",
+    "portalQuestionsTitle": "Franke Portal B2B",
+    "ordersAndShipmentQuestions": "Zamówienia i wysyłka"
+  },
+  "videoTutorial": {
+    "title": ""
+  }
+}

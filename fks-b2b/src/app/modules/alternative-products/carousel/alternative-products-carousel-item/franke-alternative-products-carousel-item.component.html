@@ -1,0 +1,60 @@
+<div class="franke-alternative-products-carousel-item">
+  <a
+    (click)="handleProductClick(product)"
+    [style.height]="imageHeight"
+    class="item-image"
+  >
+    <img
+      *ngIf="product.imageUrl; else imagePlaceholder"
+      [src]="product.imageUrl"
+      class="product-img"
+    />
+    <ng-template #imagePlaceholder>
+      <img
+        class="product-img-placeholder"
+        src="/../../../../../assets/imgs/productImgPlaceholder.jpeg"
+      />
+    </ng-template>
+  </a>
+
+  <div class="content">
+    <div (click)="handleActionClick(product)">
+      <button
+        (click)="handleActionClick(product)"
+        class="btn btn-block alternative-products-carousel-item-action px-2"
+      >
+        {{ actionButtonLabel }}
+      </button>
+
+    </div>
+
+    <div class="description">{{ product.description }}</div>
+    <div class="fun-number">
+      {{ 'alternativeProducts.article' | cxTranslate }}
+      <br/>
+      {{ product.FUN }}
+    </div>
+    <div *ngIf="showCharaCharacteristics" class="characteristics">
+      <ng-container *ngIf="!facets; else listByFacets">
+        <ng-container
+          *ngFor="let characteristic of product.characteristics.results"
+        >
+          <app-franke-alternative-products-carousel-item-characteristic
+            [characteristic]="characteristic"
+            [itemWidth]="itemWidth"
+          ></app-franke-alternative-products-carousel-item-characteristic>
+        </ng-container>
+      </ng-container>
+
+      <ng-template #listByFacets>
+        <ng-container *ngFor="let facet of facets">
+          <app-franke-alternative-products-carousel-item-characteristic
+            [characteristics]="product.characteristics.results"
+            [facet]="facet"
+            [itemWidth]="itemWidth"
+          ></app-franke-alternative-products-carousel-item-characteristic>
+        </ng-container>
+      </ng-template>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,203 @@
+@mixin order-review-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $color,
+  $text-transform: none
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+  text-transform: $text-transform;
+}
+
+@mixin order-review-display-padding($padding-top) {
+  width: 100%;
+  display: flex;
+  padding: $padding-top 24px;
+}
+
+.container {
+  @media only screen and (min-width: 768px) {
+    padding: 0;
+  }
+}
+
+.cx-order-items {
+  border: 1px solid var(--wrapper-border-color);
+  border-bottom: none;
+}
+
+.title {
+  @include order-review-display-padding(19px);
+  align-items: center;
+  background: var(--secondary-section-color);
+  border-bottom: 1px solid var(--wrapper-border-color);
+  @include order-review-text(
+      var(--franke-s-font-size),
+      var(--font-weight-semi-bold),
+      18px,
+      var(--text-color)
+  );
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    @include order-review-text(
+        var(--franke-m-font-size),
+        var(--font-weight-semi-bold),
+        21px,
+        var(--text-color)
+    );
+  }
+
+  @media only screen and (min-width: 992px) {
+    @include order-review-text(
+        var(--franke-font-size-base),
+        var(--font-weight-semi-bold),
+        24px,
+        var(--text-color)
+    );
+  }
+
+  .review-order-icons {
+    margin: 0 12px 2px 0;
+  }
+}
+
+.products {
+  @include order-review-display-padding(24px);
+  border-bottom: 1px solid var(--wrapper-border-color);
+  position: relative;
+  flex-direction: column;
+
+  .product {
+    display: flex;
+    @media only screen and (max-width: 767px) {
+      justify-content: space-between;
+    }
+  }
+
+  .product-image {
+    width: 25%;
+    @media only screen and (min-width: 768px) {
+      width: 13%;
+    }
+  }
+
+  .product-info {
+    width: 50%;
+    @media only screen and (min-width: 768px) {
+      width: 70%;
+      padding-left: 43px;
+    }
+
+    .product-name {
+      @include order-review-text(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          18px,
+          var(--text-color)
+      );
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include order-review-text(
+            var(--franke-m-font-size),
+            var(--font-weight-base),
+            21px,
+            var(--text-color)
+        );
+      }
+
+      @media only screen and (min-width: 992px) {
+        @include order-review-text(
+            var(--franke-font-size-base),
+            var(--font-weight-base),
+            24px,
+            var(--text-color)
+        );
+      }
+
+      padding-bottom: 19px;
+    }
+
+    .product-fun-number {
+      @include order-review-text(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          18px,
+          var(--text-color)
+      );
+      @media only screen and (min-width: 768px) {
+        @include order-review-text(
+            var(--franke-m-font-size),
+            var(--font-weight-base),
+            21px,
+            var(--text-color)
+        );
+      }
+
+      padding-bottom: 19px;
+    }
+
+    .product-quantity {
+      @include order-review-text(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          18px,
+          var(--text-color)
+      );
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include order-review-text(
+            var(--franke-m-font-size),
+            var(--font-weight-base),
+            21px,
+            var(--text-color)
+        );
+      }
+
+      @media only screen and (min-width: 992px) {
+        @include order-review-text(
+            var(--franke-font-size-base),
+            var(--font-weight-base),
+            24px,
+            var(--text-color)
+        );
+      }
+    }
+  }
+
+  .product-price {
+    width: 15%;
+    @media only screen and (min-width: 768px) {
+      width: 13%;
+    }
+    @include order-review-text(
+        var(--franke-s-font-size),
+        var(--font-weight-semi-bold),
+        18px,
+        var(--text-color),
+        uppercase
+    );
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @include order-review-text(
+          var(--franke-m-font-size),
+          var(--font-weight-semi-bold),
+          21px,
+          var(--text-color),
+          uppercase
+      );
+    }
+
+    @media only screen and (min-width: 992px) {
+      @include order-review-text(
+          var(--franke-font-size-base),
+          var(--font-weight-semi-bold),
+          24px,
+          var(--text-color),
+          uppercase
+      );
+    }
+
+    text-align: end;
+  }
+}

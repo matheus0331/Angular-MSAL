@@ -1,0 +1,59 @@
+@mixin thank-you-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $color,
+  $text-transform: none
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+  text-transform: $text-transform;
+}
+
+.order-confirmation-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 32px auto;
+  text-align: center;
+
+  h4 {
+    margin-bottom: 16px;
+    @include thank-you-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px,
+        var(--text-color)
+    );
+
+    @media only screen and (min-width: 992px) {
+      @include thank-you-text(
+          var(--franke-h4-font-size),
+          var(--font-weight-base),
+          34px,
+          var(--text-color)
+      );
+    }
+  }
+
+  p {
+    margin-bottom: 16px;
+    @include thank-you-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px,
+        var(--text-color)
+    );
+
+    @media only screen and (min-width: 992px) {
+      @include thank-you-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px,
+          var(--text-color)
+      );
+    }
+  }
+}

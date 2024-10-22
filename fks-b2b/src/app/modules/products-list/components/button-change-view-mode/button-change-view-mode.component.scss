@@ -1,0 +1,27 @@
+.view-modes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .view-enabled {
+    pointer-events: none;
+
+    .view-icon {
+      color: var(--text-color);
+    }
+  }
+
+  .view-disabled {
+    cursor: pointer;
+
+    .view-icon {
+      color: var(--grey);
+    }
+  }
+
+  .grid-view,
+  .list-view {
+    margin-left: 2px;
+    margin-bottom: 4px;
+  }
+}

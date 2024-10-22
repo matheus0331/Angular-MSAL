@@ -1,0 +1,313 @@
+{
+  "searchSupport": {
+    "placeholder": "Recherchez ici...",
+    "results": "Résultats",
+    "manualTitle": "Le manuel du propriétaire",
+    "manualDownload": "Télécharger Spécification",
+    "text": "Rechercher un FUN, un modèle ou un document",
+    "more": "Plus",
+    "allResults": "Tous les résultats",
+    "manualDescription": "Le document le plus complet sur la configuration et l'utilisation du produit.",
+    "resultsFor": "Afficher les résultats pour :"
+  },
+  "chat": {
+    "faq": "Questions du portail BTOB",
+    "message1": "Bonjour! Je suis Laurent. Comment puis-je vous aider?",
+    "title": "Assistant FRANKE",
+    "message2": "Vous pouvez sélectionner  une des questions suivantes ou poser directement votre question",
+    "contact": "Contact FRANKE",
+    "complaint": "Soumettre une réclamation"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Besoin d'aide sur votre produit ou d'une réponse rapide?",
+    "title": "Bonjour, nous sommes là pour vous aider"
+  },
+  "contactForm": {
+    "contactType": "Choisir un contact",
+    "files": "Téléchargez des images pour illustrer votre demande",
+    "funNumber": "ID",
+    "request": "Décrivez votre demande",
+    "ticketAddSucess": "Votre ticket a été créé avec succés",
+    "ticketAddFail": "Votre ticket n'a pas été créé avec succès. Veuillez réessayer",
+    "subTitle2": "Utilisez tout simplement notre formulaire!",
+    "generalContactCategories": "Choisir une catégorie",
+    "deleteFiles": "Supprimer",
+    "productSubCategories": "Choisir une sous-catégorie",
+    "title": "Plus de questions?",
+    "subTitle1": "Nous ne trouvons pas la réponse à votre question dans notre FAQs",
+    "productCategories": "Choisir un produit",
+    "orderNumber": "Numéro de commande"
+  },
+  "product": {
+    "id": "Référence"
+  },
+  "faq": {
+    "print": "Imprimer cette page",
+    "customerServicesQuestions": "Service Client",
+    "pageTitle": "Questions fréquemment posées",
+    "productQuestionsTitle": "Produits Franke",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Commandes et Expédition"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Vous pouvez avoir jusqu'à 4 adresses maximum.",
+    "updateAddress": "Mettre à jour l'adresse",
+    "editShippingAddress": "Modifier l'adresse de livraison",
+    "deliveryAddressTitle": "Adresse de livraison",
+    "addNewShippingAddress": "Ajouter une nouvelle adresse de livraison",
+    "addAddress": "Ajouter l'adresse",
+    "billingAddressTitle": "Adresse de facturation",
+    "addNewAddress": "Ajouter une nouvelle adresse",
+    "backToAddressList": "Retour à la liste d'adresses",
+    "areYouSureToDeleteAddress": "Etes-vous sûr de vouloir supprimer cette adresse?"
+  },
+  "addressCard": {
+    "shipTo": "Livrer à",
+    "setAsDefault": "Définir par défaut",
+    "billTo": "Adresse de facturation",
+    "selected": "Sélectionné",
+    "default": "DÉFAUT"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Nom de famille",
+      "placeholder": "Nom de famille"
+    },
+    "aptSuite": "Apt, Suite",
+    "saveAsDefault": "Enregistrer par défaut",
+    "firstName": {
+      "label": "Prénom",
+      "placeholder": "Prénom"
+    },
+    "zipCode": {
+      "placeholder": "Code postal",
+      "label": "Code postal"
+    },
+    "address1": "Adresse 1",
+    "setAsDefault": "Définir par défaut",
+    "title": "Civilité",
+    "userAddressDeleteSuccess": "L'adresse a été supprimée avec succès!",
+    "userAddressAddSuccess": "La nouvelle adresse a été ajoutée avec succès!",
+    "city": {
+      "placeholder": "Ville",
+      "label": "Ville"
+    },
+    "invalidAddress": "Adresse invalide",
+    "chooseAddress": "Choisir l'adresse",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "Numéro de téléphone (facultatif)"
+    },
+    "titleRequired": "La civilité est requise",
+    "state": "Statut",
+    "address2": "Adresse 2 (facultatif)",
+    "selectOne": "Sélectionner un ...",
+    "country": "Pays",
+    "streetAddress": "Rue",
+    "userAddressUpdateSuccess": "L'adresse a été mise à jour avec succès!"
+  },
+  "wishlist": {
+    "addToCart": "Ajouter au panier",
+    "empty": "Votre liste de préférés est vide"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Créer un compte?",
+    "invoiceHasBeenSentByEmail": "Une facture a été envoyée par e-mail. Vous devriez la recevoir bientôt.",
+    "placedOn": "Placé sur",
+    "status": "Statut",
+    "frequency": "Fréquence",
+    "orderItems": "Articles commandés",
+    "orderPlacedSuccessfully": "Commande passée avec succès",
+    "nextOrderDate": "Date de la commande suivante",
+    "confirmationOfOrder": "Confirmation de la commande :",
+    "cancelled": "Annulé",
+    "createAccountForNext": "Créer un compte <{{email}}> pour une gestion plus rapide de vos commandes lors de votre prochaine visite.",
+    "replenishmentNumber": "reconstitution #",
+    "orderNumber": "Numéro de commande",
+    "thankYou": "Nous vous remercions de votre commande!",
+    "active": "Actif"
+  },
+  "checkoutPO": {
+    "placeholder": "Entrez p.o.",
+    "poNumber": "Numéro de commande",
+    "availableLabel": "adresses de livraison disponibles dépendent de l'unité du centre de coûts",
+    "costCenter": "Centre de coûts",
+    "noPoNumber": "Aucun"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Auto Replenish ordre",
+    "confirmThatRead": "Je confirme que je l'ai lu et accepté le",
+    "termsAndConditions": "Conditions Générales de Ventes",
+    "recurrencePeriodType_WEEKLY": "Semaine(s)",
+    "poNumber": "Numéro de commande",
+    "dayOfMonth": "le jour",
+    "every": "Chaque",
+    "placeOrder": "Passer la commande",
+    "scheduleReplenishmentOrder": "Horaire Commande de réapprovisionnement",
+    "recurrencePeriodType_DAILY": "Jour(s)",
+    "repeatOnDays": "Répétez les jours suivants",
+    "funNumber": "ID: {{fun}}",
+    "editShippingAddress": "Modifier l'adresse de livraison",
+    "startOn": "Démarrer",
+    "additionalDetailsTitle": "Informations additionnelles",
+    "deliveryAddressTitle": "Adresse de livraison",
+    "orderType_PLACE_ORDER": "Aucun (un ordre de temps seulement)",
+    "invoiceAddressTitle": "Adresse de facturation",
+    "recurrencePeriodType_MONTHLY": "Mois",
+    "requestedDate": "Date demandée :",
+    "orderType": "Type de commande:",
+    "checkoutError": "Erreur est survenue. Veuillez contacter le service client",
+    "itemsTitle": "Articles à livrer",
+    "additionalReference": "Référence supplémentaire:",
+    "orderItems": "Articles commandés",
+    "quantity": "Quantité: {{count}}",
+    "reference": "Référence",
+    "orderNumber": "Numéro de commande:",
+    "review": "La revue",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Reconstituer ordre",
+    "deliveryDate": "Date de livraison demandée:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Adresse de livraison",
+    "reviewOrder": "Vérifier la commande",
+    "paymentDetails": "Détails de paiement",
+    "billingTask": "Sélectionner l'adresse de facturation",
+    "billingAddress": "Adresse de facturation",
+    "methodOfPayment": "Moyen de paiement",
+    "deliveryMode": "Mode de livraison",
+    "reviewTask": "Vérifier le détail dans le récapitulatif de votre commande",
+    "shippingTask": "Sélectionner l'adresse de livraison",
+    "invoicePayment": "Paiement de la facture"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Adresse de facturation par défaut",
+    "enteredAddress": "Adresse indiquée",
+    "selectYourInvoiceAddress": "Sélectionnez votre adresse de facturation",
+    "verifyYourAddress": "Vérifiez votre adresse",
+    "invoiceAddress": "Adresse de la facture",
+    "editAddress": "Modifier l'adresse",
+    "chooseAddressToUse": "Sélectionner l'adresse que vous souhaitez utiliser :",
+    "shipToThisAddress": "Livrer à cette adresse",
+    "saveAddress": "Enregistrer l'adresse",
+    "addNewAddress": "Ajouter une nouvelle adresse",
+    "defaultShippingAddress": "Adresse de livraison par défaut",
+    "selectInvoiceAddress": "Sélectionnez cette adresse",
+    "selectYourBillingAddress": "Sélectionnez votre adresse de facturation",
+    "suggestedAddress": "Adresse suggérée",
+    "billingAddress": "Adresse de facturation",
+    "selectYourShippingAddress": "Sélectionner votre adresse de livraison",
+    "shippingAddress": "Adresse de livraison",
+    "ensureAccuracySuggestChange": "Pour garantir la précision de livraison, nous vous proposons le changement sélectionné ci-dessous."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Livraison Standard",
+    "shippingMethod": "Mode de livraison",
+    "premiumDelivery": "Livraison prime"
+  },
+  "checkout": {
+    "back": "Retour",
+    "invalid": {
+      "accountType": "Votre compte ne vous permet pas à la caisse ici."
+    },
+    "backToCart": "Retour au panier",
+    "continue": "Continuer"
+  },
+  "loginForm": {
+    "emailAddress": {
+      "placeholder": "Entrez votre email",
+      "label": "Adresse e-mail"
+    },
+    "password": {
+      "placeholder": "Mot de passe",
+      "label": "Mot de passe"
+    },
+    "forgotPassword": "Mot de passe oublié?",
+    "wrongEmailFormat": "Ce n'est pas un format d'email valide.",
+    "guestCheckout": "Paiement invité",
+    "signIn": "Se connecter",
+    "register": "S'inscrire",
+    "dontHaveAccount": "Vous n'avez pas de compte?"
+  },
+  "checkoutLogin": {
+    "emailsMustMatch": "Cet email ne correspond pas",
+    "emailAddress": {
+      "label": "Adresse e-mail",
+      "placeholder": "Entrer votre email"
+    },
+    "continue": "Continuer",
+    "emailIsRequired": "Format d'email invalide",
+    "confirmEmail": {
+      "label": "Confirmer votre e-mail",
+      "placeholder": "Confirmer votre e-mail"
+    }
+  },
+  "anonymousConsents": {
+    "banner": {
+      "viewDetails": "Voir les détails",
+      "allowAll": "Tout autoriser",
+      "title": "Ce site web utilise des cookies",
+      "description": "Nous utilisons le stockage des cookies pour personnaliser le contenu et améliorer l'expérience utilisateur."
+    },
+    "preferences": "Préférences des cookies",
+    "dialog": {
+      "clearAll": "Tout effacer",
+      "legalDescription": "Nous utilisons des cookies pour personnaliser le contenu et améliorer l'expérience utilisateur. Nous pourrions également partager les données sur votre utilisation du site avec nos médias sociaux. Pour en savoir plus, s'il vous plaît consulter notre politique de confidentialité.",
+      "title": "gestion des cookies",
+      "selectAll": "Tout sélectionner"
+    }
+  },
+  "forgottenPassword": {
+    "resetPassword": "Réinitialiser le mot de passe",
+    "passwordResetSuccess": "Mot de passe changé! Vous pouvez vous connecter maintenant en utilisant votre nouveau mot de passe.",
+    "enterEmailAddressAssociatedWithYourAccount": "Saisir l'adresse e-mail associée à votre compte",
+    "emailAddress": {
+      "label": "Adresse e-mail",
+      "placeholder": "Entrer votre email"
+    },
+    "enterValidEmail": "Merci de saisir un email valide.",
+    "passwordResetEmailSent": "Un e-mail vous a été envoyé. Il contient les informations afin de de réinitialiser votre mot de passe."
+  },
+  "register": {
+    "titleRequired": "Le champ civilité est requis",
+    "newPassword": "Nouveau mot de passe",
+    "confirmThatRead": "Je confirme avoir lu et accepté la",
+    "firstName": {
+      "label": "Prénom",
+      "placeholder": "Prénom"
+    },
+    "createAccount": "Créer un compte",
+    "bothPasswordMustMatch": "Les deux mot de passe doivent correspondre",
+    "register": "S'inscrire",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "postRegisterMessage": "Merci de vous connecter avec les identifiants fournis",
+    "emailAddress": {
+      "placeholder": "Adresse e-mail",
+      "label": "Adresse e-mail"
+    },
+    "title": "Civilité",
+    "confirmPassword": {
+      "action": "Confirmer le mot de passe",
+      "placeholder": "Confirmer le mot de passe",
+      "label": "Confirmer le mot de passe"
+    },
+    "termsAndConditions": "Conditions générales de Ventes",
+    "lastName": {
+      "label": "Nom de famille",
+      "placeholder": "Nom de famille"
+    },
+    "password": {
+      "placeholder": "Mot de passe",
+      "label": "Mot de passe"
+    },
+    "emailMarketing": "Utiliser mes données personnelles pour recevoir des informations par email pour les campagnes  marketing. Pour modifier vos paramètres, allez dans gérer mon compte.",
+    "managementInMyAccount": "Gérer mon compte",
+    "passwordMinRequirements": "Le mot de passe doit être de six caractères minimum, avec une lettre majuscule, un numéro, un symbole",
+    "confirmNewPassword": "Confirmer le nouveau mot de passe",
+    "signIn": "J'ai déjà un compte. Se connecter",
+    "selectTitle": "Sélectionner le champ civilité"
+  }
+}

@@ -1,0 +1,26 @@
+<div class="child-wrapper">
+  <div class="child-img">
+    <img [src]="apiEndpoint + inspirationItem?.image?.url"/>
+  </div>
+  <div class="child-details">
+    <div [innerHTML]="inspirationItem?.title" class="child-title"></div>
+    <div
+      [innerHTML]="inspirationItem?.description"
+      class="child-description"
+    ></div>
+    <div class="child-button">
+      <cx-generic-link
+        [url]="
+          inspirationItem?.link?.localizedUrl
+            ? inspirationItem?.link?.localizedUrl
+            : inspirationItem?.link?.url
+        "
+      >
+        <div
+          [innerHTML]="inspirationItem?.link?.linkName"
+          class="btn explore-btn"
+        ></div>
+      </cx-generic-link>
+    </div>
+  </div>
+</div>

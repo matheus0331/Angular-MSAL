@@ -1,0 +1,487 @@
+{
+  "searchSupport": {
+    "placeholder": "Procurar aqui ....",
+    "results": "Resultado",
+    "manualTitle": "",
+    "manualDownload": "",
+    "text": "Procurar pelo FUN, referência do produto ou nome do produto",
+    "more": "Procure aqui...",
+    "allResults": "Mostrar todos os resultados para:",
+    "manualDescription": "",
+    "resultsFor": "Mostrar resultados para:"
+  },
+  "chat": {
+    "faq": "Não foi possível encontrar a resposta à sua pergunta nas nossas FAQs",
+    "message1": "Olá, Sou a Laura. A v. assistente. Como posso ajudar?",
+    "title": "Assistente Pessoal",
+    "message2": "Pode escolher uma das opções ou colocar uma questão.",
+    "contact": "Contactar Franke",
+    "complaint": "Pode usar o nosso formulário de contato!"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Precisa de ajuda com algum produto ou tem alguma questão?",
+    "title": "Olá, estamos aqui para ajudar"
+  },
+  "contactForm": {
+    "contactType": "Selecione a sub categoria",
+    "files": "Anexar imagens para apoiar a solicitação",
+    "funNumber": "Número do artigo",
+    "request": "Descreva a sua questão",
+    "ticketAddSucess": "Ticket criado",
+    "ticketAddFail": "Erro ao criar o ticket, tente novamente",
+    "subTitle2": "Selecione o produto",
+    "generalContactCategories": "Número do pedido",
+    "deleteFiles": "Excluir",
+    "productSubCategories": "Selecione a sub categoria",
+    "title": "Selecione o tipo de contato",
+    "subTitle1": "Selecione a categoria",
+    "productCategories": "Selecione o seu produto",
+    "orderNumber": "Número do Pedido"
+  },
+  "product": {
+    "id": "Produto"
+  },
+  "faq": {
+    "print": "Imprimir esta página",
+    "customerServicesQuestions": "Serviço ao cliente",
+    "pageTitle": "Perguntas Frequentes",
+    "productQuestionsTitle": "Produtos Franke",
+    "portalQuestionsTitle": "Portal de Cliente Franke",
+    "ordersAndShipmentQuestions": "Pedidos e Envios"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Pode ter até um máximo de 4 endereços.",
+    "updateAddress": "Atualizar endereço",
+    "editShippingAddress": "Editar endereço de entrega",
+    "deliveryAddressTitle": "Endereço de entrega",
+    "addNewShippingAddress": "Adicionar um novo endereço de entrega",
+    "addAddress": "Adicionar um endereço",
+    "billingAddressTitle": "Endereço de Cobrança",
+    "addNewAddress": "Adicione um novo endereço",
+    "backToAddressList": "Voltar à lista de endereços",
+    "areYouSureToDeleteAddress": "Tem certeza de que deseja excluir este endereço?"
+  },
+  "addressCard": {
+    "shipTo": "Enviar para",
+    "setAsDefault": "Definir por defeito",
+    "billTo": "Cobrança para",
+    "selected": "Selecionado",
+    "default": "Por defeito"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Sobrenome",
+      "placeholder": "Sobrenome"
+    },
+    "aptSuite": "nº , andar,",
+    "saveAsDefault": "Salvar por defeito",
+    "firstName": {
+      "label": "Primeiro nome",
+      "placeholder": "Primeiro nome"
+    },
+    "zipCode": {
+      "placeholder": "Código Postal",
+      "label": "Código Postal"
+    },
+    "address1": "Endereço 1",
+    "setAsDefault": "Definir por defeito",
+    "title": "Título",
+    "userAddressDeleteSuccess": "Endereço excluído com sucesso!",
+    "userAddressAddSuccess": "Novo endereço foi adicionado com sucesso!",
+    "city": {
+      "placeholder": "Cidade",
+      "label": "Cidade"
+    },
+    "invalidAddress": "Endereço inválido",
+    "chooseAddress": "Escolha endereço",
+    "phoneNumber": {
+      "placeholder": "(351) 916 123 124",
+      "label": "Número de telefone (opcional)"
+    },
+    "titleRequired": "Título é necessário",
+    "state": "distrito",
+    "address2": "Endereço 2 (opcional)",
+    "selectOne": "Selecione um...",
+    "country": "País",
+    "streetAddress": "rua",
+    "userAddressUpdateSuccess": "Endereço atualizado com sucesso!"
+  },
+  "wishlist": {
+    "addToCart": "Adicionar ao Carrinho",
+    "empty": "Não há produtos na sua lista de desejos"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Criar a sua conta aqui?",
+    "invoiceHasBeenSentByEmail": "Receberá confirmação do pedido via e-mail",
+    "placedOn": "Confirmado",
+    "status": "Status",
+    "frequency": "Frequência",
+    "orderItems": "Confirmação de encomenda",
+    "orderPlacedSuccessfully": "Pedido colocado com sucesso",
+    "nextOrderDate": "Próxima data de pedido",
+    "confirmationOfOrder": "Confirmação de encomenda:",
+    "cancelled": "Cancelado",
+    "createAccountForNext": "Criar uma conta para <{{email}}> para um check-out mais rápido na sua próxima visita.",
+    "replenishmentNumber": "reposição #",
+    "orderNumber": "Número do pedido",
+    "thankYou": "Obrigado pelo seu pedido!",
+    "active": "Ativo"
+  },
+  "checkoutPO": {
+    "placeholder": "Digite nº da encomenda",
+    "poNumber": "Número do pedido",
+    "availableLabel": "Endereços de envio disponíveis depende de unidade de centro de custo",
+    "costCenter": "Centro de custo",
+    "noPoNumber": "Nenhum"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "pedido automatico",
+    "confirmThatRead": "Confirmo que li e concordo com o",
+    "termsAndConditions": "Termos e Condições",
+    "recurrencePeriodType_WEEKLY": "Semana )",
+    "poNumber": "número do pedido",
+    "dayOfMonth": "Dia",
+    "every": "Cada",
+    "placeOrder": "Faça a encomenda",
+    "scheduleReplenishmentOrder": "agendar novo pedido",
+    "recurrencePeriodType_DAILY": "Dias)",
+    "repeatOnDays": "Repete nos seguintes dias",
+    "funNumber": "Artigo: {{Referência}}",
+    "editShippingAddress": "Editar endereço de entrega",
+    "startOn": "iniciar em",
+    "additionalDetailsTitle": "Detalhes adicionais da encomenda",
+    "deliveryAddressTitle": "Endereço de entrega",
+    "orderType_PLACE_ORDER": "Nenhum (encomenda única )",
+    "invoiceAddressTitle": "Endereço de Cobrança",
+    "recurrencePeriodType_MONTHLY": "Mês",
+    "requestedDate": "Data do pedido:",
+    "orderType": "Tipo de encomenda:",
+    "checkoutError": "Ocorreu um erro. Entre em contato com o suporte ao cliente",
+    "itemsTitle": "Os itens a serem entregues",
+    "additionalReference": "Referência adicional:",
+    "orderItems": "Encomendar iItems",
+    "quantity": "Quantidade: {{count}}",
+    "reference": "Referência",
+    "orderNumber": "Número do pedido:",
+    "review": "Verificar",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Novo pedido",
+    "deliveryDate": "Data de entrega solicitada:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Endereço de entrega",
+    "reviewOrder": "Rever pedido",
+    "paymentDetails": "Detalhes do pagamento",
+    "billingTask": "endereço de cobrança selecionado",
+    "billingAddress": "Endereço de Cobrança",
+    "methodOfPayment": "Forma de pagamento",
+    "deliveryMode": "Método de Entrega",
+    "reviewTask": "Reveja a sua encomenda na seção resumo",
+    "shippingTask": "endereço de entrega selecionado",
+    "invoicePayment": "Pagamento da fatura"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "endereço da fatura por defeito",
+    "enteredAddress": "endereço introduzido",
+    "selectYourInvoiceAddress": "Selecione seu endereço de fatura",
+    "verifyYourAddress": "Verificar o seu endereço",
+    "invoiceAddress": "endereço de fatura",
+    "editAddress": "Editar Endereço",
+    "chooseAddressToUse": "Por favor, escolha qual o endereço que gostaria de usar:",
+    "shipToThisAddress": "Entregar neste endereço",
+    "saveAddress": "Salvar endereço",
+    "addNewAddress": "Adicione um novo endereço",
+    "defaultShippingAddress": "endereço de entrega por defeito",
+    "selectInvoiceAddress": "Escolha este endereço",
+    "selectYourBillingAddress": "Selecione endereço de faturação",
+    "suggestedAddress": "Endereço sugerido",
+    "billingAddress": "Endereço de Cobrança",
+    "selectYourShippingAddress": "Selecione o seu endereço de entrega",
+    "shippingAddress": "Endereço de entrega",
+    "ensureAccuracySuggestChange": "Para garantir a entrega, sugerimos a alteração selecionada abaixo."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Entrega",
+    "shippingMethod": "Método de envio",
+    "premiumDelivery": "Entrega Premium"
+  },
+  "checkout": {
+    "back": "Voltar",
+    "invalid": {
+      "accountType": "A sua conta não permite check-out aqui."
+    },
+    "backToCart": "Voltar ao carrinho",
+    "continue": "Continuar"
+  },
+  "loginForm": {
+    "emailAddress": {
+      "placeholder": "Digite e-mail",
+      "label": "Endereço de e-mail"
+    },
+    "password": {
+      "placeholder": "Password",
+      "label": "Password"
+    },
+    "forgotPassword": "Esqueceu a password?",
+    "wrongEmailFormat": "Este não é um formato de e-mail válido.",
+    "guestCheckout": "check-out de convidados",
+    "signIn": "Entrar",
+    "register": "Registo",
+    "dontHaveAccount": "Não tem uma conta?"
+  },
+  "checkoutLogin": {
+    "emailsMustMatch": "E-mail não corresponde",
+    "emailAddress": {
+      "label": "Endereço de e-mail",
+      "placeholder": "Digite e-mail"
+    },
+    "continue": "Continuar",
+    "emailIsRequired": "Formato de email inválido",
+    "confirmEmail": {
+      "label": "Confirmar e-mail",
+      "placeholder": "Confirmar e-mail"
+    }
+  },
+  "anonymousConsents": {
+    "banner": {
+      "viewDetails": "Ver detalhes",
+      "allowAll": "Permitir todos",
+      "title": "Este website utiliza cookies",
+      "description": "Usamos cookies / browsers para personalizar o conteúdo e melhorar a experiência do utilizador."
+    },
+    "preferences": "preferências de consentimento",
+    "dialog": {
+      "clearAll": "Usamos cookies / browsers para personalizar o conteúdo e melhorar a experiência do utilizador. Também pode compartilhar os dados sobre o seu uso do site com os nossos meios de comunicação social. Para saber mais, leia nossa política de privacidade.",
+      "legalDescription": "Usamos cookies / browsers para personalizar o conteúdo e melhorar a experiência do utilizador. Também pode compartilhar os dados sobre o seu uso do site com os nossos meios de comunicação social. Para saber mais, leia nossa política de privacidade.",
+      "title": "Usamos cookies / browsers para personalizar o conteúdo e melhorar a experiência do utilizador.Também pode compartilhar os dados sobre o seu uso do site com os nossos meios de comunicação social. Para saber mais, leia nossa política de privacidade.",
+      "selectAll": "Usamos cookies / browsers para personalizar o conteúdo e melhorar a experiência do utilizador. Também pode compartilhar os dados sobre o seu uso do site com os nossos meios de comunicação social. Para saber mais, leia nossa política de privacidade."
+    }
+  },
+  "forgottenPassword": {
+    "resetPassword": "redefinição de password",
+    "passwordResetSuccess": "Sucesso! Agora pode fazer o login usando a nova password",
+    "enterEmailAddressAssociatedWithYourAccount": "Digite o endereço de e-mail associado à sua conta",
+    "emailAddress": {
+      "label": "Endereço de e-mail",
+      "placeholder": "Digite e-mail"
+    },
+    "enterValidEmail": "Por favor digite um email válido.",
+    "passwordResetEmailSent": "Um email foi enviado para si com informações sobre como redefinir sua password"
+  },
+  "register": {
+    "titleRequired": "Título necessário",
+    "newPassword": "Nova Password",
+    "confirmThatRead": "confirmo que li e concordo com",
+    "firstName": {
+      "label": "Primeiro nome",
+      "placeholder": "Primeiro nome"
+    },
+    "createAccount": "Crie a sua conta aqui",
+    "bothPasswordMustMatch": "As passwords devem corresponder",
+    "register": "Registo",
+    "resetPassword": "redefinição de password",
+    "postRegisterMessage": "Login com credenciais fornecidas.",
+    "emailAddress": {
+      "placeholder": "Endereço de e-mail",
+      "label": "Endereço de e-mail"
+    },
+    "title": "Título",
+    "confirmPassword": {
+      "action": "Confirme a Password",
+      "placeholder": "Confirme a Password",
+      "label": "Confirme a Password"
+    },
+    "termsAndConditions": "termos e Condições",
+    "lastName": {
+      "label": "Sobrenome",
+      "placeholder": "Sobrenome"
+    },
+    "password": {
+      "placeholder": "Password",
+      "label": "Password"
+    },
+    "emailMarketing": "Usar os meus dados pessoais para receber informações por email para campanhas de marketing. Para alterar suas configurações, vá para gestão de Consentimento em minha conta.",
+    "managementInMyAccount": "Gestão na Minha Conta.",
+    "passwordMinRequirements": "A password deve ter no mínimo seis caracteres e conter uma letra maiúscula, um número, um símbolo",
+    "confirmNewPassword": "Confirme a nova password",
+    "signIn": "Eu já tenho uma conta. Entrar",
+    "selectTitle": "Escolha um título"
+  },
+  "stockNotification": {
+    "subscriptionDialog": {
+      "manageSubscriptionsLink": "Meus interesses",
+      "notifiedPrefix": "Será notificado sobre:",
+      "header": "Fora de stock subscrição",
+      "manageChannelsSuffix": "Página.",
+      "manageSubscriptionsSuffix": "Página.",
+      "subscribing": "Pode gerenciar suas inscrições no",
+      "manageChannelsLink": "Notificação de preferência",
+      "manageChannelsPrefix": "Gerencie os seus canais de notificação preferenciais, ao",
+      "manageSubscriptionsPrefix": "Pode gerenciar suas inscrições no",
+      "okBtn": "OK",
+      "notifiedSuffix": "Assim que este produto estiver em stock"
+    },
+    "notified": "Será notificado quando este produto estiver novamente em stock.",
+    "getNotifySuffix": "para ser notificado quando este produto estiver disponível.",
+    "activateChannelsPrefix": "Para ser notificado  precisa de ativar o",
+    "activateChannelsSuffix": ".",
+    "notifyMe": "AVISE ME",
+    "getNotified": "Receber uma notificação quando este produto estiver novamente em stock.",
+    "stopNotify": "Stop Notificação",
+    "channelsLink": "canais de notificação",
+    "getNotify": "Receber uma notificação quando este produto estiver disponível.",
+    "unsubscribeSuccess": "Você cancelou a assinatura com sucesso da notificação de retorno de estoque"
+  },
+  "accordion": {
+    "features": "Características",
+    "remarks": "Observações",
+    "dimensions": "dimensões",
+    "productDetails": "Detalhes do produto"
+  },
+  "productSummary": {
+    "preLaunchBody": "Pode pre-encomendar este item para entrega assim que estiver disponivel",
+    "id": "Refª do artigo",
+    "substitutesProducts": "Veja alternativas",
+    "availabilityCheck": {
+      "noFurtherInfoSingular": "Atualmente, não temos nenhuma informação adicional disponível para as unidades restantes  {{quantity}}",
+      "priceTooltip": "Preço recomendado de Venda ao Publico (IVA não incluido)",
+      "itemsNotAvailable": "Existem {{quantity}} unidades disponíveis em {{date}}",
+      "itemsAvailableSingular": "Há {{quantity}} unidade disponível em {{date}}",
+      "itemsNotAvailableSingular": "Há {{quantity}} unidade disponível em {{date}}",
+      "deliveryDateInfo": "Data de entrega estimada, 7 dias após data da compra.",
+      "noFurtherInfo": "Atualmente, não temos nenhuma informação adicional disponível para as unidades restantes  {{quantity}}",
+      "button": "Verificar disponibilidade",
+      "errorMessage": "Não foi possível carregar as informações no momento, tente novamente mais tarde",
+      "itemsAvailable": "Existem {{quantity}} unidades disponíveis em {{date}}",
+      "dateTitle": "Data de entrega solicitada"
+    },
+    "promotionTooltip": "O preço final com desconto será visível no carrinho de compras",
+    "description": "Descrição",
+    "showReviews": "Mostrar comentários",
+    "localSalesNumber": "ID local #",
+    "share": "Compartilhar",
+    "referenceNumber": "Número de referência",
+    "unrecognizedError": "Ops! Esquecemos algo. Entre em contato com nossa equipe de suporte ao cliente para solicitar este produto.",
+    "cannotBuyAnymore": "Este produto não está disponivel, verifique as sugestões de produtos alternativos",
+    "catalogPrice": "Preço catálogo",
+    "more": "Ver mais",
+    "preLaunchTitle": "Pré-lançamento"
+  },
+  "productList": {
+    "clearFilters": "Limpar filtros",
+    "listingPageSubtitle": "Os preços apresentados são preços de catálogo (IVA não incluido)",
+    "searchResultsTitle": "{{numberOfResults}} resultados para \"{{query}}\"",
+    "view": "Ver",
+    "backToTopBtn": "DE VOLTA AO INICIO",
+    "wishlist": "favoritos",
+    "discontinuedProductsFilter": "Mostrar produtos descontinuados",
+    "pageOf": "Página {{x}} de {{y}}",
+    "articleNumber": "Artigo {{fun}}",
+    "previous": "prev",
+    "filterBy": {
+      "action": "Filtrar por",
+      "label": "Filtrar por"
+    },
+    "appliedFilter": "Filtro aplicado:",
+    "showMoreBtn": "MOSTRE MAIS",
+    "description": "Descrição",
+    "notAvailableDescription": "Peças e acessórios ainda podem ser comprados por este produto",
+    "sortByRelevance": "Classificar por relevância",
+    "cart": "Carrinho",
+    "showMore": "Mostre mais...",
+    "filters": "filtros",
+    "results": "Resultados",
+    "showLess": "Mostre menos...",
+    "notAvailable": "Produto descontinuado",
+    "next": "Próximo"
+  },
+  "productDetails": {
+    "noDetails": "Não há mais detalhes para este produto. Se  tiver alguma dúvida sobre este produto, envie-nos uma mensagem através do  nosso <u> <a class=\"form\" href=\"/client-service\"> formulário de contato. </a> </u>",
+    "reviews": "Avaliações",
+    "shipping": "Envio",
+    "specification": "especificações",
+    "productDetails": "Detalhes do produto",
+    "quantity": "Qtde",
+    "id": "ID",
+    "imageDisclaimer": "Imagem mostrada apenas para referência. Por favor, veja a descrição e o desenho técnico para mais informações",
+    "showReviews": "Mostrar comentários",
+    "share": "Compartilhar",
+    "noReviews": "Ainda não há comentários"
+  },
+  "productReview": {
+    "overallRating": "Avaliação geral",
+    "more": "Mais",
+    "reviewerName": "Nome do critico (opcional)",
+    "rating": "Avaliação",
+    "writeReview": "Escreva uma crítica",
+    "writeYourComments": "Escreva seus comentários",
+    "less": "Menos",
+    "reviewTitle": "título",
+    "thankYouForReview": "Obrigado pela crítica! Os  comentários podem exigir a validação antes de aparecerem aqui."
+  },
+  "addToCart": {
+    "selectStyleAndSize": "Escolha um estilo e tamanho para verificar o stock",
+    "addToCartFailed": "Falha ao adicionar o produto ao carrinho! Tente novamente.",
+    "itemsAddedToYourCart": "Item (s) adicionado ao seu carrinho",
+    "items": "Itens",
+    "viewCart": "Ver carrinho",
+    "inStock": "Disponível",
+    "quantity": "Qtde",
+    "addToCartSuccessfully": "Produto adicionado ao carrinho com sucesso",
+    "itemsIncrementedInYourCart": "Este artigo já estava  no seu carrinho. A quantidade foi atualizado.",
+    "updatingCart": "Atualizando carrinho ...",
+    "outOfStock": "Indisponivel",
+    "addToCart": "Adicionar ao Carrinho",
+    "proceedToCheckout": "Fazer o check-out"
+  },
+  "TabPanelContainer": {
+    "tabs": {
+      "ProductSpecsTabComponent": "Especificações",
+      "ProductDetailsTabComponent": "Detalhes do produto",
+      "ProductReviewsTabComponent": "Avaliações",
+      "deliveryTab": "Envio",
+      "ProductDownloadsTabComponent": "Download"
+    }
+  },
+  "alternativeProducts": {
+    "similarProductRecommendations": "Recomendação de produtos similares",
+    "declaimer": "Nota: Algumas características dos produtos alternativos sugeridos podem não corresponder exactamente ao seu pedido. Por favor, verifique cuidadosamente antes de prosseguir.",
+    "goToProduct": "Ir para produto",
+    "article": "Artigo",
+    "showAlternativeProducts": "Mostrar produtos alternativos",
+    "noRecommendations": "Não temos recomendações para este produto selecionado."
+  },
+  "addToWishList": {
+    "remove": "Remover da lista de desejos",
+    "addToWishlistSuccessfully": "O produto foi adicionado aos favoritos com sucesso",
+    "add": "Adicionar aos favoritos",
+    "addToWishlistFailed": "Falha ao adicionar produto aos favoritos! Tente novamente.",
+    "anonymous": "Faça login para adicionar aos favoritos"
+  },
+  "variant": {
+    "size": "Tamanho",
+    "color": "Cor",
+    "selectedStyle": "estilo selecionado",
+    "style": "Estilo",
+    "sizeGuideLabel": "Guia de estilo"
+  },
+  "productFacetNavigation": {
+    "appliedFilter": "Filtro aplicado:",
+    "showMore": "Mostre mais...",
+    "showLess": "Mostre menos...",
+    "filterBy": {
+      "action": "Filtrar por",
+      "label": "Filtrar por"
+    },
+    "sortByRelevance": "Classificar por relevância"
+  },
+  "productDownloads": {
+    "productSheet": "Ficha do Produto"
+  },
+  "productReferences": {
+    "id": "Artigo"
+  }
+}

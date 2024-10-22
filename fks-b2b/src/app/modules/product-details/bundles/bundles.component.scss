@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+
+  .product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  .product-name {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 34px;
+  }
+}

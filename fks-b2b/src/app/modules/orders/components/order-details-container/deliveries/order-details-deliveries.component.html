@@ -1,0 +1,26 @@
+<ng-container *ngIf="(loading$ | async) === false; else loading">
+  <div *ngIf="orderDeliverery$ | async as orderDeliverery">
+    <ng-container *ngIf="orderDeliverery.deliveryEntries.length === 0">
+      <p class="no-tracking-results">
+        {{ 'orderDetails.tracking.noTrackingResults' | cxTranslate }}
+      </p>
+    </ng-container>
+    <div
+      *ngFor="
+        let delivery of orderDeliverery.deliveryEntries | unique: 'deliveryCode'
+      "
+      class="mb-5 pb-2"
+    >
+      <app-order-details-delivery-by-code
+        [deliveries]="orderDeliverery.deliveryEntries"
+        [deliveryCode]="delivery.deliveryCode"
+      ></app-order-details-delivery-by-code>
+    </div>
+  </div>
+</ng-container>
+
+<ng-template #loading>
+  <div class="cx-spinner">
+    <cx-spinner></cx-spinner>
+  </div>
+</ng-template>

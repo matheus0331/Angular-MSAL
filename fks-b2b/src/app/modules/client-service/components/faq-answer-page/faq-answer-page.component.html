@@ -1,0 +1,26 @@
+<div #myDiv class="faqContent">
+  <div class="faq-header">
+    <img
+      *ngIf="currentBrand$ | async as brand"
+      [src]="apiEndpoint + brand.logo.url"
+      class="brand-logo"
+    />
+  </div>
+  <div class="faq-body">
+    <div class="faq-card">
+      <h5 class="faq-question">{{ question }}</h5>
+      <div
+        (click)="processLinks($event)"
+        class="faq-answer"
+        innerHtml="{{ answer }}"
+      ></div>
+    </div>
+    <div (click)="printPage()" class="print-page">
+      <cx-icon class="printer-icon" type="PRINTER"></cx-icon>
+      {{ 'faq.print' | cxTranslate }}
+    </div>
+  </div>
+  <div class="faq-footer">
+    <div class="copyright">{{ copyright.toString() }}</div>
+  </div>
+</div>

@@ -1,0 +1,154 @@
+/**
+  *
+  * Main scss file, all partials must be imported here
+  *
+ **/
+
+/* You can add global styles to this file, and also import other style files */
+@import './_variables.scss';
+@import './_versioning.scss';
+@import './_features.scss';
+@import '@spartacus/styles/index';
+@import './_theme.scss';
+@import './_icons.scss';
+@import './footer.scss';
+@import './_navigation-ui.scss';
+@import './_header.scss';
+@import './_typography.scss';
+@import './_searchbox.scss';
+@import './_carousel.scss';
+@import './_product-list.scss';
+@import './landing-page-2.scss';
+@import './_item-counter.scss';
+@import './_product-details.scss';
+@import './_card.scss';
+@import './_accordion.scss';
+@import './_cart-page.scss';
+@import "./_extended-tab-paragraph-container.scss";
+@import './_buttons.scss';
+@import './_forms.scss';
+@import './_multistep-checkout-page.scss';
+@import './_wish-list-page.scss';
+@import './_spinner.scss';
+@import './_modal.scss';
+@import './table/table.scss';
+@import './_helpers.scss';
+
+// Future-proof rule: in browsers that support :focus-visible, suppress the focus outline
+// on elements that programmatically receive focus but wouldn't normally show a visible
+// focus outline. In general, this would mean that the outline is only applied if the
+// interaction that led to the element receiving programmatic focus was a keyboard interaction,
+// or the browser has somehow determined that the user is primarily a keyboard user and/or
+// wants focus outlines to always be presented.
+//
+// See https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible
+// and https://developer.paciellogroup.com/blog/2018/03/focus-visible-and-backwards-compatibility/
+[tabindex='-1']:focus {
+  outline: 0 !important;
+}
+
+.center-spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Notification {
+  width: 100%;
+  margin: auto;
+
+  @include media-breakpoint-down(md) {
+    margin-top: 0;
+  }
+}
+
+// notification banner fix on PDP
+cx-page-layout.ProductDetailsPageTemplate:has(.notification-banner) {
+  padding-top: 0;
+}
+
+.ProductDetailsPageTemplate .notification-banner {
+  margin-bottom: 24px;
+  display: flex;
+  width: 100vw;
+}
+
+.uf-free-badge {
+  display: none;
+}
+
+.alert .close {
+  right: 1rem;
+  /* right: auto; */
+  top: 0.5rem;
+}
+
+extended-tab-paragraph-container {
+  background-color: black;
+}
+
+.cookie-overlay-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: white;
+}
+
+.cookie-overlay-content {
+  max-width: 600px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.download-link {
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+.cookie-overlay-spinner {
+  margin-top: 30px;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #e30613;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

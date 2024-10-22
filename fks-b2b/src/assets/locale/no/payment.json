@@ -1,0 +1,42 @@
+{
+  "paymentMethods": {
+    "invalidField": "Ugyldig felt: {{felt}}",
+    "newPaymentMethodsAreAddedDuringCheckout": "Nye betalingsmåter er lagt i kassen.",
+    "paymentMethods": "Betalingsmetoder"
+  },
+  "paymentForm": {
+    "useThisPayment": "Bruk denne betalingen",
+    "accountHolderName": {
+      "label": "Kontohaver Navn",
+      "placeholder": "Kontohaver Navn"
+    },
+    "securityCode": "Sikkerhetskode (CVV)",
+    "monthMask": "MM",
+    "yearMask": "ÅÅÅÅ",
+    "billingAddress": "Fakturaadresse",
+    "setAsDefault": "Satt som standard",
+    "saveAsDefault": "Lagre som standard",
+    "selectOne": "Velg en...",
+    "sameAsShippingAddress": "Samme som leveringsadresse",
+    "choosePaymentMethod": "Velg en betalingsmåte",
+    "cardNumber": "Kortnummer",
+    "expirationDate": "Utløpsdato",
+    "payment": "innbetaling",
+    "addNewPayment": "Legg til ny betalingsmetode",
+    "paymentType": "Betalings type",
+    "changePayment": "Endre betaling",
+    "securityCodeTitle": "Card Verification Verdi"
+  },
+  "paymentTypes": {
+    "title": "Betalingsmetode",
+    "paymentType_ACCOUNT": "Konto",
+    "paymentType_CARD": "Kreditt- / debetkort"
+  },
+  "paymentCard": {
+    "expires": "Utgår: {{måned}} / {{år}}",
+    "setAsDefault": "Satt som standard",
+    "defaultPaymentMethod": "✓ STANDARD",
+    "selected": "valgt",
+    "deleteConfirmation": "Er du sikker på at du vil slette denne betalingsmåten?"
+  }
+}

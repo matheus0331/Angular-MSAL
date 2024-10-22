@@ -1,0 +1,176 @@
+@import '../../../../../assets/scss/typography';
+
+@mixin align-items() {
+  display: flex;
+  align-items: center;
+}
+
+@mixin faq-answer-text($font-size, $font-weight, $line-height) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+:host ::ng-deep {
+  .faq-card {
+    .faq-answer {
+      .table {
+        width: auto;
+        margin: 0 auto;
+
+        th,
+        td {
+          border: 1px solid var(--grey);
+        }
+      }
+    }
+  }
+}
+
+.faqContent {
+  @media print {
+    @page {
+      margin: 0mm; /* this affects the margin in the printer settings */
+    }
+    print-color-adjust: exact;
+  }
+  @include align-items();
+  flex-direction: column;
+
+  .faq-header {
+    width: 100%;
+    background: var(--section-bg-color);
+    @media only screen and (max-width: 767px) {
+      padding: 32px 0;
+      display: flex;
+      justify-content: center;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      padding: 32px 48px;
+    }
+    @media only screen and (min-width: 992px) {
+      padding: 32px 145px;
+    }
+
+    .brand-logo {
+      max-height: 56px;
+      max-width: 290px;
+    }
+
+    @media print and (orientation: portrait) {
+      padding: 26px 50px;
+      .brand-logo {
+        max-height: 40px;
+        max-width: 210px;
+      }
+    }
+  }
+
+  .faq-body {
+    max-width: 920px;
+    @media print and (orientation: portrait) {
+      max-width: 700px;
+      margin: 33px 0 40px;
+      .faq-card {
+        max-width: 700px;
+      }
+    }
+
+    @include align-items();
+    justify-content: center;
+    flex-direction: column;
+    margin: 66px 0 80px;
+
+    .faq-card {
+      @include align-items();
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 33px;
+      margin: 0 15px 102px;
+
+      box-shadow: 0px 28px 48px rgba(0, 0, 0, 0.07),
+      0px 13px 10px rgba(0, 0, 0, 0.035), 0px 7px 5px rgba(0, 0, 0, 0.028),
+      0px 3px 2px rgba(0, 0, 0, 0.02);
+
+      @media only screen and (min-width: 992px) {
+        width: 920px;
+        margin: 0 0 102px;
+      }
+
+      @media print and (orientation: portrait) {
+        padding: 33px;
+        margin-bottom: 40px;
+      }
+      @media print {
+        font-size: var(--franke-button-font-size);
+      }
+
+      .faq-question {
+        margin-bottom: 24px;
+        letter-spacing: 0.01em;
+        color: var(--text-color);
+      }
+
+      .faq-answer {
+        @include faq-answer-text(
+            var(--franke-font-size-base),
+            var(--font-weight-base),
+            24px
+        );
+
+        color: var(--text-color);
+
+        @media print {
+          font-size: var(--franke-button-font-size);
+        }
+      }
+    }
+
+    .print-page {
+      @media print {
+        display: none;
+      }
+
+      .printer-icon {
+        margin-right: 15px;
+      }
+
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .faq-footer {
+    width: 100%;
+    background: var(--accent-color);
+    padding: 48px 48px;
+
+    @media print and (orientation: portrait) {
+      padding: 35px 50px;
+      position: absolute;
+      bottom: 0;
+    }
+    @media (min-width: 767.98px) and (orientation: portrait) {
+      position: absolute;
+      bottom: 0;
+    }
+    @media only screen and (min-width: 992px) {
+      padding: 48px 145px;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .copyright {
+      @include faq-answer-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px
+      );
+
+      color: var(--white);
+    }
+  }
+}

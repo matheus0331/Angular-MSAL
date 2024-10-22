@@ -1,0 +1,13 @@
+<p
+  *ngIf="characteristic"
+  [style.max-width]="itemWidth"
+  class="alternative-product-characteristic text-truncate"
+>
+  <span class="d-block d-sm-none characteristic">
+    {{ characteristic.characteristic }}
+  </span>
+  {{ characteristic.value }}
+  <span class="d-sm-none">
+    <cx-icon class="far fa-check"></cx-icon>
+  </span>
+</p>

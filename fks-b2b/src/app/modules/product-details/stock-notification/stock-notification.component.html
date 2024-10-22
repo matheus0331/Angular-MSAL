@@ -1,0 +1,31 @@
+<div *ngIf="(product$ | async) && product" class="stock-notification-wrapper">
+  <ng-container *ngIf="(isLoading$ | async) !== true; else loading">
+    <button
+      (click)="toogleProductStockNotification(true)"
+      *ngIf="!product.backInStockNotification"
+      class="btn btn-primary btn-block btn-notify"
+      type="button"
+    >
+      {{ 'stockNotification.notifyMe' | cxTranslate }}
+    </button>
+
+    <ng-container *ngIf="product.backInStockNotification">
+      <div class="stock-notification-notes">
+        <p>{{ 'stockNotification.notified' | cxTranslate }}</p>
+      </div>
+      <button
+        (click)="toogleProductStockNotification(false)"
+        class="btn btn-block btn-stop-notify"
+        type="button"
+      >
+        {{ 'stockNotification.stopNotify' | cxTranslate }}
+      </button>
+    </ng-container>
+  </ng-container>
+
+  <ng-template #loading>
+    <div class="spinner-wrapper">
+      <cx-spinner class="spinner"></cx-spinner>
+    </div>
+  </ng-template>
+</div>

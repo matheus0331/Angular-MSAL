@@ -1,0 +1,60 @@
+cx-page-layout.CartPageTemplate {
+  max-width: 1216px;
+  padding: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  .TopContent {
+    --cx-flex-basis: 62%;
+
+    @include media-breakpoint-down(md) {
+      --cx-flex-basis: 100%;
+    }
+  }
+
+  .CenterRightContentSlot {
+    --cx-flex-basis: 33%;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    @include media-breakpoint-up(lg) {
+      margin-left: 25px;
+
+      > * {
+        flex: none;
+      }
+    }
+
+    @include media-breakpoint-down(md) {
+      padding-top: 24px;
+
+      --cx-flex-basis: 100%;
+      justify-content: flex-end;
+      flex-direction: row;
+
+      cx-cart-totals {
+        max-width: 50%;
+      }
+
+      cx-cart-coupon {
+        max-width: 50%;
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      --cx-flex-basis: 100%;
+      flex-direction: unset;
+
+      cx-cart-totals {
+        max-width: none;
+      }
+
+      cx-cart-coupon {
+        max-width: 100%;
+      }
+    }
+  }
+}

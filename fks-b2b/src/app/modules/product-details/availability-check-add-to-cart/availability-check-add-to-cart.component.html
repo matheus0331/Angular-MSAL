@@ -1,0 +1,172 @@
+<form (ngSubmit)="checkAvailability()" [formGroup]="availabilityCheckForm">
+  <div class="availability-check-date">
+    <div class="input-title availability-check-date-info">
+      {{ 'productSummary.availabilityCheck.dateTitle' | cxTranslate }}
+      <div class="availability-check-date-icon">
+        <cx-icon type="QUESTION_CIRCLE"></cx-icon>
+        <span class="availability-check-date-info-text">
+          {{
+          'productSummary.availabilityCheck.deliveryDateInfo' | cxTranslate
+          }}
+        </span>
+      </div>
+    </div>
+    <div class="date-input-wrapper">
+      <input
+        #d="ngbDatepicker"
+        (click)="d.toggle()"
+        [dayTemplate]="customDay"
+        [displayMonths]="displayMonths"
+        [markDisabled]="isWeekend"
+        [minDate]="isDisabled"
+        [navigation]="navigation"
+        [outsideDays]="outsideDays"
+        [readonly]="true"
+        [showWeekNumbers]="showWeekNumbers"
+        class="date-input"
+        formControlName="deliveryDate"
+        name="deliveryDate"
+        ngbDatepicker
+        placeholder="{{ datePlaceholder }}"
+      />
+
+      <div
+        (click)="clearDateInput()"
+        *ngIf="availabilityCheckForm.get('deliveryDate').value"
+        class="clear-button-wrapper"
+      >
+        <cx-icon class="small" type="CLOSE"></cx-icon>
+      </div>
+
+      <div (click)="d.toggle()" class="calendar-button-wrapper">
+        <cx-icon type="CALENDAR"></cx-icon>
+      </div>
+    </div>
+  </div>
+  <label class="input-title">{{ 'addToCart.quantity' | cxTranslate }}</label>
+  <div class="quantity-wrapper">
+    <div *ngIf="showQuantity && hasPrice" class="quantity">
+      <cx-item-counter
+        [control]="addToCartForm.get('quantity')"
+      ></cx-item-counter>
+    </div>
+    <button class="availability-btn btn btn-block" type="submit">
+      {{ 'productSummary.availabilityCheck.button' | cxTranslate }}
+    </button>
+  </div>
+</form>
+
+<div class="availability-results-wrapper">
+  <div class="spinner-wrapper">
+    <cx-spinner
+      *ngIf="loadingAvailability$ | async"
+      class="spinner"
+    ></cx-spinner>
+  </div>
+  <div *ngIf="hasAvailability$ | async" class="availability-results">
+    <span
+      *ngIf="firstQuantityAvailable && firstDateAvailable"
+      class="available-items"
+    >
+      {{
+      firstQuantityAvailable > 1
+        ? ('productSummary.availabilityCheck.itemsAvailable'
+          | cxTranslate
+          : {
+            quantity: firstQuantityAvailable,
+            date: formatDate(firstDateAvailable)
+          })
+        : ('productSummary.availabilityCheck.itemsAvailableSingular'
+          | cxTranslate
+          : {
+            quantity: firstQuantityAvailable,
+            date: formatDate(firstDateAvailable)
+          })
+      }}
+    </span>
+    <ng-container
+      *ngFor="let nextQuantity of nextQuantityAvailable; let i = index"
+    >
+      <span class="non-available-items">
+        {{
+          nextQuantity >= 1
+            ? ('productSummary.availabilityCheck.itemsNotAvailable'
+              | cxTranslate
+              : {
+                quantity: nextQuantityAvailable[i],
+                date: formatDate(nextDateAvailable[i])
+              })
+            : ('productSummary.availabilityCheck.itemsNotAvailableSingular'
+              | cxTranslate
+              : {
+                quantity: nextQuantityAvailable[i],
+                date: formatDate(nextDateAvailable[i])
+              })
+        }}
+      </span>
+    </ng-container>
+    <span *ngIf="quantityWithoutInfo > 0" class="non-available-items">
+      {{
+      quantityWithoutInfo > 1
+        ? ('productSummary.availabilityCheck.noFurtherInfo'
+          | cxTranslate
+          : {
+            quantity: quantityWithoutInfo
+          })
+        : ('productSummary.availabilityCheck.noFurtherInfoSingular'
+          | cxTranslate
+          : {
+            quantity: quantityWithoutInfo
+          })
+      }}
+    </span>
+  </div>
+
+  <div *ngIf="availabilityError$ | async" class="availability-results">
+    <span class="non-available-items">
+      {{ 'productSummary.availabilityCheck.errorMessage' | cxTranslate }}
+    </span>
+  </div>
+</div>
+
+<hr/>
+
+<ng-container *ngIf="(outOfStock$ | async) || product?.backInStockNotification">
+  <app-stock-notification></app-stock-notification>
+  <hr/>
+</ng-container>
+
+<form (submit)="addProductToCart($event)" *ngIf="productCode">
+  <button
+    [disabled]="
+      quantity <= 0 ||
+      !product.purchasable ||
+      (product.purchasable && !hasPrice)
+    "
+    class="btn btn-block"
+    type="submit"
+  >
+    {{
+    wishlist
+      ? ('wishlist.addToCart' | cxTranslate)
+      : ('addToCart.addToCart' | cxTranslate)
+    }}
+    <cx-spinner *ngIf="showSpinner$ | async" class="spinner"></cx-spinner>
+  </button>
+</form>
+
+<ng-template
+  #customDay
+  let-currentMonth="currentMonth"
+  let-date
+  let-disabled="disabled"
+  let-selected="selected"
+>
+  <span
+    [class.bg-primary]="selected"
+    [class.weekend]="isRange(date)"
+    class="ngb-dp-day custom-day"
+  >
+    {{ date.day }}
+  </span>
+</ng-template>

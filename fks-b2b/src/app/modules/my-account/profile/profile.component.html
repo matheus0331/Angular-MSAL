@@ -1,0 +1,76 @@
+<ng-container *ngIf="user$ | async as user">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="form-group row">
+        <div class="col-md-6 user-profile">
+          <label class="w-100">
+            <span class="label-content">{{
+              'updateProfileForm.firstName.label' | cxTranslate
+              }}</span>
+            <div class="form-control neuter">
+              {{ user.firstName }}
+            </div>
+          </label>
+        </div>
+        <div class="col-md-6 user-profile">
+          <label class="w-100">
+            <span class="label-content">{{
+              'updateProfileForm.lastName.label' | cxTranslate
+              }}</span>
+            <div class="form-control neuter">{{ user.lastName }}</div>
+          </label>
+        </div>
+        <div class="col-md-6 user-profile">
+          <label class="w-100">
+            <span class="label-content">{{
+              'updateProfileForm.customerNumber' | cxTranslate
+              }}</span>
+            <div class="form-control neuter">
+              {{ user.orgUnit.displayUnitId || user.orgUnit.uid }}
+            </div>
+          </label>
+        </div>
+        <div class="col-md-6 user-profile">
+          <label class="w-100">
+            <span class="label-content">{{
+              'updateProfileForm.parentCompany' | cxTranslate
+              }}</span>
+            <div *ngIf="user.orgUnit" class="form-control neuter">
+              {{ user.orgUnit.name }}
+            </div>
+          </label>
+        </div>
+        <div class="col-md-12 user-profile">
+          <label class="w-100">
+            <span class="label-content">{{
+              'updateProfileForm.email' | cxTranslate
+              }}</span>
+            <div class="form-control neuter">
+              {{ user.orgUnit.displayUid || user.uid }}
+            </div>
+          </label>
+        </div>
+        <div class="col-md-12 notifications">
+          <label class="w-100">
+            <span class="label-content">{{
+              'notificationCenter.notifications' | cxTranslate
+              }}</span>
+            <div class="notifications-toggle">
+              {{ 'notificationCenter.emailNotifications' | cxTranslate }}
+              <label class="toggle-control">
+                <input
+                  (click)="toggleNotifications()"
+                  checked="{{
+                    (this.notificationsStatus$ | async) ? 'checked' : ''
+                  }}"
+                  type="checkbox"
+                />
+                <span class="control"></span>
+              </label>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>

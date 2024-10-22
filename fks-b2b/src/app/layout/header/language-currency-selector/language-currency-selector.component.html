@@ -1,0 +1,57 @@
+<div
+  *ngIf="(items$ | async)?.length > 1 && (items$ | async) as items"
+  class="selector"
+>
+  <div class="dropdown {{ items[0].symbol ? 'currency' : 'language' }}">
+    <button
+      (click)="
+        toggleDropDown($event, items[0].symbol ? 'currency' : 'language')
+      "
+      aria-expanded="false"
+      aria-haspopup="true"
+      class="dropdown-toggle"
+      data-toggle="dropdown"
+      id="dropdownMenu2"
+      type="button"
+    >
+      <div class="active-label">
+        <span *ngIf="items[0].symbol" class="currency-label">{{
+          activeLabel
+          }}</span>
+
+        <img
+          *ngIf="items[0].nativeName"
+          [src]="apiEndpoint + activeFlag"
+          class="language-flag"
+        />
+
+        <cx-icon type="ARROWDOWN"></cx-icon>
+      </div>
+    </button>
+    <div
+      aria-labelledby="dropdownMenu2"
+      class="dropdown-menu dropdown-menu-right  {{
+        items[0].symbol ? 'currency' : 'language'
+      }}"
+    >
+      <div *ngFor="let item of items">
+        <button
+          (click)="
+            active = $event.target.value;
+            closeDropDown(items[0].symbol ? 'currency' : 'language')
+          "
+          class="dropdown-item"
+          type="button"
+          value="{{ item.isocode }}"
+        >
+          <img
+            *ngIf="items[0].nativeName"
+            [src]="apiEndpoint + item?.flag?.url"
+            class="language-flag"
+          />
+          {{ item.label }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

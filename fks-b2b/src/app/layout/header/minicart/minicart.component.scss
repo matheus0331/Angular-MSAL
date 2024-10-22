@@ -1,0 +1,68 @@
+a {
+  .mini-cart-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    padding: 1.501rem;
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      padding: 0 2.188rem;
+    }
+
+    @media only screen and (min-width: 992px) {
+      padding: 16px 30px 21px 0;
+    }
+
+    cx-icon {
+      color: var(--text-color);
+    }
+
+    .badge,
+    .over-100-badge {
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: var(--brand-color);
+      color: var(--white);
+      position: absolute;
+      top: 13px;
+      right: 14px;
+      border-radius: 50%;
+      font-size: 0.8rem;
+      padding: 3px 2px 0 3px;
+      margin-bottom: 5px;
+
+      &:not(.badge) {
+        width: 31px;
+        border-radius: 24px;
+        right: 8px;
+      }
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        top: -10px;
+        right: 24px;
+        padding: 2px 3px 0 3px;
+        &:not(.badge) {
+          top: -11px;
+          right: 19px;
+        }
+      }
+
+      @media only screen and (min-width: 992px) {
+        top: 7px;
+        right: 17px;
+        padding: 3px 3px 0 3px;
+        &:not(.badge) {
+          right: 10px;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}

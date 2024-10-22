@@ -1,0 +1,48 @@
+@mixin faq-text($font-size, $font-weight, $line-height, $color) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+}
+
+.container {
+  .wrapper {
+    margin: 48px 0 48px 0;
+
+    .title {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      @include faq-text(
+          var(--franke-m-font-size),
+          var(--font-weight-base),
+          21px,
+          var(--text-color)
+      );
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include faq-text(
+            var(--franke-font-size-base),
+            var(--font-weight-base),
+            24px,
+            var(--text-color)
+        );
+      }
+
+      @media only screen and (min-width: 992px) {
+        text-transform: uppercase;
+        @include faq-text(
+            var(--franke-h4-font-size),
+            var(--font-weight-base),
+            35px,
+            var(--text-color)
+        );
+      }
+    }
+
+    .video {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

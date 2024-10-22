@@ -1,0 +1,1693 @@
+{
+  "searchSupport": {
+    "placeholder": "Søg her ...",
+    "results": "Resultater",
+    "manualTitle": "Brugervejledning",
+    "manualDownload": "Hent specifikation",
+    "text": "Søg efter FUN-nummer, produktkode eller produktnavn",
+    "more": "Mere",
+    "allResults": "Alle resultater",
+    "manualDescription": "Det mest komplette dokument om konfiguration og brug af produktet.",
+    "resultsFor": "Viser resultater for:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal-spørgsmål",
+    "message1": "Hej, jeg er Laura. Jeg er din klientagent. Hvordan kan jeg hjælpe dig?",
+    "title": "Personlig assistent",
+    "message2": "Du kan vælge mellem valgmulighederne nedenfor eller stille dit eget spørgsmål.",
+    "contact": "Kontakt Franke",
+    "complaint": "Indgiv en klage"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Har du brug for hjælp med dit produkt, eller har du spørgsmål?",
+    "title": "Hej, vi er her for at hjælpe"
+  },
+  "contactForm": {
+    "contactType": "Vælg kontakttype",
+    "files": "Upload billeder til at understøtte din anmodning",
+    "funNumber": "Artikelnummer",
+    "request": "Beskriv din anmodning",
+    "ticketAddSucess": "Billet oprettet!",
+    "ticketAddFail": "Fejl ved oprettelse af billet, så prøv igen!",
+    "subTitle2": "Du skal blot bruge vores kontaktformular!",
+    "generalContactCategories": "Vælg kategori",
+    "deleteFiles": "Slet",
+    "productSubCategories": "Vælg underkategori",
+    "title": "Yderligere spørgsmål?",
+    "subTitle1": "Kunne ikke finde svaret på dit spørgsmål i vores FAQ",
+    "productCategories": "Vælg produkt",
+    "orderNumber": "Ordrenummer"
+  },
+  "product": {
+    "id": "Artikel"
+  },
+  "faq": {
+    "print": "Udskriv denne side",
+    "customerServicesQuestions": "Kundeservice",
+    "pageTitle": "Ofte stillede spørgsmål",
+    "productQuestionsTitle": "Franke-produkter",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Ordrer og forsendelse"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "",
+    "updateAddress": "",
+    "editShippingAddress": "",
+    "deliveryAddressTitle": "",
+    "addNewShippingAddress": "",
+    "addAddress": "",
+    "billingAddressTitle": "",
+    "addNewAddress": "",
+    "backToAddressList": "",
+    "areYouSureToDeleteAddress": ""
+  },
+  "addressCard": {
+    "shipTo": "",
+    "setAsDefault": "",
+    "billTo": "",
+    "selected": "",
+    "default": ""
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "",
+      "placeholder": ""
+    },
+    "aptSuite": "",
+    "saveAsDefault": "",
+    "firstName": {
+      "label": "",
+      "placeholder": ""
+    },
+    "zipCode": {
+      "placeholder": "",
+      "label": ""
+    },
+    "address1": "",
+    "setAsDefault": "",
+    "title": "",
+    "userAddressDeleteSuccess": "",
+    "userAddressAddSuccess": "",
+    "city": {
+      "placeholder": "",
+      "label": ""
+    },
+    "invalidAddress": "",
+    "chooseAddress": "",
+    "phoneNumber": {
+      "placeholder": "",
+      "label": ""
+    },
+    "titleRequired": "",
+    "state": "",
+    "address2": "",
+    "selectOne": "",
+    "country": "",
+    "streetAddress": "",
+    "userAddressUpdateSuccess": ""
+  },
+  "wishlist": {
+    "addToCart": "Tilføj til kurv",
+    "empty": "Ingen produkter på din ønskeliste"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Opret en konto?",
+    "invoiceHasBeenSentByEmail": "Du modtager din ordrebekræftelse via e-mail",
+    "placedOn": "Placeret d.",
+    "status": "Status",
+    "frequency": "Frekvens",
+    "orderItems": "Bestil varer",
+    "orderPlacedSuccessfully": "Ordre gennemført",
+    "nextOrderDate": "Næste ordre dato",
+    "confirmationOfOrder": "Ordrebekræftelse:",
+    "cancelled": "Annulleret",
+    "createAccountForNext": "Opret en konto for <{{email}}> hurtigere check-ud på dit næste besøg.",
+    "replenishmentNumber": "Genopfyldning #",
+    "orderNumber": "Ordrenummer",
+    "thankYou": "Tak for din ordre!",
+    "active": "Aktiv"
+  },
+  "checkoutPO": {
+    "placeholder": "Indtast postnummer",
+    "poNumber": "Købsordrenummer",
+    "availableLabel": "Dine mulige forsendelsesadresser afhænger af omkostningsstedets enhed",
+    "costCenter": "Omkostningssted",
+    "noPoNumber": "Ingen"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Automatisk genopfyldningsordre",
+    "confirmThatRead": "Jeg bekræfter, at jeg har læst og accepteret",
+    "termsAndConditions": "Vilkår og Betingelser",
+    "recurrencePeriodType_WEEKLY": "Uge (r)",
+    "poNumber": "Købsordrenummer",
+    "dayOfMonth": "En dag",
+    "every": "Hver",
+    "placeOrder": "Angiv bestilling",
+    "scheduleReplenishmentOrder": "Planlæg genopfyldningsordre",
+    "recurrencePeriodType_DAILY": "Dag(e)",
+    "repeatOnDays": "Gentag på følgende dage",
+    "funNumber": "FUN: {{fun}}",
+    "editShippingAddress": "Rediger leveringsadresse",
+    "startOn": "Start på",
+    "additionalDetailsTitle": "Yderligere ordredetaljer",
+    "deliveryAddressTitle": "Leveringsadresse",
+    "orderType_PLACE_ORDER": "Ingen (engangsbestilling)",
+    "invoiceAddressTitle": "Betalingsadresse",
+    "recurrencePeriodType_MONTHLY": "Måned",
+    "requestedDate": "Anmodet dato:",
+    "orderType": "Ordretype:",
+    "checkoutError": "Der er sket en fejl. Kontakt venligst kundesupport",
+    "itemsTitle": "Varer, der skal leveres",
+    "additionalReference": "Yderligere reference:",
+    "orderItems": "Bestil varer",
+    "quantity": "Antal: {{count}}",
+    "reference": "Reference",
+    "orderNumber": "Ordrenummer:",
+    "review": "Anmeldelse",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "genopfyldningsordre",
+    "deliveryDate": "Anmodet leveringsdato:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Leveringsadresse",
+    "reviewOrder": "Gennemse ordre",
+    "paymentDetails": "Betalingsoplysninger",
+    "billingTask": "Valgte faktureringsadresse",
+    "billingAddress": "Faktureringsadresse",
+    "methodOfPayment": "Betalingsmetode",
+    "deliveryMode": "Leveringsmetode",
+    "reviewTask": "Gennemse venligst din ordre i oversigtssektion",
+    "shippingTask": "Valgte leveringsadresse",
+    "invoicePayment": "Fakturabetaling"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Standard fakturaadresse",
+    "enteredAddress": "indtastet adresse",
+    "selectYourInvoiceAddress": "Vælg din fakturaadresse",
+    "verifyYourAddress": "Bekræft din adresse",
+    "invoiceAddress": "Fakturaadresse",
+    "editAddress": "Rediger adresse",
+    "chooseAddressToUse": "Vælg hvilken adresse du ønsker at bruge:",
+    "shipToThisAddress": "Levering til denne adresse",
+    "saveAddress": "Gem adresse",
+    "addNewAddress": "Tilføj en ny adresse",
+    "defaultShippingAddress": "Standard leveringsadresse",
+    "selectInvoiceAddress": "Vælg denne adresse",
+    "selectYourBillingAddress": "Vælg din faktureringsadresse",
+    "suggestedAddress": "foreslået adresse",
+    "billingAddress": "Betalingsadresse",
+    "selectYourShippingAddress": "Vælg din leveringsadresse",
+    "shippingAddress": "Leveringsadresse",
+    "ensureAccuracySuggestChange": "For at sikre leveringsnøjagtighed, foreslår vi den valgte ændring nedenfor."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Standard levering",
+    "shippingMethod": "Fragtmetode",
+    "premiumDelivery": "Premium levering"
+  },
+  "checkout": {
+    "back": "Tilbage",
+    "invalid": {
+      "accountType": "Din konto tillader dig ikke at gå til kassen her."
+    },
+    "backToCart": "Tilbage til kurv",
+    "continue": "Fortsæt"
+  },
+  "loginForm": {
+    "emailAddress": {
+      "placeholder": "Indtast e-mail",
+      "label": "E-mailadresse"
+    },
+    "password": {
+      "placeholder": "Adgangskode",
+      "label": "Adgangskode"
+    },
+    "forgotPassword": "Glemt kodeord?",
+    "wrongEmailFormat": "Dette er ikke et gyldigt e-mailformat.",
+    "guestCheckout": "Gæste-tjek-ud",
+    "signIn": "Log ind",
+    "register": "Tilmeld",
+    "dontHaveAccount": "Har du ikke en konto?"
+  },
+  "checkoutLogin": {
+    "emailsMustMatch": "E-mailadresserne er ikke ens",
+    "emailAddress": {
+      "label": "E-mailadresse",
+      "placeholder": "Indtast e-mail"
+    },
+    "continue": "Fortsæt",
+    "emailIsRequired": "Ugyldigt e-mailformat",
+    "confirmEmail": {
+      "label": "Bekræft e-mail",
+      "placeholder": "Bekræft e-mail"
+    }
+  },
+  "anonymousConsents": {
+    "banner": {
+      "viewDetails": "Se detaljer",
+      "allowAll": "Tillad alle",
+      "title": "Denne hjemmeside bruger cookies",
+      "description": "Vi bruger cookies/browserdata til at personalisere indholdet og forbedre brugeroplevelsen."
+    },
+    "preferences": "Samtykkepræferencer",
+    "dialog": {
+      "clearAll": "Slet alt",
+      "legalDescription": "Vi bruger cookies/browserdata til at personalisere indholdet og forbedre brugeroplevelsen. Vi deler muligvis også data om dit webstedsbrug med vores sociale medier. For mere information: Se vores fortrolighedspolitik.",
+      "title": "Samtykkeledelse",
+      "selectAll": "Vælg alle"
+    }
+  },
+  "forgottenPassword": {
+    "resetPassword": "Nulstil kodeord",
+    "passwordResetSuccess": "Succes! Du kan nu logge ind med din nye adgangskode.",
+    "enterEmailAddressAssociatedWithYourAccount": "Indtast e-mailadressen tilknyttet din konto",
+    "emailAddress": {
+      "label": "E-mailadresse",
+      "placeholder": "Indtast e-mail"
+    },
+    "enterValidEmail": "Angiv en gyldig e-mail.",
+    "passwordResetEmailSent": "En e-mail er blevet sendt til dig med oplysninger om, hvordan du nulstiller din adgangskode."
+  },
+  "register": {
+    "titleRequired": "Titel er påkrævet",
+    "newPassword": "Nyt kodeord",
+    "confirmThatRead": "Jeg bekræfter, at jeg har læst og accepteret",
+    "firstName": {
+      "label": "Fornavn",
+      "placeholder": "Fornavn"
+    },
+    "createAccount": "Opret en konto",
+    "bothPasswordMustMatch": "Begge adgangskoder skal være ens",
+    "register": "Tilmeld",
+    "resetPassword": "Nulstil adgangskode",
+    "postRegisterMessage": "Log ind med angivne legitimationsoplysninger.",
+    "emailAddress": {
+      "placeholder": "E-mailadresse",
+      "label": "E-mailadresse"
+    },
+    "title": "Titel",
+    "confirmPassword": {
+      "action": "Bekræft adgangskode",
+      "placeholder": "Bekræft adgangskode",
+      "label": "Bekræft adgangskode"
+    },
+    "termsAndConditions": "Vilkår og betingelser",
+    "lastName": {
+      "label": "Efternavn",
+      "placeholder": "Efternavn"
+    },
+    "password": {
+      "placeholder": "Adgangskode",
+      "label": "Adgangskode"
+    },
+    "emailMarketing": "Brug mine personlige data til at modtage nyhedsbreve via e-mail til marketingkampagner. For at ændre dine indstillinger skal du gå til ”Samtykkehåndtering” i Min konto.",
+    "managementInMyAccount": "Management i Min konto.",
+    "passwordMinRequirements": "Adgangskoden skal være minimum seks tegn og indeholde et stort bogstav, et tal og et symbol",
+    "confirmNewPassword": "Bekræft ny adgangskode",
+    "signIn": "Jeg har allerede en konto. Log ind",
+    "selectTitle": "Vælg titel"
+  },
+  "stockNotification": {
+    "subscriptionDialog": {
+      "manageSubscriptionsLink": "Mine interesser",
+      "notifiedPrefix": "Du vil få besked om:",
+      "header": "Udsolgt abonnement",
+      "manageChannelsSuffix": "Side.",
+      "manageSubscriptionsSuffix": "Side.",
+      "subscribing": "Du kan administrere dine abonnementer på",
+      "manageChannelsLink": "Notifikationspræference",
+      "manageChannelsPrefix": "Administrer dine foretrukne notifikationskanaler på",
+      "manageSubscriptionsPrefix": "Du kan administrere dine abonnementer på",
+      "okBtn": "Okay",
+      "notifiedSuffix": "Så snart dette produkt er tilbage på lager."
+    },
+    "notified": "Du vil få besked, når dette produkt er tilbage på lager.",
+    "getNotifySuffix": "For at få besked, når dette produkt er tilgængeligt.",
+    "activateChannelsPrefix": "For at få besked, skal du aktivere",
+    "activateChannelsSuffix": ".",
+    "notifyMe": "GIV MIG BESKED",
+    "getNotified": "Modtag en meddelelse, når dette produkt er tilbage på lager.",
+    "stopNotify": "STOP NOTIFIKATON",
+    "channelsLink": "Notifikationskanaler",
+    "getNotify": "Modtag en besked, når dette produkt er tilgængeligt.",
+    "unsubscribeSuccess": "Du har afmeldt meddelelsen om tilbage på lager"
+  },
+  "accordion": {
+    "features": "Funktioner",
+    "remarks": "Bemærkninger",
+    "dimensions": "Dimensioner",
+    "productDetails": "oplysninger om produktet"
+  },
+  "productSummary": {
+    "preLaunchBody": "",
+    "id": "FUN ID #",
+    "substitutesProducts": "Se alternativer",
+    "availabilityCheck": {
+      "noFurtherInfoSingular": "I øjeblikket er der ingen yderligere oplysninger tilgængelige for den resterende {{quantity}} enhed",
+      "priceTooltip": "",
+      "itemsNotAvailable": "Der er {{quantity}} enheder tilgængelige på {{date}}",
+      "itemsAvailableSingular": "Der er {{quantity}} enhed tilgængelig den {{date}}",
+      "itemsNotAvailableSingular": "Der er {{quantity}} enhed tilgængelig den {{date}}",
+      "deliveryDateInfo": "Estimeret leveringsdato, 7 dage fra købsdato.",
+      "noFurtherInfo": "I øjeblikket er der ingen yderligere oplysninger tilgængelige for de resterende {{quantity}} enheder",
+      "button": "Tjek tilgængelighed",
+      "errorMessage": "Kunne ikke indlæse oplysningerne i øjeblikket. Prøv igen senere",
+      "itemsAvailable": "Der er {{quantity}} enheder tilgængelige på {{date}}",
+      "dateTitle": "Anmodet leveringsdato"
+    },
+    "promotionTooltip": "Den endelige nedsatte pris vil være synlig i indkøbskurven",
+    "description": "Beskrivelse",
+    "showReviews": "Vis anmeldelser",
+    "localSalesNumber": "Lokal ID #",
+    "share": "Del",
+    "referenceNumber": "Referencenummer",
+    "unrecognizedError": "",
+    "catalogPrice": "Katalogpris",
+    "more": "Se mere",
+    "preLaunchTitle": ""
+  },
+  "productList": {
+    "clearFilters": "Ryd filtre",
+    "listingPageSubtitle": "De viste priser er katalogpriser",
+    "searchResultsTitle": "{{numberOfResults}} resultater for \"{{query}}\"",
+    "view": "Se",
+    "backToTopBtn": "TILBAGE TIL TOPPEN",
+    "wishlist": "Favoritter",
+    "discontinuedProductsFilter": "",
+    "pageOf": "Side {{x}} af {{y}}",
+    "articleNumber": "FUN {{fun}}",
+    "previous": "forrige",
+    "filterBy": {
+      "action": "Sorter efter",
+      "label": "Sorter efter"
+    },
+    "appliedFilter": "Anvendt filter:",
+    "showMoreBtn": "VIS MERE",
+    "description": "Beskrivelse",
+    "notAvailableDescription": "Reservedele og tilbehør kan stadig købes for dette produkt",
+    "sortByRelevance": "Sorter efter relevans",
+    "cart": "Indkøbskurv",
+    "showMore": "Vis flere...",
+    "filters": "filtre",
+    "results": "Resultater",
+    "showLess": "Vis færre ...",
+    "notAvailable": "",
+    "next": "Næste"
+  },
+  "productDetails": {
+    "noDetails": "Ingen yderligere oplysninger om dette produkt. Hvis du har spørgsmål vedrørende dette produkt, bedes du sende os en besked via vores <u> <a class=\"form\" href=\"/client-service\"> Kontakt os-formular. </a> </u>",
+    "reviews": "Anmeldelser",
+    "shipping": "Forsendelse",
+    "specification": "Specifikationer",
+    "productDetails": "oplysninger om produktet",
+    "quantity": "Antal",
+    "id": "ID",
+    "imageDisclaimer": "Billedet vises kun som reference. Se beskrivelse og teknisk tegning for mere information",
+    "showReviews": "Vis anmeldelser",
+    "share": "Del",
+    "noReviews": "Ingen anmeldelser endnu"
+  },
+  "productReview": {
+    "overallRating": "Samlet bedømmelse",
+    "more": "Mere",
+    "reviewerName": "Anmeldernavn (valgfrit)",
+    "rating": "Bedømmelse",
+    "writeReview": "Skrive en anmeldelse",
+    "writeYourComments": "Skriv dine kommentarer",
+    "less": "Mindre",
+    "reviewTitle": "anmeldelsestitel",
+    "thankYouForReview": "Tak for din anmeldelse! Bemærk, at anmeldelser kan kræve validering før de bliver vist her."
+  },
+  "addToCart": {
+    "selectStyleAndSize": "Vælg stil og størrelse for at tjekke lagerstatus",
+    "addToCartFailed": "Tilføj produkt til indkøbskurv mislykkedes! Prøv igen.",
+    "itemsAddedToYourCart": "Vare (r) tilføjet til din indkøbskurv",
+    "items": "Varer",
+    "viewCart": "Se indkøbsvogn",
+    "inStock": "Disponibel",
+    "quantity": "Antal",
+    "addToCartSuccessfully": "Produkt tilføjet til indkøbskurven",
+    "itemsIncrementedInYourCart": "Denne vare var allerede i din kurv. Mængden blev opdateret.",
+    "updatingCart": "Opdatering af indkøbskurv ...",
+    "outOfStock": "Ikke tilgængelig",
+    "addToCart": "Tilføj til kurv",
+    "proceedToCheckout": "Gå til kassen"
+  },
+  "TabPanelContainer": {
+    "tabs": {
+      "ProductSpecsTabComponent": "Specifikationer",
+      "ProductDetailsTabComponent": "oplysninger om produktet",
+      "ProductReviewsTabComponent": "Anmeldelser",
+      "deliveryTab": "Forsendelse",
+      "ProductDownloadsTabComponent": "Downloads"
+    }
+  },
+  "alternativeProducts": {
+    "similarProductRecommendations": "",
+    "declaimer": "",
+    "goToProduct": "",
+    "article": "",
+    "showAlternativeProducts": "",
+    "noRecommendations": ""
+  },
+  "addToWishList": {
+    "remove": "Fjern fra ønskeliste",
+    "addToWishlistSuccessfully": "Produkt tilføjet til favoritter",
+    "add": "Tilføj til ønskeliste",
+    "addToWishlistFailed": "Tilføj produkt til favoritter mislykkedes! Prøv igen.",
+    "anonymous": "Log ind for at tilføje til ønskeseddel"
+  },
+  "variant": {
+    "size": "Størrelse",
+    "color": "Farve",
+    "selectedStyle": "Valgte stil",
+    "style": "Stil",
+    "sizeGuideLabel": "Style guide"
+  },
+  "productFacetNavigation": {
+    "appliedFilter": "Anvendt filter:",
+    "showMore": "Vis flere...",
+    "showLess": "Vis færre ...",
+    "filterBy": {
+      "action": "Sorter efter",
+      "label": "Sorter efter"
+    },
+    "sortByRelevance": "Sorter efter relevans"
+  },
+  "productDownloads": {
+    "productSheet": "Produktblad"
+  },
+  "productReferences": {
+    "id": "FUN"
+  },
+  "emptyCart": {
+    "cartIsEmpty": "Din indkøbskurv er tom",
+    "suggestion": "Søg efter et produkt",
+    "suggestionTitle": "Forslag"
+  },
+  "additionalInfo": {
+    "title": "Yderligere oplysninger om din ordre",
+    "additionalReference": "Yderligere reference",
+    "poNumber": "",
+    "orderType": "Ordretype",
+    "orderNumber": "Reference"
+  },
+  "orderCost": {
+    "subtotalSingular": "Endelig pris ({{count}} vare):",
+    "orderDiscounts": "",
+    "toBeDetermined": "TBD",
+    "totalCatalogPrice": "Katalogpris ({{count}} varer):",
+    "totalCatalogPriceSingular": "Katalogpris ({{count}} vare):",
+    "crossChannelPromo": "",
+    "orderSummary": "Ordreoversigt",
+    "subtotal": "Endelig pris ({{count}} varer):",
+    "discountsApplied": "{{discountMessage}} er blevet anvendt",
+    "salesTax": "Moms",
+    "totalDiscounts": "Anvendte rabatter",
+    "shipping": "Forsendelse",
+    "crossCategoryPromo": "",
+    "discount": "Du gemte",
+    "grossTax": "Skatter ikke inkluderet",
+    "mainPromoIncluded": "",
+    "total": "I alt inkl. moms",
+    "productDiscounts": "",
+    "totalNetWithoutTax": "",
+    "estimatedShipping": "Estimerede forsendelsesomkostninger",
+    "mainFeesIncluded": ""
+  },
+  "cartItems": {
+    "discount": "Rabat",
+    "checkAvailabilityInfoNoUnits": "0 enheder af denne vare er tilgængelige på dette tidspunkt. Fuld anmodet mængde tilgængelig fra {{date}}",
+    "checkAvailabilityInfoSingular": "Kun {{quantity}} af denne vare er tilgængelige på dette tidspunkt. Fuld anmodet mængde tilgængelig fra {{date}}",
+    "unitPrice": "Pris p. stk:",
+    "item": "Produktoplysninger",
+    "checkAvailabilityNoFurtherInfoSingular": "I øjeblikket er der ingen yderligere oplysninger tilgængelige for den resterende {{quantity}} enhed",
+    "checkAvailabilityInfo": "Kun {{quantity}} enheder af denne vare er tilgængelige på dette tidspunkt. Fuld anmodet mængde tilgængelig fra {{date}}",
+    "itemPrice": "Endelig pris",
+    "changeQuantity": "Skift mængde",
+    "cartTotal": "Indkøbskurv total ({{count}} vare)",
+    "funNumber": "Artikel",
+    "brand": "Brand:",
+    "availability": "Tilgængelighed",
+    "deliveryDate": "Anmodet leveringsdato",
+    "id": "Artikel",
+    "ecoTax": "Eco Tax:",
+    "quantity": "Mængde:",
+    "remove": "Fjern",
+    "availabilityInfo": "Produkter, der ikke er tilgængelige, kan stadig bestilles. Du får besked, når en forventet leveringsdato er tilgængelig",
+    "quantityTitle": "Mængden repræsenterer det samlede antal af denne vare i din indkøbskurv.",
+    "checkAvailabilityError": "Kunne ikke indlæse oplysningerne i øjeblikket. Prøv igen senere",
+    "additionalFees": "",
+    "cartTotal_plural": "Indkøbskurv total ({{count}} varer)",
+    "additionalFeesTooltip": "",
+    "deliveryDateInfo": "Estimeret leveringsdato, 7 dage fra købsdato.",
+    "checkAvailabilityNoFurtherInfo": "I øjeblikket er der ingen yderligere oplysninger tilgængelige for de resterende {{quantity}} enheder",
+    "description": "Beskrivelse",
+    "estimatedDeliveryDate": "Forventet leveringsdato er {{ date }}",
+    "total": "I alt"
+  },
+  "voucher": {
+    "applyVoucherSuccess": "{{voucherCode}} er anvendt",
+    "apply": "Tilføj",
+    "coupon_plural": "Kampagnekoder",
+    "availableCouponsLabel": "Du kan tilføje disse kampagnekoder til denne ordre.",
+    "placeholder": "Kampagnekode",
+    "availableCoupons": "Tilgængelige kampagnekoder",
+    "removeVoucherSuccess": "{{VoucherCode}} er blevet fjernet.",
+    "vouchersApplied": "Anvendte kampagnekoder",
+    "coupon": "Har du en kampagnekode?",
+    "anchorLabel": "Indtast eller fjern din kampagnekode"
+  },
+  "cartAlternativeProducts": {
+    "checkAlternativeProducts": "",
+    "replaceCartItem": "",
+    "cartItemReplacedSuccessfully": "",
+    "cartItemReplacedError": ""
+  },
+  "saveForLaterItems": {
+    "itemTotal_plural": "Gemt til senere ({{count}} varer)",
+    "stock": "Lager",
+    "cartTitle": "Indkøbskurv",
+    "saveForLater": "Gem til senere",
+    "moveToCart": "Flyt til indkøbskurv",
+    "forceInStock": "Disponibel",
+    "itemTotal": "Gemt til senere ({{count}} vare)"
+  },
+  "cartDetails": {
+    "cartName": "Indkøbskurv #{{code}}",
+    "continueShopping": "Fortsæt med at handle",
+    "proceedToCheckout": "Gå til kassen",
+    "id": "ID"
+  },
+  "dashboard": {
+    "ticketHistoryCreatedBy": "Lavet af: {{navn}}",
+    "invoiceAddressesTitle": "Fakturaadresser",
+    "noStatistics": "Ingen statistik i øjeblikket",
+    "openReturns": "Åbne returneringer",
+    "ticketHistoryStatusCompleted": "Afsluttet",
+    "ticketHistoryTitle": "Billethistorie",
+    "deliveryAddressesTitle": "Leveringsadresser",
+    "analyticsTab": "Analyser",
+    "openOrders": "Åbne ordrer",
+    "ticketHistoryStatusOpen": "Åben",
+    "netTurnover": "nettoomsætning",
+    "ticketHistoryLastUpdate": "Sidste ændring: {{dato}}",
+    "ticketHistoryLastUpdateBy": "Sidst opdateret af: {{navn}}",
+    "turnoverLastYear": "Sidste års omsætning",
+    "ticketHistoryStatusInProcess": "Under behandling",
+    "openOrdersEndOfYear": "Åbne ordrer indtil udgangen af året",
+    "ticketHistoryStatusClosed": "Lukket",
+    "ticketHistoryCode": "ID: {{code}}",
+    "ticketHistoryCreated": "Oprettet: {{dato}}",
+    "noTicketHistory": "Ingen billethistorik i øjeblikket"
+  },
+  "myInterests": {
+    "sortByMostRecent": "Sorter efter nyeste",
+    "lowStock": "Få på lager",
+    "header": "Mine interesser",
+    "expirationDate": "Gyldig indtil {{expirationDate}}",
+    "sorting": {
+      "byNameDesc": "Navn (Faldende)",
+      "byNameAsc": "Navn (stigende)"
+    },
+    "noInterests": "Du har ingen registrerede interesser endnu.",
+    "notifications": "Notifikationer",
+    "outOfStock": "Ikke tilgængelig",
+    "BACK_IN_STOCK": "Tilbage på lager",
+    "price": "Pris",
+    "remove": "Fjern",
+    "productId": "ID {{kode}}",
+    "inStock": "Disponibel",
+    "item": "Vare"
+  },
+  "returnRequestList": {
+    "date": "Dato oprettet",
+    "sortByMostRecent": "Sorter efter nyeste",
+    "statusDisplay_APPROVING": "Godkendelse",
+    "status": "Status",
+    "statusDisplay_COMPLETED": "Afsluttet",
+    "statusDisplay_CANCELLING": "Annullering",
+    "statusDisplay_WAIT": "Vent",
+    "statusDisplay_PAYMENT_REVERSED": "Betaling tilbageført",
+    "statusDisplay_RECEIVED": "Modtaget",
+    "statusDisplay_TAX_REVERSAL_FAILED": "Tilbageførsel af skat mislykkedes",
+    "statusDisplay_RECEIVING": "Modtager",
+    "statusDisplay_APPROVAL_PENDING": "Afventer godkendelse",
+    "statusDisplay_PAYMENT_REVERSAL_FAILED": "Tilbageførsel af betaling er ikke gennemført",
+    "statusDisplay_REVERSING_PAYMENT": "Tilbageførsel af betaling",
+    "returnRequestId": "Returnerings #",
+    "statusDisplay_TAX_REVERSED": "Skat trukket tilbage",
+    "statusDisplay_REVERSING_TAX": "Tilbageførsel af skat",
+    "statusDisplay_CANCELED": "Annulleret",
+    "orderId": "Ordre #"
+  },
+  "updateProfileForm": {
+    "parentCompany": "Moderselskab",
+    "lastName": {
+      "placeholder": "Efternavn",
+      "label": "Efternavn"
+    },
+    "none": "ingen",
+    "firstName": {
+      "label": "Fornavn",
+      "placeholder": "Fornavn"
+    },
+    "lastNameIsRequired": "Efternavn er påkrævet",
+    "title": "Titel",
+    "email": "Din e-mail",
+    "profileUpdateSuccess": "Personlige oplysninger opdateret",
+    "customerNumber": "Kundenummer",
+    "customerId": "Kunde #",
+    "firstNameIsRequired": "Fornavn er påkrævet"
+  },
+  "returnRequest": {
+    "estimatedRefund": "Anslået tilbagebetaling",
+    "summary": "Returneringstotal",
+    "cancelSuccess": "Din returneringsanmodning ({{rma}}) blev annulleret",
+    "itemPrice": "Varepris",
+    "deliveryCode": "Leveringsomkostninger",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "cancel": "Annuller returneringsanmodning",
+    "returnQty": "Returneringsmængde",
+    "note": "Beløbet er estimeret og omfatter måske ikke gældende skatter eller andre afgifter.",
+    "status": "Returneringsstatus",
+    "returnRequestId": "Returneringsanmodning #",
+    "item": "Beskrivelse",
+    "orderCode": "For ordre #"
+  },
+  "closeAccount": {
+    "confirmAccountClosureMessage": "Er du sikker på du vil lukke din konto?",
+    "accountClosedFailure": "Kunne ikke lukke konto",
+    "closeMyAccount": "Luk min konto",
+    "accountClosedSuccessfully": "Din konto er nu lukket",
+    "confirmAccountClosure": "Bekræft kontolukning"
+  },
+  "notificationCenter": {
+    "noNotifications": "Der er i øjeblikket ingen meddelelser.",
+    "backInStockNotificationMessage": "Produktet er tilbage på lager",
+    "notificationMessage": "Leveringsdatoen for en eller flere varer i din ordre er ændret.",
+    "productNumber": "Produkt {{productCode}}",
+    "emailNotifications": "Modtag en e-mail, når en leveringsdato for en ordre er opdateret.",
+    "orderNumber": "Ordre {{orderNumber}}",
+    "notifications": "Notifikationer"
+  },
+  "updateEmailForm": {
+    "password": {
+      "placeholder": "Indtast adgangskode",
+      "label": "Adgangskode"
+    },
+    "enterValidEmail": "Angiv en gyldig e-mail",
+    "emailUpdateSuccess": "Accepteret. Log ind med {{ newUid}}",
+    "confirmNewEmailAddress": {
+      "label": "Bekræft ny e-mailadresse",
+      "placeholder": "Indtast e-mail"
+    },
+    "newEmailAddress": {
+      "placeholder": "Indtast e-mail",
+      "label": "Ny e-mailadresse"
+    },
+    "pleaseInputPassword": "Indtast venligst adgangskode",
+    "bothEmailMustMatch": "Begge e-mailadresser skal matche"
+  },
+  "menu": {
+    "addressBook": "Adressebog",
+    "orders": "ordrehistorik",
+    "profile": "Profil",
+    "email": "E-mail",
+    "signOut": "Log ud",
+    "password": "Adgangskode",
+    "dashboard": "Dashboard",
+    "wishlist": "ønskeliste"
+  },
+  "consentManagementForm": {
+    "clearAll": "Slet alt",
+    "message": {
+      "success": {
+        "withdrawn": "Samtykke trukket tilbage.",
+        "given": "Samtykke givet."
+      }
+    },
+    "selectAll": "Vælg alle"
+  },
+  "updatePasswordForm": {
+    "oldPassword": {
+      "label": "Gammel adgangskode",
+      "placeholder": "Gammel adgangskode"
+    },
+    "oldPasswordIsRequired": "Gammel adgangskode er påkrævet.",
+    "passwordUpdateSuccess": "Adgangskode opdateret",
+    "newPassword": {
+      "label": "Ny adgangskode",
+      "placeholder": "Ny adgangskode"
+    },
+    "confirmPassword": {
+      "placeholder": "Bekræft kodeord",
+      "label": "Bekræft ny adgangskode"
+    },
+    "passwordMinRequirements": "Adgangskoden skal være minimum seks tegn og indeholde et stort bogstav, et tal, et symbol",
+    "bothPasswordMustMatch": "Begge adgangskoder skal matche"
+  },
+  "myCoupons": {
+    "endDateAsc": "Slutdato (stigende)",
+    "sortByMostRecent": "Sorter efter nyeste",
+    "startDateDesc": "Startdato (faldende)",
+    "status": "status:",
+    "notesSuffix": "side.",
+    "findProducts": "Find produkter",
+    "effectiveTitle": "Effektiv:",
+    "ExpireSoon": "udløber snart",
+    "PreSession": "GYLDIG SNART (Gyldig fra ....)?",
+    "startDateAsc": "Startdato (stigende)",
+    "claimCustomerCoupon": "Du har nu indløst denne kampagnekode.",
+    "notesPreffix": "Du kan indstille dine foretrukne kanaler til modtagelse af kampagnenotifikationer på .......",
+    "dialogTitle": "Kampagnekoder",
+    "readMore": "Læs mere",
+    "endDateDesc": "Slutdato (faldende)",
+    "myCoupons": "Mine kampagnekoder",
+    "notification": "Notifikation",
+    "Effective": "GYLDIG (anvendt / gyldig)",
+    "notesLink": "Notifikationskanaler",
+    "noCouponsMessage": "Du har ingen kampagnekoder til rådighed."
+  },
+  "notificationPreference": {
+    "SITE_MESSAGE": "SiteMessage",
+    "noteMessage": "Hvis du deaktiverer alle kanaler vil du ikke være i stand til at modtage yderligere meddelelser.",
+    "note": "Bemærk:",
+    "EMAIL": "E-mail:",
+    "SMS": "SMS:",
+    "message": "Vælg dine foretrukne notifikationskanaler"
+  },
+  "AccountOrderHistoryTabContainer": {
+    "tabs": {
+      "AccountOrderHistoryComponent": "Alle ordrer ({{param}})",
+      "OrderReturnRequestListComponent": "Returneringer ({{param}})"
+    }
+  },
+  "searchBox": {
+    "resultsFor": "Viser resultater for:",
+    "help": {
+      "empty": "Indtast din forespørgsel",
+      "insufficientChars": "Udvid din søgning",
+      "noMatch": "Din søgning gav intet resultat",
+      "exactMatch": "{{Term}}"
+    },
+    "searchBarMobileText": "Søg efter produkter",
+    "more": "Mere",
+    "results": "Resultater",
+    "searchBarText": "Søg efter produkter, farve, materiale",
+    "placeholder": "Søg her ...",
+    "allResults": "Alle resultater"
+  },
+  "pageMetaResolver": {
+    "product": {
+      "title": "{{titel}}",
+      "heading": "{{overskrift}}",
+      "description": "{{beskrivelse}}"
+    },
+    "checkout": {
+      "title": "Bestilling {{count}} vare",
+      "title_plural": "Gå til kassen {{count}} varer"
+    },
+    "search": {
+      "findProductTitle_plural": "{{Count}} resultater for kampagnekoder \"{{kupon}}\"",
+      "title": "{{Count}} resultat for \"{{query}}\"",
+      "title_plural": "{{count}} resultater for \"{{query}}\"",
+      "findProductTitle": "{{Count}} resultat for kampagnekode \"{{kupon}}\""
+    },
+    "category": {
+      "title_plural": "{{Count}} resultater for {{query}}",
+      "title": "{{Count}} resultat for {{query}}"
+    }
+  },
+  "breadcrumbs": {
+    "dashboardPage": {
+      "dashboardPageTitle": "Dashboard",
+      "dashboardPageSubTitle": "Alle data om din virksomhed"
+    },
+    "checkoutPageTitle": "Bestilling",
+    "orderConfirmationPageTitle": "Ordrebekræftelse",
+    "addressBookPageTitle": "Adressebog",
+    "listingPage": {
+      "listingPageSubTitle": "De viste priser er katalogpriser",
+      "searchPageTitle": "Viser resultater for \"{{query}}\""
+    },
+    "orderHistoryPageTitle": "Ordre historik",
+    "profilePageTitle": "Min konto",
+    "privacyPageTitle": "Privacy and Cookie Policy",
+    "imprintPageTitle": "Aftryk",
+    "bundlesPageTitle": "Bundles",
+    "outletPageTitle": "Outlets",
+    "shoppingCartPageTitle": "Din kurv",
+    "wishlistPageTitle": "Foretrukne",
+    "termsPageTitle": "Vilkår og betingelser",
+    "promotionPageSubTitle": "Den endelige nedsatte pris vil være synlig i indkøbskurven",
+    "promotion": "Forfremmelse"
+  },
+  "common": {
+    "save": "Gem",
+    "edit": "Rediger",
+    "delete": "Slet",
+    "confirm": "Bekræft",
+    "connected": "forbundet",
+    "noData": "Ingen data",
+    "continue": "Fortsæt",
+    "cancel": "Afbestil",
+    "remove": "Fjern",
+    "offline": "Offline",
+    "home": "Hjem",
+    "submit": "Indsend",
+    "done": "Færdig",
+    "other": "Andet",
+    "back": "Tilbage",
+    "online": "Online"
+  },
+  "httpHandlers": {
+    "sessionExpired": "Din session er udløbet. Log venligst på igen.",
+    "validationErrors": {
+      "missing": {
+        "card_cardType": "Det valgte kreditkort er ikke understøttet. Vælg et andet.",
+        "billTo_street1": "Den indtastede adresse er ikke gyldig.",
+        "billTo_state": "Den indtastede data er ikke gyldig.",
+        "billTo_firstName": "Det indtastede fornavn er ikke gyldigt.",
+        "billTo_street2": "Den indtastede adresse er ikke gyldig.",
+        "card_expirationYear": "Den indtastede data er ikke gyldig.",
+        "billTo_city": "Den indtastede data er ikke gyldig.",
+        "card_cvNumber": "Den indtastede data er ikke gyldig.",
+        "billTo_country": "Den indtastede data er ikke gyldig.",
+        "card_expirationMonth": "Kreditkortets udløbsdato er ikke gyldig",
+        "card_accountNumber": "Det indtastede kreditkortnummer er ikke gyldigt.",
+        "billTo_lastName": "Det indtastede efternavn er ikke gyldigt.",
+        "billTo_postalCode": "Postnummeret er ikke gyldigt for dette kreditkort.",
+        "country": {
+          "isocode": "Indtast land"
+        }
+      },
+      "invalid": {
+        "code": "Kode er ikke gyldig",
+        "uid": "UID er ikke gyldigt.",
+        "firstName": "Det indtastede fornavn er ikke gyldigt.",
+        "password": "Password er ikke gyldigt.",
+        "card_expirationMonth": "Kreditkortets udløbsdato er ikke gyldig.",
+        "lastName": "Efternavn er ikke gyldigt."
+      }
+    },
+    "cartNotFound": "Indkøbskurv ikke fundet.",
+    "conflict": "Eksisterer allerede",
+    "unauthorized": {
+      "invalid_client": "Ugyldige legitimationsoplysninger",
+      "common": "En ukendt tilladelsesfejl opstod"
+    },
+    "badGateway": "Der opstod en serverfejl. Prøv igen senere.",
+    "unknownError": "Der opstod en ukendt fejl",
+    "gatewayTimeout": "Serveren svarede ikke, prøv igen senere.",
+    "badRequestPleaseLoginAgain": "{{ errorMessage}}. Log venligst på igen.",
+    "forbidden": "Mangler autorisering. Kontakt din administrator.",
+    "badRequestOldPasswordIncorrect": "Gammel adgangskode forkert",
+    "internalServerError": "Der opstod en intern serverfejl. Prøv igen senere.",
+    "invalidCodeProvided": "Ugyldig kode"
+  },
+  "navigation": {
+    "shopAll": "Søg alle {{navNode}}>"
+  },
+  "carousel": {
+    "button": "Gennemse alle"
+  },
+  "formErrors": {
+    "cxInvalidPassword": "Passwordformat ikke gyldigt",
+    "date": {
+      "invalid": "Brug en gyldig dato",
+      "required": "Felt påkrævet",
+      "max": "Dato kan ikke være efter {{max}}",
+      "min": "Dato kan ikke være før {{min}}",
+      "pattern": "Brug datoformatet åååå-mm-dd"
+    },
+    "globalMessage": "Formularen, du forsøger at indsende indeholder fejl.",
+    "cxInvalidEmail": "e-mail format ikke gyldig",
+    "cxNoSelectedItemToCancel": "Vælg mindst én vare",
+    "cxEmailsMustMatch": "De indtastede e-mailadresser skal matche",
+    "cxPasswordsMustMatch": "De indtastede password skal være ens",
+    "cxNegativeAmount": "Beløb skal være lig med eller større end nul",
+    "required": "Felt påkrævet",
+    "cxContainsSpecialCharacters": "Feltet kan ikke indeholde specialtegn",
+    "cxStarRatingEmpty": "Rating felt er påkrævet"
+  },
+  "errorHandlers": {
+    "refreshThePage": "Opdater siden.",
+    "loadPage": "En fejl opstod. Du vil blive omdirigeret til login-siden i 5 sekunder! Det er jeg ked af.",
+    "scriptFailedToLoad": "Kunne ikke indlæse scriptet."
+  },
+  "skipLink": {
+    "labels": {
+      "footer": "",
+      "productList": "Produktliste",
+      "header": "Ordrehoved",
+      "productFacets": "Produktportefølje",
+      "main": "hovedindhold"
+    },
+    "skipTo": "Gå til"
+  },
+  "miniCart": {
+    "count": "{{tælle}}",
+    "total": "{{Total}}",
+    "item": "{{Count}} vare i din indkøbskurv",
+    "item_plural": "{{Count}} varer i din indkøbskurv"
+  },
+  "miniLogin": {
+    "signInRegister": "Log ind",
+    "userGreeting": "Hej, {{name}}"
+  },
+  "sorting": {
+    "rma": "Returneringsnummer",
+    "replenishmentNumber": "genopfyldning nummer",
+    "orderNumber": "Ordrenummer",
+    "date": "Dato",
+    "nextOrderDate": "Næste ordredato"
+  },
+  "spinner": {
+    "loading": "Indlæser..."
+  },
+  "orderDetails": {
+    "tracking": {
+      "noTrackingNumber": "",
+      "trackingNumber": "",
+      "itemStatus": {
+        "pickedUp": "",
+        "partiallyPickedUp": "",
+        "delivered": "",
+        "exception": ""
+      },
+      "quantity": "",
+      "deliveryStatus": {
+        "inProcess": "",
+        "delivered": ""
+      },
+      "deliveryType": "",
+      "status": "",
+      "noTrackingResults": "",
+      "deliveryNumber": "",
+      "product": ""
+    },
+    "consignmentTracking": {
+      "dialog": {
+        "carrier": "Leveringsservice",
+        "header": "Sporingsoplysninger",
+        "shipped": "Afsendt",
+        "trackingId": "Sporingsnummer",
+        "estimate": "Forventet levering",
+        "loadingHeader": "Forsendelsessporing",
+        "noTracking": "Pakken er ikke blevet afsendt fra lageret endnu. Sporingsoplysninger vil være tilgængelige, efter at pakken er afsendt."
+      },
+      "action": "Spor ordre"
+    },
+    "purchaseOrderId": "Indkøbsordre #",
+    "unit": "Enhed",
+    "deliveryStatus_READY_FOR_PICKUP": "Klar til afhentning",
+    "statusE": "Afsendt",
+    "cancellationAndReturn": {
+      "item": "Vare",
+      "itemPrice": "Varepris",
+      "cancelAction": "Annuller varer",
+      "cancelQty": "Antal, der skal annulleres",
+      "cancelSuccess": "Din returneringsanmodning blev oprettet (den oprindelige ordre {{orderCode}} vil blive opdateret)",
+      "setAll": "Indstil alle mængder til maksimum",
+      "returnSuccess": "Din returneringsanmodning ({{rma}}) blev oprettet",
+      "returnAction": "Anmod om returnering",
+      "totalPrice": "Total",
+      "returnQty": "Antal, der skal returneres",
+      "submit": "Indsend anmodning",
+      "quantity": "Max mængde"
+    },
+    "statusDisplay_open": "Åben",
+    "deliveryStatus_READY": "Under behandling",
+    "funColumn": "Artikel",
+    "invoices": "Fakturaer",
+    "cancelReplenishment": {
+      "description": "Annuller alle fremtidige genopfyldningsordre?",
+      "title": "Annuller genopfyldning",
+      "reject": "Ingen",
+      "accept": "Ja",
+      "cancelSuccess": "Genopfyldningsordre # {{replenishmentOrderCode}} er blevet annulleret"
+    },
+    "deliveryStatus_DELIVERING": "Afsendt",
+    "statusF": "Leveret",
+    "status": "Status",
+    "costCenterAndUnit": "Omkostningssted / Enhed",
+    "placedBy": "placeret af",
+    "deliveryStatus_PICKUP_COMPLETE": "Pickup gennemført",
+    "brandColumn": "Brand",
+    "orderId": "Ordre #",
+    "deliveryStatus_DELIVERY_REJECTED": "Levering afvist",
+    "alternativeProducts": {
+      "replaceAction": "",
+      "areYouSure": "",
+      "cancelAction": "",
+      "article": "",
+      "productReplacedError": "",
+      "productReplacedSuccessfully": "",
+      "productReplacementTitle": "",
+      "checkAlternativeProducts": "",
+      "replaceOrderItem": "",
+      "newPrice": ""
+    },
+    "notAvailableOnRequestDate": "",
+    "statusDisplay_cancelling": "Annuller afventende",
+    "costCenterAndUnitValue": "{{CostCenterName}} / {{unitName}}",
+    "deliveryStatus_PICKPACK": "Forberedes til forsendelse",
+    "statusDisplay_cancelled": "Annulleret",
+    "statusDisplay_merchant": {
+      "approved": "Sælger godkendt",
+      "rejected": "Sælger afvist"
+    },
+    "descriptionColumn": "Beskrivelse",
+    "statusDisplay_approved": "Godkendt",
+    "statusCC": "",
+    "statusDisplay_error": "Afventer",
+    "statusColumn": "Status",
+    "costCenter": "Omkostningssted",
+    "shippedOn": "Afsendt d.",
+    "expectedDeliveryDateColumn": "Oprindelig leveringsdato",
+    "productColumn": "Produkt",
+    "tabs": {
+      "deliveries": "",
+      "order": "Bestil {{ORDERNUMBER}}"
+    },
+    "materialColumn": "Materiale",
+    "statusDisplay_pending": {
+      "merchant": {
+        "approval": "Afventer sælgers godkendelse"
+      },
+      "approval": "Afventer godkendelse"
+    },
+    "deliveryStatus_PAYMENT_NOT_CAPTURED": "Betalingsproblem",
+    "payByAccount": "Betal med konto",
+    "deliveryStatus_READY_FOR_SHIPPING": "Klar til forsendelse",
+    "deliveryStatus_TAX_NOT_COMMITTED": "Skattespørgsmål",
+    "deliveryStatus_WAITING": "Afventer",
+    "statusC": "Levering oprettet",
+    "replenishmentId": "genopfyldning #",
+    "cancelled": "Annulleret",
+    "statusDisplay_created": "Lavet",
+    "statusDisplay_rejected": "Afvist",
+    "none": "Ingen {{value}}",
+    "statusDisplay_processing": "Afventer",
+    "placed": "Placeret",
+    "statusAA": "",
+    "paidByCreditCard": "(Betales med kreditkort)",
+    "deliveryStatus_CANCELLED": "Annulleret",
+    "statusD": "Afhentet",
+    "frequency": "Frekvens",
+    "deliveryStatus_IN_TRANSIT": "Undervejs",
+    "deliveryStatus_DELIVERY_COMPLETED": "Levering udført",
+    "startOn": "Start På",
+    "statusDD": "",
+    "quantityColumn": "Antal",
+    "statusDisplay_Error": "Afventer",
+    "brandMissing": "Intet brand",
+    "nextOrderDate": "Næste ordredato",
+    "priceColumn": "Enkeltpris",
+    "statusBB": "",
+    "emptyPurchaseOrderId": "Ingen",
+    "deliveryStatus_SHIPPED": "Afsendt",
+    "statusDisplay_assigned": {
+      "admin": "Tildelt til administrator"
+    },
+    "statusDisplay_completed": "Afsluttet",
+    "statusA": "Ordre kvitteret",
+    "returnToOrdersButton": "Tilbage til ordrer",
+    "confirmedDeliveryDateColumn": "Forventet leveringsdato",
+    "statusB": "Ordre bekræftet"
+  },
+  "orderHistory": {
+    "purchaseOrderNumberColumn": "Købsordrenummer",
+    "sortByMostRecent": "Sorter efter nyeste",
+    "statusPlaceholder": "Status",
+    "noOrdersFilter": "Ingen match fundet.",
+    "deliveryDateColumn": "Frekvens",
+    "past12months": "12 måneder",
+    "startShopping": "Start shopping",
+    "date": "Dato",
+    "orderChannelColumn": "Kanal",
+    "orderNumberFilter": "Ordrenummer:",
+    "noOrders": "Vi har ingen ordrer på denne konto.",
+    "frequency": "Frekvens",
+    "noReplenishmentOrders": "Vi har ingen genopfyldningsordreposter for denne konto.",
+    "startOn": "Start på",
+    "nextOrderDate": "Næste ordredato",
+    "invoice": "",
+    "lastOrders": "Viser gamle ordrer:",
+    "cancel": "Annuller",
+    "statusF": "Leveret",
+    "status": "Status",
+    "statusB": "Ordre bekræftet",
+    "orderStatusFilter": "status:",
+    "orderReferencePlaceholder": "Reference",
+    "emptyPurchaseOrderId": "Ingen",
+    "statusCC": "",
+    "pageOfPages": "Side {{page}} af {{pageCount}}",
+    "statusBB": "",
+    "previousPage": "Forrige",
+    "statusE": "Afsendt",
+    "replenishmentHistory": "genopfyldning historie",
+    "orderReferenceColumn": "Reference",
+    "orderHistory": "Ordrehistorik",
+    "notFound": "Ingen ordrer fundet",
+    "invoiceType": "",
+    "orderId": "Ordre #",
+    "statusAA": "",
+    "total": "Total",
+    "cancelled": "Annulleret",
+    "statusColumn": "Status",
+    "returns": "",
+    "statusC": "Levering oprettet",
+    "past6months": "6 måneder",
+    "creditNotes": "",
+    "replenishmentOrderHistory": "Genopfyldningsordrehistorik",
+    "allOrdersTab": "ALLE ORDRER ({{count}})",
+    "replenishmentOrderId": "genopfyldning #",
+    "orderType": "",
+    "orderReferenceFilter": "Reference:",
+    "orders": "",
+    "nextPage": "Næste",
+    "valueColumn": "Værdi",
+    "purchaseOrderNumber": "Postnummer",
+    "orderNumberColumn": "Ordrenummer",
+    "dateFilter": "Dato:",
+    "past3months": "3 måneder",
+    "statusA": "Bekræftet ordre",
+    "past9months": "9 måneder",
+    "orderAdditionalReferenceColumn": "Yderligere reference",
+    "quotes": "",
+    "statusD": "Afhentet"
+  },
+  "orderInvoices": {
+    "orderType": {
+      "value": ""
+    },
+    "invoiceNumberColumn": "Fakturanummer",
+    "amountColumn": "Beløb",
+    "referenceColumn": "Reference",
+    "purchaseOrderColumn": "Indkøbsordre",
+    "nameColumn": "Navn",
+    "pdfColumn": "PDF",
+    "lineItemColumn": "Linjepost",
+    "downloadPDF": "PDF",
+    "noInvoices": "Ingen fakturaer fundet",
+    "invoices": "Fakturaer ({{count}})",
+    "invoiceNumberFilter": "Fakturanummer:",
+    "documentDateColumn": "Dato",
+    "taxAmountColumn": "Skat",
+    "orderNumberColumn": "Ordrenummer",
+    "textColumn": "Tekst",
+    "noInvoicesFilter": "Ingen match fundet."
+  },
+  "productQuestions": {
+    "hoods": {
+      "questions": {
+        "1": {
+          "question": "Der er et blinkende lys på min hætte kontrolpanel. Hvad skal jeg gøre?",
+          "answer": "Se brugsanvisningen til dit emfang. Det blinkende lys kan muligvis kun slås fra ved at nulstille emfanget / funktionen. Du kan downloade instruktionsmanualer fra vores hjemmeside."
+        },
+        "2": {
+          "answer": "Først og fremmest skal du kontrollere, at din installatør har monteret emhætten i henhold til instruktionerne iinstallationsvejledningen, der følger med emhætten. Hvis både montage af emfang og rørinstallation er korrekt udført og vibrationer eller støj kommer fra selve produktet, bedes du kontakte vores servicepartner.",
+          "question": "Mit emfang vibrerer. Hvad skal jeg gøre?"
+        },
+        "3": {
+          "answer": "Først og fremmest skal du kontrollere, at din installatør har monteret emhætten i henhold til instruktionerne i installationsvejledningen, der følger med emhætten. Dernæst skal du sikre dig at emhætten er beregnet til rummets størrelse. En effektiv hætte skal være kraftig nok til at udskifte luften i køkkenområdet ca. 10 gange i timen. Effekten for hvert enkelt emfang er vist i vores brochure og på vores hjemmeside. Hvis montering og rørinstallation korrekt udført og dimensioneret, bedes du kontakte vores servicepartner. Skulle det modsatte imedlertidig blive konstateret ved servicebesøget, vil servicebesøget blive påkrævet betaling.",
+          "question": "Sugestyrken virker ikke kraftig nok, hvad skal jeg gøre?"
+        },
+        "4": {
+          "question": "Hvilken rørdimension anbefales for optimal effekt?",
+          "answer": "En kanaldiameter i fast rør på ø150 mm anbefales for at opnå den optimale effekt af emfanget. Hvis det ikke er muligt at installere denne dimension, anbefaler vi minimum et rør på ø120 mm. En mindre rørdimension har negativ indflydelse på luftgennemstrømningen og støjniveauet på emhætten. Brug af flexslanger bør altid undgås, uanset diameter. Forsøg altid at placere aftrækket så tæt på selve emfanget som muligt, da dette minimerer effekttab i rørinstallationen."
+        },
+        "5": {
+          "answer": "Instruktionsmanualen med dit emfang skal indeholde alle de oplysninger, der kræves for en vellykket installation. Du kan altid vælge at kontakte vores servicepartner direkte. Vær og opmærksom på, at hvis der rekvireres et servicebesøg kan dette blive påkrævet betaling..",
+          "question": "Hvem kan jeg kontakte, hvis jeg har problemer med emfanget eller installationen?"
+        },
+        "6": {
+          "question": "Hvordan kan jeg reducere støj fra emfanget?",
+          "answer": "Støjen fra et emfang genereres af luftstrømmen som passerer igennem emfanget, samt den efterfølgende rørinstallation (turbolens). Frankes emfang er designet således, at luftstrømmen har optimale betingelser for at passere uhindret igennem emfanget og derved bevare effekten uden at påvirke støjeniveauet. En effektiv måde at undgå en stigningen i støjniveauet er ved at bruge en rørdimension på 150 mm. Dette reducerer luftturbolens igennem rørinstallationen og derved støjniveauet. Brug af flexslanger (uanset diameter) bør altid undgås. Beskidte eller mættede filtre påvirker ligeledes luftstrømmen negativt. Husk derfor at overholde rengøring / udskiftningsfrekvensen af både fedt –og kulfilter."
+        },
+        "7": {
+          "question": "Hvordan skal jeg rengøre overfladen på mit emfang?",
+          "answer": "På glasflader kan benyttes en glasrens. Elles kan emfanget tørres af med en fugtig klud med neutral rengeringsmiddel."
+        },
+        "8": {
+          "answer": "Der findes to typer filtrer: fedtfilter og kulfiter.\nFedtfilter er typisk et metalfilter som opfanger og beskytter motoren mod de fedtpartikler der sidder i dampene. Et rent fedtfilter er mere effektivt og forlænger levetiden på motoren og andre kompenenter indeni emfanget.\nMetalfitrene kan nemt rengøres i opvaskemaskinen ca. hver 2. måned.\n \nKulfilter kan monteres på udvalgte emfang. Når luften passerer de aktive kul i filtret renses luften og recirkuleres tilbage i køkkenet. Dette er en mere energivenligt metode end normal aftræksventilation, hvor den opvarmede luft suges ud af køkkenet. Der findes forskellige typer af kulfiltrer: standard, long-life (lang levetid) og highperformance (høj effektivitet). Vælg den type som passer bedst til dit behov. Vær opmærksom på at et kulfilter løbende mister sin effekt ved brug og derfor løbende bør udskiftes eller regenereres, for at bevare den oprindelige effekt.",
+          "question": "Hvilke typer filtre findes der, og hvor ofte skal jeg udskifte dem?"
+        },
+        "9": {
+          "question": "Hvordan trækker jeg ud på størrelsen af ​​ventilator, som jeg har brug for?",
+          "answer": "Et korrekt dimensioneret emfang skal være kraftig nok til at udskifte luften i selve køkkenområdet ca 10 gange i timen.\nFor at bestemme hvilket emfang der skal vælges, må du først beregne rummets rumfang. Dette gøres ved at gange rummets længde x bredde x højde. Når du når beregnet rumfanget ganges dette tal med x10 for at finde den påkrævede effekt."
+        },
+        "10": {
+          "question": "Jeg har kondens på min induktionskogeplade, når jeg bruger det integrerede emfang i Mythos2gether. Hvad kan jeg gøre?",
+          "answer": "En induktionkogeplade er en meget effektiv måde at tilberede mad på. I sig selv producerer induktionszonen ikke nogen varme, men ved hjælp af magnetisme opvarmes kun gryden eller panden indirekte og derved forbliver glaspladen ”kold”. Det kan derfor ikke helt undgås, at den varme damp fra gryden kondenserer, når den rammer den ”koldere” glasoverflade på induktionspladen.\nOvenstående fænomen kan ligeledes opstå på andre emfang. Kondenseringen opstår når den varme damp rammer den koldere overflade på emfanget eller væggen."
+        },
+        "11": {
+          "question": "",
+          "answer": ""
+        },
+        "12": {
+          "question": "",
+          "answer": ""
+        },
+        "13": {
+          "answer": "",
+          "question": ""
+        }
+      },
+      "category": "Emfang"
+    },
+    "equipment": {
+      "questions": {
+        "1": {
+          "question": "",
+          "answer": ""
+        },
+        "2": {
+          "answer": "",
+          "question": ""
+        },
+        "3": {
+          "question": "",
+          "answer": ""
+        },
+        "4": {
+          "question": "",
+          "answer": ""
+        },
+        "5": {
+          "question": "",
+          "answer": ""
+        },
+        "6": {
+          "answer": "",
+          "question": ""
+        },
+        "7": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      "category": ""
+    },
+    "sinks": {
+      "questions": {
+        "1": {
+          "answer": "Nej rustfrit stål vil altid blive ridset, uanset fabrikat. De første ridser vil altid syne voldsommere i starten, men vasken vil med tiden opbygge en patina, således ridserne ikke længere vil virke så markante.",
+          "question": "Kan man udgå at rustfrit stål bliver ridset?"
+        },
+        "2": {
+          "answer": "Franke stålvaske er fremstillet af førsteklasses kvalitet stål, som er meget modstandsdygtigt over for pletter, rust og korrosion, og vil uden problemer kunne klare almindelig husholdningsbrug.\nMisfarvning og mærker på rustfrit stål er typisk forårsaget af eksterne ”angreb” på vaskens overflade, og ikke fra stålet selv. Hvis pletterne ikke kan fjernes ved almindelig rengøring / aftørring, kan de nemt fjernes med Franke Twister, Franke Magic Sponge eller grydesvamp (OBS! aldrig ståluld).\nI nogle tilfælde kan man også opleve små partikler fra vandforsyningen, disse forekommer ofte i forbindelse med nye installationer, eller udskiftning af armatur. Disse partikler kan derefter vise sig som brune/”rust” pletter på vaskens overflade. Fjern og rens luftblanderen på armatur, og rengør derefter vasken med Franke Twister eller grydesvamp (nylon siden). Medmindre pletterne/partiklerne fjernes helt vil de dukke op igen, derfor skal man være grundig med rengøring og evt. gentage.\nEn af de bedste måder at pleje vasken på er en let daglig rengøring, med opvaskebørsten, opvaskemiddel og derefter aftørring.",
+          "question": "Kan man fjerne ”rust” pletter i stålvasken?"
+        },
+        "3": {
+          "answer": "Fragranit vaske er alle lavet af gennemfarvet quartz granulat, som sagtens kan modstå pletter. Undersøgelser viser, at misfarvning af kompositvaske er langt mere udbredt i områder med ”hårdt” vand pga. kalkens tendens til at aflejre sig i vasken. Derfor er det ikke vasken, men typisk kalken som efterfølgende bliver misfarvet af te, kaffe osv. Brug af blegemiddel anbefales ikke, da det kun bleger pletten i stedet for at fjerne den. Brug i stedet alm. Kalkfjerner (spray) lad det trække lidt, og rengør derefter med grydesvamp, melaminsvamp, Franke Magic Sponge eller lign.\nRengør vasken dagligt med opvaskebørsten, opvaskemiddel og derefter aftørring. Derved minimeres risikoen for eksterne angreb på overfladen samt kalkaflejringer.\nUndgå:\n\\- Fragranit vaskene er meget varmebestandige (op til 280°C i perioder af 10 - 15 sek.) så kontakt med varme gryder og pander kan ikke umiddelbart skade dette materiale. Efterlad dog ikke varme emner på overfladen over længere perioder - dette kan medføre permanente skader på overfladen. Ellers benyt bordskåner, hvis der er usikkerhed om temperaturen på gryden.\n\n\\- At rengøre Fragranit vaske med Franke Twister.\n\n\\- At udsætte vasken for kemikalier, maling og sterin, da disse kan beskadige eller efterlade mærker på overfladen.",
+          "question": "Hvordan jeg bedst rengør og vedligeholder min Fragranit vask?"
+        },
+        "4": {
+          "question": "Hvordan laver man hul for armatur i Fragranit vask?",
+          "answer": "Udførelse af hanehul i Fragranitvaske.\n1. Pak vasken ud af kasse og sikre, den ligger 100% stabilt. Evt. montér vasken først.\n2. Sikre mærkat/klistermærke er centreret i det forberedte​​ hanehul.\n3. Placér dorn, skruetrækker eller lign. på mærkat, og slå hullet ud (ALTID fra toppen af vask)\n4. Jævn derefter kanten på hullet med dorn, skruetrækker eller fil, indtil armaturet passer i hanehullet."
+        },
+        "5": {
+          "question": "Hvilke typer materialer tilbyder Franke køkkenvaske i ?",
+          "answer": "Franke synes, der skal være en vask til hjem i alle stilarter og behov. Derfor tilbyder Franke vaske i forskellige materialer, farver og overfladestrukturer.\nUdover vaske i klassisk rustfrit stål, fremstiller Franke vaske i Fragranit, Tectonite og porcelæn.\nHver materiale har sine eget unikke design, farve og materialeegenskaber."
+        },
+        "6": {
+          "answer": "Franke lægger stor vægt på at levere produkter som er tilpasset kundernes individuelle installationsbehov, derfor har Franke også et bredt sortiment af vaske, dækkende adskillige montage typer.\nNedfældning\nNedfældning er den traditionelle måde at montere en vask på. Her monteres vasken fra toppen af bordpladen. Vaskene kan monteres i alle typer af bordpladematerialer. Der vil altid være en overgang mellem vask og bordplade ved denne type montage. Dog kan kanten minimeres betydeligt ved brug af vaske med Franke ”slimtop”\n\"Slimtop\" montagesystem\n”Slimtop” vaskene fra Franke har blot en utra-tynd kant mellem bordpladen og vasken. Derved minimeres at snavs og skidt sætter sig i kanten, og området omkring vasken bliver langt nemmere at holde rent. Indbydende enkelt og æstetisk gennemtænkt.\nUnderlimining\nVed underlimning monteres vasken nedefra og op i en udfræsning på undersiden af bordpladen.\nUnderlimning er mest anvendt i træ- og laminatbordplader. Det er dog et arbejde, der kræver håndværksmæssig indsigt og erfaring, og vi fraråder derfor, at man selv udfører denne opgave.\nPlanlimining\nVed planlimning monteres vasken fra toppen af bordpladen. Vasken monteres i en udfræsning således vasken er i niveau med bordpladen, og der ikke opstår kanter ved overgangen mellem bordplade og vask.\nPlanlimning er typisk anvendt i granit- og kompositbordplader. Det er dog et arbejde, der kræver håndværksmæssig indsigt og erfaring, og vi fraråder derfor, at man selv udfører denne opgave.",
+          "question": "Hvad er forskellen mellem de forskellige montagemetoder ?"
+        },
+        "7": {
+          "question": "",
+          "answer": ""
+        },
+        "8": {
+          "answer": "",
+          "question": ""
+        },
+        "9": {
+          "question": "",
+          "answer": ""
+        },
+        "10": {
+          "question": "",
+          "answer": ""
+        },
+        "11": {
+          "question": "",
+          "answer": ""
+        },
+        "12": {
+          "answer": "",
+          "question": ""
+        },
+        "13": {
+          "answer": "",
+          "question": ""
+        },
+        "14": {
+          "question": "",
+          "answer": ""
+        },
+        "15": {
+          "question": "",
+          "answer": ""
+        },
+        "16": {
+          "answer": "",
+          "question": ""
+        },
+        "17": {
+          "answer": "",
+          "question": ""
+        },
+        "18": {
+          "answer": "",
+          "question": ""
+        },
+        "20": {
+          "question": "",
+          "answer": ""
+        },
+        "21": {
+          "answer": "",
+          "question": ""
+        },
+        "22": {
+          "answer": "",
+          "question": ""
+        },
+        "23": {
+          "question": "",
+          "answer": ""
+        },
+        "24": {
+          "answer": "",
+          "question": ""
+        },
+        "25": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      "category": "Vaske"
+    },
+    "hobs": {
+      "questions": {
+        "1": {
+          "question": "",
+          "answer": ""
+        },
+        "2": {
+          "answer": "",
+          "question": ""
+        },
+        "3": {
+          "answer": "",
+          "question": ""
+        },
+        "4": {
+          "question": "",
+          "answer": ""
+        },
+        "5": {
+          "question": "",
+          "answer": ""
+        },
+        "6": {
+          "answer": "",
+          "question": ""
+        },
+        "7": {
+          "question": "",
+          "answer": ""
+        },
+        "11": {
+          "question": "",
+          "answer": ""
+        },
+        "12": {
+          "question": "",
+          "answer": ""
+        },
+        "13": {
+          "answer": "",
+          "question": ""
+        },
+        "14": {
+          "answer": "",
+          "question": ""
+        },
+        "16": {
+          "answer": "",
+          "question": ""
+        },
+        "17": {
+          "answer": "",
+          "question": ""
+        }
+      },
+      "category": ""
+    },
+    "fittings": {
+      "questions": {
+        "1": {
+          "answer": "Franke køkkenarmaturer er fremstillet af førsteklasses kvalitetsmaterialer og designet til at klare daglig brug. Det er en vigtig forudsætning at armaturet plejes og vedligeholdes efter forskrifterne, således man undgår at beskadige produktet samt bevare overfladen ren og intakt.\nPleje & vedligehold\nFor ikke at beskadige armaturets overflader og indvendige komponenter er det vigtig at overholde følgende:\n\nBenyt kun rengørings –og plejemidler som er beregnet til armaturets konkrete overflade. Følg altid producentens anvisninger for rengøringsmidlet. Brug aldrig aggressivt virkende rengøringsmidler, skurepulver, stålsvamp, stålbørste eller andre slibemidler, da dette kan beskadige og ridse overfladen/malingen. Spray heller ikke rengøringsmidler direkte på overfladen, men påfør altid rengøringsmidlet på en klud eller en blød svamp inden aftørring af armaturet. Efter brug af rengøringsmidler skylles overfladen altid grundigt med vand og dernæst aftørres armaturet. For at forebygge kalkaflejringer og vedligehold anbefales daglig rengøring og aftørring med en opvreden klud. Rester fra sæbe og lignende skal straks skylles væk med vand. \n\nDer ydes ingen garanti på produkter, der er beskadiget på grund af forkert eller uhensigtsmæssig vedligeholdelse eller brug.\nUndgå\nUndgå at: udsætte overfladerne for syre så som saltsyre, myresyre, eddikesyre samt klor –og syreholdige rengøringsmidler, da de i værste tilfælde kan beskadige og ødelægge overfladen på armaturet permanent.",
+          "question": "Hvordan rengør og vedligeholder jeg mit armatur ?"
+        },
+        "2": {
+          "question": "",
+          "answer": ""
+        },
+        "3": {
+          "question": "",
+          "answer": ""
+        }
+      },
+      "category": "Armaturer"
+    }
+  },
+  "customerServicesQuestions": {
+    "customerService": {
+      "category": "Kundeservice",
+      "questions": {
+        "1": {
+          "answer": "Du kan kontakte vores kundeserviceteam ved at udfylde formularen under <u><a class=\"form\" href=\"/client-service\">”Kontakt os”,</a></u> der findes i afsnittet ”Kundesupport”.",
+          "question": "Hvordan kan jeg kontakte kundeservice?"
+        },
+        "2": {
+          "answer": "",
+          "question": ""
+        }
+      }
+    },
+    "complaints": {
+      "questions": {
+        "1": {
+          "question": "Hvordan kan jeg indsende en klage?",
+          "answer": "For at indsende en klage skal du gå til vores kundeservice og udfylde <u><a class=\"form\" href=\"/client-service\">klageformularen.</a></u>"
+        },
+        "3": {
+          "question": "Hvor kan jeg finde min sag nummer?",
+          "answer": "Du vil have modtaget en bekræftelsesmail med dit sagsnummer, da du indsendte klagen. Hvis du ikke kan finde det i din indbakke, skal du tjekke dit spamfilter."
+        },
+        "4": {
+          "answer": "Du kan sende os en besked via formularen under <u><a class=\"form\" href=\"/client-service\">”Kontakt os”.</a></u>",
+          "question": "Jeg har et andet spørgsmål. Hvem kan jeg kontakte?"
+        }
+      },
+      "category": "Klager"
+    }
+  },
+  "portalQuestions": {
+    "spareParts": {
+      "questions": {
+        "1": {
+          "answer": "Reservedele er vigtige erstatningsdele til dit produkt. Tilbehør er funktionsfremmende tilføjelser eller add-ons, uden hvilke et produkt stadig kan fungere normalt.",
+          "question": "Hvad er forskellen på en reservedel og tilbehør?"
+        },
+        "2": {
+          "question": "Hvordan finder jeg den rigtige reservedel til mit produkt?",
+          "answer": "For at sikre, at du finder den rigtige reservedel, anbefaler vi, at du først identificerer produktet. Vi vil derefter liste alle tilgængelige reservedele til det specifikt valgte produkt. Alternativt kan du gå direkte til siden med en oversigt over alle reservedele og ved hjælp af vores avancerede filtreringsmuligheder indsnævre resultaterne for at finde din specifikke reservedel."
+        },
+        "3": {
+          "answer": "Hvis du ikke kan finde eller vælge den del, du har brug for, skyldes det, at varen ikke er tilgængelig. Kontakt vores kundeserviceteam via <u><a class=\"form\" href=\"/client-service\">Kontakt os form.</a></u>formularen under ”Kontakt os”.",
+          "question": "Hvorfor kan jeg ikke finde eller vælge en del i reservedelskatalog?"
+        },
+        "4": {
+          "answer": "Du kan sende os en besked via formularen under <u><a class=\"form\" href=\"/client-service\">Kontakt os.</a></u>",
+          "question": "Jeg har et andet spørgsmål. Hvem kan jeg kontakte?"
+        }
+      },
+      "category": "Reservedele"
+    },
+    "products": {
+      "questions": {
+        "1": {
+          "question": "Er alle produkterne i det aktuelle katalog tilgængelige på Franke Partner Portal?",
+          "answer": "Ja. Alle produkter, der findes i det aktuelle katalog, er tilgængelige på Franke Partner Portal."
+        },
+        "2": {
+          "answer": "Ja. Vi viser udgåede produkter, så du stadig kan få adgang til deres reservedele eller downloade deres specifikke dokumentation.",
+          "question": "Kan jeg se ophørte produkter på Franke Partner Portal?"
+        },
+        "3": {
+          "answer": "Du kan søge efter et produkt ved direkte at indtaste produktets FUN- eller Internal Sales-nummer eller ved at skrive navn, farve, materiale eller andre egenskaber ved produktet. Søgefunktionen hjælper dig også ved at foreslå produkter, der matcher de indtastede søgeord.",
+          "question": "Hvordan fungerer produktsøgningen?"
+        },
+        "4": {
+          "question": "Jeg kan ikke finde det produkt, jeg leder efter.",
+          "answer": "Du kan sende os en besked via formularen under <u><a class=\"form\" href=\"/client-service\">Kontakt os.</a></u>"
+        },
+        "5": {
+          "answer": "Du finder alle produktrelaterede oplysninger på siden med produktdetaljer.",
+          "question": "Hvor finder jeg tegninger af et bestemt produkt?"
+        },
+        "6": {
+          "answer": "Du kan sende os en besked via formularen under <u><a class=\"form\" href=\"/client-service\">Kontakt os.</a></u>",
+          "question": "Hvor anmoder jeg om et tilbud på projekter eller større mængder?"
+        },
+        "7": {
+          "answer": "Du kan sende os en besked via formularen under <u><a class=\"form\" href=\"/client-service\">Kontakt os.</a></u>",
+          "question": "Hvor kan jeg anmode om et tilbud på skræddersyede bordplader?"
+        },
+        "8": {
+          "question": "Jeg har et andet spørgsmål. Hvem kan jeg kontakte?",
+          "answer": "Du kan sende os en besked via formularen under <u><a class=\"form\" href=\"/client-service\">Kontakt os.</a></u>"
+        }
+      },
+      "category": "Produkter"
+    },
+    "userAccount": {
+      "questions": {
+        "2": {
+          "answer": "For at gendanne din adgangskode skal du kontakte vores kundeserviceteam ved at udfylde formularen under <u><a class=\"form\" href=\"/client-service\">Kontakt os form.</a></u>",
+          "question": "Hvordan kan jeg ændre mine personlige/firmaoplysninger?"
+        },
+        "3": {
+          "answer": "Dine personlige oplysninger opbevares strengt fortroligt og vil ikke blive solgt, genbrugt, lejet, delt eller på anden måde videregivet til tredjeparter. Se også vores <u><a href=\"/privacy\">fortrolighedspolitik.</a></u>",
+          "question": "Hvordan er mine personlige oplysninger beskyttet og gemt?"
+        },
+        "4": {
+          "answer": "For at slette din konto skal du kontakte vores kundeserviceteam ved at udfylde formularen under <u><a class=\"form\" href=\"/client-service\">”Kontakt os”.</a></u>",
+          "question": "Hvordan kan jeg slette min konto?"
+        },
+        "5": {
+          "answer": "Du kan se <u><a href=\"/privacy\">fortrolighedserklæringen her.</a></u>",
+          "question": "Hvor kan jeg se Frankes fortrolighedserklæring?"
+        },
+        "6": {
+          "answer": "Du kan sende os en besked via formularen under <u><a class=\"form\" href=\"/client-service\">Kontakt os.</a></u>",
+          "question": "Jeg har et andet spørgsmål. Hvem kan jeg kontakte?"
+        }
+      },
+      "category": "Brugerkonto"
+    },
+    "guarantee": {
+      "questions": {
+        "1": {
+          "answer": "Garantibetingelserne er de samme for alle bestillingskanaler. Se også <u><a href=\"/terms\">”Vilkår og betingelser”</a></u> for detaljeret information om garantibetingelser",
+          "question": "Hvad er vilkårene for min garanti, og hvornår er jeg berettiget til at kræve reparationer under garantien?"
+        },
+        "2": {
+          "answer": "Du kan sende os en besked via formularen under <u><a class=\"form\" href=\"/client-service\">Kontakt os.</a></u>",
+          "question": "Jeg har et andet spørgsmål. Hvem kan jeg kontakte?"
+        }
+      },
+      "category": "Garanti"
+    }
+  },
+  "ordersAndShipmentQuestions": {
+    "order": {
+      "questions": {
+        "1": {
+          "question": "Hvordan kan jeg se tilgængeligheden af ​​produkterne og deres leveringstid?",
+          "answer": "Tilgængeligheden af ​​et produkt vises på Product Detail Side, nær prisen."
+        },
+        "2": {
+          "answer": "Ja. Du kan tilføje udsolgte varer til indkøbskurven og bestille dem. Når vi har flere oplysninger om tilgængeligheden af ​​de valgte varer, modtager du en notifikation.",
+          "question": "Kan jeg bestille varer, der ikke er på lager?"
+        },
+        "3": {
+          "answer": "Fuld historik over ordrer såvel som fakturaer kan findes i menuen <u><a href=\"/my-account/orders\">”Ordre”.</a></u>",
+          "question": "Hvor kan jeg finde en oversigt over mine ordrer, restordrer eller fakturaer?"
+        },
+        "5": {
+          "answer": "Nej, der er ingen minimumsordre. Du kan bestille helt ned til én enhed per ordre.",
+          "question": "Er der en minimumsordremængde?"
+        },
+        "6": {
+          "answer": "Nej. Hvis du ønsker at tilføje flere varer, skal du placere en ny ordre.",
+          "question": "Kan jeg tilføje varer til en onlinebestilling efter tjek-ud?"
+        },
+        "7": {
+          "answer": "Du kan sende os en besked via formularen under <u><a class=\"form\" href=\"/client-service\">”Kontakt os”.</a></u>",
+          "question": "Kan jeg annullere en ordre, der allerede er placeret?"
+        },
+        "8": {
+          "question": "Hvilke betalingsmuligheder tilbyder I? Kan jeg købe på konto?",
+          "answer": "Betalingsmetoder afhænger af den standardmetode, der er aftalt med din Account"
+        },
+        "9": {
+          "answer": "Du kan sende os en besked via formularen under <u><a class=\"form\" href=\"/client-service\">Kontakt os.</a></u>",
+          "question": "Jeg har et andet spørgsmål. Hvem kan jeg kontakte?"
+        }
+      },
+      "category": "Ordre"
+    },
+    "returns": {
+      "questions": {
+        "1": {
+          "question": "Kan jeg returnere varer fra Franke B2B Portal? Hvor finder jeg vilkårene for returneringer?",
+          "answer": "Kontakt vores kundeserviceteam ved at udfylde formularen under <u><a class=\"form\" href=\"/client-service\">”Kontakt os”</a></u> for at returnere varer."
+        },
+        "2": {
+          "answer": "",
+          "question": ""
+        },
+        "3": {
+          "question": "Min (dele af min) ordre er beskadiget/DOA. Hvad skal jeg gøre?",
+          "answer": "For at indsende en klage skal du gå til vores kundeservice og udfylde <u><a class=\"form\" href=\"/client-service\">klageformularen.</a></u>"
+        },
+        "4": {
+          "question": "Jeg har et andet spørgsmål. Hvem kan jeg kontakte?",
+          "answer": "Du kan sende os en besked via formularen under <u><a class=\"form\" href=\"/client-service\">Kontakt os.</a></u>"
+        }
+      },
+      "category": "Returneringer"
+    },
+    "shipment": {
+      "questions": {
+        "2": {
+          "answer": "I øjeblikket har vi kun mulighed for standardlevering. Flere leveringsmuligheder vil følge.",
+          "question": "Hvilke forsendelsesmetoder er tilgængelige på Franke Partner Portal?"
+        },
+        "3": {
+          "question": "Tilbyder I ekspreslevering?",
+          "answer": "Nej. I øjeblikket tilbyder vi kun standardlevering, hvilket er syv dage, efter ordren er afgivet."
+        },
+        "4": {
+          "question": "Tilbyder Franke Partner Portal international levering?",
+          "answer": "Nej. Ordrer skal leveres i det land, hvor ordren blev afgivet."
+        },
+        "5": {
+          "answer": "For at kontrollere status på en ordre skal du bare gå til menuen <u><a href=\"/my-account/orders\">”Ordrer”.</a></u> Der finder du en oversigt over alle ordrer, og du kan kontrollere status på enhver af dem.",
+          "question": "Hvordan kan jeg kontrollere status på min ordre?"
+        },
+        "6": {
+          "answer": "Nej. Når du afgiver en ordre, skal du vælge en leveringsadresse, og varerne leveres dertil. Du kan tilføje op til fire forskellige leveringsadresser i din adressebog.",
+          "question": "Må jeg selv afhente de bestilte varer direkte fra jeres lager?"
+        },
+        "7": {
+          "answer": "Du kan sende os en besked via formularen under <u><a class=\"form\" href=\"/client-service\">Kontakt os.</a></u>",
+          "question": "Jeg har et andet spørgsmål. Hvem kan jeg kontakte?"
+        }
+      },
+      "category": "Forsendelse"
+    }
+  }
+}

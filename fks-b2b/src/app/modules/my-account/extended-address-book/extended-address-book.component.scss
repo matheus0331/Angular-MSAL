@@ -1,0 +1,42 @@
+@import '../../../shared/shared/scss/buttons.scss';
+@import '../../../../assets/scss/typography.scss';
+
+.title {
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--franke-s-font-size);
+
+  @media only screen and (min-width: 768px) {
+    font-size: var(--franke-button-font-size);
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: var(--franke-font-size-base);
+  }
+}
+
+.subtitle {
+  color: var(--grey);
+  margin-bottom: 0;
+  font-size: var(--franke-s-font-size);
+
+  @media only screen and (min-width: 768px) {
+    font-size: var(--franke-button-font-size);
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: var(--franke-font-size-base);
+  }
+}
+
+.card-container {
+  margin: 15px 0;
+
+  .new-address-text {
+    font-size: var(--franke-s-font-size);
+    color: var(--grey);
+
+    @media only screen and (min-width: 992px) {
+      font-size: var(--franke-font-size-base);
+    }
+  }
+}

@@ -1,0 +1,51 @@
+<app-franke-carousel
+  *ngIf="shouldShowCarousel | async"
+  [isSideArrows]="true"
+  [items]="items$ | async"
+  [template]="carouselItem"
+  [title]="title$ | async"
+  class="container"
+  id="reference"
+  itemWidth=" {{
+    (isDesktop$ | async) ? '25%' : (isTablet$ | async) ? '33%' : '100%'
+  }}"
+>
+</app-franke-carousel>
+
+<ng-template #carouselItem let-item="item">
+  <div
+    [routerLink]="{ cxRoute: 'product', params: item } | cxUrl"
+    class="carousel-item"
+    tabindex="0"
+  >
+    <div class="item-image">
+      <cx-media
+        *ngIf="item.images?.PRIMARY"
+        [container]="
+          item.images?.PRIMARY?.thumbnail
+            ? item.images?.PRIMARY?.thumbnail
+            : item.images?.PRIMARY
+        "
+      ></cx-media>
+      <img
+        *ngIf="!item.images?.PRIMARY"
+        class="product-img-placeholder"
+        src="{{ productImgPlaceholder }}"
+      />
+    </div>
+
+    <div class="product-info">
+      <h4>
+        {{ item.name ? item.name : item?.shortTitle }}
+      </h4>
+      <div class="bottom-info">
+        <div class="price">
+          {{ item.price?.formattedValue }}
+        </div>
+        <div class="fun-number">
+          {{ 'productList.articleNumber' | cxTranslate: {fun: item.code} }}
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>

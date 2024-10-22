@@ -1,0 +1,42 @@
+{
+  "paymentMethods": {
+    "invalidField": "Błąd {{pole}}",
+    "newPaymentMethodsAreAddedDuringCheckout": "Nowe metody płatności są dodawane w trakcie płatności.",
+    "paymentMethods": "Metody Płatności"
+  },
+  "paymentForm": {
+    "useThisPayment": "Użyj tej metody płatności",
+    "accountHolderName": {
+      "label": "Nazwa właściciela konta",
+      "placeholder": "Nazwa właściciela konta"
+    },
+    "securityCode": "Kod zabezpieczający (CVV)",
+    "monthMask": "MM",
+    "yearMask": "RRRR",
+    "billingAddress": "Adres rozliczeniowy",
+    "setAsDefault": "Ustaw jako domyślne",
+    "saveAsDefault": "Zapisz jako domyślny",
+    "selectOne": "Wybierz jeden...",
+    "sameAsShippingAddress": "Taki sam jak adres dostawy",
+    "choosePaymentMethod": "Wybierz metodę płatności",
+    "cardNumber": "Numer karty",
+    "expirationDate": "Data wygaśnięcia",
+    "payment": "Płatność",
+    "addNewPayment": "Dodaj nową płatność",
+    "paymentType": "Typ płatności",
+    "changePayment": "Zmiana metody płatności",
+    "securityCodeTitle": "Kod zabezpieczający kartę."
+  },
+  "paymentTypes": {
+    "title": "Metoda płatności",
+    "paymentType_ACCOUNT": "Konto",
+    "paymentType_CARD": "Karta kredytowa / debetowa"
+  },
+  "paymentCard": {
+    "expires": "Wygasa: {{miesiąc}} / {{rok}}",
+    "setAsDefault": "Ustaw jako domyślne",
+    "defaultPaymentMethod": "✓Domyślne",
+    "selected": "Wybrany",
+    "deleteConfirmation": "Czy na pewno chcesz usunąć tę metodę płatności?"
+  }
+}

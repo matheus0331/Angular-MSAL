@@ -1,0 +1,8 @@
+<div *ngIf="(facetList$ | async)?.quickFilters as facets" class="facets">
+  <app-quick-facets
+    #facetRef
+    *ngFor="let facet of facets"
+    [cxFocus]="{ lock: true, trap: true, autofocus: 'a' }"
+    [facet]="facet"
+  ></app-quick-facets>
+</div>

@@ -1,0 +1,22 @@
+<ng-container *ngIf="product$ | async as product">
+  <ng-container *ngIf="product.bundleTemplates">
+    <div *ngFor="let product of product.bundleTemplates[0]?.products">
+      <a
+        [routerLink]="{ cxRoute: 'product', params: product } | cxUrl"
+        class="wrapper"
+      >
+        <div *ngIf="product.images; else noImage">
+          <img class="product-image" src="{{ product.images[0]?.url }}"/>
+        </div>
+        <ng-template #noImage>
+          <img class="product-image" src="{{ productImgPlaceholder }}"/>
+        </ng-template>
+
+        <p class="product-name">
+          {{ product.name }}
+        </p>
+      </a>
+      <hr/>
+    </div>
+  </ng-container>
+</ng-container>

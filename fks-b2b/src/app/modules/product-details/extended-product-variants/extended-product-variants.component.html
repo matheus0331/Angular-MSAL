@@ -1,0 +1,32 @@
+<ng-container
+  *ngIf="
+    (product$ | async)?.configurable && configurableProduct$ | async as product
+  "
+>
+  <div
+    *ngFor="let domainValue of product.groups[0].cstics[0].domainvalues"
+    class="variant-selector"
+  >
+    <div class="variant-name">{{ domainValue.attributeName }}:</div>
+    <div class="variant-wrapper">
+      <div
+        *ngFor="let attributeOption of domainValue.attributeOptions; index as i"
+        class="form-check form-check-inline"
+      >
+        <input
+          (click)="updateDomainValue(domainValue, attributeOption)"
+          [checked]="i === 0"
+          class="form-check-input"
+          id="{{ attributeOption.name }}"
+          name="{{ domainValue.attributeName }}"
+          type="radio"
+          value="{{ attributeOption.name }}"
+        />
+        <label class="form-check-label" for="{{ domainValue.attributeName }}">{{
+          attributeOption.name
+          }}</label>
+      </div>
+    </div>
+    <hr/>
+  </div>
+</ng-container>

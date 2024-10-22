@@ -1,0 +1,20 @@
+.notification {
+  margin: 11px 24px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+
+    .order-number {
+      font-weight: var(--font-weight-base);
+    }
+
+    .notification-time {
+      font-weight: var(--font-weight-lighter);
+    }
+  }
+
+  .message {
+    font-weight: var(--font-weight-lighter);
+  }
+}

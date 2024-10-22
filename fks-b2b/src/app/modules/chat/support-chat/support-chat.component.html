@@ -1,0 +1,44 @@
+<ng-container>
+  <div class="header">
+    <div class="header-content">
+      <div class="left-content">
+        <span class="chat-icon">
+          <cx-icon type="CHAT"></cx-icon>
+        </span>
+        <div class="title">
+          <p>{{ 'chat.title' | cxTranslate }}</p>
+        </div>
+      </div>
+      <span (click)="handleClick()" class="close">
+        <cx-icon type="CLOSE"></cx-icon>
+      </span>
+    </div>
+    <hr class="divider"/>
+  </div>
+  <div>
+    <span>{{ 'chat.message1' | cxTranslate }}</span>
+  </div>
+  <div class="chat">
+    <div class="message">
+      <p class="message-title">{{ 'chat.message2' | cxTranslate }}</p>
+      <a
+        (click)="scrollToClientServiceFromContact()"
+        [routerLink]="{ cxRoute: 'clientService' } | cxUrl"
+        class="btn btn-primary btn-sm"
+      >{{ 'chat.contact' | cxTranslate }}</a
+      >
+      <a
+        (click)="scrollToClientServiceFromQuestions()"
+        [routerLink]="{ cxRoute: 'clientService' } | cxUrl"
+        class="btn btn-primary btn-sm"
+      >{{ 'chat.faq' | cxTranslate }}</a
+      >
+      <a
+        (click)="scrollToClientServiceFromComplaint()"
+        [routerLink]="{ cxRoute: 'clientService' } | cxUrl"
+        class="btn btn-primary btn-sm"
+      >{{ 'chat.complaint' | cxTranslate }}</a
+      >
+    </div>
+  </div>
+</ng-container>

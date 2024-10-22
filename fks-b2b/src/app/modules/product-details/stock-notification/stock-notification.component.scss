@@ -1,0 +1,45 @@
+.stock-notification-wrapper {
+  padding: 10px 0;
+  text-align: center;
+
+  .stock-notification-notes {
+    p {
+      margin-bottom: 0.5rem;
+      font-size: var(--franke-font-size-base);
+    }
+  }
+
+  .btn-stop-notify {
+    background-color: transparent;
+    color: var(--accent-color);
+    font-size: var(--franke-font-size-base);
+    padding: 0 40px;
+    width: auto;
+    margin: auto;
+
+    &:focus {
+      box-shadow: unset;
+    }
+
+    &:hover {
+      background-color: var(--brand-color);
+      color: var(--white);
+    }
+  }
+
+  .spinner-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .spinner {
+      --cx-spinner-radius: 25px;
+      --cx-spinner-border-width: 3px;
+
+      margin: 15px 30px 30px 5px;
+
+      @media only screen and (min-width: 768px) {
+        margin: 25px 30px 30px 5px;
+      }
+    }
+  }
+}

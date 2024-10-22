@@ -1,0 +1,25 @@
+<ng-container *ngIf="cart$ | async  as cart">
+  <a
+    (click)="eventsTrackerService.sendViewCartEvent(cart)"
+    [attr.aria-label]="
+      'miniCart.item' | cxTranslate: { count: quantity$ | async }
+    "
+    [routerLink]="{ cxRoute: 'cart' } | cxUrl"
+  >
+    <div class="mini-cart-wrapper">
+      <cx-icon type="MINICART"></cx-icon>
+      <div
+        *ngIf="
+          (quantity$ | async) != 0 && (quantity$ | async) < 100;
+          else over100
+        "
+        class="badge"
+      >
+        {{ quantity$ | async }}
+      </div>
+      <ng-template #over100>
+        <div *ngIf="(quantity$ | async) != 0" class="over-100-badge">99+</div>
+      </ng-template>
+    </div>
+  </a>
+</ng-container>

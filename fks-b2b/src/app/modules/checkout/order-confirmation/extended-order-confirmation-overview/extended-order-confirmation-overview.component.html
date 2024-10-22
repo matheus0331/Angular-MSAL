@@ -1,0 +1,89 @@
+<ng-container *ngIf="order$ | async as order">
+  <div class="container">
+    <div class="main-wrapper">
+      <div class="title">
+        <div class="review-order-icons">
+          <cx-icon type="MAP_PIN"></cx-icon>
+        </div>
+        {{ 'checkoutReview.deliveryAddressTitle' | cxTranslate }}
+      </div>
+      <div *ngIf="order.deliveryAddress as deliveryAddress" class="delivery-address">
+        <div class="delivery-address-padding"></div>
+        <div class="delivery-address-info">
+          <div *ngIf="deliveryAddress.companyName; else showDeliveryName" class="name">
+            {{ deliveryAddress.companyName }}
+          </div>
+          <ng-template #showDeliveryName>
+            <div *ngIf="deliveryAddress.firstName || deliveryAddress.lastName" class="name">
+              {{ deliveryAddress.firstName }}
+              {{ deliveryAddress.lastName }}
+            </div>
+          </ng-template>
+          <div class="address">
+            {{ deliveryAddress.line1 }}, {{ deliveryAddress.line2 }}
+          </div>
+          <div class="region">
+            {{ deliveryAddress.town }}
+          </div>
+          <div class="postal-code">{{ deliveryAddress.postalCode }}</div>
+          <div class="country">{{ deliveryAddress.country.name }}</div>
+        </div>
+      </div>
+
+      <div class="title">
+        <div class="review-order-icons">
+          <cx-icon type="CREDIT_CARD"></cx-icon>
+        </div>
+        {{ 'checkoutReview.invoiceAddressTitle' | cxTranslate }}
+      </div>
+      <div *ngIf="order.billingAddress as invoiceAddress" class="invoice-address">
+        <div class="invoice-address-padding"></div>
+        <div class="invoice-address-info">
+          <div *ngIf="invoiceAddress.companyName; else showBillingName" class="name">
+            {{ invoiceAddress.companyName }}
+          </div>
+          <ng-template #showBillingName>
+            <div *ngIf="invoiceAddress.firstName || invoiceAddress.lastName" class="name">
+              {{ invoiceAddress.firstName }} {{ invoiceAddress.lastName }}
+            </div>
+          </ng-template>
+          <div class="address">
+            {{ invoiceAddress.line1 }}, {{ invoiceAddress.line2 }}
+          </div>
+          <div class="region">
+            {{ invoiceAddress.town }}
+          </div>
+          <div class="postal-code">{{ invoiceAddress.postalCode }}</div>
+          <div class="country">{{ invoiceAddress.country.name }}</div>
+        </div>
+      </div>
+
+      <div class="title">
+        <div class="review-order-icons">
+          <cx-icon type="CLIPBOARD_LIST"></cx-icon>
+        </div>
+        {{ 'checkoutReview.additionalDetailsTitle' | cxTranslate }}
+      </div>
+
+      <div class="additional-details">
+        <div class="additional-details-padding"></div>
+        <div class="additional-details-headers">
+          <div *ngIf="order?.customerPONumber" class="reference">
+            {{ 'checkoutReview.reference' | cxTranslate }}
+          </div>
+          <div *ngIf="order?.orderRequestedDate" class="delivery-date">
+            {{ 'checkoutReview.deliveryDate' | cxTranslate }}
+          </div>
+        </div>
+        <div class="additional-details-info">
+          <div *ngIf="order?.customerPONumber" class="reference">
+            {{ order?.customerPONumber }}
+          </div>
+          <div *ngIf="order?.orderRequestedDate" class="delivery-date">
+            {{ formatDate(order?.orderRequestedDate) }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>

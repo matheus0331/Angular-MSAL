@@ -1,0 +1,17 @@
+.status {
+  .icon {
+    font-size: var(--franke-h5-font-size);
+
+    &.success {
+      color: var(--success-color);
+    }
+
+    &.warning {
+      color: var(--warning-color);
+    }
+
+    &.danger {
+      color: var(--danger-color);
+    }
+  }
+}

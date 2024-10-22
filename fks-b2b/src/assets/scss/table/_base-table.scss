@@ -1,0 +1,54 @@
+.franke-base-table {
+  @extend .table;
+  @extend .table-responsive !optional;
+
+  thead {
+    background: var(--accent-color);
+
+    th {
+      padding: 1.5rem 0.75rem;
+      text-align: left;
+      font-size: var(--franke-font-size-base);
+      font-weight: var(--font-weight-base);
+      color: var(--white);
+      text-transform: none;
+    }
+  }
+
+  tbody {
+    border: 1px solid var(--wrapper-border-color);
+  }
+
+  td {
+    font-size: var(--franke-font-size-base);
+  }
+
+  @include media-breakpoint-down(md) {
+    thead {
+      th {
+        font-size: var(--franke-s-font-size);
+      }
+    }
+    td {
+      font-size: var(--franke-s-font-size);
+
+      p {
+        font-size: var(--franke-s-font-size);
+      }
+    }
+  }
+  @include media-breakpoint-up(md) {
+    &.large {
+      thead {
+        th {
+          line-height: 150%;
+          padding: 2.5rem 0;
+        }
+      }
+
+      td {
+        padding: 2.5rem 0;
+      }
+    }
+  }
+}

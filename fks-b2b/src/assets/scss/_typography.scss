@@ -1,0 +1,53 @@
+/**
+  *
+  * This file has variables for typography sizes
+  * It can also be used to override global tags such as seen here with the headings.
+  *
+ **/
+
+@mixin heading {
+  font-style: normal;
+  font-weight: var(--font-weight-base);
+  letter-spacing: 0.01em;
+}
+
+body {
+  font-weight: var(--font-weight-lighter);
+}
+
+h1 {
+  @include heading;
+  font-size: var(--franke-h1-font-size);
+  line-height: 92px;
+}
+
+h2 {
+  @include heading;
+  font-size: var(--franke-h2-font-size);
+  line-height: 73px;
+}
+
+h3 {
+  @include heading;
+  font-size: var(--franke-h3-font-size);
+  line-height: 59px;
+}
+
+h4 {
+  @include heading;
+  font-size: var(--franke-h4-font-size);
+  line-height: 37px;
+}
+
+h5 {
+  @include heading;
+  font-size: var(--franke-h5-font-size);
+  line-height: 30px;
+}
+
+p {
+  font-style: normal;
+  font-weight: var(--font-weight-base);
+  font-size: var(--franke-small-font-size);
+  line-height: 25px;
+}

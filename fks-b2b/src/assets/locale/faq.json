@@ -1,0 +1,1175 @@
+{
+  "loginForm": {
+    "emailAddress": {
+      "placeholder": "Enter email",
+      "label": "Email address"
+    },
+    "password": {
+      "placeholder": "Password",
+      "label": "Password"
+    },
+    "forgotPassword": "Forgot password?",
+    "wrongEmailFormat": "This is not a valid email format.",
+    "guestCheckout": "Guest checkout",
+    "signIn": "Sign in",
+    "register": "Register",
+    "dontHaveAccount": "Don’t have an account?"
+  },
+  "checkoutLogin": {
+    "emailsMustMatch": "Email does not match",
+    "emailAddress": {
+      "label": "Email address",
+      "placeholder": "Enter email"
+    },
+    "continue": "Continue",
+    "emailIsRequired": "Invalid email format",
+    "confirmEmail": {
+      "label": "Confirm email",
+      "placeholder": "Confirm email"
+    }
+  },
+  "anonymousConsents": {
+    "banner": {
+      "viewDetails": "View details",
+      "allowAll": "Allow all",
+      "title": "This website uses cookies",
+      "description": "We use cookies/browsers storage to personalize the content and improve user experience."
+    },
+    "preferences": "Consent preferences",
+    "dialog": {
+      "clearAll": "We use cookies/browsers storage to personalize the content and improve user experience. We also might share the data about your site usage with our social media. For more, please review our privacy policy.",
+      "legalDescription": "We use cookies/browsers storage to personalize the content and improve user experience. We also might share the data about your site usage with our social media. For more, please review our privacy policy.",
+      "title": "We use cookies/browsers storage to personalize the content and improve user experience. We also might share the data about your site usage with our social media. For more, please review our privacy policy.",
+      "selectAll": "We use cookies/browsers storage to personalize the content and improve user experience. We also might share the data about your site usage with our social media. For more, please review our privacy policy."
+    }
+  },
+  "forgottenPassword": {
+    "resetPassword": "Reset password",
+    "passwordResetSuccess": "Success! You can now login using your new password.",
+    "enterEmailAddressAssociatedWithYourAccount": "Enter the email address associated with your account",
+    "emailAddress": {
+      "label": "Email address",
+      "placeholder": "Enter email"
+    },
+    "enterValidEmail": "Please enter a valid email.",
+    "passwordResetEmailSent": "An email has been sent to you with information on how to reset your password."
+  },
+  "register": {
+    "titleRequired": "Title is required",
+    "newPassword": "New password",
+    "confirmThatRead": "I confirm that I have read and agree with",
+    "firstName": {
+      "label": "First name",
+      "placeholder": "First name"
+    },
+    "createAccount": "Create an account",
+    "bothPasswordMustMatch": "Both password must match",
+    "register": "Register",
+    "resetPassword": "Reset password",
+    "postRegisterMessage": "Please log in with provided credentials.",
+    "emailAddress": {
+      "placeholder": "Email address",
+      "label": "Email address"
+    },
+    "title": "Title",
+    "confirmPassword": {
+      "action": "Confirm password",
+      "placeholder": "Confirm password",
+      "label": "Confirm password"
+    },
+    "termsAndConditions": "Terms & Conditions",
+    "lastName": {
+      "label": "Last name",
+      "placeholder": "Last name"
+    },
+    "password": {
+      "placeholder": "Password",
+      "label": "Password"
+    },
+    "emailMarketing": "Use my personal data to receive e-mail newsletters for marketing campaigns. To change your settings, go to Consent Management in My Account.",
+    "managementInMyAccount": "Management in My Account.",
+    "passwordMinRequirements": "Password must be minimum six characters and contain one uppercase letter, one number, one symbol",
+    "confirmNewPassword": "Confirm new password",
+    "signIn": "I already have an account. Sign In",
+    "selectTitle": "Select title"
+  },
+  "searchSupport": {
+    "placeholder": "Search here...",
+    "results": "Results",
+    "manualTitle": "Owner's manual",
+    "manualDownload": "Download Specification",
+    "text": "Search for a FUN number, product code or a product name",
+    "more": "More",
+    "allResults": "All results",
+    "manualDescription": "The most complete document on the configuration and use of the product.",
+    "resultsFor": "Showing results for:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal Questions",
+    "message1": "Hi, I'm Laura. I'm your client agent. How can I help you?",
+    "title": "Personal assistant",
+    "message2": "You can choose from the option below or ask your own question.",
+    "contact": "Contact Franke",
+    "complaint": "Submit a Complaint"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Do you need help with your product or do you have a question?",
+    "title": "Hello, we are here to help"
+  },
+  "contactForm": {
+    "contactType": "Select the contact type",
+    "files": "Upload Images to support your request",
+    "funNumber": "Article Number",
+    "request": "Describe your request",
+    "ticketAddSucess": "Ticket created!",
+    "ticketAddFail": "Error creating ticket, try again!",
+    "subTitle2": "Simply use our contact form!",
+    "generalContactCategories": "Select the category",
+    "deleteFiles": "Delete",
+    "productSubCategories": "Select the sub category",
+    "title": "Further questions?",
+    "subTitle1": "Couldn't find the answer to your question in our FAQs",
+    "productCategories": "Select the product",
+    "orderNumber": "Order Number"
+  },
+  "product": {
+    "id": "Article"
+  },
+  "faq": {
+    "print": "Print this page",
+    "customerServicesQuestions": "Customer Services",
+    "pageTitle": "Frequently Asked Questions",
+    "productQuestionsTitle": "Franke Products",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Orders and Shipment"
+  },
+  "videoTutorial": {
+    "title": "How it works"
+  },
+  "wishlist": {
+    "addToCart": "Add to cart",
+    "empty": "No products on your wish list"
+  },
+  "stockNotification": {
+    "subscriptionDialog": {
+      "manageSubscriptionsLink": "My interests",
+      "notifiedPrefix": "You will be notified on:",
+      "header": "Out-of-stock subscription",
+      "manageChannelsSuffix": "Page.",
+      "manageSubscriptionsSuffix": "Page.",
+      "subscribing": "You can manage your subscriptions at",
+      "manageChannelsLink": "Notification preference",
+      "manageChannelsPrefix": "Manage your preferred notification channels at the",
+      "manageSubscriptionsPrefix": "You can manage your subscriptions at"
+    },
+    "notified": "You will be notified when this product is back in stock.",
+    "getNotifySuffix": "to get notified when this product is available.",
+    "activateChannelsPrefix": "To be notified you need to activate the",
+    "activateChannelsSuffix": ".",
+    "notifyMe": "Notify me",
+    "getNotified": "Receive a notification when this product is back in stock.",
+    "stopNotify": "Stop notifications"
+  },
+  "accordion": {
+    "features": "Features",
+    "remarks": "Remarks",
+    "dimensions": "Dimensions",
+    "productDetails": "Product details"
+  },
+  "productSummary": {
+    "preLaunchBody": "You can pre-order this item for delivery as soon as stock is available",
+    "id": "Article number",
+    "substitutesProducts": "See alternatives",
+    "availabilityCheck": {
+      "noFurtherInfoSingular": "Currently, no further information available for the remaining {{ quantity }} unit",
+      "priceTooltip": "Price shown is excluding VAT",
+      "itemsNotAvailable": "There are {{quantity}} units available on {{ date }}",
+      "itemsAvailableSingular": "There is {{quantity}} unit available on {{ date }}",
+      "itemsNotAvailableSingular": "There is {{quantity}} unit available on {{ date }}",
+      "deliveryDateInfo": "Estimated delivery date, 1 day from date of purchase. For final delivery date please refer to order history section.",
+      "noFurtherInfo": "Currently, no further information available for the remaining {{ quantity }} units",
+      "button": "Check Availability",
+      "errorMessage": "Unable to load the information at the moment, please try again later"
+    },
+    "promotionTooltip": "Final discounted price will be visible in shopping cart",
+    "description": "Description",
+    "showReviews": "Show reviews",
+    "localSalesNumber": "Local ID#",
+    "share": "Share",
+    "referenceNumber": "Reference number",
+    "unrecognizedError": "Oops! We've forgotten something. Please contact our Customer Support team to order this product.",
+    "catalogPrice": "Brochure price"
+  },
+  "productList": {
+    "clearFilters": "Clear filters",
+    "listingPageSubtitle": "Prices shown are RRP ex VAT",
+    "searchResultsTitle": "{{numberOfResults}} results for \"{{query}}\"",
+    "view": "View",
+    "backToTopBtn": "BACK TO TOP",
+    "wishlist": "Favourites",
+    "discontinuedProductsFilter": "Show discontinued products",
+    "pageOf": "Page {{x}} of {{y}}",
+    "articleNumber": "Article {{fun}}",
+    "previous": "Prev",
+    "filterBy": {
+      "action": "Filter by"
+    },
+    "appliedFilter": "Applied filter:",
+    "showMoreBtn": "SHOW MORE",
+    "description": "Description",
+    "notAvailableDescription": "Spare parts and accessories can still be purchased for this product",
+    "sortByRelevance": "Sort by relevance",
+    "cart": "Cart",
+    "showMore": "Show more..."
+  },
+  "productDetails": {
+    "noDetails": "No further details for this product. If you have any question regarding this product, please send us a message via our <u><a class=\"form\" href=\"/client-service\">Contact Us form.</a></u>",
+    "reviews": "Reviews",
+    "shipping": "Shipping",
+    "specification": "Specs",
+    "productDetails": "Product details",
+    "quantity": "Quantity",
+    "id": "ID",
+    "imageDisclaimer": "Image shown for reference only. Please see description and technical drawing for more information",
+    "showReviews": "Show reviews"
+  },
+  "productReview": {
+    "overallRating": "Overall rating",
+    "more": "More",
+    "reviewerName": "Reviewer name (optional)",
+    "rating": "Rating",
+    "writeReview": "Write a review",
+    "writeYourComments": "Write your comments",
+    "less": "Less"
+  },
+  "addToCart": {
+    "selectStyleAndSize": "Select style and size to check stock",
+    "addToCartFailed": "We are currently unable to process your order. Please contact Customer Support for assistance",
+    "itemsAddedToYourCart": "Item(s) added to your cart",
+    "items": "Items",
+    "viewCart": "View cart",
+    "inStock": "Available",
+    "quantity": "Quantity",
+    "addToCartSuccessfully": "Product added to cart successfully"
+  },
+  "TabPanelContainer": {
+    "tabs": {
+      "ProductSpecsTabComponent": "Specs",
+      "ProductDetailsTabComponent": "Product details",
+      "ProductReviewsTabComponent": "Reviews",
+      "deliveryTab": "Shipping"
+    }
+  },
+  "alternativeProducts": {
+    "similarProductRecommendations": "Similar product recommendations",
+    "declaimer": "Note: Some characteristics of the suggested alternative products may not correspond exactly to your request. Please check carefully before proceeding.",
+    "goToProduct": "Go to product",
+    "article": "Article",
+    "showAlternativeProducts": "Show alternative products",
+    "noRecommendations": "There are no recommended alternatives for this selected product."
+  },
+  "addToWishList": {
+    "remove": "Remove from wish list",
+    "addToWishlistSuccessfully": "Product added to favourites successfully",
+    "add": "Add to favourites",
+    "addToWishlistFailed": "Add product to favourites failed! Try again.",
+    "anonymous": "Sign in to add to favourites"
+  },
+  "variant": {
+    "size": "Size",
+    "color": "Color"
+  },
+  "productFacetNavigation": {
+    "appliedFilter": "Applied filter:"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Create an account?",
+    "invoiceHasBeenSentByEmail": "You will receive your order acknowledgement via email",
+    "placedOn": "Placed on",
+    "status": "Status",
+    "frequency": "Frequency",
+    "orderItems": "Order items",
+    "orderPlacedSuccessfully": "Order placed successfully",
+    "nextOrderDate": "Next order date",
+    "confirmationOfOrder": "Order acknowledgement:",
+    "cancelled": "Cancelled",
+    "createAccountForNext": "Create an account for <{{email}}> for a faster checkout on your next visit.",
+    "replenishmentNumber": "Replenishment #",
+    "orderNumber": "Order number",
+    "thankYou": "Thank you for your order!",
+    "active": "Active"
+  },
+  "checkoutPO": {
+    "placeholder": "Enter P.O",
+    "poNumber": "Purchase order number",
+    "availableLabel": "Shipping addresses available to you depend on the cost center's unit",
+    "costCenter": "Cost Centre",
+    "noPoNumber": "None"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Auto replenishment order",
+    "confirmThatRead": "I confirm that I have read and agree to the",
+    "termsAndConditions": "Terms & Conditions",
+    "recurrencePeriodType_WEEKLY": "Week(s)",
+    "poNumber": "Purchase order number",
+    "dayOfMonth": "On day",
+    "every": "Every",
+    "placeOrder": "Place order",
+    "scheduleReplenishmentOrder": "Schedule replenishment order",
+    "recurrencePeriodType_DAILY": "Day(s)",
+    "repeatOnDays": "Repeat on the following days",
+    "funNumber": "Article: {{fun}}",
+    "editShippingAddress": "Edit delivery  address",
+    "startOn": "Start on",
+    "additionalDetailsTitle": "Additional order details",
+    "deliveryAddressTitle": "Delivery address",
+    "orderType_PLACE_ORDER": "None (one time order only)",
+    "invoiceAddressTitle": "Billing address",
+    "recurrencePeriodType_MONTHLY": "Month",
+    "requestedDate": "Requested date:",
+    "orderType": "Order type:",
+    "checkoutError": "Error occurred. Please contact customer support",
+    "itemsTitle": "Items to be delivered",
+    "additionalReference": "Additional reference:",
+    "orderItems": "Order iItems",
+    "quantity": "Quantity: {{count}}",
+    "reference": "Reference",
+    "orderNumber": "Order number:",
+    "review": "Review",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Replenishment order",
+    "deliveryDate": "Requested delivery date:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Delivery address",
+    "reviewOrder": "Review order",
+    "paymentDetails": "Payment details",
+    "billingTask": "Selected billing address",
+    "billingAddress": "Billing address",
+    "methodOfPayment": "Payment method",
+    "deliveryMode": "Delivery method",
+    "reviewTask": "Please review your order in the summary section",
+    "shippingTask": "Selected delivery address",
+    "invoicePayment": "Invoice payment"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Default invoice address",
+    "enteredAddress": "Entered address",
+    "selectYourInvoiceAddress": "Select your invoice address",
+    "verifyYourAddress": "Verify your address",
+    "invoiceAddress": "Invoice address",
+    "editAddress": "Edit address",
+    "chooseAddressToUse": "Please choose which address you would like to use:",
+    "shipToThisAddress": "Deliver to this address",
+    "saveAddress": "Save address",
+    "addNewAddress": "Add a new address",
+    "defaultShippingAddress": "Default delivery address",
+    "selectInvoiceAddress": "Select this address",
+    "selectYourBillingAddress": "Select your billing address",
+    "suggestedAddress": "Suggested address",
+    "billingAddress": "Billing address",
+    "selectYourShippingAddress": "Select your delivery address",
+    "shippingAddress": "Delivery address",
+    "ensureAccuracySuggestChange": "To ensure delivery accuracy, we suggest the change selected below."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Standard delivery",
+    "shippingMethod": "Shipping method",
+    "premiumDelivery": "Premium delivery"
+  },
+  "checkout": {
+    "back": "Back",
+    "invalid": {
+      "accountType": "Your account does not allow you to checkout here."
+    },
+    "backToCart": "Back to cart",
+    "continue": "Continue"
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "You can have up to a maximum of 4 addresses.",
+    "updateAddress": "Update address",
+    "editShippingAddress": "Edit delivery address",
+    "deliveryAddressTitle": "Delivery address",
+    "addNewShippingAddress": "Add a new delivery address",
+    "addAddress": "Add an address",
+    "billingAddressTitle": "Billing address",
+    "addNewAddress": "Add a new address",
+    "backToAddressList": "Back to address list",
+    "areYouSureToDeleteAddress": "Are you sure you want to delete this address?"
+  },
+  "addressCard": {
+    "shipTo": "Ship To",
+    "setAsDefault": "Set as default",
+    "billTo": "Bill to",
+    "selected": "Selected",
+    "default": "DEFAULT"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Last name",
+      "placeholder": "Last name"
+    },
+    "aptSuite": "Apt, Suite",
+    "saveAsDefault": "Save as default",
+    "firstName": {
+      "label": "First name",
+      "placeholder": "First name"
+    },
+    "zipCode": {
+      "placeholder": "Postcode",
+      "label": "Postcode"
+    },
+    "address1": "Address 1",
+    "setAsDefault": "Set as default",
+    "title": "Title",
+    "userAddressDeleteSuccess": "Address deleted successfully!",
+    "userAddressAddSuccess": "New address was added successfully!",
+    "city": {
+      "placeholder": "City",
+      "label": "City"
+    },
+    "invalidAddress": "Invalid address",
+    "chooseAddress": "Choose address",
+    "phoneNumber": {
+      "placeholder": "(555) 555 - 0123",
+      "label": "Phone number (optional)"
+    },
+    "titleRequired": "Title is required.",
+    "state": "County",
+    "address2": "Address 2 (optional)",
+    "selectOne": "Select one...",
+    "country": "Country",
+    "streetAddress": "Street",
+    "userAddressUpdateSuccess": "Address updated successfully!"
+  },
+  "searchBox": {
+    "resultsFor": "Showing results for:",
+    "help": {
+      "empty": "Type in your query",
+      "insufficientChars": "Please type more characters",
+      "noMatch": "We could not find any results",
+      "exactMatch": "{{ term }}"
+    },
+    "searchBarMobileText": "Search for products",
+    "more": "More",
+    "results": "Results",
+    "searchBarText": "Search for products, colour, material"
+  },
+  "pageMetaResolver": {
+    "product": {
+      "title": "{{title}}",
+      "heading": "{{heading}}",
+      "description": "{{description}}"
+    },
+    "checkout": {
+      "title": "Checkout {{count}} item"
+    },
+    "search": {
+      "findProductTitle_plural": "{{count}} results for promo codes \"{{coupon}}\"",
+      "title": "{{count}} result for \"{{query}}\"",
+      "title_plural": "{{count}} results for \"{{query}}\"",
+      "findProductTitle": "{{count}} result for promo code \"{{coupon}}\""
+    },
+    "category": {
+      "title_plural": "{{count}} results for {{query}}",
+      "title": "{{count}} result for {{query}}"
+    }
+  },
+  "breadcrumbs": {
+    "dashboardPage": {
+      "dashboardPageTitle": "Dashboard"
+    },
+    "checkoutPageTitle": "Checkout",
+    "orderConfirmationPageTitle": "Order confirmation",
+    "addressBookPageTitle": "Address book",
+    "listingPage": {
+      "listingPageSubTitle": "Prices shown are brochure prices"
+    },
+    "orderHistoryPageTitle": "Order history",
+    "profilePageTitle": "My account",
+    "privacyPageTitle": "Privacy and Cookie Policy",
+    "imprintPageTitle": "Imprint",
+    "bundlesPageTitle": "Packs",
+    "outletPageTitle": "Outlets",
+    "shoppingCartPageTitle": "Your basket",
+    "wishlistPageTitle": "Favourites"
+  },
+  "common": {
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "connected": "Connected",
+    "noData": "No data",
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "remove": "Remove",
+    "offline": "Offline",
+    "home": "Home",
+    "submit": "Submit",
+    "done": "Done",
+    "other": "Other"
+  },
+  "httpHandlers": {
+    "sessionExpired": "Your session has expired. Please login again.",
+    "validationErrors": {
+      "missing": {
+        "card_cardType": "The selected credit card is not supported. Please select another.",
+        "billTo_street1": "The address entered is not valid.",
+        "billTo_state": "The state/province entered is not valid for this credit card.",
+        "billTo_firstName": "The first name entered is not valid.",
+        "billTo_street2": "The address entered is not valid.",
+        "card_expirationYear": "The credit card expiry date entered is not valid.",
+        "billTo_city": "The city entered is not valid for this credit card.",
+        "card_cvNumber": "The security code entered is not valid.",
+        "billTo_country": "The country entered is not valid for this credit card.",
+        "card_expirationMonth": "The credit card expiry date entered is not valid.",
+        "card_accountNumber": "The credit card number entered is not valid.",
+        "billTo_lastName": "The surname entered is not valid."
+      },
+      "invalid": {
+        "code": "Code is not valid.",
+        "uid": "UID is not valid.",
+        "firstName": "First name entered is not valid.",
+        "password": "Password entered is not valid.",
+        "card_expirationMonth": "The credit card expiry date entered is not valid."
+      }
+    },
+    "cartNotFound": "Cart not found.",
+    "conflict": "Already exists",
+    "unauthorized": {
+      "invalid_client": "Invalid client credentials",
+      "common": "An unknown authorization error occured"
+    },
+    "badGateway": "A server error occurred. Please try again later.",
+    "unknownError": "An unknown error occurred",
+    "gatewayTimeout": "The server did not respond, please try again later.",
+    "badRequestPleaseLoginAgain": "{{ errorMessage }}. Please login again.",
+    "forbidden": "You are not authorized to perform this action. Please contact your administrator.",
+    "badRequestOldPasswordIncorrect": "Old password incorrect."
+  },
+  "navigation": {
+    "shopAll": "Shop all {{ navNode}} >"
+  },
+  "carousel": {
+    "button": "Browse all"
+  },
+  "formErrors": {
+    "cxInvalidPassword": "This is not a valid password format",
+    "date": {
+      "invalid": "Please use a valid date",
+      "required": "This field is required",
+      "max": "Date cannot be after {{max}}",
+      "min": "Date cannot be before {{min}}",
+      "pattern": "Use date format yyyy-mm-dd"
+    },
+    "globalMessage": "The form you are trying to submit contains errors.",
+    "cxInvalidEmail": "This is not a valid email format",
+    "cxNoSelectedItemToCancel": "Select at least one item",
+    "cxEmailsMustMatch": "Email fields must match",
+    "cxPasswordsMustMatch": "Passwords must match",
+    "cxNegativeAmount": "Amount must be equal to or greater than zero"
+  },
+  "errorHandlers": {
+    "refreshThePage": "Please refresh the page."
+  },
+  "skipLink": {
+    "labels": {
+      "footer": "Footer",
+      "productList": "Product list",
+      "header": "Header",
+      "productFacets": "Product portfolio"
+    },
+    "skipTo": "Skip to"
+  },
+  "miniCart": {
+    "count": "{{count}}",
+    "total": "{{total}}",
+    "item": "{{count}} item currently in your cart"
+  },
+  "miniLogin": {
+    "signInRegister": "Sign In / Register",
+    "userGreeting": "Hi, {{name}}"
+  },
+  "sorting": {
+    "rma": "Return number"
+  },
+  "menu": {
+    "orders": "Order History",
+    "addressBook": "Address book",
+    "profile": "Profile",
+    "email": "Email",
+    "signOut": "Sign out",
+    "password": "Password"
+  },
+  "orderDetails": {
+    "tracking": {
+      "noTrackingNumber": "No Tracking Available",
+      "trackingNumber": "Tracking Number",
+      "itemStatus": {
+        "pickedUp": "Picked up",
+        "partiallyPickedUp": "Partially picked up",
+        "delivered": "Delivered"
+      },
+      "quantity": "Quantity",
+      "deliveryStatus": {
+        "inProcess": "In Process"
+      }
+    },
+    "consignmentTracking": {
+      "dialog": {
+        "carrier": "Delivery service",
+        "header": "Tracking information",
+        "shipped": "Shipped",
+        "trackingId": "Tracking number"
+      },
+      "action": "Track order"
+    },
+    "purchaseOrderId": "Purchase Order #",
+    "unit": "Unit",
+    "deliveryStatus_READY_FOR_PICKUP": "Ready for pickup",
+    "statusE": "Shipped",
+    "cancellationAndReturn": {
+      "item": "Item",
+      "itemPrice": "Item price",
+      "cancelAction": "Cancel items"
+    },
+    "statusDisplay_open": "Open",
+    "deliveryStatus_READY": "In process",
+    "funColumn": "Article",
+    "invoices": "Invoices",
+    "cancelReplenishment": {
+      "description": "Cancel any future replenishment order?",
+      "title": "Cancel replenishment"
+    },
+    "deliveryStatus_DELIVERING": "Dispatched",
+    "statusF": "Delivered",
+    "status": "Status",
+    "costCenterAndUnit": "Cost Center / Unit",
+    "placedBy": "Placed by",
+    "deliveryStatus_PICKUP_COMPLETE": "Pickup complete",
+    "brandColumn": "Brand",
+    "orderId": "Order #",
+    "deliveryStatus_DELIVERY_REJECTED": "Delivery rejected",
+    "alternativeProducts": {
+      "replaceAction": "Replace order item",
+      "areYouSure": "Are you sure you want to replace this order item?"
+    },
+    "notAvailableOnRequestDate": "No availability for the requested date",
+    "statusDisplay_cancelling": "Cancel pending",
+    "costCenterAndUnitValue": "{{costCenterName}} / {{unitName}}",
+    "deliveryStatus_PICKPACK": "Preparing for shipping",
+    "statusDisplay_cancelled": "Cancelled",
+    "statusDisplay_merchant": {
+      "approved": "Merchant approved"
+    },
+    "descriptionColumn": "Description",
+    "statusDisplay_approved": "Approved",
+    "statusCC": "Completed",
+    "statusDisplay_error": "Pending",
+    "statusColumn": "Status",
+    "costCenter": "Cost Center",
+    "shippedOn": "Shipped on"
+  },
+  "orderHistory": {
+    "purchaseOrderNumberColumn": "Purchase order number",
+    "sortByMostRecent": "Sort by most recent",
+    "statusPlaceholder": "Status",
+    "noOrdersFilter": "No matches found.",
+    "deliveryDateColumn": "Expected delivery date",
+    "past12months": "12 Months",
+    "startShopping": "Start shopping",
+    "date": "Date",
+    "orderChannelColumn": "Channel",
+    "orderNumberFilter": "Order number:",
+    "noOrders": "We have no orders for this account.",
+    "frequency": "Frequency",
+    "noReplenishmentOrders": "We have no replenishment order records for this account.",
+    "startOn": "Start on",
+    "nextOrderDate": "Next order date",
+    "invoice": "Invoice",
+    "lastOrders": "Showing orders for the past:",
+    "cancel": "Cancel",
+    "statusF": "Delivered",
+    "status": "Status",
+    "statusB": "Order Confirmed",
+    "orderStatusFilter": "Status:",
+    "orderReferencePlaceholder": "Reference",
+    "emptyPurchaseOrderId": "None",
+    "statusCC": "Completed",
+    "pageOfPages": "Page {{page}} of {{pageCount}}",
+    "statusBB": "Confirmed",
+    "previousPage": "Prev"
+  },
+  "returnRequest": {
+    "cancelSuccess": "Your return request ({{rma}}) was cancelled",
+    "deliveryCode": "Delivery cost",
+    "itemPrice": "Item price",
+    "subtotal": "Subtotal",
+    "cancel": "Cancel return request",
+    "returnQty": "Return quantity",
+    "estimatedRefund": "Estimated refund",
+    "summary": "Return totals",
+    "total": "Total"
+  },
+  "returnRequestList": {
+    "status": "Status",
+    "statusDisplay_COMPLETED": "Completed",
+    "statusDisplay_RECEIVING": "Receiving",
+    "statusDisplay_TAX_REVERSAL_FAILED": "Tax reversal failed",
+    "statusDisplay_APPROVAL_PENDING": "Approval pending",
+    "orderId": "Order #",
+    "statusDisplay_PAYMENT_REVERSAL_FAILED": "Payment reversal failed",
+    "date": "Date created",
+    "sortByMostRecent": "Sort by most recent",
+    "statusDisplay_APPROVING": "Approving",
+    "statusDisplay_CANCELLING": "Cancelling",
+    "statusDisplay_WAIT": "Wait",
+    "statusDisplay_PAYMENT_REVERSED": "Payment reversed",
+    "statusDisplay_RECEIVED": "Received"
+  },
+  "orderInvoices": {
+    "orderType": {
+      "value": "{{ orderTypeValue }}"
+    },
+    "invoiceNumberColumn": "Invoice Number",
+    "amountColumn": "Amount",
+    "referenceColumn": "Reference",
+    "purchaseOrderColumn": "Purchase Order",
+    "nameColumn": "Name",
+    "pdfColumn": "PDF"
+  },
+  "notificationCenter": {
+    "orderNumber": "Order {{orderNumber}}",
+    "noNotifications": "Currently there are no notifications",
+    "backInStockNotificationMessage": "The product is back in stock",
+    "notificationMessage": "The delivery date of one or more items of your order has changed.",
+    "productNumber": "Product {{productCode}}"
+  },
+  "dashboard": {
+    "ticketHistoryCreatedBy": "Created by: {{name}}",
+    "invoiceAddressesTitle": "Invoice Addresses",
+    "noStatistics": "No statistics at the moment",
+    "openReturns": "Open Returns",
+    "ticketHistoryStatusCompleted": "Completed",
+    "ticketHistoryTitle": "Ticket History",
+    "deliveryAddressesTitle": "Delivery Addresses",
+    "analyticsTab": "Analytics",
+    "openOrders": "Open Orders",
+    "ticketHistoryStatusOpen": "Open",
+    "netTurnover": "Net turnover",
+    "ticketHistoryLastUpdate": "Last update: {{date}}",
+    "ticketHistoryLastUpdateBy": "Last update by: {{name}}",
+    "turnoverLastYear": "Last year turnover"
+  },
+  "myInterests": {
+    "sortByMostRecent": "Sort by most recent",
+    "lowStock": "Low stock",
+    "header": "My interests",
+    "expirationDate": "Valid until {{ expirationDate }}",
+    "sorting": {
+      "byNameDesc": "Name (descending)",
+      "byNameAsc": "Name (ascending)"
+    },
+    "noInterests": "You have no registered interests yet.",
+    "notifications": "Notifications",
+    "outOfStock": "Not available",
+    "BACK_IN_STOCK": "Back in stock",
+    "price": "Price"
+  },
+  "updateProfileForm": {
+    "parentCompany": "Parent company",
+    "lastName": {
+      "placeholder": "Surname"
+    },
+    "none": "none",
+    "firstName": {
+      "label": "First name",
+      "placeholder": "First name"
+    },
+    "lastNameIsRequired": "Surname is required",
+    "title": "title",
+    "email": "Your email",
+    "profileUpdateSuccess": "Personal details successfully updated",
+    "customerNumber": "Customer number",
+    "customerId": "Customer #",
+    "firstNameIsRequired": "First name is required"
+  },
+  "closeAccount": {
+    "confirmAccountClosureMessage": "Are you sure you want to close your account?",
+    "accountClosedFailure": "Failed to close account"
+  },
+  "updateEmailForm": {
+    "password": {
+      "placeholder": "Enter password",
+      "label": "Password"
+    },
+    "enterValidEmail": "Please enter a valid email",
+    "emailUpdateSuccess": "Accepted. Please sign in with {{ newUid }}",
+    "confirmNewEmailAddress": {
+      "label": "Confirm new email address"
+    },
+    "newEmailAddress": {
+      "placeholder": "Enter email"
+    }
+  },
+  "consentManagementForm": {
+    "clearAll": "Clear all",
+    "message": {
+      "success": {
+        "withdrawn": "Consent successfully withdrawn."
+      }
+    },
+    "selectAll": "Select all"
+  },
+  "updatePasswordForm": {
+    "oldPassword": {
+      "label": "Old password"
+    },
+    "oldPasswordIsRequired": "Old password is required.",
+    "passwordUpdateSuccess": "Password updated successfully",
+    "newPassword": {
+      "label": "New password",
+      "placeholder": "New password"
+    },
+    "confirmPassword": {
+      "placeholder": "Confirm password"
+    }
+  },
+  "myCoupons": {
+    "endDateAsc": "End date (ascending)",
+    "sortByMostRecent": "Sort by most recent",
+    "startDateDesc": "Start date (descending)",
+    "status": "Status:",
+    "notesSuffix": "page.",
+    "findProducts": "Find products",
+    "effectiveTitle": "Effective:",
+    "ExpireSoon": "EXPIRING SOON",
+    "PreSession": "EFFECTIVE SOON (Valid from ....)?",
+    "startDateAsc": "Start date (ascending)",
+    "claimCustomerCoupon": "You have successfully redeemed this promo code.",
+    "notesPreffix": "You can set your preferred channels for receiving promo notifications on the .......",
+    "dialogTitle": "Promo code"
+  },
+  "notificationPreference": {
+    "SITE_MESSAGE": "SiteMessage",
+    "noteMessage": "If you deactivate all channels you will not be able to receive any further notifications."
+  },
+  "AccountOrderHistoryTabContainer": {
+    "tabs": {
+      "AccountOrderHistoryComponent": "All orders ({{param}})",
+      "OrderReturnRequestListComponent": "Returns ({{param}})"
+    }
+  },
+  "productQuestions": {
+    "hoods": {
+      "questions": {
+        "1": {
+          "question": "I have an LED flashing. Do I need to call for help?"
+        },
+        "2": {
+          "answer": "Check if the installation was carried out according to the steps described in the instructions of the hood or ask the installer to check this. If the installation was done properly and the sound actually comes from the product, you should contact the authorized technical customer service."
+        },
+        "5": {
+          "answer": "In the manual you will find all the information necessary for correct installation. You can also contact one of our technical customer service centers, which are available for all questions with words and deeds. (Please note that a possible use of the technical customer service is chargeable.)",
+          "question": "Who can I contact if I have problems with the installation?"
+        },
+        "6": {
+          "question": "How can I reduce the noise level of the hood if it is too high?"
+        },
+        "7": {
+          "question": "What is the best way to install a cooker hood?"
+        },
+        "8": {
+          "answer": "Most models can be installed in either mode, however the best method is that the hood is ducted out of an exterior wall, since it is the most effective, safest and quietest solution."
+        },
+        "9": {
+          "question": "How do I determine which model of hood it is?"
+        },
+        "10": {
+          "question": "Why does the technical customer service not deal with aesthetic defects?"
+        },
+        "11": {
+          "question": "What is the best way to clean a cooker hood?",
+          "answer": "Simply use a soft cloth and a neutral, chlorine-free detergent such as Franke Cooker Hood Cleaner. Thanks to its professional formulation, Franke Kitchen Care cooker hood cleaner effectively eliminates grease deposits and odours from your cooker hood, ensuring perfect cleanliness inside and out. You can purchase this product [here](https://www.central-servicesuk.co.uk/new/care-and-repair/cooker-hood-cleaner-250-ml)."
+        },
+        "12": {
+          "question": "What is the purpose of the filters? How often do I need to replace them?"
+        },
+        "13": {
+          "answer": "A pipe diameter of 150 mm. This diameter is ideal for hoods with an extraction capacity of 300 cubic meters per hour and more. If it is not possible to install such a line, a 120 mm diameter line is recommended. Pipes with smaller diameter have a negative impact on the flow and noise level of the hood. Ducting can be purchased on this portal."
+        }
+      }
+    },
+    "equipment": {
+      "questions": {
+        "2": {
+          "answer": ""
+        },
+        "3": {
+          "question": "",
+          "answer": ""
+        },
+        "4": {
+          "question": ""
+        },
+        "5": {
+          "question": ""
+        },
+        "6": {
+          "answer": "",
+          "question": ""
+        },
+        "7": {
+          "question": ""
+        }
+      }
+    },
+    "sinks": {
+      "questions": {
+        "2": {
+          "answer": "Generally you will need to purchase a Siphon I, II or III part plumbing kit (depending on the number of sink bowls) when ordering your sink with your retailer. For more information on Franke Siphon Plumbing Kits [click here](https://www.franke.com/gb/en/hs/expertise/special-features/details-that-make-the-difference.html)."
+        },
+        "3": {
+          "answer": "Yes. Any sink that has a 3 1/2“ waste (90mm) is capable of having a waste disposal unit connected. For Franke ceramic sinks an Extended Flange is available for Continuous Feed models. If your sink has an overflow you may need to purchase a WDU Overflow Converter, available from our [service agents](https://www.central-servicesuk.co.uk/new/wdu-overflow-connector).\nYou can view videos on Franke Waste Disposal Units on our [YouTube/UKFranke](http://www.youtube.com/UKFranke) channel."
+        },
+        "4": {
+          "question": "How do I clean the overflow?"
+        },
+        "5": {
+          "question": "How do I apply earthing to a Franke sink?",
+          "answer": "Despite any regulatory enforcement, in common with many sink manufacturers Franke make provision for a mechanical bond to be made to inset sink models. This is often done by utilising one of the cut-out points for the clips along the length of the clip rail. In the case of sliding clips Franke make a hole at the end of the clip rail length where the bond can be accommodated."
+        },
+        "7": {
+          "question": "I am thinking of installing an inset stainless steel sink into a solid surface worktop, is there anything I need to consider?"
+        },
+        "8": {
+          "answer": "Franke sinks come with a 50 year guarantee against manufacturing defect. \nFor more information on Franke Guarantees [click here](https://www.franke.com/gb/en/hs/support/after-sales-service/guarantees-page.html). \nTo enable us to process a guarantee claim, please ensure you provide us with the following information to avoid any unnecessary delay:\n- Full Contact Name, Address and Telephone Number\n- Proof of Purchase (please attach to email)\n- Photographs showing full product and detail shots showing problem\nPlease complete the relevant form with this information [here](https://www.franke.com/gb/en/ks/support/customer-service.html)."
+        },
+        "9": {
+          "question": "Should I use a plastic washing up bowl with my Franke sink?"
+        },
+        "11": {
+          "question": "",
+          "answer": ""
+        },
+        "12": {
+          "answer": "No. Stainless Steel will always scratch (whether it be of Franke's manufacture or competitor) and because of the directional polishing marks on many Franke models the scratching will show up quite dramatically initially. However, with use and cleaning using a proprietary cleaner such as Franke Stainless Steel Cleaner which you can purchase [here](https://www.central-servicesuk.co.uk/new/care-and-repair/stainless-steel-sink-cleaner-200-ml)) the stainless steel will eventually build up a patina over the years and the scratching marks will not be as evident. For more information on cleaning Stainless Steel sinks please [click here](https://www.franke.com/gb/en/hs/expertise/how-to-clean-kitchen-sink.html)."
+        },
+        "14": {
+          "question": "How can I remove 'rust spots' from my new stainless steel sink?"
+        },
+        "15": {
+          "question": "How do I best clean my Stainless Steel sink?"
+        },
+        "16": {
+          "answer": "As a general guide, cut inside the overall frame dimension (by inverting the sink on the worktop) by 8mm all round and always use a 20mm (important!) radius at the corners. Cut out sizes are shown on the specification sheet for each sink. If a template is provided, please use that.",
+          "question": "How do I find out what cut-out dimensions are necessary for my Franke stainless steel sink?"
+        },
+        "17": {
+          "answer": "",
+          "question": ""
+        },
+        "20": {
+          "question": "How do I knock out a taphole in a Fragranite inset sink?",
+          "answer": "OPTION 1\nIf you have a coloured dot on the front face of the sink, knock out the taphole as follows: \n- Ensure colour sticker is in centre of pre-formed taphole.\n- Take sink out of box and rest the sink vertically against your legs with the face of the sink facing outwards and ensuring the taphole is for the correct hand drainer (take care not to damage the edge of the sink in the process).\n- Take a centre punch and place on the centre of the colour sticker.\n- Strike the punch hard with a hammer - this will result in the core of the tap hole being knocked out.\n- Finish off using the ball of the hammer and using a round file.\nOPTION 2\nIf there is NO coloured dot on the front face of the sink, use the hole drill bit provided (FUN 112.0473.656) which is stuck to the back of the drainer next to the sink bowl. Drill out the taphole FROM THE BACK OF THE SINK."
+        },
+        "21": {
+          "answer": "For day-to-day care, all you need is water and a damp cloth such as a Franke Microfiber Cloth. A fast and easy way to remove water marks, grease or soap scum deposits, is with Franke Coloured Sink Cleaner, or with a proprietary bathroom cleaner such as Ajax or Flash liquid spray, or similar products found in your supermarket. Franke cleaning products can be purchased [here](https://www.central-servicesuk.co.uk/new/care-and-repair)."
+        },
+        "22": {
+          "answer": "Only drill Tap hole FROM TOP FACE\n1\\. Decide on the pre- punched tap holes you require.\n2\\. Measure to find the centre of the pre- punched tap hole required and cover the area with masking tape.\n3\\. Using a centre punch, crack the glaze in the centre of the required hole.\n4\\. Using a No. 8 masonry drill, carefully drill a small pilot hole from the top. NB. Only drill one small hole\n5\\. You can then proceed to enlarge the hole to the required size by carefully using your hammer with the centrepunch.",
+          "question": "How do I knock out a taphole in a Ceramic inset sink?"
+        },
+        "23": {
+          "question": "How do I best clean my Tectonite Sink?"
+        },
+        "24": {
+          "answer": "- Tectonite is a combination of three elements:\n- SMC (Sheet Moulding Compound) a glass fibre, polyester based, carrier material;\n- Chemically fused 3rd Generation PiMC (Powder In Mould Coating) which gives the sink its colour, heat-, scratch- and wear and tear resistance;\n- Unique texture which gives the sink its granite look.\n- The sink is made by hot compression moulding with hydraulic presses.",
+          "question": "What is Tectonite?"
+        }
+      }
+    },
+    "hobs": {
+      "questions": {
+        "1": {
+          "question": "Where can I buy spare parts for my hob?"
+        },
+        "2": {
+          "answer": "For in guarantee and out of guarantee repairs please contact our service agents.",
+          "question": "I have a problem with my Franke hob, how can I get it repaired?"
+        },
+        "3": {
+          "answer": ""
+        },
+        "4": {
+          "question": ""
+        },
+        "5": {
+          "question": ""
+        },
+        "7": {
+          "question": ""
+        },
+        "14": {
+          "answer": "We advise you to clean your hob when the surface is still warm and the residual heat indicator lamps are off. Firstly, use a scraper to remove any food residue, taking care not to scratch the surface of the glass; then rinse with water and dry well with a clean cloth. We then recommend the use of Franke Hob Cleaner which can be purchased [here](https://www.central-servicesuk.co.uk/new/care-and-repair/hob-cleaner-250-ml), this product effectively removes dirt and burnt-on food from your hob, ensuring thorough cleanliness and care.",
+          "question": "What is the best way to clean the surface of an induction hob?"
+        },
+        "17": {
+          "answer": "It is normal for the hob to produce humming sounds when boiling or cooking. Different types of cookware may produce slight sounds such as buzzes or hums. Lighter weight stainless steel pans produce more noise than heavier pans, like enameled cast iron."
+        }
+      }
+    },
+    "fittings": {
+      "questions": {
+        "1": {
+          "answer": "Modern kitchen taps, regardless of material and design, will last a very long time if properly cared for. Do not clean taps with scouring agents or other aggressive cleaners. A soft cloth moistened with warm water is usually completely sufficient. Solid stainless steel is usually the most resistant."
+        },
+        "2": {
+          "question": ""
+        }
+      }
+    }
+  },
+  "customerServicesQuestions": {
+    "customerService": {
+      "category": "Customer Service",
+      "questions": {
+        "2": {
+          "answer": "From 16th May 2022, due to the current volatility in certain commodities markets, a surcharge has been added to the products listed below: \n</br></br> \n<table class='table'>\n\t<tr>\n\t\t<th>Category</th>\n\t\t<th>% surcharge</th>\n\t</tr>\n\t<tr>\n\t\t<td>Stainless steel sinks</td>\n\t\t<td>12%</td>\n\t</tr>\n\t<tr>\n\t\t<td>Granite sinks</td>\n\t\t<td>4%</td>\n\t</tr>\n\t\t<tr>\n\t\t\t<td>Taps (excluding boiling water systems)</td>\n\t\t\t<td>10%</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Hob extractors</td>\n\t\t\t<td>7%</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Hoods</td>\n\t\t\t<td>7%</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Accessories</td>\n\t\t\t<td>7%</td>\n\t\t</tr>\n</table>"
+        }
+      }
+    },
+    "complaints": {
+      "questions": {
+        "1": {
+          "question": "How do I submit a complaint?",
+          "answer": "To submit a complaint please go to our Customer Service and fill the <u><a class=\"form\" href=\"/client-service\">Complaint form.</a></u>"
+        },
+        "4": {
+          "answer": "Please send us a message via our <u><a class=\"form\" href=\"/client-service\">Contact Us form.</a></u>"
+        }
+      },
+      "category": "Complaints"
+    }
+  },
+  "portalQuestions": {
+    "spareParts": {
+      "questions": {
+        "2": {
+          "question": "How do I find the right spare part for my product?"
+        },
+        "3": {
+          "answer": "If you can't find or select the part you require, it's because the item is unavailable. Please contact our Customer Service team via the <u><a class=\"form\" href=\"/client-service\">Contact Us form.</a></u>"
+        },
+        "4": {
+          "answer": "Please send us a message via our <u><a class=\"form\" href=\"/client-service\">Contact Us form.</a></u>",
+          "question": "I have another question. Who do I contact?"
+        }
+      }
+    },
+    "products": {
+      "questions": {
+        "1": {
+          "question": "Are all the products in the current brochure available on the Franke Partner Portal?",
+          "answer": "Yes. All products found in the current brochure are available on the Franke Partner Portal."
+        },
+        "2": {
+          "answer": "Yes. We show discontinued products so that you can still have access to their accessories or download their specific documentation.",
+          "question": "Can I see discontinued products on the Franke Partner Portal?"
+        },
+        "3": {
+          "answer": "You can search a product by directly entering the product FUN or by typing the name, colour, material or any other characteristic of the product. The search function will also help you by suggesting products that match the keywords entered.",
+          "question": "How does the product search work?"
+        },
+        "5": {
+          "answer": "You will find all product-related information on the product detail page."
+        },
+        "6": {
+          "answer": "Please send us a message via our <u><a class=\"form\" href=\"/client-service\">Contact Us form.</a></u>",
+          "question": "Where do I request a quote for projects or bigger volumes?"
+        },
+        "7": {
+          "answer": "Please send us a message via our <u><a class=\"form\" href=\"/client-service\">Contact Us form.</a></u>"
+        }
+      }
+    },
+    "userAccount": {
+      "questions": {
+        "2": {
+          "answer": "In order to change personal details, you need to contact our Customer Service team by completing the <u><a class=\"form\" href=\"/client-service\">Contact Us form.</a></u>"
+        },
+        "3": {
+          "answer": "Your personal information will be kept strictly confidential and will not be sold, reused, rented, shared or otherwise disclosed to third parties. Please also see our <u><a href=\"/privacy\">privacy policy.</a></u>"
+        },
+        "4": {
+          "answer": "In order to delete your account, you need to contact our Customer Service team by completing the <u><a class=\"form\" href=\"/client-service\">Contact Us form.</a></u>"
+        },
+        "5": {
+          "answer": "You can view the privacy statement <u><a href=\"/privacy\">here.</a></u>"
+        }
+      }
+    },
+    "guarantee": {
+      "questions": {
+        "1": {
+          "answer": "The warranty terms are the same for all ordering channels. Please also check the <u><a href=\"/terms\">Terms & Conditions</a></u> for detailed information on warranty terms."
+        },
+        "2": {
+          "answer": "Please send us a message via our <u><a class=\"form\" href=\"/client-service\">Contact Us form.</a></u>"
+        }
+      },
+      "category": "Warranty"
+    }
+  },
+  "ordersAndShipmentQuestions": {
+    "order": {
+      "questions": {
+        "1": {
+          "question": "How can I see whether a product is available on stock or not?"
+        },
+        "2": {
+          "answer": "You can order a product once its availability has been checked for the date you requested."
+        },
+        "3": {
+          "answer": "Full history of orders as well as invoices can be accessed from the <u><a href=\"/my-account/orders\">Orders</a></u> menu."
+        }
+      },
+      "category": "Order"
+    },
+    "returns": {
+      "questions": {
+        "1": {
+          "question": "Can I return goods from the Franke B2B Portal?"
+        },
+        "2": {
+          "answer": "Please  check the <u><a href=\"/terms\">Terms & Conditions</a></u> for detailed information on returns."
+        },
+        "3": {
+          "question": "My (part of my) order is damaged/DOA. What should I do?"
+        },
+        "4": {
+          "question": "I have another question. Who can I contact?",
+          "answer": "Please send us a message via our <u><a class=\"form\" href=\"/client-service\">Contact Us form.</a></u>"
+        }
+      },
+      "category": "Returns"
+    },
+    "shipment": {
+      "questions": {
+        "2": {
+          "answer": "At the moment, we only allow for standard delivery. More delivery options will follow."
+        },
+        "4": {
+          "question": "Does the Franke Partner Portal offer international delivery?"
+        },
+        "5": {
+          "answer": "To check the status of any order, just go to the <u><a href=\"/my-account/orders\">Orders</a></u>  menu. There you will find an overview of all orders, and you can check the status of any order."
+        },
+        "6": {
+          "answer": "No. When you place an order, you need to select a Delivery Address, and goods will be delivered there. You can add up to four different delivery addresses in your Address Book."
+        }
+      }
+    }
+  }
+}

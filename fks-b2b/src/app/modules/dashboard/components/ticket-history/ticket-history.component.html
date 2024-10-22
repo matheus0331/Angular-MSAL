@@ -1,0 +1,63 @@
+<div class="ticket-history">
+  <div class="title">{{ 'dashboard.ticketHistoryTitle' | cxTranslate }}</div>
+  <hr class="separator"/>
+
+  <div *ngIf="(hasTicketHistory$ | async) && ticketHistory?.results?.length > 0 && ticketHistory; else noTicketHistory">
+    <div class="tickets-wrapper">
+      <ng-container *ngFor="let ticket of ticketHistory.results">
+        <div class="ticket">
+          <div *ngIf="isTabletOrDesktop$ | async"
+               [ngClass]="getTicketAvatarClassNameByUserLifecycleStatusCode(ticket.userLifecycleStatusCode)"
+               class="avatar-circle">
+            <span class="initials">{{ getTicketUserNameInitials(ticket.name) }}</span>
+          </div>
+
+
+          <div class="details">
+            <div class="top-details">
+              <div *ngIf="(isTabletOrDesktop$ | async) === false"
+                   [ngClass]="getTicketAvatarClassNameByUserLifecycleStatusCode(ticket.userLifecycleStatusCode)"
+                   class="avatar-circle">
+                <span class="initials">{{ getTicketUserNameInitials(ticket.name) }}</span>
+              </div>
+              <div class="ticket-title-wrapper">
+                <span class="ticket-title">{{ getTicketType(ticket.name) }}</span>
+                <span class="ticket-code">
+                  {{ 'dashboard.ticketHistoryCode' | cxTranslate: {code: ticket.code} }}
+                </span>
+              </div>
+              <div [ngClass]="getTicketClassNameByUserLifecycleStatusCode(ticket.userLifecycleStatusCode)"
+                   class="ticket-status status">
+                {{ getTicketStatusTranslation(ticket.userLifecycleStatusCode) | async }}
+              </div>
+            </div>
+            <div class="bottom-details">
+              <div class="ticket-updates">
+                <span class="last-update-by">
+                  {{ 'dashboard.ticketHistoryLastUpdateBy' | cxTranslate: {name: getTicketUserName(ticket.name)} }}
+                </span>
+                <span class="last-update">
+                  {{ 'dashboard.ticketHistoryLastUpdate' | cxTranslate : {date: ticket.initialReceiptDateTime | date} }}
+                </span>
+              </div>
+              <hr class="separator"/>
+              <div class="ticket-creation">
+                <span class="created-by">
+                  {{ 'dashboard.ticketHistoryCreatedBy' | cxTranslate: {name: getTicketUserName(ticket.name)} }}
+                </span>
+                <span class="created-on">
+                  {{ 'dashboard.ticketHistoryCreated' | cxTranslate : {date: parseDate(ticket.creationDateTime) | date} }}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="separator"/>
+      </ng-container>
+    </div>
+  </div>
+
+  <ng-template #noTicketHistory>
+    <h4 class="no-stats">{{ 'dashboard.noTicketHistory' | cxTranslate }}</h4>
+  </ng-template>
+</div>

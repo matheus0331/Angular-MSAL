@@ -1,0 +1,42 @@
+{
+  "paymentMethods": {
+    "invalidField": "InvalidField: {{ field }}",
+    "newPaymentMethodsAreAddedDuringCheckout": "Se han añadido nuevos métodos de pago durante el pago.",
+    "paymentMethods": "Métodos de pago"
+  },
+  "paymentForm": {
+    "useThisPayment": "Utilizar este método de pago",
+    "accountHolderName": {
+      "label": "Nombre del titular de la cuenta",
+      "placeholder": "Nombre del titular de la cuenta"
+    },
+    "securityCode": "Código de seguridad (CVV)",
+    "monthMask": "MM",
+    "yearMask": "AAAA",
+    "billingAddress": "Dirección de Envio",
+    "setAsDefault": "Establecer por defecto",
+    "saveAsDefault": "Guardar por defecto",
+    "selectOne": "Selecciona uno...",
+    "sameAsShippingAddress": "Igual que la dirección de entrega",
+    "choosePaymentMethod": "Elije un método de pago",
+    "cardNumber": "Número de tarjeta",
+    "expirationDate": "Fecha de expiración",
+    "payment": "Pago",
+    "addNewPayment": "Añadir nuevo método de pago",
+    "paymentType": "Tipo de pago",
+    "changePayment": "Cambiar método de pago",
+    "securityCodeTitle": "Valor de verificación de la tarjeta"
+  },
+  "paymentTypes": {
+    "title": "Método de pago",
+    "paymentType_ACCOUNT": "Cuenta",
+    "paymentType_CARD": "Tarjeta de crédito / débito"
+  },
+  "paymentCard": {
+    "expires": "Expira: {{ month }}/{{ year }}",
+    "setAsDefault": "Establecer por defecto",
+    "defaultPaymentMethod": "✓ POR DEFECTO",
+    "selected": "Seleccionado",
+    "deleteConfirmation": "¿Estás seguro que quieres eliminar este método de pago?"
+  }
+}

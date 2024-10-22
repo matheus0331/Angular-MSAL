@@ -1,0 +1,43 @@
+<div *ngIf="isDesktop$ | async; else nonDesktop">
+  <div *ngIf="(facetList$ | async)?.facets as facets" class="facets">
+    <app-facets
+      #facetRef
+      (unlock)="expandFacetGroup(facet, facetRef)"
+      *ngFor="let facet of facets"
+      [class.collapsed]="isCollapsed(facet) | async"
+      [class.expanded]="isExpanded(facet) | async"
+      [cxFocus]="{ lock: true, trap: true, autofocus: 'a' }"
+      [facet]="facet"
+    ></app-facets>
+  </div>
+</div>
+
+<ng-template #nonDesktop>
+  <div
+    (click)="block($event)"
+    (esc)="close($event)"
+    *ngIf="(facetList$ | async)?.facets as facets"
+    [cxFocus]="isDialog ? dialogFocusConfig : {}"
+    class="inner"
+  >
+    <h4>
+      <button (click)="close()" aria-label="Close" class="close" type="button">
+        <cx-icon [type]="iconTypes.CLOSE" aria-hidden="true"></cx-icon>
+      </button>
+    </h4>
+
+    <!--
+      Here we'd like to introduce configurable facet components,
+      either by using specific configuration or generic sproutlets
+  -->
+    <app-facets
+      #facetRef
+      (unlock)="expandFacetGroup(facet, facetRef)"
+      *ngFor="let facet of facets"
+      [class.collapsed]="isCollapsed(facet) | async"
+      [class.expanded]="isExpanded(facet) | async"
+      [cxFocus]="{ lock: true, trap: true, autofocus: 'a' }"
+      [facet]="facet"
+    ></app-facets>
+  </div>
+</ng-template>

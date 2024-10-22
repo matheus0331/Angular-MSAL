@@ -1,0 +1,219 @@
+{
+  "searchSupport": {
+    "placeholder": "Søg her ...",
+    "results": "Resultater",
+    "manualTitle": "Brugervejledning",
+    "manualDownload": "Hent specifikation",
+    "text": "Søg efter FUN-nummer, produktkode eller produktnavn",
+    "more": "Mere",
+    "allResults": "Alle resultater",
+    "manualDescription": "Det mest komplette dokument om konfiguration og brug af produktet.",
+    "resultsFor": "Viser resultater for:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal-spørgsmål",
+    "message1": "Hej, jeg er Laura. Jeg er din klientagent. Hvordan kan jeg hjælpe dig?",
+    "title": "Personlig assistent",
+    "message2": "Du kan vælge mellem valgmulighederne nedenfor eller stille dit eget spørgsmål.",
+    "contact": "Kontakt Franke",
+    "complaint": "Indgiv en klage"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Har du brug for hjælp med dit produkt, eller har du spørgsmål?",
+    "title": "Hej, vi er her for at hjælpe"
+  },
+  "contactForm": {
+    "contactType": "Vælg kontakttype",
+    "files": "Upload billeder til at understøtte din anmodning",
+    "funNumber": "Artikelnummer",
+    "request": "Beskriv din anmodning",
+    "ticketAddSucess": "Billet oprettet!",
+    "ticketAddFail": "Fejl ved oprettelse af billet, så prøv igen!",
+    "subTitle2": "Du skal blot bruge vores kontaktformular!",
+    "generalContactCategories": "Vælg kategori",
+    "deleteFiles": "Slet",
+    "productSubCategories": "Vælg underkategori",
+    "title": "Yderligere spørgsmål?",
+    "subTitle1": "Kunne ikke finde svaret på dit spørgsmål i vores FAQ",
+    "productCategories": "Vælg produkt",
+    "orderNumber": "Ordrenummer"
+  },
+  "product": {
+    "id": "Artikel"
+  },
+  "faq": {
+    "print": "Udskriv denne side",
+    "customerServicesQuestions": "Kundeservice",
+    "pageTitle": "Ofte stillede spørgsmål",
+    "productQuestionsTitle": "Franke-produkter",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Ordrer og forsendelse"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "",
+    "updateAddress": "",
+    "editShippingAddress": "",
+    "deliveryAddressTitle": "",
+    "addNewShippingAddress": "",
+    "addAddress": "",
+    "billingAddressTitle": "",
+    "addNewAddress": "",
+    "backToAddressList": "",
+    "areYouSureToDeleteAddress": ""
+  },
+  "addressCard": {
+    "shipTo": "",
+    "setAsDefault": "",
+    "billTo": "",
+    "selected": "",
+    "default": ""
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "",
+      "placeholder": ""
+    },
+    "aptSuite": "",
+    "saveAsDefault": "",
+    "firstName": {
+      "label": "",
+      "placeholder": ""
+    },
+    "zipCode": {
+      "placeholder": "",
+      "label": ""
+    },
+    "address1": "",
+    "setAsDefault": "",
+    "title": "",
+    "userAddressDeleteSuccess": "",
+    "userAddressAddSuccess": "",
+    "city": {
+      "placeholder": "",
+      "label": ""
+    },
+    "invalidAddress": "",
+    "chooseAddress": "",
+    "phoneNumber": {
+      "placeholder": "",
+      "label": ""
+    },
+    "titleRequired": "",
+    "state": "",
+    "address2": "",
+    "selectOne": "",
+    "country": "",
+    "streetAddress": "",
+    "userAddressUpdateSuccess": ""
+  },
+  "wishlist": {
+    "addToCart": "Tilføj til kurv",
+    "empty": "Ingen produkter på din ønskeliste"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Opret en konto?",
+    "invoiceHasBeenSentByEmail": "Du modtager din ordrebekræftelse via e-mail",
+    "placedOn": "Placeret d.",
+    "status": "Status",
+    "frequency": "Frekvens",
+    "orderItems": "Bestil varer",
+    "orderPlacedSuccessfully": "Ordre gennemført",
+    "nextOrderDate": "Næste ordre dato",
+    "confirmationOfOrder": "Ordrebekræftelse:",
+    "cancelled": "Annulleret",
+    "createAccountForNext": "Opret en konto for <{{email}}> hurtigere check-ud på dit næste besøg.",
+    "replenishmentNumber": "Genopfyldning #",
+    "orderNumber": "Ordrenummer",
+    "thankYou": "Tak for din ordre!",
+    "active": "Aktiv"
+  },
+  "checkoutPO": {
+    "placeholder": "Indtast postnummer",
+    "poNumber": "Købsordrenummer",
+    "availableLabel": "Dine mulige forsendelsesadresser afhænger af omkostningsstedets enhed",
+    "costCenter": "Omkostningssted",
+    "noPoNumber": "Ingen"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Automatisk genopfyldningsordre",
+    "confirmThatRead": "Jeg bekræfter, at jeg har læst og accepteret",
+    "termsAndConditions": "Vilkår og Betingelser",
+    "recurrencePeriodType_WEEKLY": "Uge (r)",
+    "poNumber": "Købsordrenummer",
+    "dayOfMonth": "En dag",
+    "every": "Hver",
+    "placeOrder": "Angiv bestilling",
+    "scheduleReplenishmentOrder": "Planlæg genopfyldningsordre",
+    "recurrencePeriodType_DAILY": "Dag(e)",
+    "repeatOnDays": "Gentag på følgende dage",
+    "funNumber": "FUN: {{fun}}",
+    "editShippingAddress": "Rediger leveringsadresse",
+    "startOn": "Start på",
+    "additionalDetailsTitle": "Yderligere ordredetaljer",
+    "deliveryAddressTitle": "Leveringsadresse",
+    "orderType_PLACE_ORDER": "Ingen (engangsbestilling)",
+    "invoiceAddressTitle": "Betalingsadresse",
+    "recurrencePeriodType_MONTHLY": "Måned",
+    "requestedDate": "Anmodet dato:",
+    "orderType": "Ordretype:",
+    "checkoutError": "Der er sket en fejl. Kontakt venligst kundesupport",
+    "itemsTitle": "Varer, der skal leveres",
+    "additionalReference": "Yderligere reference:",
+    "orderItems": "Bestil varer",
+    "quantity": "Antal: {{count}}",
+    "reference": "Reference",
+    "orderNumber": "Ordrenummer:",
+    "review": "Anmeldelse",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "genopfyldningsordre",
+    "deliveryDate": "Anmodet leveringsdato:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Leveringsadresse",
+    "reviewOrder": "Gennemse ordre",
+    "paymentDetails": "Betalingsoplysninger",
+    "billingTask": "Valgte faktureringsadresse",
+    "billingAddress": "Faktureringsadresse",
+    "methodOfPayment": "Betalingsmetode",
+    "deliveryMode": "Leveringsmetode",
+    "reviewTask": "Gennemse venligst din ordre i oversigtssektion",
+    "shippingTask": "Valgte leveringsadresse",
+    "invoicePayment": "Fakturabetaling"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Standard fakturaadresse",
+    "enteredAddress": "indtastet adresse",
+    "selectYourInvoiceAddress": "Vælg din fakturaadresse",
+    "verifyYourAddress": "Bekræft din adresse",
+    "invoiceAddress": "Fakturaadresse",
+    "editAddress": "Rediger adresse",
+    "chooseAddressToUse": "Vælg hvilken adresse du ønsker at bruge:",
+    "shipToThisAddress": "Levering til denne adresse",
+    "saveAddress": "Gem adresse",
+    "addNewAddress": "Tilføj en ny adresse",
+    "defaultShippingAddress": "Standard leveringsadresse",
+    "selectInvoiceAddress": "Vælg denne adresse",
+    "selectYourBillingAddress": "Vælg din faktureringsadresse",
+    "suggestedAddress": "foreslået adresse",
+    "billingAddress": "Betalingsadresse",
+    "selectYourShippingAddress": "Vælg din leveringsadresse",
+    "shippingAddress": "Leveringsadresse",
+    "ensureAccuracySuggestChange": "For at sikre leveringsnøjagtighed, foreslår vi den valgte ændring nedenfor."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Standard levering",
+    "shippingMethod": "Fragtmetode",
+    "premiumDelivery": "Premium levering"
+  },
+  "checkout": {
+    "back": "Tilbage",
+    "invalid": {
+      "accountType": "Din konto tillader dig ikke at gå til kassen her."
+    },
+    "backToCart": "Tilbage til kurv",
+    "continue": "Fortsæt"
+  }
+}

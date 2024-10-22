@@ -1,0 +1,129 @@
+<div class="cx-section">
+  <div class="container">
+    <ng-container
+      *ngIf="
+        (addresses$ | async) &&
+        (addresses$ | async).length &&
+        !(showAddAddressForm || showEditAddressForm)
+      "
+    >
+      <p class="title">
+        {{ 'addressBook.deliveryAddressTitle' | cxTranslate }}
+      </p>
+      <hr/>
+
+      <ng-container
+        *ngIf="(addressesStateLoading$ | async) === false; else loading"
+      >
+        <div class="row cx-address-deck">
+          <ng-container *ngFor="let address of addresses$ | async">
+            <div
+              *ngIf="address.shippingAddress"
+              class="card-container col-md-6 cx-address-card"
+            >
+              <app-card
+                (cancelCard)="cancelCard()"
+                (deleteCard)="setEdit(address.id)"
+                (editCard)="editAddressButtonHandle(address)"
+                (setDefaultCard)="setAddressAsDefault(address.id, address)"
+                [border]="true"
+                [content]="getCardContent(address) | async"
+                [editMode]="address.id === editCard"
+                [fitToContainer]="true"
+                [isInAddressBook]="true"
+              >
+              </app-card>
+            </div>
+          </ng-container>
+          <ng-container *ngIf="!hideAddButton">
+            <div
+              *ngIf="(addresses$ | async) && (addresses$ | async).length <= 4"
+              class="col-md-6"
+            >
+              <button
+                (click)="addAddressButtonHandle()"
+                class="card-container add-btn btn btn-block btn-action"
+              >
+                <cx-icon type="ADD"></cx-icon>
+                <p class="new-address-text">
+                  {{ 'addressBook.addNewAddress' | cxTranslate }}
+                </p>
+              </button>
+            </div>
+          </ng-container>
+        </div>
+      </ng-container>
+
+      <p class="title">{{ 'addressBook.billingAddressTitle' | cxTranslate }}</p>
+      <hr/>
+      <ng-container
+        *ngIf="(addressesStateLoading$ | async) === false; else loading"
+      >
+        <ng-container *ngFor="let address of addresses$ | async">
+          <div *ngIf="address.billingAddress" class="row cx-address-deck">
+            <div class="card-container col-md-6 cx-address-card">
+              <app-card
+                [border]="false"
+                [content]="getCardContent(address) | async"
+                [fitToContainer]="true"
+                [inactive]="true"
+              >
+              </app-card>
+            </div>
+          </div>
+        </ng-container>
+      </ng-container>
+    </ng-container>
+
+    <ng-container
+      *ngIf="
+        ((addresses$ | async) && !(addresses$ | async).length) ||
+        showAddAddressForm
+      "
+    >
+      <section>
+        <p class="cx-section-msg">
+          {{ 'addressBook.addNewShippingAddress' | cxTranslate }}
+        </p>
+        <app-address-form
+          (backToAddress)="addAddressCancel()"
+          (cancelCard)="cancelCard()"
+          (submitAddress)="addAddressSubmit($event)"
+          [setAsDefaultField]="
+            (addresses$ | async) && !((addresses$ | async).length === 0)
+          "
+          [showCancelBtn]="
+            (addresses$ | async) && !((addresses$ | async).length === 0)
+          "
+          actionBtnLabel="{{ 'addressBook.addAddress' | cxTranslate }}"
+          cancelBtnLabel="{{ 'addressBook.backToAddressList' | cxTranslate }}"
+          class="cx-form"
+          showTitleCode="true"
+        >
+        </app-address-form>
+      </section>
+    </ng-container>
+
+    <ng-container *ngIf="showEditAddressForm">
+      <section>
+        <p class="cx-section-msg">
+          {{ 'addressBook.editShippingAddress' | cxTranslate }}
+        </p>
+        <app-address-form
+          (backToAddress)="editAddressCancel()"
+          (submitAddress)="editAddressSubmit($event)"
+          [addressData]="currentAddress"
+          actionBtnLabel="{{ 'addressBook.updateAddress' | cxTranslate }}"
+          cancelBtnLabel="{{ 'addressBook.backToAddressList' | cxTranslate }}"
+          showTitleCode="true"
+        ></app-address-form>
+      </section>
+    </ng-container>
+  </div>
+</div>
+
+<ng-template #loading>
+  <div class="col-md-12 cx-address-spinner">
+    <cx-spinner></cx-spinner>
+  </div>
+</ng-template>

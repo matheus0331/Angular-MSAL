@@ -1,0 +1,23 @@
+<div class="wrapper">
+  <button
+    (click)="toggle()"
+    [attr.aria-expanded]="isExpanded | async"
+    [class.is-active]="isExpanded | async"
+    aria-controls="header-account-container, header-categories-container, header-locale-container"
+    aria-label="Menu"
+    class="cx-hamburger"
+    type="button"
+  >
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+  <ng-container *ngIf="(isDesktop$ | async) === false">
+    <div
+      *ngIf="(isExpanded | async) === false"
+      class="hamburger-menu-notification-bubble"
+    >
+      <div *ngIf="unreadNotifications$ | async" class="badge"></div>
+    </div>
+  </ng-container>
+</div>

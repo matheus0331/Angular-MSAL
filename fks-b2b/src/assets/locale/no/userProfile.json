@@ -1,0 +1,56 @@
+{
+  "searchSupport": {
+    "placeholder": "Søk her...",
+    "results": "resultater",
+    "manualTitle": "",
+    "manualDownload": "",
+    "text": "Søk etter en Artikkelnummer, produktkode eller et produktnavn",
+    "more": "Mer",
+    "allResults": "alle resultater",
+    "manualDescription": "",
+    "resultsFor": "Viser resultater for:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal Spørsmål",
+    "message1": "Hei, jeg er Laura. Jeg er klient agent. Hvordan kan jeg hjelpe deg?",
+    "title": "Personlig assistent",
+    "message2": "Du kan velge mellom alternativ nedenfor eller spør ditt eget spørsmål.",
+    "contact": "Kontakt Franke",
+    "complaint": "Sende inn en klage"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Trenger du hjelp med produktet, eller har du spørsmål?",
+    "title": "Hei, vi er her for å hjelpe"
+  },
+  "contactForm": {
+    "contactType": "Velg kontaktmetode",
+    "files": "Last opp bilder for å støtte forespørselen",
+    "funNumber": "",
+    "request": "Beskriv forespørselen",
+    "ticketAddSucess": "billett opprettet!",
+    "ticketAddFail": "Feil ved oppretting av billett, prøv igjen!",
+    "subTitle2": "Bruk vårt kontaktskjema!",
+    "generalContactCategories": "Velg kategori",
+    "deleteFiles": "Slett",
+    "productSubCategories": "Velg underkategori",
+    "title": "Flere spørsmål?",
+    "subTitle1": "Kunne ikke finne svaret på spørsmålet ditt i vår FAQ",
+    "productCategories": "Velg produkt",
+    "orderNumber": "Ordrenummer"
+  },
+  "product": {
+    "id": "Artikkel"
+  },
+  "faq": {
+    "print": "Skriv ut denne siden",
+    "customerServicesQuestions": "Kundeservice",
+    "pageTitle": "ofte stilte spørsmål",
+    "productQuestionsTitle": "Franke Produkter",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Ordre og forsendelse"
+  },
+  "videoTutorial": {
+    "title": ""
+  }
+}

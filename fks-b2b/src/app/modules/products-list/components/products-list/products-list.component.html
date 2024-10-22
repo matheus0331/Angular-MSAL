@@ -1,0 +1,59 @@
+<div *ngIf="model$ | async as model" class="cx-page">
+  <div class="row">
+    <div *ngIf="viewMode$ | async as viewMode" class="col-12 col-lg-12">
+      <div
+        *ngIf="isDesktop$ | async; else nonDesktop"
+        class="cx-product-container"
+      >
+        <ng-container *ngIf="viewMode === ViewModes.Grid">
+          <div class="row">
+            <app-products-grid-item
+              *ngFor="let product of model?.products"
+              [product]="product"
+              class="product-grid-column"
+            ></app-products-grid-item>
+          </div>
+        </ng-container>
+        <ng-container *ngIf="viewMode === ViewModes.List">
+          <app-products-list-item
+            *ngFor="let product of model?.products"
+            [product]="product"
+          ></app-products-list-item>
+        </ng-container>
+      </div>
+      <ng-template #nonDesktop>
+        <div *ngIf="(isLandscape$ | async) || (isTablet$ | async); else mobile">
+          <app-products-list-item
+            *ngFor="let product of model?.products"
+            [product]="product"
+          ></app-products-list-item>
+        </div>
+        <ng-template #mobile>
+          <div *ngIf="isMobile$ | async">
+            <app-products-grid-item
+              *ngFor="let product of model?.products"
+              [product]="product"
+              class="product-grid-column"
+            ></app-products-grid-item>
+          </div>
+        </ng-template>
+        <app-button-sort-products
+          (sortListEvent)="sortList($event)"
+          *ngIf="model$ | async as model"
+          [selectedOption]="model.pagination.sort"
+          [sortOptions]="model.sorts"
+          class="sort"
+          placeholder="{{ 'productList.sortByRelevance' | cxTranslate }}"
+        ></app-button-sort-products>
+      </ng-template>
+
+      <div class="products-pagination">
+        <app-products-pagination
+          [defaultPage]="0"
+          [pagination]="model.pagination"
+          queryParam="currentPage"
+        ></app-products-pagination>
+      </div>
+    </div>
+  </div>
+</div>

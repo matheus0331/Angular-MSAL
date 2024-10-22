@@ -1,0 +1,157 @@
+@import '../../../../../assets/scss/typography';
+@import 'bootstrap/scss/bootstrap';
+
+@mixin product-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $color,
+  $text-transform: none
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+  text-transform: $text-transform;
+}
+
+@mixin status-dot($color) {
+  width: 9px;
+  height: 9px;
+  background: $color;
+  border-radius: 50%;
+  content: '';
+  padding-right: 9px;
+  margin: 0 11px 1px 40px;
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  &-aa,
+  &-waiting {
+    &::before {
+      @include status-dot(#9c9c9c);
+    }
+  }
+
+  &-bb,
+  &-processing,
+  &-confirmed {
+    &::before {
+      @include status-dot(#ffd930);
+    }
+  }
+
+  &-completed,
+  &-cc {
+    &::before {
+      @include status-dot(#5ec62c);
+    }
+  }
+
+  &-dd,
+  &-canceled {
+    &::before {
+      @include status-dot(#aa0909);
+    }
+  }
+}
+
+.table-wrapper {
+  border: 1px solid var(--wrapper-border-color);
+  @media only screen and (max-width: 991px) {
+    overflow-x: scroll;
+  }
+
+  .table {
+    margin-bottom: 0;
+    @media only screen and (max-width: 991px) {
+      width: 900px;
+    }
+
+    .table-header {
+      background: var(--accent-color);
+
+      th {
+        @include product-text(
+            var(--franke-s-font-size),
+            var(--font-weight-base),
+            18px,
+            var(--white)
+        );
+        padding: 19px 0;
+        text-align: center;
+        user-select: none;
+        vertical-align: middle;
+
+        @media only screen and (min-width: 992px) {
+          @include product-text(
+              var(--franke-font-size-base),
+              var(--font-weight-base),
+              150%,
+              var(--white)
+          );
+          padding: 40px 0;
+          &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .asc::after {
+        content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 16" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>');
+      }
+
+      .desc::after {
+        content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 16" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+      }
+
+      .column-fun {
+        text-align: start;
+        width: 12%;
+        padding-left: 30px;
+      }
+
+      .column-product {
+        width: 14%;
+      }
+
+      .column-brand {
+        width: 10%;
+      }
+
+      .column-quantity {
+        width: 10%;
+      }
+
+      .column-single-price {
+        width: 12%;
+      }
+
+      .column-expected-delivery-date {
+        width: 14%;
+      }
+
+      .column-confirmed-delivery-date {
+        width: 14%;
+      }
+
+      .column-status {
+        text-align: end;
+        padding-right: 30px;
+        width: 14%;
+      }
+    }
+  }
+}
+
+.products-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px -15px 50px -15px;
+  justify-content: center;
+}

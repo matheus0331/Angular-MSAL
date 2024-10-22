@@ -1,0 +1,40 @@
+@mixin button-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $text-transform: none
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: $text-transform;
+}
+
+.add-btn {
+  max-height: 256px;
+  height: 256px;
+  background: var(--section-bg-color);
+  border: 1px dashed var(--grey);
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--grey);
+  box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12),
+    0px 4px 4px -2px rgba(24, 39, 75, 0.08);
+  @include button-text(
+    var(--franke-s-font-size),
+    var(--font-weight-base),
+    30px
+  );
+
+  @media only screen and (min-width: 768px) {
+    @include button-text(
+      var(--franke-font-size-base),
+      var(--font-weight-base),
+      34px
+    );
+  }
+}

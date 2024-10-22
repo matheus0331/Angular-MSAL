@@ -1,0 +1,9 @@
+{
+  "pwa": {
+    "addedToHomeScreen": "SAP Storefront a été ajouté à votre écran d'accueil",
+    "addToHomeScreenDescription": "Ajouter la devanture de SAP à votre appareil homescreen pour une visite plus rapide retour",
+    "addToHomeScreen": "Ajouter à l'écran d'accueil",
+    "noInstallationNeeded": "Aucune installation requise",
+    "fastAccessToApplication": "Accès rapide à l'application"
+  }
+}

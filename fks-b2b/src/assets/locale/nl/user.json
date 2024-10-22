@@ -1,0 +1,313 @@
+{
+  "searchSupport": {
+    "placeholder": "Zoek hier...",
+    "results": "Resultaten",
+    "manualTitle": "Gebruiksaanwijzing",
+    "manualDownload": "Download Specificatie",
+    "text": "Zoeken naar een FUN nummer, een model of document",
+    "more": "Meer",
+    "allResults": "Alle resultaten",
+    "manualDescription": "",
+    "resultsFor": "Resultaten voor:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal Vragen",
+    "message1": "Hallo, ik ben Laura. Ik ben je client-agent. Hoe kan ik u helpen?",
+    "title": "Persoonlijke assistent",
+    "message2": "U kunt kiezen uit de optie of stel uw eigen vraag.",
+    "contact": "Contact Franke",
+    "complaint": "Een klacht indienen"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Heeft u hulp nodig bij uw product of een vraag waar je een snel antwoord op wil?",
+    "title": "Hallo, wij zijn hier om je te helpen"
+  },
+  "contactForm": {
+    "contactType": "Selecteer het type contact",
+    "files": "Afbeeldingen uploaden naar uw verzoek te ondersteunen",
+    "funNumber": "Artikel Nummer",
+    "request": "Beschrijf uw verzoek",
+    "ticketAddSucess": "Ticket gemaakt!",
+    "ticketAddFail": "Fout bij het maken ticket, probeer het opnieuw!",
+    "subTitle2": "gewoon gebruik maken van ons contact formulier!",
+    "generalContactCategories": "Selecteer de categorie",
+    "deleteFiles": "Verwijderen",
+    "productSubCategories": "Selecteer de subcategorie",
+    "title": "Verdere vragen?",
+    "subTitle1": "Kunt u het antwoord op uw vraag in onze FAQ niet vinden",
+    "productCategories": "Selecteer het product",
+    "orderNumber": "Ordernummer"
+  },
+  "product": {
+    "id": "ID"
+  },
+  "faq": {
+    "print": "Print deze pagina",
+    "customerServicesQuestions": "Klantenservice",
+    "pageTitle": "Veel Gestelde Vragen",
+    "productQuestionsTitle": "Franke producten",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Orders en Verzending"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "U kunt maximaal 4 adressen aanmaken.",
+    "updateAddress": "Adres bijwerken",
+    "editShippingAddress": "Afleveradres aanpassen",
+    "deliveryAddressTitle": "Afleveradres",
+    "addNewShippingAddress": "Voeg een nieuw afleveradres toe",
+    "addAddress": "Voeg een adres toe",
+    "billingAddressTitle": "Factuuradres",
+    "addNewAddress": "Voeg een nieuw adres toe",
+    "backToAddressList": "Terug naar de adreslijst",
+    "areYouSureToDeleteAddress": "Wilt u dit adres verwijderen?"
+  },
+  "addressCard": {
+    "shipTo": "Verzend naar",
+    "setAsDefault": "Stel in als standaard",
+    "billTo": "Rekening naar",
+    "selected": "Geselecteerd",
+    "default": "STANDAARD"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Achternaam",
+      "placeholder": "Achternaam"
+    },
+    "aptSuite": "Toevoeging huisnummer",
+    "saveAsDefault": "Opslaan als standaard",
+    "firstName": {
+      "label": "Voornaam",
+      "placeholder": "Voornaam"
+    },
+    "zipCode": {
+      "placeholder": "Postcode",
+      "label": "Postcode"
+    },
+    "address1": "Adres 1",
+    "setAsDefault": "Stel in als standaard",
+    "title": "Titel",
+    "userAddressDeleteSuccess": "Adres is succesvol verwijderd!",
+    "userAddressAddSuccess": "Nieuw adres is succesvol toegevoegd!",
+    "city": {
+      "placeholder": "Stad",
+      "label": "Stad"
+    },
+    "invalidAddress": "Ongeldig adres",
+    "chooseAddress": "Kies adres",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "Telefoon nummer (optioneel)"
+    },
+    "titleRequired": "Titel is vereist.",
+    "state": "Provincie",
+    "address2": "Adres 2 (optioneel)",
+    "selectOne": "Kies een...",
+    "country": "Land",
+    "streetAddress": "Straat",
+    "userAddressUpdateSuccess": "Adres is succesvol gewijzigd!"
+  },
+  "wishlist": {
+    "addToCart": "Voeg toe aan winkelwagen",
+    "empty": "Geen producten op uw verlanglijstje"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Account aanmaken?",
+    "invoiceHasBeenSentByEmail": "U ontvangt uw orderbevestiging per e-mail",
+    "placedOn": "Geplaatst op",
+    "status": "Status",
+    "frequency": "Frequentie",
+    "orderItems": "Bestelde artikelen",
+    "orderPlacedSuccessfully": "Bestelling is geslaagd",
+    "nextOrderDate": "Volgende besteldatum",
+    "confirmationOfOrder": "Orderbevestiging:",
+    "cancelled": "Geannuleerd",
+    "createAccountForNext": "Maak een account aan tbv <{{email}}> voor een snelle afhandeling op uw volgende bezoek.",
+    "replenishmentNumber": "Aanvulling #",
+    "orderNumber": "Ordernummer",
+    "thankYou": "Bedankt voor je bestelling!",
+    "active": "Actief"
+  },
+  "checkoutPO": {
+    "placeholder": "Voer inkoopbestelnummer in",
+    "poNumber": "Bestelnummer",
+    "availableLabel": "Afleveradres voor u beschikbaar zijn afhankelijk van eenheid de kostenplaats's",
+    "costCenter": "Kostenplaats",
+    "noPoNumber": "Geen"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Automatische aanvullende bestelling",
+    "confirmThatRead": "Ik bevestig dat ik heb gelezen en ga akkoord met de",
+    "termsAndConditions": "Algemene voorwaarden",
+    "recurrencePeriodType_WEEKLY": "Weken",
+    "poNumber": "Bestelnummer",
+    "dayOfMonth": "Overdag",
+    "every": "Elke",
+    "placeOrder": "Bestelling plaatsen",
+    "scheduleReplenishmentOrder": "Aanvullende order beëindigen",
+    "recurrencePeriodType_DAILY": "Dag (en)",
+    "repeatOnDays": "Herhaal dit op de volgende dagen",
+    "funNumber": "FUNL {{fun}}",
+    "editShippingAddress": "Pas afleveradres aan",
+    "startOn": "Begint op",
+    "additionalDetailsTitle": "Aanvullende bestellingdetails",
+    "deliveryAddressTitle": "Bezorgadres",
+    "orderType_PLACE_ORDER": "Geen (alleen eenmalig order mogelijk)",
+    "invoiceAddressTitle": "Factuur adres",
+    "recurrencePeriodType_MONTHLY": "Maand",
+    "requestedDate": "Gevraagde datum:",
+    "orderType": "Order type:",
+    "checkoutError": "Fout opgetreden. Neem contact op met de klantenondersteuning",
+    "itemsTitle": "Te leveren artikelen",
+    "additionalReference": "Aanvullende referntie:",
+    "orderItems": "Bestelde artikelen",
+    "quantity": "Aantal: {{count}}",
+    "reference": "Referentie",
+    "orderNumber": "Ordernummer:",
+    "review": "Recensie",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Aanvullende bestelling",
+    "deliveryDate": "Gevraagde leverdatum:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Bezorgadres",
+    "reviewOrder": "Controleer bestelling",
+    "paymentDetails": "Betaalgegevens",
+    "billingTask": "Gekozen factuuradres",
+    "billingAddress": "Factuur adres",
+    "methodOfPayment": "Betalingsmethode",
+    "deliveryMode": "Aflevermethode",
+    "reviewTask": "Aub controleer uw bestelling in de samenvatting sectie",
+    "shippingTask": "Gekozen afleveradres",
+    "invoicePayment": "Factuur betaling"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Default factuuradres",
+    "enteredAddress": "Ingevoerd adres",
+    "selectYourInvoiceAddress": "Selecteer uw factuuradres",
+    "verifyYourAddress": "Controleer uw adres",
+    "invoiceAddress": "Factuuradres",
+    "editAddress": "Adres aanpassen",
+    "chooseAddressToUse": "Kies aub welk adres dat u wilt gebruiken:",
+    "shipToThisAddress": "Bezorg op dit adres",
+    "saveAddress": "Adres Opslaan",
+    "addNewAddress": "Voeg een nieuw adres toe",
+    "defaultShippingAddress": "Standaard afleveradres",
+    "selectInvoiceAddress": "Factuur naar dit adres",
+    "selectYourBillingAddress": "Selecteer uw factuuradres",
+    "suggestedAddress": "Voorgesteld adres",
+    "billingAddress": "Factuuradres",
+    "selectYourShippingAddress": "Selecteer uw afleveradres",
+    "shippingAddress": "Aflveradres",
+    "ensureAccuracySuggestChange": "Om de leveringsbetrouwbaarheid te garanderen, raden wij aan de hieronder geselecteerde verandering."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Standaard levering",
+    "shippingMethod": "Verzendmethode",
+    "premiumDelivery": "Premiumlevering"
+  },
+  "checkout": {
+    "back": "Terug",
+    "invalid": {
+      "accountType": "Je account staat het niet toe dat je naar de kassa gaat."
+    },
+    "backToCart": "Terug",
+    "continue": "Doorgaan"
+  },
+  "loginForm": {
+    "emailAddress": {
+      "placeholder": "Voer email in",
+      "label": "E-mailadres"
+    },
+    "password": {
+      "placeholder": "Wachtwoord",
+      "label": "Wachtwoord"
+    },
+    "forgotPassword": "Wachtwoord vergeten?",
+    "wrongEmailFormat": "Dit is geen geldige e-mail.",
+    "guestCheckout": "Gast checkout",
+    "signIn": "Aanmelden",
+    "register": "Registreren",
+    "dontHaveAccount": "Heb je nog geen account?"
+  },
+  "checkoutLogin": {
+    "emailsMustMatch": "Email komt niet overeen",
+    "emailAddress": {
+      "label": "E-mailadres",
+      "placeholder": "Voer email in"
+    },
+    "continue": "Doorgaan met",
+    "emailIsRequired": "Ongeldige email",
+    "confirmEmail": {
+      "label": "Bevestig Email",
+      "placeholder": "Bevestig Email"
+    }
+  },
+  "anonymousConsents": {
+    "banner": {
+      "viewDetails": "Bekijk details",
+      "allowAll": "Sta alles toe",
+      "title": "Deze website maakt gebruik van cookies",
+      "description": "We maken gebruik van cookies / browsers opslag om de inhoud te personaliseren en het verbeteren van de gebruikerservaring."
+    },
+    "preferences": "Toestemmingsvoorkeuren",
+    "dialog": {
+      "clearAll": "Wis alles",
+      "legalDescription": "We maken gebruik van cookies / browsersopslag om de inhoud te personaliseren en de gebruikerservaring te verbeteren. We kunnen de gegevens over uw sitegebruik ook delen met onze social media. Raadpleeg ons privacybeleid voor meer informatie.",
+      "title": "Toestemmingsbeheer",
+      "selectAll": "Selecteer alles"
+    }
+  },
+  "forgottenPassword": {
+    "resetPassword": "Reset wachtwoord",
+    "passwordResetSuccess": "Succes! U kunt nu inloggen met uw nieuwe wachtwoord.",
+    "enterEmailAddressAssociatedWithYourAccount": "Voer het e-mailadres in, dat aan uw account is gekoppeld",
+    "emailAddress": {
+      "label": "Emailadres",
+      "placeholder": "Voer email in"
+    },
+    "enterValidEmail": "Gelieve een geldig e-mailadres in te vullen.",
+    "passwordResetEmailSent": "Een e-mail is naar u gestuurd met informatie over hoe u uw wachtwoord kunt resetten."
+  },
+  "register": {
+    "titleRequired": "Titel is vereist",
+    "newPassword": "Nieuw wachtwoord",
+    "confirmThatRead": "Ik bevestig dat ik heb gelezen en ga akkoord met de",
+    "firstName": {
+      "label": "Voornaam",
+      "placeholder": "Voornaam"
+    },
+    "createAccount": "Account aanmaken",
+    "bothPasswordMustMatch": "Beide wachtwoord moet overeenkomen",
+    "register": "Registreren",
+    "resetPassword": "Reset wachtwoord",
+    "postRegisterMessage": "Log in met de bijgeleverde informatie.",
+    "emailAddress": {
+      "placeholder": "E-mailadres",
+      "label": "E-mailadres"
+    },
+    "title": "Aanhef",
+    "confirmPassword": {
+      "action": "Bevestig wachtwoord",
+      "placeholder": "Bevestig wachtwoord",
+      "label": "Bevestig wachtwoord"
+    },
+    "termsAndConditions": "Algemene voorwaarden",
+    "lastName": {
+      "label": "Achternaam",
+      "placeholder": "Achternaam"
+    },
+    "password": {
+      "placeholder": "Wachtwoord",
+      "label": "Wachtwoord"
+    },
+    "emailMarketing": "Gebruik mijn persoonlijke gegevens om e-mail nieuwsbrieven te ontvangen voor marketing campagnes. Als u uw instellingen wilt wijzigen, gaat u naar privacy instellingen in klantgegevens.",
+    "managementInMyAccount": "Beheren in klantgegevens.",
+    "passwordMinRequirements": "Het wachtwoord moet minimaal zes tekens en bevatten één hoofdletter, één cijfer, één symbool",
+    "confirmNewPassword": "Bevestig nieuw wachtwoord",
+    "signIn": "Ik heb al een account. Aanmelden",
+    "selectTitle": "Selecteer titel"
+  }
+}

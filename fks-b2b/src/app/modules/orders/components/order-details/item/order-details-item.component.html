@@ -1,0 +1,44 @@
+<td class="row-fun">
+  <ngb-highlight [result]="order.material"></ngb-highlight>
+</td>
+<td [routerLink]="'/product/' + order.material" class="row-product">
+  <ngb-highlight [result]="order.description"></ngb-highlight>
+</td>
+<td class="row-brand">
+  <div *ngIf="order.product; else noBrand">
+    <div *ngIf="order.product.brands[0]; else noBrand">
+      <ngb-highlight [result]="order.product.brands[0].name"></ngb-highlight>
+    </div>
+  </div>
+  <ng-template #noBrand>
+    <ngb-highlight
+      [result]="'orderDetails.brandMissing' | cxTranslate"
+    ></ngb-highlight>
+  </ng-template>
+</td>
+<td class="row-quantity">
+  <ngb-highlight
+    [result]="order.orderQuantity + ' ' + order.salesUnit"
+  ></ngb-highlight>
+</td>
+<td class="row-single-price">
+  <ngb-highlight
+    [result]="order.netPrice + ' ' + order.docCurrency"
+  ></ngb-highlight>
+</td>
+<td class="row-expected-delivery-date">
+  <ngb-highlight
+    [result]="getDeliveryDate(order.frozenDeliveryDate) | date"
+  ></ngb-highlight>
+</td>
+<td class="row-confirmed-delivery-date">
+  <ngb-highlight
+    [result]="getDeliveryDate(order.deliveryDate) | date"
+  ></ngb-highlight>
+</td>
+<td class="row-status">
+  <span class="status status-{{ order.orderStatus | lowercase }}"></span>
+  <ngb-highlight
+    [result]="status ? ('orderDetails.status' + status | cxTranslate) : ''"
+  ></ngb-highlight>
+</td>

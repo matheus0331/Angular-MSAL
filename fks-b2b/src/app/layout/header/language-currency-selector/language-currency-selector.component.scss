@@ -1,0 +1,61 @@
+.selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24px;
+
+  .dropdown {
+    .dropdown-toggle {
+      background-color: transparent;
+      display: flex;
+      border: none;
+
+      .active-label {
+        .currency-label {
+          font-size: 14px;
+          margin-right: 8px;
+        }
+
+        .language-flag {
+          border-radius: 50%;
+          width: 18.34px;
+          height: 18.34px;
+          margin-right: 8px;
+        }
+
+        cx-icon {
+          color: var(--text-color);
+        }
+      }
+    }
+
+    .dropdown-toggle::after {
+      border: none;
+    }
+
+    .dropdown-menu {
+      box-shadow: 0px 3.5px 2px 0px rgba(0, 0, 0, 0.2);
+      margin-top: 2px;
+      border: none;
+
+      .dropdown-item {
+        display: flex;
+        align-items: center;
+        color: var(--text-color);
+
+        .language-flag {
+          border-radius: 50%;
+          width: 31px;
+          height: 31px;
+          margin-right: 8px;
+        }
+      }
+
+      .dropdown-item:hover {
+        font-weight: var(--font-weight-base);
+        text-decoration: underline;
+        background-color: transparent;
+      }
+    }
+  }
+}

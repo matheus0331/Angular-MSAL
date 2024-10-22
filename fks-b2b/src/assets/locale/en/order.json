@@ -1,0 +1,1207 @@
+{
+  "searchSupport": {
+    "placeholder": "Search here...",
+    "results": "Results",
+    "manualTitle": "Owner's manual",
+    "manualDownload": "Download Specification",
+    "text": "Search for a FUN number, product code or a product name",
+    "more": "More",
+    "allResults": "All results",
+    "manualDescription": "The most complete document on the configuration and use of the product.",
+    "resultsFor": "Showing results for:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal Questions",
+    "message1": "Hi, I'm Laura. I'm your client agent. How can I help you?",
+    "title": "Personal assistant",
+    "message2": "You can choose from the option below or ask your own question.",
+    "contact": "Contact Franke",
+    "complaint": "Submit a Complaint"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Do you need help with your product or do you have a question?",
+    "title": "Hello, we are here to help"
+  },
+  "contactForm": {
+    "contactType": "Select the contact type",
+    "files": "Upload Images to support your request",
+    "funNumber": "Article Number",
+    "request": "Describe your request",
+    "ticketAddSucess": "Ticket created!",
+    "ticketAddFail": "Error creating ticket, try again!",
+    "subTitle2": "Simply use our contact form!",
+    "generalContactCategories": "Select the category",
+    "deleteFiles": "Delete",
+    "productSubCategories": "Select the sub category",
+    "title": "Further questions?",
+    "subTitle1": "Couldn't find the answer to your question in our FAQs",
+    "productCategories": "Select the product",
+    "orderNumber": "Order Number"
+  },
+  "product": {
+    "id": "Article"
+  },
+  "faq": {
+    "print": "Print this page",
+    "customerServicesQuestions": "Customer Services",
+    "pageTitle": "Frequently Asked Questions",
+    "productQuestionsTitle": "Franke Products",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Orders and Shipment"
+  },
+  "videoTutorial": {
+    "title": "How it works"
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "You can have up to a maximum of 4 addresses.",
+    "updateAddress": "Update address",
+    "editShippingAddress": "Edit delivery address",
+    "deliveryAddressTitle": "Delivery address",
+    "addNewShippingAddress": "Add a new delivery address",
+    "addAddress": "Add an address",
+    "billingAddressTitle": "Billing address",
+    "addNewAddress": "Add a new address",
+    "backToAddressList": "Back to address list",
+    "areYouSureToDeleteAddress": "Are you sure you want to delete this address?"
+  },
+  "addressCard": {
+    "shipTo": "Ship To",
+    "setAsDefault": "Set as default",
+    "billTo": "Bill to",
+    "selected": "Selected",
+    "default": "DEFAULT"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Last name",
+      "placeholder": "Last name"
+    },
+    "aptSuite": "Apt, Suite",
+    "saveAsDefault": "Save as default",
+    "firstName": {
+      "label": "First name",
+      "placeholder": "First name"
+    },
+    "zipCode": {
+      "placeholder": "Postcode",
+      "label": "Postcode"
+    },
+    "address1": "Address 1",
+    "setAsDefault": "Set as default",
+    "title": "Title",
+    "userAddressDeleteSuccess": "Address deleted successfully!",
+    "userAddressAddSuccess": "New address was added successfully!",
+    "city": {
+      "placeholder": "City",
+      "label": "City"
+    },
+    "invalidAddress": "Invalid address",
+    "chooseAddress": "Choose address",
+    "phoneNumber": {
+      "placeholder": "(555) 555 - 0123",
+      "label": "Phone number (optional)"
+    },
+    "titleRequired": "Title is required.",
+    "state": "County",
+    "address2": "Address 2 (optional)",
+    "selectOne": "Select one...",
+    "country": "Country",
+    "streetAddress": "Street",
+    "userAddressUpdateSuccess": "Address updated successfully!"
+  },
+  "wishlist": {
+    "addToCart": "Add to cart",
+    "empty": "No products on your wish list"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Create an account?",
+    "invoiceHasBeenSentByEmail": "You will receive your order acknowledgement via email",
+    "placedOn": "Placed on",
+    "status": "Status",
+    "frequency": "Frequency",
+    "orderItems": "Order items",
+    "orderPlacedSuccessfully": "Order placed successfully",
+    "nextOrderDate": "Next order date",
+    "confirmationOfOrder": "Order acknowledgement:",
+    "cancelled": "Cancelled",
+    "createAccountForNext": "Create an account for <{{email}}> for a faster checkout on your next visit.",
+    "replenishmentNumber": "Replenishment #",
+    "orderNumber": "Order number",
+    "thankYou": "Thank you for your order!",
+    "active": "Active"
+  },
+  "checkoutPO": {
+    "placeholder": "Enter P.O",
+    "poNumber": "Purchase order number",
+    "availableLabel": "Shipping addresses available to you depend on the cost center's unit",
+    "costCenter": "Cost Centre",
+    "noPoNumber": "None"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Auto replenishment order",
+    "confirmThatRead": "I confirm that I have read and agree to the",
+    "termsAndConditions": "Terms & Conditions",
+    "recurrencePeriodType_WEEKLY": "Week(s)",
+    "poNumber": "Purchase order number",
+    "dayOfMonth": "On day",
+    "every": "Every",
+    "placeOrder": "Place order",
+    "scheduleReplenishmentOrder": "Schedule replenishment order",
+    "recurrencePeriodType_DAILY": "Day(s)",
+    "repeatOnDays": "Repeat on the following days",
+    "funNumber": "Article: {{fun}}",
+    "editShippingAddress": "Edit delivery  address",
+    "startOn": "Start on",
+    "additionalDetailsTitle": "Additional order details",
+    "deliveryAddressTitle": "Delivery address",
+    "orderType_PLACE_ORDER": "None (one time order only)",
+    "invoiceAddressTitle": "Billing address",
+    "recurrencePeriodType_MONTHLY": "Month",
+    "requestedDate": "Requested date:",
+    "orderType": "Order type:",
+    "checkoutError": "Error occurred. Please contact customer support",
+    "itemsTitle": "Items to be delivered",
+    "additionalReference": "Additional reference:",
+    "orderItems": "Order iItems",
+    "quantity": "Quantity: {{count}}",
+    "reference": "Reference",
+    "orderNumber": "Order number:",
+    "review": "Review",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Replenishment order",
+    "deliveryDate": "Requested delivery date:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Delivery address",
+    "reviewOrder": "Review order",
+    "paymentDetails": "Payment details",
+    "billingTask": "Selected billing address",
+    "billingAddress": "Billing address",
+    "methodOfPayment": "Payment method",
+    "deliveryMode": "Delivery method",
+    "reviewTask": "Please review your order in the summary section",
+    "shippingTask": "Selected delivery address",
+    "invoicePayment": "Invoice payment"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Default invoice address",
+    "enteredAddress": "Entered address",
+    "selectYourInvoiceAddress": "Select your invoice address",
+    "verifyYourAddress": "Verify your address",
+    "invoiceAddress": "Invoice address",
+    "editAddress": "Edit address",
+    "chooseAddressToUse": "Please choose which address you would like to use:",
+    "shipToThisAddress": "Deliver to this address",
+    "saveAddress": "Save address",
+    "addNewAddress": "Add a new address",
+    "defaultShippingAddress": "Default delivery address",
+    "selectInvoiceAddress": "Select this address",
+    "selectYourBillingAddress": "Select your billing address",
+    "suggestedAddress": "Suggested address",
+    "billingAddress": "Billing address",
+    "selectYourShippingAddress": "Select your delivery address",
+    "shippingAddress": "Delivery address",
+    "ensureAccuracySuggestChange": "To ensure delivery accuracy, we suggest the change selected below."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Standard delivery",
+    "shippingMethod": "Shipping method",
+    "premiumDelivery": "Premium delivery"
+  },
+  "checkout": {
+    "back": "Back",
+    "invalid": {
+      "accountType": "Your account does not allow you to checkout here."
+    },
+    "backToCart": "Back to cart",
+    "continue": "Continue"
+  },
+  "loginForm": {
+    "emailAddress": {
+      "placeholder": "Enter email",
+      "label": "Email address"
+    },
+    "password": {
+      "placeholder": "Password",
+      "label": "Password"
+    },
+    "forgotPassword": "Forgot password?",
+    "wrongEmailFormat": "This is not a valid email format.",
+    "guestCheckout": "Guest checkout",
+    "signIn": "Sign in",
+    "register": "Register",
+    "dontHaveAccount": "Don’t have an account?"
+  },
+  "checkoutLogin": {
+    "emailsMustMatch": "Email does not match",
+    "emailAddress": {
+      "label": "Email address",
+      "placeholder": "Enter email"
+    },
+    "continue": "Continue",
+    "emailIsRequired": "Invalid email format",
+    "confirmEmail": {
+      "label": "Confirm email",
+      "placeholder": "Confirm email"
+    }
+  },
+  "anonymousConsents": {
+    "banner": {
+      "viewDetails": "View details",
+      "allowAll": "Allow all",
+      "title": "This website uses cookies",
+      "description": "We use cookies/browsers storage to personalize the content and improve user experience."
+    },
+    "preferences": "Consent preferences",
+    "dialog": {
+      "clearAll": "We use cookies/browsers storage to personalize the content and improve user experience. We also might share the data about your site usage with our social media. For more, please review our privacy policy.",
+      "legalDescription": "We use cookies/browsers storage to personalize the content and improve user experience. We also might share the data about your site usage with our social media. For more, please review our privacy policy.",
+      "title": "We use cookies/browsers storage to personalize the content and improve user experience. We also might share the data about your site usage with our social media. For more, please review our privacy policy.",
+      "selectAll": "We use cookies/browsers storage to personalize the content and improve user experience. We also might share the data about your site usage with our social media. For more, please review our privacy policy."
+    }
+  },
+  "forgottenPassword": {
+    "resetPassword": "Reset password",
+    "passwordResetSuccess": "Success! You can now login using your new password.",
+    "enterEmailAddressAssociatedWithYourAccount": "Enter the email address associated with your account",
+    "emailAddress": {
+      "label": "Email address",
+      "placeholder": "Enter email"
+    },
+    "enterValidEmail": "Please enter a valid email.",
+    "passwordResetEmailSent": "An email has been sent to you with information on how to reset your password."
+  },
+  "register": {
+    "titleRequired": "Title is required",
+    "newPassword": "New password",
+    "confirmThatRead": "I confirm that I have read and agree with",
+    "firstName": {
+      "label": "First name",
+      "placeholder": "First name"
+    },
+    "createAccount": "Create an account",
+    "bothPasswordMustMatch": "Both password must match",
+    "register": "Register",
+    "resetPassword": "Reset password",
+    "postRegisterMessage": "Please log in with provided credentials.",
+    "emailAddress": {
+      "placeholder": "Email address",
+      "label": "Email address"
+    },
+    "title": "Title",
+    "confirmPassword": {
+      "action": "Confirm password",
+      "placeholder": "Confirm password",
+      "label": "Confirm password"
+    },
+    "termsAndConditions": "Terms & Conditions",
+    "lastName": {
+      "label": "Last name",
+      "placeholder": "Last name"
+    },
+    "password": {
+      "placeholder": "Password",
+      "label": "Password"
+    },
+    "emailMarketing": "Use my personal data to receive e-mail newsletters for marketing campaigns. To change your settings, go to Consent Management in My Account.",
+    "managementInMyAccount": "Management in My Account.",
+    "passwordMinRequirements": "Password must be minimum six characters and contain one uppercase letter, one number, one symbol",
+    "confirmNewPassword": "Confirm new password",
+    "signIn": "I already have an account. Sign In",
+    "selectTitle": "Select title"
+  },
+  "stockNotification": {
+    "subscriptionDialog": {
+      "manageSubscriptionsLink": "My interests",
+      "notifiedPrefix": "You will be notified on:",
+      "header": "Out-of-stock subscription",
+      "manageChannelsSuffix": "Page.",
+      "manageSubscriptionsSuffix": "Page.",
+      "subscribing": "You can manage your subscriptions at",
+      "manageChannelsLink": "Notification preference",
+      "manageChannelsPrefix": "Manage your preferred notification channels at the",
+      "manageSubscriptionsPrefix": "You can manage your subscriptions at",
+      "okBtn": "OK",
+      "notifiedSuffix": "As soon as this product is back in stock."
+    },
+    "notified": "You will be notified when this product is back in stock.",
+    "getNotifySuffix": "to get notified when this product is available.",
+    "activateChannelsPrefix": "To be notified you need to activate the",
+    "activateChannelsSuffix": ".",
+    "notifyMe": "Notify me",
+    "getNotified": "Receive a notification when this product is back in stock.",
+    "stopNotify": "Stop notifications",
+    "channelsLink": "Notification channels",
+    "getNotify": "Receive a notification when this product is available.",
+    "unsubscribeSuccess": "You successfully unsubscribed from the back-in-stock notification"
+  },
+  "accordion": {
+    "features": "Features",
+    "remarks": "Remarks",
+    "dimensions": "Dimensions",
+    "productDetails": "Product details"
+  },
+  "productSummary": {
+    "preLaunchBody": "You can pre-order this item for delivery as soon as stock is available",
+    "id": "Article number",
+    "substitutesProducts": "See alternatives",
+    "availabilityCheck": {
+      "noFurtherInfoSingular": "Currently, no further information available for the remaining {{ quantity }} unit",
+      "priceTooltip": "Price shown is excluding VAT",
+      "itemsNotAvailable": "There are {{quantity}} units available on {{ date }}",
+      "itemsAvailableSingular": "There is {{quantity}} unit available on {{ date }}",
+      "itemsNotAvailableSingular": "There is {{quantity}} unit available on {{ date }}",
+      "deliveryDateInfo": "Estimated delivery date, 1 day from date of purchase. For final delivery date please refer to order history section.",
+      "noFurtherInfo": "Currently, no further information available for the remaining {{ quantity }} units",
+      "button": "Check Availability",
+      "errorMessage": "Unable to load the information at the moment, please try again later",
+      "itemsAvailable": "There are {{quantity}} units available on {{ date }}",
+      "dateTitle": "Requested delivery date"
+    },
+    "promotionTooltip": "Final discounted price will be visible in shopping cart",
+    "description": "Description",
+    "showReviews": "Show reviews",
+    "localSalesNumber": "Local ID#",
+    "share": "Share",
+    "referenceNumber": "Reference number",
+    "unrecognizedError": "Oops! We've forgotten something. Please contact our Customer Support team to order this product.",
+    "catalogPrice": "Brochure price",
+    "more": "See more",
+    "preLaunchTitle": "Pre-Launch"
+  },
+  "productList": {
+    "clearFilters": "Clear filters",
+    "listingPageSubtitle": "Prices shown are RRP ex VAT",
+    "searchResultsTitle": "{{numberOfResults}} results for \"{{query}}\"",
+    "view": "View",
+    "backToTopBtn": "BACK TO TOP",
+    "wishlist": "Favourites",
+    "discontinuedProductsFilter": "Show discontinued products",
+    "pageOf": "Page {{x}} of {{y}}",
+    "articleNumber": "Article {{fun}}",
+    "previous": "Prev",
+    "filterBy": {
+      "action": "Filter by",
+      "label": "Filter by"
+    },
+    "appliedFilter": "Applied filter:",
+    "showMoreBtn": "SHOW MORE",
+    "description": "Description",
+    "notAvailableDescription": "Spare parts and accessories can still be purchased for this product",
+    "sortByRelevance": "Sort by relevance",
+    "cart": "Cart",
+    "showMore": "Show more...",
+    "filters": "Filters",
+    "results": "Results",
+    "showLess": "Show less...",
+    "notAvailable": "Product is discontinued",
+    "next": "Next"
+  },
+  "productDetails": {
+    "noDetails": "No further details for this product. If you have any question regarding this product, please send us a message via our <u><a class=\"form\" href=\"/client-service\">Contact Us form.</a></u>",
+    "reviews": "Reviews",
+    "shipping": "Shipping",
+    "specification": "Specs",
+    "productDetails": "Product details",
+    "quantity": "Quantity",
+    "id": "ID",
+    "imageDisclaimer": "Image shown for reference only. Please see description and technical drawing for more information",
+    "showReviews": "Show reviews",
+    "share": "Share",
+    "noReviews": "No reviews yet"
+  },
+  "productReview": {
+    "overallRating": "Overall rating",
+    "more": "More",
+    "reviewerName": "Reviewer name (optional)",
+    "rating": "Rating",
+    "writeReview": "Write a review",
+    "writeYourComments": "Write your comments",
+    "less": "Less",
+    "reviewTitle": "Review title",
+    "thankYouForReview": "Thank you for the review! Note that reviews may require validation before appearing here."
+  },
+  "addToCart": {
+    "selectStyleAndSize": "Select style and size to check stock",
+    "addToCartFailed": "We are currently unable to process your order. Please contact Customer Support for assistance",
+    "itemsAddedToYourCart": "Item(s) added to your cart",
+    "items": "Items",
+    "viewCart": "View cart",
+    "inStock": "Available",
+    "quantity": "Quantity",
+    "addToCartSuccessfully": "Product added to cart successfully",
+    "itemsIncrementedInYourCart": "This item was already in your cart. Please check the quantity.",
+    "updatingCart": "Updating cart...",
+    "outOfStock": "Not available",
+    "addToCart": "Add to cart",
+    "proceedToCheckout": "Proceed to checkout"
+  },
+  "TabPanelContainer": {
+    "tabs": {
+      "ProductSpecsTabComponent": "Specs",
+      "ProductDetailsTabComponent": "Product details",
+      "ProductReviewsTabComponent": "Reviews",
+      "deliveryTab": "Shipping",
+      "ProductDownloadsTabComponent": "Downloads"
+    }
+  },
+  "alternativeProducts": {
+    "similarProductRecommendations": "Similar product recommendations",
+    "declaimer": "Note: Some characteristics of the suggested alternative products may not correspond exactly to your request. Please check carefully before proceeding.",
+    "goToProduct": "Go to product",
+    "article": "Article",
+    "showAlternativeProducts": "Show alternative products",
+    "noRecommendations": "There are no recommended alternatives for this selected product."
+  },
+  "addToWishList": {
+    "remove": "Remove from wish list",
+    "addToWishlistSuccessfully": "Product added to favourites successfully",
+    "add": "Add to favourites",
+    "addToWishlistFailed": "Add product to favourites failed! Try again.",
+    "anonymous": "Sign in to add to favourites"
+  },
+  "variant": {
+    "size": "Size",
+    "color": "Color",
+    "selectedStyle": "Selected style",
+    "style": "Style",
+    "sizeGuideLabel": "Style guide"
+  },
+  "productFacetNavigation": {
+    "appliedFilter": "Applied filter:",
+    "showMore": "Show more...",
+    "showLess": "Show less...",
+    "filterBy": {
+      "action": "Filter by",
+      "label": "Filter by"
+    },
+    "sortByRelevance": "Sort by relevance"
+  },
+  "productDownloads": {
+    "productSheet": "Product Sheet"
+  },
+  "productReferences": {
+    "id": "Article"
+  },
+  "emptyCart": {
+    "cartIsEmpty": "Your shopping cart is empty",
+    "suggestion": "Search for a product",
+    "suggestionTitle": "Suggestions :"
+  },
+  "additionalInfo": {
+    "title": "Additional information about your order",
+    "additionalReference": "Additional reference",
+    "poNumber": "Please insert your PO number or any other reference you need printed on the invoice",
+    "orderType": "Order type",
+    "orderNumber": "Reference"
+  },
+  "orderCost": {
+    "subtotalSingular": "Final Price ({{count}} Item):",
+    "orderDiscounts": "Promotion discount:",
+    "toBeDetermined": "TBD",
+    "totalCatalogPrice": "RRP exc VAT ({{count}} Items):",
+    "totalCatalogPriceSingular": "Catalog Price ({{count}} Item):",
+    "crossChannelPromo": "Cross channel promo",
+    "orderSummary": "Order summary",
+    "subtotal": "Trade price exc VAT ({{count}} Items):",
+    "discountsApplied": "{{discountMessage}} has been applied",
+    "salesTax": "VAT:",
+    "totalDiscounts": "Discounts applied",
+    "shipping": "Shipping:",
+    "crossCategoryPromo": "Cross category promo",
+    "discount": "You saved:",
+    "grossTax": "Taxes not included",
+    "mainPromoIncluded": "PROMOTIONS INCLUDED IN THE NET PRICE",
+    "total": "Total incl. VAT:",
+    "productDiscounts": "Product promotion discount:",
+    "totalNetWithoutTax": "Net Price Ex VAT:",
+    "estimatedShipping": "Delivery cost:",
+    "mainFeesIncluded": "ADDITIONAL FEES INCLUDED IN THE NET PRICE"
+  },
+  "cartItems": {
+    "discount": "Discount",
+    "checkAvailabilityInfoNoUnits": "0 units of this item available at this time. Full requested quantity available from {{ date }}",
+    "checkAvailabilityInfoSingular": "Only {{quantity}} unit of this item available at this time. Full requested quantity available from {{ date }}",
+    "unitPrice": "Unit Price:",
+    "item": "Product details",
+    "checkAvailabilityNoFurtherInfoSingular": "Currently, no further information available for the remaining {{ quantity }} unit",
+    "checkAvailabilityInfo": "Only {{quantity}} units of this item available at this time. Full requested quantity available from {{ date }}",
+    "itemPrice": "Final Price",
+    "changeQuantity": "Change quantity",
+    "cartTotal": "Cart total ({{count}} item)",
+    "funNumber": "Article:",
+    "brand": "Brand:",
+    "availability": "Availability",
+    "deliveryDate": "Requested delivery date",
+    "id": "Article",
+    "ecoTax": "Eco Tax:",
+    "quantity": "Quantity:",
+    "remove": "Remove",
+    "availabilityInfo": "Products not available can still be ordered. You will get notified, once an expected delivery date is available.",
+    "quantityTitle": "The quantity represents the total number of this item in your cart.",
+    "checkAvailabilityError": "Unable to load the information at the moment, please try again later",
+    "additionalFees": "Additional Fees:",
+    "cartTotal_plural": "Cart total ({{count}} items)",
+    "additionalFeesTooltip": "Additional fees",
+    "deliveryDateInfo": "Estimated delivery date, 1 day from date of purchase. For final delivery date please refer to order history section.",
+    "checkAvailabilityNoFurtherInfo": "Currently, no further information available for the remaining {{ quantity }} units",
+    "description": "Description",
+    "estimatedDeliveryDate": "Estimated delivery date is {{ date }}",
+    "total": "Total"
+  },
+  "voucher": {
+    "applyVoucherSuccess": "{{voucherCode}} has been applied.",
+    "apply": "Apply",
+    "coupon_plural": "Promo codes",
+    "availableCouponsLabel": "You can add these promo codes to this order.",
+    "placeholder": "Promo code",
+    "availableCoupons": "Available promo codes",
+    "removeVoucherSuccess": "{{voucherCode}} has been removed.",
+    "vouchersApplied": "Applied promo codes",
+    "coupon": "Do you have a promo code?",
+    "anchorLabel": "Enter or remove your promo code"
+  },
+  "cartAlternativeProducts": {
+    "checkAlternativeProducts": "Check alternative products",
+    "replaceCartItem": "Replace cart item with this product",
+    "cartItemReplacedSuccessfully": "Product replaced successfully!",
+    "cartItemReplacedError": "An error happened! The product could not be replaced, please try again."
+  },
+  "saveForLaterItems": {
+    "itemTotal_plural": "Saved for later ({{count}} items)",
+    "stock": "Stock",
+    "cartTitle": "Cart",
+    "saveForLater": "Save for later",
+    "moveToCart": "Move to cart",
+    "forceInStock": "Available",
+    "itemTotal": "Saved for later ({{count}} item)"
+  },
+  "cartDetails": {
+    "cartName": "Cart #{{code}}",
+    "continueShopping": "Continue shopping",
+    "proceedToCheckout": "Proceed to checkout",
+    "id": "ID"
+  },
+  "dashboard": {
+    "ticketHistoryCreatedBy": "Created by: {{name}}",
+    "invoiceAddressesTitle": "Invoice Addresses",
+    "noStatistics": "No statistics at the moment",
+    "openReturns": "Open Returns",
+    "ticketHistoryStatusCompleted": "Completed",
+    "ticketHistoryTitle": "Ticket History",
+    "deliveryAddressesTitle": "Delivery Addresses",
+    "analyticsTab": "Analytics",
+    "openOrders": "Open Orders",
+    "ticketHistoryStatusOpen": "Open",
+    "netTurnover": "Net turnover",
+    "ticketHistoryLastUpdate": "Last update: {{date}}",
+    "ticketHistoryLastUpdateBy": "Last update by: {{name}}",
+    "turnoverLastYear": "Last year turnover",
+    "ticketHistoryStatusInProcess": "In Process",
+    "openOrdersEndOfYear": "Open orders till end of year",
+    "ticketHistoryStatusClosed": "Closed",
+    "ticketHistoryCode": "ID: {{code}}",
+    "ticketHistoryCreated": "Created: {{date}}",
+    "noTicketHistory": "No ticket history at the moment"
+  },
+  "myInterests": {
+    "sortByMostRecent": "Sort by most recent",
+    "lowStock": "Low stock",
+    "header": "My interests",
+    "expirationDate": "Valid until {{ expirationDate }}",
+    "sorting": {
+      "byNameDesc": "Name (descending)",
+      "byNameAsc": "Name (ascending)"
+    },
+    "noInterests": "You have no registered interests yet.",
+    "notifications": "Notifications",
+    "outOfStock": "Not available",
+    "BACK_IN_STOCK": "Back in stock",
+    "price": "Price",
+    "remove": "Remove",
+    "productId": "ID {{ code }}",
+    "inStock": "Available",
+    "item": "Item"
+  },
+  "returnRequestList": {
+    "date": "Date created",
+    "sortByMostRecent": "Sort by most recent",
+    "statusDisplay_APPROVING": "Approving",
+    "status": "Status",
+    "statusDisplay_COMPLETED": "Completed",
+    "statusDisplay_CANCELLING": "Cancelling",
+    "statusDisplay_WAIT": "Wait",
+    "statusDisplay_PAYMENT_REVERSED": "Payment reversed",
+    "statusDisplay_RECEIVED": "Received",
+    "statusDisplay_TAX_REVERSAL_FAILED": "Tax reversal failed",
+    "statusDisplay_RECEIVING": "Receiving",
+    "statusDisplay_APPROVAL_PENDING": "Approval pending",
+    "statusDisplay_PAYMENT_REVERSAL_FAILED": "Payment reversal failed",
+    "statusDisplay_REVERSING_PAYMENT": "Reversing payment",
+    "returnRequestId": "Return #",
+    "statusDisplay_TAX_REVERSED": "Tax reversed",
+    "statusDisplay_REVERSING_TAX": "Reversing tax",
+    "statusDisplay_CANCELED": "Cancelled",
+    "orderId": "Order #"
+  },
+  "updateProfileForm": {
+    "parentCompany": "Parent company",
+    "lastName": {
+      "placeholder": "Surname",
+      "label": "Surname"
+    },
+    "none": "none",
+    "firstName": {
+      "label": "First name",
+      "placeholder": "First name"
+    },
+    "lastNameIsRequired": "Surname is required",
+    "title": "title",
+    "email": "Your email",
+    "profileUpdateSuccess": "Personal details successfully updated",
+    "customerNumber": "Customer number",
+    "customerId": "Customer #",
+    "firstNameIsRequired": "First name is required"
+  },
+  "returnRequest": {
+    "estimatedRefund": "Estimated refund",
+    "summary": "Return totals",
+    "cancelSuccess": "Your return request ({{rma}}) was cancelled",
+    "itemPrice": "Item price",
+    "deliveryCode": "Delivery cost",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "cancel": "Cancel return request",
+    "returnQty": "Return quantity",
+    "note": "The totals are estimated and may not include applicable taxes or other charges.",
+    "status": "Return status",
+    "returnRequestId": "Return request #",
+    "item": "Description",
+    "orderCode": "For order #"
+  },
+  "closeAccount": {
+    "confirmAccountClosureMessage": "Are you sure you want to close your account?",
+    "accountClosedFailure": "Failed to close account",
+    "closeMyAccount": "Close my account",
+    "accountClosedSuccessfully": "Account closed successfully",
+    "confirmAccountClosure": "Confirm account closure"
+  },
+  "notificationCenter": {
+    "noNotifications": "Currently there are no notifications",
+    "backInStockNotificationMessage": "The product is back in stock",
+    "notificationMessage": "The delivery date of one or more items of your order has changed.",
+    "productNumber": "Product {{productCode}}",
+    "emailNotifications": "Receive an email when an order delivery date is updated",
+    "orderNumber": "Order {{orderNumber}}",
+    "notifications": "Notifications"
+  },
+  "updateEmailForm": {
+    "password": {
+      "placeholder": "Enter password",
+      "label": "Password"
+    },
+    "enterValidEmail": "Please enter a valid email",
+    "emailUpdateSuccess": "Accepted. Please sign in with {{ newUid }}",
+    "confirmNewEmailAddress": {
+      "label": "Confirm new email address",
+      "placeholder": "Enter email"
+    },
+    "newEmailAddress": {
+      "placeholder": "Enter email",
+      "label": "New email address"
+    },
+    "pleaseInputPassword": "Please enter password",
+    "bothEmailMustMatch": "Both emails must match"
+  },
+  "menu": {
+    "addressBook": "Address book",
+    "orders": "Order History",
+    "profile": "Profile",
+    "email": "Email",
+    "signOut": "Sign out",
+    "password": "Password",
+    "dashboard": "Dashboard",
+    "wishlist": "Wishlist"
+  },
+  "consentManagementForm": {
+    "clearAll": "Clear all",
+    "message": {
+      "success": {
+        "withdrawn": "Consent successfully withdrawn.",
+        "given": "Consent successfully given."
+      }
+    },
+    "selectAll": "Select all"
+  },
+  "updatePasswordForm": {
+    "oldPassword": {
+      "label": "Old password",
+      "placeholder": "Old password"
+    },
+    "oldPasswordIsRequired": "Old password is required.",
+    "passwordUpdateSuccess": "Password updated successfully",
+    "newPassword": {
+      "label": "New password",
+      "placeholder": "New password"
+    },
+    "confirmPassword": {
+      "placeholder": "Confirm password",
+      "label": "Confirm new password"
+    },
+    "passwordMinRequirements": "Password must be minimum six characters and contain one uppercase letter, one number, one symbol",
+    "bothPasswordMustMatch": "Both password must match"
+  },
+  "myCoupons": {
+    "endDateAsc": "End date (ascending)",
+    "sortByMostRecent": "Sort by most recent",
+    "startDateDesc": "Start date (descending)",
+    "status": "Status:",
+    "notesSuffix": "page.",
+    "findProducts": "Find products",
+    "effectiveTitle": "Effective:",
+    "ExpireSoon": "EXPIRING SOON",
+    "PreSession": "EFFECTIVE SOON (Valid from ....)?",
+    "startDateAsc": "Start date (ascending)",
+    "claimCustomerCoupon": "You have successfully redeemed this promo code.",
+    "notesPreffix": "You can set your preferred channels for receiving promo notifications on the .......",
+    "dialogTitle": "Promo code",
+    "readMore": "Read more",
+    "endDateDesc": "End date (descending)",
+    "myCoupons": "My promo codes",
+    "notification": "Notification",
+    "Effective": "EFFECTIVE (applied / valid)",
+    "notesLink": "Notification channels",
+    "noCouponsMessage": "You have no promo codes available."
+  },
+  "notificationPreference": {
+    "SITE_MESSAGE": "SiteMessage",
+    "noteMessage": "If you deactivate all channels you will not be able to receive any further notifications.",
+    "note": "Note:",
+    "EMAIL": "Email:",
+    "SMS": "SMS:",
+    "message": "Select your preferred notification channels"
+  },
+  "AccountOrderHistoryTabContainer": {
+    "tabs": {
+      "AccountOrderHistoryComponent": "All orders ({{param}})",
+      "OrderReturnRequestListComponent": "Returns ({{param}})"
+    }
+  },
+  "searchBox": {
+    "resultsFor": "Showing results for:",
+    "help": {
+      "empty": "Type in your query",
+      "insufficientChars": "Please type more characters",
+      "noMatch": "We could not find any results",
+      "exactMatch": "{{ term }}"
+    },
+    "searchBarMobileText": "Search for products",
+    "more": "More",
+    "results": "Results",
+    "searchBarText": "Search for products, colour, material",
+    "placeholder": "Search here...",
+    "allResults": "All results"
+  },
+  "pageMetaResolver": {
+    "product": {
+      "title": "{{title}}",
+      "heading": "{{heading}}",
+      "description": "{{description}}"
+    },
+    "checkout": {
+      "title": "Checkout {{count}} item",
+      "title_plural": "Checkout {{count}} items"
+    },
+    "search": {
+      "findProductTitle_plural": "{{count}} results for promo codes \"{{coupon}}\"",
+      "title": "{{count}} result for \"{{query}}\"",
+      "title_plural": "{{count}} results for \"{{query}}\"",
+      "findProductTitle": "{{count}} result for promo code \"{{coupon}}\""
+    },
+    "category": {
+      "title_plural": "{{count}} results for {{query}}",
+      "title": "{{count}} result for {{query}}"
+    }
+  },
+  "breadcrumbs": {
+    "dashboardPage": {
+      "dashboardPageTitle": "Dashboard",
+      "dashboardPageSubTitle": "All the data about your business"
+    },
+    "checkoutPageTitle": "Checkout",
+    "orderConfirmationPageTitle": "Order confirmation",
+    "addressBookPageTitle": "Address book",
+    "listingPage": {
+      "listingPageSubTitle": "Prices shown are brochure prices",
+      "searchPageTitle": "Showing results for \"{{query}}\""
+    },
+    "orderHistoryPageTitle": "Order history",
+    "profilePageTitle": "My account",
+    "privacyPageTitle": "Privacy and Cookie Policy",
+    "imprintPageTitle": "Imprint",
+    "bundlesPageTitle": "Packs",
+    "outletPageTitle": "Outlets",
+    "shoppingCartPageTitle": "Your basket",
+    "wishlistPageTitle": "Favourites",
+    "termsPageTitle": "Terms and Conditions",
+    "promotionPageSubTitle": "Final discounted price will be visible in shopping cart",
+    "promotion": "Promotion"
+  },
+  "common": {
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "connected": "Connected",
+    "noData": "No data",
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "remove": "Remove",
+    "offline": "Offline",
+    "home": "Home",
+    "submit": "Submit",
+    "done": "Done",
+    "other": "Other",
+    "back": "Back",
+    "online": "Online"
+  },
+  "httpHandlers": {
+    "sessionExpired": "Your session has expired. Please login again.",
+    "validationErrors": {
+      "missing": {
+        "card_cardType": "The selected credit card is not supported. Please select another.",
+        "billTo_street1": "The address entered is not valid.",
+        "billTo_state": "The state/province entered is not valid for this credit card.",
+        "billTo_firstName": "The first name entered is not valid.",
+        "billTo_street2": "The address entered is not valid.",
+        "card_expirationYear": "The credit card expiry date entered is not valid.",
+        "billTo_city": "The city entered is not valid for this credit card.",
+        "card_cvNumber": "The security code entered is not valid.",
+        "billTo_country": "The country entered is not valid for this credit card.",
+        "card_expirationMonth": "The credit card expiry date entered is not valid.",
+        "card_accountNumber": "The credit card number entered is not valid.",
+        "billTo_lastName": "The surname entered is not valid.",
+        "billTo_postalCode": "The postcode is not valid for this credit card.",
+        "country": {
+          "isocode": "Missing country"
+        }
+      },
+      "invalid": {
+        "code": "Code is not valid.",
+        "uid": "UID is not valid.",
+        "firstName": "First name entered is not valid.",
+        "password": "Password entered is not valid.",
+        "card_expirationMonth": "The credit card expiry date entered is not valid.",
+        "lastName": "Surname entered is not valid."
+      }
+    },
+    "cartNotFound": "Cart not found.",
+    "conflict": "Already exists",
+    "unauthorized": {
+      "invalid_client": "Invalid client credentials",
+      "common": "An unknown authorization error occured"
+    },
+    "badGateway": "A server error occurred. Please try again later.",
+    "unknownError": "An unknown error occurred",
+    "gatewayTimeout": "The server did not respond, please try again later.",
+    "badRequestPleaseLoginAgain": "{{ errorMessage }}. Please login again.",
+    "forbidden": "You are not authorized to perform this action. Please contact your administrator.",
+    "badRequestOldPasswordIncorrect": "Old password incorrect.",
+    "internalServerError": "An internal server error occurred. Please try again later.",
+    "invalidCodeProvided": "Invalid code provided."
+  },
+  "navigation": {
+    "shopAll": "Shop all {{ navNode}} >"
+  },
+  "carousel": {
+    "button": "Browse all"
+  },
+  "formErrors": {
+    "cxInvalidPassword": "This is not a valid password format",
+    "date": {
+      "invalid": "Please use a valid date",
+      "required": "This field is required",
+      "max": "Date cannot be after {{max}}",
+      "min": "Date cannot be before {{min}}",
+      "pattern": "Use date format yyyy-mm-dd"
+    },
+    "globalMessage": "The form you are trying to submit contains errors.",
+    "cxInvalidEmail": "This is not a valid email format",
+    "cxNoSelectedItemToCancel": "Select at least one item",
+    "cxEmailsMustMatch": "Email fields must match",
+    "cxPasswordsMustMatch": "Passwords must match",
+    "cxNegativeAmount": "Amount must be equal to or greater than zero",
+    "required": "This field is required",
+    "cxContainsSpecialCharacters": "Field cannot contain special characters",
+    "cxStarRatingEmpty": "Rating field is required"
+  },
+  "errorHandlers": {
+    "refreshThePage": "Please refresh the page.",
+    "loadPage": "An error occurred. You will be redirected to the login page in 5 seconds! Sorry about that.",
+    "scriptFailedToLoad": "Failed to load the script."
+  },
+  "skipLink": {
+    "labels": {
+      "footer": "Footer",
+      "productList": "Product list",
+      "header": "Header",
+      "productFacets": "Product portfolio",
+      "main": "Main Content"
+    },
+    "skipTo": "Skip to"
+  },
+  "miniCart": {
+    "count": "{{count}}",
+    "total": "{{total}}",
+    "item": "{{count}} item currently in your cart",
+    "item_plural": "{{count}} items currently in your cart"
+  },
+  "miniLogin": {
+    "signInRegister": "Sign In / Register",
+    "userGreeting": "Hi, {{name}}"
+  },
+  "sorting": {
+    "rma": "Return number",
+    "replenishmentNumber": "Replenishment number",
+    "orderNumber": "Order number",
+    "date": "Date",
+    "nextOrderDate": "Next order date"
+  },
+  "spinner": {
+    "loading": "Loading..."
+  },
+  "orderDetails": {
+    "tracking": {
+      "noTrackingNumber": "No Tracking Available",
+      "trackingNumber": "Tracking Number",
+      "itemStatus": {
+        "pickedUp": "Picked up",
+        "partiallyPickedUp": "Partially picked up",
+        "delivered": "Delivered",
+        "exception": "Exception"
+      },
+      "quantity": "Quantity",
+      "deliveryStatus": {
+        "inProcess": "In Process",
+        "delivered": "Delivered"
+      },
+      "deliveryType": "Delivery Type",
+      "status": "Status",
+      "noTrackingResults": "No delivery information available at the moment.",
+      "deliveryNumber": "Delivery No {{code}}",
+      "product": "Product"
+    },
+    "consignmentTracking": {
+      "dialog": {
+        "carrier": "Delivery service",
+        "header": "Tracking information",
+        "shipped": "Shipped",
+        "trackingId": "Tracking number",
+        "estimate": "Estimated delivery",
+        "loadingHeader": "Consignment tracking",
+        "noTracking": "The package has not been dispatched from the warehouse. The tracking information will be available after the package is shipped."
+      },
+      "action": "Track order"
+    },
+    "purchaseOrderId": "Purchase Order #",
+    "unit": "Unit",
+    "deliveryStatus_READY_FOR_PICKUP": "Ready for pickup",
+    "statusE": "Shipped",
+    "cancellationAndReturn": {
+      "item": "Item",
+      "itemPrice": "Item price",
+      "cancelAction": "Cancel items",
+      "cancelQty": "Quantity to cancel",
+      "cancelSuccess": "Your cancellation request was submitted (original order {{orderCode}} will be updated)",
+      "setAll": "Set all quantities to maximum",
+      "returnSuccess": "Your return request ({{rma}}) was submitted",
+      "returnAction": "Request a return",
+      "totalPrice": "Total",
+      "returnQty": "Quantity to return",
+      "submit": "Submit request",
+      "quantity": "Max quantity"
+    },
+    "statusDisplay_open": "Open",
+    "deliveryStatus_READY": "In process",
+    "funColumn": "Article",
+    "invoices": "Invoices",
+    "cancelReplenishment": {
+      "description": "Cancel any future replenishment order?",
+      "title": "Cancel replenishment",
+      "reject": "No",
+      "accept": "Yes",
+      "cancelSuccess": "Replenishment order #{{replenishmentOrderCode}} has been successfully cancelled"
+    },
+    "deliveryStatus_DELIVERING": "Dispatched",
+    "statusF": "Delivered",
+    "status": "Status",
+    "costCenterAndUnit": "Cost Center / Unit",
+    "placedBy": "Placed by",
+    "deliveryStatus_PICKUP_COMPLETE": "Pickup complete",
+    "brandColumn": "Brand",
+    "orderId": "Order #",
+    "deliveryStatus_DELIVERY_REJECTED": "Delivery rejected",
+    "alternativeProducts": {
+      "replaceAction": "Replace order item",
+      "areYouSure": "Are you sure you want to replace this order item?",
+      "cancelAction": "Cancel",
+      "article": "Article FUN",
+      "productReplacedError": "An error happened! The product could not be replaced, please try again.",
+      "productReplacedSuccessfully": "Product replaced successfully!",
+      "productReplacementTitle": "Product replacement",
+      "checkAlternativeProducts": "Show alternative products",
+      "replaceOrderItem": "Replace order entry with this product",
+      "newPrice": "New price"
+    },
+    "notAvailableOnRequestDate": "No availability for the requested date",
+    "statusDisplay_cancelling": "Cancel pending",
+    "costCenterAndUnitValue": "{{costCenterName}} / {{unitName}}",
+    "deliveryStatus_PICKPACK": "Preparing for shipping",
+    "statusDisplay_cancelled": "Cancelled",
+    "statusDisplay_merchant": {
+      "approved": "Merchant approved",
+      "rejected": "Merchant rejected"
+    },
+    "descriptionColumn": "Description",
+    "statusDisplay_approved": "Approved",
+    "statusCC": "Completed",
+    "statusDisplay_error": "Pending",
+    "statusColumn": "Status",
+    "costCenter": "Cost Center",
+    "shippedOn": "Shipped on",
+    "expectedDeliveryDateColumn": "Original Delivery Date",
+    "productColumn": "Product",
+    "tabs": {
+      "deliveries": "Deliveries",
+      "order": "Order {{orderNumber}}"
+    },
+    "materialColumn": "Material",
+    "statusDisplay_pending": {
+      "merchant": {
+        "approval": "Pending merchant approval"
+      },
+      "approval": "Pending approval"
+    },
+    "deliveryStatus_PAYMENT_NOT_CAPTURED": "Payment issue",
+    "payByAccount": "Pay by Account",
+    "deliveryStatus_READY_FOR_SHIPPING": "Ready for shipping",
+    "deliveryStatus_TAX_NOT_COMMITTED": "Tax Issue",
+    "deliveryStatus_WAITING": "Pending",
+    "statusC": "Delivery Created",
+    "replenishmentId": "Replenishment #",
+    "cancelled": "Cancelled",
+    "statusDisplay_created": "Created",
+    "statusDisplay_rejected": "Rejected",
+    "none": "None {{value}}",
+    "statusDisplay_processing": "Pending",
+    "placed": "Placed",
+    "statusAA": "Open",
+    "paidByCreditCard": "(Paid by credit card)",
+    "deliveryStatus_CANCELLED": "Cancelled",
+    "statusD": "Picked",
+    "frequency": "Frequency",
+    "deliveryStatus_IN_TRANSIT": "In transit",
+    "deliveryStatus_DELIVERY_COMPLETED": "Delivery complete",
+    "startOn": "Start On",
+    "statusDD": "Canceled",
+    "quantityColumn": "Quantity",
+    "statusDisplay_Error": "Pending",
+    "brandMissing": "No brand",
+    "nextOrderDate": "Next order date",
+    "priceColumn": "Single Price",
+    "statusBB": "Partially Delivered",
+    "emptyPurchaseOrderId": "None",
+    "deliveryStatus_SHIPPED": "Shipped",
+    "statusDisplay_assigned": {
+      "admin": "Assigned to administrator"
+    },
+    "statusDisplay_completed": "Completed",
+    "statusA": "Order Acknowledged",
+    "returnToOrdersButton": "Back to orders",
+    "confirmedDeliveryDateColumn": "Expected Delivery Date",
+    "statusB": "Order Confirmed"
+  },
+  "orderHistory": {
+    "purchaseOrderNumberColumn": "Purchase order number",
+    "sortByMostRecent": "Sort by most recent",
+    "statusPlaceholder": "Status",
+    "noOrdersFilter": "No matches found.",
+    "deliveryDateColumn": "Expected delivery date",
+    "past12months": "12 Months",
+    "startShopping": "Start shopping",
+    "date": "Date",
+    "orderChannelColumn": "Channel",
+    "orderNumberFilter": "Order number:",
+    "noOrders": "We have no orders for this account.",
+    "frequency": "Frequency",
+    "noReplenishmentOrders": "We have no replenishment order records for this account.",
+    "startOn": "Start on",
+    "nextOrderDate": "Next order date",
+    "invoice": "Invoice",
+    "lastOrders": "Showing orders for the past:",
+    "cancel": "Cancel",
+    "statusF": "Delivered",
+    "status": "Status",
+    "statusB": "Order Confirmed",
+    "orderStatusFilter": "Status:",
+    "orderReferencePlaceholder": "Reference",
+    "emptyPurchaseOrderId": "None",
+    "statusCC": "Completed",
+    "pageOfPages": "Page {{page}} of {{pageCount}}",
+    "statusBB": "Confirmed",
+    "previousPage": "Prev",
+    "statusE": "Shipped",
+    "replenishmentHistory": "Replenishment history",
+    "orderReferenceColumn": "Reference",
+    "orderHistory": "Order history",
+    "notFound": "No orders found",
+    "invoiceType": "Invoice Type",
+    "orderId": "Order #",
+    "statusAA": "Acknowledged",
+    "total": "Total",
+    "cancelled": "Cancelled",
+    "statusColumn": "Status",
+    "returns": "Returns",
+    "statusC": "Delivery Created",
+    "past6months": "6 Months",
+    "creditNotes": "Credit Notes",
+    "replenishmentOrderHistory": "Replenishment order history",
+    "allOrdersTab": "ALL ORDERS ({{count}})",
+    "replenishmentOrderId": "Replenishment #",
+    "orderType": "Order Type:",
+    "orderReferenceFilter": "Reference:",
+    "orders": "Orders",
+    "nextPage": "Next",
+    "valueColumn": "Value",
+    "purchaseOrderNumber": "PO #",
+    "orderNumberColumn": "Order number",
+    "dateFilter": "Date:",
+    "past3months": "3 Months",
+    "statusA": "Order Acknowledged",
+    "past9months": "9 Months",
+    "orderAdditionalReferenceColumn": "Additional Reference",
+    "quotes": "Quotes",
+    "statusD": "Picked"
+  },
+  "orderInvoices": {
+    "orderType": {
+      "value": "{{ orderTypeValue }}"
+    },
+    "invoiceNumberColumn": "Invoice Number",
+    "amountColumn": "Amount",
+    "referenceColumn": "Reference",
+    "purchaseOrderColumn": "Purchase Order",
+    "nameColumn": "Name",
+    "pdfColumn": "PDF",
+    "lineItemColumn": "Line Item",
+    "downloadPDF": "PDF",
+    "noInvoices": "No invoices found",
+    "invoices": "Invoices ({{count}})",
+    "invoiceNumberFilter": "Invoice number:",
+    "documentDateColumn": "Date",
+    "taxAmountColumn": "Tax Amount",
+    "orderNumberColumn": "Order Number",
+    "textColumn": "Text",
+    "noInvoicesFilter": "No matches found."
+  }
+}

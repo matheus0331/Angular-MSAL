@@ -1,0 +1,42 @@
+{
+  "paymentMethods": {
+    "invalidField": "InvalidField: {{ field }}",
+    "newPaymentMethodsAreAddedDuringCheckout": "New payment methods are added during checkout.",
+    "paymentMethods": "Payment methods"
+  },
+  "paymentForm": {
+    "useThisPayment": "Use this payment",
+    "accountHolderName": {
+      "label": "Account holder name",
+      "placeholder": "Account holder name"
+    },
+    "securityCode": "Security code (CVV)",
+    "monthMask": "MM",
+    "yearMask": "YYYY",
+    "billingAddress": "Billing address",
+    "setAsDefault": "Set as default",
+    "saveAsDefault": "Save as default",
+    "selectOne": "Select one...",
+    "sameAsShippingAddress": "Same as delivery address",
+    "choosePaymentMethod": "Choose a payment method",
+    "cardNumber": "Card number",
+    "expirationDate": "Expiry date",
+    "payment": "Payment",
+    "addNewPayment": "Add new payment",
+    "paymentType": "Payment type",
+    "changePayment": "Change payment",
+    "securityCodeTitle": "Card Verification Value"
+  },
+  "paymentTypes": {
+    "title": "Payment method",
+    "paymentType_ACCOUNT": "Account",
+    "paymentType_CARD": "Credit/debit card"
+  },
+  "paymentCard": {
+    "expires": "Expires: {{ month }}/{{ year }}",
+    "setAsDefault": "Set as default",
+    "defaultPaymentMethod": "✓ DEFAULT",
+    "selected": "Selected",
+    "deleteConfirmation": "Are you sure you want to delete this payment method?"
+  }
+}

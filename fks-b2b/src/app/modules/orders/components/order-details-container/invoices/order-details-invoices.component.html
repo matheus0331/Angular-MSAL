@@ -1,0 +1,162 @@
+<form>
+  <div class="container">
+    <div *ngIf="invoicesListLoaded$ | async; else loading">
+      <div *ngIf="hasInvoices$ | async; else noInvoices">
+        <div class="invoice-filters">
+          <div class="filter-wrapper">
+            <div class="filter-title">
+              {{ 'orderInvoices.invoiceNumberFilter' | cxTranslate }}
+            </div>
+            <input
+              [(ngModel)]="service.searchInvoiceNumber"
+              class="filter-invoice-number"
+              name="searchInvoiceNumber"
+              placeholder="P01233454655657"
+              type="text"
+            />
+          </div>
+        </div>
+        <div class="table-wrapper">
+          <table class="table">
+            <thead class="table-header">
+            <tr>
+              <th
+                (sort)="onSort($event)"
+                class="column-invoice-number"
+                scope="col"
+                sortable="invoiceNumber"
+              >
+                {{ 'orderInvoices.invoiceNumberColumn' | cxTranslate }}
+              </th>
+              <th
+                (sort)="onSort($event)"
+                class="column-document-date"
+                scope="col"
+                sortable="documentDate"
+              >
+                {{ 'orderInvoices.documentDateColumn' | cxTranslate }}
+              </th>
+              <th
+                (sort)="onSort($event)"
+                class="column-reference"
+                scope="col"
+                sortable="reference"
+              >
+                {{ 'orderInvoices.referenceColumn' | cxTranslate }}
+              </th>
+              <th
+                (sort)="onSort($event)"
+                class="column-amount"
+                scope="col"
+                sortable="amount"
+              >
+                {{ 'orderInvoices.amountColumn' | cxTranslate }}
+              </th>
+              <th
+                (sort)="onSort($event)"
+                class="column-order-number"
+                scope="col"
+                sortable="orderNumber"
+              >
+                {{ 'orderInvoices.orderNumberColumn' | cxTranslate }}
+              </th>
+              <th
+                (sort)="onSort($event)"
+                class="column-purchase-order"
+                scope="col"
+                sortable="purchaseOrder"
+              >
+                {{ 'orderInvoices.purchaseOrderColumn' | cxTranslate }}
+              </th>
+              <th class="column-pdf" scope="col">
+                {{ 'orderInvoices.pdfColumn' | cxTranslate }}
+              </th>
+            </tr>
+            </thead>
+            <tbody class="table-body">
+            <tr
+              *ngFor="let invoice of orderInvoices$ | async"
+              class="invoice"
+            >
+              <td class="row-invoice-number">
+                <ngb-highlight
+                  [result]="invoice.invoiceNumber"
+                  [term]="service.searchInvoiceNumber"
+                ></ngb-highlight>
+              </td>
+              <td class="row-document-date">
+                <div *ngIf="invoice.date">
+                  <ngb-highlight
+                    [result]="
+                          invoice.date[2] +
+                          '/' +
+                          invoice.date[1] +
+                          '/' +
+                          invoice.date[0]
+                        "
+                  ></ngb-highlight>
+                </div>
+              </td>
+              <td class="row-reference">
+                <ngb-highlight [result]="invoice.invoiceNumber"></ngb-highlight>
+              </td>
+              <td class="row-amount">
+                <ngb-highlight
+                  [result]="invoice.netValue + ' ' + invoice.currency"
+                ></ngb-highlight>
+              </td>
+              <td class="row-order-number">
+                <ngb-highlight [result]="currentOrderCode"></ngb-highlight>
+              </td>
+              <td class="row-purchase-order">
+                <ngb-highlight
+                  [result]="invoice.purchaseOrder"
+                ></ngb-highlight>
+              </td>
+              <td class="row-pdf">
+                <a (click)="getPDF(invoice.invoiceNumber)">
+                  <cx-icon type="DOCUMENT"></cx-icon>
+                  {{ 'orderInvoices.downloadPDF' | cxTranslate }}
+                </a>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div
+          *ngIf="(orderInvoices$ | async).length > 0"
+          class="products-pagination"
+        >
+          <app-orders-pagination
+            [(page)]="service.page"
+            [collectionSize]="(total$ | async)!"
+            [ellipses]="false"
+            [maxSize]="5"
+            [rotate]="true"
+          ></app-orders-pagination>
+        </div>
+      </div>
+    </div>
+
+    <ng-template #loading>
+      <div class="cx-spinner">
+        <cx-spinner></cx-spinner>
+      </div>
+    </ng-template>
+    <ng-template #noInvoices>
+      <div *ngIf="(total$ | async) === 0">
+        <h3>{{ 'orderInvoices.noInvoices' | cxTranslate }}</h3>
+      </div>
+    </ng-template>
+
+    <div *ngIf="(orderInvoices$ | async).length < 1">
+      <div
+        *ngIf="service.searchInvoiceNumber.length > 0"
+        class="no-invoices-filter"
+      >
+        <h3>{{ 'orderInvoices.noInvoicesFilter' | cxTranslate }}</h3>
+      </div>
+    </div>
+  </div>
+</form>

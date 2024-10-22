@@ -1,0 +1,24 @@
+.choped-background {
+  @media only screen and (min-width: 768px) {
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+    background: var(--section-bg-color);
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    max-height: 400px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    max-height: 600px;
+  }
+}
+
+app-franke-banner-right,
+app-franke-banner-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

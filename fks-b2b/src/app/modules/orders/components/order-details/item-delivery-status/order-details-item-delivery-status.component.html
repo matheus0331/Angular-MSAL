@@ -1,0 +1,9 @@
+<td class="row-no-availability" colspan="8">
+  <div *ngIf="showDeliveryStatus && showAlternativesInOrderHistory" class="content">
+    <span class="info">{{
+      'orderDetails.notAvailableOnRequestDate' | cxTranslate
+      }}</span>
+    <app-order-detail-alternative-products-overlay-button [order]="order">
+    </app-order-detail-alternative-products-overlay-button>
+  </div>
+</td>

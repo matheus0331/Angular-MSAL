@@ -1,0 +1,56 @@
+.steps-wrappper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 16px 0;
+  margin: 0;
+  justify-content: space-between;
+  border-bottom: 0.7px solid var(--grey);
+
+  .step {
+    font-weight: var(--font-weight-base);
+    font-size: var(--franke-small-font-size);
+    line-height: 25px;
+    text-transform: uppercase;
+    display: flex;
+
+    a {
+      display: flex;
+      align-items: center;
+
+      .step-icon {
+        margin-right: 16px;
+        padding-bottom: 4px;
+      }
+    }
+  }
+
+  .active {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+  .disabled {
+    color: var(--grey);
+    pointer-events: none;
+  }
+
+  .step-done {
+    text-decoration: none;
+    color: var(--grey);
+
+    &:hover {
+      .step-icon cx-icon {
+        color: var(--text-color);
+      }
+
+      color: var(--text-color);
+    }
+  }
+}
+
+.step-task {
+  color: var(--grey);
+  font-size: var(--franke-font-size-base);
+  padding: 9px 0 9px 40px;
+  border-bottom: 0.7px solid var(--grey);
+}

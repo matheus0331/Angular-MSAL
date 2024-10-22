@@ -1,0 +1,122 @@
+<!-- TODO: user UI without authentication -->
+
+<div *ngIf="isDesktop$ | async; else nonDesktop" class="user-panel">
+  <div (click)="toggleMenu()" class="user">
+    <ng-container *ngIf="user$ | async as user">
+      <div class="cx-login-greet">
+        <p>
+          {{ 'miniLogin.userGreeting' | cxTranslate: {name: user.firstName} }}
+        </p>
+      </div>
+    </ng-container>
+    <app-user-navigation class="user-panel-icon"></app-user-navigation>
+  </div>
+
+  <app-notification-center class="user-panel-icon"></app-notification-center>
+
+  <a
+    [routerLink]="{ cxRoute: 'wishlist' } | cxUrl"
+    class="user-panel-icon"
+    role="link"
+  >
+    <cx-icon type="WISHLIST"></cx-icon>
+  </a>
+</div>
+
+<ng-template #nonDesktop>
+  <div class="user-panel container">
+    <div (click)="toggleMenu()" class="user">
+      <ng-container *ngIf="user$ | async as user">
+        <div class="cx-login-greet">
+          <p>
+            {{
+            'miniLogin.userGreeting' | cxTranslate: {name: user.firstName}
+            }}
+          </p>
+        </div>
+      </ng-container>
+      <app-user-navigation class="user-panel-icon"></app-user-navigation>
+    </div>
+    <div class="notification-center">
+      <app-notification-center
+        class="user-panel-icon"
+      ></app-notification-center>
+    </div>
+  </div>
+</ng-template>
+
+<ng-template [ngIf]="isMenuOpen$ | async">
+  <div class="menu">
+    <div *ngIf="(isDesktop$ | async) === false" class="top-part">
+      <div (click)="toggleMenu()" class="close-menu">
+        <cx-icon class="large" type="CHEVRON_LEFT"></cx-icon>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <a
+        (click)="toggleMenu()"
+        [routerLink]="{ cxRoute: 'dashboard' } | cxUrl"
+        role="link"
+      >
+        <cx-icon type="DASHBOARD"></cx-icon>
+        <p>{{ 'menu.dashboard' | cxTranslate }}</p>
+      </a>
+      <div *ngIf="(isDesktop$ | async) === false" class="chevron-icon">
+        <cx-icon type="CHEVRON_RIGHT"></cx-icon>
+      </div>
+    </div>
+
+    <div *ngIf="(isDesktop$ | async) === false" class="menu-item">
+      <a
+        (click)="toggleMenu()"
+        [routerLink]="{ cxRoute: 'wishlist' } | cxUrl"
+        role="link"
+      >
+        <cx-icon type="WISHLIST"></cx-icon>
+        <p>{{ 'menu.wishlist' | cxTranslate }}</p>
+      </a>
+      <div class="chevron-icon">
+        <cx-icon type="CHEVRON_RIGHT"></cx-icon>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <a
+        (click)="toggleMenu()"
+        [routerLink]="{ cxRoute: 'addressBook' } | cxUrl"
+        role="link"
+      >
+        <cx-icon type="BOOK"></cx-icon>
+        <p>{{ 'menu.addressBook' | cxTranslate }}</p>
+      </a>
+      <div *ngIf="(isDesktop$ | async) === false" class="chevron-icon">
+        <cx-icon type="CHEVRON_RIGHT"></cx-icon>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <a
+        (click)="toggleMenu()"
+        [routerLink]="{ cxRoute: 'updateProfile' } | cxUrl"
+        role="link"
+      >
+        <cx-icon type="USER"></cx-icon>
+        <p>{{ 'menu.profile' | cxTranslate }}</p>
+      </a>
+      <div *ngIf="(isDesktop$ | async) === false" class="chevron-icon">
+        <cx-icon type="CHEVRON_RIGHT"></cx-icon>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <a (click)="ssoLogout($event)" href="#">
+        <cx-icon type="LOGOUT"></cx-icon>
+        <p>{{ 'menu.signOut' | cxTranslate }}</p>
+      </a>
+      <div *ngIf="(isDesktop$ | async) === false" class="chevron-icon">
+        <cx-icon type="CHEVRON_RIGHT"></cx-icon>
+      </div>
+    </div>
+  </div>
+</ng-template>

@@ -1,0 +1,77 @@
+<div class="tabs">
+  <ng-container *ngFor="let child of node?.children; index as i">
+    <div
+      [routerLinkActive]="i === 0 ? '' : 'tab-disabled'"
+      class=" {{
+        child?.brands?.length < 2 && i === 0 ? 'remove-tab' : ''
+      }} tab-title-{{ i + 1 }} tab-style {{ navigationRouter.url.includes('/product') && i === 1 ? 'tab-active' : '' }}"
+    >
+      <div class="title-wrapper">
+        <p
+          (click)="toggleTab(i + 1)"
+          *ngIf="i === 0 || i === 1; else routerLink"
+          [innerHtml]="child?.title"
+          class="title"
+        ></p>
+
+        <ng-template #routerLink>
+          <a
+            *ngIf="
+              child?.localizedUrl
+                ? child?.localizedUrl?.startsWith('http')
+                : child?.url?.startsWith('http')
+            "
+            [innerHtml]="child?.title"
+            class="title"
+            href="{{ child?.localizedUrl ? child?.localizedUrl : child?.url }}"
+            target="_blank"
+          >
+          </a>
+          <p
+            (click)="toggleTab(i + 1)"
+            *ngIf="
+              child?.localizedUrl
+                ? !child?.localizedUrl?.startsWith('http')
+                : !child?.url?.startsWith('http')
+            "
+            [innerHtml]="child?.title"
+            [routerLink]="hasLink(child)"
+            class="title"
+          ></p>
+        </ng-template>
+        <div *ngIf="(isDesktop$ | async) === false" class="chevron-icon">
+          <cx-icon type="CHEVRON_RIGHT"></cx-icon>
+        </div>
+      </div>
+      <div *ngIf="child?.children?.length > 0" class="tab">
+        <div *ngIf="(isDesktop$ | async) === false" class="top-part">
+          <div (click)="toggleTab(i + 1)" class="close-menu">
+            <cx-icon class="large" type="CHEVRON_LEFT"></cx-icon>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div *ngIf="i === 0" class="brands">
+            <ng-container *ngFor="let brand of child?.brands">
+              <div (click)="setCurrentBrand(brand?.code)" class="child">
+                <img [src]="apiEndpoint + brand?.logo?.url" class="brand-img"/>
+              </div>
+            </ng-container>
+          </div>
+          <div *ngIf="i === 1" class="products-categories">
+            <ng-container *ngFor="let child of child?.children">
+              <app-product-category
+                *ngIf="!child?.url?.includes('isBundle:true')"
+                [productCategory]="child"
+              ></app-product-category>
+
+              <app-bundles
+                *ngIf="child?.url?.includes('isBundle:true')"
+                [bundles]="child"
+              ></app-bundles>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>

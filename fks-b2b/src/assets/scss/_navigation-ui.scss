@@ -1,0 +1,422 @@
+@mixin hideWrapperDesktop {
+  display: none;
+}
+
+@mixin showWrapperDesktop {
+  display: initial;
+}
+
+%nav-wrapper {
+  .wrapper {
+    cursor: default;
+  }
+  // create width of wrapper
+  .wrapper[attr='1'] {
+    width: 200px;
+  }
+  .wrapper[attr='2'] {
+    width: 400px;
+  }
+
+  &.flyout {
+    .wrapper {
+      @include media-breakpoint-down(md) {
+        height: 0;
+        overflow: hidden;
+      }
+      color: var(--black);
+    }
+    @include media-breakpoint-up(lg) {
+      .wrapper {
+        // we add a z-index since some of the elements on the page have (surprisingly) a z-index rule
+        // we cannot make the z-index too high as it would conflict with the searchbox flyout.
+        z-index: 20;
+      }
+      > nav > .wrapper {
+        left: 0px;
+        right: 0px;
+        margin-top: 19px;
+        padding: 15px 20px;
+        background: var(--white);
+      }
+    }
+  }
+}
+
+%nav-back-button {
+  &.flyout {
+    .back {
+      display: none;
+    }
+    @include media-breakpoint-down(md) {
+      padding: 15px 56px 15px 0;
+
+      .back {
+        display: initial;
+        h5 {
+          justify-content: flex-start;
+          cx-icon {
+            padding-right: 10px;
+          }
+        }
+      }
+      &:not(.is-open) {
+        .back {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+%nav-heading {
+  nav {
+    &:focus {
+      color: var(--cx-g-color-primary);
+    }
+  }
+
+  h5 {
+    margin: 0;
+  }
+
+  &.flyout {
+    h5,
+    cx-generic-link {
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+      font-weight: var(--font-weight-light);
+
+      color: currentColor;
+
+      &:hover {
+        color: var(--brand-color);
+      }
+
+      &:focus {
+        z-index: 1;
+        position: relative;
+      }
+
+      a {
+        padding: 0;
+        color: var(--grey);
+        height: 100%;
+        display: block;
+        width: 100%;
+        font-weight: var(--font-weight-light);
+        &:focus {
+          z-index: 1;
+          position: relative;
+        }
+      }
+    }
+
+    @include media-breakpoint-down(md) {
+      // make all first level hedings uppercase in mobile view
+      > nav {
+        padding: 15px 56px 15px 0;
+
+        > h5 {
+          padding: 0;
+          font-size: 1rem;
+          line-height: 1.2;
+          color: var(--grey);
+        }
+
+        > h5,
+        > cx-generic-link {
+          text-transform: uppercase;
+          font-weight: var(--font-weight-semi-bold);
+        }
+
+        &:last-child {
+          padding: 15px 0;
+        }
+      }
+      h5,
+      cx-generic-link {
+        border-bottom: 1px solid var(--cx-color-light);
+        display: flex;
+        justify-content: space-between;
+
+        cursor: pointer;
+      }
+
+      h5,
+      cx-generic-link a {
+        padding: 1rem;
+        // font-weight: var(--font-weight-light);
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      > nav {
+        padding: 15px 0;
+        margin-right: 56px;
+        cursor: pointer;
+        // top level headings
+        > h5 {
+          margin-top: 3px;
+          padding: 0;
+          font-size: 1rem;
+          line-height: 1.2;
+          color: var(--grey);
+        }
+        // first level headings will be bold in desktop
+        nav > h5 {
+          @include type('5');
+          cursor: default;
+
+          &:hover {
+            color: currentColor;
+          }
+        }
+
+        &:last-child {
+          padding: 15px 0;
+          margin-right: 0px;
+        }
+      }
+
+      nav {
+        &:hover {
+          //border-bottom: 4px solid var(--brand-color);
+          > h5 {
+            color: var(--hover-color);
+          }
+        }
+      }
+    }
+  }
+  cx-generic-link.all {
+    text-decoration: underline;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  cx-navigation-ui > nav {
+    &:hover {
+      border-bottom: 4px solid var(--brand-color);
+
+      > cx-generic-link > a {
+        color: var(--hover-color);
+      }
+    }
+
+    > cx-generic-link > a {
+      padding: 20px 15px 22px 0;
+    }
+    nav > div > cx-generic-link {
+      padding: 10px 0;
+    }
+    div.childs > nav > cx-generic-link > a {
+      padding: 5px 0;
+    }
+  }
+}
+
+%nav-icon {
+  cx-icon {
+    &:before {
+      font-size: 1.5rem;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    cx-icon {
+      padding: 0 0 0 7px;
+      &:before {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+%nav-childs {
+  &.flyout {
+    // the last level of navigations is tyically displayed in a column
+    .childs[depth='1'] {
+      flex-direction: column;
+    }
+    .childs {
+      @include media-breakpoint-up(lg) {
+        .childs {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+%nav-links {
+  a {
+    color: currentColor;
+  }
+  &.flyout {
+    a {
+      display: block;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+  }
+}
+
+%nav-wrap {
+  @for $column from 1 through 10 {
+    &.flyout .childs[columns='#{$column}'] {
+      display: block;
+
+      @include media-breakpoint-up(md) {
+        column-count: $column;
+      }
+      @include media-breakpoint-down(sm) {
+        column-count: ceil(calc($column / 3));
+      }
+    }
+  }
+}
+
+%cx-navigation-ui {
+  display: flex;
+
+  @extend %nav-heading;
+  @extend %nav-icon;
+  @extend %nav-wrapper;
+  @extend %nav-childs;
+  @extend %nav-links;
+  @extend %nav-back-button;
+  @extend %nav-wrap;
+
+  nav {
+    outline: none;
+  }
+
+  &.flyout {
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+      color: var(--black);
+    }
+
+    @include media-breakpoint-down(md) {
+      &.is-open {
+        > nav {
+          display: none;
+          cx-generic-link.all {
+            display: none;
+          }
+        }
+        nav.is-open {
+          display: initial;
+          cx-generic-link.all {
+            display: initial;
+          }
+          > .wrapper {
+            height: auto;
+          }
+        }
+
+        nav.is-opened {
+          display: initial;
+          > .wrapper > .childs > nav {
+            display: none;
+            &.is-open {
+              display: initial;
+            }
+          }
+          > h5 {
+            display: none;
+          }
+          > .wrapper {
+            height: auto;
+          }
+        }
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      .childs {
+        > nav {
+          cx-generic-link > a {
+            &:hover {
+              color: var(--hover-color);
+            }
+          }
+        }
+      }
+      .childs[depth='2'] {
+        > nav {
+          &:not(:only-child):not(:last-child) {
+            padding-inline-end: 20px;
+          }
+          cx-generic-link > a {
+            &:hover {
+              color: var(--hover-color);
+            }
+          }
+        }
+      }
+      // Show dropdowns via hover when no nav is focused
+      > nav {
+        > .wrapper {
+          position: absolute;
+          margin-left: -10px;
+          //border: 1px solid var(--header-border-color);
+          @include hideWrapperDesktop();
+        }
+
+        /* we only treat the first wrapper as a collapsible container */
+        &:hover {
+          > .wrapper {
+            @include showWrapperDesktop();
+          }
+        }
+      }
+
+      // Show dropdowns via focus only once a nav is clicked
+      &:focus-within {
+        > nav {
+          &:focus,
+          &.is-open:focus-within {
+            > .wrapper {
+              @include showWrapperDesktop();
+            }
+          }
+        }
+      }
+
+      .childs {
+        display: flex;
+      }
+
+      .wrapper cx-icon {
+        display: none;
+      }
+
+      > nav {
+        > .wrapper {
+          transition: opacity 0.4s;
+        }
+      }
+    }
+  }
+}
+
+.nav-menu-is-open {
+  header {
+    position: relative;
+    z-index: 100;
+  }
+  cx-storefront {
+    &:before {
+      content: '';
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 20;
+
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
+}

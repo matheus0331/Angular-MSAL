@@ -1,0 +1,92 @@
+<div class="prodcuts-explore-message">
+  <div class="products-explore-label">
+    <h3 [innerHTML]="frankeCmsProductCategory?.title"></h3>
+  </div>
+  <div class="products-explore-description">
+    <p [innerHTML]="frankeCmsProductCategory?.description"></p>
+  </div>
+</div>
+
+<ng-container *ngIf="isDesktop$ | async; else nonDesktop">
+  <div class="container">
+    <ng-template [ngForOf]="productCategories" let-i="index" let-s ngFor>
+      <div class="child {{ productCategories[i]?.class }}">
+        <div class="product-category-wrapper">
+          <!-- small image -->
+          <div
+            *ngIf="
+              productCategories[i]?.image && productCategories[i]?.class === ''
+            "
+            class="product-category-img-small"
+          >
+            <img [src]="apiEndpoint + productCategories[i]?.image?.url"/>
+          </div>
+          <!-- large image -->
+          <div
+            *ngIf="productCategories[i]?.class === 'featured'"
+            class="product-category-img-large"
+          >
+            <img [src]="apiEndpoint + productCategories[i]?.image?.url"/>
+          </div>
+          <!-- details (title, description, button) -->
+          <div
+            *ngIf="productCategories[i]?.class === ''"
+            class="product-category-details"
+          >
+            <div
+              [innerHTML]="productCategories[i]?.title"
+              class="product-category-label"
+            ></div>
+            <div
+              [innerHTML]="productCategories[i]?.description"
+              class="product-category-desc"
+            ></div>
+            <cx-generic-link
+              [url]="
+                productCategories[i]?.link?.localizedUrl
+                  ? productCategories[i]?.link?.localizedUrl
+                  : productCategories[i]?.link?.url
+              "
+              class="explore-btn"
+            >
+              <div [innerHTML]="productCategories[i]?.link?.linkName"></div>
+            </cx-generic-link>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </div>
+</ng-container>
+
+<ng-template #nonDesktop>
+  <div
+    *ngFor="let productCategory of productCategories; index as i"
+    class="mobile-category-wrapper"
+  >
+    <ng-container *ngIf="!categoriesIndexsToSeparate.includes(i)">
+      <div class="mobile-category-img">
+        <img [src]="apiEndpoint + productCategory?.image?.url"/>
+      </div>
+
+      <div
+        [innerHTML]="productCategory?.title"
+        class="mobile-category-label"
+      ></div>
+      <div
+        [innerHTML]="productCategory?.description"
+        class="mobile-category-desc"
+      ></div>
+
+      <cx-generic-link
+        [url]="
+                productCategories[i]?.link?.localizedUrl
+                  ? productCategories[i]?.link?.localizedUrl
+                  : productCategories[i]?.link?.url
+              "
+        class="explore-btn"
+      >
+        <div [innerHTML]="productCategories[i]?.link?.linkName"></div>
+      </cx-generic-link>
+    </ng-container>
+  </div>
+</ng-template>

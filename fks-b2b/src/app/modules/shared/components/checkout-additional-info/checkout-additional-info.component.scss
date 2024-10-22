@@ -1,0 +1,523 @@
+@import '../../../../../assets/scss/typography';
+
+@mixin additional-info-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $text-transform: none
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: $text-transform;
+}
+
+.container {
+  @media only screen and (min-width: 768px) {
+    padding: 0;
+  }
+}
+
+.additional-info-wrapper {
+  margin-top: 37px;
+
+  .additional-info-title {
+    letter-spacing: 0.01em;
+    color: var(--text-color);
+    text-align: center;
+    @include additional-info-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px,
+        uppercase
+    );
+    margin-bottom: 28px;
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @include additional-info-text(
+          var(--franke-m-font-size),
+          var(--font-weight-base),
+          21px,
+          uppercase
+      );
+      margin-bottom: 24px;
+    }
+
+    @media only screen and (min-width: 992px) {
+      @include additional-info-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px,
+          uppercase
+      );
+      text-align: unset;
+      margin-bottom: 19px;
+    }
+  }
+
+  .input-title {
+    @include additional-info-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px
+    );
+
+    @media only screen and (min-width: 768px) {
+      @include additional-info-text(
+          var(--franke-m-font-size),
+          var(--font-weight-base),
+          21px
+      );
+    }
+
+    color: var(--label-color);
+    margin-bottom: 8px;
+
+    .aditionalInfo-icon {
+      display: inline-block;
+      position: relative;
+      margin-left: 10px;
+      color: var(--element-color);
+
+      .aditionalInfo-info-text {
+        @include additional-info-text(
+            var(--franke-s-font-size),
+            var(--font-weight-lighter),
+            20px
+        );
+        max-width: 240px;
+
+        visibility: hidden;
+
+        background-color: var(--accent-color);
+        color: var(--white);
+        padding: 12px 16px;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 1;
+        margin: 30px -90px;
+        @media only screen and (min-width: 768px) {
+          width: 240px;
+          margin: -20px 12px;
+        }
+
+        &::after {
+          content: ' ';
+          position: absolute;
+          top: 0%;
+          border-width: 10px;
+          border-style: solid;
+
+          right: 49%;
+          margin-top: -20px;
+          border-color: transparent transparent var(--accent-color) transparent;
+
+          @media only screen and (min-width: 768px) {
+            right: 100%;
+            margin-top: 20px;
+            border-color: transparent var(--accent-color) transparent transparent;
+          }
+        }
+      }
+
+      &:hover .aditionalInfo-info-text {
+        visibility: visible;
+      }
+    }
+  }
+
+  .delivery-date-info {
+    align-self: flex-end;
+
+    @media only screen and (min-width: 768px) {
+      @include additional-info-text(
+          var(--franke-m-font-size),
+          var(--font-weight-base),
+          21px
+      );
+    }
+
+    color: var(--label-color);
+
+    .delivery-date-icon {
+      position: relative;
+      margin-left: 10px;
+      color: var(--element-color);
+
+      .delivery-date-info-text {
+        @include additional-info-text(
+            var(--franke-s-font-size),
+            var(--font-weight-lighter),
+            20px
+        );
+        max-width: 240px;
+
+        visibility: hidden;
+
+        background-color: var(--accent-color);
+        color: var(--white);
+        padding: 2px 6px;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 1;
+        margin: 30px -90px;
+        @media only screen and (min-width: 768px) {
+          width: 240px;
+          margin: -20px 12px;
+        }
+
+        &::after {
+          content: ' ';
+          position: absolute;
+          top: 0%;
+          border-width: 10px;
+          border-style: solid;
+
+          right: 49%;
+          margin-top: -20px;
+          border-color: transparent transparent var(--accent-color) transparent;
+
+          @media only screen and (min-width: 768px) {
+            right: 100%;
+            margin-top: 20px;
+            border-color: transparent var(--accent-color) transparent transparent;
+          }
+        }
+      }
+
+      &:hover .delivery-date-info-text {
+        visibility: visible;
+      }
+    }
+  }
+
+  .date-input-wrapper {
+    width: 100%;
+    margin-bottom: 16px;
+    border: 1px solid var(--input-border);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 10px 18px 10px 0px;
+    height: 44px;
+
+    .date-input {
+      width: 94%;
+      border: none;
+      color: var(--text-color);
+      padding-left: 18px;
+      cursor: pointer;
+
+      @include additional-info-text(
+          var(--franke-s-font-size),
+          var(--font-weight-light),
+          18px
+      );
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include additional-info-text(
+            var(--franke-m-font-size),
+            var(--font-weight-light),
+            21px
+        );
+      }
+
+      @media only screen and (min-width: 992px) {
+        @include additional-info-text(
+            var(--franke-font-size-base),
+            var(--font-weight-light),
+            24px
+        );
+      }
+    }
+
+    .clear-button-wrapper {
+      margin-right: 10px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .calendar-button-wrapper {
+      width: 6%;
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        width: 3%;
+      }
+
+      @media only screen and (min-width: 992px) {
+        width: 3%;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .text-input {
+    width: 100%;
+    margin-bottom: 16px;
+    border: 1px solid var(--input-border);
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 18px 10px 18px;
+    height: 44px;
+    color: var(--text-color);
+    @include additional-info-text(
+        var(--franke-s-font-size),
+        var(--font-weight-light),
+        18px
+    );
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @include additional-info-text(
+          var(--franke-m-font-size),
+          var(--font-weight-light),
+          21px
+      );
+    }
+
+    @media only screen and (min-width: 992px) {
+      @include additional-info-text(
+          var(--franke-font-size-base),
+          var(--font-weight-light),
+          24px
+      );
+    }
+  }
+}
+
+:host ::ng-deep {
+  ngb-datepicker {
+    &.dropdown-menu {
+      @media only screen and (min-width: 768px) {
+        padding: 16px;
+      }
+    }
+
+    .ngb-dp-header {
+      max-width: 397px;
+      @media only screen and (min-width: 768px) {
+        width: 397px;
+      }
+      margin-bottom: 19px;
+      padding: 0;
+
+      ngb-datepicker-navigation {
+        display: flex;
+        align-items: baseline;
+
+        .ngb-dp-arrow {
+          margin: 0 18px;
+
+          @media only screen and (min-width: 768px) {
+            margin: 0 45px;
+          }
+
+          .btn {
+            transition: none;
+
+            &:hover {
+              background-color: transparent;
+              border: none;
+            }
+
+            &:focus {
+              box-shadow: none;
+              text-decoration: none;
+            }
+          }
+
+          .ngb-dp-arrow-btn {
+            .ngb-dp-navigation-chevron {
+              border-width: 0.11em 0.11em 0 0;
+              width: 0.4em;
+              height: 0.4em;
+            }
+          }
+        }
+
+        .ngb-dp-month-name {
+          color: var(--text-color);
+          @include additional-info-text(
+              var(--franke-s-font-size),
+              var(--font-weight-base),
+              17px
+          );
+
+          @media only screen and (min-width: 768px) {
+            @include additional-info-text(
+                var(--franke-m-font-size),
+                var(--font-weight-base),
+                17px
+            );
+          }
+          text-align: center;
+        }
+      }
+    }
+
+    .ngb-dp-months {
+      .ngb-dp-month {
+        ngb-datepicker-month {
+          .ngb-dp-week {
+            border-bottom: none;
+
+            .ngb-dp-weekday {
+              color: var(--text-color);
+              max-width: 38px;
+              max-height: 38px;
+              margin: 2px 4px;
+              @include additional-info-text(
+                  var(--franke-s-font-size),
+                  var(--font-weight-base),
+                  12px
+              );
+
+              @media only screen and (min-width: 768px) {
+                margin: 2px 8px;
+                width: 38px;
+                height: 38px;
+                @include additional-info-text(
+                    var(--franke-s-font-size),
+                    var(--font-weight-base),
+                    12px
+                );
+              }
+            }
+
+            .ngb-dp-day {
+              max-width: 38px;
+              max-height: 38px;
+              margin: 2px 4px;
+              @include additional-info-text(
+                  var(--franke-s-font-size),
+                  var(--font-weight-base),
+                  19px
+              );
+              @media only screen and (min-width: 768px) {
+                margin: 2px 8px;
+                width: 38px;
+                height: 38px;
+                @include additional-info-text(
+                    var(--franke-nav-nodes-font-size),
+                    var(--font-weight-base),
+                    19px
+                );
+              }
+
+              text-align: center;
+
+              &.disabled {
+                .ngb-dp-day {
+                  color: var(--grey);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.custom-day {
+  color: var(--text-color);
+}
+
+.custom-day.weekend {
+  margin: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-section-color);
+  color: var(--grey);
+  position: relative;
+  top: -7px;
+  border-radius: 50%;
+  pointer-events: none;
+  @media only screen and (min-width: 768px) {
+    top: -10px;
+  }
+}
+
+.custom-day:hover,
+.custom-day.bg-primary {
+  max-width: 38px;
+  max-height: 38px;
+  margin: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--brand-color) !important;
+  color: var(--white);
+  position: relative;
+  top: -7px;
+  border-radius: 50%;
+  @media only screen and (min-width: 768px) {
+    width: 38px;
+    height: 38px;
+    top: -10px;
+  }
+}
+
+.buttons-wrapper {
+  padding-top: 24px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @media only screen and (min-width: 992px) {
+    flex-direction: row;
+  }
+
+  .btn {
+    width: 100%;
+
+    @include additional-info-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        22px
+    );
+
+    @media only screen and (min-width: 768px) {
+      @include additional-info-text(
+          var(--franke-button-font-size),
+          var(--font-weight-base),
+          22px
+      );
+    }
+
+    @media only screen and (min-width: 992px) {
+      width: 47%;
+    }
+
+    &:hover {
+      box-shadow: 0px 36px 80px rgba(0, 0, 0, 0.07),
+      0px 15px 33px rgba(0, 0, 0, 0.05), 0px 8px 18px rgba(0, 0, 0, 0.04),
+      0px 5px 10px rgba(0, 0, 0, 0.035), 0px 2px 5px rgba(0, 0, 0, 0.03),
+      0px 1px 2px rgba(0, 0, 0, 0.02);
+    }
+
+    &.left-button {
+      background: var(--white);
+      color: var(--accent-color);
+
+      &:hover {
+        border: 1px solid var(--white);
+      }
+
+      @media only screen and (max-width: 767px) {
+        margin-bottom: 19px;
+      }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

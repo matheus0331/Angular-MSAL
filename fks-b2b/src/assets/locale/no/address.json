@@ -1,0 +1,113 @@
+{
+  "searchSupport": {
+    "placeholder": "Søk her...",
+    "results": "resultater",
+    "manualTitle": "",
+    "manualDownload": "",
+    "text": "Søk etter en Artikkelnummer, produktkode eller et produktnavn",
+    "more": "Mer",
+    "allResults": "alle resultater",
+    "manualDescription": "",
+    "resultsFor": "Viser resultater for:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal Spørsmål",
+    "message1": "Hei, jeg er Laura. Jeg er klient agent. Hvordan kan jeg hjelpe deg?",
+    "title": "Personlig assistent",
+    "message2": "Du kan velge mellom alternativ nedenfor eller spør ditt eget spørsmål.",
+    "contact": "Kontakt Franke",
+    "complaint": "Sende inn en klage"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Trenger du hjelp med produktet, eller har du spørsmål?",
+    "title": "Hei, vi er her for å hjelpe"
+  },
+  "contactForm": {
+    "contactType": "Velg kontaktmetode",
+    "files": "Last opp bilder for å støtte forespørselen",
+    "funNumber": "",
+    "request": "Beskriv forespørselen",
+    "ticketAddSucess": "billett opprettet!",
+    "ticketAddFail": "Feil ved oppretting av billett, prøv igjen!",
+    "subTitle2": "Bruk vårt kontaktskjema!",
+    "generalContactCategories": "Velg kategori",
+    "deleteFiles": "Slett",
+    "productSubCategories": "Velg underkategori",
+    "title": "Flere spørsmål?",
+    "subTitle1": "Kunne ikke finne svaret på spørsmålet ditt i vår FAQ",
+    "productCategories": "Velg produkt",
+    "orderNumber": "Ordrenummer"
+  },
+  "product": {
+    "id": "Artikkel"
+  },
+  "faq": {
+    "print": "Skriv ut denne siden",
+    "customerServicesQuestions": "Kundeservice",
+    "pageTitle": "ofte stilte spørsmål",
+    "productQuestionsTitle": "Franke Produkter",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Ordre og forsendelse"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Du kan ha opp til maksimalt 4 adresser.",
+    "updateAddress": "Oppdater adresse",
+    "editShippingAddress": "Rediger leveringsadresse",
+    "deliveryAddressTitle": "Leveringsadresse",
+    "addNewShippingAddress": "Legg til en ny leveringsadresse",
+    "addAddress": "Legg til en adresse",
+    "billingAddressTitle": "Fakturaadresse",
+    "addNewAddress": "Legg til en ny adresse",
+    "backToAddressList": "Tilbake til adresseliste",
+    "areYouSureToDeleteAddress": "Er du sikker på at du vil slette denne adressen?"
+  },
+  "addressCard": {
+    "shipTo": "Send til",
+    "setAsDefault": "Satt som standard",
+    "billTo": "Faktura til",
+    "selected": "Valgt",
+    "default": "Standard"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Etternavn",
+      "placeholder": "Etternavn"
+    },
+    "aptSuite": "Leilighet",
+    "saveAsDefault": "Lagre som standard",
+    "firstName": {
+      "label": "Fornavn",
+      "placeholder": "Fornavn"
+    },
+    "zipCode": {
+      "placeholder": "Postnummer",
+      "label": "Postnummer"
+    },
+    "address1": "Adresse 1",
+    "setAsDefault": "Sett som standard",
+    "title": "Tittel",
+    "userAddressDeleteSuccess": "Adresse slettet!",
+    "userAddressAddSuccess": "Ny adresse ble lagt til!",
+    "city": {
+      "placeholder": "By",
+      "label": "By"
+    },
+    "invalidAddress": "Ugyldig adresse",
+    "chooseAddress": "Velg adresse",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "Telefonnummer (valgfritt)"
+    },
+    "titleRequired": "Tittel er påkrevd.",
+    "state": "Fylke",
+    "address2": "Adresse 2 (valgfritt)",
+    "selectOne": "Velg en...",
+    "country": "Land",
+    "streetAddress": "Gate",
+    "userAddressUpdateSuccess": "Adresse oppdatert!"
+  }
+}

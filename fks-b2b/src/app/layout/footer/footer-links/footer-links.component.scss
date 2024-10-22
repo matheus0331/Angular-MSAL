@@ -1,0 +1,28 @@
+.footer-column-2 {
+  margin: 20px 0 0 -10px;
+
+  @media only screen and (min-width: 768px) {
+    margin: 0 100px 0 100px;
+  }
+}
+
+.wrapper {
+  font-weight: var(--font-weight-base);
+  font-size: var(--franke-button-font-size);
+  line-height: 150%;
+  letter-spacing: 0.01em;
+
+  .footer-link {
+    display: flex;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 0 0 16px;
+    .social-icons {
+      margin: 0 10px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    font-size: var(--franke-font-size-base);
+  }
+}

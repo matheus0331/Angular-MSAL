@@ -1,0 +1,141 @@
+.search-box {
+  display: flex;
+  cursor: pointer;
+
+  .search-box-content {
+    padding: 1.813rem 1.063rem;
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      padding: 1.813rem;
+    }
+
+    @media only screen and (min-width: 992px) {
+      padding: 0;
+    }
+
+    .search-box-description {
+      color: var(--grey);
+      font-size: var(--franke-small-font-size);
+
+      @media only screen and (max-width: 991px) {
+        display: none;
+      }
+    }
+  }
+
+  .cx-icon {
+    color: var(--text-color);
+    padding-right: 18px;
+  }
+}
+
+app-franke-search-box ::ng-deep .hidden {
+  display: none !important;
+}
+
+app-franke-search-box ::ng-deep .search-bar {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    height: 53px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    height: 87px;
+    padding-top: 26px;
+    align-items: baseline;
+    font-size: var(--franke-h5-font-size);
+  }
+
+  .search-icon-wrapper {
+    margin: 0 16px;
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      margin: 0 30px;
+    }
+
+    @media only screen and (min-width: 992px) {
+      margin-left: unset;
+      margin-right: 10px;
+    }
+
+    .cx-icon {
+      color: var(--grey);
+
+      svg {
+        @media only screen and (max-width: 767px) {
+          height: 14px;
+          width: 14px;
+        }
+      }
+    }
+  }
+
+  .searchbox {
+    width: 100%;
+
+    @media only screen and (max-width: 991px) {
+      margin-bottom: 0;
+    }
+
+    input {
+      border: none;
+      font-weight: var(--font-weight-light);
+      font-size: var(--franke-s-font-size);
+      color: var(--text-color);
+      width: calc(100% - 70px);
+
+      @media only screen and (min-width: 992px) {
+        font-size: var(--franke-h5-font-size);
+        line-height: 30px;
+        width: calc(100% - 100px);
+      }
+
+      &::placeholder {
+        color: var(--grey);
+        font-size: var(--franke-s-font-size);
+        font-weight: var(--font-weight-light);
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          font-size: var(--franke-m-font-size);
+        }
+
+        @media only screen and (min-width: 992px) {
+          font-size: var(--franke-h5-font-size);
+        }
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .toggle-search {
+    position: absolute;
+    margin-right: 16px;
+    right: 0;
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      margin-right: 39px;
+    }
+
+    @media only screen and (min-width: 992px) {
+      margin-right: 0;
+    }
+
+    .cx-icon {
+      cursor: pointer;
+
+      svg {
+        @media only screen and (max-width: 767px) {
+          height: 14px;
+          width: 14px;
+        }
+      }
+    }
+  }
+}

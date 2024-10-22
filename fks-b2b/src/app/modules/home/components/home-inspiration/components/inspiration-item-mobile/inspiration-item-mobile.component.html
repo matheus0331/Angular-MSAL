@@ -1,0 +1,25 @@
+<div class="mobile-inspiration-wrapper">
+  <div class="mobile-inspiration-img">
+    <img [src]="apiEndpoint + inspirationItem?.image?.url"/>
+  </div>
+
+  <div
+    [innerHTML]="inspirationItem?.title"
+    class="mobile-inspiration-label"
+  ></div>
+  <div
+    [innerHTML]="inspirationItem?.description"
+    class="mobile-inspiration-desc"
+  ></div>
+
+  <cx-generic-link
+    [innerHTML]="inspirationItem?.link?.linkName"
+    [url]="
+      inspirationItem?.link?.localizedUrl
+        ? inspirationItem?.link?.localizedUrl
+        : inspirationItem?.link?.url
+    "
+    class="explore-btn"
+  >
+  </cx-generic-link>
+</div>

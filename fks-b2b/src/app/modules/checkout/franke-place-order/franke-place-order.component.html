@@ -1,0 +1,9 @@
+<form
+  (ngSubmit)="submitForm()"
+  [formGroup]="checkoutSubmitForm"
+  class="place-order-form container"
+>
+  <button [disabled]="isSubmitting" class="btn place-order-button" type="submit">
+    {{ 'checkoutReview.placeOrder' | cxTranslate }}
+  </button>
+</form>

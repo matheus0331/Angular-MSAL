@@ -1,0 +1,18 @@
+export const BASE_STORES = {
+  ch: {baseStore: 'fks-ch-b2b', days: 1, disableWeekendDelivery: true},
+  fr: {baseStore: 'fks-fr-b2b', days: 10, disableWeekendDelivery: true},
+  nl: {baseStore: 'fks-nl-b2b', days: 2, disableWeekendDelivery: false},
+  pl: {baseStore: 'fks-pl-b2b', days: 3, disableWeekendDelivery: true},
+  be: {baseStore: 'fks-be-b2b', days: 8, disableWeekendDelivery: false},
+  ger: {baseStore: 'fks-de-b2b', days: 8, disableWeekendDelivery: false},
+  uk: {baseStore: 'fks-gb-b2b', days: 1, disableWeekendDelivery: true},
+  uk2: {baseStore: 'fks-gb2-b2b', days: 1, disableWeekendDelivery: true},
+  es: {baseStore: 'fks-es-b2b', days: 4, disableWeekendDelivery: true},
+  pt: {baseStore: 'fks-pt-b2b', days: 7, disableWeekendDelivery: false},
+  da: {baseStore: 'fks-dk-b2b', days: 2, disableWeekendDelivery: false},
+  no: {baseStore: 'fks-no-b2b', days: 2, disableWeekendDelivery: false},
+  sv: {baseStore: 'fks-se-b2b', days: 2, disableWeekendDelivery: false},
+  at: {baseStore: 'fks-at-b2b', days: 8, disableWeekendDelivery: false},
+  it: {baseStore: 'fks-it-b2b', days: 6, disableWeekendDelivery: false},
+  it2: {baseStore: 'hs-ffi-b2b', days: 7, disableWeekendDelivery: false},
+};

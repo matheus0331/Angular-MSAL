@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="wrapper">
+    <h5 class="title text-center">{{ 'videoTutorial.title' | cxTranslate }}</h5>
+    <app-franke-carousel
+      [indicatorsPath]="indicatorsPath"
+      [isSideArrows]="false"
+      [items]="items$ | async"
+      [slidesPath]="slidesPath"
+      [template]="carouselItem"
+      itemWidth="100%"
+    ></app-franke-carousel>
+  </div>
+</div>
+
+<ng-template #carouselItem let-item="item">
+  <div class="video">
+    <iframe [src]="sanitizeUrl(item)" height="315" width="560"></iframe>
+  </div>
+</ng-template>

@@ -1,0 +1,9 @@
+<ng-container *ngIf="entry && deliveryDate  && showAlternativesInCart === true">
+  <button
+    (click)="openAlternativeProductsModal('cartAlternativeProducts.replaceCartItem' )"
+    class="btn-link-action alternative-products-btn"
+    type="button"
+  >
+    {{ 'cartAlternativeProducts.checkAlternativeProducts' | cxTranslate }}
+  </button>
+</ng-container>

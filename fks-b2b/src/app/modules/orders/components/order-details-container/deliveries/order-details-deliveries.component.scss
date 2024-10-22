@@ -1,0 +1,11 @@
+@import '@spartacus/styles/scss/mixins';
+
+.no-tracking-results {
+  font-size: var(--franke-font-size-base);
+  @include media-breakpoint-down(md) {
+    font-size: var(--franke-s-font-size);
+  }
+  @include media-breakpoint-down(sm) {
+    padding-left: 1rem;
+  }
+}

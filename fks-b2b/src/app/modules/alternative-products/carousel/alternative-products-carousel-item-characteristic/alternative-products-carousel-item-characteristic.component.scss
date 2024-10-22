@@ -1,0 +1,19 @@
+@import '@spartacus/styles/scss/mixins';
+
+.alternative-product-characteristic {
+  font-weight: var(--font-weight-lighter);
+  font-size: var(--franke-font-size-base);
+  margin-bottom: 0.25rem;
+  @include media-breakpoint-down(xs) {
+    margin-bottom: 2rem;
+  }
+}
+
+cx-icon {
+  font-size: var(--franke-m-font-size);
+  color: var(--cx-color-success);
+}
+
+.characteristic {
+  font-weight: var(--font-weight-base);
+}

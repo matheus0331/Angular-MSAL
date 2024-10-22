@@ -1,0 +1,117 @@
+{
+  "searchSupport": {
+    "placeholder": "Sök här...",
+    "results": "Resultat",
+    "manualTitle": "",
+    "manualDownload": "",
+    "text": "Sök efter ett FUN nummer, produktkod eller produktnamn",
+    "more": "Mer",
+    "allResults": "alla resultat",
+    "manualDescription": "",
+    "resultsFor": "Visar resultat för:"
+  },
+  "chat": {
+    "faq": "Franke FAQ",
+    "message1": "Hej, jag heter Laura. Jag är din personliga assistent. Hur kan jag hjälpa dig?",
+    "title": "Personlig assistent",
+    "message2": "Du kan välja mellan alternativ nedan eller ställa din egen fråga.",
+    "contact": "Kontakta Franke",
+    "complaint": "Skicka ett klagomål"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Behöver du hjälp med din produkt eller har du en fråga?",
+    "title": "Hej, vi är här för att hjälpa"
+  },
+  "contactForm": {
+    "contactType": "Välj kontakttyp",
+    "files": "Ladda upp bilder för att stödja din fråga",
+    "funNumber": "",
+    "request": "Beskriv din fråga",
+    "ticketAddSucess": "Ticket skapat!",
+    "ticketAddFail": "Fel vid skapande av ticket, försök igen!",
+    "subTitle2": "Använd vårt enkla kontaktformulär!",
+    "generalContactCategories": "Välj kategori",
+    "deleteFiles": "Radera",
+    "productSubCategories": "Välj underkategori",
+    "title": "Fler frågor?",
+    "subTitle1": "Det gick inte att hitta svaret på din fråga i vår FAQ",
+    "productCategories": "Välj produkt",
+    "orderNumber": "Ordernummer"
+  },
+  "product": {
+    "id": "FUN nummer"
+  },
+  "faq": {
+    "print": "Skriv ut den här sidan",
+    "customerServicesQuestions": "Kundtjänst",
+    "pageTitle": "Vanliga frågor (FAQ)",
+    "productQuestionsTitle": "Franke produkter",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Order och transport"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Du kan ha upp till maximalt 4 adresser.",
+    "updateAddress": "Uppdatera adress",
+    "editShippingAddress": "Redigera leveransadress",
+    "deliveryAddressTitle": "Leveransadress",
+    "addNewShippingAddress": "Lägg till en ny leveransadress",
+    "addAddress": "Lägg till adress",
+    "billingAddressTitle": "Fakturaadress",
+    "addNewAddress": "Lägg till en ny adress",
+    "backToAddressList": "Tillbaka till adresslista",
+    "areYouSureToDeleteAddress": "Är du säker på att du vill radera den här adressen?"
+  },
+  "addressCard": {
+    "shipTo": "Leverans till",
+    "setAsDefault": "Ange som standard",
+    "billTo": "Faktura till",
+    "selected": "Vald",
+    "default": "Standard"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Efternamn",
+      "placeholder": "Efternamn"
+    },
+    "aptSuite": "Lgh",
+    "saveAsDefault": "Spara som standard",
+    "firstName": {
+      "label": "Förnamn",
+      "placeholder": "Förnamn"
+    },
+    "zipCode": {
+      "placeholder": "Postnummer",
+      "label": "Postnummer"
+    },
+    "address1": "Adress 1",
+    "setAsDefault": "Ange som standard",
+    "title": "Titel",
+    "userAddressDeleteSuccess": "Adress raderats!",
+    "userAddressAddSuccess": "Ny adress har lagts till!",
+    "city": {
+      "placeholder": "Stad",
+      "label": "Stad"
+    },
+    "invalidAddress": "Ogiltig adress",
+    "chooseAddress": "Välj adress",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "telefonnummer (valfritt)"
+    },
+    "titleRequired": "Titel krävs.",
+    "state": "Län",
+    "address2": "Adress 2 (valfritt)",
+    "selectOne": "Välj en...",
+    "country": "Land",
+    "streetAddress": "Gata",
+    "userAddressUpdateSuccess": "Adress uppdaterats!"
+  },
+  "wishlist": {
+    "addToCart": "Lägg till i varukorg",
+    "empty": "Inga produkter i favoriter"
+  }
+}

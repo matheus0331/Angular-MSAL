@@ -1,0 +1,267 @@
+@import '../../../../../assets/scss/typography';
+
+@mixin additional-info-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $text-transform: none
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: $text-transform;
+}
+
+@mixin summary-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $text-transform,
+  $color
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: $text-transform;
+  color: $color;
+}
+
+.container {
+  @media only screen and (min-width: 768px) {
+    padding: 0;
+  }
+
+  .summary-wrapper {
+    background: var(--secondary-section-color);
+    display: flex;
+    flex-direction: column;
+
+    .summary-title {
+      padding: 12px 26px;
+      @include summary-text(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          16px,
+          uppercase,
+          var(--text-color)
+      );
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include summary-text(
+            var(--franke-m-font-size),
+            var(--font-weight-base),
+            18px,
+            uppercase,
+            var(--text-color)
+        );
+      }
+      @media only screen and (min-width: 992px) {
+        @include summary-text(
+            var(--franke-font-size-base),
+            var(--font-weight-base),
+            20px,
+            uppercase,
+            var(--text-color)
+        );
+      }
+      border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    }
+
+    .summary-info-wrapper {
+      padding: 21px 27px 7px;
+
+      .summary-discounts,
+      .summary-info {
+        margin-bottom: 42px;
+      }
+
+      .summary-discounts {
+        .summary-info {
+          margin-bottom: 0;
+        }
+      }
+
+      .summary-info {
+        display: flex;
+        justify-content: space-between;
+        @include summary-text(
+            var(--franke-s-font-size),
+            var(--font-weight-base),
+            0px,
+            none,
+            var(--dark-grey)
+        );
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          @include summary-text(
+              var(--franke-m-font-size),
+              var(--font-weight-base),
+              0px,
+              none,
+              var(--dark-grey)
+          );
+        }
+        @media only screen and (min-width: 992px) {
+          @include summary-text(
+              var(--franke-font-size-base),
+              var(--font-weight-base),
+              0px,
+              none,
+              var(--dark-grey)
+          );
+        }
+
+        .delivery-date-icon {
+
+          margin-left: 10px;
+          color: var(--element-color);
+
+          .delivery-date-info-text {
+            @include additional-info-text(
+                var(--franke-s-font-size),
+                var(--font-weight-lighter),
+                20px
+            );
+            max-width: 240px;
+
+            visibility: hidden;
+
+            background-color: var(--accent-color);
+            color: var(--white);
+            padding: 12px 16px;
+            border-radius: 5px;
+            position: absolute;
+            z-index: 1;
+            margin: 30px -90px;
+            @media only screen and (min-width: 768px) {
+              width: 240px;
+              margin: -20px 12px;
+            }
+
+            &::after {
+              content: ' ';
+              position: absolute;
+              top: 0%;
+              border-width: 10px;
+              border-style: solid;
+
+              right: 49%;
+              margin-top: -20px;
+              border-color: transparent transparent var(--accent-color) transparent;
+
+              @media only screen and (min-width: 768px) {
+                right: 100%;
+                margin-top: 20px;
+                border-color: transparent var(--accent-color) transparent transparent;
+              }
+            }
+          }
+
+          &:hover .delivery-date-info-text {
+            visibility: visible;
+          }
+        }
+      }
+
+      .summary-total {
+        display: flex;
+        justify-content: space-between;
+        @include summary-text(
+            var(--franke-s-font-size),
+            var(--font-weight-semi-bold),
+            18px,
+            none,
+            var(--text-color)
+        );
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          @include summary-text(
+              var(--franke-m-font-size),
+              var(--font-weight-semi-bold),
+              21px,
+              none,
+              var(--text-color)
+          );
+        }
+        @media only screen and (min-width: 992px) {
+          @include summary-text(
+              var(--franke-font-size-base),
+              var(--font-weight-semi-bold),
+              24px,
+              none,
+              var(--text-color)
+          );
+        }
+      }
+
+      .summary-discount-message {
+        margin-top: 60px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .whitebg {
+    background: white;
+    font-size: (--franke-xs-font-size);
+
+
+    .summary-title {
+      padding: 12px 26px;
+      @include summary-text(
+          var(--franke-xs-font-size),
+          bold,
+          18px,
+          uppercase,
+          var(--text-color)
+      );
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include summary-text(
+            var(--franke-s-font-size),
+            bold,
+            21px,
+            uppercase,
+            var(--text-color)
+        );
+      }
+      @media only screen and (min-width: 992px) {
+        @include summary-text(
+            var(--franke-m-font-size),
+            bold,
+            24px,
+            uppercase,
+            var(--text-color)
+        );
+      }
+      border-bottom: none;
+    }
+
+    .summary-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      @include summary-text(
+          var(--franke-xs-font-size),
+          var(--font-weight-base),
+          18px,
+          none,
+          var(--dark-grey)
+      );
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include summary-text(
+            var(--franke-s-font-size),
+            var(--font-weight-base),
+            21px,
+            none,
+            var(--dark-grey)
+        );
+      }
+      @media only screen and (min-width: 992px) {
+        @include summary-text(
+            var(--franke-m-font-size),
+            var(--font-weight-base),
+            24px,
+            none,
+            var(--dark-grey)
+        );
+      }
+    }
+  }
+}

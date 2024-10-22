@@ -1,0 +1,42 @@
+{
+  "paymentMethods": {
+    "invalidField": "Ogiltigt fält: {{field}}",
+    "newPaymentMethodsAreAddedDuringCheckout": "Nya betalningsmetoder läggs i kassan.",
+    "paymentMethods": "Betalningsmetoder"
+  },
+  "paymentForm": {
+    "useThisPayment": "Använd denna betalning",
+    "accountHolderName": {
+      "label": "Kontoinnehavarens namn",
+      "placeholder": "Kontoinnehavarens namn"
+    },
+    "securityCode": "Säkerhetskod (CVV)",
+    "monthMask": "MM",
+    "yearMask": "YYYY",
+    "billingAddress": "Fakturaadress",
+    "setAsDefault": "Ange som standard",
+    "saveAsDefault": "Spara som standard",
+    "selectOne": "Välj en...",
+    "sameAsShippingAddress": "Samma som leveransadress",
+    "choosePaymentMethod": "Välj en betalningsmetod",
+    "cardNumber": "Kortnummer",
+    "expirationDate": "Utgångsdatum",
+    "payment": "Betalning",
+    "addNewPayment": "Lägg till ny betalning",
+    "paymentType": "Betalningstyp",
+    "changePayment": "Ändra betalning",
+    "securityCodeTitle": "Kortverifieringsvärde"
+  },
+  "paymentTypes": {
+    "title": "Betalningsmetod",
+    "paymentType_ACCOUNT": "konto",
+    "paymentType_CARD": "Kredit / Betalkort"
+  },
+  "paymentCard": {
+    "expires": "Utgår: {{månad}} / {{år}}",
+    "setAsDefault": "Ange som standard",
+    "defaultPaymentMethod": "✓ DEFAULT",
+    "selected": "Vald",
+    "deleteConfirmation": "Är du säker på att du vill ta bort denna betalningsmetod?"
+  }
+}

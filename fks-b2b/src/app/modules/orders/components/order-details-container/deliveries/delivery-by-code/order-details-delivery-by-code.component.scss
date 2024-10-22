@@ -1,0 +1,88 @@
+@import '@spartacus/styles/scss/mixins';
+@import '../../../../../../../assets/scss/buttons';
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .title {
+    font-size: var(--franke-font-size-base);
+    margin-right: 0.75rem;
+    margin-bottom: 0;
+  }
+
+  @include media-breakpoint-down(md) {
+    .title {
+      font-size: var(--franke-s-font-size);
+    }
+  }
+}
+
+.tracking-link {
+  @extend .btn-link-action;
+  text-decoration: none;
+
+  .link-icon {
+    color: var(--text-color);
+  }
+
+  span {
+    color: inherit;
+    text-decoration: underline;
+    margin-right: 0.75rem;
+  }
+
+  &:hover {
+    .link-icon {
+      color: inherit;
+    }
+  }
+}
+
+.delivery-table {
+  thead {
+    th {
+      &.product {
+        min-width: 400px;
+      }
+
+      &.quantity {
+        text-align: center;
+      }
+
+      &.delivery-type {
+        width: 13%;
+        min-width: 150px;
+        text-align: center;
+      }
+
+      &.status {
+        text-align: center;
+      }
+
+      &.tracking {
+        width: 18%;
+        min-width: 250px;
+      }
+    }
+  }
+
+  td {
+    &.col-quantity {
+      text-align: center;
+    }
+
+    &.col-delivery-type {
+      text-align: center;
+    }
+
+    &.col-status {
+      text-align: center;
+    }
+  }
+}

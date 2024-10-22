@@ -1,0 +1,42 @@
+{
+  "paymentMethods": {
+    "invalidField": "ungültiges Feld: {{field}}",
+    "newPaymentMethodsAreAddedDuringCheckout": "Neue Zahlungsmethoden werden während der Kaufabwicklung hinzugefügt.",
+    "paymentMethods": "Zahlungsarten"
+  },
+  "paymentForm": {
+    "useThisPayment": "Verwenden Sie diese Zahlungsart",
+    "accountHolderName": {
+      "label": "Name des Kontoinhabers",
+      "placeholder": "Name des Kontoinhabers"
+    },
+    "securityCode": "Sicherheitscode (CVV)",
+    "monthMask": "MM",
+    "yearMask": "JJJJ",
+    "billingAddress": "Rechnungsadresse",
+    "setAsDefault": "Als Standard einstellen",
+    "saveAsDefault": "Als Standard speichern",
+    "selectOne": "Wählen Sie einen...",
+    "sameAsShippingAddress": "Identisch mit Lieferadresse",
+    "choosePaymentMethod": "Wählen Sie eine Zahlungsart aus",
+    "cardNumber": "Kartennummer",
+    "expirationDate": "Ablaufdatum",
+    "payment": "Zahlungsart",
+    "addNewPayment": "Neue Zahlung hinzufügen",
+    "paymentType": "Zahlungsart",
+    "changePayment": "Zahlungsart ändern",
+    "securityCodeTitle": "Kartenverifiziernummer"
+  },
+  "paymentTypes": {
+    "title": "Zahlungsart",
+    "paymentType_ACCOUNT": "Konto",
+    "paymentType_CARD": "Kreditkarte"
+  },
+  "paymentCard": {
+    "expires": "Gültig bis: {{month}} / {{year}}",
+    "setAsDefault": "Als Standard einstellen",
+    "defaultPaymentMethod": "✓ STANDARD",
+    "selected": "Auswahl",
+    "deleteConfirmation": "Sind Sie sicher, dass Sie diese Zahlungsmethode löschen möchten?"
+  }
+}

@@ -1,0 +1,973 @@
+{
+  "searchSupport": {
+    "placeholder": "Recherchez ici...",
+    "results": "Résultats",
+    "manualTitle": "Le manuel du propriétaire",
+    "manualDownload": "Téléchargez  les spécifications produits",
+    "text": "Rechercher un FUN, un modèle ou un document",
+    "more": "Plus",
+    "allResults": "Tous les résultats",
+    "manualDescription": "Le document le plus complet sur la configuration et l'utilisation du produit.",
+    "resultsFor": "Afficher les résultats pour :"
+  },
+  "chat": {
+    "faq": "Questions du portail BTOB",
+    "message1": "Bonjour! Je suis Laurent. Comment puis-je vous aider?",
+    "title": "Assistant FRANKE",
+    "message2": "Vous pouvez sélectionner  une des questions suivantes ou poser directement votre question",
+    "contact": "Contact FRANKE",
+    "complaint": "Soumettre une réclamation"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Besoin d'aide sur votre produit ou d'une réponse rapide?",
+    "title": "Bonjour, nous sommes là pour vous aider"
+  },
+  "contactForm": {
+    "contactType": "Choisir un contact",
+    "files": "Téléchargez des images pour illustrer votre demande",
+    "funNumber": "ID",
+    "request": "Décrivez votre demande",
+    "ticketAddSucess": "Votre ticket a été créé avec succés",
+    "ticketAddFail": "Votre ticket n'a pas été créé avec succès. Veuillez réessayer",
+    "subTitle2": "Utilisez tout simplement notre formulaire!",
+    "generalContactCategories": "Choisir une catégorie",
+    "deleteFiles": "Supprimer",
+    "productSubCategories": "Choisir une sous-catégorie",
+    "title": "Plus de questions?",
+    "subTitle1": "Nous ne trouvons pas la réponse à votre question dans notre FAQs",
+    "productCategories": "Choisir un produit",
+    "orderNumber": "Numéro de commande"
+  },
+  "product": {
+    "id": "Référence"
+  },
+  "faq": {
+    "print": "Imprimer cette page",
+    "customerServicesQuestions": "Service Client",
+    "pageTitle": "Questions fréquemment posées",
+    "productQuestionsTitle": "Produits Franke",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Commandes et Expédition"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Vous pouvez avoir jusqu'à 4 adresses maximum.",
+    "updateAddress": "Mettre à jour l'adresse",
+    "editShippingAddress": "Modifier l'adresse de livraison",
+    "deliveryAddressTitle": "Adresse de livraison",
+    "addNewShippingAddress": "Ajouter une nouvelle adresse de livraison",
+    "addAddress": "Ajouter l'adresse",
+    "billingAddressTitle": "Adresse de facturation",
+    "addNewAddress": "Ajouter une nouvelle adresse",
+    "backToAddressList": "Retour à la liste d'adresses",
+    "areYouSureToDeleteAddress": "Etes-vous sûr de vouloir supprimer cette adresse?"
+  },
+  "addressCard": {
+    "shipTo": "Livrer à",
+    "setAsDefault": "Définir par défaut",
+    "billTo": "Adresse de facturation",
+    "selected": "Sélectionné",
+    "default": "DÉFAUT"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Nom de famille",
+      "placeholder": "Nom de famille"
+    },
+    "aptSuite": "Apt, Suite",
+    "saveAsDefault": "Enregistrer par défaut",
+    "firstName": {
+      "label": "Prénom",
+      "placeholder": "Prénom"
+    },
+    "zipCode": {
+      "placeholder": "Code postal",
+      "label": "Code postal"
+    },
+    "address1": "Adresse 1",
+    "setAsDefault": "Définir par défaut",
+    "title": "Civilité",
+    "userAddressDeleteSuccess": "L'adresse a été supprimée avec succès!",
+    "userAddressAddSuccess": "La nouvelle adresse a été ajoutée avec succès!",
+    "city": {
+      "placeholder": "Ville",
+      "label": "Ville"
+    },
+    "invalidAddress": "Adresse invalide",
+    "chooseAddress": "Choisir l'adresse",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "Numéro de téléphone (facultatif)"
+    },
+    "titleRequired": "La civilité est requise",
+    "state": "Statut",
+    "address2": "Adresse 2 (facultatif)",
+    "selectOne": "Sélectionner un ...",
+    "country": "Pays",
+    "streetAddress": "Rue",
+    "userAddressUpdateSuccess": "L'adresse a été mise à jour avec succès!"
+  },
+  "wishlist": {
+    "addToCart": "Ajouter au panier",
+    "empty": "Votre liste de préférés est vide"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Créer un compte?",
+    "invoiceHasBeenSentByEmail": "Un accusé réception vous sera envoyé par e-mail",
+    "placedOn": "Placé sur",
+    "status": "Statut",
+    "frequency": "Fréquence",
+    "orderItems": "Articles commandés",
+    "orderPlacedSuccessfully": "Commande passée avec succès",
+    "nextOrderDate": "Date de la commande suivante",
+    "confirmationOfOrder": "Confirmation de la commande :",
+    "cancelled": "Annulé",
+    "createAccountForNext": "Créer un compte <{{email}}> pour une gestion plus rapide de vos commandes lors de votre prochaine visite.",
+    "replenishmentNumber": "Reconstitution #",
+    "orderNumber": "Numéro de commande",
+    "thankYou": "Nous vous remercions de votre commande!",
+    "active": "Actif"
+  },
+  "checkoutPO": {
+    "placeholder": "Entrez p.o.",
+    "poNumber": "Numéro de commande",
+    "availableLabel": "Les adresses de livraison disponibles dépendent de l'unité du centre de coûts",
+    "costCenter": "Centre de coûts",
+    "noPoNumber": "Aucun"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Commande de réapprovisionnement automatique",
+    "confirmThatRead": "Je confirme que je l'ai lu et accepté le",
+    "termsAndConditions": "Conditions Générales de Ventes",
+    "recurrencePeriodType_WEEKLY": "Semaine(s)",
+    "poNumber": "Numéro de commande",
+    "dayOfMonth": "le jour",
+    "every": "Chaque",
+    "placeOrder": "Passer la commande",
+    "scheduleReplenishmentOrder": "Planifier l'ordre de réapprovisionnement",
+    "recurrencePeriodType_DAILY": "Jour(s)",
+    "repeatOnDays": "Répétez les jours suivants",
+    "funNumber": "ID: {{fun}}",
+    "editShippingAddress": "Modifier l'adresse de livraison",
+    "startOn": "Démarrer",
+    "additionalDetailsTitle": "Informations additionnelles",
+    "deliveryAddressTitle": "Adresse de livraison",
+    "orderType_PLACE_ORDER": "Aucun (commande unique seulement)",
+    "invoiceAddressTitle": "Adresse de facturation",
+    "recurrencePeriodType_MONTHLY": "Mois",
+    "requestedDate": "Date demandée :",
+    "orderType": "Type de commande:",
+    "checkoutError": "Erreur est survenue. Veuillez contacter le service client",
+    "itemsTitle": "Articles à livrer",
+    "additionalReference": "Référence supplémentaire:",
+    "orderItems": "Articles commandés",
+    "quantity": "Quantité: {{count}}",
+    "reference": "Référence",
+    "orderNumber": "Numéro de commande:",
+    "review": "Révision",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Reconstituer un ordre",
+    "deliveryDate": "Date de livraison demandée:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Adresse de livraison",
+    "reviewOrder": "Vérifier la commande",
+    "paymentDetails": "Détails de paiement",
+    "billingTask": "Sélectionner l'adresse de facturation",
+    "billingAddress": "Adresse de facturation",
+    "methodOfPayment": "Moyen de paiement",
+    "deliveryMode": "Mode de livraison",
+    "reviewTask": "Récapitulatif de votre commande",
+    "shippingTask": "Sélectionner l'adresse de livraison",
+    "invoicePayment": "Paiement de la facture"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Adresse de facturation par défaut",
+    "enteredAddress": "Adresse indiquée",
+    "selectYourInvoiceAddress": "Sélectionnez votre adresse de facturation",
+    "verifyYourAddress": "Vérifiez votre adresse",
+    "invoiceAddress": "Adresse de la facture",
+    "editAddress": "Modifier l'adresse",
+    "chooseAddressToUse": "Sélectionner l'adresse que vous souhaitez utiliser :",
+    "shipToThisAddress": "Livrer à cette adresse",
+    "saveAddress": "Enregistrer l'adresse",
+    "addNewAddress": "Ajouter une nouvelle adresse",
+    "defaultShippingAddress": "Adresse de livraison par défaut",
+    "selectInvoiceAddress": "Sélectionnez cette adresse",
+    "selectYourBillingAddress": "Sélectionnez votre adresse de facturation",
+    "suggestedAddress": "Adresse suggérée",
+    "billingAddress": "Adresse de facturation",
+    "selectYourShippingAddress": "Sélectionner votre adresse de livraison",
+    "shippingAddress": "Adresse de livraison",
+    "ensureAccuracySuggestChange": "Pour assurer l’exactitude de la livraison, nous vous suggérons le changement ci-dessous."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Livraison Standard",
+    "shippingMethod": "Mode de livraison",
+    "premiumDelivery": "Livraison express"
+  },
+  "checkout": {
+    "back": "Retour",
+    "invalid": {
+      "accountType": "Votre compte ne vous permet pas de commander ici."
+    },
+    "backToCart": "Retour au panier",
+    "continue": "Continuer"
+  },
+  "loginForm": {
+    "emailAddress": {
+      "placeholder": "Entrez votre email",
+      "label": "Adresse e-mail"
+    },
+    "password": {
+      "placeholder": "Mot de passe",
+      "label": "Mot de passe"
+    },
+    "forgotPassword": "Mot de passe oublié?",
+    "wrongEmailFormat": "Ce n'est pas un format d'email valide.",
+    "guestCheckout": "Paiement invité",
+    "signIn": "Se connecter",
+    "register": "S'inscrire",
+    "dontHaveAccount": "Vous n'avez pas de compte?"
+  },
+  "checkoutLogin": {
+    "emailsMustMatch": "Cet email ne correspond pas",
+    "emailAddress": {
+      "label": "Adresse e-mail",
+      "placeholder": "Entrer votre email"
+    },
+    "continue": "Continuer",
+    "emailIsRequired": "Format d'email invalide",
+    "confirmEmail": {
+      "label": "Confirmer votre e-mail",
+      "placeholder": "Confirmer votre e-mail"
+    }
+  },
+  "anonymousConsents": {
+    "banner": {
+      "viewDetails": "Voir les détails",
+      "allowAll": "Tout autoriser",
+      "title": "Ce site web utilise des cookies",
+      "description": "Nous utilisons le stockage des cookies pour personnaliser le contenu et améliorer l'expérience utilisateur."
+    },
+    "preferences": "Préférences des cookies",
+    "dialog": {
+      "clearAll": "Tout effacer",
+      "legalDescription": "Nous utilisons des cookies pour personnaliser le contenu et améliorer l'expérience utilisateur. Nous pourrions également partager les données sur votre utilisation du site avec nos médias sociaux. Pour en savoir plus, s'il vous plaît consulter notre politique de confidentialité.",
+      "title": "gestion des cookies",
+      "selectAll": "Tout sélectionner"
+    }
+  },
+  "forgottenPassword": {
+    "resetPassword": "Réinitialiser le mot de passe",
+    "passwordResetSuccess": "Mot de passe changé! Vous pouvez vous connecter maintenant en utilisant votre nouveau mot de passe.",
+    "enterEmailAddressAssociatedWithYourAccount": "Saisir l'adresse e-mail associée à votre compte",
+    "emailAddress": {
+      "label": "Adresse e-mail",
+      "placeholder": "Entrer votre email"
+    },
+    "enterValidEmail": "Merci de saisir un email valide.",
+    "passwordResetEmailSent": "Un e-mail vous a été envoyé. Il contient les informations afin de de réinitialiser votre mot de passe."
+  },
+  "register": {
+    "titleRequired": "Le champ civilité est requis",
+    "newPassword": "Nouveau mot de passe",
+    "confirmThatRead": "Je confirme avoir lu et accepté la",
+    "firstName": {
+      "label": "Prénom",
+      "placeholder": "Prénom"
+    },
+    "createAccount": "Créer un compte",
+    "bothPasswordMustMatch": "Les deux mot de passe doivent correspondre",
+    "register": "S'inscrire",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "postRegisterMessage": "Merci de vous connecter avec les identifiants fournis",
+    "emailAddress": {
+      "placeholder": "Adresse e-mail",
+      "label": "Adresse e-mail"
+    },
+    "title": "Civilité",
+    "confirmPassword": {
+      "action": "Confirmer le mot de passe",
+      "placeholder": "Confirmer le mot de passe",
+      "label": "Confirmer le mot de passe"
+    },
+    "termsAndConditions": "Conditions générales de Ventes",
+    "lastName": {
+      "label": "Nom de famille",
+      "placeholder": "Nom de famille"
+    },
+    "password": {
+      "placeholder": "Mot de passe",
+      "label": "Mot de passe"
+    },
+    "emailMarketing": "Utiliser mes données personnelles pour recevoir des informations par email pour les campagnes  marketing. Pour modifier vos paramètres, allez dans gérer mon compte.",
+    "managementInMyAccount": "Gérer mon compte",
+    "passwordMinRequirements": "Le mot de passe doit être de six caractères minimum, avec une lettre majuscule, un numéro, un symbole",
+    "confirmNewPassword": "Confirmer le nouveau mot de passe",
+    "signIn": "J'ai déjà un compte. Se connecter",
+    "selectTitle": "Sélectionner le champ civilité"
+  },
+  "stockNotification": {
+    "subscriptionDialog": {
+      "manageSubscriptionsLink": "Mes intérêts",
+      "notifiedPrefix": "Vous serez informé de :",
+      "header": "Sur souscription d'actions",
+      "manageChannelsSuffix": "page.",
+      "manageSubscriptionsSuffix": "page.",
+      "subscribing": "vous abonnent Out des notifications de stock pour ce produit",
+      "manageChannelsLink": "Préférences de notification",
+      "manageChannelsPrefix": "Gérer vos canaux de notification préférés au",
+      "manageSubscriptionsPrefix": "Vous pouvez gérer vos abonnements à",
+      "okBtn": "D'accord",
+      "notifiedSuffix": "Dès que ce produit sera de nouveau disponible"
+    },
+    "notified": "Vous serez informé quand le produit sera de nouveau disponible",
+    "getNotifySuffix": "pour être averti quand le produit sera disponible.",
+    "activateChannelsPrefix": "Pour être informé, vous devez activer le",
+    "activateChannelsSuffix": ".",
+    "notifyMe": "Me notifier",
+    "getNotified": "Être averti quand le produit sera de nouveau disponible",
+    "stopNotify": "Ne plus recevoir de notification",
+    "channelsLink": "Canaux de notification",
+    "getNotify": "Être informé quand ce produit est disponible.",
+    "unsubscribeSuccess": "Vous avez réussi à vous désabonner de la notification de retour en stock"
+  },
+  "accordion": {
+    "features": "Fonctionnalités",
+    "remarks": "Remarques",
+    "dimensions": "Dimensions",
+    "productDetails": "Détails produit"
+  },
+  "productSummary": {
+    "preLaunchBody": "Vous pouvez pré-commander cet article pour livraison dès que le stock est disponible",
+    "id": "Référence",
+    "substitutesProducts": "Voir alternatives",
+    "availabilityCheck": {
+      "noFurtherInfoSingular": "Actuellement, aucune autre information disponible pour l'unité {{ quantity }} restante",
+      "priceTooltip": "Prix Hors taxe",
+      "itemsNotAvailable": "{{quantity}} unités disponibles le {{ date }}",
+      "itemsAvailableSingular": "{{quantity}} unités disponible le {{ date }}",
+      "itemsNotAvailableSingular": "{{quantity}} unités disponible le {{ date }}",
+      "deliveryDateInfo": "Pour connaître la date de livraison ferme, rendez-vous dans la section 'historique de commandes'",
+      "noFurtherInfo": "Actuellement, aucune autre information disponible pour les {{ quantity }} unités restantes",
+      "button": "Vérifier la disponibilité",
+      "errorMessage": "Impossible de charger les informations pour le moment, veuillez réessayer plus tard",
+      "itemsAvailable": "{{quantity}} unités disponibles le {{ date }}",
+      "dateTitle": "Date de livraison demandée"
+    },
+    "promotionTooltip": "La remise finale sera appliquée dans votre panier",
+    "description": "Description",
+    "showReviews": "Voir les avis",
+    "localSalesNumber": "Identifiant",
+    "share": "Partager",
+    "referenceNumber": "Numéro de réference",
+    "unrecognizedError": "Oups! Nous avons oublié quelque chose. Veuillez contacter notre service clientèle pour commander ce produit.",
+    "catalogPrice": "Prix public indicatif",
+    "more": "voir plus",
+    "preLaunchTitle": "Pré-lancement"
+  },
+  "productList": {
+    "clearFilters": "Effacer les filtres",
+    "listingPageSubtitle": "Les prix affichés sont les prix publics indicatifs",
+    "searchResultsTitle": "{{numberOfResults}} résultats pour \"{{query}}\"",
+    "view": "Vue",
+    "backToTopBtn": "RETOUR EN HAUT",
+    "wishlist": "Favoris",
+    "discontinuedProductsFilter": "Voir les produits qui ne sont plus commercialisés",
+    "pageOf": "Page {{x}} sur {{y}}",
+    "articleNumber": "FUN {{fun}}",
+    "previous": "Précédent",
+    "filterBy": {
+      "action": "Filtrer par",
+      "label": "Filtrer par"
+    },
+    "appliedFilter": "Filtre sélectionné :",
+    "showMoreBtn": "VOIR PLUS",
+    "description": "Description",
+    "notAvailableDescription": "Pièces détachées et accessoires peuvent encore être achetés pour ce produit",
+    "sortByRelevance": "Trier par Pertinence",
+    "cart": "Panier",
+    "showMore": "Voir plus...",
+    "filters": "Filtres",
+    "results": "Résultats",
+    "showLess": "Voir moins...",
+    "notAvailable": "Ce produit n'est plus commercialisé",
+    "next": "Suivant"
+  },
+  "productDetails": {
+    "noDetails": "Pas d'informations complémentaires sur ce produit. Si vous avez des questions concernant ce produit, veuillez nous envoyer un message via notre <u><a class=\"form\" href=\"/client-service\">formulaire de contact.</a></u>",
+    "reviews": "Avis",
+    "shipping": "Livraison",
+    "specification": "Caractéristiques",
+    "productDetails": "Détails produit",
+    "quantity": "Quantité",
+    "id": "ID",
+    "imageDisclaimer": "Photo non contractuelle. Veuillez consulter la description et le dessin technique pour plus d'informations",
+    "showReviews": "Voir les avis",
+    "share": "Partager",
+    "noReviews": "Aucun avis"
+  },
+  "productReview": {
+    "overallRating": "Evaluation globale",
+    "more": "Plus",
+    "reviewerName": "Nom (en option)",
+    "rating": "Évaluation",
+    "writeReview": "Rédiger un avis",
+    "writeYourComments": "Ajouter vos commentaires",
+    "less": "Moins",
+    "reviewTitle": "Titre de l'avis",
+    "thankYouForReview": "Merci pour cet avis! Notez que les avis peuvent être vérifiés avant d'apparaître ici."
+  },
+  "addToCart": {
+    "selectStyleAndSize": "Sélectionnez le style et la taille pour vérifier l'inventaire",
+    "addToCartFailed": "Ajouter produit au panier a échoué! Réessayer.",
+    "itemsAddedToYourCart": "Article(s) ajouté(s) au panier",
+    "items": "Articles",
+    "viewCart": "Voir le panier",
+    "inStock": "Disponible",
+    "quantity": "Quantité",
+    "addToCartSuccessfully": "Produit ajouté au panier avec succès",
+    "itemsIncrementedInYourCart": "Cet article est déjà dans votre panier. La quantité a été mise à jour.",
+    "updatingCart": "Mise à jour du panier ...",
+    "outOfStock": "Indisponible",
+    "addToCart": "Ajouter au panier",
+    "proceedToCheckout": "Valider la transaction"
+  },
+  "TabPanelContainer": {
+    "tabs": {
+      "ProductSpecsTabComponent": "Caractéristiques",
+      "ProductDetailsTabComponent": "Détails produit",
+      "ProductReviewsTabComponent": "Avis",
+      "deliveryTab": "Livraison",
+      "ProductDownloadsTabComponent": "Téléchargements"
+    }
+  },
+  "alternativeProducts": {
+    "similarProductRecommendations": "Recommandations de produits similaires",
+    "declaimer": "Remarque : certaines caractéristiques des produits alternatifs proposés peuvent ne pas correspondre exactement à votre demande. Veuillez vérifier attentivement avant de continuer.",
+    "goToProduct": "",
+    "article": "Article",
+    "showAlternativeProducts": "",
+    "noRecommendations": ""
+  },
+  "addToWishList": {
+    "remove": "Retirer de la liste des articles préférés",
+    "addToWishlistSuccessfully": "Produit ajouté aux favoris avec succès",
+    "add": "Ajouter à la liste des articles préférés",
+    "addToWishlistFailed": "Ajouter produit aux favoris a échoué! Réessayer.",
+    "anonymous": "Identifiez-vous pour ajouter à la liste des articles préférés"
+  },
+  "variant": {
+    "size": "Dimension",
+    "color": "Couleur",
+    "selectedStyle": "style sélectionné",
+    "style": "Style",
+    "sizeGuideLabel": "Guide de style"
+  },
+  "productFacetNavigation": {
+    "appliedFilter": "Filtre sélectionné :",
+    "showMore": "Voir plus...",
+    "showLess": "Voir moins...",
+    "filterBy": {
+      "action": "Filtrer par",
+      "label": "Filtrer par"
+    },
+    "sortByRelevance": "Trier par Pertinence"
+  },
+  "productDownloads": {
+    "productSheet": "Fiche produit"
+  },
+  "productReferences": {
+    "id": "Numéro de l'article"
+  },
+  "emptyCart": {
+    "cartIsEmpty": "Votre panier est vide",
+    "suggestion": "Rechercher un produit",
+    "suggestionTitle": "Suggestions :"
+  },
+  "additionalInfo": {
+    "title": "Information supplémentaire relative à votre commande",
+    "additionalReference": "Référence supplémentaire",
+    "poNumber": "Veuillez indiquer votre numéro de commande ou toute autre référence que vous souhaitez voir apparaître sur la facture",
+    "orderType": "Mode de livraison",
+    "orderNumber": "Référence client"
+  },
+  "orderCost": {
+    "subtotalSingular": "Prix Net HT ({{count}} article):",
+    "orderDiscounts": "",
+    "toBeDetermined": "À déterminer",
+    "totalCatalogPrice": "PPI HT ({{count}} articles):",
+    "totalCatalogPriceSingular": "Prix public HT ({{count}} article):",
+    "crossChannelPromo": "",
+    "orderSummary": "Récapitulatif de la commande",
+    "subtotal": "Prix ​​d'achat ({{count}} articles):",
+    "discountsApplied": "{{discountMessage}} a été appliqué",
+    "salesTax": "Montant TVA 20%",
+    "totalDiscounts": "Réductions appliquées",
+    "shipping": "Livraison :",
+    "crossCategoryPromo": "",
+    "discount": "Vous avez économisez :",
+    "grossTax": "Hors taxe",
+    "mainPromoIncluded": "",
+    "total": "Montant TOTAL (TVA incluse):",
+    "productDiscounts": "",
+    "totalNetWithoutTax": "",
+    "estimatedShipping": "Frais de livraison:",
+    "mainFeesIncluded": ""
+  },
+  "cartItems": {
+    "discount": "Remise",
+    "checkAvailabilityInfoNoUnits": "0 unités de cet article disponible pour le moment. Quantité totale demandée disponible à partir du {{ date }}",
+    "checkAvailabilityInfoSingular": "Seulement {{quantity}} unité de cet article disponibles pour le moment. Quantité totale demandée disponible à partir du {{ date }}",
+    "unitPrice": "PPI HT:",
+    "item": "Détails produit",
+    "checkAvailabilityNoFurtherInfoSingular": "Actuellement, aucune autre information disponible pour l'unité {{ quantity }} restante",
+    "checkAvailabilityInfo": "Seulement {{quantity}} unités de cet article sont disponibles pour le moment. Quantité totale demandée disponible à partir du {{ date }}",
+    "itemPrice": "Prix d'achat",
+    "changeQuantity": "Modifiez la quantité",
+    "cartTotal": "Total panier ({{quantité}} article)",
+    "funNumber": "ID :",
+    "brand": "Marque :",
+    "availability": "Disponibilité",
+    "deliveryDate": "Date de livraison demandée",
+    "id": "ID",
+    "ecoTax": "Eco Tax:",
+    "quantity": "Quantité:",
+    "remove": "Retirer",
+    "availabilityInfo": "Les produits non disponibles peuvent toujours être commandés.\nVous serez informé dès qu'une date de livraison sera disponible.",
+    "quantityTitle": "Quantité totale commandée pour un même article",
+    "checkAvailabilityError": "Impossible de charger les informations pour le moment, veuillez réessayer plus tard",
+    "additionalFees": "Frais supplémentaires:",
+    "cartTotal_plural": "Total panier ({{quantité}} articles)",
+    "additionalFeesTooltip": "Frais supplémentaires tels que frais de transport/d'expédition, frais d'emballage, suppléments pour envoi express, assurances, suppléments de renchérissement, frais de recyclage, frais de traitement, montant minimum de facturation etc.",
+    "deliveryDateInfo": "Le produit sera livré dans un délai de 10 jours à compter la date de la commande",
+    "checkAvailabilityNoFurtherInfo": "Actuellement, aucune autre information disponible pour les {{ quantity }} unités restantes",
+    "description": "Description",
+    "estimatedDeliveryDate": "La date de livraison estimée est le {{ date }}",
+    "total": "Total"
+  },
+  "voucher": {
+    "applyVoucherSuccess": "{{CodePormo}} a été appliqué.",
+    "apply": "Appliquer",
+    "coupon_plural": "Codes promos",
+    "availableCouponsLabel": "Ces codes promo peuvent être appliqués à cette commande",
+    "placeholder": "Code promo",
+    "availableCoupons": "Codes promo disponibles",
+    "removeVoucherSuccess": "{{CodePromo}} a été supprimé.",
+    "vouchersApplied": "Codes promos appliqués",
+    "coupon": "Avez-vous un code promo ?",
+    "anchorLabel": "Entrer ou supprimer votre code promo"
+  },
+  "cartAlternativeProducts": {
+    "checkAlternativeProducts": "",
+    "replaceCartItem": "Remplacer l'article du panier par ce produit",
+    "cartItemReplacedSuccessfully": "Produit remplacé avec succès",
+    "cartItemReplacedError": "Le produit n'a pas pu être remplacé, veuillez réessayer"
+  },
+  "saveForLaterItems": {
+    "itemTotal_plural": "Sauvegardés pour plus tard (article {{quantité}})",
+    "stock": "Stock",
+    "cartTitle": "Panier",
+    "saveForLater": "Sauvegarder pour plus tard",
+    "moveToCart": "Passer au paiement",
+    "forceInStock": "Disponible",
+    "itemTotal": "Sauvegardés pour plus tard (article {{quantité}})"
+  },
+  "cartDetails": {
+    "cartName": "Panier # {{code}}",
+    "continueShopping": "Continuer vos achats",
+    "proceedToCheckout": "Validez votre panier",
+    "id": "FUN"
+  },
+  "dashboard": {
+    "ticketHistoryCreatedBy": "Créé par: {{name}}",
+    "invoiceAddressesTitle": "Adresses de facturation",
+    "noStatistics": "Statistiques non disponibles pour le moment",
+    "openReturns": "Retours ouverts",
+    "ticketHistoryStatusCompleted": "Complété",
+    "ticketHistoryTitle": "Historique des tickets",
+    "deliveryAddressesTitle": "Adresses de livraison",
+    "analyticsTab": "Statistiques",
+    "openOrders": "Comandes en cours",
+    "ticketHistoryStatusOpen": "Ouvert",
+    "netTurnover": "Chiffre d'affaires",
+    "ticketHistoryLastUpdate": "Dernière mise à jour: {{date}}",
+    "ticketHistoryLastUpdateBy": "Dernière mise à jour par: {{name}}",
+    "turnoverLastYear": "Chiffre d'affaires Année Précédente",
+    "ticketHistoryStatusInProcess": "En cours de traitement",
+    "openOrdersEndOfYear": "Commandes ouvertes jusqu'à la fin de l'année",
+    "ticketHistoryStatusClosed": "Cloturé",
+    "ticketHistoryCode": "ID: {{code}}",
+    "ticketHistoryCreated": "Créé le: {{date}}",
+    "noTicketHistory": "Aucun billet n'a encore été créé"
+  },
+  "myInterests": {
+    "sortByMostRecent": "Trier par les plus récents",
+    "lowStock": "Faible disponibilité",
+    "header": "Mes favoris",
+    "expirationDate": "- Jusqu'à {{ expirationDate }}",
+    "sorting": {
+      "byNameDesc": "Nom (décroissant)",
+      "byNameAsc": "Nom (croissant)"
+    },
+    "noInterests": "Vous n'avez pas encore sélectionné de favoris",
+    "notifications": "Notifications",
+    "outOfStock": "Indisponible",
+    "BACK_IN_STOCK": "De nouveau disponible",
+    "price": "PRIX",
+    "remove": "RETIRER",
+    "productId": "Code d'identification }}",
+    "inStock": "Disponible",
+    "item": "ARTICLE"
+  },
+  "returnRequestList": {
+    "date": "Date créée",
+    "sortByMostRecent": "Trier par le plus récent",
+    "statusDisplay_APPROVING": "Approuvé",
+    "status": "Statut",
+    "statusDisplay_COMPLETED": "Terminé",
+    "statusDisplay_CANCELLING": "Annulation",
+    "statusDisplay_WAIT": "Veuillez patienter",
+    "statusDisplay_PAYMENT_REVERSED": "Annulation de paiement",
+    "statusDisplay_RECEIVED": "Reçu",
+    "statusDisplay_TAX_REVERSAL_FAILED": "Échec Annulation Tax",
+    "statusDisplay_RECEIVING": "Reçu",
+    "statusDisplay_APPROVAL_PENDING": "En attente d'approbation",
+    "statusDisplay_PAYMENT_REVERSAL_FAILED": "Echec de l'annulation de paiement",
+    "statusDisplay_REVERSING_PAYMENT": "Annulation de paiement",
+    "returnRequestId": "Retour #",
+    "statusDisplay_TAX_REVERSED": "Tax Annulée",
+    "statusDisplay_REVERSING_TAX": "inverser la taxe",
+    "statusDisplay_CANCELED": "Annulé"
+  },
+  "updateProfileForm": {
+    "parentCompany": "Etablissement principal",
+    "lastName": {
+      "placeholder": "Nom de famille",
+      "label": "Nom de famille"
+    },
+    "none": "Aucun",
+    "firstName": {
+      "label": "Prénom",
+      "placeholder": "Prénom"
+    },
+    "lastNameIsRequired": "Le nom de famille est requis.",
+    "title": "Civilité",
+    "email": "Votre e-mail",
+    "profileUpdateSuccess": "Données personnelles mises à jour avec succès",
+    "customerNumber": "Numéro de client",
+    "customerId": "Client #",
+    "firstNameIsRequired": "Le prénom est requis."
+  },
+  "returnRequest": {
+    "estimatedRefund": "Remboursement estimé",
+    "summary": "Totaux des retours",
+    "cancelSuccess": "Votre demande de retour ({{}} rma) a été annulée",
+    "itemPrice": "Prix ​​de l'article",
+    "deliveryCode": "Frais de port",
+    "subtotal": "Sous-total",
+    "total": "Total",
+    "cancel": "Annuler la demande de retour",
+    "returnQty": "Quantité retournée",
+    "note": "Les totaux sont estimatifs et peuvent ne pas inclure les taxes applicables ou autres frais.",
+    "status": "Statut du retour",
+    "returnRequestId": "Demande de retour #",
+    "item": "Description"
+  },
+  "closeAccount": {
+    "confirmAccountClosureMessage": "Etes-vous sûr de vouloir fermer votre compte?",
+    "accountClosedFailure": "Impossible de fermer le compte",
+    "closeMyAccount": "Fermer mon compte",
+    "accountClosedSuccessfully": "Compte fermé avec succès",
+    "confirmAccountClosure": "Confirmation du la fermeture du compte"
+  },
+  "notificationCenter": {
+    "noNotifications": "Il n'y a actuellement aucune notification",
+    "backInStockNotificationMessage": "Le produit est de retour en stock",
+    "notificationMessage": "La date de livraison d'un ou plusieurs articles de votre commande a changé.",
+    "productNumber": "Produit {{productCode}}",
+    "emailNotifications": "Recevoir un e-mail lorsqu'une date de livraison de commande est mise à jour",
+    "orderNumber": "Ordre {{orderNumber}}",
+    "notifications": "Notifications"
+  },
+  "updateEmailForm": {
+    "password": {
+      "placeholder": "Entrer le mot de passe",
+      "label": "Mot de passe"
+    },
+    "enterValidEmail": "Veuillez entrer une adresse email valide.",
+    "emailUpdateSuccess": "Validé. Veuillez vous connecter avec {{ newUid }}",
+    "confirmNewEmailAddress": {
+      "label": "Confirmer la nouvelle adresse email",
+      "placeholder": "Entrez une adresse email"
+    },
+    "newEmailAddress": {
+      "placeholder": "Entrer une adresse email",
+      "label": "Nouvelle adresse email"
+    },
+    "pleaseInputPassword": "Saisir le mot de passe",
+    "bothEmailMustMatch": "Les deux e-mails doivent correspondre"
+  },
+  "menu": {
+    "addressBook": "Carnet d'adresses",
+    "orders": "Historique des commandes",
+    "profile": "Profil",
+    "email": "E-mail",
+    "signOut": "Déconnexion",
+    "password": "Mot de passe",
+    "dashboard": "Tableau de bord",
+    "wishlist": "Liste de souhaits"
+  },
+  "consentManagementForm": {
+    "clearAll": "Tout effacer",
+    "message": {
+      "success": {
+        "withdrawn": "Cette configuration a été supprimée",
+        "given": "Configuration validée"
+      }
+    },
+    "selectAll": "Tout sélectionner"
+  },
+  "updatePasswordForm": {
+    "oldPassword": {
+      "label": "Ancien mot de passe",
+      "placeholder": "Ancien mot de passe"
+    },
+    "oldPasswordIsRequired": "L'ancien mot de passe est requis.",
+    "passwordUpdateSuccess": "Mot de passe mis à jour avec succès",
+    "newPassword": {
+      "label": "Nouveau mot de passe",
+      "placeholder": "Nouveau mot de passe"
+    },
+    "confirmPassword": {
+      "placeholder": "Confirmer le mot de passe",
+      "label": "Confirmer le nouveau mot de passe"
+    },
+    "passwordMinRequirements": "Le mot de passe doit contenir six caractères minimum, avec une lettre majuscule, un chiffre et un symbole",
+    "bothPasswordMustMatch": "Les deux mot de passe doivent correspondre"
+  },
+  "myCoupons": {
+    "endDateAsc": "Date de fin (croissant)",
+    "sortByMostRecent": "Trier par les plus récents",
+    "startDateDesc": "Date de début (décroissant)",
+    "status": "Statut :",
+    "notesSuffix": "page.",
+    "findProducts": "Trouver des produits",
+    "effectiveTitle": "Valable:",
+    "ExpireSoon": "Arrive bientôt à expiration",
+    "PreSession": "Bientôt valide",
+    "startDateAsc": "Date de début (croissant)",
+    "claimCustomerCoupon": "Vous avez activé avec succès ce cdde promo.",
+    "notesPreffix": "Vous pouvez définir vos canaux de notification favoris pour recevoir des informations sur les promotions",
+    "dialogTitle": "Code promo",
+    "readMore": "Lire la suite",
+    "endDateDesc": "Date de fin (décroissant)",
+    "myCoupons": "Mes codes promos",
+    "notification": "Notification",
+    "Effective": "Valable",
+    "notesLink": "Canaux de notification",
+    "noCouponsMessage": "Vous n'avez pas de codes promo disponibles."
+  },
+  "notificationPreference": {
+    "SITE_MESSAGE": "SiteMessage",
+    "noteMessage": "Si vous désactivez tous les canaux, vous ne recevrez plus de notifications.",
+    "note": "Remarque :",
+    "EMAIL": "Email :",
+    "SMS": "SMS :",
+    "message": "Sélectionnez vos canaux préférés de notification"
+  },
+  "AccountOrderHistoryTabContainer": {
+    "tabs": {
+      "AccountOrderHistoryComponent": "TOUTES LES COMMANDES  ({{param}})",
+      "OrderReturnRequestListComponent": "RETOURS ({{param}})"
+    }
+  },
+  "searchBox": {
+    "resultsFor": "Afficher les résultats pour :",
+    "help": {
+      "empty": "Une question?",
+      "insufficientChars": "Nombre de caractère insuffisant",
+      "noMatch": "Aucun résultat",
+      "exactMatch": "{{ term }}"
+    },
+    "searchBarMobileText": "Recherche de produits",
+    "more": "Plus",
+    "results": "Résultats",
+    "searchBarText": "Recherchez des produits, la couleur, la matière",
+    "placeholder": "Rechercher ici...",
+    "allResults": "Tous les résultats"
+  },
+  "pageMetaResolver": {
+    "product": {
+      "title": "{{title}}",
+      "heading": "{{heading}}",
+      "description": "{{Description}}"
+    },
+    "checkout": {
+      "title": "Valider {{count}} article",
+      "title_plural": "Valider {{count}} articles"
+    },
+    "search": {
+      "findProductTitle_plural": "{{Count}} résultats pour code promo \"{{coupon}}\"",
+      "title": "{{Count}} Résultat pour \"{{query}}\"",
+      "title_plural": "{{count}} Résultats pour \"{{query}}\"",
+      "findProductTitle": "{{Count}} résultat pour code promo \"{{coupon}}\""
+    },
+    "category": {
+      "title_plural": "{{count}} Résultats pour {{query}}",
+      "title": "{{count}} Résultats pour {{query}}"
+    }
+  },
+  "breadcrumbs": {
+    "dashboardPage": {
+      "dashboardPageTitle": "Tableau de bord",
+      "dashboardPageSubTitle": "Toutes les données relatives à votre entreprise"
+    },
+    "checkoutPageTitle": "Vérifier",
+    "orderConfirmationPageTitle": "Confirmation de commande",
+    "addressBookPageTitle": "Carnet d'adresses",
+    "listingPage": {
+      "listingPageSubTitle": "Prix de vente indicatif hors taxe (en Euros €). Chaque revendeur fixe librement ses prix de revente.",
+      "searchPageTitle": "Affichage des résultats pour \"{{query}}\""
+    },
+    "orderHistoryPageTitle": "Historique des commandes",
+    "profilePageTitle": "Mon compte",
+    "privacyPageTitle": "Politique de confidentialité et Cookies",
+    "imprintPageTitle": "Mentions légales",
+    "bundlesPageTitle": "Packs",
+    "outletPageTitle": "Promotions",
+    "shoppingCartPageTitle": "Panier",
+    "wishlistPageTitle": "Favoris",
+    "termsPageTitle": "CGV",
+    "promotionPageSubTitle": "La remise finale sera appliquée dans votre panier",
+    "promotion": "Promotion"
+  },
+  "common": {
+    "save": "Enregistrer",
+    "edit": "Éditer",
+    "delete": "Effacer",
+    "confirm": "Confirmer",
+    "connected": "Lié",
+    "noData": "Pas de données.",
+    "continue": "Continuer",
+    "cancel": "Annuler",
+    "remove": "Retirer",
+    "offline": "Offline",
+    "home": "Accueil",
+    "submit": "Soumettre",
+    "done": "Terminé",
+    "other": "Autre",
+    "back": "Retour",
+    "online": "Online"
+  },
+  "httpHandlers": {
+    "sessionExpired": "Votre session a expiré. Veuillez vous connecter à nouveau.",
+    "validationErrors": {
+      "missing": {
+        "card_cardType": "La carte de crédit sélectionnée n'est pas prise en charge. Veuillez en choisir un autre.",
+        "billTo_street1": "L'adresse n'est pas valide.",
+        "billTo_state": "Vous avez indiqué l'état / province est non valide pour cette carte de crédit.",
+        "billTo_firstName": "Le prénom saisi n'est pas valide.",
+        "billTo_street2": "L'adresse n'est pas valide.",
+        "card_expirationYear": "La date d'expiration de la carte de crédit n'est pas valide.",
+        "billTo_city": "La ville indiquée n'est pas  valide pour cette carte de crédit.",
+        "card_cvNumber": "Le code de sécurité n'est pas valide.",
+        "billTo_country": "Le pays indiqué n'est pas valide pour cette carte de crédit.",
+        "card_expirationMonth": "La date d'expiration de la carte de crédit n'est pas valide.",
+        "card_accountNumber": "Le numéro de carte de crédit n'est pas valide.",
+        "billTo_lastName": "Le nom de famille saisi n'est pas valide.",
+        "billTo_postalCode": "Le code postal n'est pas valide pour cette carte de crédit.",
+        "country": {
+          "isocode": "Pays manquant"
+        }
+      },
+      "invalid": {
+        "code": "Le code n'est pas valide.",
+        "uid": "UID est pas valide.",
+        "firstName": "Le prénom saisi n'est pas valide.",
+        "password": "Le mot de passe n'est pas valide.",
+        "card_expirationMonth": "La date d'expiration de carte de crédit n'est pas valide.",
+        "lastName": "Le nom de famille saisi n'est pas valide.",
+        "backendError": "Backend Error. Veuillez contacter le service client.",
+        "sessionCart":"Erreur est survenue. Veuillez contacter le service client."
+      }
+    },
+    "cartNotFound": "Panier inexistant",
+    "conflict": "Existe déjà",
+    "unauthorized": {
+      "invalid_client": "lettres de créance de mauvais clients",
+      "common": "Une erreur d'autorisation est survenue"
+    },
+    "badGateway": "Une erreur de serveur est survenue. Veuillez réessayer plus tard.",
+    "unknownError": "Une erreur inconnue est survenue",
+    "gatewayTimeout": "Le serveur ne répond pas, veuillez réessayer plus tard.",
+    "badRequestPleaseLoginAgain": "{{ Message d'erreur }}. Veuillez vous connecter à nouveau.",
+    "forbidden": "Vous n'êtes pas autorisé à effectuer cette action. Contacter votre administrateur pour plus d'information",
+    "badRequestOldPasswordIncorrect": "Ancien mot de passe incorrect.",
+    "internalServerError": "Une erreur de serveur est survenue. Veuillez réessayer plus tard.",
+    "invalidCodeProvided": "Code fourni non valide."
+  },
+  "navigation": {
+    "shopAll": "Voir tous les produits {{navNode}}>"
+  },
+  "carousel": {
+    "button": "Tour parcourir"
+  },
+  "formErrors": {
+    "cxInvalidPassword": "Ce n'est pas un format de mot de passe valide",
+    "date": {
+      "invalid": "Utiliser une date valide",
+      "required": "Ce champ est requis",
+      "max": "La date ne peut pas être postérieure {{max}}",
+      "min": "La date ne peut pas être avant {{min}}",
+      "pattern": "Utiliser le format date aaaa-mm-jj"
+    },
+    "globalMessage": "Le formulaire que vous essayez de soumettre contient des erreurs.",
+    "cxInvalidEmail": "Ce n'est pas un format d'adresse email valide",
+    "cxNoSelectedItemToCancel": "Sélectionner au moins un article",
+    "cxEmailsMustMatch": "Les adresses e-mail doivent correspondre",
+    "cxPasswordsMustMatch": "Les mots de passe doivent correspondre",
+    "cxNegativeAmount": "Le montant doit être égal ou supérieur à zéro",
+    "required": "Ce champ est requis",
+    "cxContainsSpecialCharacters": "Le champ ne peut pas contenir de caractères spéciaux",
+    "cxStarRatingEmpty": "Le champ Note est nécessaire"
+  },
+  "errorHandlers": {
+    "refreshThePage": "Veuillez rafraîchir la page.",
+    "loadPage": "Une erreur s'est produite. Vous serez redirigé vers la page de connexion dans 5 secondes! Désolé pour ça.",
+    "scriptFailedToLoad": "Impossible de charger le script."
+  },
+  "skipLink": {
+    "labels": {
+      "footer": "Bas de page",
+      "productList": "Liste de produits",
+      "header": "Entête",
+      "productFacets": "facettes produit",
+      "main": "Contenu principal"
+    },
+    "skipTo": "Passer à"
+  },
+  "miniCart": {
+    "count": "{{count}}",
+    "total": "{{total}}",
+    "item": "Article {{count}} actuellement dans votre panier",
+    "item_plural": "Articles {{count}} actuellement dans votre panier"
+  },
+  "miniLogin": {
+    "signInRegister": "Se connecter / Créer un compte",
+    "userGreeting": "Bonjour, {{name}}"
+  },
+  "sorting": {
+    "rma": "Numéro de retour",
+    "replenishmentNumber": "Quantité à commander",
+    "orderNumber": "Numéro de commande",
+    "date": "Date",
+    "nextOrderDate": "Prochaine date de disponibilité"
+  },
+  "spinner": {
+    "loading": "Chargement..."
+  }
+}

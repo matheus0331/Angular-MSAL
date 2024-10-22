@@ -1,0 +1,179 @@
+@mixin text-style($font-size, $font-weight, $line-height) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+@mixin inspiration-childs-details {
+  width: 283px;
+  height: 265px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    width: 358px;
+    height: auto;
+  }
+}
+
+@mixin inspiration-childs-details-title {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}
+
+@mixin inspiration-childs-details-description {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    margin-bottom: 15px;
+    height: 54px;
+  }
+}
+
+@mixin inspiration-childs-details-button {
+  font-size: var(--franke-button-font-size);
+  text-align: center;
+}
+
+@mixin inspiration-display-mode {
+  @media only screen and (min-width: 992px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+  }
+}
+
+@mixin inspiration-elements-center-content {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin btn-explore {
+  text-align: center;
+  width: 103px;
+  color: var(--white);
+
+  &:hover {
+    background-color: var(--brand-color);
+    border: 1px solid var(--brand-color);
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    width: 330px;
+    margin-bottom: 14px;
+  }
+}
+
+.child-wrapper {
+  align-items: center;
+  margin-top: 24px;
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    width: 358px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @include inspiration-display-mode();
+
+  .child-img {
+    img {
+      width: 283px;
+      height: 265px;
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        width: 358px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  .child-details {
+    background-color: var(--white);
+    @include inspiration-childs-details();
+
+    .child-title {
+      @include inspiration-childs-details-title();
+      @include text-style(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px
+      );
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        margin-top: 14px;
+        @include text-style(
+            var(--franke-s-font-size),
+            var(--font-weight-base),
+            18px
+        );
+      }
+    }
+
+    .child-description {
+      @include inspiration-childs-details-description();
+      @include text-style(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px
+      );
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include text-style(
+            var(--franke-s-font-size),
+            var(--font-weight-base),
+            18px
+        );
+      }
+    }
+
+    .child-button {
+      color: var(--white);
+
+      button {
+        @include inspiration-childs-details-button();
+        @include btn-explore();
+        @include text-style(
+            var(--franke-button-font-size),
+            var(--font-weight-base),
+            21px
+        );
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          @include text-style(
+              var(--franke-s-font-size),
+              var(--font-weight-base),
+              22px
+          );
+        }
+      }
+    }
+  }
+}

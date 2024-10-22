@@ -1,0 +1,31 @@
+@mixin center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin node-small-images {
+  width: 131px;
+  height: 131px;
+  @media only screen and (max-width: 767px) {
+    height: 100px;
+  }
+}
+
+@mixin node-item-width {
+  width: 187px;
+}
+
+@mixin node-item-height {
+  height: 187px;
+}
+
+@mixin node-item-font-size {
+  font-size: var(--franke-s-font-size);
+  line-height: 22px;
+}
+
+@mixin node-item-font-uppercase {
+  text-transform: uppercase;
+  font-weight: var(--font-weight-semi-bold);
+}

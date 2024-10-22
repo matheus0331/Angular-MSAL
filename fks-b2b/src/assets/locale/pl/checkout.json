@@ -1,0 +1,219 @@
+{
+  "searchSupport": {
+    "placeholder": "Szukaj tutaj...",
+    "results": "Wyniki",
+    "manualTitle": "Instrukcja użytkowania",
+    "manualDownload": "Pobierz specyfikację",
+    "text": "Wpisz numer katalogowy, model lub symbol produktu",
+    "more": "Więcej",
+    "allResults": "Wszystkie wyniki",
+    "manualDescription": "Dokumentacja produktu",
+    "resultsFor": "Pokazuje wyniki dla:"
+  },
+  "chat": {
+    "faq": "Franke Portal B2B pytania",
+    "message1": "Cześć, jestem Laura. Jestem specjalistą ds. obsługi klienta. Jak mogę ci pomóc?",
+    "title": "Osobisty asystent",
+    "message2": "Możesz wybrać jedną z opcji poniżej lub zadać własne pytanie.",
+    "contact": "Kontakt Franke",
+    "complaint": "Złóż zażalenie"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "",
+    "title": "Dzień dobry, jeśli poszukujesz informacji o produkcie Franke"
+  },
+  "contactForm": {
+    "contactType": "Wybierz sposób kontaktu",
+    "files": "Dodaj zdjęcia do swojego zapytania",
+    "funNumber": "Nr katalogowy",
+    "request": "Opisz swoje zapytanie",
+    "ticketAddSucess": "Zapytanie wysłane",
+    "ticketAddFail": "Błąd podczas wysyłania zapytania, spróbuj ponownie.",
+    "subTitle2": "Jeśli Twoje pytanie dotyczy produktów Franke, zapraszamy do zakładki \"FAQ / pytania i odpowiedzi\" na stronie www.franke.pl.",
+    "generalContactCategories": "Wybierz kategorię",
+    "deleteFiles": "Usuń",
+    "productSubCategories": "Wybierz podkategorię",
+    "title": "Więcej pytań?",
+    "subTitle1": "Jeżeli nie możesz znaleźć odpowiedzi na swoje pytanie w zakładce często zadawane pytania. Możesz skorzystać z formularza kontaktowego!",
+    "productCategories": "Wybierz produkt",
+    "orderNumber": "Numer zamówienia"
+  },
+  "product": {
+    "id": "Nr katalogowy"
+  },
+  "faq": {
+    "print": "Wydrukuj tę stronę",
+    "customerServicesQuestions": "Obsługa klienta",
+    "pageTitle": "Często Zadawane Pytania",
+    "productQuestionsTitle": "Produkty Franke",
+    "portalQuestionsTitle": "Franke Portal B2B",
+    "ordersAndShipmentQuestions": "Zamówienia i wysyłka"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Można korzystać maksymalnie z 4 adresów.",
+    "updateAddress": "Aktualizacja adresu",
+    "editShippingAddress": "Edytuj adres dostawy",
+    "deliveryAddressTitle": "Adres dostawy",
+    "addNewShippingAddress": "Dodaj nowy adres dostawy",
+    "addAddress": "Dodaj adres",
+    "billingAddressTitle": "Adres rozliczeniowy",
+    "addNewAddress": "Dodaj nowy adres",
+    "backToAddressList": "Powrót do listy adresowej",
+    "areYouSureToDeleteAddress": "Czy na pewno chcesz usunąć ten adres?"
+  },
+  "addressCard": {
+    "shipTo": "Dostawa do",
+    "setAsDefault": "Ustaw jako domyślny",
+    "billTo": "Adres do faktury",
+    "selected": "Wybrany",
+    "default": "Domyślny"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Nazwisko",
+      "placeholder": "Nazwisko"
+    },
+    "aptSuite": "Nr lokalu",
+    "saveAsDefault": "Zapisz jako domyślny",
+    "firstName": {
+      "label": "Imię",
+      "placeholder": "Imię"
+    },
+    "zipCode": {
+      "placeholder": "Kod pocztowy",
+      "label": "Kod pocztowy"
+    },
+    "address1": "Adres 1",
+    "setAsDefault": "Ustaw jako domyślny",
+    "title": "Zwrot grzecznościowy",
+    "userAddressDeleteSuccess": "Adres usunięty pomyślnie!",
+    "userAddressAddSuccess": "Nowy adres został dodany pomyślnie!",
+    "city": {
+      "placeholder": "Miasto",
+      "label": "Miasto"
+    },
+    "invalidAddress": "Błędny adres",
+    "chooseAddress": "Wybierz adres",
+    "phoneNumber": {
+      "placeholder": "(55) 555 - 0123",
+      "label": "numer telefonu (opcjonalnie)"
+    },
+    "titleRequired": "Proszę wybrać zwrot grzecznościowy",
+    "state": "Województwo",
+    "address2": "Adres 2 (opcjonalnie)",
+    "selectOne": "Wybierz jeden...",
+    "country": "Kraj",
+    "streetAddress": "Ulica",
+    "userAddressUpdateSuccess": "Adres zaktualizowany!"
+  },
+  "wishlist": {
+    "addToCart": "Dodaj do koszyka",
+    "empty": "Brak produktów na liście życzeń"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Czy utworzyć konto?",
+    "invoiceHasBeenSentByEmail": "Otrzymasz potwierdzenie zamówienia za pośrednictwem poczty e-mail",
+    "placedOn": "Umieszczone na",
+    "status": "Status",
+    "frequency": "Częstotliwość",
+    "orderItems": "Zamów produkty",
+    "orderPlacedSuccessfully": "Zamówienie złożone pomyślnie",
+    "nextOrderDate": "Następna data zamówienia",
+    "confirmationOfOrder": "Potwierdzenie zamówienia:",
+    "cancelled": "Anulowane",
+    "createAccountForNext": "Załóż konto dla <{{email}}> aby łatwiej  realizować transakcje w przyszłości.",
+    "replenishmentNumber": "Uzupełnienie #",
+    "orderNumber": "Numer zamówienia",
+    "thankYou": "Dziękujemy za Twoje zamówienie!",
+    "active": "Aktywny"
+  },
+  "checkoutPO": {
+    "placeholder": "Wprowadź nr zamówienia",
+    "poNumber": "Numer zamówienia",
+    "availableLabel": "Dostępne adresy dostawy zależą od centra powstawania kosztów",
+    "costCenter": "Centrum powstawania kosztów",
+    "noPoNumber": "Żaden"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Automatyczne uzupełnianie zamówienia",
+    "confirmThatRead": "Potwierdzam, że zapoznałem się i wyrażam zgodę na",
+    "termsAndConditions": "Zasady i Warunki",
+    "recurrencePeriodType_WEEKLY": "Tydzień (tygodnie)",
+    "poNumber": "Numer zamówienia",
+    "dayOfMonth": "W dniu",
+    "every": "Każdy",
+    "placeOrder": "Złóż zamówienie",
+    "scheduleReplenishmentOrder": "Harmonogram uzupełniania zamówień",
+    "recurrencePeriodType_DAILY": "Dzień (dni)",
+    "repeatOnDays": "Powtórzyć w następnych dniach",
+    "funNumber": "Nr katalogowy: {{fun}}",
+    "editShippingAddress": "Edytuj adres dostawy",
+    "startOn": "Zaczynaj od",
+    "additionalDetailsTitle": "Dodatkowe szczegóły zamówienia",
+    "deliveryAddressTitle": "Adres dostawy",
+    "orderType_PLACE_ORDER": "Brak (tylko jednorazowe zamówienie)",
+    "invoiceAddressTitle": "Adres rozliczeniowy",
+    "recurrencePeriodType_MONTHLY": "Miesiąc",
+    "requestedDate": "Data złożenia zamówienia:",
+    "orderType": "Typ zamówienia:",
+    "checkoutError": "Wystąpił błąd. Skontaktuj się z obsługą klienta",
+    "itemsTitle": "Zamówione produkty",
+    "additionalReference": "Dodatkowe odniesienia:",
+    "orderItems": "Zamówione produkty",
+    "quantity": "Ilość: {{count}}",
+    "reference": "Odniesienie",
+    "orderNumber": "Numer zamówienia:",
+    "review": "Sprawdź",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Uzupełnienie zamówienie",
+    "deliveryDate": "Wymagana data dostawy:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Adres dostawy",
+    "reviewOrder": "PODGLĄD ZAMÓWIENIA",
+    "paymentDetails": "Szczegóły płatności",
+    "billingTask": "Wybrany adres do faktury",
+    "billingAddress": "Adres na fakturze",
+    "methodOfPayment": "Metoda płatności",
+    "deliveryMode": "Sposób dostawy",
+    "reviewTask": "Sprawdź podsumowanie swojego zamówienia",
+    "shippingTask": "Wybrany adres dostawy",
+    "invoicePayment": "Faktura płatności"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Domyślny adres na fakturze",
+    "enteredAddress": "Wprowadzony adres",
+    "selectYourInvoiceAddress": "Wybierz swój adres na fakturze",
+    "verifyYourAddress": "Sprawdź swój adres",
+    "invoiceAddress": "Adres do faktury",
+    "editAddress": "Edytuj adres",
+    "chooseAddressToUse": "Proszę wybrać adres, którego chcesz użyć:",
+    "shipToThisAddress": "Dostawa na ten adres",
+    "saveAddress": "Zapisz adres",
+    "addNewAddress": "Dodaj nowy adres",
+    "defaultShippingAddress": "Domyślny adres dostawy",
+    "selectInvoiceAddress": "Wybierz ten adres",
+    "selectYourBillingAddress": "Wybierz swój adres rozliczeniowy",
+    "suggestedAddress": "Sugerowany adres",
+    "billingAddress": "Adres rozliczeniowy",
+    "selectYourShippingAddress": "Wybierz adres dostawy",
+    "shippingAddress": "Adres dostawy",
+    "ensureAccuracySuggestChange": "Aby zapewnić poprawność dostaw, proponujemy zmianę w zaznaczonym miejscu."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Standardowa dostawa",
+    "shippingMethod": "Sposób wysyłki",
+    "premiumDelivery": "Dostawa premium"
+  },
+  "checkout": {
+    "back": "Z powrotem",
+    "invalid": {
+      "accountType": "Twoje konto nie pozwala na przejście do płatności."
+    },
+    "backToCart": "Powrót do koszyka",
+    "continue": "Kontyntynuj"
+  }
+}

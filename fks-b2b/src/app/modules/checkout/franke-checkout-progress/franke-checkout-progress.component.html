@@ -1,0 +1,39 @@
+<section *ngIf="(activeStepIndex$ | async) !== undefined">
+  <div class="cx-nav d-none d-lg-block d-xl-block">
+    <ul class="steps-wrappper">
+      <ng-container *ngFor="let step of steps; let i = index">
+        <cx-icon
+          *ngIf="i !== 0"
+          class="disabled"
+          type="CHEVRON_RIGHT"
+        ></cx-icon>
+        <li
+          [class.active]="isActive(i)"
+          [class.disabled]="isDisabled(i)"
+          class="step"
+        >
+          <a
+            [class.active]="isActive(i)"
+            [class.disabled]="isDisabled(i)"
+            [class.step-done]="stepDone(i)"
+            [routerLink]="{ cxRoute: step.routeName } | cxUrl"
+            [tabindex]="getTabIndex(i)"
+            class="cx-link"
+          >
+            <div class="step-icon">
+              <cx-icon
+                [class.step-done]="stepDone(i)"
+                type="{{ stepIcon(i) }}"
+              ></cx-icon>
+            </div>
+            {{ step.name | cxTranslate }}
+          </a>
+          <br/>
+        </li>
+      </ng-container>
+    </ul>
+    <div class="step-task">
+      {{ setCurrentStepTask(activeStepIndex$ | async) | cxTranslate }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,160 @@
+app-franke-carousel,
+app-carousel {
+  display: flex;
+  flex: 100%;
+  --cx-speed: 0.5;
+  flex-direction: column;
+  width: 100%;
+
+  > h3 {
+    @include type('3');
+    font-size: var(--franke-h3-font-size);
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    font-weight: var(--font-weight-base);
+  }
+
+  .carousel-panel {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    // The size of carousel items depends on the number of items per slide.
+    // We generate 10 sizes in case there are a lot of carousel items displayed
+    // on a single slide.
+    @for $i from 1 through 10 {
+      &.size-#{$i} .item {
+        flex: 0 0 calc((100 / #{$i}) * 1%);
+      }
+    }
+
+    .slides {
+      flex: auto;
+      position: relative;
+
+      .slide {
+        transition: 0.6s all;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+        &:not(.active) {
+          // we keep the active slide non-absolute, so the height
+          // of the parent is based on the displayed slide
+          position: absolute;
+          opacity: 0;
+          z-index: -1;
+          transition: none;
+        }
+
+        .item {
+          opacity: 0;
+          z-index: -1;
+
+          &.active {
+            opacity: 1;
+            z-index: 1;
+          }
+
+          transition: 0.4s all;
+
+          // we add a transition delay so that items are nicely animated in a sequence
+          @for $i from 1 through 4 {
+            &:nth-child(#{$i}) {
+              transition-delay: calc(var(--cx-speed, 1) * #{$i * 0.25s});
+            }
+          }
+        }
+      }
+    }
+  }
+
+  button {
+    &:focus {
+      outline: none;
+    }
+
+    color: #d3d6db;
+
+    &:not(:disabled) {
+      cursor: pointer;
+    }
+  }
+
+  .indicators {
+    display: flex;
+    justify-content: center;
+
+    button {
+      border: none;
+      padding: 10px;
+      margin: 0;
+      transition: 0.6s all;
+      background-color: transparent;
+
+      &[disabled] {
+        color: var(--brand-color);
+      }
+
+      &:not(:disabled):hover {
+        color: var(--cx-color-secondary);
+      }
+    }
+
+    @include media-breakpoint-only(xs) {
+      display: none;
+    }
+  }
+
+  .carousel-button-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    &:first-of-type {
+      left: 8px;
+
+      @include media-breakpoint-down(sm) {
+        @media (orientation: landscape) {
+          left: 40px;
+        }
+      }
+    }
+
+    &:last-of-type {
+      right: 8px;
+
+      @include media-breakpoint-down(sm) {
+        @media (orientation: landscape) {
+          right: 40px;
+        }
+      }
+    }
+
+    .previous,
+    .next {
+      border: none;
+      font-size: 2rem;
+      width: 48px;
+      height: 137px;
+      position: relative;
+      z-index: 10;
+      box-shadow: 6px 9px 80px rgba(0, 0, 0, 0.07),
+      6px 2.71324px 24.1177px rgba(0, 0, 0, 0.0456112),
+      6px 1.12694px 10.0172px rgba(0, 0, 0, 0.035),
+      6px 0.407592px 3.62304px rgba(0, 0, 0, 0.0243888);
+
+      &:not(:disabled):hover {
+        color: var(--brand-color);
+      }
+    }
+
+    .cx-icon {
+      color: var(--text-color);
+    }
+  }
+}

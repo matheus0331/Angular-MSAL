@@ -1,0 +1,22 @@
+{
+  "troubleshootingModeEnabled": true,
+  "disableImageReuse": true,
+  "applications": [
+    {
+      "name": "fks-b2b",
+      "path": "fks-b2b",
+      "ssr": {
+        "enabled": true,
+        "path": "dist/fks-b2b-server/main.js"
+      }
+    },
+    {
+      "name": "fks-b2c",
+      "path": "fks-b2c",
+      "ssr": {
+        "enabled": true,
+        "path": "dist/fks-b2c-server/main.js"
+      }
+    }
+  ]
+}

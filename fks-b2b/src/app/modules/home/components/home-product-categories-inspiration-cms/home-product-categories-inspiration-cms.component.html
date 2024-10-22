@@ -1,0 +1,25 @@
+<div
+  *ngIf="frankeCmsData$ | async as frankeCmsData"
+  class="elements-wrapper-{{
+    frankeCmsData?.gridLayout === 'INSPIRATION' ? 'inspiration' : 'categories'
+  }}"
+>
+  <app-home-product-category
+    *ngIf="
+      frankeCmsData?.gridLayout === 'CATEGORIES' && (items$ | async)?.length > 0
+    "
+    [frankeCmsProductCategory]="frankeCmsData$ | async"
+    [productCategories]="items$ | async"
+  >
+    <pre>{{ items$ | async }}</pre>
+  </app-home-product-category>
+
+  <app-home-inspiration
+    *ngIf="
+      frankeCmsData?.gridLayout === 'INSPIRATION' &&
+      (items$ | async)?.length > 0
+    "
+    [frankeCmsInspiration]="frankeCmsData$ | async"
+    [inspirationItems]="items$ | async"
+  ></app-home-inspiration>
+</div>

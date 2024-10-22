@@ -1,0 +1,188 @@
+<ng-template #alternativeProductsOverlayButton>
+  <span class="alternative-products-button">
+    <app-shopping-cart-alternative-products-overlay-button
+      [entry]="entry"
+    ></app-shopping-cart-alternative-products-overlay-button>
+  </span>
+</ng-template>
+
+<div class="availability-info-wrapper">
+  <app-shopping-cart-item-promotion-banner
+    [entry]="entry"
+  ></app-shopping-cart-item-promotion-banner>
+
+  <div
+    *ngIf="
+      (hasAvailability$ | async) === false &&
+      (availabilityCheckDisabledInCart$ | async) === false
+    "
+    class="availability-info"
+  >
+    <cx-icon class="small warning-icon" type="WARNING"></cx-icon>
+    <div>
+      <span>
+        {{
+        (firstQuantityAvailable$ | async) > 1
+          ? ('cartItems.checkAvailabilityInfo'
+            | cxTranslate
+            : {
+              quantity: (firstQuantityAvailable$ | async),
+              date: (nextDateAvailable$ | async)
+            })
+          : (firstQuantityAvailable$ | async) === 1
+            ? ('cartItems.checkAvailabilityInfoSingular'
+              | cxTranslate
+              : {
+                quantity: (firstQuantityAvailable$ | async),
+                date: (nextDateAvailable$ | async)
+              })
+            : ('cartItems.checkAvailabilityInfoNoUnits'
+              | cxTranslate
+              : {
+                date: (nextDateAvailable$ | async)
+              })
+        }}
+      </span>
+      <ng-template
+        [ngTemplateOutlet]="alternativeProductsOverlayButton"
+      ></ng-template>
+    </div>
+  </div>
+  <div
+    *ngIf="
+      (quantityWithoutInfo$ | async) > 0 &&
+      (availabilityCheckDisabledInCart$ | async) === false
+    "
+    class="availability-info"
+  >
+    <cx-icon class="small warning-icon" type="WARNING"></cx-icon>
+    <div>
+      <span>
+        {{
+        (quantityWithoutInfo$ | async) > 1
+          ? ('cartItems.checkAvailabilityNoFurtherInfo'
+            | cxTranslate
+            : {
+              quantity: quantityWithoutInfo$ | async
+            })
+          : ('cartItems.checkAvailabilityNoFurtherInfoSingular'
+            | cxTranslate
+            : {
+              quantity: quantityWithoutInfo$ | async
+            })
+        }}
+      </span>
+      <ng-template
+        [ngTemplateOutlet]="alternativeProductsOverlayButton"
+      ></ng-template>
+    </div>
+  </div>
+  <div
+    *ngIf="
+      (availabilityCheckDisabledInCart$ | async) === true &&
+      (hasAvailability$ | async) === false
+    "
+    class="availability-info"
+  >
+    <cx-icon class="small warning-icon" type="WARNING"></cx-icon>
+    <div>
+      <span>
+        {{
+        'cartItems.estimatedDeliveryDate'
+          | cxTranslate: {date: (nextDateAvailable$ | async)}
+        }}
+      </span>
+      <ng-template
+        [ngTemplateOutlet]="alternativeProductsOverlayButton"
+      ></ng-template>
+    </div>
+  </div>
+  <div *ngIf="availabilityError$ | async" class="availability-info">
+    <cx-icon class="small warning-icon" type="WARNING"></cx-icon>
+    <div>
+      <span>
+        {{ 'cartItems.checkAvailabilityError' | cxTranslate }}
+      </span>
+      <ng-template
+        [ngTemplateOutlet]="alternativeProductsOverlayButton"
+      ></ng-template>
+    </div>
+  </div>
+</div>
+
+<div class="product">
+  <div class="product-details-column">
+    <a
+      [routerLink]="{ cxRoute: 'product', params: entry.product } | cxUrl"
+      class="product-image"
+    >
+      <cx-media
+        [container]="getThumbnailFormatImage(entry.product.images)"
+      ></cx-media>
+    </a>
+    <div class="product-info">
+      <div
+        [routerLink]="{ cxRoute: 'product', params: entry.product } | cxUrl"
+        class="product-name"
+      >
+        {{ entry.product.name }}
+      </div>
+      <div class="product-fun-number">
+        <div class="fun-number-title">
+          <span style="margin-bottom: 0; font-size: 15px">
+            {{ 'cartItems.unitPrice' | cxTranslate }}
+          </span>
+          <span class="fun-number">{{
+            entry.catalogPrice?.formattedValue
+            }}</span>
+        </div>
+        <div class="product-fun-number">
+          <span class="fun-number-title">
+            {{ 'cartItems.funNumber' | cxTranslate }}
+          </span>
+          <span class="fun-number">{{ entry.product.code }}</span>
+        </div>
+        <div *ngIf="entry.ecoTax?.formattedValue" class="product-eco-tax">
+          <div class="eco-tax-title">
+            {{ 'cartItems.ecoTax' | cxTranslate }}
+          </div>
+          <div class="eco-tax">
+            {{ entry.ecoTax?.formattedValue }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="product-quantity-column">
+    <div class="product-quantity">
+      <p>{{ entry.quantity }}</p>
+    </div>
+  </div>
+  <div class="product-price-column">
+    <div class="product-price-wrapper">
+      <div class="product-price">
+        {{ entry.totalPrice?.formattedValue }}
+      </div>
+    </div>
+    <div class="remove-product-wrapper">
+      <div
+        [routerLink]="{ cxRoute: 'product', params: entry.product } | cxUrl"
+        class="change-product-quantity"
+      >
+        {{ 'cartItems.changeQuantity' | cxTranslate }}
+      </div>
+      <div
+        (click)="onChange(entry.entryNumber, undefined, 0, 0)"
+        class="remove-product"
+      >
+        {{ 'cartItems.remove' | cxTranslate }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #loading>
+  <div class="spinner">
+    <cx-spinner></cx-spinner>
+  </div>
+</ng-template>

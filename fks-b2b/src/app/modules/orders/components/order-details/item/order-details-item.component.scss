@@ -1,0 +1,104 @@
+@import '../../../../../../assets/scss/typography';
+@import 'bootstrap/scss/bootstrap';
+@import '@spartacus/styles/scss/mixins';
+
+@mixin product-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $color,
+  $text-transform: none
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+  text-transform: $text-transform;
+}
+
+@mixin status-dot($color) {
+  width: 9px;
+  height: 9px;
+  background: $color;
+  border-radius: 50%;
+  content: '';
+  padding-right: 9px;
+  margin: 0 11px 1px 40px;
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  &-aa,
+  &-waiting {
+    &::before {
+      @include status-dot(#9c9c9c);
+    }
+  }
+
+  &-bb,
+  &-processing,
+  &-confirmed {
+    &::before {
+      @include status-dot(#ffd930);
+    }
+  }
+
+  &-completed,
+  &-cc {
+    &::before {
+      @include status-dot(#5ec62c);
+    }
+  }
+
+  &-dd,
+  &-canceled {
+    &::before {
+      @include status-dot(#aa0909);
+    }
+  }
+}
+
+td {
+  text-align: center;
+  padding: 19px 0 0;
+  @include product-text(
+      var(--franke-s-font-size),
+      var(--font-weight-base),
+      18px,
+      var(--text-color)
+  );
+
+  @include media-breakpoint-up(lg) {
+    padding: 40px 0 0;
+
+    @include product-text(
+        var(--franke-font-size-base),
+        var(--font-weight-base),
+        24px,
+        var(--text-color)
+    );
+  }
+}
+
+.row-fun {
+  text-align: start;
+  padding-left: 30px;
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.row-status {
+  text-align: end;
+  padding-right: 30px;
+}
+
+.row-product {
+  cursor: pointer;
+
+  &:hover {
+    color: var(--element-color);
+    text-decoration: underline;
+  }
+}

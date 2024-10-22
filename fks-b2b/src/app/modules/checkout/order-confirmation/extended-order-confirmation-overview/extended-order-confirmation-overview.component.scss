@@ -1,0 +1,173 @@
+@mixin order-review-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $color,
+  $text-transform: none
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+  text-transform: $text-transform;
+}
+
+@mixin order-review-display-padding($padding-top) {
+  width: 100%;
+  display: flex;
+  padding: $padding-top 24px;
+}
+
+.container {
+  @media only screen and (min-width: 768px) {
+    padding: 0;
+  }
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--wrapper-border-color);
+  border-top: none;
+
+  .title {
+    @include order-review-display-padding(19px);
+    align-items: center;
+    background: var(--secondary-section-color);
+    border-bottom: 1px solid var(--wrapper-border-color);
+    @include order-review-text(
+        var(--franke-s-font-size),
+        var(--font-weight-semi-bold),
+        18px,
+        var(--text-color)
+    );
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @include order-review-text(
+          var(--franke-m-font-size),
+          var(--font-weight-semi-bold),
+          21px,
+          var(--text-color)
+      );
+    }
+
+    @media only screen and (min-width: 992px) {
+      @include order-review-text(
+          var(--franke-font-size-base),
+          var(--font-weight-semi-bold),
+          24px,
+          var(--text-color)
+      );
+    }
+
+    .review-order-icons {
+      margin: 0 12px 2px 0;
+    }
+  }
+
+  .delivery-address,
+  .invoice-address {
+    @include order-review-display-padding(40px);
+
+    border-bottom: 1px solid var(--wrapper-border-color);
+
+    .delivery-address-padding,
+    .invoice-address-padding {
+      width: 0;
+      @media only screen and (min-width: 768px) {
+        width: 13%;
+      }
+    }
+
+    .delivery-address-info,
+    .invoice-address-info {
+      @include order-review-text(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          18px,
+          var(--text-color)
+      );
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include order-review-text(
+            var(--franke-m-font-size),
+            var(--font-weight-base),
+            21px,
+            var(--text-color)
+        );
+      }
+
+      @media only screen and (min-width: 992px) {
+        @include order-review-text(
+            var(--franke-font-size-base),
+            var(--font-weight-base),
+            24px,
+            var(--text-color)
+        );
+      }
+
+      width: 85%;
+      @media only screen and (min-width: 768px) {
+        padding-left: 43px;
+      }
+
+      .name,
+      .address,
+      .region,
+      .postal-code {
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .additional-details {
+    @include order-review-display-padding(24px);
+    @include order-review-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px,
+        var(--text-color)
+    );
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @include order-review-text(
+          var(--franke-m-font-size),
+          var(--font-weight-base),
+          21px,
+          var(--text-color)
+      );
+    }
+
+    @media only screen and (min-width: 992px) {
+      @include order-review-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px,
+          var(--text-color)
+      );
+    }
+
+    .additional-details-padding {
+      width: 0;
+
+      @media only screen and (min-width: 768px) {
+        width: 13%;
+      }
+    }
+
+    .additional-details-headers {
+      @media only screen and (min-width: 768px) {
+        padding-left: 43px;
+      }
+
+      width: 40%;
+    }
+
+    .additional-details-info {
+      width: 45%;
+    }
+
+    .reference {
+      padding-bottom: 26px;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+<ng-container
+  *ngIf="
+    (isLoading$ | async) === false && (isUpdating$ | async) === false;
+    else loading
+  "
+>
+  <ng-container *ngIf="cart$ | async as cart">
+    <ng-container *ngIf="entries$ | async as entries">
+      <div class="container">
+        <div *ngIf="cart.totalItems > 0" class="cart-items-wrapper">
+          <div *ngIf="isTabletOrDesktop$ | async" class="table">
+            <div class="details-column" scope="col">
+              {{ 'cartItems.item' | cxTranslate }}
+            </div>
+            <div class="quantity-column" scope="col">
+              {{ 'cartItems.quantity' | cxTranslate }}
+            </div>
+            <div class="price-column" scope="col">
+              {{ 'cartItems.itemPrice' | cxTranslate }}
+            </div>
+          </div>
+
+          <div *ngFor="let entry of entries" class="table-body">
+            <app-shopping-cart-grid-item
+              *ngIf="
+                (isPortrait$ | async) && (isMobile$ | async);
+                else nonPortrait
+              "
+              [entry]="entry"
+            ></app-shopping-cart-grid-item>
+            <ng-template #nonPortrait>
+              <app-shopping-cart-item [entry]="entry"></app-shopping-cart-item>
+            </ng-template>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </ng-container>
+</ng-container>
+<ng-template #loading>
+  <div class="cx-spinner">
+    <cx-spinner></cx-spinner>
+  </div>
+</ng-template>

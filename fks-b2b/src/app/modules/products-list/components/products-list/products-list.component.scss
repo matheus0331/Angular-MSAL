@@ -1,0 +1,28 @@
+@media only screen and (max-width: 991px) {
+  .cx-page {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  app-products-grid-item {
+    padding: 16px 8px 0 8px;
+  }
+  .product-grid-column {
+    flex: 25%;
+    max-width: 292px;
+  }
+}
+
+.products-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 24px -5px 22px;
+  justify-content: center;
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    margin: 29px 23px 46px;
+  }
+  @media only screen and (min-width: 992px) {
+    margin: 50px -15px 50px;
+  }
+}

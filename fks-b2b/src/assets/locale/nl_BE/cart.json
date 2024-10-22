@@ -1,0 +1,585 @@
+{
+  "searchSupport": {
+    "placeholder": "Zoek hier...",
+    "results": "Resultaten",
+    "manualTitle": "Gebruiksaanwijzing",
+    "manualDownload": "Download Specificatie",
+    "text": "Zoeken naar een FUN nummer, een model of document",
+    "more": "Meer",
+    "allResults": "Alle resultaten",
+    "manualDescription": "",
+    "resultsFor": "Resultaten voor:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal Vragen",
+    "message1": "Hallo, ik ben Laura. Ik ben je client-agent. Hoe kan ik u helpen?",
+    "title": "Persoonlijke assistent",
+    "message2": "U kunt kiezen uit de optie of stel uw eigen vraag.",
+    "contact": "Contact Franke",
+    "complaint": "Een klacht indienen"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Heeft u hulp nodig bij uw product of een vraag waar je een snel antwoord op wil?",
+    "title": "Hallo, wij zijn hier om je te helpen"
+  },
+  "contactForm": {
+    "contactType": "Selecteer het type contact",
+    "files": "Afbeeldingen uploaden naar uw verzoek te ondersteunen",
+    "funNumber": "Artikel Nummer",
+    "request": "Beschrijf uw verzoek",
+    "ticketAddSucess": "Ticket gemaakt!",
+    "ticketAddFail": "Fout bij het maken ticket, probeer het opnieuw!",
+    "subTitle2": "gewoon gebruik maken van ons contact formulier!",
+    "generalContactCategories": "Selecteer de categorie",
+    "deleteFiles": "Verwijderen",
+    "productSubCategories": "Selecteer de subcategorie",
+    "title": "Verdere vragen?",
+    "subTitle1": "Kunt u het antwoord op uw vraag in onze FAQ niet vinden",
+    "productCategories": "Selecteer het product",
+    "orderNumber": "Ordernummer"
+  },
+  "product": {
+    "id": "ID"
+  },
+  "faq": {
+    "print": "Print deze pagina",
+    "customerServicesQuestions": "Klantenservice",
+    "pageTitle": "Veel Gestelde Vragen",
+    "productQuestionsTitle": "Franke producten",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Orders en Verzending"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "U kunt maximaal 4 adressen aanmaken.",
+    "updateAddress": "Adres bijwerken",
+    "editShippingAddress": "Afleveradres aanpassen",
+    "deliveryAddressTitle": "Afleveradres",
+    "addNewShippingAddress": "Voeg een nieuw afleveradres toe",
+    "addAddress": "Voeg een adres toe",
+    "billingAddressTitle": "Factuuradres",
+    "addNewAddress": "Voeg een nieuw adres toe",
+    "backToAddressList": "Terug naar de adreslijst",
+    "areYouSureToDeleteAddress": "Wilt u dit adres verwijderen?"
+  },
+  "addressCard": {
+    "shipTo": "Verzend naar",
+    "setAsDefault": "Stel in als standaard",
+    "billTo": "Rekening naar",
+    "selected": "Geselecteerd",
+    "default": "STANDAARD"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Achternaam",
+      "placeholder": "Achternaam"
+    },
+    "aptSuite": "Toevoeging huisnummer",
+    "saveAsDefault": "Opslaan als standaard",
+    "firstName": {
+      "label": "Voornaam",
+      "placeholder": "Voornaam"
+    },
+    "zipCode": {
+      "placeholder": "Postcode",
+      "label": "Postcode"
+    },
+    "address1": "Adres 1",
+    "setAsDefault": "Stel in als standaard",
+    "title": "Titel",
+    "userAddressDeleteSuccess": "Adres is succesvol verwijderd!",
+    "userAddressAddSuccess": "Nieuw adres is succesvol toegevoegd!",
+    "city": {
+      "placeholder": "Stad",
+      "label": "Stad"
+    },
+    "invalidAddress": "Ongeldig adres",
+    "chooseAddress": "Kies adres",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "Telefoon nummer (optioneel)"
+    },
+    "titleRequired": "Titel is vereist.",
+    "state": "Provincie",
+    "address2": "Adres 2 (optioneel)",
+    "selectOne": "Kies een...",
+    "country": "Land",
+    "streetAddress": "Straat",
+    "userAddressUpdateSuccess": "Adres is succesvol gewijzigd!"
+  },
+  "wishlist": {
+    "addToCart": "Voeg toe aan winkelwagen",
+    "empty": "Geen producten op uw verlanglijstje"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Account aanmaken?",
+    "invoiceHasBeenSentByEmail": "U ontvangt uw orderbevestiging per e-mail",
+    "placedOn": "Geplaatst op",
+    "status": "Status",
+    "frequency": "Frequentie",
+    "orderItems": "Bestelde artikelen",
+    "orderPlacedSuccessfully": "Bestelling is geslaagd",
+    "nextOrderDate": "Volgende besteldatum",
+    "confirmationOfOrder": "Orderbevestiging:",
+    "cancelled": "Geannuleerd",
+    "createAccountForNext": "Maak een account aan tbv <{{email}}> voor een snelle afhandeling op uw volgende bezoek.",
+    "replenishmentNumber": "Aanvulling #",
+    "orderNumber": "Ordernummer",
+    "thankYou": "Bedankt voor je bestelling!",
+    "active": "Actief"
+  },
+  "checkoutPO": {
+    "placeholder": "Voer inkoopbestelnummer in",
+    "poNumber": "Bestelnummer",
+    "availableLabel": "Afleveradres voor u beschikbaar zijn afhankelijk van eenheid de kostenplaats's",
+    "costCenter": "Kostenplaats",
+    "noPoNumber": "Geen"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Automatische aanvullende bestelling",
+    "confirmThatRead": "Ik bevestig dat ik heb gelezen en ga akkoord met de",
+    "termsAndConditions": "Algemene voorwaarden",
+    "recurrencePeriodType_WEEKLY": "Weken",
+    "poNumber": "Bestelnummer",
+    "dayOfMonth": "Overdag",
+    "every": "Elke",
+    "placeOrder": "Bestelling plaatsen",
+    "scheduleReplenishmentOrder": "Aanvullende order beëindigen",
+    "recurrencePeriodType_DAILY": "Dag (en)",
+    "repeatOnDays": "Herhaal dit op de volgende dagen",
+    "funNumber": "FUNL {{fun}}",
+    "editShippingAddress": "Pas afleveradres aan",
+    "startOn": "Begint op",
+    "additionalDetailsTitle": "Aanvullende bestellingdetails",
+    "deliveryAddressTitle": "Bezorgadres",
+    "orderType_PLACE_ORDER": "Geen (alleen eenmalig order mogelijk)",
+    "invoiceAddressTitle": "Factuur adres",
+    "recurrencePeriodType_MONTHLY": "Maand",
+    "requestedDate": "Gevraagde datum:",
+    "orderType": "Order type:",
+    "checkoutError": "Fout opgetreden. Neem contact op met de klantenondersteuning",
+    "itemsTitle": "Te leveren artikelen",
+    "additionalReference": "Aanvullende referntie:",
+    "orderItems": "Bestelde artikelen",
+    "quantity": "Aantal: {{count}}",
+    "reference": "Referentie",
+    "orderNumber": "Ordernummer:",
+    "review": "Recensie",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Aanvullende bestelling",
+    "deliveryDate": "Gevraagde leverdatum:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Bezorgadres",
+    "reviewOrder": "Controleer bestelling",
+    "paymentDetails": "Betaalgegevens",
+    "billingTask": "Gekozen factuuradres",
+    "billingAddress": "Factuur adres",
+    "methodOfPayment": "Betalingsmethode",
+    "deliveryMode": "Aflevermethode",
+    "reviewTask": "Aub controleer uw bestelling in de samenvatting sectie",
+    "shippingTask": "Gekozen afleveradres",
+    "invoicePayment": "Factuur betaling"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Default factuuradres",
+    "enteredAddress": "Ingevoerd adres",
+    "selectYourInvoiceAddress": "Selecteer uw factuuradres",
+    "verifyYourAddress": "Controleer uw adres",
+    "invoiceAddress": "Factuuradres",
+    "editAddress": "Adres aanpassen",
+    "chooseAddressToUse": "Kies aub welk adres dat u wilt gebruiken:",
+    "shipToThisAddress": "Bezorg op dit adres",
+    "saveAddress": "Adres Opslaan",
+    "addNewAddress": "Voeg een nieuw adres toe",
+    "defaultShippingAddress": "Standaard afleveradres",
+    "selectInvoiceAddress": "Factuur naar dit adres",
+    "selectYourBillingAddress": "Selecteer uw factuuradres",
+    "suggestedAddress": "Voorgesteld adres",
+    "billingAddress": "Factuuradres",
+    "selectYourShippingAddress": "Selecteer uw afleveradres",
+    "shippingAddress": "Aflveradres",
+    "ensureAccuracySuggestChange": "Om de leveringsbetrouwbaarheid te garanderen, raden wij aan de hieronder geselecteerde verandering."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Standaard levering",
+    "shippingMethod": "Verzendmethode",
+    "premiumDelivery": "Premiumlevering"
+  },
+  "checkout": {
+    "back": "Terug",
+    "invalid": {
+      "accountType": "Je account staat het niet toe dat je naar de kassa gaat."
+    },
+    "backToCart": "Terug",
+    "continue": "Doorgaan"
+  },
+  "loginForm": {
+    "emailAddress": {
+      "placeholder": "Voer email in",
+      "label": "E-mailadres"
+    },
+    "password": {
+      "placeholder": "Wachtwoord",
+      "label": "Wachtwoord"
+    },
+    "forgotPassword": "Wachtwoord vergeten?",
+    "wrongEmailFormat": "Dit is geen geldige e-mail.",
+    "guestCheckout": "Gast checkout",
+    "signIn": "Aanmelden",
+    "register": "Registreren",
+    "dontHaveAccount": "Heb je nog geen account?"
+  },
+  "checkoutLogin": {
+    "emailsMustMatch": "Email komt niet overeen",
+    "emailAddress": {
+      "label": "E-mailadres",
+      "placeholder": "Voer email in"
+    },
+    "continue": "Doorgaan met",
+    "emailIsRequired": "Ongeldige email",
+    "confirmEmail": {
+      "label": "Bevestig Email",
+      "placeholder": "Bevestig Email"
+    }
+  },
+  "anonymousConsents": {
+    "banner": {
+      "viewDetails": "Bekijk details",
+      "allowAll": "Sta alles toe",
+      "title": "Deze website maakt gebruik van cookies",
+      "description": "We maken gebruik van cookies / browsers opslag om de inhoud te personaliseren en het verbeteren van de gebruikerservaring."
+    },
+    "preferences": "Toestemmingsvoorkeuren",
+    "dialog": {
+      "clearAll": "Wis alles",
+      "legalDescription": "We maken gebruik van cookies / browsersopslag om de inhoud te personaliseren en de gebruikerservaring te verbeteren. We kunnen de gegevens over uw sitegebruik ook delen met onze social media. Raadpleeg ons privacybeleid voor meer informatie.",
+      "title": "Toestemmingsbeheer",
+      "selectAll": "Selecteer alles"
+    }
+  },
+  "forgottenPassword": {
+    "resetPassword": "Reset wachtwoord",
+    "passwordResetSuccess": "Succes! U kunt nu inloggen met uw nieuwe wachtwoord.",
+    "enterEmailAddressAssociatedWithYourAccount": "Voer het e-mailadres in, dat aan uw account is gekoppeld",
+    "emailAddress": {
+      "label": "Emailadres",
+      "placeholder": "Voer email in"
+    },
+    "enterValidEmail": "Gelieve een geldig e-mailadres in te vullen.",
+    "passwordResetEmailSent": "Een e-mail is naar u gestuurd met informatie over hoe u uw wachtwoord kunt resetten."
+  },
+  "register": {
+    "titleRequired": "Titel is vereist",
+    "newPassword": "Nieuw wachtwoord",
+    "confirmThatRead": "Ik bevestig dat ik heb gelezen en ga akkoord met de",
+    "firstName": {
+      "label": "Voornaam",
+      "placeholder": "Voornaam"
+    },
+    "createAccount": "Account aanmaken",
+    "bothPasswordMustMatch": "Beide wachtwoord moet overeenkomen",
+    "register": "Registreren",
+    "resetPassword": "Reset wachtwoord",
+    "postRegisterMessage": "Log in met de bijgeleverde informatie.",
+    "emailAddress": {
+      "placeholder": "E-mailadres",
+      "label": "E-mailadres"
+    },
+    "title": "Aanhef",
+    "confirmPassword": {
+      "action": "Bevestig wachtwoord",
+      "placeholder": "Bevestig wachtwoord",
+      "label": "Bevestig wachtwoord"
+    },
+    "termsAndConditions": "Algemene voorwaarden",
+    "lastName": {
+      "label": "Achternaam",
+      "placeholder": "Achternaam"
+    },
+    "password": {
+      "placeholder": "Wachtwoord",
+      "label": "Wachtwoord"
+    },
+    "emailMarketing": "Gebruik mijn persoonlijke gegevens om e-mail nieuwsbrieven te ontvangen voor marketing campagnes. Als u uw instellingen wilt wijzigen, gaat u naar privacy instellingen in klantgegevens.",
+    "managementInMyAccount": "Beheren in klantgegevens.",
+    "passwordMinRequirements": "Het wachtwoord moet minimaal zes tekens en bevatten één hoofdletter, één cijfer, één symbool",
+    "confirmNewPassword": "Bevestig nieuw wachtwoord",
+    "signIn": "Ik heb al een account. Aanmelden",
+    "selectTitle": "Selecteer titel"
+  },
+  "stockNotification": {
+    "subscriptionDialog": {
+      "manageSubscriptionsLink": "Mijn interesses",
+      "notifiedPrefix": "U krijgt bericht op:",
+      "header": "Abonnement niet op voorraad",
+      "manageChannelsSuffix": "Bladzijde.",
+      "manageSubscriptionsSuffix": "Bladzijde.",
+      "subscribing": "U kunt uw abonnementen beheren op",
+      "manageChannelsLink": "Meldingsvoorkeur",
+      "manageChannelsPrefix": "Beheer uw favoriete meldingskanalen op het",
+      "manageSubscriptionsPrefix": "U kunt uw abonnementen beheren op",
+      "okBtn": "OK",
+      "notifiedSuffix": "Zodra dit product weer op voorraad is."
+    },
+    "notified": "U ontvangt een melding, zodra dit product weer op voorraad is.",
+    "getNotifySuffix": "om een melding te krijgen, wanneer dit product beschikbaar is.",
+    "activateChannelsPrefix": "Om hiervan op de hoogte te worden gehouden moet u ...... activeren",
+    "activateChannelsSuffix": ".",
+    "notifyMe": "Stel mij op de hoogte",
+    "getNotified": "Ontvang een melding wanneer dit product weer op voorraad is.",
+    "stopNotify": "STOP DE MELDING",
+    "channelsLink": "Notification kanalen",
+    "getNotify": "Ontvang een melding wanneer dit product beschikbaar is.",
+    "unsubscribeSuccess": "Je hebt je met succes afgemeld voor de back-in-stock-melding"
+  },
+  "accordion": {
+    "features": "Kenmerken",
+    "remarks": "Opmerkingen",
+    "dimensions": "A**fmetingen**",
+    "productDetails": "Productdetails"
+  },
+  "productSummary": {
+    "preLaunchBody": "U kunt dit artikel vooraf bestellen voor levering zodra de voorraad beschikbaar is",
+    "id": "FUN ID#",
+    "substitutesProducts": "Zie alternatieven",
+    "availabilityCheck": {
+      "noFurtherInfoSingular": "Momenteel geen verdere informatie beschikbaar voor de resterende {{ quantity }} eenheid}",
+      "priceTooltip": "Getoonde prijs is exclusief btw",
+      "itemsNotAvailable": "Er zijn {{quantity}} stuks beschikbaar op {{ date }}",
+      "itemsAvailableSingular": "Er is {{quantity}} unit beschikbaar op {{ date }}",
+      "itemsNotAvailableSingular": "Er is {{quantity}} unit beschikbaar op {{ date }}",
+      "deliveryDateInfo": "Geschatte leveringdatum, 2 dagen vanaf de aankoopdatum",
+      "noFurtherInfo": "Momenteel is er geen verdere informatie beschikbaar voor de resterende {{ quantity }} eenheden",
+      "button": "Beschikbaarheid controleren",
+      "errorMessage": "Kan de informatie momenteel niet laden, probeer het later opnieuw",
+      "itemsAvailable": "Er zijn {{quantity}} stuks beschikbaar op {{ date }}",
+      "dateTitle": "Gevraagde Leverdatum"
+    },
+    "promotionTooltip": "De uiteindelijke gereduceerde prijs zal zichtbaar zijn in de winkelwagen",
+    "description": "Omschrijving",
+    "showReviews": "Recensies weergeven",
+    "localSalesNumber": "Artikelnummer #",
+    "share": "Delen",
+    "referenceNumber": "Referentienummer",
+    "unrecognizedError": "Oeps! We zijn iets vergeten. Neem contact op met onze klantenservice om dit product te bestellen.",
+    "catalogPrice": "Bruto adviesprijs",
+    "more": "Bekijk meer",
+    "preLaunchTitle": "Pre-lancering"
+  },
+  "productList": {
+    "clearFilters": "Wis filters",
+    "listingPageSubtitle": "De getoonde prijzen zijn bruto adviesprijzen",
+    "searchResultsTitle": "{{NumberOfResults}} resultaten voor \"{{vraag}}\"",
+    "view": "Visie",
+    "backToTopBtn": "TERUG NAAR BOVEN",
+    "wishlist": "Favorieten",
+    "discontinuedProductsFilter": "Geef de uitlopende producten weer.",
+    "pageOf": "Pagina {{x}} van {{y}}",
+    "articleNumber": "Artikelnummer {{fun}}",
+    "previous": "Vorige",
+    "filterBy": {
+      "action": "Filteren op",
+      "label": "Filteren op"
+    },
+    "appliedFilter": "Gebruikte filter:",
+    "showMoreBtn": "LAAT MEER ZIEN",
+    "description": "Omschrijving",
+    "notAvailableDescription": "Onderdelen en accessoires kunnen nog steeds worden gekocht voor dit product",
+    "sortByRelevance": "Sorteer op relevantie",
+    "cart": "Winkelwagen",
+    "showMore": "Laat meer zien...",
+    "filters": "Filters",
+    "results": "Resultaten",
+    "showLess": "Laat minder zien...",
+    "notAvailable": "Product is uitlopend.",
+    "next": "Volgende"
+  },
+  "productDetails": {
+    "noDetails": "Geen verdere details voor dit product. Als je vragen hebt over dit product, stuur ons dan een bericht via ons <u><a class=\"form\" href=\"/client-service\">contactformulier.</a></u>",
+    "reviews": "Beoordelingen",
+    "shipping": "Verzending",
+    "specification": "Specificaties",
+    "productDetails": "Productdetails",
+    "quantity": "Aantal",
+    "id": "ID kaart",
+    "imageDisclaimer": "Afbeelding getoond alleen ter referentie. Zie beschrijving en technische tekening voor meer informatie",
+    "showReviews": "Laat beoordelingen zien",
+    "share": "Delen",
+    "noReviews": "Nog geen beoordelingen"
+  },
+  "productReview": {
+    "overallRating": "Totaal beoordeling",
+    "more": "Meer",
+    "reviewerName": "Naam van de ontvanger (optioneel)",
+    "rating": "Beoordeling",
+    "writeReview": "Schrijf een recensie",
+    "writeYourComments": "Schrijf uw commentaar",
+    "less": "Minder",
+    "reviewTitle": "Review titel",
+    "thankYouForReview": "Hartelijk dank voor uw review! Let op op dat de beoordelingen gevalideerd kan worden, voordat ze hier verschijnen."
+  },
+  "addToCart": {
+    "selectStyleAndSize": "Kies stijl en afmeting om de voorraad te controleren",
+    "addToCartFailed": "Producten toevoegen aan winkelwagen mislukt! Probeer het opnieuw.",
+    "itemsAddedToYourCart": "Artikel(en) toegevoegd aan uw winkelwagen",
+    "items": "Artikelen",
+    "viewCart": "Bekijk winkelwagen",
+    "inStock": "Beschikbaar",
+    "quantity": "Aantal",
+    "addToCartSuccessfully": "Product met succes toegevoegd aan winkelwagen",
+    "itemsIncrementedInYourCart": "Dit artikel was al in je winkelmandje. De hoeveelheid is bijgewerkt.",
+    "updatingCart": "Winkelwagen bijwerken ...",
+    "outOfStock": "Niet beschikbaar",
+    "addToCart": "Voeg toe aan winkelmandje",
+    "proceedToCheckout": "Ga naar de kassa"
+  },
+  "TabPanelContainer": {
+    "tabs": {
+      "ProductSpecsTabComponent": "Specificaties",
+      "ProductDetailsTabComponent": "Productdetails",
+      "ProductReviewsTabComponent": "Beoordelingen",
+      "deliveryTab": "Verzending",
+      "ProductDownloadsTabComponent": "Downloads"
+    }
+  },
+  "alternativeProducts": {
+    "similarProductRecommendations": "Vergelijkbare productaanbevelingen",
+    "declaimer": "Opmerking: sommige kenmerken van de voorgestelde alternatieve producten komen mogelijk niet exact overeen met uw verzoek. Controleer dit zorgvuldig voordat u verder gaat.",
+    "goToProduct": "",
+    "article": "Artikel",
+    "showAlternativeProducts": "",
+    "noRecommendations": ""
+  },
+  "addToWishList": {
+    "remove": "Verwijderen uit wensenlijst",
+    "addToWishlistSuccessfully": "Product succesvol toegevoegd aan favorieten",
+    "add": "Toevoegen aan wensenlijst",
+    "addToWishlistFailed": "Voeg product toe aan favorieten mislukt! Probeer het opnieuw.",
+    "anonymous": "Log in om toe te voegen aan wensenlijst"
+  },
+  "variant": {
+    "size": "Grootte",
+    "color": "Kleur",
+    "selectedStyle": "Geselecteerde stijl",
+    "style": "Stijl",
+    "sizeGuideLabel": "Stijlgids"
+  },
+  "productFacetNavigation": {
+    "appliedFilter": "Toegepaste filter:",
+    "showMore": "Laat meer zien...",
+    "showLess": "Laat minder zien...",
+    "filterBy": {
+      "action": "Filteren op",
+      "label": "Filteren op"
+    },
+    "sortByRelevance": "Sorteer op relevantie"
+  },
+  "productDownloads": {
+    "productSheet": "Product info blad"
+  },
+  "productReferences": {
+    "id": "ID"
+  },
+  "emptyCart": {
+    "cartIsEmpty": "Uw winkelwagen is leeg",
+    "suggestion": "Zoeken naar een product",
+    "suggestionTitle": "Suggesties:"
+  },
+  "additionalInfo": {
+    "title": "Aanvullende informatie over uw bestelling",
+    "additionalReference": "Extra referentie",
+    "poNumber": "Vul hier je interne bestelnummer of referentie in, als je deze op de factuur afgedrukt wilt hebben",
+    "orderType": "Order type",
+    "orderNumber": "Referentie"
+  },
+  "orderCost": {
+    "subtotalSingular": "Netto prijs ({{count}} item):",
+    "orderDiscounts": "",
+    "toBeDetermined": "Nog te bevestigen",
+    "totalCatalogPrice": "Catalogusprijs ({{count}} items):",
+    "totalCatalogPriceSingular": "Catalogusprijs ({{count}} item):",
+    "crossChannelPromo": "",
+    "orderSummary": "Besteloverzicht",
+    "subtotal": "Netto prijs ({{count}} items):",
+    "discountsApplied": "{{discountMessage}} is toegepast",
+    "salesTax": "BTW:",
+    "totalDiscounts": "Kortingen toegepast",
+    "shipping": "Verzending:",
+    "crossCategoryPromo": "",
+    "discount": "Is opgeslagen:",
+    "grossTax": "Exclusief BTW",
+    "mainPromoIncluded": "",
+    "total": "Totaal incl BTW:",
+    "productDiscounts": "",
+    "totalNetWithoutTax": "",
+    "estimatedShipping": "Verwachtte leveringskosten",
+    "mainFeesIncluded": ""
+  },
+  "cartItems": {
+    "discount": "Korting",
+    "checkAvailabilityInfoNoUnits": "Er zijn momenteel 0 stuks van dit artikel beschikbaar. De gevraagde hoeveelheid is beschikbaar vanaf {{ date }}",
+    "checkAvailabilityInfoSingular": "Er zijn momenteel slechts {{quantity}} stuk van dit artikel beschikbaar. De gevraagde hoeveelheid is beschikbaar vanaf {{ date }}",
+    "unitPrice": "Eenheid prijs:",
+    "item": "Productdetails",
+    "checkAvailabilityNoFurtherInfoSingular": "Momenteel nog geen verdere informatie beschikbaar voor de resterende {{ quantity }} eenheid",
+    "checkAvailabilityInfo": "Er zijn momenteel slechts {{quantity}} stuks van dit artikel beschikbaar. De gevraagde hoeveelheid is beschikbaar vanaf {{ date }}",
+    "itemPrice": "Netto prijs",
+    "changeQuantity": "Wijzig aantal",
+    "cartTotal": "Winkelwagen totaal ({{count}} item)",
+    "funNumber": "ID:",
+    "brand": "Merk:",
+    "availability": "Beschikbaarheid",
+    "deliveryDate": "**Gewenste Leverdatum**",
+    "id": "ID",
+    "ecoTax": "Eco Tax:",
+    "quantity": "Aantal:",
+    "remove": "Verwijderen",
+    "availabilityInfo": "Niet-beschikbare producten, kunnen nog steeds worden besteld. U krijgt een melding zodra een verwachte leverdatum bekend is.",
+    "quantityTitle": "Is het totale aantal van deze producten in uw winkelwagen.",
+    "checkAvailabilityError": "Kan de informatie momenteel niet laden, probeer het later opnieuw",
+    "additionalFees": "Bijkomende kosten:",
+    "cartTotal_plural": "Winkelwagen totaal ({{count}} items)",
+    "additionalFeesTooltip": "Bijkomende kosten",
+    "deliveryDateInfo": "Exacte leverdatum is mede afhankeijk van routeschema.",
+    "checkAvailabilityNoFurtherInfo": "Momenteel is er nog geen verdere informatie beschikbaar voor de resterende {{ quantity }} eenheden",
+    "description": "Omschrijving",
+    "estimatedDeliveryDate": "Geschatte leverdatum is {{ date }}",
+    "total": "Totaal"
+  },
+  "voucher": {
+    "applyVoucherSuccess": "{{Vouchercode}} is toegevoegd.",
+    "apply": "Toevoegen",
+    "coupon_plural": "Promotie codes",
+    "availableCouponsLabel": "U kunt deze promo codes toe voegen aan deze order.",
+    "placeholder": "Promotiecode",
+    "availableCoupons": "Beschikbare kortingscodes",
+    "removeVoucherSuccess": "{{Vouchercode}} is verwijderd.",
+    "vouchersApplied": "Kortingscodes zijn toegevoegd",
+    "coupon": "Heb je een promotie code?",
+    "anchorLabel": "Voeg toe of verwijder uw kortingscode"
+  },
+  "cartAlternativeProducts": {
+    "checkAlternativeProducts": "",
+    "replaceCartItem": "Vervang winkelwagenitem door dit product",
+    "cartItemReplacedSuccessfully": "Product succesvol vervangen",
+    "cartItemReplacedError": "Het product kon niet worden vervangen, probeer het opnieuw"
+  },
+  "saveForLaterItems": {
+    "itemTotal_plural": "Bewaar voor later ({{count}} items)",
+    "stock": "Voorraad",
+    "cartTitle": "Winkelwagen",
+    "saveForLater": "Bewaar voor later",
+    "moveToCart": "Ga naar winkelwagen",
+    "forceInStock": "Beschikbaar",
+    "itemTotal": "Bewaar voor later ({{count}} item)"
+  },
+  "cartDetails": {
+    "cartName": "Winkelwagen # {{code}}",
+    "continueShopping": "Doorgaan met winkelen",
+    "proceedToCheckout": "Ga naar de kassa",
+    "id": "ID kaart"
+  }
+}

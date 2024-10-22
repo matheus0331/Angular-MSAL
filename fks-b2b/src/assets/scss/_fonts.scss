@@ -1,0 +1,63 @@
+/**
+  *
+  * This file is for font imports
+  *
+ **/
+
+@font-face {
+  font-family: 'Antarctica';
+  src: url('../fonts/Antarctica-Light.woff2') format('woff2'),
+    url('../fonts/Antarctica-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Antarctica';
+  src: url('../fonts/Antarctica-Regular.woff2') format('woff2'),
+    url('../fonts/Antarctica-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Antarctica';
+  src: url('../fonts/Antarctica-SemiBoldItalic.woff2') format('woff2'),
+    url('../fonts/Antarctica-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Antarctica';
+  src: url('../fonts/Antarctica-RegularItalic.woff2') format('woff2'),
+    url('../fonts/Antarctica-RegularItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Antarctica';
+  src: url('../fonts/Antarctica-SemiBold.woff2') format('woff2'),
+    url('../fonts/Antarctica-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Antarctica';
+  src: url('../fonts/Antarctica-LightItalic.woff2') format('woff2'),
+    url('../fonts/Antarctica-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+.far {
+  font-weight: 600 !important;
+}

@@ -1,0 +1,62 @@
+@import '../../../../../assets/scss/typography';
+
+@mixin summary-text(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $text-transform,
+  $color
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-transform: $text-transform;
+  color: $color;
+}
+
+.container {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  @media only screen and (min-width: 768px) {
+    padding: 0;
+  }
+
+  .summary-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .summary-title {
+      text-transform: uppercase;
+      font-weight: var(--cx-font-weight-semi);
+    }
+
+    .summary-info-wrapper {
+      .summary-info {
+        padding: 0.5rem 0;
+        display: flex;
+        justify-content: space-between;
+        font-size: var(--franke-font-size-base);
+      }
+
+      .summary-total {
+        display: flex;
+        justify-content: space-between;
+        font-weight: var(--font-weight-semi-bold);
+      }
+
+      .summary-discounts {
+        .summary-info {
+          padding: 0;
+
+          &:first-child {
+            padding-top: 0.5rem;
+          }
+
+          &:last-child {
+            padding-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}

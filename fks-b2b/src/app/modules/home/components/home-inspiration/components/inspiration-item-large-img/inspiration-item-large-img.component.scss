@@ -1,0 +1,105 @@
+@import '../../shared/home-inspiration.scss';
+
+img {
+  margin: 16px 0;
+  width: 736px;
+  height: 200px;
+  object-fit: cover;
+
+  @media only screen and (min-width: 992px) {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.child-featured-details {
+  background-color: var(--white);
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: var(--text-color);
+  width: 736px;
+  height: auto;
+
+  @media only screen and (min-width: 992px) {
+    width: 283px;
+    height: 265px;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .child-featured-title {
+    @include inspiration-childs-details-title();
+    @include text-style(
+        var(--franke-font-size-base),
+        var(--font-weight-base),
+        24px
+    );
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      margin-top: 14px;
+      @include text-style(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          18px
+      );
+      margin-bottom: 15px;
+    }
+  }
+
+  .child-featured-description {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    @include text-style(
+        var(--franke-font-size-base),
+        var(--font-weight-base),
+        24px
+    );
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @include text-style(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          18px
+      );
+      margin-bottom: 15px;
+    }
+  }
+
+  .child-featured-button {
+    color: var(--white);
+
+    .explore-btn {
+      font-size: var(--franke-button-font-size);
+      line-height: 21px;
+      text-align: center;
+      max-width: 103px;
+      height: 46px;
+      background-color: var(--accent-color);
+      transition: all 0.2s ease-out;
+
+      &:hover {
+        background-color: var(--brand-color);
+        border: 1px solid var(--brand-color);
+        transition: all 0.2s ease-out;
+      }
+    }
+  }
+}

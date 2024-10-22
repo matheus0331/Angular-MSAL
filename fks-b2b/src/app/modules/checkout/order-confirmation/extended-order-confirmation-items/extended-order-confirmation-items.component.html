@@ -1,0 +1,34 @@
+<div class="container">
+  <div *ngIf="order$ | async as order" class="cx-order-items">
+    <div class="title">
+      <div class="review-order-icons">
+        <cx-icon type="CHECK_CIRCLE"></cx-icon>
+      </div>
+      {{ 'checkoutReview.itemsTitle' | cxTranslate }}
+    </div>
+
+    <ng-container *ngIf="orderPromotions$ | async as orderPromotions">
+      <cx-promotions *ngIf="orderPromotions.length > 0" [promotions]="orderPromotions"></cx-promotions>
+    </ng-container>
+
+    <div *ngFor="let entry of order.entries" class="products">
+      <app-extended-order-confirmation-item-promotion-banner
+        [entry]="entry"></app-extended-order-confirmation-item-promotion-banner>
+      <div class="product">
+        <div class="product-image">
+          <cx-media [container]="entry.product.images?.PRIMARY?.thumbnail"></cx-media>
+        </div>
+        <div class="product-info">
+          <div class="product-name">{{ entry.product.name }}</div>
+          <div class="product-fun-number">
+            {{ 'checkoutReview.funNumber' | cxTranslate: {fun: entry.product.code} }}
+          </div>
+          <div class="product-quantity">
+            {{ 'checkoutReview.quantity' | cxTranslate: {count: entry.quantity} }}
+          </div>
+        </div>
+        <div class="product-price">{{ entry.totalPrice?.formattedValue }}</div>
+      </div>
+    </div>
+  </div>
+</div>

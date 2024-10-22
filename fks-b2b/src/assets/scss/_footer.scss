@@ -1,0 +1,23 @@
+.cx-icon {
+  @extend %cx-icon;
+}
+
+footer {
+  background-color: var(--footer-color);
+  cx-generic-link a {
+    color: var(--white);
+    &:hover {
+      color: var(--white);
+    }
+  }
+  .base-footer {
+    background-color: var(--footer-color);
+    %cx-icon {
+      svg {
+        width: 24px;
+        height: 24px;
+        fill: currentColor;
+      }
+    }
+  }
+}

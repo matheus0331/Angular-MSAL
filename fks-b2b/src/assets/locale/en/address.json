@@ -1,0 +1,113 @@
+{
+  "searchSupport": {
+    "placeholder": "Search here...",
+    "results": "Results",
+    "manualTitle": "Owner's manual",
+    "manualDownload": "Download Specification",
+    "text": "Search for a FUN number, product code or a product name",
+    "more": "More",
+    "allResults": "All results",
+    "manualDescription": "The most complete document on the configuration and use of the product.",
+    "resultsFor": "Showing results for:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal Questions",
+    "message1": "Hi, I'm Laura. I'm your client agent. How can I help you?",
+    "title": "Personal assistant",
+    "message2": "You can choose from the option below or ask your own question.",
+    "contact": "Contact Franke",
+    "complaint": "Submit a Complaint"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Do you need help with your product or do you have a question?",
+    "title": "Hello, we are here to help"
+  },
+  "contactForm": {
+    "contactType": "Select the contact type",
+    "files": "Upload Images to support your request",
+    "funNumber": "Article Number",
+    "request": "Describe your request",
+    "ticketAddSucess": "Ticket created!",
+    "ticketAddFail": "Error creating ticket, try again!",
+    "subTitle2": "Simply use our contact form!",
+    "generalContactCategories": "Select the category",
+    "deleteFiles": "Delete",
+    "productSubCategories": "Select the sub category",
+    "title": "Further questions?",
+    "subTitle1": "Couldn't find the answer to your question in our FAQs",
+    "productCategories": "Select the product",
+    "orderNumber": "Order Number"
+  },
+  "product": {
+    "id": "Article"
+  },
+  "faq": {
+    "print": "Print this page",
+    "customerServicesQuestions": "Customer Services",
+    "pageTitle": "Frequently Asked Questions",
+    "productQuestionsTitle": "Franke Products",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Orders and Shipment"
+  },
+  "videoTutorial": {
+    "title": "How it works"
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "You can have up to a maximum of 4 addresses.",
+    "updateAddress": "Update address",
+    "editShippingAddress": "Edit delivery address",
+    "deliveryAddressTitle": "Delivery address",
+    "addNewShippingAddress": "Add a new delivery address",
+    "addAddress": "Add an address",
+    "billingAddressTitle": "Billing address",
+    "addNewAddress": "Add a new address",
+    "backToAddressList": "Back to address list",
+    "areYouSureToDeleteAddress": "Are you sure you want to delete this address?"
+  },
+  "addressCard": {
+    "shipTo": "Ship To",
+    "setAsDefault": "Set as default",
+    "billTo": "Bill to",
+    "selected": "Selected",
+    "default": "DEFAULT"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Last name",
+      "placeholder": "Last name"
+    },
+    "aptSuite": "Apt, Suite",
+    "saveAsDefault": "Save as default",
+    "firstName": {
+      "label": "First name",
+      "placeholder": "First name"
+    },
+    "zipCode": {
+      "placeholder": "Postcode",
+      "label": "Postcode"
+    },
+    "address1": "Address 1",
+    "setAsDefault": "Set as default",
+    "title": "Title",
+    "userAddressDeleteSuccess": "Address deleted successfully!",
+    "userAddressAddSuccess": "New address was added successfully!",
+    "city": {
+      "placeholder": "City",
+      "label": "City"
+    },
+    "invalidAddress": "Invalid address",
+    "chooseAddress": "Choose address",
+    "phoneNumber": {
+      "placeholder": "(555) 555 - 0123",
+      "label": "Phone number (optional)"
+    },
+    "titleRequired": "Title is required.",
+    "state": "County",
+    "address2": "Address 2 (optional)",
+    "selectOne": "Select one...",
+    "country": "Country",
+    "streetAddress": "Street",
+    "userAddressUpdateSuccess": "Address updated successfully!"
+  }
+}

@@ -1,0 +1,141 @@
+<ng-container *ngIf="state$ | async as state">
+  <ng-container
+    *ngIf="facet.code === 'product_status' && facet.values.length > 1"
+  >
+    <div class="discontinued-products-filter">
+      <span class="discontinued-products-title">{{
+        'productList.discontinuedProductsFilter' | cxTranslate
+        }}</span>
+      <div class="discontinued-products-filter-toggle">
+        <label class="toggle-control">
+          <a
+            #facetValue
+            (keydown.space)="openLink($event)"
+            [queryParams]="getLinkParams(facet.values[1])"
+            class="value"
+            routerLink="./"
+          >
+            <input
+              checked="{{
+                facet.values[1].selected === false ? 'checked' : ''
+              }}"
+              type="checkbox"
+            />
+            <span class="control"></span>
+          </a>
+        </label>
+      </div>
+    </div>
+  </ng-container>
+
+  <div *ngIf="facet.code !== 'product_status'" class="wrapper">
+    <button
+      (click)="toggleFilter()"
+      [attr.aria-expanded]="!isCollapsed"
+      aria-controls="collapseFilters"
+      class="heading"
+      type="button"
+    >
+      <span class="facet-name">{{ facet.name }}</span>
+      <ng-container *ngIf="isCollapsed; else elseTemplate">
+        <cx-icon class="expand-icon" type="CHEVRON_DOWN"></cx-icon>
+      </ng-container>
+      <ng-template #elseTemplate>
+        <cx-icon class="expand-icon" type="CHEVRON_UP"></cx-icon>
+      </ng-template>
+    </button>
+
+    <div [ngbCollapse]="isCollapsed" class="filters" id="collapseFilters">
+      <div *ngIf="facet.code === 'familyCodes'; else facets">
+        <a
+          #facetValue
+          (keydown.space)="openLink($event)"
+          *ngFor="let value of facet.values | slice: 0:state.topVisible"
+          [class.selected]="value.selected"
+          [queryParams]="getQueryParamsProductFamily(value)"
+          class="value"
+          routerLink="./"
+        >
+          <div class="filter-name">
+            <span class="label">{{ value.name }}</span>
+            <span class="count">{{ value.count }}</span>
+          </div>
+        </a>
+      </div>
+
+      <ng-template #facets>
+        <a
+          #facetValue
+          (keydown.space)="openLink($event)"
+          *ngFor="let value of facet.values | slice: 0:state.topVisible"
+          [class.selected]="value.selected"
+          [queryParams]="getLinkParams(value)"
+          class="value"
+          routerLink="./"
+        >
+          <div class="filter-name">
+            <span class="label">{{ value.name }}</span>
+            <span class="count">{{ value.count }}</span>
+          </div>
+        </a>
+      </ng-template>
+
+      <div class="more">
+        <div *ngIf="facet.code === 'familyCodes'; else moreFacets">
+          <a
+            #facetValue
+            (keydown.space)="openLink($event)"
+            *ngFor="
+              let value of facet.values
+                | slice: state.topVisible:state.maxVisible
+            "
+            [class.selected]="value.selected"
+            [queryParams]="getQueryParamsProductFamily(value)"
+            class="value"
+            routerLink="./"
+          >
+            <div class="filter-name">
+              <span class="label">{{ value.name }}</span>
+              <span class="count">{{ value.count }}</span>
+            </div>
+          </a>
+        </div>
+
+        <ng-template #moreFacets>
+          <a
+            #facetValue
+            (keydown.space)="openLink($event)"
+            *ngFor="
+              let value of facet.values
+                | slice: state.topVisible:state.maxVisible
+            "
+            [class.selected]="value.selected"
+            [queryParams]="getLinkParams(value)"
+            class="value"
+            routerLink="./"
+          >
+            <div class="filter-name">
+              <span class="label">{{ value.name }}</span>
+              <span class="count">{{ value.count }}</span>
+            </div>
+          </a>
+        </ng-template>
+
+        <button
+          (click)="decreaseVisibleValues()"
+          *ngIf="state.maxVisible > state.topVisible"
+          cxFocus="moreorless"
+        >
+          {{ 'productList.showLess' | cxTranslate }}
+        </button>
+
+        <button
+          (click)="increaseVisibleValues()"
+          *ngIf="state.maxVisible > 0 && state.maxVisible < facet.values.length"
+        >
+          {{ 'productList.showMore' | cxTranslate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</ng-container>

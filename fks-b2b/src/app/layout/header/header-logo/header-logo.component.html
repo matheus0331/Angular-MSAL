@@ -1,0 +1,13 @@
+<div>
+  <ng-container *ngIf="data$ | async as data">
+    <cx-generic-link [url]="data.urlLink">
+      <p *ngIf="data.headline" [innerHTML]="data.headline"></p>
+      <img
+        *ngIf="currentBrand$ | async as brand"
+        [src]="apiEndpoint + brand.logo.url"
+        class="logo"
+      />
+      <p *ngIf="data.content" [innerHTML]="data.content"></p>
+    </cx-generic-link>
+  </ng-container>
+</div>

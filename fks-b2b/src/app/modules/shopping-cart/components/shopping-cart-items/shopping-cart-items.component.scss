@@ -1,0 +1,53 @@
+@import '../../../../../assets/scss/typography';
+@import '../../../../../assets/scss/mixins/product-text';
+
+.container {
+  @media only screen and (min-width: 768px) {
+    padding: 0;
+  }
+}
+
+.cart-items-wrapper {
+  border: 1px solid var(--wrapper-border-color);
+
+  .table {
+    display: flex;
+    align-items: center;
+    padding: 12px 0 12px;
+    color: var(--grey);
+    text-align: start;
+    border-bottom: 1px solid var(--wrapper-border-color);
+    margin: 0;
+
+    @include product-text(
+        var(--franke-m-font-size),
+        var(--font-weight-base),
+        21px,
+        uppercase
+    );
+
+    @media only screen and (min-width: 992px) {
+      @include product-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px,
+          uppercase
+      );
+    }
+
+    .details-column {
+      width: 64%;
+      padding-left: 24px;
+    }
+
+    .quantity-column {
+      width: 13%;
+    }
+
+    .price-column {
+      text-align: end;
+      padding-right: 24px;
+      width: 23%;
+    }
+  }
+}

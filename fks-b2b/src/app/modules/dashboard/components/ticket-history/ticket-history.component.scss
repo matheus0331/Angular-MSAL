@@ -1,0 +1,334 @@
+@mixin ticket-text($font-size, $font-weight, $line-height, $color) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+}
+
+@mixin status-dot($color) {
+  width: 9px;
+  height: 9px;
+  background: $color;
+  border-radius: 50%;
+  content: '';
+  margin-right: 11px;
+  margin-bottom: 1px;
+}
+
+.status {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  @media only screen and (min-width: 768px) {
+    justify-content: flex-end;
+  }
+
+  &-completed::before {
+    @include status-dot(#5ec62c);
+  }
+
+  &-open::before {
+    @include status-dot(#9c9c9c);
+  }
+
+  &-in-process::before {
+    @include status-dot(#ffd930);
+  }
+
+  &-customer-action::before {
+    @include status-dot(#ff0000);
+  }
+}
+
+.ticket-history {
+  width: 100%;
+  padding: 24px 24px 0;
+  border: 1px solid #ebedf0;
+  margin-bottom: 100px;
+  height: 538px;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include ticket-text(
+        var(--franke-s-font-size),
+        var(--font-weight-semi-bold),
+        16px,
+        var(--grey)
+    );
+    margin-bottom: 16px;
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @include ticket-text(
+          var(--franke-s-font-size),
+          var(--font-weight-semi-bold),
+          18px,
+          var(--grey)
+      );
+      margin-bottom: 18px;
+    }
+    @media only screen and (min-width: 992px) {
+      @include ticket-text(
+          var(--franke-m-font-size),
+          var(--font-weight-semi-bold),
+          21px,
+          var(--grey)
+      );
+      margin-bottom: 21px;
+    }
+  }
+
+  .separator {
+    border: 1px solid #ebedf0;
+    width: 100%;
+    margin: 13px 0;
+  }
+
+  .tickets-wrapper {
+    height: 455px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: overlay;
+    overflow-x: hidden;
+
+    .ticket {
+      display: flex;
+      max-height: 190px;
+      width: 100%;
+      padding: 10px 0;
+
+      @media only screen and (min-width: 768px) {
+        padding: 16px 16px 9px;
+        height: 180px;
+      }
+
+      .avatar-status {
+        &-completed {
+          background-color: #5ec62c;
+        }
+
+        &-open {
+          background-color: #9c9c9c;
+        }
+
+        &-in-process {
+          background-color: #ffd930;
+        }
+
+        &-customer-action {
+          background-color: #ff0000;
+        }
+      }
+
+      .avatar-circle {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        @media only screen and (min-width: 768px) {
+          width: 59px;
+          height: 59px;
+        }
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+
+        .initials {
+          position: relative;
+
+          @include ticket-text(
+              var(--franke-font-size-base),
+              var(--font-weight-base),
+              32px,
+              var(--white)
+          );
+          @media only screen and (min-width: 768px) {
+            top: 9px;
+            @include ticket-text(
+                28px,
+                var(--font-weight-base),
+                42px,
+                var(--white)
+            );
+          }
+        }
+      }
+
+      .details {
+        width: 100%;
+        @media only screen and (min-width: 768px) {
+          margin-left: 18px;
+          width: 82%;
+        }
+
+        .top-details {
+          display: flex;
+          margin-bottom: 24px;
+          @media only screen and (max-width: 767px) {
+            justify-content: space-between;
+          }
+
+          .ticket-title-wrapper {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            @media only screen and (min-width: 768px) {
+              width: 50%;
+            }
+
+            .ticket-title {
+              margin-bottom: 10px;
+              @include ticket-text(
+                  var(--franke-s-font-size),
+                  var(--font-weight-semi-bold),
+                  16px,
+                  var(--dark-grey)
+              );
+              @media only screen and (min-width: 768px) and (max-width: 991px) {
+                @include ticket-text(
+                    var(--franke-s-font-size),
+                    var(--font-weight-semi-bold),
+                    18px,
+                    var(--dark-grey)
+                );
+              }
+              @media only screen and (min-width: 992px) {
+                @include ticket-text(
+                    var(--franke-m-font-size),
+                    var(--font-weight-semi-bold),
+                    21px,
+                    var(--dark-grey)
+                );
+              }
+            }
+
+            .ticket-code {
+              @include ticket-text(
+                  var(--franke-s-font-size),
+                  var(--font-weight-base),
+                  16px,
+                  var(--grey)
+              );
+              @media only screen and (min-width: 768px) and (max-width: 991px) {
+                @include ticket-text(
+                    var(--franke-s-font-size),
+                    var(--font-weight-base),
+                    18px,
+                    var(--grey)
+                );
+              }
+              @media only screen and (min-width: 992px) {
+                @include ticket-text(
+                    var(--franke-m-font-size),
+                    var(--font-weight-base),
+                    21px,
+                    var(--grey)
+                );
+              }
+            }
+          }
+
+          .ticket-status {
+            width: 40%;
+
+            @include ticket-text(
+                var(--franke-s-font-size),
+                var(--font-weight-base),
+                16px,
+                var(--grey)
+            );
+            @media only screen and (min-width: 768px) and (max-width: 991px) {
+              width: 50%;
+              @include ticket-text(
+                  var(--franke-s-font-size),
+                  var(--font-weight-base),
+                  18px,
+                  var(--grey)
+              );
+            }
+            @media only screen and (min-width: 992px) {
+              width: 50%;
+
+              @include ticket-text(
+                  var(--franke-m-font-size),
+                  var(--font-weight-base),
+                  21px,
+                  var(--grey)
+              );
+            }
+          }
+        }
+
+        .bottom-details {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          @media only screen and (min-width: 768px) {
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+          }
+
+          .ticket-updates,
+          .ticket-creation {
+            display: flex;
+            flex-direction: column;
+
+            @media only screen and (min-width: 768px) {
+              width: 50%;
+            }
+
+            span {
+              margin-bottom: 10px;
+              width: 100%;
+
+              @include ticket-text(
+                  var(--franke-s-font-size),
+                  var(--font-weight-base),
+                  16px,
+                  var(--grey)
+              );
+              @media only screen and (min-width: 768px) and (max-width: 991px) {
+                @include ticket-text(
+                    var(--franke-s-font-size),
+                    var(--font-weight-base),
+                    18px,
+                    var(--grey)
+                );
+              }
+              @media only screen and (min-width: 992px) {
+                @include ticket-text(
+                    var(--franke-m-font-size),
+                    var(--font-weight-base),
+                    21px,
+                    var(--grey)
+                );
+              }
+            }
+
+            .last-update {
+              @media only screen and (max-width: 767px) {
+                margin-bottom: 0;
+              }
+            }
+          }
+
+          .separator {
+            height: 0;
+            width: 50%;
+            margin: 8px 0px;
+            align-self: center;
+            @media only screen and (min-width: 768px) {
+              height: 32px;
+              width: 0px;
+              margin: 0 25px;
+              align-self: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+}

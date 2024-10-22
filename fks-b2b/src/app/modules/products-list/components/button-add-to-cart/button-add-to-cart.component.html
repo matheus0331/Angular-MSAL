@@ -1,0 +1,28 @@
+<form
+  (submit)="frankeAddToCart()"
+  *ngIf="productCode"
+  [formGroup]="addToCartForm"
+>
+  <button
+    *ngIf="isDesktop$ | async; else nonDesktop"
+    [disabled]="quantity <= 0 || !product.price || !product.purchasable"
+    class="btn item-button {{
+      !product.price || !product.purchasable ? 'disabled' : ''
+    }}"
+    type="submit"
+  >
+    <cx-icon type="SHOPPING_BAG"></cx-icon>
+    {{ 'productList.cart' | cxTranslate }}
+  </button>
+  <ng-template #nonDesktop>
+    <button
+      [disabled]="quantity <= 0 || !product.price || !product.purchasable"
+      class="btn item-button {{
+        !product.price || !product.purchasable ? 'disabled' : ''
+      }}"
+      type="submit"
+    >
+      {{ 'addToCart.addToCart' | cxTranslate }}
+    </button>
+  </ng-template>
+</form>

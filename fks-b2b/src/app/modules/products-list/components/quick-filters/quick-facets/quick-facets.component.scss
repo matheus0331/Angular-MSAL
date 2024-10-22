@@ -1,0 +1,39 @@
+@import '../../../../../../assets/scss/theme';
+@import '../../../../../../assets/scss/typography';
+
+@media only screen and (max-width: 767px) {
+  span {
+    font-size: var(--franke-s-font-size);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  span {
+    font-size: var(--franke-m-font-size);
+  }
+}
+
+.wrapper {
+  .quick-filters {
+    display: flex;
+    flex-wrap: wrap;
+
+    a {
+      display: flex;
+      align-items: center;
+      border: 2px solid var(--element-color);
+      margin: 5px 15px 5px 0px;
+      height: 40px;
+      padding: 11px 13px 11px 8px;
+      cursor: pointer;
+      text-decoration: none;
+
+      &.value {
+        .filter-name {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "searchSupport": {
+    "placeholder": "Szukaj tutaj...",
+    "results": "Wyniki",
+    "manualTitle": "Instrukcja użytkowania",
+    "manualDownload": "Pobierz specyfikację",
+    "text": "Wpisz numer katalogowy, model lub symbol produktu",
+    "more": "Więcej",
+    "allResults": "Wszystkie wyniki",
+    "manualDescription": "Dokumentacja produktu",
+    "resultsFor": "Pokazuje wyniki dla:"
+  },
+  "chat": {
+    "faq": "Franke Portal B2B pytania",
+    "message1": "Cześć, jestem Laura. Jestem specjalistą ds. obsługi klienta. Jak mogę ci pomóc?",
+    "title": "Osobisty asystent",
+    "message2": "Możesz wybrać jedną z opcji poniżej lub zadać własne pytanie.",
+    "contact": "Kontakt Franke",
+    "complaint": "Złóż zażalenie"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "",
+    "title": "Dzień dobry, jeśli poszukujesz informacji o produkcie Franke"
+  },
+  "contactForm": {
+    "contactType": "Wybierz sposób kontaktu",
+    "files": "Dodaj zdjęcia do swojego zapytania",
+    "funNumber": "Nr katalogowy",
+    "request": "Opisz swoje zapytanie",
+    "ticketAddSucess": "Zapytanie wysłane",
+    "ticketAddFail": "Błąd podczas wysyłania zapytania, spróbuj ponownie.",
+    "subTitle2": "Jeśli Twoje pytanie dotyczy produktów Franke, zapraszamy do zakładki \"FAQ / pytania i odpowiedzi\" na stronie www.franke.pl.",
+    "generalContactCategories": "Wybierz kategorię",
+    "deleteFiles": "Usuń",
+    "productSubCategories": "Wybierz podkategorię",
+    "title": "Więcej pytań?",
+    "subTitle1": "Jeżeli nie możesz znaleźć odpowiedzi na swoje pytanie w zakładce często zadawane pytania. Możesz skorzystać z formularza kontaktowego!",
+    "productCategories": "Wybierz produkt",
+    "orderNumber": "Numer zamówienia"
+  },
+  "product": {
+    "id": "Nr katalogowy"
+  },
+  "faq": {
+    "print": "Wydrukuj tę stronę",
+    "customerServicesQuestions": "Obsługa klienta",
+    "pageTitle": "Często Zadawane Pytania",
+    "productQuestionsTitle": "Produkty Franke",
+    "portalQuestionsTitle": "Franke Portal B2B",
+    "ordersAndShipmentQuestions": "Zamówienia i wysyłka"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Można korzystać maksymalnie z 4 adresów.",
+    "updateAddress": "Aktualizacja adresu",
+    "editShippingAddress": "Edytuj adres dostawy",
+    "deliveryAddressTitle": "Adres dostawy",
+    "addNewShippingAddress": "Dodaj nowy adres dostawy",
+    "addAddress": "Dodaj adres",
+    "billingAddressTitle": "Adres rozliczeniowy",
+    "addNewAddress": "Dodaj nowy adres",
+    "backToAddressList": "Powrót do listy adresowej",
+    "areYouSureToDeleteAddress": "Czy na pewno chcesz usunąć ten adres?"
+  },
+  "addressCard": {
+    "shipTo": "Dostawa do",
+    "setAsDefault": "Ustaw jako domyślny",
+    "billTo": "Adres do faktury",
+    "selected": "Wybrany",
+    "default": "Domyślny"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Nazwisko",
+      "placeholder": "Nazwisko"
+    },
+    "aptSuite": "Nr lokalu",
+    "saveAsDefault": "Zapisz jako domyślny",
+    "firstName": {
+      "label": "Imię",
+      "placeholder": "Imię"
+    },
+    "zipCode": {
+      "placeholder": "Kod pocztowy",
+      "label": "Kod pocztowy"
+    },
+    "address1": "Adres 1",
+    "setAsDefault": "Ustaw jako domyślny",
+    "title": "Zwrot grzecznościowy",
+    "userAddressDeleteSuccess": "Adres usunięty pomyślnie!",
+    "userAddressAddSuccess": "Nowy adres został dodany pomyślnie!",
+    "city": {
+      "placeholder": "Miasto",
+      "label": "Miasto"
+    },
+    "invalidAddress": "Błędny adres",
+    "chooseAddress": "Wybierz adres",
+    "phoneNumber": {
+      "placeholder": "(55) 555 - 0123",
+      "label": "numer telefonu (opcjonalnie)"
+    },
+    "titleRequired": "Proszę wybrać zwrot grzecznościowy",
+    "state": "Województwo",
+    "address2": "Adres 2 (opcjonalnie)",
+    "selectOne": "Wybierz jeden...",
+    "country": "Kraj",
+    "streetAddress": "Ulica",
+    "userAddressUpdateSuccess": "Adres zaktualizowany!"
+  }
+}

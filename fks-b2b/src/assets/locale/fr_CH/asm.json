@@ -1,0 +1,41 @@
+{
+  "asm": {
+    "standardSessionInProgress": "session de client standard en cours.",
+    "agentSessionTimer": {
+      "label": "Expiration de la session",
+      "minutes": "min",
+      "reset": "Réinitialiser"
+    },
+    "customerSearch": {
+      "searchTerm": {
+        "label": "Nom du client / Adresse e-mail"
+      },
+      "noMatch": "Aucun client trouvé.",
+      "submit": "session"
+    },
+    "logout": "Déconnexion",
+    "loginForm": {
+      "password": {
+        "required": "Mot de passe requis",
+        "label": "Mot de passe"
+      },
+      "userId": {
+        "label": "Agent ID",
+        "required": "ID de l'agent est nécessaire"
+      },
+      "submit": "Se connecter"
+    },
+    "hideUi": "Fermer ASM",
+    "toggleUi": {
+      "collapse": "Cacher ASM",
+      "expand": "Afficher ASM"
+    },
+    "mainLogoLabel": "SÈVE",
+    "csagentTokenExpired": "Votre session d'agent de service à la clientèle est arrivé à expiration.",
+    "mainTitle": "Mode Service assisté",
+    "auth": {
+      "agentLoggedInError": "Impossible de se connecter en tant qu'utilisateur quand il y a une session d'agent actif CS. S'il vous plaît soit utilisateur ou Emuler un agent CS fermeture de session."
+    },
+    "endSession": "fin de session"
+  }
+}

@@ -1,0 +1,29 @@
+@import '../../../../../../assets/scss/typography';
+@import '../../../../../../assets/scss/mixins/product-text';
+
+.shopping-cart-item-promotion-banner {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  width: auto;
+  text-align: start;
+
+  span {
+    padding: 5px 8px 3px 8px;
+    background-color: var(--brand-color);
+    margin-right: 10px;
+    @include product-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        var(--franke-m-font-size),
+        uppercase
+    );
+    color: var(--white);
+  }
+}
+
+.shopping-cart-item-promotion-banner-spacer {
+  margin-bottom: 5px;
+}

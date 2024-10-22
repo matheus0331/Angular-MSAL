@@ -1,0 +1,140 @@
+@mixin contact-us-text($font-size, $font-weight, $line-height, $color) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+}
+
+:host {
+  background-color: var(--section-bg-color);
+}
+
+.container {
+  flex: 0 0 75%;
+  margin: 50px auto;
+
+  @media only screen and (min-width: 992px) {
+    max-width: 75%;
+  }
+}
+
+h5 {
+  @media only screen and (max-width: 767px) {
+    @include contact-us-text(
+        var(--franke-m-font-size),
+        var(--font-weight-base),
+        21px,
+        var(--text-color)
+    );
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    @include contact-us-text(
+        var(--franke-font-size-base),
+        var(--font-weight-base),
+        24px,
+        var(--text-color)
+    );
+  }
+}
+
+p {
+  @media only screen and (max-width: 767px) {
+    @include contact-us-text(
+        var(--franke-m-font-size),
+        var(--font-weight-base),
+        21px,
+        var(--text-color)
+    );
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    @include contact-us-text(
+        var(--franke-font-size-base),
+        var(--font-weight-base),
+        24px,
+        var(--text-color)
+    );
+  }
+}
+
+span,
+ng-select,
+textarea.form-control,
+input {
+  @media only screen and (max-width: 767px) {
+    @include contact-us-text(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px,
+        var(--text-color)
+    );
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    @include contact-us-text(
+        var(--franke-m-font-size),
+        var(--font-weight-base),
+        21px,
+        var(--text-color)
+    );
+  }
+}
+
+cx-form-errors ::ng-deep {
+  p {
+    @media only screen and (max-width: 767px) {
+      @include contact-us-text(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          18px,
+          var(--text-color)
+      );
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @include contact-us-text(
+          var(--franke-m-font-size),
+          var(--font-weight-base),
+          21px,
+          var(--text-color)
+      );
+    }
+  }
+}
+
+button.btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  @media only screen and (max-width: 767px) {
+    height: 35px;
+
+    @include contact-us-text(
+        var(--franke-m-font-size),
+        var(--font-weight-base),
+        18px,
+        var(--text-color)
+    );
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    height: 44px;
+    @include contact-us-text(
+        var(--franke-font-size-base),
+        var(--font-weight-base),
+        21px,
+        var(--text-color)
+    );
+  }
+}
+
+.last-form-group {
+  margin-bottom: 40px;
+}
+
+.delete-button {
+  font-size: 14px;
+  border: 1px solid black;
+}

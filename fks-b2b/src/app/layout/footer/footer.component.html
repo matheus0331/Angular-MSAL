@@ -1,0 +1,12 @@
+<footer>
+  <div class="links">
+    <app-footer-links
+      [flyout]="false"
+      [ngClass]="styleClass$ | async"
+      [node]="node$ | async"
+    ></app-footer-links>
+  </div>
+  <div class="base-footer">
+    <div class="copyright">{{ copyright.toString() }}</div>
+  </div>
+</footer>

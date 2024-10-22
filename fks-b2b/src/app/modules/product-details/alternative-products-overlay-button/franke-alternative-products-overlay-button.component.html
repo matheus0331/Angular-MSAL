@@ -1,0 +1,9 @@
+<ng-container *ngIf="productCode">
+  <button
+    (click)="openAlternativeProductsModal('alternativeProducts.goToProduct')"
+    class="btn btn-block alternative-products-btn"
+    type="button"
+  >
+    {{ 'alternativeProducts.showAlternativeProducts' | cxTranslate }}
+  </button>
+</ng-container>

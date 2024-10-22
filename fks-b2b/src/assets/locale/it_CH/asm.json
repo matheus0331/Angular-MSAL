@@ -1,0 +1,41 @@
+{
+  "asm": {
+    "standardSessionInProgress": "sessione di cliente standard in corso.",
+    "agentSessionTimer": {
+      "label": "Timeout di sessione",
+      "minutes": "min",
+      "reset": "Ripristina"
+    },
+    "customerSearch": {
+      "searchTerm": {
+        "label": "Nome cliente / Indirizzo e-mail"
+      },
+      "noMatch": "Nessun cliente trovato.",
+      "submit": "Inizio di sessione"
+    },
+    "logout": "Disconnessione",
+    "loginForm": {
+      "password": {
+        "required": "E 'richiesta la password",
+        "label": "Parola d'ordine"
+      },
+      "userId": {
+        "label": "ID agente",
+        "required": "ID agente è necessario"
+      },
+      "submit": "Registrati"
+    },
+    "hideUi": "Chiudi ASM",
+    "toggleUi": {
+      "collapse": "Nascondi ASM",
+      "expand": "Visualizza ASM"
+    },
+    "mainLogoLabel": "LINFA",
+    "csagentTokenExpired": "La sessione agente di assistenza clienti è scaduto.",
+    "mainTitle": "Modalità Servizio di assistenza",
+    "auth": {
+      "agentLoggedInError": "Non è possibile effettuare il login come utente quando c'è una sessione attiva agente CS. Si prega di entrambi utente emulare o logout agente CS."
+    },
+    "endSession": "Termina sessione"
+  }
+}

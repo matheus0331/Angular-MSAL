@@ -1,0 +1,61 @@
+<ng-container *ngIf="mainMediaContainer | async as main">
+  <div *ngIf="(main | json) !== '{}'; else noImage">
+    <div
+      (mousemove)="imageMouseMove($event)"
+      (mouseout)="imageMouseOut()"
+      (mouseover)="imageMouseOver()"
+      *ngIf="isDesktop$ | async; else nonDesktop"
+      class="main-image-wrapper"
+    >
+      <cx-media [container]="main" class="main-image"></cx-media>
+    </div>
+    <ng-template #nonDesktop>
+      <div class="main-image-wrapper">
+        <cx-media [container]="main" class="main-image"></cx-media>
+      </div>
+    </ng-template>
+  </div>
+  <ng-template #noImage>
+    <ng-container *ngIf="thumbs$ | async as thumbs">
+      <div *ngIf="thumbs < 1" class="main-image-wrapper">
+        <img class="main-image" src="{{ productImgPlaceholder }}"/>
+      </div>
+    </ng-container>
+  </ng-template>
+</ng-container>
+
+<ng-container *ngIf="thumbs$ | async as thumbs">
+  <cx-carousel
+    *ngIf="thumbs.length"
+    [hideIndicators]="true"
+    [items]="thumbs"
+    [template]="thumb"
+
+    class="thumbs"
+    itemWidth="95px"
+  ></cx-carousel>
+
+  <p class="disclaimer-text">
+    {{ 'productDetails.imageDisclaimer' | cxTranslate }}
+  </p>
+</ng-container>
+
+<ng-template #thumb let-item="item">
+  <div class="item-image">
+    <cx-media
+      (click)="selectedImage($event)"
+      (focus)="
+        openImage(
+          item.container?.product ? item.container?.product : item.container
+        )
+      "
+      [class.is-active]="isActive(item.container) | async"
+      [container]="
+        item.container?.thumbnail ? item.container?.thumbnail : item.container
+      "
+      format="product"
+      tabindex="0"
+    >
+    </cx-media>
+  </div>
+</ng-template>

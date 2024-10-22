@@ -1,0 +1,21 @@
+<ng-container *ngIf="facetList$ | async as facetList">
+  <div *ngFor="let facet of facetList?.activeFacets">
+    <div *ngIf="facet.facetCode !== 'product_status'">
+      <a
+        [cxFocus]="getFocusKey(facetList, facet)"
+        [queryParams]="getParams(facet)"
+        class="filter-chips"
+        routerLink="./"
+      >
+        <div class="wrapper">
+          <p>{{ facet.facetValueName }}</p>
+          <cx-icon
+            [type]="closeIcon"
+            aria-hidden="true"
+            class="filter-close"
+          ></cx-icon>
+        </div>
+      </a>
+    </div>
+  </div>
+</ng-container>

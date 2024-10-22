@@ -1,0 +1,35 @@
+.variant-selector {
+  .variant-name {
+    font-weight: var(--font-weight-semi-bold);
+    font-size: var(--franke-font-size-base);
+    line-height: 24px;
+  }
+
+  .variant-wrapper {
+    margin-top: 18px;
+    margin-left: 8px;
+
+    .form-check {
+      padding: 0;
+      align-items: center;
+      display: flex;
+
+      .form-check-label {
+        top: 0px;
+      }
+
+      .form-check-input {
+        outline: none;
+      }
+    }
+
+    .form-check-inline {
+      align-items: center;
+      display: flex;
+    }
+
+    .form-check-inline .form-check-input {
+      margin-right: 1.25rem;
+    }
+  }
+}

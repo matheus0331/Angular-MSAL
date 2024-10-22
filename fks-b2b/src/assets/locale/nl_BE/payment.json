@@ -1,0 +1,42 @@
+{
+  "paymentMethods": {
+    "invalidField": "Ongeldig veld: {{veld}}",
+    "newPaymentMethodsAreAddedDuringCheckout": "Nieuwe betaalmethoden worden toegevoegd tijdens het afrekenen.",
+    "paymentMethods": "Betaalmethoden"
+  },
+  "paymentForm": {
+    "useThisPayment": "Gebruik deze betaling",
+    "accountHolderName": {
+      "label": "Naam rekeninghouder",
+      "placeholder": "Naam rekeninghouder"
+    },
+    "securityCode": "Beveiligingscode (CVV)",
+    "monthMask": "MM",
+    "yearMask": "YYYY",
+    "billingAddress": "Factuur adres",
+    "setAsDefault": "Stel in als standaard",
+    "saveAsDefault": "Opslaan als standaard",
+    "selectOne": "Kies een...",
+    "sameAsShippingAddress": "Hetzelfde als afleveradres",
+    "choosePaymentMethod": "Kies een betaal methode",
+    "cardNumber": "Kaartnummer",
+    "expirationDate": "Vervaldatum",
+    "payment": "Betaling",
+    "addNewPayment": "Voeg nieuwe betaling toe",
+    "paymentType": "Betalingswijze",
+    "changePayment": "Betaling wijzigen",
+    "securityCodeTitle": "Kaartvertificatiewaarde"
+  },
+  "paymentTypes": {
+    "title": "Betalingsmiddel",
+    "paymentType_ACCOUNT": "Account",
+    "paymentType_CARD": "Creditcard / betaalkaart"
+  },
+  "paymentCard": {
+    "expires": "Vervallen: {{maand}} / {{jaar}}",
+    "setAsDefault": "Stel in als standaard",
+    "defaultPaymentMethod": "✓ STANDAARD",
+    "selected": "Geselecteerd",
+    "deleteConfirmation": "Weet u zeker dat u deze betaalmethode wilt verwijderen?"
+  }
+}

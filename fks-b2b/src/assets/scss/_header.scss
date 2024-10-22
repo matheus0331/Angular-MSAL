@@ -1,0 +1,288 @@
+@mixin header-border($top) {
+  border-top: 1px solid var(--header-border-color);
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: $top;
+}
+
+$space: 0.5rem;
+
+header {
+  @extend %header !optional;
+  background-color: var(--white);
+  color: var(--text-color);
+  display: block;
+
+  .navigation {
+    .NavigationBar {
+      app-category-navigation {
+        display: initial;
+      }
+    }
+  }
+
+  .header {
+    //max-width: 1140px;
+    margin: auto;
+    position: initial;
+
+    @include media-breakpoint-down(sm) {
+      max-height: 126px;
+    }
+
+    @include media-breakpoint-only(md) {
+      max-height: 150px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 0;
+    }
+
+    display: flex;
+    flex-wrap: wrap;
+
+    > * {
+      align-self: center;
+      display: block;
+      flex: none;
+    }
+  }
+
+  &.is-expanded {
+    .navigation {
+      @include media-breakpoint-down(sm) {
+        margin-top: -56px;
+      }
+      @include media-breakpoint-only(md) {
+        margin-top: -56px;
+      }
+
+      position: absolute;
+      width: 100%;
+      z-index: 3;
+    }
+    .PreHeader {
+      z-index: 3;
+    }
+
+    .SiteContext,
+    .SiteLinks {
+      display: none;
+    }
+
+    .SearchBox {
+      height: 0;
+    }
+
+    @include media-breakpoint-down(md) {
+      &:after {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: var(--white);
+        z-index: 2;
+      }
+    }
+  }
+
+  &:not(.is-expanded) {
+    cx-page-layout.navigation {
+      display: none;
+    }
+  }
+
+  .PreHeader {
+    display: flex;
+    align-items: center;
+    height: 43px;
+    width: 50%;
+    padding: 0.625rem $space;
+
+    cx-hamburger-menu {
+      padding: 5px 9px;
+      max-height: 100%;
+
+      button {
+        .hamburger-inner,
+        .hamburger-inner::before,
+        .hamburger-inner::after {
+          width: 18px;
+          height: 2px;
+        }
+
+        .hamburger-inner::after {
+          bottom: -6px;
+        }
+
+        .hamburger-inner::before {
+          top: -6px;
+        }
+      }
+    }
+
+    @include media-breakpoint-only(md) {
+      height: 67px;
+      padding: 1.25rem;
+    }
+  }
+
+  .SiteContext {
+    height: 43px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    padding: 0.625rem $space calc($space / 2);
+
+    &:after {
+      @include media-breakpoint-down(sm) {
+        @include header-border(43px);
+      }
+
+      @include media-breakpoint-only(md) {
+        @include header-border(67px);
+      }
+    }
+
+    @include media-breakpoint-only(md) {
+      height: 67px;
+      padding: 1.25rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 0;
+    }
+  }
+
+  .SearchBox {
+    width: 33%;
+    margin: 0;
+
+    &:after {
+      @include media-breakpoint-down(sm) {
+        @include header-border(126px);
+      }
+
+      @include media-breakpoint-only(md) {
+        @include header-border(150px);
+      }
+    }
+
+    @include media-breakpoint-down(md) {
+      height: 83px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin: 14px 0;
+    }
+  }
+
+  .SiteLogo {
+    display: grid;
+    width: 33%;
+    margin: 0;
+
+    app-header-logo {
+      display: flex;
+      align-items: center;
+    }
+
+    @include media-breakpoint-down(md) {
+      height: 83px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin: 14px auto;
+    }
+  }
+
+  .MiniCart {
+    width: 33%;
+    display: flex;
+    align-items: center;
+
+    @include media-breakpoint-down(md) {
+      height: 83px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 5%;
+    }
+  }
+
+  .NavigationBar {
+    background-color: var(--white);
+    flex: 100%;
+
+    @include media-breakpoint-down(md) {
+      min-height: 42px;
+
+      app-category-navigation {
+        display: none;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      min-height: 60px;
+    }
+  }
+
+  .cx-hamburger {
+    display: block;
+    padding: 0;
+  }
+
+  // non-desktop
+  @include media-breakpoint-down(md) {
+    .SiteContext,
+    .SiteLogin {
+      background-color: var(--white);
+      color: var(--cx-color, var(--text-color));
+    }
+  }
+
+  // desktop
+  @include media-breakpoint-up(lg) {
+    header {
+      padding: 0 $space * 2;
+    }
+    .cx-hamburger {
+      display: none;
+    }
+
+    .SiteContext,
+    .SiteLinks {
+      display: flex;
+      --cx-margin: #{$space} 8px;
+    }
+
+    .SiteContext {
+      justify-content: flex-end;
+      display: flex;
+      align-items: center;
+      height: 47px;
+      &:after {
+        border-top: 1px solid var(--header-border-color);
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 44px;
+      }
+    }
+
+    .SiteLinks {
+      justify-content: flex-end;
+    }
+
+    .SiteLogin {
+      width: 28%;
+      padding: $space $space * 2;
+    }
+  }
+}

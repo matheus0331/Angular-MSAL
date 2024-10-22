@@ -1,0 +1,28 @@
+@import '@spartacus/styles/scss/mixins';
+
+.status {
+  font-weight: var(--font-weight-base);
+  display: flex;
+  align-items: center;
+  font-size: var(--franke-font-size-base);
+
+  .icon {
+    font-size: var(--franke-h4-font-size);
+    margin-right: 0.5rem;
+
+    &.success {
+      color: var(--success-color);
+    }
+
+    &.warning {
+      color: var(--warning-color);
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    font-size: var(--franke-s-font-size);
+    .icon {
+      font-size: var(--franke-h5-font-size);
+    }
+  }
+}

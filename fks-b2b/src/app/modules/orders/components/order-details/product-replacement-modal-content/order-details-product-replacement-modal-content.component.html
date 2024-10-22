@@ -1,0 +1,106 @@
+<div class="cx-dialog-header modal-header border-0">
+  <h5 class="cx-dialog-title modal-title">
+    {{
+    'orderDetails.alternativeProducts.productReplacementTitle' | cxTranslate
+    }}
+  </h5>
+  <button
+    (click)="dismissModal('Cross click')"
+    aria-label="Close"
+    class="close"
+    type="button"
+  >
+    <span aria-hidden="true">
+      <cx-icon [type]="iconTypes.CLOSE" class="large"></cx-icon>
+    </span>
+  </button>
+</div>
+
+<ng-template #imagePlaceholder>
+  <img
+    class="product-img-placeholder"
+    src="/../../../../../assets/imgs/productImgPlaceholder.jpeg"
+  />
+</ng-template>
+
+<div class="cx-dialog-body modal-body pt-0">
+  <div class="row">
+    <div class="col-12">
+      <p class="subtitle my-4">
+        {{ 'orderDetails.alternativeProducts.areYouSure' | cxTranslate }}
+      </p>
+    </div>
+  </div>
+  <div class="row align-items-center text-center mb-4">
+    <div class="col-4 pr-0">
+      <div class="product-img">
+        <cx-media
+          *ngIf="productImage; else imagePlaceholder"
+          [container]="productImage"
+        ></cx-media>
+      </div>
+    </div>
+    <div class="col-4">
+      <cx-icon [type]="icons.ARROW_RIGHT" class="xl"></cx-icon>
+    </div>
+    <div class="col-4 pl-0">
+      <img
+        *ngIf="alternative.imageUrl; else imagePlaceholder"
+        [src]="alternative.imageUrl"
+        class="product-img"
+      />
+    </div>
+  </div>
+  <div class="row product-info text-center text-md-left">
+    <div class="col-4 pr-0">
+      <div class="description">
+        {{ order.product.shortTitle || order.product.name }}
+      </div>
+    </div>
+    <div class="col-4"></div>
+    <div class="col-4 pl-0">
+      <div class="description">{{ alternative.description }}</div>
+    </div>
+    <div class="col-4 pr-0">
+      <span class="replacement-product">{{ order.netPrice }} {{ order.docCurrency }}</span>
+    </div>
+    <div class="col-4"></div>
+    <div class="col-4 pl-0">
+      <span class="replacement-product replacement-product--new">
+        <cx-icon type="INFO"></cx-icon>
+        {{ 'orderDetails.alternativeProducts.newPrice' | cxTranslate }}: {{ alternative.price }} {{ order.docCurrency }}
+      </span>
+    </div>
+    <div class="col-4 pr-0">
+      <div class="fun-number">
+        {{ 'orderDetails.alternativeProducts.article' | cxTranslate }}
+        {{ order.product.code }}
+      </div>
+    </div>
+    <div class="col-4"></div>
+    <div class="col-4 pl-0">
+      <div class="fun-number">
+        {{ 'orderDetails.alternativeProducts.article' | cxTranslate }}
+        {{ alternative.FUN }}
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="cx-dialog-actions col-12 text-center text-md-right">
+      <button
+        (click)="handleReplaceActionClick(false)"
+        class="btn btn-outline mr-3 px-lg-5"
+        type="button"
+      >
+        {{ 'orderDetails.alternativeProducts.cancelAction' | cxTranslate }}
+      </button>
+      <button
+        (click)="handleReplaceActionClick(true)"
+        class="btn btn-outline"
+        type="button"
+      >
+        {{ 'orderDetails.alternativeProducts.replaceAction' | cxTranslate }}
+      </button>
+    </div>
+  </div>
+</div>

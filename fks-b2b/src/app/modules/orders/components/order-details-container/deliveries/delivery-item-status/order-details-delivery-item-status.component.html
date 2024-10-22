@@ -1,0 +1,9 @@
+<div *ngIf="statusValue" class="status">
+  <cx-icon
+    [ngbTooltip]="statusValue.translationKey | cxTranslate"
+    [type]="statusValue.icon"
+    class="icon cx-icon {{ statusValue.color }}"
+    placement="bottom"
+    tooltipClass="status-tooltip"
+  ></cx-icon>
+</div>

@@ -1,0 +1,196 @@
+<div class="container">
+  <ng-container
+    *ngIf="
+      (isLoading$ | async) === false && (isUpdating$ | async) === false;
+      else loading
+    "
+  >
+    <ng-container *ngIf="cart$ | async as cart">
+      <div class="summary-wrapper">
+        <div class="summary-title">
+          {{ 'orderCost.orderSummary' | cxTranslate }}
+        </div>
+        <div class="summary-info-wrapper">
+          <!-- Total Catalog Price -->
+          <div class="summary-info">
+            <div class="summary-label">
+              {{
+              cart.totalUnitCount > 1
+                ? ('orderCost.totalCatalogPrice'
+                  | cxTranslate: {count: cart.totalUnitCount})
+                : ('orderCost.totalCatalogPriceSingular'
+                  | cxTranslate: {count: cart.totalUnitCount})
+              }}
+            </div>
+            <div class="summary-amount">
+              {{
+              cart.totalCatalogPrice?.formattedValue
+                ? cart.totalCatalogPrice.formattedValue
+                : 'Error'
+              }}
+            </div>
+          </div>
+
+          <!-- totalNetWithoutTax -->
+          <div class="summary-info">
+            <div class="summary-label">
+              {{
+              cart.totalUnitCount > 1
+                ? ('orderCost.totalNetWithoutTax'
+                  | cxTranslate: {count: cart.totalUnitCount})
+                : ('orderCost.totalNetWithoutTax'
+                  | cxTranslate: {count: cart.totalUnitCount})
+              }}
+            </div>
+            <div class="summary-amount">
+              {{ cart.totalNetWithoutTax?.formattedValue }}
+            </div>
+          </div>
+
+          <!-- Tax -->
+          <div class="summary-info">
+            <div class="summary-label">
+              {{ 'orderCost.salesTax' | cxTranslate }}
+            </div>
+            <div class="summary-amount">
+              {{ cart.totalTax?.formattedValue }}
+            </div>
+          </div>
+
+          <!-- Total With Tax -->
+          <div class="summary-total">
+            <div class="total-label">
+              {{ 'orderCost.total' | cxTranslate }}
+            </div>
+            <div class="total-amount">
+              {{ cart.totalPriceWithTax?.formattedValue }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <br/>
+      <div
+        *ngIf="(cart.totalAdditionalFees?.formattedValue && cart.totalAdditionalFees?.value != 0)
+        || (cart.totalEcoTax?.formattedValue && cart.totalEcoTax?.value != 0)
+        || (cart.deliveryCost?.formattedValue && cart.deliveryCost?.value != 0)"
+        class="summary-wrapper whitebg">
+        <div class="summary-title">
+          {{ 'orderCost.mainFeesIncluded' | cxTranslate }}
+        </div>
+        <div class="summary-info-wrapper">
+
+          <!-- Additional Fees -->
+          <div *ngIf="cart.totalAdditionalFees?.formattedValue && cart.totalAdditionalFees?.value != 0"
+               class="summary-info" style="margin-bottom: 28px">
+            <div class="summary-label">
+              {{ 'cartItems.additionalFees' | cxTranslate }}
+              <span class="delivery-date-icon">
+              <cx-icon type="QUESTION_CIRCLE"></cx-icon>
+              <span class="delivery-date-info-text">
+                {{ 'cartItems.additionalFeesTooltip' | cxTranslate }}
+              </span>
+            </span>
+            </div>
+            <div class="summary-amount" style="line-height: 20px">
+              {{ cart.totalAdditionalFees?.formattedValue }}
+            </div>
+          </div>
+
+          <div *ngIf="cart.totalEcoTax?.formattedValue && cart.totalEcoTax?.value != 0" class="summary-info">
+            <div class="summary-label">
+              {{ 'cartItems.ecoTax' | cxTranslate }}
+            </div>
+            <div class="summary-amount">
+              {{ cart.totalEcoTax?.formattedValue }}
+            </div>
+          </div>
+
+          <div *ngIf="cart.deliveryCost?.formattedValue && cart.deliveryCost?.value != 0" class="summary-info">
+            <div class="summary-label">
+              {{ 'orderCost.estimatedShipping' | cxTranslate }}
+            </div>
+            <div class="summary-amount">
+              {{ cart.deliveryCost?.formattedValue }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="(cart.crossChannelDiscounts?.formattedValue && cart.crossChannelDiscounts?.value != 0)
+      || (cart.discounts?.length > 0) || (cart.productDiscounts?.formattedValue && cart.productDiscounts?.value != 0)"
+           class="summary-wrapper whitebg">
+        <div class="summary-title">
+          {{ 'orderCost.mainPromoIncluded' | cxTranslate }}
+        </div>
+        <div class="summary-info-wrapper">
+          <div
+            *ngFor="let discount of cart.discounts; let last = last"
+            class="summary-info"
+          >
+            <div *ngIf="discount.price?.value" class="summary-label">
+              <ng-container *ngIf="!discount.title">
+                {{ 'orderCost.orderDiscounts' | cxTranslate }}
+              </ng-container>
+              <ng-container *ngIf="discount.title">
+                {{ discount.title }}:
+              </ng-container>
+            </div>
+            <div *ngIf="discount.price?.value" class="summary-amount">
+              {{ discount.price?.formattedValue }}
+            </div>
+          </div>
+          <div
+            *ngIf="cart.productDiscounts && cart.productDiscounts?.value"
+            class="summary-info"
+          >
+            <div class="summary-label">
+              {{ 'orderCost.crossCategoryPromo' | cxTranslate }}
+            </div>
+            <div class="summary-amount">
+              {{ cart.productDiscounts?.formattedValue }}
+            </div>
+          </div>
+
+          <div *ngIf="cart.crossChannelDiscounts?.formattedValue && cart.crossChannelDiscounts?.value != 0"
+               class="summary-info">
+            <div class="summary-label">
+              {{ 'orderCost.crossChannelPromo' | cxTranslate }}
+            </div>
+            <div class="summary-amount">
+              {{ cart.crossChannelDiscounts?.formattedValue }}
+            </div>
+          </div>
+        </div>
+
+        <div
+          *ngIf="
+            cart.potentialProductPromotions &&
+            cart.potentialProductPromotions[0]?.promotion &&
+            cart.potentialProductPromotions[0]?.promotion?.description
+          "
+          class="summary-info"
+        >
+          <div class="summary-label">
+            {{
+            'orderCost.discountsApplied'
+              | cxTranslate
+              : {
+                discountMessage:
+                cart.potentialProductPromotions[0]?.promotion
+                  ?.description
+              }
+            }}
+          </div>
+        </div>
+      </div>
+    </ng-container>
+    <app-checkout-additional-info
+      *ngIf="shouldShowAdditionalInfoForm() | async"
+    ></app-checkout-additional-info>
+  </ng-container>
+
+  <ng-template #loading>
+    <div class="cx-spinner">
+      <cx-spinner></cx-spinner>
+    </div>
+  </ng-template>
+</div>

@@ -1,0 +1,113 @@
+{
+  "searchSupport": {
+    "placeholder": "Suchen Sie hier...",
+    "results": "Ergebnisse",
+    "manualTitle": "Bedienungsanleitung",
+    "manualDownload": "Download Spezifikation",
+    "text": "Suchen Sie nach einer Artikelnummer oder einem Modell",
+    "more": "Mehr",
+    "allResults": "Alle Ergebnisse",
+    "manualDescription": "Das umfassendste Dokument über die Konfiguration und Verwendung des Produkts.",
+    "resultsFor": "Ergebnisse für:"
+  },
+  "chat": {
+    "faq": "Fragen zum Franke Partner Portal",
+    "message1": "Hallo, ich bin Laura. Wie kann ich Ihnen helfen?",
+    "title": "Persönlicher Assistent",
+    "message2": "Sie können aus den unten stehenden Optionen wählen oder Ihre eigene Frage stellen.",
+    "contact": "Franke kontaktieren",
+    "complaint": "Eine Beschwerde einreichen"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Sie haben Fragen zu einem Produkt oder benötigen eine schnelle Antwort?",
+    "title": "Hallo, wir sind hier um zu helfen"
+  },
+  "contactForm": {
+    "contactType": "Kontaktart auswählen",
+    "files": "Bilder zur Unterstützung Ihrer Anfrage hochladen",
+    "funNumber": "Artikelnummer",
+    "request": "Beschreiben Sie Ihre Anfrage",
+    "ticketAddSucess": "Ticket erstellt!",
+    "ticketAddFail": "Fehler beim Erstellen des Tickets, versuchen Sie es erneut!",
+    "subTitle2": "Nutzen Sie einfach unser Kontaktformular!",
+    "generalContactCategories": "Kategorie auswählen",
+    "deleteFiles": "Lösche",
+    "productSubCategories": "Subkategorie auswählen",
+    "title": "Haben Sie weitere Fragen?",
+    "subTitle1": "Sie konnten die Antwort auf Ihre Frage nicht in unseren Häufig gestellten Fragen finden",
+    "productCategories": "Produkt auswählen",
+    "orderNumber": "Auftragsnummer"
+  },
+  "product": {
+    "id": "Artikelnummer"
+  },
+  "faq": {
+    "print": "Diese Seite drucken",
+    "customerServicesQuestions": "Kundenservice",
+    "pageTitle": "Häufig gestellte Fragen",
+    "productQuestionsTitle": "Franke Produkte",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Bestellungen und Versand"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Sie können maximal vier Adressen hinzufügen.",
+    "updateAddress": "Adresse aktualisieren",
+    "editShippingAddress": "Versandadresse bearbeiten",
+    "deliveryAddressTitle": "Lieferadresse",
+    "addNewShippingAddress": "Neue Versandadresse hinzufügen",
+    "addAddress": "Adresse hinzufügen",
+    "billingAddressTitle": "Rechnungsadresse",
+    "addNewAddress": "Neue Adresse hinzufügen",
+    "backToAddressList": "Zurück zur Adressliste",
+    "areYouSureToDeleteAddress": "Sind Sie sich sicher, dass Sie diese Adresse löschen möchten?"
+  },
+  "addressCard": {
+    "shipTo": "Versenden an",
+    "setAsDefault": "Als Standard festlegen",
+    "billTo": "Rechnung an",
+    "selected": "Auswahl",
+    "default": "Standard"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Nachname",
+      "placeholder": "Nachname"
+    },
+    "aptSuite": "Wohnung, Stockwerk",
+    "saveAsDefault": "Als Standard speichern",
+    "firstName": {
+      "label": "Vorname",
+      "placeholder": "Vorname"
+    },
+    "zipCode": {
+      "placeholder": "Postleitzahl / PLZ",
+      "label": "Postleitzahl"
+    },
+    "address1": "Adresse 1",
+    "setAsDefault": "Als Standard festlegen",
+    "title": "Titel",
+    "userAddressDeleteSuccess": "Adresse wurde erfolgreich gelöscht!",
+    "userAddressAddSuccess": "Neue Adresse wurde erfolgreich hinzugefügt!",
+    "city": {
+      "placeholder": "Stadt",
+      "label": "Stadt"
+    },
+    "invalidAddress": "Ungültige Adresse",
+    "chooseAddress": "Adresse auswählen",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "Telefonnummer (optional)"
+    },
+    "titleRequired": "Titel ist erforderlich.",
+    "state": "Bundesland/ Kanton",
+    "address2": "Adresse 2 (optional)",
+    "selectOne": "Bitte auswählen...",
+    "country": "Land",
+    "streetAddress": "Straße",
+    "userAddressUpdateSuccess": "Adresse wurde erfolgreich aktualisiert!"
+  }
+}

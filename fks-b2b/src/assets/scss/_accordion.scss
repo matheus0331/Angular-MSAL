@@ -1,0 +1,114 @@
+@import './theme';
+@import '@spartacus/styles/scss/functions';
+@import '@spartacus/styles/scss/mixins';
+
+.accordion {
+  .card {
+    margin-bottom: 20px;
+    border: none;
+    @media only screen and (max-width: 767px) {
+      width: 97vw;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      width: 93vw;
+    }
+
+    &-header {
+      background-color: transparent;
+      padding: 25px 0;
+      border: none;
+      padding-bottom: 5px;
+
+      h5 {
+        font-size: $font-size-base * 1.375;
+        font-weight: var(--font-weight-semi-bold);
+        color: theme-color('text');
+
+        .btn {
+          text-align: start;
+          text-decoration: none !important;
+          width: 100%;
+          font-weight: var(--font-weight-semi-bold);
+
+          &:hover {
+            text-decoration: none;
+          }
+
+          &:after {
+            float: right;
+            font-size: 33px;
+            bottom: 12px;
+            position: relative;
+          }
+
+          &[aria-expanded='false'] {
+            &:after {
+              content: '+';
+            }
+          }
+
+          &[aria-expanded='true'] {
+            color: theme-color('primary');
+
+            &:after {
+              content: '\2013';
+            }
+          }
+        }
+      }
+    }
+
+    &-body {
+      padding: 5px 20px 20px 20px;
+    }
+  }
+}
+
+//cx-accordion is an alterative version of the accordion
+//media queries are to be added in each component
+//ex. anonymus consent dialog
+.cx-accordion {
+  margin: 5px auto;
+  line-height: 1.6;
+  list-style-type: none;
+  padding: 0;
+
+  .cx-accordion-item {
+    border: 1px solid var(--cx-color-light);
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .cx-accordion-tab {
+      background-color: var(--white);
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      .cx-accordion-title {
+        padding-top: 15px;
+        padding-inline-end: 15px;
+        padding-bottom: 15px;
+        padding-inline-start: 50px;
+        display: block;
+        position: relative;
+        font-weight: var(--font-weight-semi-bold);
+      }
+    }
+
+    .cx-accordion-tabpanel {
+      transition: height 0.3s ease-out;
+      height: 0;
+      overflow: hidden;
+      background-color: var(--white);
+
+      .cx-accordion-content {
+        padding-top: 0;
+        padding-inline-end: 40px;
+        padding-bottom: 10px;
+        padding-inline-start: 40px;
+      }
+    }
+  }
+}

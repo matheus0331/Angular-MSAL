@@ -1,0 +1,277 @@
+<nav #nav="ngbNav" class="nav-tabs container" ngbNav>
+  <ng-container ngbNavItem>
+    <a (click)="monthsSelectorVisibility()" ngbNavLink>
+      <div class="total-orders">
+        {{
+        'orderHistory.allOrdersTab'
+          | cxTranslate: {count: totalOrders$ | async}
+        }}
+      </div>
+    </a>
+    <ng-template ngbNavContent>
+      <form>
+        <div class="container">
+          <div *ngIf="ordersListLoaded$ | async; else loading">
+            <div *ngIf="hasOrders$ | async; else noOrders">
+              <div class="order-history-filters">
+                <div class="filter-wrapper">
+                  <div class="filter-title">
+                    {{ 'orderHistory.orderNumberFilter' | cxTranslate }}
+                  </div>
+                  <input
+                    [(ngModel)]="service.searchOrderNumber"
+                    class="filter-order-number"
+                    name="searchOrderNumber"
+                    placeholder="P01233454655657"
+                    type="text"
+                  />
+                </div>
+
+                <div class="filter-wrapper">
+                  <div class="filter-title">
+                    {{ 'orderHistory.orderType' | cxTranslate }}
+                  </div>
+                  <ng-select
+                    [(ngModel)]="service.searchOrderType"
+                    [clearable]="false"
+                    [searchable]="false"
+                    class="filter-order-types-dropdown"
+                    name="searchOrderTypes"
+                  >
+                    <ng-option
+                      *ngFor="let option of orderTypes"
+                      [value]="option.value"
+                    >
+                      {{ option.tranaslationKey | cxTranslate }}</ng-option
+                    >
+                  </ng-select>
+                </div>
+
+                <div class="filter-wrapper">
+                  <div class="filter-title">
+                    {{ 'orderHistory.orderReferenceFilter' | cxTranslate }}
+                  </div>
+                  <input
+                    [(ngModel)]="service.searchPurchaseOrderNumber"
+                    class="filter-order-reference"
+                    name="searchPurchaseOrderNumber"
+                    placeholder="{{
+                      'orderHistory.orderReferencePlaceholder' | cxTranslate
+                    }}"
+                    type="text"
+                  />
+                </div>
+
+                <div class="filter-wrapper">
+                  <div class="filter-title">
+                    {{ 'orderHistory.orderStatusFilter' | cxTranslate }}
+                  </div>
+
+                  <ng-select
+                    (change)="
+                      selectOption(
+                        'orderHistory.status' + service.searchOrderStatus
+                      )
+                    "
+                    [(ngModel)]="service.searchOrderStatus"
+                    [clearable]="false"
+                    [searchable]="false"
+                    class="filter-order-status-dropdown custom-dropdown"
+                    name="searchOrderStatus"
+                    placeholder="{{
+                      'orderHistory.statusPlaceholder' | cxTranslate
+                    }}"
+                  >
+                    <ng-option
+                      *ngFor="let option of statusOptions$ | async"
+                      [value]="option.code"
+                    >
+                      {{ option.name }}
+                    </ng-option>
+                  </ng-select>
+                </div>
+              </div>
+
+              <div class="table-wrapper">
+                <table class="table">
+                  <thead class="table-header">
+                  <tr>
+                    <th
+                      (sort)="onSort($event)"
+                      class="column-order-number"
+                      scope="col"
+                      sortable="code"
+                    >
+                      {{ 'orderHistory.orderNumberColumn' | cxTranslate }}
+                    </th>
+                    <th
+                      (sort)="onSort($event)"
+                      class="column-channel"
+                      scope="col"
+                      sortable="orderType"
+                    >
+                      {{ 'orderHistory.orderChannelColumn' | cxTranslate }}
+                    </th>
+                    <th
+                      (sort)="onSort($event)"
+                      class="column-order-reference"
+                      scope="col"
+                      sortable="purchaseOrderNumber"
+                    >
+                      {{ 'orderHistory.orderReferenceColumn' | cxTranslate }}
+                    </th>
+
+                    <th
+                      (sort)="onSort($event)"
+                      class="column-status"
+                      scope="col"
+                      sortable="statusDisplay"
+                    >
+                      {{ 'orderHistory.statusColumn' | cxTranslate }}
+                    </th>
+                    <th
+                      (sort)="onSort($event)"
+                      class="column-value"
+                      scope="col"
+                      sortable="total"
+                    >
+                      {{ 'orderHistory.valueColumn' | cxTranslate }}
+                    </th>
+                  </tr>
+                  </thead>
+                  <tbody class="table-body">
+                  <tr
+                    (click)="goToOrderDetail(order)"
+                    *ngFor="let order of myOrders$ | async"
+                    class="order"
+                  >
+                    <td class="row-order-number">
+                      <ngb-highlight
+                        [result]="order.code"
+                        [term]="service.searchOrderNumber"
+                      ></ngb-highlight>
+                    </td>
+                    <td class="row-channel">
+                      <ngb-highlight
+                        [result]="order.orderType"
+                      ></ngb-highlight>
+                    </td>
+                    <td class="row-order-reference">
+                      <ngb-highlight
+                        [result]="order.purchaseOrderNumber"
+                        [term]="service.searchPurchaseOrderNumber"
+                      >
+                      </ngb-highlight>
+                    </td>
+                    <td class="row-status">
+                        <span
+                          class="status-{{
+                            orderStatus[order.condensedStatus]
+                          }}"
+                        ></span>
+                      <ngb-highlight
+                        [result]="
+                            order.condensedStatus
+                              ? ('orderHistory.status' + order.condensedStatus
+                                | cxTranslate)
+                              : ''
+                          "
+                        [term]="service.searchOrderStatus"
+                      >
+                      </ngb-highlight>
+                    </td>
+                    <td class="row-value">
+                      <ngb-highlight
+                        [result]="
+                            order.total.value + ' ' + order.total.currencyIso
+                          "
+                      ></ngb-highlight>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div
+                *ngIf="(totalOrders$ | async) > 0"
+                class="products-pagination"
+              >
+                <app-orders-pagination
+                  [(page)]="service.page"
+                  [collectionSize]="(totalOrders$ | async)!"
+                  [ellipses]="false"
+                  [maxSize]="5"
+                  [rotate]="true"
+                >
+                </app-orders-pagination>
+              </div>
+            </div>
+            <ng-template #noOrders>
+              <div *ngIf="(totalOrders$ | async) === 0">
+                <h3>{{ 'orderHistory.noOrders' | cxTranslate }}</h3>
+              </div>
+            </ng-template>
+            <div *ngIf="(totalOrders$ | async) < 1">
+              <div
+                *ngIf="
+                  service.searchOrderNumber.length > 0 ||
+                  service.searchPurchaseOrderNumber.length > 0 ||
+                  service.searchOrderDate !== null ||
+                  service.searchOrderStatus.length > 0
+                "
+                class="no-orders-filter"
+              >
+                <h3>{{ 'orderHistory.noOrdersFilter' | cxTranslate }}</h3>
+              </div>
+            </div>
+          </div>
+
+          <ng-template #loading>
+            <div class="cx-spinner">
+              <cx-spinner></cx-spinner>
+            </div>
+          </ng-template>
+        </div>
+      </form>
+    </ng-template>
+  </ng-container>
+  <ng-container ngbNavItem>
+    <a (click)="monthsSelectorVisibility()" ngbNavLink>
+      <div class="invoices">
+        {{
+        'orderInvoices.invoices'
+          | cxTranslate: {count: totalInvoices$ | async}
+        }}
+      </div>
+    </a>
+    <ng-template ngbNavContent>
+      <app-order-invoices></app-order-invoices>
+    </ng-template>
+  </ng-container>
+  <div *ngIf="pastOrders$ | async as pastOrders" class="past-orders">
+    <div class="past-orders-text">
+      {{ 'orderHistory.lastOrders' | cxTranslate }}
+    </div>
+    <ng-select
+      (change)="getPastOrders($event)"
+      [clearable]="false"
+      [items]="pastOrders"
+      [ngModelOptions]="{ standalone: true }"
+      [ngModel]="pastOrders[0]"
+      [searchable]="false"
+    >
+    </ng-select>
+  </div>
+</nav>
+
+<div [ngbNavOutlet]="nav" class="mt-2"></div>
+
+<ng-template
+  #customDay
+  let-currentMonth="currentMonth"
+  let-date
+  let-selected="selected"
+>
+  <span [class.bg-primary]="selected" class="ngb-dp-day custom-day">{{
+    date.day
+    }}</span>
+</ng-template>

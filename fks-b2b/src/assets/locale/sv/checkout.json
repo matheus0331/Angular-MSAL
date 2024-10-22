@@ -1,0 +1,219 @@
+{
+  "searchSupport": {
+    "placeholder": "Sök här...",
+    "results": "Resultat",
+    "manualTitle": "",
+    "manualDownload": "",
+    "text": "Sök efter ett FUN nummer, produktkod eller produktnamn",
+    "more": "Mer",
+    "allResults": "alla resultat",
+    "manualDescription": "",
+    "resultsFor": "Visar resultat för:"
+  },
+  "chat": {
+    "faq": "Franke FAQ",
+    "message1": "Hej, jag heter Laura. Jag är din personliga assistent. Hur kan jag hjälpa dig?",
+    "title": "Personlig assistent",
+    "message2": "Du kan välja mellan alternativ nedan eller ställa din egen fråga.",
+    "contact": "Kontakta Franke",
+    "complaint": "Skicka ett klagomål"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Behöver du hjälp med din produkt eller har du en fråga?",
+    "title": "Hej, vi är här för att hjälpa"
+  },
+  "contactForm": {
+    "contactType": "Välj kontakttyp",
+    "files": "Ladda upp bilder för att stödja din fråga",
+    "funNumber": "",
+    "request": "Beskriv din fråga",
+    "ticketAddSucess": "Ticket skapat!",
+    "ticketAddFail": "Fel vid skapande av ticket, försök igen!",
+    "subTitle2": "Använd vårt enkla kontaktformulär!",
+    "generalContactCategories": "Välj kategori",
+    "deleteFiles": "Radera",
+    "productSubCategories": "Välj underkategori",
+    "title": "Fler frågor?",
+    "subTitle1": "Det gick inte att hitta svaret på din fråga i vår FAQ",
+    "productCategories": "Välj produkt",
+    "orderNumber": "Ordernummer"
+  },
+  "product": {
+    "id": "FUN nummer"
+  },
+  "faq": {
+    "print": "Skriv ut den här sidan",
+    "customerServicesQuestions": "Kundtjänst",
+    "pageTitle": "Vanliga frågor (FAQ)",
+    "productQuestionsTitle": "Franke produkter",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Order och transport"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Du kan ha upp till maximalt 4 adresser.",
+    "updateAddress": "Uppdatera adress",
+    "editShippingAddress": "Redigera leveransadress",
+    "deliveryAddressTitle": "Leveransadress",
+    "addNewShippingAddress": "Lägg till en ny leveransadress",
+    "addAddress": "Lägg till adress",
+    "billingAddressTitle": "Fakturaadress",
+    "addNewAddress": "Lägg till en ny adress",
+    "backToAddressList": "Tillbaka till adresslista",
+    "areYouSureToDeleteAddress": "Är du säker på att du vill radera den här adressen?"
+  },
+  "addressCard": {
+    "shipTo": "Leverans till",
+    "setAsDefault": "Ange som standard",
+    "billTo": "Faktura till",
+    "selected": "Vald",
+    "default": "Standard"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Efternamn",
+      "placeholder": "Efternamn"
+    },
+    "aptSuite": "Lgh",
+    "saveAsDefault": "Spara som standard",
+    "firstName": {
+      "label": "Förnamn",
+      "placeholder": "Förnamn"
+    },
+    "zipCode": {
+      "placeholder": "Postnummer",
+      "label": "Postnummer"
+    },
+    "address1": "Adress 1",
+    "setAsDefault": "Ange som standard",
+    "title": "Titel",
+    "userAddressDeleteSuccess": "Adress raderats!",
+    "userAddressAddSuccess": "Ny adress har lagts till!",
+    "city": {
+      "placeholder": "Stad",
+      "label": "Stad"
+    },
+    "invalidAddress": "Ogiltig adress",
+    "chooseAddress": "Välj adress",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "telefonnummer (valfritt)"
+    },
+    "titleRequired": "Titel krävs.",
+    "state": "Län",
+    "address2": "Adress 2 (valfritt)",
+    "selectOne": "Välj en...",
+    "country": "Land",
+    "streetAddress": "Gata",
+    "userAddressUpdateSuccess": "Adress uppdaterats!"
+  },
+  "wishlist": {
+    "addToCart": "Lägg till i varukorg",
+    "empty": "Inga produkter i favoriter"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Skapa ett konto?",
+    "invoiceHasBeenSentByEmail": "Du kommer att få en orderbekräftelse via e-post",
+    "placedOn": "Placerad på",
+    "status": "Status",
+    "frequency": "Frekvens",
+    "orderItems": "Beställda artiklar",
+    "orderPlacedSuccessfully": "Order lagd",
+    "nextOrderDate": "Nästa orderdatum",
+    "confirmationOfOrder": "Orderbekräftelse:",
+    "cancelled": "Borttagen",
+    "createAccountForNext": "Skapa ett konto för <{{email}}> för en snabbare utcheckning vid ditt nästa besök.",
+    "replenishmentNumber": "påfyllnad #",
+    "orderNumber": "Ordernummer",
+    "thankYou": "Tack för din beställning!",
+    "active": "Aktiv"
+  },
+  "checkoutPO": {
+    "placeholder": "Ange beställningsnummer",
+    "poNumber": "Beställningsnummer",
+    "availableLabel": "Leveransadresser tillgängliga för dig beror på enhetens kostnadsställe",
+    "costCenter": "Kostnadsställe",
+    "noPoNumber": "Ingen"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Automatisk påfyllnadsorder",
+    "confirmThatRead": "Jag bekräftar att jag har läst och godkänner",
+    "termsAndConditions": "Allmänna Villkor",
+    "recurrencePeriodType_WEEKLY": "Vecka (or)",
+    "poNumber": "Beställningsnummer",
+    "dayOfMonth": "Dag",
+    "every": "Varje",
+    "placeOrder": "Beställa",
+    "scheduleReplenishmentOrder": "Schema påfyllnadsorder",
+    "recurrencePeriodType_DAILY": "Dag (ar)",
+    "repeatOnDays": "Upprepa följande dagarna",
+    "funNumber": "FUN: {{fun}}",
+    "editShippingAddress": "Redigera leveransadress",
+    "startOn": "Börja på",
+    "additionalDetailsTitle": "Ytterligare beställningsinformation",
+    "deliveryAddressTitle": "Leveransadress",
+    "orderType_PLACE_ORDER": "Ingen (en endast engångsorder)",
+    "invoiceAddressTitle": "Fakturaadress",
+    "recurrencePeriodType_MONTHLY": "Månad",
+    "requestedDate": "Begärt datum:",
+    "orderType": "Ordertyp:",
+    "checkoutError": "Fel inträffade. Vänligen kontakta kundsupport",
+    "itemsTitle": "Artiklar som ska levereras",
+    "additionalReference": "Ytterligare referens:",
+    "orderItems": "Beställda artiklar",
+    "quantity": "Antal: {{count}}",
+    "reference": "Referens",
+    "orderNumber": "Ordernummer:",
+    "review": "Granska",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Påfyllnadsorder",
+    "deliveryDate": "Begärt leveransdatum:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Leveransadress",
+    "reviewOrder": "Granska order",
+    "paymentDetails": "betalningsinformation",
+    "billingTask": "Vald faktureringsadress",
+    "billingAddress": "Fakturaadress",
+    "methodOfPayment": "Betalningsmetod",
+    "deliveryMode": "Leverans metod",
+    "reviewTask": "Granska din beställning i sammanställningen",
+    "shippingTask": "Vald leveransadress",
+    "invoicePayment": "Faktura betalning"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Standardfakturaadress",
+    "enteredAddress": "Angiven adress",
+    "selectYourInvoiceAddress": "Välj din fakturaadress",
+    "verifyYourAddress": "Verifiera din adress",
+    "invoiceAddress": "Fakturaadress",
+    "editAddress": "Ändra adress",
+    "chooseAddressToUse": "Välj vilken adress du vill använda:",
+    "shipToThisAddress": "Leverera till denna adress",
+    "saveAddress": "Spara adress",
+    "addNewAddress": "Lägg till en ny adress",
+    "defaultShippingAddress": "Standardleveransadress",
+    "selectInvoiceAddress": "Välj den här adressen",
+    "selectYourBillingAddress": "Välj din faktureringsadress",
+    "suggestedAddress": "Föreslagen adress",
+    "billingAddress": "Fakturaadress",
+    "selectYourShippingAddress": "Välj leveransadress",
+    "shippingAddress": "Leveransadress",
+    "ensureAccuracySuggestChange": "För att säkerställa leveranssäkerhet, föreslår vi förändringen vald nedan."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Standard leverans",
+    "shippingMethod": "Frakt metod",
+    "premiumDelivery": "Express leverans"
+  },
+  "checkout": {
+    "back": "Tillbaka",
+    "invalid": {
+      "accountType": "Ditt konto tillåter inte dig att gå till kassan här."
+    },
+    "backToCart": "Tillbaka till varukorgen",
+    "continue": "Fortsätt"
+  }
+}

@@ -1,0 +1,212 @@
+@mixin faq-text($font-size, $font-weight, $line-height, $color) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+}
+
+.container {
+  .wrapper {
+    margin: 48px 0 48px 0;
+
+    .title {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      @include faq-text(
+          var(--franke-m-font-size),
+          var(--font-weight-base),
+          21px,
+          var(--text-color)
+      );
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include faq-text(
+            var(--franke-font-size-base),
+            var(--font-weight-base),
+            24px,
+            var(--text-color)
+        );
+      }
+
+      @media only screen and (min-width: 992px) {
+        text-transform: uppercase;
+        @include faq-text(
+            var(--franke-h4-font-size),
+            var(--font-weight-base),
+            35px,
+            var(--text-color)
+        );
+      }
+    }
+
+    .question-list {
+      margin-bottom: 44px;
+
+      .portal-questions-title,
+      .customer-service-questions-title,
+      .orders-questions-title,
+      .product-questions-title {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 24px;
+
+        @include faq-text(
+            var(--franke-m-font-size),
+            var(--font-weight-base),
+            21px,
+            var(--text-color)
+        );
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          padding: 10 0 28px;
+
+          @include faq-text(
+              var(--franke-font-size-base),
+              var(--font-weight-base),
+              24px,
+              var(--text-color)
+          );
+        }
+
+        @media only screen and (min-width: 992px) {
+          padding: 22px 0 50px;
+
+          @include faq-text(
+              var(--franke-h5-font-size),
+              var(--font-weight-base),
+              35px,
+              var(--text-color)
+          );
+        }
+      }
+
+      .accordion-button {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        margin-left: 8px;
+
+        @include faq-text(
+            var(--franke-s-font-size),
+            var(--font-weight-semi-bold),
+            18px,
+            var(--text-color)
+        );
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          @include faq-text(
+              var(--franke-m-font-size),
+              var(--font-weight-semi-bold),
+              21px,
+              var(--text-color)
+          );
+        }
+
+        @media only screen and (min-width: 992px) {
+          @include faq-text(
+              var(--franke-font-size-base),
+              var(--font-weight-semi-bold),
+              24px,
+              var(--text-color)
+          );
+        }
+
+        &:focus {
+          outline: none;
+        }
+
+        .indicator {
+          margin-right: 6px;
+          color: var(--brand-color);
+          font-weight: var(--font-weight-base);
+          font-size: 20px;
+        }
+      }
+
+      hr {
+        margin-top: 16px;
+        margin-bottom: 0;
+        border: 0;
+        border-top: 1px solid var(--wrapper-border-color);
+      }
+
+      .category-question {
+        margin-bottom: 16px;
+
+        @include faq-text(
+            var(--franke-s-font-size),
+            var(--font-weight-base),
+            18px,
+            var(--text-color)
+        );
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          @include faq-text(
+              var(--franke-m-font-size),
+              var(--font-weight-base),
+              21px,
+              var(--text-color)
+          );
+        }
+
+        @media only screen and (min-width: 992px) {
+          @include faq-text(
+              var(--franke-font-size-base),
+              var(--font-weight-base),
+              24px,
+              var(--text-color)
+          );
+        }
+
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: underline;
+          color: var(--element-color);
+        }
+      }
+    }
+  }
+}
+
+:host ::ng-deep {
+  .card {
+    margin-bottom: 18px;
+  }
+
+  .card-header {
+    padding: 0;
+  }
+
+  .card-body {
+    background: var(--section-bg-color);
+    padding: 10px 24px 8px;
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      padding: 8px 24px 8px;
+    }
+
+    @media only screen and (min-width: 992px) {
+      padding: 16px 86px 8px;
+    }
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0;
+    height: 43px;
+    border: none;
+    background-color: var(--white);
+    transition: none;
+
+    &:focus {
+      box-shadow: none;
+      text-decoration: none;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

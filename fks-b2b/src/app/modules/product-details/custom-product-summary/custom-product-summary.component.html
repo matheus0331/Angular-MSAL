@@ -1,0 +1,19 @@
+<ng-container *ngIf="product$ | async as product">
+  <div *ngIf="!product.bundleTemplates; else bundles">
+    <div *ngIf="product.description">
+      <p class="description">
+        {{ 'productSummary.description' | cxTranslate }}
+      </p>
+      <p [innerHTML]="product.description" class="summary"></p>
+      <a (click)="scrollToDescription()" class="view-mode">
+        {{ 'productSummary.more' | cxTranslate }}
+      </a>
+    </div>
+
+    <hr/>
+  </div>
+</ng-container>
+
+<ng-template #bundles>
+  <app-bundles></app-bundles>
+</ng-template>

@@ -1,0 +1,32 @@
+<div class="search-bar hidden">
+  <div class="search-icon-wrapper">
+    <cx-icon type="SEARCH"></cx-icon>
+  </div>
+  <label class="searchbox">
+    <input
+      #searchInput
+      aria-label="search"
+      (focus)="emitFocus($event.target.value)"
+      (input)="search(searchInput.value); emitValue(searchInput.value)"
+      (keydown.escape)="close($event); emitToggle($event.target.value)"
+      (keydown.enter)="
+        close($event, true);
+        launchSearchResult($event, searchInput.value);
+        emitToggle($event.target.value)
+      "
+      (keydown.arrowup)="focusPreviousChild($event)"
+      (keydown.arrowdown)="focusNextChild($event)"
+      placeholder="{{ searchText }}"
+    />
+  </label>
+  <div class="toggle-search">
+    <cx-icon
+      type="CLOSE"
+      aria-label="reset"
+      (mousedown)="emitToggle($event.target.value)"
+      (keydown.enter)="emitToggle($event.target.value)"
+      class="reset"
+      tabindex="0"
+    ></cx-icon>
+  </div>
+</div>

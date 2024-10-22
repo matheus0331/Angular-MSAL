@@ -1,0 +1,77 @@
+<ng-container *ngIf="product$ | async as product">
+  <div class="container" id="description">
+    <ngb-accordion
+      #acc="ngbAccordion"
+      (panelChange)="handleChange($event)"
+      activeIds="panel-downloads"
+    >
+      <ng-container *ngIf="productDownloads$ | async as product">
+        <ng-container
+          *ngFor="let downloads of productDownloads$ | async; let i = index"
+        >
+          <ngb-panel
+            *ngIf="downloads?.group !== 'undefined'"
+            id="panel-downloads-{{ i }}"
+          >
+            <ng-template ngbPanelTitle>
+              <div class="accordion-button">
+                <span>{{ downloads?.groupLabel }}</span>
+                <span
+                  *ngIf="openById['panel-downloads-' + i]"
+                  class="indicator"
+                >-</span
+                >
+                <span
+                  *ngIf="!openById['panel-downloads-' + i]"
+                  class="indicator"
+                >+</span
+                >
+              </div>
+              <hr/>
+            </ng-template>
+            <ng-template ngbPanelContent>
+              <ng-container
+              >
+                <div class="container">
+                  <table class="product-downloads">
+                    <tr *ngFor="let document of downloads?.documents">
+                      <td class="document-name">
+                        <a
+                          download="{{ productCode }}.pdf"
+                          href="{{
+                          downloadProductDocumentsService.getDocumentDownloadURL(
+                            document.documentLink
+                          )
+                        }}"
+                          target="_blank">
+                          <b>{{ document?.documentName }}</b>
+                        </a>
+                        <br/>
+                        {{ document?.documentInfo?.documentFormat }} ({{ document?.documentInfo?.documentSize }})
+                      </td>
+                      <td style="text-align: right">
+                        <a
+                          download="{{ productCode }}.pdf"
+                          href="{{
+                          downloadProductDocumentsService.getDocumentDownloadURL(
+                            document.documentLink
+                          )
+                        }}"
+                          target="_blank"
+                        >
+                          <cx-icon type="DOWNLOAD"></cx-icon>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </ng-container>
+
+            </ng-template>
+          </ngb-panel>
+        </ng-container>
+      </ng-container>
+
+    </ngb-accordion>
+  </div>
+</ng-container>

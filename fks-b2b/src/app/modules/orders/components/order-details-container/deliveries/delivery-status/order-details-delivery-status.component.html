@@ -1,0 +1,7 @@
+<div *ngIf="statusValue" class="status">
+  <cx-icon
+    [type]="statusValue.icon"
+    class="icon cx-icon {{ statusValue.color }}"
+  ></cx-icon>
+  {{ statusValue.translationKey | cxTranslate }}
+</div>

@@ -1,0 +1,41 @@
+{
+  "asm": {
+    "standardSessionInProgress": "Standard customer session in progress.",
+    "agentSessionTimer": {
+      "label": "Session Timeout",
+      "minutes": "min",
+      "reset": "Reset"
+    },
+    "customerSearch": {
+      "searchTerm": {
+        "label": "Customer Name/Email Address"
+      },
+      "noMatch": "No customer found.",
+      "submit": "Start Session"
+    },
+    "logout": "Sign Out",
+    "loginForm": {
+      "password": {
+        "required": "Password is required",
+        "label": "Password"
+      },
+      "userId": {
+        "label": "Agent ID",
+        "required": "Agent ID is required"
+      },
+      "submit": "Sign In"
+    },
+    "hideUi": "Close ASM",
+    "toggleUi": {
+      "collapse": "Hide ASM",
+      "expand": "Show ASM"
+    },
+    "mainLogoLabel": "SAP",
+    "csagentTokenExpired": "Your customer support agent session is expired.",
+    "mainTitle": "Assisted Service Mode",
+    "auth": {
+      "agentLoggedInError": "Cannot login as user when there is an active CS agent session. Please either emulate user or logout CS agent."
+    },
+    "endSession": "End Session"
+  }
+}

@@ -1,0 +1,9 @@
+<div [ngClass]="['wrapper']">
+  <app-navigation-tabs
+    *ngIf="data$ | async as data"
+    [ngClass]="data.styleClass"
+    [node]="node$ | async"
+    [wrapAfter]="data.wrapAfter"
+  >
+  </app-navigation-tabs>
+</div>

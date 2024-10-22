@@ -1,0 +1,23 @@
+<img [src]="apiEndpoint + inspirationItem?.image?.url"/>
+
+<div class="child-featured-details">
+  <div [innerHTML]="inspirationItem?.title" class="child-featured-title"></div>
+  <div
+    [innerHTML]="inspirationItem?.description"
+    class="child-featured-description"
+  ></div>
+  <div class="child-featured-button">
+    <cx-generic-link
+      [url]="
+        inspirationItem?.link?.localizedUrl
+          ? inspirationItem?.link?.localizedUrl
+          : inspirationItem?.link?.url
+      "
+    >
+      <div
+        [innerHTML]="inspirationItem?.link?.linkName"
+        class="btn explore-btn"
+      ></div>
+    </cx-generic-link>
+  </div>
+</div>

@@ -1,0 +1,70 @@
+<div *ngIf="lastDelivery" class="order-delivery-header">
+  <div class="header">
+    <h5 class="title">
+      {{
+      'orderDetails.tracking.deliveryNumber'
+        | cxTranslate: {code: lastDelivery.deliveryCode}
+      }}
+      ({{ lastDelivery.deliveryDate | date }})
+    </h5>
+    <app-order-details-delivery-status
+      *ngIf="lastDelivery.deliveryStatus"
+      [status]="lastDelivery.deliveryStatus"
+    ></app-order-details-delivery-status>
+  </div>
+</div>
+<table class="franke-base-table delivery-table">
+  <thead>
+  <tr>
+    <th class="product">
+      {{ 'orderDetails.tracking.product' | cxTranslate }}
+    </th>
+    <th class="quantity">
+      {{ 'orderDetails.tracking.quantity' | cxTranslate }}
+    </th>
+    <th class="delivery-type">
+      {{ 'orderDetails.tracking.deliveryType' | cxTranslate }}
+    </th>
+    <th class="status">{{ 'orderDetails.tracking.status' | cxTranslate }}</th>
+    <th class="tracking">
+      {{ 'orderDetails.tracking.trackingNumber' | cxTranslate }}
+    </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let delivery of deliveriesByCode">
+    <td class="col-product">
+      <p class="m-0">{{ delivery.productCode }}</p>
+      {{ delivery.productDescription }}
+    </td>
+    <td class="col-quantity">{{ delivery.deliveryQty }}</td>
+    <td class="col-delivery-type">{{ delivery.carrier }}</td>
+    <td class="col-status">
+      <app-order-details-delivery-item-status
+        *ngIf="delivery.trackingStatus"
+        [status]="delivery.trackingStatus"
+      ></app-order-details-delivery-item-status>
+    </td>
+    <td class="col-tracking">
+      <a
+        *ngIf="delivery.trackingUrl && delivery.trackingNumber"
+        [href]="delivery.trackingUrl"
+        class="tracking-link"
+        target="_blank"
+      >
+        <span>{{ delivery.trackingNumber }}</span>
+        <cx-icon
+          [type]="icons.FA_EXTERNAL_LINK"
+          class="link-icon cx-icon"
+        ></cx-icon>
+      </a>
+      <ng-container *ngIf="!delivery.trackingUrl && delivery.trackingNumber">
+        {{ delivery.trackingNumber }}
+      </ng-container>
+      <ng-container *ngIf="!delivery.trackingUrl && !delivery.trackingNumber">
+        {{ 'orderDetails.tracking.noTrackingNumber' | cxTranslate }}
+      </ng-container>
+    </td>
+  </tr>
+  </tbody>
+</table>

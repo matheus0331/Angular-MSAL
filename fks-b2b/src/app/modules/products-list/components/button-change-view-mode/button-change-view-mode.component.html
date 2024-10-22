@@ -1,0 +1,23 @@
+<div *ngIf="isDesktop$ | async; else nonDesktop" class="view-modes">
+  <span>{{ 'productList.view' | cxTranslate }}</span>
+  <div (click)="changeMode(); changeView()" class="grid-view view-enabled">
+    <cx-icon class="view-icon small" type="GRID_VIEW"></cx-icon>
+  </div>
+  <div (click)="changeMode(); changeView()" class="list-view view-disabled">
+    <cx-icon class="view-icon small" type="LIST_VIEW"></cx-icon>
+  </div>
+</div>
+<ng-template #nonDesktop>
+  <div (click)="changeMode(); changeView()" class="view-modes">
+    <cx-icon
+      *ngIf="this.mode === 'grid'"
+      class="view-icon small"
+      type="GRID_VIEW"
+    ></cx-icon>
+    <cx-icon
+      *ngIf="this.mode === 'list'"
+      class="view-icon small"
+      type="LIST_VIEW"
+    ></cx-icon>
+  </div>
+</ng-template>

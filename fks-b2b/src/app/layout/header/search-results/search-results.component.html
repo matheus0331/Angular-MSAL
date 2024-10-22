@@ -1,0 +1,120 @@
+<div *ngIf="visible" class="search-results">
+  <div *ngIf="results$ | async as result" class="results">
+    <div
+      *ngIf="result.message"
+      [innerHTML]="result.message"
+      class="message"
+    ></div>
+    <div class="row">
+      <div *ngIf="result.products" class="products">
+        <div class="all-search-results">
+          <div>
+            <span class="results-number">{{
+              result.total + ' ' + ('searchBox.results' | cxTranslate)
+              }}</span>
+          </div>
+
+          <button
+            (click)="
+              close($event, true);
+              launchSearchResult($event, searchInput);
+              searchboxComponent.toggleSearch()
+            "
+          >
+            {{ 'searchBox.allResults' | cxTranslate }}
+          </button>
+        </div>
+        <div class="row">
+          <div
+            *ngFor="let product of result.products | slice: 0:4"
+            class="column"
+          >
+            <div
+              [routerLink]="
+                {
+                  cxRoute: 'product',
+                  params: product
+                } | cxUrl
+              "
+              class="card"
+            >
+              <a
+                (blur)="close($event)"
+                (keydown.arrowdown)="focusNextChild($event)"
+                (keydown.arrowup)="focusPreviousChild($event)"
+                (keydown.enter)="close($event, true)"
+                (keydown.escape)="close($event, true)"
+                (mousedown)="close($event, true)"
+                [class.has-media]="config.displayProductImages"
+                class="image"
+              >
+                <cx-media
+                  *ngIf="config.displayProductImages"
+                  [alt]="product.summary"
+                  [container]="
+                    product.images?.PRIMARY?.thumbnail
+                      ? product.images?.PRIMARY?.thumbnail
+                      : product.images?.PRIMARY
+                  "
+                ></cx-media>
+                <img
+                  *ngIf="!product.images"
+                  class="product-img-placeholder"
+                  src="{{ productImgPlaceholder }}"
+                />
+              </a>
+              <div class="product-info">
+                <div [innerHTML]="product.nameHtml" class="name"></div>
+                <div class="bottom-info">
+                  <div class="price">{{ product.price?.formattedValue }}</div>
+                  <div class="fun-number">
+                    {{
+                    'productList.articleNumber'
+                      | cxTranslate: {fun: product.code}
+                    }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="result.products" class="suggestions">
+        <div class="plus">
+          <span>{{ 'searchBox.more' | cxTranslate }}</span>
+        </div>
+        <div class="column">
+          <div *ngFor="let suggestion of result.suggestions" class="row">
+            <a
+              (blur)="close($event)"
+              (click)="searchboxComponent.toggleSearch()"
+              (keydown.arrowdown)="focusNextChild($event)"
+              (keydown.arrowup)="focusPreviousChild($event)"
+              (keydown.enter)="close($event, true)"
+              (keydown.escape)="close($event, true)"
+              [innerHTML]="suggestion"
+              [routerLink]="
+                {
+                  cxRoute: 'search',
+                  params: { query: suggestion }
+                } | cxUrl
+              "
+            >
+            </a>
+          </div>
+          <div
+            *ngIf="result.typoSuggestions && result.products.length > 0"
+            class="row"
+          >
+            <span class="results-for"
+            >{{ 'searchBox.resultsFor' | cxTranslate }}
+              <span class="typo-suggestion">
+                {{ result.typoSuggestions }}
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

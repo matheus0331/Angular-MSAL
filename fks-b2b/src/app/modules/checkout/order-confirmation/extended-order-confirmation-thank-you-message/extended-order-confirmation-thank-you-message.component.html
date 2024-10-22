@@ -1,0 +1,19 @@
+<ng-container *ngIf="order$ | async as order">
+
+  <div class="order-confirmation-message">
+    <cx-icon class="large" type="CLIPBOARD_CHECK"></cx-icon>
+    <h4>{{ 'checkoutOrderConfirmation.thankYou' | cxTranslate }}</h4>
+    <p>
+      {{ 'checkoutOrderConfirmation.confirmationOfOrder' | cxTranslate }}
+      <b>{{
+        (isReplenishmentOrderType$ | async)
+          ? order.replenishmentOrderCode
+          : order.code
+        }}</b>
+    </p>
+    <p>
+      {{ 'checkoutOrderConfirmation.invoiceHasBeenSentByEmail' | cxTranslate }}
+    </p>
+  </div>
+
+</ng-container>

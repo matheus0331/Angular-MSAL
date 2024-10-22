@@ -1,0 +1,7 @@
+@import '@spartacus/styles/scss/mixins';
+
+.alternative-products-btn {
+  @include media-breakpoint-down(md) {
+    padding-left: 0;
+  }
+}

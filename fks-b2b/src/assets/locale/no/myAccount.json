@@ -1,0 +1,788 @@
+{
+  "searchSupport": {
+    "placeholder": "Søk her...",
+    "results": "resultater",
+    "manualTitle": "",
+    "manualDownload": "",
+    "text": "Søk etter en Artikkelnummer, produktkode eller et produktnavn",
+    "more": "Mer",
+    "allResults": "alle resultater",
+    "manualDescription": "",
+    "resultsFor": "Viser resultater for:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal Spørsmål",
+    "message1": "Hei, jeg er Laura. Jeg er klient agent. Hvordan kan jeg hjelpe deg?",
+    "title": "Personlig assistent",
+    "message2": "Du kan velge mellom alternativ nedenfor eller spør ditt eget spørsmål.",
+    "contact": "Kontakt Franke",
+    "complaint": "Sende inn en klage"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Trenger du hjelp med produktet, eller har du spørsmål?",
+    "title": "Hei, vi er her for å hjelpe"
+  },
+  "contactForm": {
+    "contactType": "Velg kontaktmetode",
+    "files": "Last opp bilder for å støtte forespørselen",
+    "funNumber": "",
+    "request": "Beskriv forespørselen",
+    "ticketAddSucess": "billett opprettet!",
+    "ticketAddFail": "Feil ved oppretting av billett, prøv igjen!",
+    "subTitle2": "Bruk vårt kontaktskjema!",
+    "generalContactCategories": "Velg kategori",
+    "deleteFiles": "Slett",
+    "productSubCategories": "Velg underkategori",
+    "title": "Flere spørsmål?",
+    "subTitle1": "Kunne ikke finne svaret på spørsmålet ditt i vår FAQ",
+    "productCategories": "Velg produkt",
+    "orderNumber": "Ordrenummer"
+  },
+  "product": {
+    "id": "Artikkel"
+  },
+  "faq": {
+    "print": "Skriv ut denne siden",
+    "customerServicesQuestions": "Kundeservice",
+    "pageTitle": "ofte stilte spørsmål",
+    "productQuestionsTitle": "Franke Produkter",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Ordre og forsendelse"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Du kan ha opp til maksimalt 4 adresser.",
+    "updateAddress": "Oppdater adresse",
+    "editShippingAddress": "Rediger leveringsadresse",
+    "deliveryAddressTitle": "Leveringsadresse",
+    "addNewShippingAddress": "Legg til en ny leveringsadresse",
+    "addAddress": "Legg til en adresse",
+    "billingAddressTitle": "Fakturaadresse",
+    "addNewAddress": "Legg til en ny adresse",
+    "backToAddressList": "Tilbake til adresseliste",
+    "areYouSureToDeleteAddress": "Er du sikker på at du vil slette denne adressen?"
+  },
+  "addressCard": {
+    "shipTo": "Send til",
+    "setAsDefault": "Satt som standard",
+    "billTo": "Faktura til",
+    "selected": "Valgt",
+    "default": "Standard"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Etternavn",
+      "placeholder": "Etternavn"
+    },
+    "aptSuite": "Leilighet",
+    "saveAsDefault": "Lagre som standard",
+    "firstName": {
+      "label": "Fornavn",
+      "placeholder": "Fornavn"
+    },
+    "zipCode": {
+      "placeholder": "Postnummer",
+      "label": "Postnummer"
+    },
+    "address1": "Adresse 1",
+    "setAsDefault": "Sett som standard",
+    "title": "Tittel",
+    "userAddressDeleteSuccess": "Adresse slettet!",
+    "userAddressAddSuccess": "Ny adresse ble lagt til!",
+    "city": {
+      "placeholder": "By",
+      "label": "By"
+    },
+    "invalidAddress": "Ugyldig adresse",
+    "chooseAddress": "Velg adresse",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "Telefonnummer (valgfritt)"
+    },
+    "titleRequired": "Tittel er påkrevd.",
+    "state": "Fylke",
+    "address2": "Adresse 2 (valgfritt)",
+    "selectOne": "Velg en...",
+    "country": "Land",
+    "streetAddress": "Gate",
+    "userAddressUpdateSuccess": "Adresse oppdatert!"
+  },
+  "wishlist": {
+    "addToCart": "Legg i handlekurv",
+    "empty": "Ingen produkter på din ønskeliste"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Opprett en konto?",
+    "invoiceHasBeenSentByEmail": "Du vil motta din ordrebekreftelse via e-post",
+    "placedOn": "Plassert på",
+    "status": "Status",
+    "frequency": "Frekvens",
+    "orderItems": "Bestill varer",
+    "orderPlacedSuccessfully": "Ordre  vellykket",
+    "nextOrderDate": "Neste ordre dato",
+    "confirmationOfOrder": "Ordrebekreftelse:",
+    "cancelled": "Kansellert",
+    "createAccountForNext": "Opprett en konto for <{{email}}> for en raskere behandling ved ditt neste besøk.",
+    "replenishmentNumber": "Etterfylling #",
+    "orderNumber": "Ordrenummer",
+    "thankYou": "Takk for din bestilling!",
+    "active": "Aktiv"
+  },
+  "checkoutPO": {
+    "placeholder": "skriv inn referansenummer",
+    "poNumber": "Innkjøpsordrenummer",
+    "availableLabel": "Frakt adresser tilgjengelig for deg, avhenger av kostnadssted",
+    "costCenter": "Kostnadssted",
+    "noPoNumber": "Ingen"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Auto påfyll ordre",
+    "confirmThatRead": "Jeg bekrefter at jeg har lest og godtar",
+    "termsAndConditions": "Betingelser og vilkår",
+    "recurrencePeriodType_WEEKLY": "Uke (r)",
+    "poNumber": "Innkjøpsordrenummer",
+    "dayOfMonth": "En dag",
+    "every": "Hver",
+    "placeOrder": "Legg inn bestilling",
+    "scheduleReplenishmentOrder": "Tidsplan påfyll ordre",
+    "recurrencePeriodType_DAILY": "Dag (er)",
+    "repeatOnDays": "Gjenta på følgende dager",
+    "funNumber": "Artikkel {{fun}}",
+    "editShippingAddress": "Rediger leveringsadresse",
+    "startOn": "Begynn på",
+    "additionalDetailsTitle": "Tilleggsbestillingsdetaljer",
+    "deliveryAddressTitle": "Leveringsadresse",
+    "orderType_PLACE_ORDER": "Ingen (engangsordre)",
+    "invoiceAddressTitle": "Fakturaadresse",
+    "recurrencePeriodType_MONTHLY": "Måned",
+    "requestedDate": "Forespurt dato:",
+    "orderType": "Ordretype:",
+    "checkoutError": "Feil oppsto. Vennligst kontakt kundestøtte",
+    "itemsTitle": "Varer som skal leveres",
+    "additionalReference": "Tilleggsreferanse:",
+    "orderItems": "Bestill varer",
+    "quantity": "Antall: {{count}}",
+    "reference": "Tilleggsreferanse",
+    "orderNumber": "Ordrenummer:",
+    "review": "Anmeldelse",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Etterfylling ordre",
+    "deliveryDate": "Forespurt leveringsdato:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Leveringsadresse",
+    "reviewOrder": "Se ordre",
+    "paymentDetails": "Betalingsinformasjon",
+    "billingTask": "Valgt fakturaadresse",
+    "billingAddress": "Fakturaadresse",
+    "methodOfPayment": "Betalingsmetode",
+    "deliveryMode": "Leverings metode",
+    "reviewTask": "Vennligst gå gjennom bestillingen din i sammendrag",
+    "shippingTask": "Valgt leveringsadresse",
+    "invoicePayment": "Fakturabetaling"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Standard faktura adresse",
+    "enteredAddress": "Angitt adresse",
+    "selectYourInvoiceAddress": "Velg din faktura adresse",
+    "verifyYourAddress": "Bekrefte adressen din",
+    "invoiceAddress": "Faktura adresse",
+    "editAddress": "Rediger adresse",
+    "chooseAddressToUse": "Velg hvilken adresse du ønsker å bruke:",
+    "shipToThisAddress": "Levere til denne adressen",
+    "saveAddress": "Lagre adresse",
+    "addNewAddress": "Legg til en ny adresse",
+    "defaultShippingAddress": "Standard leveringsadresse",
+    "selectInvoiceAddress": "Velg denne adressen",
+    "selectYourBillingAddress": "Velg faktureringsadresse",
+    "suggestedAddress": "Foreslått adresse",
+    "billingAddress": "Fakturaadresse",
+    "selectYourShippingAddress": "Velg leveringsadresse",
+    "shippingAddress": "Leveringsadresse",
+    "ensureAccuracySuggestChange": "For å sikre leveringspresisjon, foreslår vi at endringen valgt nedenfor."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Standard Leveranse",
+    "shippingMethod": "Forsendelsesmetode",
+    "premiumDelivery": "Premium levering"
+  },
+  "checkout": {
+    "back": "Tilbake",
+    "invalid": {
+      "accountType": "Kontoen din ikke tillater deg å betale her."
+    },
+    "backToCart": "Tilbake til handlekurv",
+    "continue": "Fortsette"
+  },
+  "loginForm": {
+    "emailAddress": {
+      "placeholder": "skriv inn e-post",
+      "label": "Epostadresse"
+    },
+    "password": {
+      "placeholder": "Passord",
+      "label": "Passord"
+    },
+    "forgotPassword": "Glemt passord?",
+    "wrongEmailFormat": "Dette er ikke et gyldig epost-format.",
+    "guestCheckout": "Gjesteutsjekk",
+    "signIn": "Logg inn",
+    "register": "Registrere",
+    "dontHaveAccount": "Har du ikke en konto?"
+  },
+  "checkoutLogin": {
+    "emailsMustMatch": "E-poster samsvarer ikke",
+    "emailAddress": {
+      "label": "Epostadresse",
+      "placeholder": "skriv inn e-post"
+    },
+    "continue": "Fortsette",
+    "emailIsRequired": "Ugyldig epost-format",
+    "confirmEmail": {
+      "label": "Bekreft epost",
+      "placeholder": "Bekreft epost"
+    }
+  },
+  "anonymousConsents": {
+    "banner": {
+      "viewDetails": "Vis detaljer",
+      "allowAll": "Tillat alle",
+      "title": "Denne nettsiden bruker cookies",
+      "description": "Vi bruker informasjonskapsler / nettleser lagring for å tilpasse innholdet og forbedre brukeropplevelsen."
+    },
+    "preferences": "samtykke preferanser",
+    "dialog": {
+      "clearAll": "Slett alt",
+      "legalDescription": "Vi bruker informasjonskapsler / nettleser lagring for å tilpasse innholdet og forbedre brukeropplevelsen. Vi kan dele data om nettstedet ditt i bruk med våre sosiale medier. For mer, kan du lese våre retningslinjer for personvern.",
+      "title": "samtykke administrasjon",
+      "selectAll": "Velg alle"
+    }
+  },
+  "forgottenPassword": {
+    "resetPassword": "tilbakestille passord",
+    "passwordResetSuccess": "Suksess! Nå kan du logge inn med ditt nye passord.",
+    "enterEmailAddressAssociatedWithYourAccount": "Skriv inn e-postadressen tilknyttet kontoen din",
+    "emailAddress": {
+      "label": "Epostadresse",
+      "placeholder": "skriv inn e-post"
+    },
+    "enterValidEmail": "Vennligst skriv inn en gyldig e-post adresse.",
+    "passwordResetEmailSent": "En e-post har blitt sendt til deg med informasjon om hvordan du tilbakestiller passordet ditt."
+  },
+  "register": {
+    "titleRequired": "Tittel er påkrevd",
+    "newPassword": "Nytt passord",
+    "confirmThatRead": "Jeg bekrefter at jeg har lest og er enig med",
+    "firstName": {
+      "label": "Fornavn",
+      "placeholder": "Fornavn"
+    },
+    "createAccount": "Opprett en konto",
+    "bothPasswordMustMatch": "Begge passord må stemme overens",
+    "register": "Registrere",
+    "resetPassword": "tilbakestille passord",
+    "postRegisterMessage": "Vennligst logg inn med dine påloggingsdetaljer",
+    "emailAddress": {
+      "placeholder": "Epostadresse",
+      "label": "Epostadresse"
+    },
+    "title": "Tittel",
+    "confirmPassword": {
+      "action": "Bekreft passord",
+      "placeholder": "Bekreft passord",
+      "label": "Bekreft passord"
+    },
+    "termsAndConditions": "Betingelser og vilkår",
+    "lastName": {
+      "label": "Etternavn",
+      "placeholder": "Etternavn"
+    },
+    "password": {
+      "placeholder": "Passord",
+      "label": "Passord"
+    },
+    "emailMarketing": "Bruk av mine personopplysninger til å motta e-post nyhetsbrev for markedsføringskampanjer. For å endre innstillingene dine, gå til Samtykke  i Min konto.",
+    "managementInMyAccount": "Ledelsen i min konto.",
+    "passwordMinRequirements": "Passordet må være minimum seks tegn og inneholde en stor bokstav, ett tall, ett symbol",
+    "confirmNewPassword": "Bekrefte nytt passord",
+    "signIn": "Jeg har allerede en konto. Logg inn",
+    "selectTitle": "Velg tittel"
+  },
+  "stockNotification": {
+    "subscriptionDialog": {
+      "manageSubscriptionsLink": "Mine interesser",
+      "notifiedPrefix": "Du vil bli varslet på:",
+      "header": "Utsolgt abonnement",
+      "manageChannelsSuffix": "Side.",
+      "manageSubscriptionsSuffix": "Side.",
+      "subscribing": "Du kan administrere dine abonnementer på",
+      "manageChannelsLink": "Varsling preferanse",
+      "manageChannelsPrefix": "Administrere dine foretrukne varslingskanaler på",
+      "manageSubscriptionsPrefix": "Du kan administrere dine abonnementer på",
+      "okBtn": "OK",
+      "notifiedSuffix": "Så snart dette produktet er tilbake på lager."
+    },
+    "notified": "Du vil bli varslet når dette produktet er tilbake på lager.",
+    "getNotifySuffix": "å få beskjed når dette produktet er tilgjengelig.",
+    "activateChannelsPrefix": "For å bli varslet må du aktivere",
+    "activateChannelsSuffix": ".",
+    "notifyMe": "VARSLE MEG",
+    "getNotified": "Motta en varsling når dette produktet er tilbake på lager.",
+    "stopNotify": "STOP VARSLING",
+    "channelsLink": "Varslings kanalene",
+    "getNotify": "Motta en varsling når dette produktet er tilgjengelig.",
+    "unsubscribeSuccess": "Du har avsluttet abonnementet på tilbake-på-lager-varselet"
+  },
+  "accordion": {
+    "features": "Egenskaper",
+    "remarks": "Merknader",
+    "dimensions": "dimensjoner",
+    "productDetails": "Produkt detaljer"
+  },
+  "productSummary": {
+    "preLaunchBody": "",
+    "id": "Artikkelnummer #",
+    "substitutesProducts": "Se alternativer",
+    "availabilityCheck": {
+      "noFurtherInfoSingular": "For øyeblikket er ingen ytterligere informasjon tilgjengelig for den gjenværende {{quantity}} enheten",
+      "priceTooltip": "",
+      "itemsNotAvailable": "Det er {{quantity}} enheter tilgjengelig på {{date}}",
+      "itemsAvailableSingular": "Det er {{quantity}} enhet tilgjengelig {{date}}",
+      "itemsNotAvailableSingular": "Det er {{quantity}} enhet tilgjengelig {{date}}",
+      "deliveryDateInfo": "Estimert leveringsdato, 2 dager fra kjøpsdato.",
+      "noFurtherInfo": "For øyeblikket er ingen ytterligere informasjon tilgjengelig for de gjenværende {{quantity}} enhetene",
+      "button": "Sjekk tilgjengelighet",
+      "errorMessage": "Kan ikke laste informasjonen for øyeblikket. Prøv igjen senere",
+      "itemsAvailable": "Det er {{quantity}} enheter tilgjengelig på {{date}}",
+      "dateTitle": "Leveringsdato"
+    },
+    "promotionTooltip": "Endelig rabattert pris vil være synlig i handlekurven",
+    "description": "Beskrivelse",
+    "showReviews": "Vis anmeldelser",
+    "localSalesNumber": "Lokal ID #",
+    "share": "Dele",
+    "referenceNumber": "Referanse nummer",
+    "unrecognizedError": "",
+    "catalogPrice": "Katalog Pris",
+    "more": "Se mer",
+    "preLaunchTitle": ""
+  },
+  "productList": {
+    "clearFilters": "Fjern filtrene",
+    "listingPageSubtitle": "Prisene som er oppgitt er katalogpriser",
+    "searchResultsTitle": "{{numberOfResults}} resultater for \"{{query}}\"",
+    "view": "Se",
+    "backToTopBtn": "TILBAKE TIL TOPPEN",
+    "wishlist": "Favoritter",
+    "discontinuedProductsFilter": "",
+    "pageOf": "Side {{x}} av {{y}}",
+    "articleNumber": "Artikkel {{fun}}",
+    "previous": "forrige",
+    "filterBy": {
+      "action": "Filtrer etter",
+      "label": "Filtrer etter"
+    },
+    "appliedFilter": "Brukt filter",
+    "showMoreBtn": "Vis flere",
+    "description": "Beskrivelse",
+    "notAvailableDescription": "Reservedeler og tilbehør kan fremdeles kjøpes for dette produktet",
+    "sortByRelevance": "Sorter etter relevanse",
+    "cart": "Handlekurv",
+    "showMore": "Vis flere ...",
+    "filters": "filtre",
+    "results": "resultater",
+    "showLess": "Vis mindre...",
+    "notAvailable": "",
+    "next": "neste"
+  },
+  "productDetails": {
+    "noDetails": "Ingen ytterligere detaljer for dette produktet. Hvis du har spørsmål angående dette produktet, kan du sende oss en melding via <u> <a class=\"form\" href=\"/client-service\"> Kontakt oss-skjemaet. </a> </u>",
+    "reviews": "anmeldelser",
+    "shipping": "Forsendelse",
+    "specification": "Spesifikasjoner",
+    "productDetails": "Produkt detaljer",
+    "quantity": "Antall",
+    "id": "ID",
+    "imageDisclaimer": "Bildet vises kun som referanse. Se beskrivelse og teknisk tegning for mer informasjon",
+    "showReviews": "Vis anmeldelser",
+    "share": "Dele",
+    "noReviews": "Ingen anmeldelser enda"
+  },
+  "productReview": {
+    "overallRating": "Totalvurdering",
+    "more": "Mer",
+    "reviewerName": "Anmelder navn (valgfritt)",
+    "rating": "Vurdering",
+    "writeReview": "Skrive en anmeldelse",
+    "writeYourComments": "Skriv dine kommentarer",
+    "less": "Mindre",
+    "reviewTitle": "Gjennomgå tittel",
+    "thankYouForReview": "Takk for anmeldelsen! Merk at anmeldelser kan kreve validering før de vises her."
+  },
+  "addToCart": {
+    "selectStyleAndSize": "Velg stil og størrelse for å sjekke lager",
+    "addToCartFailed": "Legg produktet i handlekurven feilet! Prøv igjen.",
+    "itemsAddedToYourCart": "Varen (e) er lagt i handlekurven",
+    "items": "Artikler",
+    "viewCart": "Se handlekurv",
+    "inStock": "Tilgjengelig",
+    "quantity": "Antall",
+    "addToCartSuccessfully": "Produkt lagt i handlekurven",
+    "itemsIncrementedInYourCart": "Denne artikkelen lå allerede i handlekurven. Antallet ble oppdatert.",
+    "updatingCart": "Oppdaterer handlekurv ...",
+    "outOfStock": "Ikke tilgjengelig",
+    "addToCart": "Legg i handlekurv",
+    "proceedToCheckout": "Fortsett til betaling"
+  },
+  "TabPanelContainer": {
+    "tabs": {
+      "ProductSpecsTabComponent": "Spesifikasjoner",
+      "ProductDetailsTabComponent": "Produkt detaljer",
+      "ProductReviewsTabComponent": "anmeldelser",
+      "deliveryTab": "Forsendelse",
+      "ProductDownloadsTabComponent": "Nedlastinger"
+    }
+  },
+  "alternativeProducts": {
+    "similarProductRecommendations": "",
+    "declaimer": "",
+    "goToProduct": "",
+    "article": "",
+    "showAlternativeProducts": "",
+    "noRecommendations": ""
+  },
+  "addToWishList": {
+    "remove": "Fjern fra ønskelista",
+    "addToWishlistSuccessfully": "Produkt lagt til i favoritter",
+    "add": "Legg til ønskeliste",
+    "addToWishlistFailed": "Legg produktet i favoritter feilet! Prøv igjen.",
+    "anonymous": "Logg inn for å legge til ønskeliste"
+  },
+  "variant": {
+    "size": "Størrelse",
+    "color": "Farge",
+    "selectedStyle": "valgt stil",
+    "style": "Stil",
+    "sizeGuideLabel": "Stilguide"
+  },
+  "productFacetNavigation": {
+    "appliedFilter": "Brukt filter:",
+    "showMore": "Vis flere ...",
+    "showLess": "Vis mindre...",
+    "filterBy": {
+      "action": "Filtrer etter",
+      "label": "Filtrer etter"
+    },
+    "sortByRelevance": "Sorter etter relevanse"
+  },
+  "productDownloads": {
+    "productSheet": "Produktdatablad"
+  },
+  "productReferences": {
+    "id": "Artikkel"
+  },
+  "emptyCart": {
+    "cartIsEmpty": "Handlekurven er tom",
+    "suggestion": "Søk etter produkt",
+    "suggestionTitle": "Forslag:"
+  },
+  "additionalInfo": {
+    "title": "Ytterligere informasjon om bestillingen",
+    "additionalReference": "Tilleggsreferanse",
+    "poNumber": "",
+    "orderType": "Ordretype",
+    "orderNumber": "Tilleggsreferanse"
+  },
+  "orderCost": {
+    "subtotalSingular": "Sluttpris ({{count}} element):",
+    "orderDiscounts": "",
+    "toBeDetermined": "Pris på forespørsel",
+    "totalCatalogPrice": "Katalogpris ({{count}} elementer):",
+    "totalCatalogPriceSingular": "Katalogpris ({{count}} element):",
+    "crossChannelPromo": "",
+    "orderSummary": "Bestillingssammendrag",
+    "subtotal": "Sluttpris ({{count}} elementer):",
+    "discountsApplied": "{{discountMessage}} er brukt",
+    "salesTax": "MVA:",
+    "totalDiscounts": "Rabatter brukt",
+    "shipping": "Frakt:",
+    "crossCategoryPromo": "",
+    "discount": "Du sparte:",
+    "grossTax": "Avgifter ikke inkludert",
+    "mainPromoIncluded": "",
+    "total": "Total inkl. MVA:",
+    "productDiscounts": "",
+    "totalNetWithoutTax": "",
+    "estimatedShipping": "Estimert frakt:",
+    "mainFeesIncluded": ""
+  },
+  "cartItems": {
+    "discount": "Rabatt",
+    "checkAvailabilityInfoNoUnits": "0 enheter av dette elementet er tilgjengelig for øyeblikket. Fullt etterspurt kvantum tilgjengelig fra {{date}}",
+    "checkAvailabilityInfoSingular": "For øyeblikket er bare {{quantity}} enhet av denne artikkelen tilgjengelig. Fullstendig forespurt mengde tilgjengelig fra {{date}}",
+    "unitPrice": "Enhetspris:",
+    "item": "Produkt detaljer",
+    "checkAvailabilityNoFurtherInfoSingular": "For øyeblikket er ingen ytterligere informasjon tilgjengelig for den gjenværende {{quantity}} enheten",
+    "checkAvailabilityInfo": "Bare {{quantity}} enheter av dette elementet er tilgjengelig for øyeblikket. Fullt etterspurt kvantum tilgjengelig fra {{date}}",
+    "itemPrice": "Sluttpris",
+    "changeQuantity": "Endre antall",
+    "cartTotal": "Handlekurv total ({{count}} element)",
+    "funNumber": "Artikkel:",
+    "brand": "Merke:",
+    "availability": "Tilgjengelighet",
+    "deliveryDate": "Leveringsdato",
+    "id": "Artikkel",
+    "ecoTax": "Eco Tax:",
+    "quantity": "Antall:",
+    "remove": "Fjern",
+    "availabilityInfo": "",
+    "quantityTitle": "Antallet representerer det totale antall av denne varen i handlekurven din.",
+    "checkAvailabilityError": "Kan ikke laste informasjonen for øyeblikket. Prøv igjen senere",
+    "additionalFees": "",
+    "cartTotal_plural": "Handlekurv total ({{count}} elementer)",
+    "additionalFeesTooltip": "",
+    "deliveryDateInfo": "Estimert leveringsdato, 2 dager fra kjøpsdato.",
+    "checkAvailabilityNoFurtherInfo": "For øyeblikket er ingen ytterligere informasjon tilgjengelig for de gjenværende {{quantity}} enhetene",
+    "description": "Beskrivelse",
+    "estimatedDeliveryDate": "Estimert leveringsdato er {{ date }}",
+    "total": "Total"
+  },
+  "voucher": {
+    "applyVoucherSuccess": "{{VoucherCode}} er blitt anvendt.",
+    "apply": "Søke om",
+    "coupon_plural": "Kampanje-koder",
+    "availableCouponsLabel": "Du kan legge til disse kampanje-kodene til denne ordren.",
+    "placeholder": "Kampanjekode",
+    "availableCoupons": "Tilgjengelige kampanje-koder",
+    "removeVoucherSuccess": "{{VoucherCode}} er fjernet.",
+    "vouchersApplied": "Anvendte kampanje-koder",
+    "coupon": "Har du en kampanje-kode?",
+    "anchorLabel": "Angi eller fjerne kampanje kode"
+  },
+  "cartAlternativeProducts": {
+    "checkAlternativeProducts": "",
+    "replaceCartItem": "",
+    "cartItemReplacedSuccessfully": "",
+    "cartItemReplacedError": ""
+  },
+  "saveForLaterItems": {
+    "itemTotal_plural": "Lagret for senere bruk ({{count}} elementer)",
+    "stock": "Lager",
+    "cartTitle": "Handlekurven",
+    "saveForLater": "Lagre til senere",
+    "moveToCart": "Flytt til handlekurv",
+    "forceInStock": "Tilgjengelig",
+    "itemTotal": "Lagret for senere bruk ({{count}} element)"
+  },
+  "cartDetails": {
+    "cartName": "Handlekurv #{{code}}",
+    "continueShopping": "Fortsette å handle",
+    "proceedToCheckout": "Fortsett til betaling",
+    "id": "ID"
+  },
+  "dashboard": {
+    "ticketHistoryCreatedBy": "Laget av: {{name}}",
+    "invoiceAddressesTitle": "Faktura adresser",
+    "noStatistics": "Ingen statistikk for øyeblikket",
+    "openReturns": "åpne returer",
+    "ticketHistoryStatusCompleted": "",
+    "ticketHistoryTitle": "",
+    "deliveryAddressesTitle": "leveringsadresser",
+    "analyticsTab": "Analytics",
+    "openOrders": "åpne ordrer",
+    "ticketHistoryStatusOpen": "Åpen",
+    "netTurnover": "netto omsetning",
+    "ticketHistoryLastUpdate": "Sist oppdatert: {{date}}",
+    "ticketHistoryLastUpdateBy": "Siste oppdatering etter: {{name}}",
+    "turnoverLastYear": "Fjorårets omsetning",
+    "ticketHistoryStatusInProcess": "",
+    "openOrdersEndOfYear": "Åpne ordrer til slutten av året",
+    "ticketHistoryStatusClosed": "Lukket",
+    "ticketHistoryCode": "ID: {{code}}",
+    "ticketHistoryCreated": "Opprettet: {{date}}",
+    "noTicketHistory": "Ingen billett historie i øyeblikket"
+  },
+  "myInterests": {
+    "sortByMostRecent": "Sorter etter nyeste",
+    "lowStock": "Få på lager",
+    "header": "Mine interesser",
+    "expirationDate": "Gyldig til {{EXPIRATIONDATE}}",
+    "sorting": {
+      "byNameDesc": "Navn (synkende)",
+      "byNameAsc": "Navn (stigende)"
+    },
+    "noInterests": "Du har ingen registrerte interesser ennå.",
+    "notifications": "Varsler",
+    "outOfStock": "Ikke tilgjengelig",
+    "BACK_IN_STOCK": "Tilbake på lager",
+    "price": "Pris",
+    "remove": "Ta bort",
+    "productId": "ID {{kode}}",
+    "inStock": "Tilgjengelig",
+    "item": "Artikkel"
+  },
+  "returnRequestList": {
+    "date": "Dato opprettet",
+    "sortByMostRecent": "Sorter etter nyeste",
+    "statusDisplay_APPROVING": "godkjenne",
+    "status": "Status",
+    "statusDisplay_COMPLETED": "fullført",
+    "statusDisplay_CANCELLING": "Avbryte",
+    "statusDisplay_WAIT": "Vent",
+    "statusDisplay_PAYMENT_REVERSED": "betaling reversert",
+    "statusDisplay_RECEIVED": "Mottatt",
+    "statusDisplay_TAX_REVERSAL_FAILED": "Skatte reversering mislyktes",
+    "statusDisplay_RECEIVING": "motta",
+    "statusDisplay_APPROVAL_PENDING": "Venter på godkjenning",
+    "statusDisplay_PAYMENT_REVERSAL_FAILED": "Betaling reversering mislyktes",
+    "statusDisplay_REVERSING_PAYMENT": "Reverse betaling",
+    "returnRequestId": "Retur #",
+    "statusDisplay_TAX_REVERSED": "Skattereversert",
+    "statusDisplay_REVERSING_TAX": "Reverse skatt",
+    "statusDisplay_CANCELED": "Kansellert"
+  },
+  "updateProfileForm": {
+    "parentCompany": "Moderselskap",
+    "lastName": {
+      "placeholder": "Etternavn",
+      "label": "Etternavn"
+    },
+    "none": "ingen",
+    "firstName": {
+      "label": "Fornavn",
+      "placeholder": "Fornavn"
+    },
+    "lastNameIsRequired": "Etternavn er påkrevd",
+    "title": "tittel",
+    "email": "Din epost",
+    "profileUpdateSuccess": "Personlige opplysninger er oppdatert",
+    "customerNumber": "Kundenummer",
+    "customerId": "Kunde #",
+    "firstNameIsRequired": "Fornavn er påkrevd"
+  },
+  "returnRequest": {
+    "estimatedRefund": "estimert refusjon",
+    "summary": "retur total",
+    "cancelSuccess": "Retur forespørsel ({{rma}}) ble kansellert",
+    "itemPrice": "Artikkel pris",
+    "deliveryCode": "Leveringskostnad",
+    "subtotal": "delsum",
+    "total": "Total",
+    "cancel": "Avbryt retur forespørsel",
+    "returnQty": "Returnere antall",
+    "note": "Summene er beregnet og inkluderer ikke gjeldende avgifter eller andre kostnader.",
+    "status": "Retur status",
+    "returnRequestId": "Retur forespørsel #",
+    "item": "Beskrivelse"
+  },
+  "closeAccount": {
+    "confirmAccountClosureMessage": "Er du sikker på at du vil avslutte kontoen din?",
+    "accountClosedFailure": "Kunne ikke lukke konto",
+    "closeMyAccount": "Avslutt min konto",
+    "accountClosedSuccessfully": "Konto avsluttet",
+    "confirmAccountClosure": "Bekreftet lukking av konto"
+  },
+  "notificationCenter": {
+    "noNotifications": "For tiden er det ingen varslinger",
+    "backInStockNotificationMessage": "Produktet er tilbake på lager",
+    "notificationMessage": "Leveringsdato av ett eller flere elementer i bestillingen din er endret.",
+    "productNumber": "Produkt {{productCode}}",
+    "emailNotifications": "Motta en e-post når en ordre leveringsdato er oppdatert",
+    "orderNumber": "Orden {{NUMMER}}",
+    "notifications": "Varsler"
+  },
+  "updateEmailForm": {
+    "password": {
+      "placeholder": "Oppgi passord",
+      "label": "Passord"
+    },
+    "enterValidEmail": "Vennligst skriv inn en gyldig e-postadresse",
+    "emailUpdateSuccess": "Akseptert. Logg på med {{newUid}}",
+    "confirmNewEmailAddress": {
+      "label": "Bekreft ny e-postadresse",
+      "placeholder": "skriv inn e-post"
+    },
+    "newEmailAddress": {
+      "placeholder": "skriv inn e-post",
+      "label": "Ny e-postadresse"
+    },
+    "pleaseInputPassword": "Skriv inn passord",
+    "bothEmailMustMatch": "Begge e-poster må samsvare"
+  },
+  "menu": {
+    "addressBook": "Adressebok",
+    "orders": "Ordrehistorikk",
+    "profile": "Profil",
+    "email": "e-post",
+    "signOut": "Logg ut",
+    "password": "Passord",
+    "dashboard": "Dashbord",
+    "wishlist": "ønskeliste"
+  },
+  "consentManagementForm": {
+    "clearAll": "Slett alt",
+    "message": {
+      "success": {
+        "withdrawn": "Samtykke vellykket trukket tilbake.",
+        "given": "Samtykke nå gitt."
+      }
+    },
+    "selectAll": "Velg alle"
+  },
+  "updatePasswordForm": {
+    "oldPassword": {
+      "label": "Gammelt passord",
+      "placeholder": "Gammelt passord"
+    },
+    "oldPasswordIsRequired": "Gammelt passord kreves.",
+    "passwordUpdateSuccess": "Passord oppdatert",
+    "newPassword": {
+      "label": "Nytt passord",
+      "placeholder": "Nytt passord"
+    },
+    "confirmPassword": {
+      "placeholder": "Bekreft passord",
+      "label": "Bekrefte nytt passord"
+    },
+    "passwordMinRequirements": "Passordet må være minimum seks tegn og inneholde en stor bokstav, ett tall, ett symbol",
+    "bothPasswordMustMatch": "Både passordet må stemme overens"
+  },
+  "myCoupons": {
+    "endDateAsc": "Sluttdato (stigende)",
+    "sortByMostRecent": "Sorter etter nyeste",
+    "startDateDesc": "Startdato (synkende)",
+    "status": "Status:",
+    "notesSuffix": "side.",
+    "findProducts": "Finn produkter",
+    "effectiveTitle": "Gyldig:",
+    "ExpireSoon": "Utløper snart",
+    "PreSession": "Gyldig snart (Gjelder fra ....)?",
+    "startDateAsc": "Startdato (stigende)",
+    "claimCustomerCoupon": "Du har forløst denne kampanje-kode.",
+    "notesPreffix": "Du kan angi dine foretrukne kanaler for mottak promo varslinger på .......",
+    "dialogTitle": "Rabattkode",
+    "readMore": "Les mer",
+    "endDateDesc": "Sluttdato (synkende)",
+    "myCoupons": "Mine kampanje-koder",
+    "notification": "Melding",
+    "Effective": "Gyldig (anvendt / gyldig)",
+    "notesLink": "Varslings kanalene",
+    "noCouponsMessage": "Du har ingen kampanje-koder tilgjengelig."
+  },
+  "notificationPreference": {
+    "SITE_MESSAGE": "SiteMessage",
+    "noteMessage": "Hvis du deaktivere alle kanaler du ikke vil være i stand til å motta flere varsler.",
+    "note": "Merk:",
+    "EMAIL": "E-post:",
+    "SMS": "SMS:",
+    "message": "Velg dine foretrukne varslingskanaler"
+  },
+  "AccountOrderHistoryTabContainer": {
+    "tabs": {
+      "AccountOrderHistoryComponent": "Alle bestillinger ({{param}})",
+      "OrderReturnRequestListComponent": "Retur ({{param}})"
+    }
+  }
+}

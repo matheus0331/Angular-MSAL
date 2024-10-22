@@ -1,0 +1,39 @@
+@import '../../../../../assets/scss/typography';
+
+.sort-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media only screen and (max-width: 767px) {
+    border: solid 1px var(--text-color);
+    font-size: var(--franke-s-font-size);
+    font-weight: var(--font-weight-light);
+    line-height: 18px;
+    height: 40px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    border: solid 1px var(--text-color);
+
+    font-size: var(--franke-m-font-size);
+    font-weight: var(--font-weight-light);
+    line-height: 21px;
+    height: 40px;
+  }
+}
+
+:host ::ng-deep {
+  ng-select {
+    width: 250px;
+  }
+
+  @media only screen and (max-width: 991px) {
+    ng-select {
+      width: 100%;
+
+      .ng-select-container {
+        padding: 0 !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<ng-container *ngIf="product">
+  <ng-container *ngIf="userLoggedIn$ | async">
+    <ng-container *ngIf="wishListEntries$ | async as entries">
+      <div
+        *ngIf="getProductInWishList(product, entries) as entry; else addItem"
+        class="button-wrapper"
+      >
+        <button
+          (click)="remove(entry)"
+          [disabled]="loading$ | async"
+          class="item-button"
+        >
+          <cx-icon class="is-fav" type="WISHLIST_FULL"></cx-icon>
+          {{ 'productList.wishlist' | cxTranslate }}
+        </button>
+      </div>
+      <ng-template #addItem>
+        <div class="button-wrapper">
+          <button
+            (click)="add(product)"
+            [disabled]="loading$ | async"
+            class="item-button"
+          >
+            <cx-icon type="WISHLIST"></cx-icon>
+            {{ 'productList.wishlist' | cxTranslate }}
+          </button>
+        </div>
+      </ng-template>
+    </ng-container>
+  </ng-container>
+</ng-container>

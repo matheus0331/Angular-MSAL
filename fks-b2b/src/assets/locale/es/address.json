@@ -1,0 +1,113 @@
+{
+  "searchSupport": {
+    "placeholder": "Busca aquí...",
+    "results": "Resultados",
+    "manualTitle": "",
+    "manualDownload": "",
+    "text": "Buscar por código de producto o nombre del producto",
+    "more": "Más",
+    "allResults": "Todos los resultados",
+    "manualDescription": "",
+    "resultsFor": "Mostrando resultados de:"
+  },
+  "chat": {
+    "faq": "Portal de clientes Franke - Preguntas",
+    "message1": "Hola, soy Laura. ¿Cómo puedo ayudarte?",
+    "title": "Asistente personal",
+    "message2": "Puede elegir entre las siguientes opciones o realizar su propia pregunta.",
+    "contact": "Contacto Franke",
+    "complaint": "Presentar una queja/reclamación"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "¿Necesita ayuda con tu producto o tiene alguna duda?",
+    "title": "Hola, estamos aquí para ayudarle"
+  },
+  "contactForm": {
+    "contactType": "Seleccionar el tipo de contacto",
+    "files": "Subir imágenes para apoyar la solicitud",
+    "funNumber": "Número de artículo",
+    "request": "Describe tu pregunta",
+    "ticketAddSucess": "¡Ticket creado!",
+    "ticketAddFail": "Error al crear ticket de compra, vuelva a intentarlo!",
+    "subTitle2": "¡Simplemente utiliza nuestro formulario de contacto!",
+    "generalContactCategories": "Seleccionar la categoría",
+    "deleteFiles": "Borrar",
+    "productSubCategories": "Seleccionar la subcategoría",
+    "title": "¿Mas preguntas?",
+    "subTitle1": "No se pudo encontrar la respuesta a su pregunta en el apartado de preguntas frecuentes",
+    "productCategories": "Seleccionar el producto",
+    "orderNumber": "Número de pedido"
+  },
+  "product": {
+    "id": "Artículo"
+  },
+  "faq": {
+    "print": "Imprimir esta página",
+    "customerServicesQuestions": "Servicio al cliente",
+    "pageTitle": "Preguntas frecuentes",
+    "productQuestionsTitle": "",
+    "portalQuestionsTitle": "Franke Portal de cliente",
+    "ordersAndShipmentQuestions": "Pedidos y envíos"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Puedes tener hasta un máximo de 4 direcciones.",
+    "updateAddress": "Actualizar dirección",
+    "editShippingAddress": "Editar dirección de entrega",
+    "deliveryAddressTitle": "Dirección de entrega",
+    "addNewShippingAddress": "Añadir una nueva dirección de entrega",
+    "addAddress": "Añadir una dirección",
+    "billingAddressTitle": "Dirección de Facturación",
+    "addNewAddress": "Añadir una nueva dirección",
+    "backToAddressList": "Volver a la lista de direcciones",
+    "areYouSureToDeleteAddress": "¿Estás seguro de que quieres eliminar esta dirección?"
+  },
+  "addressCard": {
+    "shipTo": "Enviar a",
+    "setAsDefault": "Establecer por defecto",
+    "billTo": "Facturar a",
+    "selected": "Seleccionado",
+    "default": "POR DEFECTO"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Apellidos",
+      "placeholder": "Apellidos"
+    },
+    "aptSuite": "Apt, Suite",
+    "saveAsDefault": "Guardar por defecto",
+    "firstName": {
+      "label": "Nombre",
+      "placeholder": "Nombre"
+    },
+    "zipCode": {
+      "placeholder": "Código postal",
+      "label": "Código postal"
+    },
+    "address1": "Dirección 1",
+    "setAsDefault": "Establecer por defecto",
+    "title": "Título",
+    "userAddressDeleteSuccess": "¡Dirección eliminada correctamente!",
+    "userAddressAddSuccess": "¡La nueva dirección se agregó correctamente!",
+    "city": {
+      "placeholder": "Ciudad",
+      "label": "Ciudad"
+    },
+    "invalidAddress": "Dirección no válida",
+    "chooseAddress": "Elegir dirección",
+    "phoneNumber": {
+      "placeholder": "(555) 555 - 0123",
+      "label": "Número de teléfono (opcional)"
+    },
+    "titleRequired": "\"Título\" requerido.",
+    "state": "Provincia",
+    "address2": "Dirección 2 (opcional)",
+    "selectOne": "Seleccione uno...",
+    "country": "País",
+    "streetAddress": "Calle",
+    "userAddressUpdateSuccess": "¡Dirección actualizada correctamente!"
+  }
+}

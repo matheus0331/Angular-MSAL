@@ -1,0 +1,103 @@
+<form>
+  <div class="table-wrapper">
+    <table class="table">
+      <thead class="table-header">
+      <tr>
+        <th
+          (sort)="onSort($event)"
+          class="column-fun"
+          scope="col"
+          sortable="material"
+        >
+          {{ 'orderDetails.funColumn' | cxTranslate }}
+        </th>
+        <th
+          (sort)="onSort($event)"
+          class="column-product"
+          scope="col"
+          sortable="description"
+        >
+          {{ 'orderDetails.productColumn' | cxTranslate }}
+        </th>
+        <th
+          (sort)="onSort($event)"
+          class="column-brand"
+          scope="col"
+          sortable="brand"
+        >
+          {{ 'orderDetails.brandColumn' | cxTranslate }}
+        </th>
+
+        <th
+          (sort)="onSort($event)"
+          class="column-quantity"
+          scope="col"
+          sortable="orderQuantity"
+        >
+          {{ 'orderDetails.quantityColumn' | cxTranslate }}
+        </th>
+        <th
+          (sort)="onSort($event)"
+          class="column-single-price"
+          scope="col"
+          sortable="netPrice"
+        >
+          {{ 'orderDetails.priceColumn' | cxTranslate }}
+        </th>
+        <th
+          (sort)="onSort($event)"
+          class="column-expected-delivery-date"
+          scope="col"
+          sortable="frozenDeliveryDate"
+        >
+          {{ 'orderDetails.expectedDeliveryDateColumn' | cxTranslate }}
+        </th>
+        <th
+          (sort)="onSort($event)"
+          class="column-confirmed-delivery-date"
+          scope="col"
+          sortable="deliveryDate"
+        >
+          {{ 'orderDetails.confirmedDeliveryDateColumn' | cxTranslate }}
+        </th>
+        <th
+          (sort)="onSort($event)"
+          class="column-status"
+          scope="col"
+          sortable="orderStatus"
+        >
+          {{ 'orderDetails.statusColumn' | cxTranslate }}
+        </th>
+      </tr>
+      </thead>
+      <tbody class="table-body">
+      <ng-container *ngIf="(loading$ | async) === false">
+        <ng-container *ngFor="let order of orderDetails$ | async">
+          <tr [order]="order" app-order-details-item class="order"></tr>
+          <tr
+            [order]="order"
+            app-order-details-item-delivery-status
+            class="order"
+          ></tr>
+        </ng-container>
+      </ng-container>
+      </tbody>
+    </table>
+  </div>
+
+  <div *ngIf="(loading$ | async) === true">
+    <div class="cx-spinner">
+      <cx-spinner></cx-spinner>
+    </div>
+  </div>
+
+  <div class="products-pagination">
+    <app-orders-pagination
+      [(page)]="service.page"
+      [collectionSize]="(total$ | async)!"
+      [ellipses]="false"
+      [maxSize]="5"
+      [rotate]="true"
+    ></app-orders-pagination>
+  </div>
+</form>

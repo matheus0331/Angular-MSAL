@@ -1,0 +1,23 @@
+<form (submit)="addProductToCart()"
+      *ngIf="productCode"
+      [formGroup]="addToCartForm">
+  <div *ngIf="showQuantity && hasPrice" class="quantity">
+    <label class="quantity-label">{{
+      'addToCart.quantity' | cxTranslate
+      }}</label>
+
+  </div>
+
+  <button
+    *ngIf="hasPrice"
+    [disabled]="quantity <= 0 || !product.purchasable"
+    class="btn btn-block"
+    type="submit"
+  >
+    {{
+    wishlist
+      ? ('wishlist.addToCart' | cxTranslate)
+      : ('addToCart.addToCart' | cxTranslate)
+    }}
+  </button>
+</form>

@@ -1,0 +1,128 @@
+.listing-page {
+  width: 100%;
+
+  .controls {
+    margin-bottom: 37px;
+    @media only screen and (max-width: 767px) {
+      margin-top: 34px;
+      margin-bottom: 47px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      margin-top: 24px;
+      margin-bottom: 32px;
+    }
+
+    .page-controls {
+      display: flex;
+      align-items: center;
+      @media only screen and (max-width: 767px) {
+        margin-top: 47px;
+      }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        margin-top: 28px;
+      }
+
+      .view-mode,
+      .sort {
+        color: var(--text-color);
+      }
+
+      .sort {
+        @media only screen and (max-width: 991px) {
+          width: 100%;
+        }
+      }
+    }
+
+    @media only screen and (min-width: 992px) {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+      margin-bottom: 22px;
+
+      .container {
+        height: 69px;
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+
+        .filter-controls {
+          display: flex;
+          width: 25%;
+          margin-right: 37px;
+          justify-content: space-between;
+
+          .hide-filters {
+            display: flex;
+            align-items: center;
+            color: var(--text-color);
+            cursor: pointer;
+
+            .slider-icon {
+              margin-right: 4px;
+              margin-bottom: 4px;
+            }
+          }
+
+          .remove-filters {
+            color: var(--grey);
+            text-decoration-line: underline;
+            cursor: pointer;
+          }
+        }
+
+        .page-controls {
+          display: flex;
+          align-items: center;
+          width: 75%;
+          justify-content: flex-end;
+
+          .results,
+          .view-mode,
+          .sort {
+            color: var(--text-color);
+            margin-left: 11px;
+          }
+        }
+      }
+    }
+  }
+
+  .quick-filters.container {
+    @media only screen and (min-width: 992px) {
+      max-width: 1200px;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (min-width: 992px) {
+      display: flex;
+      flex-direction: row;
+      max-width: 1200px;
+
+      .filters {
+        width: 25%;
+        margin-right: 37px;
+        visibility: visible;
+        opacity: 1;
+        transition: width 0.8s, visibility 0.5s, opacity 0.3s linear;
+
+        &.filters-hidden {
+          width: 0;
+          margin-right: 0;
+          visibility: hidden;
+          opacity: 0;
+        }
+      }
+
+      .product-list {
+        width: 75%;
+
+        &.product-list-full {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

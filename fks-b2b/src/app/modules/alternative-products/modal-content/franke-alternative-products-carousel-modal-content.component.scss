@@ -1,0 +1,46 @@
+.close {
+  opacity: 0.9;
+
+  &:not(:disabled):not(.disabled):hover,
+  &:not(:disabled):not(.disabled):focus {
+    opacity: 1;
+    color: var(--brand-color);
+  }
+
+  &.cx-icon {
+    padding-top: 0.5rem;
+
+    &:hover {
+      color: var(--brand-color);
+    }
+  }
+}
+
+.cx-dialog-header {
+  padding: 1.5rem 1rem 0 3rem;
+}
+
+.declaimer {
+  background-color: var(--declaimer-color);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.25rem 0.5rem;
+
+  p {
+    font-weight: var(--font-weight-lighter);
+    font-size: var(--franke-m-font-size);
+  }
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 0.3rem;
+
+}

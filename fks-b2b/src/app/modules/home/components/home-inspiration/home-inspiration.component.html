@@ -1,0 +1,40 @@
+<div *ngIf="inspirationItems" class="inspiration-explore-message">
+  <div class="inspiration-explore-label">
+    <h3 [innerHTML]="frankeCmsInspiration?.title"></h3>
+  </div>
+  <div class="inspiration-explore-description">
+    <p [innerHTML]="frankeCmsInspiration?.description"></p>
+  </div>
+</div>
+<ng-container
+  *ngIf="inspirationItems && isTableOrDesktop$ | async; else mobile"
+>
+  <div class="container">
+    <div class="child">
+      <app-inspiration-item-img-left
+        [inspirationItem]="inspirationItems[0]"
+      ></app-inspiration-item-img-left>
+
+      <app-inspiration-item-img-right
+        [inspirationItem]="inspirationItems[1]"
+      ></app-inspiration-item-img-right>
+    </div>
+
+    <div class="child featured">
+      <app-inspiration-item-large-img
+        [inspirationItem]="inspirationItems[2]"
+      ></app-inspiration-item-large-img>
+    </div>
+  </div>
+</ng-container>
+
+<ng-template #mobile>
+  <ng-container *ngIf="inspirationItems">
+    <app-inspiration-item-mobile [inspirationItem]="inspirationItems[0]">
+    </app-inspiration-item-mobile>
+    <app-inspiration-item-mobile [inspirationItem]="inspirationItems[1]">
+    </app-inspiration-item-mobile>
+    <app-inspiration-item-mobile [inspirationItem]="inspirationItems[2]">
+    </app-inspiration-item-mobile>
+  </ng-container>
+</ng-template>

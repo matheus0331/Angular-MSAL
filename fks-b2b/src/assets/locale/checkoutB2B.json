@@ -1,0 +1,154 @@
+{
+  "loginForm": {
+    "emailAddress": {
+      "placeholder": "Enter email",
+      "label": "Email address"
+    },
+    "password": {
+      "placeholder": "Password",
+      "label": "Password"
+    },
+    "forgotPassword": "Forgot password?",
+    "wrongEmailFormat": "This is not a valid email format.",
+    "guestCheckout": "Guest checkout",
+    "signIn": "Sign in",
+    "register": "Register",
+    "dontHaveAccount": "Don’t have an account?"
+  },
+  "checkoutLogin": {
+    "emailsMustMatch": "Email does not match",
+    "emailAddress": {
+      "label": "Email address",
+      "placeholder": "Enter email"
+    },
+    "continue": "Continue",
+    "emailIsRequired": "Invalid email format",
+    "confirmEmail": {
+      "label": "Confirm email",
+      "placeholder": "Confirm email"
+    }
+  },
+  "anonymousConsents": {
+    "banner": {
+      "viewDetails": "View details",
+      "allowAll": "Allow all",
+      "title": "This website uses cookies",
+      "description": "We use cookies/browsers storage to personalize the content and improve user experience."
+    },
+    "preferences": "Consent preferences",
+    "dialog": {
+      "clearAll": "We use cookies/browsers storage to personalize the content and improve user experience. We also might share the data about your site usage with our social media. For more, please review our privacy policy.",
+      "legalDescription": "We use cookies/browsers storage to personalize the content and improve user experience. We also might share the data about your site usage with our social media. For more, please review our privacy policy.",
+      "title": "We use cookies/browsers storage to personalize the content and improve user experience. We also might share the data about your site usage with our social media. For more, please review our privacy policy.",
+      "selectAll": "We use cookies/browsers storage to personalize the content and improve user experience. We also might share the data about your site usage with our social media. For more, please review our privacy policy."
+    }
+  },
+  "forgottenPassword": {
+    "resetPassword": "Reset password",
+    "passwordResetSuccess": "Success! You can now login using your new password.",
+    "enterEmailAddressAssociatedWithYourAccount": "Enter the email address associated with your account",
+    "emailAddress": {
+      "label": "Email address",
+      "placeholder": "Enter email"
+    },
+    "enterValidEmail": "Please enter a valid email.",
+    "passwordResetEmailSent": "An email has been sent to you with information on how to reset your password."
+  },
+  "register": {
+    "titleRequired": "Title is required",
+    "newPassword": "New password",
+    "confirmThatRead": "I confirm that I have read and agree with",
+    "firstName": {
+      "label": "First name",
+      "placeholder": "First name"
+    },
+    "createAccount": "Create an account",
+    "bothPasswordMustMatch": "Both password must match",
+    "register": "Register",
+    "resetPassword": "Reset password",
+    "postRegisterMessage": "Please log in with provided credentials.",
+    "emailAddress": {
+      "placeholder": "Email address",
+      "label": "Email address"
+    },
+    "title": "Title",
+    "confirmPassword": {
+      "action": "Confirm password",
+      "placeholder": "Confirm password",
+      "label": "Confirm password"
+    },
+    "termsAndConditions": "Terms & Conditions",
+    "lastName": {
+      "label": "Last name",
+      "placeholder": "Last name"
+    },
+    "password": {
+      "placeholder": "Password",
+      "label": "Password"
+    },
+    "emailMarketing": "Use my personal data to receive e-mail newsletters for marketing campaigns. To change your settings, go to Consent Management in My Account.",
+    "managementInMyAccount": "Management in My Account.",
+    "passwordMinRequirements": "Password must be minimum six characters and contain one uppercase letter, one number, one symbol",
+    "confirmNewPassword": "Confirm new password",
+    "signIn": "I already have an account. Sign In",
+    "selectTitle": "Select title"
+  },
+  "searchSupport": {
+    "placeholder": "Search here...",
+    "results": "Results",
+    "manualTitle": "Owner's manual",
+    "manualDownload": "Download Specification",
+    "text": "Search for a FUN number, product code or a product name",
+    "more": "More",
+    "allResults": "All results",
+    "manualDescription": "The most complete document on the configuration and use of the product.",
+    "resultsFor": "Showing results for:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal Questions",
+    "message1": "Hi, I'm Laura. I'm your client agent. How can I help you?",
+    "title": "Personal assistant",
+    "message2": "You can choose from the option below or ask your own question.",
+    "contact": "Contact Franke",
+    "complaint": "Submit a Complaint"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Do you need help with your product or do you have a question?",
+    "title": "Hello, we are here to help"
+  },
+  "contactForm": {
+    "contactType": "Select the contact type",
+    "files": "Upload Images to support your request",
+    "funNumber": "Article Number",
+    "request": "Describe your request",
+    "ticketAddSucess": "Ticket created!",
+    "ticketAddFail": "Error creating ticket, try again!",
+    "subTitle2": "Simply use our contact form!",
+    "generalContactCategories": "Select the category",
+    "deleteFiles": "Delete",
+    "productSubCategories": "Select the sub category",
+    "title": "Further questions?",
+    "subTitle1": "Couldn't find the answer to your question in our FAQs",
+    "productCategories": "Select the product",
+    "orderNumber": "Order Number"
+  },
+  "product": {
+    "id": "Article"
+  },
+  "faq": {
+    "print": "Print this page",
+    "customerServicesQuestions": "Customer Services",
+    "pageTitle": "Frequently Asked Questions",
+    "productQuestionsTitle": "Franke Products",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Orders and Shipment"
+  },
+  "videoTutorial": {
+    "title": "How it works"
+  },
+  "wishlist": {
+    "addToCart": "Add to cart",
+    "empty": "No products on your wish list"
+  }
+}

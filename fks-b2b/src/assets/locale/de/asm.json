@@ -1,0 +1,41 @@
+{
+  "asm": {
+    "standardSessionInProgress": "Standard Kundensitzung im Gange.",
+    "agentSessionTimer": {
+      "label": "Session-Timeout",
+      "minutes": "Mindest",
+      "reset": "Reset"
+    },
+    "customerSearch": {
+      "searchTerm": {
+        "label": "Kundenname / E-Mail-Adresse"
+      },
+      "noMatch": "Kein Kunde gefunden.",
+      "submit": "Start Session"
+    },
+    "logout": "Ausloggen",
+    "loginForm": {
+      "password": {
+        "required": "Passwort wird benötigt",
+        "label": "Passwort"
+      },
+      "userId": {
+        "label": "Agenten-ID",
+        "required": "Agent-ID erforderlich"
+      },
+      "submit": "Anmelden"
+    },
+    "hideUi": "Schließen ASM",
+    "toggleUi": {
+      "collapse": "ausblenden ASM",
+      "expand": "Show ASM"
+    },
+    "mainLogoLabel": "SAP",
+    "csagentTokenExpired": "Ihre Kunden-Support-Agent Sitzung ist abgelaufen.",
+    "mainTitle": "Assisted Service-Modus",
+    "auth": {
+      "agentLoggedInError": "Kann nicht als Benutzer anmelden, wenn eine aktive CS-Agent-Sitzung ist. Bitte entweder emulieren Benutzer oder Abmelde CS-Agent."
+    },
+    "endSession": "Sitzung beenden"
+  }
+}

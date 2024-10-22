@@ -1,0 +1,51 @@
+.quantity {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+
+  cx-item-counter,
+  .quantity-label {
+    display: flex;
+    align-items: center;
+    font-size: var(--franke-s-font-size);
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      font-size: var(--franke-m-font-size);
+    }
+
+    @media only screen and (min-width: 992px) {
+      font-size: var(--franke-font-size-base);
+    }
+  }
+}
+
+.btn {
+  font-size: var(--franke-s-font-size);
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    font-size: var(--franke-m-font-size);
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: var(--franke-font-size-base);
+  }
+}
+
+.spinner {
+  --cx-spinner-radius: 25px;
+  --cx-spinner-border-width: 3px;
+  margin-left: 5px;
+}
+
+:host ::ng-deep .loader-container {
+  position: absolute;
+  margin-top: 0;
+  -webkit-margin-end: auto;
+  margin-inline-end: auto;
+  margin-bottom: 0;
+  -webkit-margin-start: auto;
+  margin-inline-start: auto;
+  width: var(--cx-spinner-radius);
+  height: var(--cx-spinner-radius);
+  display: inline;
+}

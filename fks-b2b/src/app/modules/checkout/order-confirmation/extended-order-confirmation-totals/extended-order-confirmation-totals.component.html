@@ -1,0 +1,65 @@
+<div class="container">
+  <div *ngIf="order$ | async as order" class="summary-wrapper">
+
+    <div class="summary-title">
+      {{ 'orderCost.orderSummary' | cxTranslate }}
+    </div>
+    <div class="summary-info-wrapper">
+      <div class="summary-info">
+        <div class="summary-label">
+          {{
+          order.totalUnitCount > 1
+            ? ('orderCost.totalCatalogPrice'
+              | cxTranslate: {count: order.totalUnitCount})
+            : ('orderCost.totalCatalogPriceSingular'
+              | cxTranslate: {count: order.totalUnitCount})
+          }}
+        </div>
+        <div class="summary-amount">
+          {{
+          order.totalCatalogPrice?.formattedValue
+            ? order.totalCatalogPrice.formattedValue
+            : 'Error'
+          }}
+        </div>
+      </div>
+
+      <!-- totalNetWithoutTax -->
+      <div class="summary-info">
+        <div class="summary-label">
+          {{
+          order.totalUnitCount > 1
+            ? ('orderCost.totalNetWithoutTax'
+              | cxTranslate: {count: order.totalUnitCount})
+            : ('orderCost.totalNetWithoutTax'
+              | cxTranslate: {count: order.totalUnitCount})
+          }}
+        </div>
+        <div class="summary-amount">
+          {{ order.totalNetWithoutTax?.formattedValue }}
+        </div>
+      </div>
+
+      <!-- Tax -->
+      <div class="summary-info">
+        <div class="summary-label">
+          {{ 'orderCost.salesTax' | cxTranslate }}
+        </div>
+        <div class="summary-amount">
+          {{ order.totalTax?.formattedValue }}
+        </div>
+      </div>
+
+      <!-- Total With Tax -->
+      <div class="summary-total">
+        <div class="total-label">
+          {{ 'orderCost.total' | cxTranslate }}
+        </div>
+        <div class="total-amount">
+          {{ order.totalPriceWithTax?.formattedValue }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+</div>

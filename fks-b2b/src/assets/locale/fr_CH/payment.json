@@ -1,0 +1,42 @@
+{
+  "paymentMethods": {
+    "invalidField": "Champ invalide : {{champ}}",
+    "newPaymentMethodsAreAddedDuringCheckout": "D'autres modes de paiement sont disponibles en fin de transaction",
+    "paymentMethods": "Moyens de paiement"
+  },
+  "paymentForm": {
+    "useThisPayment": "Utiliser ce mode de paiement",
+    "accountHolderName": {
+      "label": "Nom du titulaire du compte",
+      "placeholder": "Nom du titulaire du compte"
+    },
+    "securityCode": "Code de sécurité (CVV)",
+    "monthMask": "MM",
+    "yearMask": "AAAA",
+    "billingAddress": "Adresse de facturation",
+    "setAsDefault": "Définir par défaut",
+    "saveAsDefault": "Enregistrer par défaut",
+    "selectOne": "Sélectionner un ...",
+    "sameAsShippingAddress": "Identique à l'adresse de livraison",
+    "choosePaymentMethod": "Choisir un mode de paiement",
+    "cardNumber": "Numéro de carte",
+    "expirationDate": "Date d'expiration",
+    "payment": "Paiement",
+    "addNewPayment": "Ajouter un nouveau mode de paiement",
+    "paymentType": "Type de paiement",
+    "changePayment": "Changer de mode de paiement",
+    "securityCodeTitle": "Code de vérification"
+  },
+  "paymentTypes": {
+    "title": "Mode de paiement",
+    "paymentType_ACCOUNT": "Compte",
+    "paymentType_CARD": "Carte de crédit"
+  },
+  "paymentCard": {
+    "expires": "Expire : {{mois}} / {{année}}",
+    "setAsDefault": "Définir par défaut",
+    "defaultPaymentMethod": "✓ PAR DEFAUT",
+    "selected": "Choisi",
+    "deleteConfirmation": "Etes-vous sûr de vouloir supprimer ce mode de paiement?"
+  }
+}

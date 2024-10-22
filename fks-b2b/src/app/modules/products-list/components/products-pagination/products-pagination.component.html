@@ -1,0 +1,131 @@
+<div *ngIf="isDesktop$ | async; else nonDesktop" class="product-navigation">
+  <span class="page-of-pages"
+  >{{
+    'productList.pageOf'
+      | cxTranslate
+      : {x: pagination.currentPage + 1, y: pagination.totalPages}
+    }}
+  </span>
+  <div
+    (click)="prevOrNextPage(pagination.currentPage - 1)"
+    *ngIf="pagination.currentPage !== 0"
+    [queryParams]="getParams(pagination.currentPage - 1)"
+    [routerLink]="pageRoute"
+    class="prev-page"
+  >
+    <span>{{ 'productList.previous' | cxTranslate }}</span>
+    <cx-icon type="CHEVRON_LEFT"></cx-icon>
+  </div>
+  <div *ngIf="pagination.currentPage >= 4" class="scroll">
+    <div
+      (click)="prevOrNextPage(0)"
+      [queryParams]="getParams(0)"
+      [routerLink]="pageRoute"
+      class="start-number"
+    >
+      1
+    </div>
+    <div
+      (click)="prevOrNextPage(pagination.currentPage - 5)"
+      [queryParams]="getParams(pagination.currentPage - 5)"
+      [routerLink]="pageRoute"
+      class="skip-five-button"
+    >
+      <cx-icon type="ARROW_LEFT"></cx-icon>
+    </div>
+  </div>
+  <div *ngFor="let item of pages; index as i">
+    <div
+      (click)="pageChange(item)"
+      [class.current]="isCurrent(item)"
+      [class.disabled]="isInactive(item)"
+      [class]="item.type"
+      [queryParams]="getQueryParams(item)"
+      [routerLink]="pageRoute"
+      [tabIndex]="isInactive(item) ? -1 : 0"
+    >
+      {{ item.label }}
+    </div>
+  </div>
+  <div
+    *ngIf="pagination.currentPage < pagination.totalPages - 4"
+    class="scroll"
+  >
+    <div
+      (click)="
+        prevOrNextPage(
+          pagination.currentPage < pagination.totalPages - 5
+            ? pagination.currentPage + 5
+            : pagination.totalPages - 1
+        )
+      "
+      [queryParams]="
+        getParams(
+          pagination.currentPage < pagination.totalPages - 5
+            ? pagination.currentPage + 5
+            : pagination.totalPages - 1
+        )
+      "
+      [routerLink]="pageRoute"
+      class="skip-five-button"
+    >
+      <cx-icon type="ARROW_RIGHT"></cx-icon>
+    </div>
+    <div
+      (click)="prevOrNextPage(pagination.totalPages - 1)"
+      [queryParams]="getParams(pagination.totalPages - 1)"
+      [routerLink]="pageRoute"
+      class="end-number"
+    >
+      {{ pagination.totalPages }}
+    </div>
+  </div>
+  <div
+    (click)="prevOrNextPage(pagination.currentPage + 1)"
+    *ngIf="pagination.currentPage !== pagination.totalPages - 1"
+    [queryParams]="getParams(pagination.currentPage + 1)"
+    [routerLink]="pageRoute"
+    class="next-page"
+  >
+    <span>{{ 'productList.next' | cxTranslate }}</span>
+    <cx-icon type="CHEVRON_RIGHT"></cx-icon>
+  </div>
+</div>
+
+<ng-template #nonDesktop>
+  <div class="product-navigation">
+    <div
+      (click)="prevOrNextPage(pagination.currentPage - 1)"
+      *ngIf="pagination.currentPage !== 0"
+      [queryParams]="getParams(pagination.currentPage - 1)"
+      [routerLink]="pageRoute"
+      class="prev-page"
+    >
+      <cx-icon type="CHEVRON_LEFT"></cx-icon>
+    </div>
+
+    <div *ngFor="let item of pages; index as i">
+      <div
+        (click)="pageChange(item)"
+        [class.current]="isCurrent(item)"
+        [class.disabled]="isInactive(item)"
+        [class]="item.type"
+        [queryParams]="getQueryParams(item)"
+        [routerLink]="pageRoute"
+        [tabIndex]="isInactive(item) ? -1 : 0"
+      >
+        {{ item.label }}
+      </div>
+    </div>
+
+    <div
+      (click)="prevOrNextPage(pagination.currentPage + 1)"
+      *ngIf="pagination.currentPage !== pagination.totalPages - 1"
+      [queryParams]="getParams(pagination.currentPage + 1)"
+      [routerLink]="pageRoute"
+      class="next-page"
+    >
+      <cx-icon type="CHEVRON_RIGHT"></cx-icon>
+    </div>
+  </div>
+</ng-template>

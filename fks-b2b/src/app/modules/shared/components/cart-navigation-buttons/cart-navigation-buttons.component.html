@@ -1,0 +1,11 @@
+<div *ngIf="shouldShowNavButtons() | async" class="buttons-wrapper container">
+  <button
+    (click)="checkoutStepService.back(activatedRoute)"
+    class="btn left-button"
+  >
+    {{ previousButtonText() | async | cxTranslate }}
+  </button>
+  <button (click)="proceed()" class="btn right-button">
+    {{ 'checkout.continue' | cxTranslate }}
+  </button>
+</div>

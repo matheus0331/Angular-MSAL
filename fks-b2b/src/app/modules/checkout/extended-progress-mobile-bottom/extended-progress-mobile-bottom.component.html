@@ -1,0 +1,20 @@
+<div
+  *ngIf="(activeStepIndex$ | async) !== undefined && isMobileOrTable$ | async"
+  class="container"
+>
+  <div class="cx-media">
+    <div *ngFor="let step of steps$ | async; let i = index">
+      <div *ngIf="i > activeStepIndex" class="cx-list-media">
+        <div class="step-wrapper">
+          <div class="step-icon">
+            <cx-icon
+              [class.step-to-do]="stepToDo(i)"
+              type="{{ stepIcon(i) }}"
+            ></cx-icon>
+          </div>
+          <span class="step-name">{{ step.name | cxTranslate }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+<div class="wrapper-card-right">
+  <div class="inspiration-img">
+    <img [src]="apiEndpoint + frankeBannerComponent?.image?.url" />
+  </div>
+  <div class="inspiration-card">
+    <div class="inspiration-card-wrapper">
+      <div class="category" [innerHTML]="frankeBannerComponent?.headline"></div>
+      <div class="title" [innerHTML]="frankeBannerComponent?.title"></div>
+      <div
+        class="desc"
+        [innerHTML]="frankeBannerComponent?.componentText"
+      ></div>
+
+      <div class="options">
+        <cx-generic-link
+          class="explore-btn"
+          [url]="
+            frankeBannerComponent?.leftLink?.localizedUrl
+              ? frankeBannerComponent?.leftLink?.localizedUrl
+              : frankeBannerComponent?.leftLink?.url
+          "
+        >
+          <div [innerHTML]="frankeBannerComponent?.leftLink?.linkName"></div>
+        </cx-generic-link>
+        <a
+          *ngIf="frankeBannerComponent?.rightLink"
+          class="more-info-btn"
+          href="{{
+            frankeBannerComponent?.rightLink?.localizedUrl
+              ? frankeBannerComponent?.rightLink?.localizedUrl
+              : frankeBannerComponent?.rightLink?.url
+          }}"
+          target="_blank"
+          [innerHTML]="frankeBannerComponent?.rightLink?.linkName"
+        >
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

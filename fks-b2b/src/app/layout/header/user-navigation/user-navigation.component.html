@@ -1,0 +1,5 @@
+<cx-icon *ngIf="isDesktop$ | async; else nonDesktop" type="USER"></cx-icon>
+
+<ng-template #nonDesktop>
+  <cx-icon type="SETTINGS"></cx-icon>
+</ng-template>

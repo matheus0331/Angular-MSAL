@@ -1,0 +1,21 @@
+<div class="bundles">
+  <div
+    *ngIf="bundles?.url || bundles?.localizedUrl"
+    class="bundles-img-background"
+  >
+    <cx-generic-link
+      (click)="closeNav()"
+      [url]="bundles?.localizedUrl ? bundles?.localizedUrl : bundles?.url"
+    >
+      <img [src]="apiEndpoint + bundles?.image?.url" class="bundles-img"/>
+    </cx-generic-link>
+  </div>
+
+  <cx-generic-link
+    (click)="closeNav()"
+    [url]="bundles?.localizedUrl ? bundles?.localizedUrl : bundles?.url"
+    class="bundles-text"
+  >
+    <div [innerHtml]="bundles?.title"></div>
+  </cx-generic-link>
+</div>

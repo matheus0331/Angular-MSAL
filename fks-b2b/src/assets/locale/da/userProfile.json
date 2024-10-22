@@ -1,0 +1,56 @@
+{
+  "searchSupport": {
+    "placeholder": "Søg her ...",
+    "results": "Resultater",
+    "manualTitle": "Brugervejledning",
+    "manualDownload": "Hent specifikation",
+    "text": "Søg efter FUN-nummer, produktkode eller produktnavn",
+    "more": "Mere",
+    "allResults": "Alle resultater",
+    "manualDescription": "Det mest komplette dokument om konfiguration og brug af produktet.",
+    "resultsFor": "Viser resultater for:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal-spørgsmål",
+    "message1": "Hej, jeg er Laura. Jeg er din klientagent. Hvordan kan jeg hjælpe dig?",
+    "title": "Personlig assistent",
+    "message2": "Du kan vælge mellem valgmulighederne nedenfor eller stille dit eget spørgsmål.",
+    "contact": "Kontakt Franke",
+    "complaint": "Indgiv en klage"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Har du brug for hjælp med dit produkt, eller har du spørgsmål?",
+    "title": "Hej, vi er her for at hjælpe"
+  },
+  "contactForm": {
+    "contactType": "Vælg kontakttype",
+    "files": "Upload billeder til at understøtte din anmodning",
+    "funNumber": "Artikelnummer",
+    "request": "Beskriv din anmodning",
+    "ticketAddSucess": "Billet oprettet!",
+    "ticketAddFail": "Fejl ved oprettelse af billet, så prøv igen!",
+    "subTitle2": "Du skal blot bruge vores kontaktformular!",
+    "generalContactCategories": "Vælg kategori",
+    "deleteFiles": "Slet",
+    "productSubCategories": "Vælg underkategori",
+    "title": "Yderligere spørgsmål?",
+    "subTitle1": "Kunne ikke finde svaret på dit spørgsmål i vores FAQ",
+    "productCategories": "Vælg produkt",
+    "orderNumber": "Ordrenummer"
+  },
+  "product": {
+    "id": "Artikel"
+  },
+  "faq": {
+    "print": "Udskriv denne side",
+    "customerServicesQuestions": "Kundeservice",
+    "pageTitle": "Ofte stillede spørgsmål",
+    "productQuestionsTitle": "Franke-produkter",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Ordrer og forsendelse"
+  },
+  "videoTutorial": {
+    "title": ""
+  }
+}

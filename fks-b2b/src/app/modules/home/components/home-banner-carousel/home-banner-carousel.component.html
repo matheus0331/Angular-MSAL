@@ -1,0 +1,14 @@
+<app-franke-carousel
+  [indicatorsPath]="indicatorsPath"
+  [isSideArrows]="false"
+  [items]="items$ | async"
+  [slidesPath]="slidesPath"
+  [template]="carouselItem"
+  itemWidth="100%"
+>
+</app-franke-carousel>
+
+<ng-template #carouselItem let-item="item">
+  <app-franke-homepage-banner [frankeBannerComponent]="item">
+  </app-franke-homepage-banner>
+</ng-template>

@@ -1,0 +1,56 @@
+{
+  "searchSupport": {
+    "placeholder": "Search here...",
+    "results": "Results",
+    "manualTitle": "Owner's manual",
+    "manualDownload": "Download Specification",
+    "text": "Search for a FUN number, product code or a product name",
+    "more": "More",
+    "allResults": "All results",
+    "manualDescription": "The most complete document on the configuration and use of the product.",
+    "resultsFor": "Showing results for:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal Questions",
+    "message1": "Hi, I'm Laura. I'm your client agent. How can I help you?",
+    "title": "Personal assistant",
+    "message2": "You can choose from the option below or ask your own question.",
+    "contact": "Contact Franke",
+    "complaint": "Submit a Complaint"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Do you need help with your product or do you have a question?",
+    "title": "Hello, we are here to help"
+  },
+  "contactForm": {
+    "contactType": "Select the contact type",
+    "files": "Upload Images to support your request",
+    "funNumber": "Article Number",
+    "request": "Describe your request",
+    "ticketAddSucess": "Ticket created!",
+    "ticketAddFail": "Error creating ticket, try again!",
+    "subTitle2": "Simply use our contact form!",
+    "generalContactCategories": "Select the category",
+    "deleteFiles": "Delete",
+    "productSubCategories": "Select the sub category",
+    "title": "Further questions?",
+    "subTitle1": "Couldn't find the answer to your question in our FAQs",
+    "productCategories": "Select the product",
+    "orderNumber": "Order Number"
+  },
+  "product": {
+    "id": "Article"
+  },
+  "faq": {
+    "print": "Print this page",
+    "customerServicesQuestions": "Customer Services",
+    "pageTitle": "Frequently Asked Questions",
+    "productQuestionsTitle": "Franke Products",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Orders and Shipment"
+  },
+  "videoTutorial": {
+    "title": ""
+  }
+}

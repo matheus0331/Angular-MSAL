@@ -1,0 +1,33 @@
+<div class="choped-background">
+  <div class="wrapper">
+    <div class="home-banner-card">
+      <div class="home-banner-card-wrapper">
+        <div
+          class="category"
+          [innerHTML]="frankeBannerComponent?.headline"
+        ></div>
+        <div class="title" [innerHTML]="frankeBannerComponent?.title"></div>
+        <div
+          class="desc"
+          [innerHTML]="frankeBannerComponent?.componentText"
+        ></div>
+
+        <div class="options">
+          <cx-generic-link
+            class="explore-btn"
+            [url]="
+              frankeBannerComponent?.leftLink?.localizedUrl
+                ? frankeBannerComponent?.leftLink?.localizedUrl
+                : frankeBannerComponent?.leftLink?.url
+            "
+          >
+            <div [innerHTML]="frankeBannerComponent?.leftLink?.linkName"></div>
+          </cx-generic-link>
+        </div>
+      </div>
+    </div>
+    <div class="home-banner-img">
+      <img [src]="apiEndpoint + frankeBannerComponent?.image?.url" />
+    </div>
+  </div>
+</div>

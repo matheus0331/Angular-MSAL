@@ -1,0 +1,25 @@
+.container {
+  padding: 0;
+}
+
+.card-container {
+  margin-top: 24px;
+}
+
+.cx-shipping-address-card {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .cx-shipping-address-card-inner {
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+}
+
+.row {
+  margin: 0;
+
+  @media only screen and (min-width: 992px) {
+    margin: 0 -15px;
+  }
+}

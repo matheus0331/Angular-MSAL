@@ -1,0 +1,275 @@
+@mixin home-banner-card-text($font-size, $font-weight, $line-height) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+@mixin home-banner-card-elements-margin {
+  margin-bottom: 16px;
+}
+
+@mixin home-banner-card-center-items {
+  display: flex;
+  align-items: center;
+}
+
+@mixin home-banner-card-line-limit($max-lines) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $max-lines; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.choped-background {
+  @media only screen and (min-width: 768px) {
+    height: 80%;
+    width: 100%;
+    background: var(--section-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media only screen and (min-width: 992px) {
+    height: 85%;
+  }
+
+  .wrapper {
+    justify-content: center;
+    margin-bottom: 26px;
+    position: relative;
+    @include home-banner-card-center-items();
+
+    @media only screen and (min-width: 768px) {
+      justify-content: flex-end;
+      margin-top: 46px;
+      width: 100%;
+    }
+
+    @media only screen and (min-width: 992px) {
+      margin-top: 50px;
+    }
+
+    .home-banner-card {
+      display: flex;
+      max-width: 287px;
+      background: var(--white);
+      color: var(--text-color);
+      position: absolute;
+
+      @media only screen and (max-width: 767px) {
+        margin-top: 100px;
+      }
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        max-width: 327px;
+        position: absolute;
+        flex-direction: column;
+        right: 50%;
+      }
+
+      @media only screen and (min-width: 992px) {
+        max-width: 460px;
+        position: absolute;
+        flex-direction: column;
+        right: 55%;
+      }
+
+      &:hover {
+        background: var(--accent-color);
+        color: var(--white);
+        .home-banner-card-wrapper {
+          .category {
+            color: var(--white);
+          }
+          .options {
+            button {
+              border: 1px solid var(--white);
+              color: var(--white);
+            }
+
+            cx-generic-link ::ng-deep {
+              border-color: var(--white);
+
+              a {
+                color: var(--white);
+              }
+            }
+          }
+        }
+        transition: all 0.2s ease-out;
+      }
+
+      .home-banner-card-wrapper {
+        padding: 39px 39px;
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          padding: 22px 34px;
+        }
+
+        .category {
+          display: none;
+
+          @media only screen and (min-width: 992px) {
+            letter-spacing: 0.19em;
+            text-transform: uppercase;
+            color: var(--grey);
+
+            @include home-banner-card-center-items();
+            @include home-banner-card-elements-margin();
+            @include home-banner-card-line-limit(1);
+            @include home-banner-card-text(
+              var(--franke-s-font-size),
+              var(--font-weight-base),
+              18px
+            );
+          }
+        }
+
+        .title {
+          @include home-banner-card-center-items();
+          @include home-banner-card-elements-margin();
+          @include home-banner-card-line-limit(3);
+          @include home-banner-card-text(
+            var(--franke-h5-font-size),
+            var(--font-weight-base),
+            32px
+          );
+
+          @media only screen and (min-width: 768px) and (max-width: 991px) {
+            @include home-banner-card-text(
+              var(--franke-h4-font-size),
+              var(--font-weight-base),
+              42px
+            );
+          }
+
+          @media only screen and (min-width: 992px) {
+            @include home-banner-card-text(
+              var(--franke-banner-card-title),
+              var(--font-weight-base),
+              48px
+            );
+          }
+        }
+
+        .desc {
+          display: none;
+
+          @media only screen and (min-width: 768px) and (max-width: 991px) {
+            @include home-banner-card-text(
+              var(--franke-font-size-base),
+              var(--font-weight-base),
+              21px
+            );
+          }
+
+          @media only screen and (min-width: 768px) {
+            margin-bottom: 25px;
+
+            @include home-banner-card-center-items();
+            @include home-banner-card-line-limit(2);
+          }
+
+          @media only screen and (min-width: 992px) {
+            @include home-banner-card-text(
+              var(--franke-font-size-base),
+              var(--font-weight-base),
+              24px
+            );
+            @include home-banner-card-line-limit(4);
+          }
+        }
+
+        .options {
+          flex-direction: row;
+          justify-content: space-evenly;
+
+          @include home-banner-card-center-items();
+
+          .explore-btn {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid var(--accent-color);
+            background-color: var(--accent-color);
+
+            @include home-banner-card-text(
+              var(--franke-m-font-size),
+              var(--font-weight-light),
+              19px
+            );
+
+            @media only screen and (max-width: 991px) {
+              height: 41px;
+            }
+
+            @media only screen and (min-width: 992px) {
+              height: 36px;
+              background-color: transparent;
+              color: var(--text-color);
+
+              @include home-banner-card-text(
+                var(--franke-button-font-size),
+                var(--font-weight-base),
+                22px
+              );
+            }
+
+            &:hover {
+              background-color: var(--brand-color);
+              border: 1px solid var(--brand-color);
+              color: var(--white);
+              transition: all 0.2s ease-out;
+            }
+            transition: all 0.2s ease-out;
+          }
+        }
+      }
+      transition: all 0.2s ease-out;
+    }
+
+    cx-generic-link ::ng-deep {
+      a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: var(--white);
+
+        @media only screen and (min-width: 992px) {
+          color: var(--accent-color);
+        }
+
+        &:hover {
+          color: var(--white);
+        }
+      }
+    }
+
+    .home-banner-img {
+      display: flex;
+      justify-content: flex-end;
+      flex: 100%;
+      img {
+        overflow: hidden;
+        width: 100%;
+        height: 442px;
+        object-fit: cover;
+
+        @media only screen and (min-width: 768px) {
+          width: 75%;
+          height: 390px;
+        }
+
+        @media only screen and (min-width: 992px) {
+          width: 65%;
+          height: 588px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

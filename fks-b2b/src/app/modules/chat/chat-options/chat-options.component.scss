@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  button {
+    background-color: var(--white);
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 42px 33px rgba(0, 0, 0, 0.05), 0px 22px 18px rgba(0, 0, 0, 0.041),
+    0px 13px 10px rgba(0, 0, 0, 0.035), 0px 7px 5px rgba(0, 0, 0, 0.028),
+    0px 3px 2px rgba(0, 0, 0, 0.019);
+    border-radius: 24px;
+    border-color: transparent;
+    margin-bottom: 16px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}

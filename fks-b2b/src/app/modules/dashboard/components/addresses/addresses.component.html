@@ -1,0 +1,67 @@
+<div class="addresses-card">
+  <div class="title">
+    {{ 'dashboard.deliveryAddressesTitle' | cxTranslate }}
+    <a
+      *ngIf="!hideAddButton"
+      [routerLink]="{ cxRoute: 'addressBook' } | cxUrl"
+      class="address-book-link"
+      routerLinkActive="router-link-active"
+    >
+      <cx-icon
+        class="{{ (isTabletOrDesktop$ | async) ? '' : 'small' }}"
+        type="PENCIL"
+      ></cx-icon>
+    </a>
+  </div>
+
+  <div class="delivery-cards-wrapper">
+    <ng-container *ngFor="let address of addresses$ | async">
+      <div *ngIf="!address.billingAddress" class="delivery-card">
+        <div *ngIf="address.companyName; else showDeliveryName" class="name">
+          {{ address.companyName }}
+        </div>
+        <ng-template #showDeliveryName>
+          <div *ngIf="address.firstName || address.lastName" class="name">
+            {{ address.firstName }} {{ address.lastName }}
+          </div>
+        </ng-template>
+        <div *ngIf="address.line1 || address.line2" class="street">
+          {{ address.line1 }}, {{ address.line2 }}
+        </div>
+        <div *ngIf="address.town" class="region">
+          {{ address.town }}, {{ address.country.isocode }}
+        </div>
+        <div *ngIf="address.postalCode" class="postal-code">
+          {{ address.postalCode }}
+        </div>
+      </div>
+    </ng-container>
+  </div>
+
+  <hr class="separator"/>
+
+  <div class="title">{{ 'dashboard.invoiceAddressesTitle' | cxTranslate }}</div>
+  <div class="invoice-cards-wrapper">
+    <ng-container *ngFor="let address of addresses$ | async">
+      <div *ngIf="address.billingAddress" class="invoice-card">
+        <div *ngIf="address.companyName; else showBillingName" class="name">
+          {{ address.companyName }}
+        </div>
+        <ng-template #showBillingName>
+          <div *ngIf="address.firstName || address.lastName" class="name">
+            {{ address.firstName }} {{ address.lastName }}
+          </div>
+        </ng-template>
+        <div *ngIf="address.line1 || address.line2" class="street">
+          {{ address.line1 }}, {{ address.line2 }}
+        </div>
+        <div *ngIf="address.town" class="region">
+          {{ address.town }} , {{ address.country.isocode }}
+        </div>
+        <div *ngIf="address.postalCode" class="postal-code">
+          {{ address.postalCode }}
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

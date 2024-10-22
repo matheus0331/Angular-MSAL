@@ -1,0 +1,37 @@
+@import '../../../shared/shared/scss/buttons.scss';
+
+.container {
+  padding: 0;
+}
+
+.cx-shipping-address-card {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .cx-shipping-address-card-inner {
+    border: 1px solid var(--grey);
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+}
+
+.card-container {
+  width: 100%;
+
+  .add {
+    font-size: var(--franke-extra-small-font-size);
+    color: var(--grey);
+
+    @media only screen and (min-width: 992px) {
+      font-size: var(--franke-font-size-base);
+    }
+  }
+}
+
+.row {
+  margin: 0;
+
+  @media only screen and (min-width: 992px) {
+    margin: 0 -15px;
+  }
+}

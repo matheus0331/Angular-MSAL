@@ -1,0 +1,117 @@
+{
+  "searchSupport": {
+    "placeholder": "Procurar aqui ....",
+    "results": "Resultado",
+    "manualTitle": "",
+    "manualDownload": "",
+    "text": "Procurar pelo FUN, referência do produto ou nome do produto",
+    "more": "Procure aqui...",
+    "allResults": "Mostrar todos os resultados para:",
+    "manualDescription": "",
+    "resultsFor": "Mostrar resultados para:"
+  },
+  "chat": {
+    "faq": "Não foi possível encontrar a resposta à sua pergunta nas nossas FAQs",
+    "message1": "Olá, Sou a Laura. A v. assistente. Como posso ajudar?",
+    "title": "Assistente Pessoal",
+    "message2": "Pode escolher uma das opções ou colocar uma questão.",
+    "contact": "Contactar Franke",
+    "complaint": "Pode usar o nosso formulário de contato!"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Precisa de ajuda com algum produto ou tem alguma questão?",
+    "title": "Olá, estamos aqui para ajudar"
+  },
+  "contactForm": {
+    "contactType": "Selecione a sub categoria",
+    "files": "Anexar imagens para apoiar a solicitação",
+    "funNumber": "Número do artigo",
+    "request": "Descreva a sua questão",
+    "ticketAddSucess": "Ticket criado",
+    "ticketAddFail": "Erro ao criar o ticket, tente novamente",
+    "subTitle2": "Selecione o produto",
+    "generalContactCategories": "Número do pedido",
+    "deleteFiles": "Excluir",
+    "productSubCategories": "Selecione a sub categoria",
+    "title": "Selecione o tipo de contato",
+    "subTitle1": "Selecione a categoria",
+    "productCategories": "Selecione o seu produto",
+    "orderNumber": "Número do Pedido"
+  },
+  "product": {
+    "id": "Produto"
+  },
+  "faq": {
+    "print": "Imprimir esta página",
+    "customerServicesQuestions": "Serviço ao cliente",
+    "pageTitle": "Perguntas Frequentes",
+    "productQuestionsTitle": "Produtos Franke",
+    "portalQuestionsTitle": "Portal de Cliente Franke",
+    "ordersAndShipmentQuestions": "Pedidos e Envios"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Pode ter até um máximo de 4 endereços.",
+    "updateAddress": "Atualizar endereço",
+    "editShippingAddress": "Editar endereço de entrega",
+    "deliveryAddressTitle": "Endereço de entrega",
+    "addNewShippingAddress": "Adicionar um novo endereço de entrega",
+    "addAddress": "Adicionar um endereço",
+    "billingAddressTitle": "Endereço de Cobrança",
+    "addNewAddress": "Adicione um novo endereço",
+    "backToAddressList": "Voltar à lista de endereços",
+    "areYouSureToDeleteAddress": "Tem certeza de que deseja excluir este endereço?"
+  },
+  "addressCard": {
+    "shipTo": "Enviar para",
+    "setAsDefault": "Definir por defeito",
+    "billTo": "Cobrança para",
+    "selected": "Selecionado",
+    "default": "Por defeito"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Sobrenome",
+      "placeholder": "Sobrenome"
+    },
+    "aptSuite": "nº , andar,",
+    "saveAsDefault": "Salvar por defeito",
+    "firstName": {
+      "label": "Primeiro nome",
+      "placeholder": "Primeiro nome"
+    },
+    "zipCode": {
+      "placeholder": "Código Postal",
+      "label": "Código Postal"
+    },
+    "address1": "Endereço 1",
+    "setAsDefault": "Definir por defeito",
+    "title": "Título",
+    "userAddressDeleteSuccess": "Endereço excluído com sucesso!",
+    "userAddressAddSuccess": "Novo endereço foi adicionado com sucesso!",
+    "city": {
+      "placeholder": "Cidade",
+      "label": "Cidade"
+    },
+    "invalidAddress": "Endereço inválido",
+    "chooseAddress": "Escolha endereço",
+    "phoneNumber": {
+      "placeholder": "(351) 916 123 124",
+      "label": "Número de telefone (opcional)"
+    },
+    "titleRequired": "Título é necessário",
+    "state": "distrito",
+    "address2": "Endereço 2 (opcional)",
+    "selectOne": "Selecione um...",
+    "country": "País",
+    "streetAddress": "rua",
+    "userAddressUpdateSuccess": "Endereço atualizado com sucesso!"
+  },
+  "wishlist": {
+    "addToCart": "Adicionar ao Carrinho",
+    "empty": "Não há produtos na sua lista de desejos"
+  }
+}

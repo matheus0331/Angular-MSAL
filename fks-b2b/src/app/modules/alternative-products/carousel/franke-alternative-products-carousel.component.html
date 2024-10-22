@@ -1,0 +1,94 @@
+<div class="franke-alternative-products-carousel-with-facets">
+  <div
+    *ngIf="facetsFilters && showCharaCharacteristics"
+    class="franke-alternative-products-facets d-none d-sm-flex align-items-end"
+  >
+    <app-franke-alternative-products-facets [facets]="facetsFilters">
+    </app-franke-alternative-products-facets>
+  </div>
+  <div
+    #frankeAlternativeProductsCarousel
+    [style.max-width]="containerMaxWidth"
+    class="franke-alternative-products-carousel"
+  >
+    <ng-container *ngIf="size$">
+      <ng-container *ngIf="size$ | async as size">
+        <ng-container *ngIf="products.length; else noResults">
+          <div [ngClass]="'size-' + size" class="carousel-panel">
+            <button
+              (click)="activeSlide = activeSlide - size"
+              *ngIf="size < products.length"
+              [disabled]="activeSlide === 0"
+              class="previous"
+            >
+              <cx-icon [type]="previousIcon"></cx-icon>
+            </button>
+
+            <div class="slides">
+              <ng-container *ngFor="let _ of products; let i = index">
+                <div
+                  *ngIf="i % size === 0"
+                  [class.active]="i === activeSlide"
+                  class="slide"
+                >
+                  <ng-container
+                    *ngFor="
+                      let product of products | slice: i:i + size;
+                      let j = index
+                    "
+                  >
+                    <div
+                      *ngIf="product"
+                      [class.active]="i === activeSlide"
+                      class="item"
+                    >
+                      <app-franke-alternative-products-carousel-item
+                        *ngIf="facetsFilters"
+                        [actionButtonLabel]="actionButtonLabel"
+                        [facets]="facetsFilters"
+                        [imageHeight]="imageHeight"
+                        [itemWidth]="maxItemWidth"
+                        [product]="product"
+                        [showCharaCharacteristics]="showCharaCharacteristics"
+                      />
+                    </div>
+                  </ng-container>
+                </div>
+              </ng-container>
+            </div>
+
+            <button
+              (click)="activeSlide = activeSlide + size"
+              *ngIf="size < products.length"
+              [disabled]="activeSlide > products.length - size - 1"
+              class="next"
+              tabindex="-1"
+            >
+              <cx-icon [type]="nextIcon"></cx-icon>
+            </button>
+          </div>
+          <div
+            *ngIf="!hideIndicators && size < products.length"
+            class="indicators"
+          >
+            <ng-container *ngFor="let _ of products; let i = index">
+              <button
+                (focus)="activeSlide = i"
+                *ngIf="i % size === 0"
+                [disabled]="i === activeSlide"
+                tabindex="-1"
+              >
+                <cx-icon [type]="indicatorIcon"></cx-icon>
+              </button>
+            </ng-container>
+          </div>
+        </ng-container>
+        <ng-template #noResults>
+          <p class="text-center py-3 my-5">
+            {{ 'alternativeProducts.noRecommendations' | cxTranslate }}
+          </p>
+        </ng-template>
+      </ng-container>
+    </ng-container>
+  </div>
+</div>

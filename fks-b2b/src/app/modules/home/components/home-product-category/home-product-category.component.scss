@@ -1,0 +1,296 @@
+@mixin products-elements-center-content {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin text-style($font-size, $font-weight, $line-height) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+.prodcuts-explore-message {
+  @include products-elements-center-content();
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 16px;
+  text-align: center;
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    margin-bottom: 28px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    margin: 0 8px 44px;
+  }
+
+  .products-explore-label {
+    @include products-elements-center-content();
+    margin: 0 51px 4px 51px;
+    text-transform: uppercase;
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      margin: 0 16px 8px 16px;
+    }
+
+    h3 {
+      @include text-style(
+          var(--franke-button-font-size),
+          var(--font-weight-base),
+          21px
+      );
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include text-style(
+            var(--franke-font-size-base),
+            var(--font-weight-base),
+            24px
+        );
+      }
+
+      @media only screen and (min-width: 992px) {
+        @include text-style(
+            var(--franke-h4-font-size),
+            var(--font-weight-base),
+            34px
+        );
+      }
+    }
+  }
+
+  .products-explore-description {
+    margin: 0 8px;
+    @include products-elements-center-content();
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      margin: 0 110px;
+    }
+
+    @media only screen and (min-width: 992px) {
+      margin-top: 28px;
+    }
+
+    p {
+      margin-bottom: 0;
+      @include text-style(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          18px
+      );
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include text-style(
+            var(--franke-s-font-size),
+            var(--font-weight-base),
+            18px
+        );
+      }
+
+      @media only screen and (min-width: 992px) {
+        @include text-style(
+            var(--franke-font-size-base),
+            var(--font-weight-base),
+            24px
+        );
+      }
+    }
+  }
+
+  .products-explore-btn {
+    margin-top: 16px;
+    @include products-elements-center-content();
+
+    button {
+      font-size: var(--franke-button-font-size);
+      line-height: 21px;
+      /* identical to box height */
+
+      text-align: center;
+
+      &:hover {
+        background-color: var(--brand-color);
+        border: 1px solid var(--brand-color);
+      }
+    }
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px;
+}
+
+.child.featured {
+  grid-row-end: span 2;
+}
+
+.product-category-wrapper {
+  display: flex;
+  min-height: 255px;
+
+  .product-category-img-small {
+    img {
+      width: 283px;
+      height: 265px;
+    }
+  }
+
+  .product-category-img-large {
+    img {
+      width: 589px;
+      height: 544px;
+      object-fit: cover;
+    }
+  }
+
+  .product-category-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 0px 0px 0px 24px;
+    color: var(--text-color);
+
+    .product-category-label {
+      text-transform: uppercase;
+      font-weight: var(--font-weight-base);
+      margin-bottom: 8px;
+    }
+
+    .product-category-desc {
+      word-break: keep-all;
+      font-size: var(--franke-font-size-base);
+      line-height: 24px;
+      margin-bottom: 8px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 6; /* number of lines to show */
+      line-clamp: 6;
+      -webkit-box-orient: vertical;
+    }
+
+    .explore-btn {
+      font-size: var(--franke-button-font-size);
+      line-height: 21px;
+      text-align: center;
+      max-width: 103px;
+      height: 46px;
+      background-color: var(--accent-color);
+      transition: all 0.2s ease-out;
+
+      &:hover {
+        background-color: var(--brand-color);
+        border: 1px solid var(--brand-color);
+        transition: all 0.2s ease-out;
+      }
+    }
+  }
+}
+
+cx-generic-link ::ng-deep {
+  a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--white);
+
+    &:hover {
+      color: var(--white);
+    }
+  }
+}
+
+.mobile-category-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    width: 736px;
+    margin: auto;
+  }
+
+  .mobile-category-img {
+    margin-bottom: 16px;
+
+    img {
+      width: 283px;
+      height: 265px;
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        width: 736px;
+        height: 250px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .mobile-category-label {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 8px;
+
+    @include text-style(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px
+    );
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      margin-bottom: 0;
+      width: 100%;
+      text-align: start;
+    }
+  }
+
+  .mobile-category-desc {
+    text-align: center;
+    margin-bottom: 22px;
+
+    @include text-style(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        18px
+    );
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      width: 100%;
+      text-align: start;
+      margin-bottom: 20px;
+    }
+  }
+
+  .explore-btn {
+    word-break: break-all;
+    width: 100%;
+    color: var(--text-color);
+    text-align: center;
+    max-width: 287px;
+    height: 46px;
+    background-color: var(--accent-color);
+    transition: all 0.2s ease-out;
+    margin-bottom: 16px;
+
+    @include text-style(
+        var(--franke-s-font-size),
+        var(--font-weight-base),
+        22px
+    );
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      max-width: 736px;
+    }
+
+    &:hover {
+      background-color: var(--brand-color);
+      border: 1px solid var(--brand-color);
+      transition: all 0.2s ease-out;
+    }
+  }
+}

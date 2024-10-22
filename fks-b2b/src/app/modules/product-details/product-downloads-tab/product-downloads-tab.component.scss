@@ -1,0 +1,146 @@
+@import '../../../../assets/scss/typography';
+
+:host ::ng-deep .btn {
+  width: 100%;
+  border: none;
+  background-color: var(--white);
+
+  &:focus {
+    box-shadow: none;
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.container {
+  font-size: var(--franke-s-font-size);
+
+  @media only screen and (max-width: 991px) {
+    padding: 0;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    font-size: var(--franke-m-font-size);
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: var(--franke-font-size-base);
+  }
+}
+
+.no-details {
+  @media only screen and (max-width: 991px) {
+    font-size: var(--franke-m-font-size);
+  }
+}
+
+.accordion-button {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  font-size: var(--franke-s-font-size);
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    font-size: var(--franke-m-font-size);
+  }
+
+  @media only screen and (min-width: 992px) {
+    font-size: var(--franke-font-size-base);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  .indicator {
+    color: var(--brand-color);
+  }
+}
+
+.product-downloads {
+  width: 100%;
+
+  tr {
+    border-top: 1px solid var(--wrapper-border-color);
+    border-bottom: 1px solid var(--wrapper-border-color);
+  }
+
+  .feature-name {
+    width: 50%;
+    background-color: #f0f0f0;
+    padding: 8px 45px;
+  }
+
+  .feature-value {
+    width: 50%;
+    padding: 8px 0;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  .performance-header {
+    background-color: #f0f0f0;
+    padding: 8px 45px;
+  }
+
+  .performance-value {
+    padding: 8px 45px;
+  }
+}
+
+.product-downloads {
+  .name {
+    @media only screen and (max-width: 767px) {
+      padding: 15px;
+    }
+  }
+
+  .value {
+    @media only screen and (max-width: 767px) {
+      padding: 15px;
+      ul {
+        padding-inline-start: 0px;
+      }
+    }
+  }
+}
+
+.performance-table-wrapper {
+  @media only screen and (max-width: 991px) {
+    overflow-x: scroll;
+  }
+
+  .product-performance-attributes {
+    @media only screen and (max-width: 991px) {
+      width: 900px;
+    }
+  }
+}
+
+.symbol {
+  display: flex;
+
+  .symbol-container {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 20px;
+
+    .symbol-content {
+      display: inline-flex;
+      align-items: center;
+
+      .symbol-img {
+        margin-right: 10px;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

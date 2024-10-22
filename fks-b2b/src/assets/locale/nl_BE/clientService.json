@@ -1,0 +1,56 @@
+{
+  "searchSupport": {
+    "placeholder": "Zoek hier...",
+    "results": "Resultaten",
+    "manualTitle": "Gebruiksaanwijzing",
+    "manualDownload": "Download Specificatie",
+    "text": "Zoeken naar een FUN nummer, een model of document",
+    "more": "Meer",
+    "allResults": "Alle resultaten",
+    "manualDescription": "",
+    "resultsFor": "Resultaten voor:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal Vragen",
+    "message1": "Hallo, ik ben Laura. Ik ben je client-agent. Hoe kan ik u helpen?",
+    "title": "Persoonlijke assistent",
+    "message2": "U kunt kiezen uit de optie of stel uw eigen vraag.",
+    "contact": "Contact Franke",
+    "complaint": "Een klacht indienen"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Heeft u hulp nodig bij uw product of een vraag waar je een snel antwoord op wil?",
+    "title": "Hallo, wij zijn hier om je te helpen"
+  },
+  "contactForm": {
+    "contactType": "Selecteer het type contact",
+    "files": "Afbeeldingen uploaden naar uw verzoek te ondersteunen",
+    "funNumber": "Artikel Nummer",
+    "request": "Beschrijf uw verzoek",
+    "ticketAddSucess": "Ticket gemaakt!",
+    "ticketAddFail": "Fout bij het maken ticket, probeer het opnieuw!",
+    "subTitle2": "gewoon gebruik maken van ons contact formulier!",
+    "generalContactCategories": "Selecteer de categorie",
+    "deleteFiles": "Verwijderen",
+    "productSubCategories": "Selecteer de subcategorie",
+    "title": "Verdere vragen?",
+    "subTitle1": "Kunt u het antwoord op uw vraag in onze FAQ niet vinden",
+    "productCategories": "Selecteer het product",
+    "orderNumber": "Ordernummer"
+  },
+  "product": {
+    "id": "ID"
+  },
+  "faq": {
+    "print": "Print deze pagina",
+    "customerServicesQuestions": "Klantenservice",
+    "pageTitle": "Veel Gestelde Vragen",
+    "productQuestionsTitle": "Franke producten",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Orders en Verzending"
+  },
+  "videoTutorial": {
+    "title": ""
+  }
+}

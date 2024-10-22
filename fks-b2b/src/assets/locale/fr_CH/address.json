@@ -1,0 +1,113 @@
+{
+  "searchSupport": {
+    "placeholder": "Recherchez ici...",
+    "results": "Résultats",
+    "manualTitle": "Le manuel du propriétaire",
+    "manualDownload": "Télécharger Spécification",
+    "text": "Rechercher un FUN, un modèle ou un document",
+    "more": "Plus",
+    "allResults": "Tous les résultats",
+    "manualDescription": "Le document le plus complet sur la configuration et l'utilisation du produit.",
+    "resultsFor": "Afficher les résultats pour :"
+  },
+  "chat": {
+    "faq": "Questions du portail BTOB",
+    "message1": "Bonjour! Je suis Laurent. Comment puis-je vous aider?",
+    "title": "Assistant FRANKE",
+    "message2": "Vous pouvez sélectionner  une des questions suivantes ou poser directement votre question",
+    "contact": "Contact FRANKE",
+    "complaint": "Soumettre une réclamation"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Besoin d'aide sur votre produit ou d'une réponse rapide?",
+    "title": "Bonjour, nous sommes là pour vous aider"
+  },
+  "contactForm": {
+    "contactType": "Choisir un contact",
+    "files": "Téléchargez des images pour illustrer votre demande",
+    "funNumber": "ID",
+    "request": "Décrivez votre demande",
+    "ticketAddSucess": "Votre ticket a été créé avec succés",
+    "ticketAddFail": "Votre ticket n'a pas été créé avec succès. Veuillez réessayer",
+    "subTitle2": "Utilisez tout simplement notre formulaire!",
+    "generalContactCategories": "Choisir une catégorie",
+    "deleteFiles": "Supprimer",
+    "productSubCategories": "Choisir une sous-catégorie",
+    "title": "Plus de questions?",
+    "subTitle1": "Nous ne trouvons pas la réponse à votre question dans notre FAQs",
+    "productCategories": "Choisir un produit",
+    "orderNumber": "Numéro de commande"
+  },
+  "product": {
+    "id": "Référence"
+  },
+  "faq": {
+    "print": "Imprimer cette page",
+    "customerServicesQuestions": "Service Client",
+    "pageTitle": "Questions fréquemment posées",
+    "productQuestionsTitle": "Produits Franke",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Commandes et Expédition"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Vous pouvez avoir jusqu'à 4 adresses maximum.",
+    "updateAddress": "Mettre à jour l'adresse",
+    "editShippingAddress": "Modifier l'adresse de livraison",
+    "deliveryAddressTitle": "Adresse de livraison",
+    "addNewShippingAddress": "Ajouter une nouvelle adresse de livraison",
+    "addAddress": "Ajouter l'adresse",
+    "billingAddressTitle": "Adresse de facturation",
+    "addNewAddress": "Ajouter une nouvelle adresse",
+    "backToAddressList": "Retour à la liste d'adresses",
+    "areYouSureToDeleteAddress": "Etes-vous sûr de vouloir supprimer cette adresse?"
+  },
+  "addressCard": {
+    "shipTo": "Livrer à",
+    "setAsDefault": "Définir par défaut",
+    "billTo": "Adresse de facturation",
+    "selected": "Sélectionné",
+    "default": "DÉFAUT"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Nom de famille",
+      "placeholder": "Nom de famille"
+    },
+    "aptSuite": "Apt, Suite",
+    "saveAsDefault": "Enregistrer par défaut",
+    "firstName": {
+      "label": "Prénom",
+      "placeholder": "Prénom"
+    },
+    "zipCode": {
+      "placeholder": "Code postal",
+      "label": "Code postal"
+    },
+    "address1": "Adresse 1",
+    "setAsDefault": "Définir par défaut",
+    "title": "Civilité",
+    "userAddressDeleteSuccess": "L'adresse a été supprimée avec succès!",
+    "userAddressAddSuccess": "La nouvelle adresse a été ajoutée avec succès!",
+    "city": {
+      "placeholder": "Ville",
+      "label": "Ville"
+    },
+    "invalidAddress": "Adresse invalide",
+    "chooseAddress": "Choisir l'adresse",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "Numéro de téléphone (facultatif)"
+    },
+    "titleRequired": "La civilité est requise",
+    "state": "Statut",
+    "address2": "Adresse 2 (facultatif)",
+    "selectOne": "Sélectionner un ...",
+    "country": "Pays",
+    "streetAddress": "Rue",
+    "userAddressUpdateSuccess": "L'adresse a été mise à jour avec succès!"
+  }
+}

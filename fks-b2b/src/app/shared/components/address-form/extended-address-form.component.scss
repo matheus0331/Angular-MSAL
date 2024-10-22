@@ -1,0 +1,20 @@
+:host {
+  color: var(--grey);
+}
+
+.btn-action {
+  background-color: transparent;
+  color: var(--accent-color);
+
+  &:hover {
+    background-color: var(--brand-color);
+    color: var(--white);
+  }
+}
+
+:host ::ng-deep {
+  ng-select, input, input[type=checkbox] {
+    border: 1px solid var(--wrapper-border-color);
+    border-radius: 0.25rem;
+  }
+}

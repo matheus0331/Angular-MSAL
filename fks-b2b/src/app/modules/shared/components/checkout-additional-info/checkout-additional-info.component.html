@@ -1,0 +1,100 @@
+<form (ngSubmit)="proceedToCheckout()" [formGroup]="additionalInfoForm">
+  <div class="additional-info-wrapper container">
+    <div class="additional-info-title">
+      {{ 'additionalInfo.title' | cxTranslate }}
+    </div>
+    <div>
+      <div class="input-title delivery-date-info">
+        {{ 'cartItems.deliveryDate' | cxTranslate }}
+        <div class="delivery-date-icon">
+          <cx-icon type="QUESTION_CIRCLE"></cx-icon>
+          <span class="delivery-date-info-text">
+            {{ 'cartItems.deliveryDateInfo' | cxTranslate }}
+          </span>
+        </div>
+      </div>
+      <div class="date-input-wrapper">
+        <input
+          #d="ngbDatepicker"
+          (click)="d.toggle()"
+          (dateSelect)="refreshProductAvailabilityCheck()"
+          [dayTemplate]="customDay"
+          [displayMonths]="displayMonths"
+          [markDisabled]="isWeekend"
+          [minDate]="isDisabled"
+          [navigation]="navigation"
+          [outsideDays]="outsideDays"
+          [readonly]="true"
+          [showWeekNumbers]="showWeekNumbers"
+          class="date-input"
+          formControlName="deliveryDate"
+          name="deliveryDate"
+          ngbDatepicker
+          placeholder="{{ datePlaceholder }}"
+        />
+
+        <div
+          (click)="clearDateInput()"
+          *ngIf="additionalInfoForm.get('deliveryDate').value"
+          class="clear-button-wrapper"
+        >
+          <cx-icon class="small" type="CLOSE"></cx-icon>
+        </div>
+
+        <div (click)="d.toggle()" class="calendar-button-wrapper">
+          <cx-icon type="CALENDAR"></cx-icon>
+        </div>
+      </div>
+      <cx-form-errors
+        [control]="additionalInfoForm.get('deliveryDate')"
+      ></cx-form-errors>
+    </div>
+    <div>
+      <div class="input-title">
+        {{ 'additionalInfo.orderNumber' | cxTranslate }}
+        <div class="aditionalInfo-icon">
+          <cx-icon type="QUESTION_CIRCLE"></cx-icon>
+          <span class="aditionalInfo-info-text">
+            {{ 'additionalInfo.poNumber' | cxTranslate }}
+          </span>
+        </div>
+      </div>
+      <input
+        class="text-input"
+        formControlName="orderNumber"
+        name="orderNumber"
+        placeholder="{{ inputPlaceholder }}"
+        required
+        type="text"
+      />
+      <cx-form-errors
+        [control]="additionalInfoForm.get('orderNumber')"
+      ></cx-form-errors>
+    </div>
+  </div>
+
+  <ng-template
+    #customDay
+    let-currentMonth="currentMonth"
+    let-date
+    let-disabled="disabled"
+    let-selected="selected"
+  >
+    <span
+      [class.bg-primary]="selected"
+      [class.weekend]="isRange(date)"
+      class="ngb-dp-day custom-day"
+    >
+      {{ date.day }}
+    </span>
+  </ng-template>
+
+  <div class="buttons-wrapper container">
+    <button class="btn left-button" routerLink="/" type="button">
+      {{ 'cartDetails.continueShopping' | cxTranslate }}
+    </button>
+    <button class="btn right-button" type="submit">
+      {{ 'cartDetails.proceedToCheckout' | cxTranslate }}
+    </button>
+  </div>
+</form>

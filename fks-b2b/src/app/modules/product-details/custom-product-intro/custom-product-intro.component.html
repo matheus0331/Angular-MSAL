@@ -1,0 +1,60 @@
+<ng-container *ngIf="product$ | async as product">
+  <h5 *ngIf="product.longTitle" class="name">{{ product.longTitle }}</h5>
+
+  <div *ngIf="product.potentialPromotions[0]" class="promotion-wrapper">
+    <div class="promotion">
+      <span>{{ product.potentialPromotions[0].description }}</span>
+    </div>
+    <div class="price-discount-tooltip">
+      <cx-icon type="QUESTION_CIRCLE"></cx-icon>
+      <span class="price-discount-tooltip-text">{{
+        'productSummary.promotionTooltip' | cxTranslate
+        }}</span>
+    </div>
+  </div>
+
+  <div *ngIf="product.price" class="price-wrapper">
+    {{ 'productSummary.catalogPrice' | cxTranslate }}:
+
+    <h3 class="font-weight-bold price">
+      {{ product.price?.formattedValue }}
+    </h3>
+    <div class="availability-check-date-icon">
+      <cx-icon type="QUESTION_CIRCLE"></cx-icon>
+      <span class="availability-check-date-info-text">
+        {{ 'productSummary.availabilityCheck.priceTooltip' | cxTranslate }}
+      </span>
+    </div>
+  </div>
+
+  <div class="code d-flex align-items-center justify-content-between">
+    <p *ngIf="false">
+      <span>{{ 'productSummary.localSalesNumber' | cxTranslate }} </span
+      >{{ product.localSalesNumber }}
+    </p>
+    <p>
+      <span>{{ 'productSummary.id' | cxTranslate }} </span>{{ product.code }}
+    </p>
+  </div>
+  <div
+    *ngIf="isProductAvailable$ | async as isProductAvailable"
+    class="substitute-products-wrapper"
+  >
+    <a
+      (click)="scrollToSubstituteProducts()"
+      *ngIf="
+        (isProductAvailable | cxTranslate) !==
+          ('addToCart.inStock' | cxTranslate) && substituteProducts$ | async
+      "
+      class="view-mode"
+    >
+      {{ 'productSummary.substitutesProducts' | cxTranslate }}
+    </a>
+  </div>
+</ng-container>
+
+<ng-template #loading>
+  <div class="spinner">
+    <cx-spinner></cx-spinner>
+  </div>
+</ng-template>

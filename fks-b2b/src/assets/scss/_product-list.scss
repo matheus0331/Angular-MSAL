@@ -1,0 +1,63 @@
+%ProductListPageTemplate,
+%ProductGridPageTemplate,
+%SearchResultsListPageTemplate {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
+  }
+  .ProductLeftRefinements {
+    display: none;
+  }
+  .ProductListSlot,
+  .ProductGridSlot,
+  .SearchResultsListSlot {
+    max-width: 100%;
+
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      max-width: none;
+    }
+  }
+}
+
+.ng-select {
+  display: flex;
+  border-radius: 0.25rem;
+  transition: none;
+  &.ng-select-focused:not(.ng-select-opened) > .ng-select-container {
+    border: none;
+    box-shadow: none;
+  }
+
+  .ng-select-container {
+    border: none;
+    min-width: 100px;
+    width: auto;
+    &:hover {
+      box-shadow: none;
+      cursor: pointer;
+    }
+    .ng-value-container {
+      .ng-placeholder {
+        color: var(--grey);
+      }
+    }
+  }
+  span.ng-arrow-wrapper {
+    .ng-arrow {
+      display: none;
+    }
+    &::before {
+      content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 -4 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+    }
+  }
+  &.ng-select-single {
+    .ng-dropdown-panel {
+      width: 100%;
+      left: auto;
+      right: 0;
+    }
+  }
+}

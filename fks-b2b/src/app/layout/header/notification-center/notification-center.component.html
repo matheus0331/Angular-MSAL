@@ -1,0 +1,43 @@
+<div class="wrapper">
+  <div (click)="toggleMenu()">
+    <cx-icon type="NOTIFICATIONS"></cx-icon>
+    <div *ngIf="unreadNotifications$ | async" class="badge"></div>
+  </div>
+
+  <ng-template [ngIf]="isMenuOpen$ | async">
+    <div class="dropdown">
+      <div
+        *ngIf="(isDesktop$ | async) === false; else desktop"
+        class="top-part"
+      >
+        <div (click)="toggleMenu()" class="close-menu">
+          <cx-icon class="large" type="CHEVRON_LEFT"></cx-icon>
+        </div>
+        <div class="title">
+          {{ 'notificationCenter.notifications' | cxTranslate }}
+        </div>
+      </div>
+      <ng-template #desktop>
+        <div *ngIf="(isDesktop$ | async) === true" class="title">
+          {{ 'notificationCenter.notifications' | cxTranslate }}
+        </div>
+      </ng-template>
+
+      <div *ngIf="allNotifications$ | async as allNotifications; else noNotifications" class="notification-list">
+        <div (click)="readNotification(notification)"
+             *ngFor="let notification of allNotifications"
+             [class.unread]="!notification.read"
+        >
+          <app-notification-item [notification]="notification"></app-notification-item>
+        </div>
+      </div>
+      <ng-template #noNotifications>
+        <div class="no-notifications">
+          <p>
+            {{ 'notificationCenter.noNotifications' | cxTranslate }}
+          </p>
+        </div>
+      </ng-template>
+    </div>
+  </ng-template>
+</div>

@@ -1,0 +1,42 @@
+<div
+  *ngIf="(activeStepIndex$ | async) !== undefined && isMobileOrTable$ | async"
+  class="container"
+>
+  <div *ngIf="cart$ | async as cart">
+    <div class="cx-media">
+      <div *ngFor="let step of steps$ | async; let i = index">
+        <div *ngIf="i < activeStepIndex" class="cx-list-media not-active">
+          <div class="step-wrapper">
+            <div class="step-icon">
+              <cx-icon
+                [class.step-done]="stepDone(i)"
+                type="{{ stepIcon(i) }}"
+              ></cx-icon>
+            </div>
+            <span class="step-name">{{ step.name | cxTranslate }}</span>
+            <button
+              [routerLink]="{ cxRoute: step.routeName } | cxUrl"
+              class="btn btn-link"
+            >
+              {{ 'common.edit' | cxTranslate }}
+            </button>
+          </div>
+        </div>
+        <div *ngIf="i === activeStepIndex" class="cx-list-media is-active">
+          <div class="step-wrapper">
+            <div class="step-icon">
+              <cx-icon
+                [class.step-done]="stepDone(i)"
+                type="{{ stepIcon(i) }}"
+              ></cx-icon>
+            </div>
+            <span class="step-name">{{ step.name | cxTranslate }}</span>
+          </div>
+          <div class="step-task">
+            {{ setCurrentStepTask(activeStepIndex$ | async) | cxTranslate }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

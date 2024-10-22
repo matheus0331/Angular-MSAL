@@ -1,0 +1,15 @@
+<ng-container *ngIf="frankeBannerComponent$ | async as frankeBannerComponent">
+  <div class="choped-background"></div>
+
+  <app-franke-banner-left
+    [frankeBannerComponent]="frankeBannerComponent"
+    *ngIf="frankeBannerComponent?.orientation === 'IMAGELEFT'"
+  >
+  </app-franke-banner-left>
+
+  <app-franke-banner-right
+    [frankeBannerComponent]="frankeBannerComponent"
+    *ngIf="frankeBannerComponent?.orientation === 'IMAGERIGHT'"
+  >
+  </app-franke-banner-right>
+</ng-container>

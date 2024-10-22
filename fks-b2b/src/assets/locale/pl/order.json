@@ -1,0 +1,1207 @@
+{
+  "searchSupport": {
+    "placeholder": "Szukaj tutaj...",
+    "results": "Wyniki",
+    "manualTitle": "Instrukcja użytkowania",
+    "manualDownload": "Pobierz specyfikację",
+    "text": "Wpisz numer katalogowy, model lub symbol produktu",
+    "more": "Więcej",
+    "allResults": "Wszystkie wyniki",
+    "manualDescription": "Dokumentacja produktu",
+    "resultsFor": "Pokazuje wyniki dla:"
+  },
+  "chat": {
+    "faq": "Franke Portal B2B pytania",
+    "message1": "Cześć, jestem Laura. Jestem specjalistą ds. obsługi klienta. Jak mogę ci pomóc?",
+    "title": "Osobisty asystent",
+    "message2": "Możesz wybrać jedną z opcji poniżej lub zadać własne pytanie.",
+    "contact": "Kontakt Franke",
+    "complaint": "Złóż zażalenie"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "",
+    "title": "Dzień dobry, jeśli poszukujesz informacji o produkcie Franke"
+  },
+  "contactForm": {
+    "contactType": "Wybierz sposób kontaktu",
+    "files": "Dodaj zdjęcia do swojego zapytania",
+    "funNumber": "Nr katalogowy",
+    "request": "Opisz swoje zapytanie",
+    "ticketAddSucess": "Zapytanie wysłane",
+    "ticketAddFail": "Błąd podczas wysyłania zapytania, spróbuj ponownie.",
+    "subTitle2": "Jeśli Twoje pytanie dotyczy produktów Franke, zapraszamy do zakładki \"FAQ / pytania i odpowiedzi\" na stronie www.franke.pl.",
+    "generalContactCategories": "Wybierz kategorię",
+    "deleteFiles": "Usuń",
+    "productSubCategories": "Wybierz podkategorię",
+    "title": "Więcej pytań?",
+    "subTitle1": "Jeżeli nie możesz znaleźć odpowiedzi na swoje pytanie w zakładce często zadawane pytania. Możesz skorzystać z formularza kontaktowego!",
+    "productCategories": "Wybierz produkt",
+    "orderNumber": "Numer zamówienia"
+  },
+  "product": {
+    "id": "Nr katalogowy"
+  },
+  "faq": {
+    "print": "Wydrukuj tę stronę",
+    "customerServicesQuestions": "Obsługa klienta",
+    "pageTitle": "Często Zadawane Pytania",
+    "productQuestionsTitle": "Produkty Franke",
+    "portalQuestionsTitle": "Franke Portal B2B",
+    "ordersAndShipmentQuestions": "Zamówienia i wysyłka"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "Można korzystać maksymalnie z 4 adresów.",
+    "updateAddress": "Aktualizacja adresu",
+    "editShippingAddress": "Edytuj adres dostawy",
+    "deliveryAddressTitle": "Adres dostawy",
+    "addNewShippingAddress": "Dodaj nowy adres dostawy",
+    "addAddress": "Dodaj adres",
+    "billingAddressTitle": "Adres rozliczeniowy",
+    "addNewAddress": "Dodaj nowy adres",
+    "backToAddressList": "Powrót do listy adresowej",
+    "areYouSureToDeleteAddress": "Czy na pewno chcesz usunąć ten adres?"
+  },
+  "addressCard": {
+    "shipTo": "Dostawa do",
+    "setAsDefault": "Ustaw jako domyślny",
+    "billTo": "Adres do faktury",
+    "selected": "Wybrany",
+    "default": "Domyślny"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Nazwisko",
+      "placeholder": "Nazwisko"
+    },
+    "aptSuite": "Nr lokalu",
+    "saveAsDefault": "Zapisz jako domyślny",
+    "firstName": {
+      "label": "Imię",
+      "placeholder": "Imię"
+    },
+    "zipCode": {
+      "placeholder": "Kod pocztowy",
+      "label": "Kod pocztowy"
+    },
+    "address1": "Adres 1",
+    "setAsDefault": "Ustaw jako domyślny",
+    "title": "Zwrot grzecznościowy",
+    "userAddressDeleteSuccess": "Adres usunięty pomyślnie!",
+    "userAddressAddSuccess": "Nowy adres został dodany pomyślnie!",
+    "city": {
+      "placeholder": "Miasto",
+      "label": "Miasto"
+    },
+    "invalidAddress": "Błędny adres",
+    "chooseAddress": "Wybierz adres",
+    "phoneNumber": {
+      "placeholder": "(55) 555 - 0123",
+      "label": "numer telefonu (opcjonalnie)"
+    },
+    "titleRequired": "Proszę wybrać zwrot grzecznościowy",
+    "state": "Województwo",
+    "address2": "Adres 2 (opcjonalnie)",
+    "selectOne": "Wybierz jeden...",
+    "country": "Kraj",
+    "streetAddress": "Ulica",
+    "userAddressUpdateSuccess": "Adres zaktualizowany!"
+  },
+  "wishlist": {
+    "addToCart": "Dodaj do koszyka",
+    "empty": "Brak produktów na liście życzeń"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Czy utworzyć konto?",
+    "invoiceHasBeenSentByEmail": "Otrzymasz potwierdzenie zamówienia za pośrednictwem poczty e-mail",
+    "placedOn": "Umieszczone na",
+    "status": "Status",
+    "frequency": "Częstotliwość",
+    "orderItems": "Zamów produkty",
+    "orderPlacedSuccessfully": "Zamówienie złożone pomyślnie",
+    "nextOrderDate": "Następna data zamówienia",
+    "confirmationOfOrder": "Potwierdzenie zamówienia:",
+    "cancelled": "Anulowane",
+    "createAccountForNext": "Załóż konto dla <{{email}}> aby łatwiej  realizować transakcje w przyszłości.",
+    "replenishmentNumber": "Uzupełnienie #",
+    "orderNumber": "Numer zamówienia",
+    "thankYou": "Dziękujemy za Twoje zamówienie!",
+    "active": "Aktywny"
+  },
+  "checkoutPO": {
+    "placeholder": "Wprowadź nr zamówienia",
+    "poNumber": "Numer zamówienia",
+    "availableLabel": "Dostępne adresy dostawy zależą od centra powstawania kosztów",
+    "costCenter": "Centrum powstawania kosztów",
+    "noPoNumber": "Żaden"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Automatyczne uzupełnianie zamówienia",
+    "confirmThatRead": "Potwierdzam, że zapoznałem się i wyrażam zgodę na",
+    "termsAndConditions": "Zasady i Warunki",
+    "recurrencePeriodType_WEEKLY": "Tydzień (tygodnie)",
+    "poNumber": "Numer zamówienia",
+    "dayOfMonth": "W dniu",
+    "every": "Każdy",
+    "placeOrder": "Złóż zamówienie",
+    "scheduleReplenishmentOrder": "Harmonogram uzupełniania zamówień",
+    "recurrencePeriodType_DAILY": "Dzień (dni)",
+    "repeatOnDays": "Powtórzyć w następnych dniach",
+    "funNumber": "Nr katalogowy: {{fun}}",
+    "editShippingAddress": "Edytuj adres dostawy",
+    "startOn": "Zaczynaj od",
+    "additionalDetailsTitle": "Dodatkowe szczegóły zamówienia",
+    "deliveryAddressTitle": "Adres dostawy",
+    "orderType_PLACE_ORDER": "Brak (tylko jednorazowe zamówienie)",
+    "invoiceAddressTitle": "Adres rozliczeniowy",
+    "recurrencePeriodType_MONTHLY": "Miesiąc",
+    "requestedDate": "Data złożenia zamówienia:",
+    "orderType": "Typ zamówienia:",
+    "checkoutError": "Wystąpił błąd. Skontaktuj się z obsługą klienta",
+    "itemsTitle": "Zamówione produkty",
+    "additionalReference": "Dodatkowe odniesienia:",
+    "orderItems": "Zamówione produkty",
+    "quantity": "Ilość: {{count}}",
+    "reference": "Odniesienie",
+    "orderNumber": "Numer zamówienia:",
+    "review": "Sprawdź",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Uzupełnienie zamówienie",
+    "deliveryDate": "Wymagana data dostawy:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Adres dostawy",
+    "reviewOrder": "PODGLĄD ZAMÓWIENIA",
+    "paymentDetails": "Szczegóły płatności",
+    "billingTask": "Wybrany adres do faktury",
+    "billingAddress": "Adres na fakturze",
+    "methodOfPayment": "Metoda płatności",
+    "deliveryMode": "Sposób dostawy",
+    "reviewTask": "Sprawdź podsumowanie swojego zamówienia",
+    "shippingTask": "Wybrany adres dostawy",
+    "invoicePayment": "Faktura płatności"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Domyślny adres na fakturze",
+    "enteredAddress": "Wprowadzony adres",
+    "selectYourInvoiceAddress": "Wybierz swój adres na fakturze",
+    "verifyYourAddress": "Sprawdź swój adres",
+    "invoiceAddress": "Adres do faktury",
+    "editAddress": "Edytuj adres",
+    "chooseAddressToUse": "Proszę wybrać adres, którego chcesz użyć:",
+    "shipToThisAddress": "Dostawa na ten adres",
+    "saveAddress": "Zapisz adres",
+    "addNewAddress": "Dodaj nowy adres",
+    "defaultShippingAddress": "Domyślny adres dostawy",
+    "selectInvoiceAddress": "Wybierz ten adres",
+    "selectYourBillingAddress": "Wybierz swój adres rozliczeniowy",
+    "suggestedAddress": "Sugerowany adres",
+    "billingAddress": "Adres rozliczeniowy",
+    "selectYourShippingAddress": "Wybierz adres dostawy",
+    "shippingAddress": "Adres dostawy",
+    "ensureAccuracySuggestChange": "Aby zapewnić poprawność dostaw, proponujemy zmianę w zaznaczonym miejscu."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Standardowa dostawa",
+    "shippingMethod": "Sposób wysyłki",
+    "premiumDelivery": "Dostawa premium"
+  },
+  "checkout": {
+    "back": "Z powrotem",
+    "invalid": {
+      "accountType": "Twoje konto nie pozwala na przejście do płatności."
+    },
+    "backToCart": "Powrót do koszyka",
+    "continue": "Kontyntynuj"
+  },
+  "loginForm": {
+    "emailAddress": {
+      "placeholder": "Wprowadź adres e-mail",
+      "label": "Adres e-mail"
+    },
+    "password": {
+      "placeholder": "Hasło",
+      "label": "Hasło"
+    },
+    "forgotPassword": "Zapomniałeś hasła?",
+    "wrongEmailFormat": "To nie jest poprawny format e-mail.",
+    "guestCheckout": "Zamówienie bez logowania",
+    "signIn": "Zaloguj się",
+    "register": "Zarejestruj się",
+    "dontHaveAccount": "Nie masz konta?"
+  },
+  "checkoutLogin": {
+    "emailsMustMatch": "Email nie pasuje",
+    "emailAddress": {
+      "label": "Adres e-mail",
+      "placeholder": "Wprowadź e-mail"
+    },
+    "continue": "Kontyntynuj",
+    "emailIsRequired": "Niewłaściwy format adresu e-mail",
+    "confirmEmail": {
+      "label": "Potwierdź email",
+      "placeholder": "Potwierdź email"
+    }
+  },
+  "anonymousConsents": {
+    "banner": {
+      "viewDetails": "Pokaż szczegóły",
+      "allowAll": "Zezwól na wszystkie",
+      "title": "Ta strona wykorzystuje pliki cookies",
+      "description": "Używamy plików cookies, przechowujemy je do spersonalizowania oferty i poprawy zawartości strony"
+    },
+    "preferences": "Zgody",
+    "dialog": {
+      "clearAll": "Używamy plików cookies do personalizowania treści i poprawy komfortu użytkowania. Możemy również współdzielić dane dotyczące korzystania z witryny z naszymi mediami społecznościowymi. Aby uzyskać więcej informacji, zapoznaj się z naszą polityką prywatności.",
+      "legalDescription": "Używamy plików cookies do personalizowania treści i poprawy komfortu użytkowania. Możemy również współdzielić dane dotyczące korzystania z witryny z naszymi mediami społecznościowymi. Aby uzyskać więcej informacji, zapoznaj się z naszą polityką prywatności.",
+      "title": "Używamy plików cookies do personalizowania treści i poprawy komfortu użytkowania. Możemy również współdzielić dane dotyczące korzystania z witryny z naszymi mediami społecznościowymi. Aby uzyskać więcej informacji, zapoznaj się z naszą polityką prywatności.",
+      "selectAll": "Używamy plików cookies do personalizowania treści i poprawy komfortu użytkowania. Możemy również współdzielić dane dotyczące korzystania z witryny z naszymi mediami społecznościowymi. Aby uzyskać więcej informacji, zapoznaj się z naszą polityką prywatności."
+    }
+  },
+  "forgottenPassword": {
+    "resetPassword": "Zresetuj hasło",
+    "passwordResetSuccess": "Zmiana hasła zakończona sukcesem! Teraz możesz zalogować się przy użyciu nowego hasła.",
+    "enterEmailAddressAssociatedWithYourAccount": "Wpisz adres e-mail powiązany z kontem",
+    "emailAddress": {
+      "label": "Adres e-mail",
+      "placeholder": "Wprowadź e-mail"
+    },
+    "enterValidEmail": "Proszę wpisać prawidłowy email.",
+    "passwordResetEmailSent": "Został wysłany do Ciebie mail z informacją o tym, jak zresetować hasło."
+  },
+  "register": {
+    "titleRequired": "Wymagany jest tytuł",
+    "newPassword": "Nowe hasło",
+    "confirmThatRead": "Potwierdzam, że zapoznałem się i zgadzam się z",
+    "firstName": {
+      "label": "Imię",
+      "placeholder": "Imię"
+    },
+    "createAccount": "Utwórz konto",
+    "bothPasswordMustMatch": "Oba hasła muszą być zgodne",
+    "register": "Zarejestruj się",
+    "resetPassword": "Zresetuj hasło",
+    "postRegisterMessage": "Zaloguj się",
+    "emailAddress": {
+      "placeholder": "Adres e-mail",
+      "label": "Adres e-mail"
+    },
+    "title": "Tytuł",
+    "confirmPassword": {
+      "action": "Potwierdź hasło",
+      "placeholder": "Potwierdź hasło",
+      "label": "Potwierdź hasło"
+    },
+    "termsAndConditions": "Zasady i Warunki",
+    "lastName": {
+      "label": "Nazwisko",
+      "placeholder": "Nazwisko"
+    },
+    "password": {
+      "placeholder": "Hasło",
+      "label": "Hasło"
+    },
+    "emailMarketing": "Przetwarzanie moich danych osobowych w celu otrzymywania newsletterów . Aby zmienić ustawienia, przejdź do funkcji Zarządzanie zgodami na moim koncie.",
+    "managementInMyAccount": "Zarządzanie moim kontem",
+    "passwordMinRequirements": "Hasło musi mieć minimum sześć znaków i zawierać jedną wielką literę, jedną cyfrę, jeden symbol",
+    "confirmNewPassword": "Potwierdź nowe hasło",
+    "signIn": "Mam już konto. Zaloguj się",
+    "selectTitle": "Wybierz tytuł"
+  },
+  "stockNotification": {
+    "subscriptionDialog": {
+      "manageSubscriptionsLink": "Moje zainteresowania",
+      "notifiedPrefix": "Zostaniesz powiadomiony o:",
+      "header": "Brak na stanie",
+      "manageChannelsSuffix": "Strona.",
+      "manageSubscriptionsSuffix": "Strona.",
+      "subscribing": "Możesz zarządzać swoimi subskrypcjami w",
+      "manageChannelsLink": "Wybór powiadomień",
+      "manageChannelsPrefix": "Wybierz preferowane sposoby powiadomień",
+      "manageSubscriptionsPrefix": "Możesz zarządzać swoimi subskrypcjami w",
+      "okBtn": "OK",
+      "notifiedSuffix": "Jak tylko ten produkt będzie dostępny"
+    },
+    "notified": "Zostaniesz powiadomiony, gdy ten produkt będzie w  sprzedaży.",
+    "getNotifySuffix": "Poinformuj mnie, gdy ten produkt będziedostępny.",
+    "activateChannelsPrefix": "Aby otrzymywać powiadomienia musisz aktywować",
+    "activateChannelsSuffix": ",",
+    "notifyMe": "POWIADOM MNIE",
+    "getNotified": "Powiadom mnie, gdy ten produkt będzie znowu dostępny.",
+    "stopNotify": "WYŁĄCZENIE POWIADOMIEŃ",
+    "channelsLink": "Kanały powiadomień",
+    "getNotify": "Otrzymaj powiadomienie, gdy produkt będzie dostępny.",
+    "unsubscribeSuccess": "Pomyślnie anulowałeś subskrypcję powiadomienia o powrocie do magazynu"
+  },
+  "accordion": {
+    "features": "Cechy",
+    "remarks": "Uwagi",
+    "dimensions": "Wymiary",
+    "productDetails": "Szczegóły produktu"
+  },
+  "productSummary": {
+    "preLaunchBody": "Możesz zamówić ten przedmiot w przedsprzedaży, aby otrzymać dostawę, gdy tylko zapasy będą dostępne",
+    "id": "Nr katalogowy",
+    "substitutesProducts": "Zobacz alternatywy",
+    "availabilityCheck": {
+      "noFurtherInfoSingular": "W tej chwili niedostępne są informacje dotyczące dostępności brakującej {{ quantity }} sztuki.",
+      "priceTooltip": "Podana cena nie zawiera podatku VAT",
+      "itemsNotAvailable": "Dostępnych jest {{quantity}} sztuk na {{ date }}",
+      "itemsAvailableSingular": "Dostępna jest {{quantity}} sztuka na {{ date }}",
+      "itemsNotAvailableSingular": "Dostępna jest {{quantity}} sztuka na {{ date }}",
+      "deliveryDateInfo": "Szacowany termin dostawy to 5 dni roboczych od daty złożenia zamówienia. Dotyczny produktów dostępnych w magazynie Franke Polska. Ostateczny termin dostawy można sprawdzić w zakładce Zamówienia.",
+      "noFurtherInfo": "W tej chwili niedostępne są informacje dotyczące dostępności pozostałych {{ quantity }} sztuk.",
+      "button": "Sprawdź dostępność",
+      "errorMessage": "Brak danych dotyczących dostępności tego produktu.",
+      "itemsAvailable": "Dostępnych jest {{quantity}} sztuk na {{ date }}",
+      "dateTitle": "Data dostawy"
+    },
+    "promotionTooltip": "Cena po uwzględnienia rabatu będzie widoczna w koszyku",
+    "description": "Opis",
+    "showReviews": "Pokaż recenzje",
+    "localSalesNumber": "Lokalny identyfikator ID #",
+    "share": "Udostępnij",
+    "referenceNumber": "Numer referencyjny",
+    "unrecognizedError": "Ups! Zapomnieliśmy o czymś. Skontaktuj się z naszym zespołem obsługi klienta, aby zamówić ten produkt.",
+    "catalogPrice": "Rekomendowana cena detaliczna netto",
+    "more": "Zobacz więcej",
+    "preLaunchTitle": "Przedsprzedaż"
+  },
+  "productList": {
+    "clearFilters": "Wyczyść filtry",
+    "listingPageSubtitle": "Podane ceny są rekomendowanymi cenami detalicznymi netto",
+    "searchResultsTitle": "{{numberOfResults}} wyniki dla \"{{zapytanie}}\"",
+    "view": "Widok",
+    "backToTopBtn": "POWRÓT DO GÓRY",
+    "wishlist": "Ulubione",
+    "discontinuedProductsFilter": "Pokaż produkty, które nie są już dostępne w ofercie",
+    "pageOf": "Strona {{x}} z {{y}}",
+    "articleNumber": "Nr katalogowy {{fun}}",
+    "previous": "Poprzednia",
+    "filterBy": {
+      "action": "Filtruj według",
+      "label": "Filtruj według"
+    },
+    "appliedFilter": "Zastosowane filtry:",
+    "showMoreBtn": "Pokaż więcej",
+    "description": "Opis",
+    "notAvailableDescription": "Informacja o częściach zamiennych i akcesoriach dostępna na stronie produktu",
+    "sortByRelevance": "Sortuj według trafności",
+    "cart": "Koszyk",
+    "showMore": "Pokaż więcej...",
+    "filters": "Filtry",
+    "results": "Wyniki",
+    "showLess": "Pokaż mniej...",
+    "notAvailable": "Produkt wycofany",
+    "next": "Kolejna"
+  },
+  "productDetails": {
+    "noDetails": "Brak pozostałych szczegółów dotyczących tego produktu. Jeśli masz jakiekolwiek pytania dotyczące tego produktu, wyślij nam wiadomość za pośrednictwem naszego <u><a class=\"form\" href=\"/client-service\">formularza kontaktowego.</a></u>",
+    "reviews": "Recenzje",
+    "shipping": "Wysyłka",
+    "specification": "Specyfikacja",
+    "productDetails": "Szczegóły produktu",
+    "quantity": "Ilość",
+    "id": "ID",
+    "imageDisclaimer": "Zdjęcia prezentowane są jedynie w celach informacyjnych. Opis i rysunek techniczny prezentują szczegółowe dane produktu.",
+    "showReviews": "Pokaż recenzje",
+    "share": "Udostępnij",
+    "noReviews": "Brak opinii"
+  },
+  "productReview": {
+    "overallRating": "Ogólna ocena",
+    "more": "Więcej",
+    "reviewerName": "Recenzent nazwisko (opcjonalnie)",
+    "rating": "Ocena",
+    "writeReview": "Napisz recenzję",
+    "writeYourComments": "Napisz swój komentarz",
+    "less": "Mniej",
+    "reviewTitle": "Tytuł recenzji",
+    "thankYouForReview": "Dziękujemy za opinię! Należy pamiętać, że opinie mogą wymagać weryfikacji przed opublikowaniem."
+  },
+  "addToCart": {
+    "selectStyleAndSize": "Wybierz styl i rozmiar by sprawdzić dostępność",
+    "addToCartFailed": "Dodanie produktu do koszyka nie powiodło się! Spróbuj ponownie.",
+    "itemsAddedToYourCart": "Przedmiot (y) dodany do koszyka",
+    "items": "Produkty",
+    "viewCart": "Zobacz koszyk",
+    "inStock": "Produkt dostępny",
+    "quantity": "Ilość",
+    "addToCartSuccessfully": "Produkt został dodany do koszyka",
+    "itemsIncrementedInYourCart": "Ta pozycja jest już w koszyku. Ilość została zaktualizowana.",
+    "updatingCart": "Aktualizacja",
+    "outOfStock": "Produkt wycofany",
+    "addToCart": "Dodaj do koszyka",
+    "proceedToCheckout": "Przejdź do kasy"
+  },
+  "TabPanelContainer": {
+    "tabs": {
+      "ProductSpecsTabComponent": "Specyfikacja",
+      "ProductDetailsTabComponent": "Szczegóły produktu",
+      "ProductReviewsTabComponent": "Recenzje",
+      "deliveryTab": "Wysyłka",
+      "ProductDownloadsTabComponent": "Pliki do pobrania"
+    }
+  },
+  "alternativeProducts": {
+    "similarProductRecommendations": "Proponowane zaminniki (możliwość)",
+    "declaimer": "Uwaga: niektóre cechy proponowannych zamienników są inne niż te w pierwotnie wybranym produkcie. Przed potwierdzeniem zmiany upewnij się czy wybrany produkt spełnia Twoje wymagania.",
+    "goToProduct": "Przejdź do produktu",
+    "article": "Produkt",
+    "showAlternativeProducts": "Pokaż zamienniki",
+    "noRecommendations": "W oparciu o wskazane kryteria nie znaleźliśmy dostępnych w wybranym terminie zamienników. Jeśli chcesz zobaczyć inne dostępne produkty, zmień kryteria wyszukiwania."
+  },
+  "addToWishList": {
+    "remove": "Usuń z listy ulubionych",
+    "addToWishlistSuccessfully": "Produkt został dodany do ulubionych",
+    "add": "Dodaj do ulubionych",
+    "addToWishlistFailed": "Nie udało się dodać produktu do ulubionych! Spróbuj ponownie.",
+    "anonymous": "Zaloguj się, aby dodać do ulubionych"
+  },
+  "variant": {
+    "size": "Rozmiar",
+    "color": "Kolor",
+    "selectedStyle": "Wybrany styl",
+    "style": "Styl",
+    "sizeGuideLabel": "Styl"
+  },
+  "productFacetNavigation": {
+    "appliedFilter": "Zastosowane filtry:",
+    "showMore": "Pokaż więcej...",
+    "showLess": "Pokaż mniej...",
+    "filterBy": {
+      "action": "Filtruj według",
+      "label": "Filtruj według"
+    },
+    "sortByRelevance": "Sortuj według trafności"
+  },
+  "productDownloads": {
+    "productSheet": "Karta produktu"
+  },
+  "productReferences": {
+    "id": "Nr katalogowy"
+  },
+  "emptyCart": {
+    "cartIsEmpty": "Twój koszyk jest pusty",
+    "suggestion": "Szukaj produktu",
+    "suggestionTitle": "Propozycje:"
+  },
+  "additionalInfo": {
+    "title": "Dodatkowe informacje o Twoim zamówieniu",
+    "additionalReference": "Dodatkowe informacje",
+    "poNumber": "Wprować swój nr PO lub inne odniesienie, które powinno pojawić się na fakturze.",
+    "orderType": "Typ zamówienia",
+    "orderNumber": "Własny opis zamówienia"
+  },
+  "orderCost": {
+    "subtotalSingular": "Cena zakupu netto ({{count}} pozycja)",
+    "orderDiscounts": "",
+    "toBeDetermined": "Do ustalenia",
+    "totalCatalogPrice": "Cena detaliczna netto ({{count}} pozycje)",
+    "totalCatalogPriceSingular": "Cena detaliczna netto ({{count}} pozycja)",
+    "crossChannelPromo": "Rabat B2B i pozostałe rabaty",
+    "orderSummary": "Podsumowanie zamówienia",
+    "subtotal": "Cena zakupu netto ({{count}} pozycji)",
+    "discountsApplied": "{{discountMessage}} został zastosowany",
+    "salesTax": "Kwota VAT",
+    "totalDiscounts": "Zastosowane rabaty",
+    "shipping": "Wysyłka:",
+    "crossCategoryPromo": "Rabat za zakup komplementarny",
+    "discount": "Zapisane:",
+    "grossTax": "Nie zawiera podatku",
+    "mainPromoIncluded": "Rabaty uwzględnione w cenie zakupu",
+    "total": "Cena zakupu brutto",
+    "productDiscounts": "",
+    "totalNetWithoutTax": "Cena zakupu netto",
+    "estimatedShipping": "Koszt transportu",
+    "mainFeesIncluded": "Opłaty uwzględnione w cenie zakupu"
+  },
+  "cartItems": {
+    "discount": "Zniżka",
+    "checkAvailabilityInfoNoUnits": "Obecnie nie mamy tego produktu w magazynie. Pełna ilość z zapytania dostępna od {{date}}",
+    "checkAvailabilityInfoSingular": "Obecnie dostępna jest tylko {{quantity}} sztuka tego artykułu. Pełna ilość z zapytanie dostępna od {{date}}",
+    "unitPrice": "Cena jedn.:",
+    "item": "Szczegóły produktu",
+    "checkAvailabilityNoFurtherInfoSingular": "W tej chwili nie mamy informacji kiedy brakująca {{ quantity }} sztuka będzie dostępna.",
+    "checkAvailabilityInfo": "Obecnie dostępnych jest tylko {{quantity}} sztuk tego produktu. Pełna ilość z zapytanie dostępna od {{ date }}",
+    "itemPrice": "Cena zakupu netto",
+    "changeQuantity": "Zmień ilość",
+    "cartTotal": "W koszyku ({{count}} pozycja)",
+    "funNumber": "Nr katalogowy:",
+    "brand": "Marka:",
+    "availability": "Dostępność",
+    "deliveryDate": "Wymagana data dostawy",
+    "id": "Nr katalogowy",
+    "ecoTax": "Eco Tax:",
+    "quantity": "Ilość:",
+    "remove": "Usuń",
+    "availabilityInfo": "Niedostępne produkty mogą zostać dodane do zamówienia. Zostaniesz poinformowany kiedy jaka jest planowana data ich dostawy.",
+    "quantityTitle": "Ilość oznacza całkowitą liczbę tego produktu w koszyku.",
+    "checkAvailabilityError": "W tej chwili nie można wczytać informacji, spróbuj ponownie później",
+    "additionalFees": "Dodatkowe opłaty:",
+    "cartTotal_plural": "W koszyku ({{count}} pozycji)",
+    "additionalFeesTooltip": "Dodatkowe opłaty",
+    "deliveryDateInfo": "Szacowany termin dostawy to 5 dni roboczych od daty złożenia zamówienia. Dotyczny produktów dostępnych w magazynie Franke Polska. Ostateczny termin dostawy można sprawdzić w zakładce Zamówienia.",
+    "checkAvailabilityNoFurtherInfo": "W tej chwili nie mamy informacji kiedy brakujące {{ quantity }} sztuk będzie dostępne.",
+    "description": "Opis",
+    "estimatedDeliveryDate": "Przewidywana data dostawy to {{ date }}",
+    "total": "Suma"
+  },
+  "voucher": {
+    "applyVoucherSuccess": "{{VoucherCode}} został zastosowany.",
+    "apply": "Zastosuj",
+    "coupon_plural": "Kody promocyjne",
+    "availableCouponsLabel": "Możesz dodać te kody promocyjne do zamówienia.",
+    "placeholder": "Kod promocyjny",
+    "availableCoupons": "Dostępne kody promocyjne",
+    "removeVoucherSuccess": "{{VoucherCode}} został usunięty.",
+    "vouchersApplied": "Zastosowano kody promocyjne",
+    "coupon": "Czy posiadasz kod promocyjny?",
+    "anchorLabel": "Wprowadź lub usuń swój kod promocyjny"
+  },
+  "cartAlternativeProducts": {
+    "checkAlternativeProducts": "Sprawdź dostępne zamienniki",
+    "replaceCartItem": "Zamień niedostępny produkt na wybrany zamiennik",
+    "cartItemReplacedSuccessfully": "Produkt zamieniony!",
+    "cartItemReplacedError": "Wystąpił błąd. Zamiana produktu nie została dokonana, spróbuj ponownie."
+  },
+  "saveForLaterItems": {
+    "itemTotal_plural": "Zapisane na później ({{count}} pozycji)",
+    "stock": "Stan magazynowy",
+    "cartTitle": "Koszyk",
+    "saveForLater": "Zachowaj na później",
+    "moveToCart": "Przenieś do koszyka",
+    "forceInStock": "Dostępny",
+    "itemTotal": "Zapisane na później ({{count}} pozycja)"
+  },
+  "cartDetails": {
+    "cartName": "Koszyk # {{kod}}",
+    "continueShopping": "Kontynuuj zakupy",
+    "proceedToCheckout": "Przejdź do kasy",
+    "id": "ID"
+  },
+  "dashboard": {
+    "ticketHistoryCreatedBy": "Utworzone przez: {{name}}",
+    "invoiceAddressesTitle": "Adresy faktury",
+    "noStatistics": "Brak statystyk w tej chwili",
+    "openReturns": "Otwarte zwroty",
+    "ticketHistoryStatusCompleted": "Zakończone",
+    "ticketHistoryTitle": "Historia zgłoszeń",
+    "deliveryAddressesTitle": "Adresy wysyłki",
+    "analyticsTab": "Analityka",
+    "openOrders": "Otwarte zlecenia",
+    "ticketHistoryStatusOpen": "Otwarte",
+    "netTurnover": "Obroty netto",
+    "ticketHistoryLastUpdate": "Ostatnia aktualizacja: {{date}}",
+    "ticketHistoryLastUpdateBy": "Ostatnia aktualizacja wykonana przez: {{name}}",
+    "turnoverLastYear": "Obroty w ubiegłym roku",
+    "ticketHistoryStatusInProcess": "W trakcie",
+    "openOrdersEndOfYear": "Otwarte zlecenia do końca roku",
+    "ticketHistoryStatusClosed": "Zamknięte",
+    "ticketHistoryCode": "ID: {{code}}",
+    "ticketHistoryCreated": "Utworzone: {{date}}",
+    "noTicketHistory": "Aktualnie nie ma żadnych wysłanych zgłoszeń"
+  },
+  "myInterests": {
+    "sortByMostRecent": "Sortuj według najnowszych",
+    "lowStock": "Niski stan magazynowy",
+    "header": "Moje",
+    "expirationDate": "Ważne do {{ExpirationDate}}",
+    "sorting": {
+      "byNameDesc": "Nazwa (malejąco)",
+      "byNameAsc": "Nazwa (rosnąco)"
+    },
+    "noInterests": "Nie masz jeszcze wybranych pozycji",
+    "notifications": "Powiadomienia",
+    "outOfStock": "Niedostępne",
+    "BACK_IN_STOCK": "Ponownie w magazynie",
+    "price": "Cena",
+    "remove": "Usuń",
+    "productId": "Kod identyfikacyjny  {{ code }}",
+    "inStock": "Dostępny",
+    "item": "Produkt"
+  },
+  "returnRequestList": {
+    "date": "Data utworzenia",
+    "sortByMostRecent": "Sortuj według najnowszych",
+    "statusDisplay_APPROVING": "Zatwierdzanie",
+    "status": "Status",
+    "statusDisplay_COMPLETED": "Zakończone",
+    "statusDisplay_CANCELLING": "Anulowanie",
+    "statusDisplay_WAIT": "Czekaj",
+    "statusDisplay_PAYMENT_REVERSED": "Płatność zwrócona",
+    "statusDisplay_RECEIVED": "Otrzymane",
+    "statusDisplay_TAX_REVERSAL_FAILED": "Zwrot podatku nie powiódł się",
+    "statusDisplay_RECEIVING": "Otrzymywanie",
+    "statusDisplay_APPROVAL_PENDING": "Oczekiwanie na zatwierdzenie",
+    "statusDisplay_PAYMENT_REVERSAL_FAILED": "Cofnięcie płatności nie powiodło się",
+    "statusDisplay_REVERSING_PAYMENT": "Płatność zwrotna",
+    "returnRequestId": "Powrót #",
+    "statusDisplay_TAX_REVERSED": "Podatek zwrócony",
+    "statusDisplay_REVERSING_TAX": "Podatek zwrotny",
+    "statusDisplay_CANCELED": "Anulowany",
+    "orderId": "Zamówienie #"
+  },
+  "updateProfileForm": {
+    "parentCompany": "Firma",
+    "lastName": {
+      "placeholder": "Nazwisko",
+      "label": "Nazwisko"
+    },
+    "none": "Żaden",
+    "firstName": {
+      "label": "Imię",
+      "placeholder": "Imię"
+    },
+    "lastNameIsRequired": "Nazwisko jest wymagane",
+    "title": "tytuł",
+    "email": "Twój email",
+    "profileUpdateSuccess": "Dane osobowe pomyślnie zaktualizowane",
+    "customerNumber": "Numer klienta",
+    "customerId": "Klient #",
+    "firstNameIsRequired": "Imię jest wymagane"
+  },
+  "returnRequest": {
+    "estimatedRefund": "Szacowany zwrot",
+    "summary": "Zwrot łącznie",
+    "cancelSuccess": "Twoja prośba o zwrot ({{RMA}}) została odrzucona",
+    "itemPrice": "Cena przedmiotu",
+    "deliveryCode": "Koszt dostawy",
+    "subtotal": "Razem",
+    "total": "Łącznie",
+    "cancel": "Anuluj żądanie zwrotu",
+    "returnQty": "Zwracana ilość",
+    "note": "Podane kwoty są szacunkowe i mogą nie zawierać podatków i innych opłat.",
+    "status": "Status zwrotu",
+    "returnRequestId": "Prośba o zwrot #",
+    "item": "Opis",
+    "orderCode": "Do zamówienia #"
+  },
+  "closeAccount": {
+    "confirmAccountClosureMessage": "Czy na pewno chcesz zamknąć swoje konto?",
+    "accountClosedFailure": "Nie udało się zamknąć konta",
+    "closeMyAccount": "Zamknij moje konto",
+    "accountClosedSuccessfully": "Konto zamknięte pomyślnie",
+    "confirmAccountClosure": "Potwierdź zamknięcie konta"
+  },
+  "notificationCenter": {
+    "noNotifications": "Aktualnie nie ma żadnych powiadomień",
+    "backInStockNotificationMessage": "Produkt jest znowu w magazynie",
+    "notificationMessage": "Uległ zmianie termin dostawy jednego lub więcej produktów ze złożonego przez Ciebie zamówienia.",
+    "productNumber": "Produkt {{productCode}}",
+    "emailNotifications": "Powiadomienie mailem jeśli zmieni się data zamówionych produktów",
+    "orderNumber": "Zamówienie {{orderNumber}}",
+    "notifications": "Powiadomienia"
+  },
+  "updateEmailForm": {
+    "password": {
+      "placeholder": "Wprowadź hasło",
+      "label": "Hasło"
+    },
+    "enterValidEmail": "Proszę wpisać prawidłowy email",
+    "emailUpdateSuccess": "Zaakceptowany. Zaloguj się z {{}} newUid",
+    "confirmNewEmailAddress": {
+      "label": "Potwierdź nowy adres e-mail",
+      "placeholder": "Wprowadź e-mail"
+    },
+    "newEmailAddress": {
+      "placeholder": "Wprowadź e-mail",
+      "label": "Nowy adres email"
+    },
+    "pleaseInputPassword": "Proszę wpisać hasło",
+    "bothEmailMustMatch": "Oba adresy e-mail muszą pasować"
+  },
+  "menu": {
+    "addressBook": "Książka adresowa",
+    "orders": "Historia zamówień",
+    "profile": "Profil",
+    "email": "E-mail",
+    "signOut": "Wyloguj się",
+    "password": "Hasło",
+    "dashboard": "Raport",
+    "wishlist": "Lista życzeń"
+  },
+  "consentManagementForm": {
+    "clearAll": "Wyczyść wszystko",
+    "message": {
+      "success": {
+        "withdrawn": "Zgoda skutecznie wycofana",
+        "given": "Zgoda udzielona pomyślnie"
+      }
+    },
+    "selectAll": "Zaznacz wszystko"
+  },
+  "updatePasswordForm": {
+    "oldPassword": {
+      "label": "Stare hasło",
+      "placeholder": "Stare hasło"
+    },
+    "oldPasswordIsRequired": "Stare hasło jest wymagane",
+    "passwordUpdateSuccess": "Hasło zostało zmienione",
+    "newPassword": {
+      "label": "Nowe hasło",
+      "placeholder": "Nowe hasło"
+    },
+    "confirmPassword": {
+      "placeholder": "Potwierdź hasło",
+      "label": "Potwierdź nowe hasło"
+    },
+    "passwordMinRequirements": "Hasło musi mieć minimum sześć znaków i zawierać jedną wielką literę, jedną cyfrę, jeden symbol",
+    "bothPasswordMustMatch": "Oba hasła muszą być zgodne"
+  },
+  "myCoupons": {
+    "endDateAsc": "Data zakończenia (rosnąco)",
+    "sortByMostRecent": "Sortuj według najnowszych",
+    "startDateDesc": "Data rozpoczęcia (malejąco)",
+    "status": "Status:",
+    "notesSuffix": "strona.",
+    "findProducts": "Znajdź produkty",
+    "effectiveTitle": "Efektywny:",
+    "ExpireSoon": "NIEDŁUGO TRACI WAŻNOŚĆ",
+    "PreSession": "Ważne od",
+    "startDateAsc": "Data rozpoczęcia (rosnąco)",
+    "claimCustomerCoupon": "Kod promocyjny został pomyślnie użyty",
+    "notesPreffix": "Możesz ustawić preferowane kanały do ​​otrzymywania informacji o promocjach  .......",
+    "dialogTitle": "Kod promocyjny",
+    "readMore": "Więcej",
+    "endDateDesc": "Data zakończenia (malejąco)",
+    "myCoupons": "Moje kody promocyjne",
+    "notification": "Powiadomienie",
+    "Effective": "Skuteczne (zastosowano / ważny)",
+    "notesLink": "Kanały powiadomień",
+    "noCouponsMessage": "Nie masz kodów dostępnych promocyjnych."
+  },
+  "notificationPreference": {
+    "SITE_MESSAGE": "Wiadomość na stronie B2",
+    "noteMessage": "Jeśli dezaktywujesz wszystkie kanały nie będziesz mógł otrzymywać dalszych powiadomień",
+    "note": "Uwaga:",
+    "EMAIL": "E-mail:",
+    "SMS": "SMS:",
+    "message": "Wybierz preferowane kanały powiadomień"
+  },
+  "AccountOrderHistoryTabContainer": {
+    "tabs": {
+      "AccountOrderHistoryComponent": "Wszystkie zamówienia ({{param}})",
+      "OrderReturnRequestListComponent": "Zwroty ({{param}})"
+    }
+  },
+  "searchBox": {
+    "resultsFor": "Wyniki wyszukiwania dla:",
+    "help": {
+      "empty": "Wpisz zapytanie",
+      "insufficientChars": "Proszę wpisać więcej znaków",
+      "noMatch": "Nie znaleziono pasujących wyników",
+      "exactMatch": "{{ term }}"
+    },
+    "searchBarMobileText": "Szukaj produktów",
+    "more": "Więcej",
+    "results": "Wyniki wyszukiwania",
+    "searchBarText": "Szukaj produktów, koloru, materiału",
+    "placeholder": "Szukaj tutaj...",
+    "allResults": "Wszystkie wyniki"
+  },
+  "pageMetaResolver": {
+    "product": {
+      "title": "{{title}}",
+      "heading": "{{heading}}",
+      "description": "{{description}}"
+    },
+    "checkout": {
+      "title": "Zamówienie {{count}} produktu",
+      "title_plural": "Zamówienie {{count}} produktów"
+    },
+    "search": {
+      "findProductTitle_plural": "{{Count}} wyniki dla kodów promocyjnych \"{{coupon}}\"",
+      "title": "{{Count}} wynik dla \"{{query}}\"",
+      "title_plural": "{{count}} wyniki dla \"{{query}}\"",
+      "findProductTitle": "{{Count}} wynik dla kodu promocyjnego \"{{coupon}}\""
+    },
+    "category": {
+      "title_plural": "{{count}} wyniki dla \"{{query}}\"",
+      "title": "{{count}} wynik dla \"{{query}}\""
+    }
+  },
+  "breadcrumbs": {
+    "dashboardPage": {
+      "dashboardPageTitle": "Raport",
+      "dashboardPageSubTitle": "Dane dotyczące Twojej firmy"
+    },
+    "checkoutPageTitle": "Przejdź do płatności",
+    "orderConfirmationPageTitle": "Potwierdzenie zamówienia",
+    "addressBookPageTitle": "Książka adresowa",
+    "listingPage": {
+      "listingPageSubTitle": "Prezentowane ceny są rekomendowanymi cenami detalicznymi netto",
+      "searchPageTitle": "Wyniki dla \"{{query}}\""
+    },
+    "orderHistoryPageTitle": "Historia zamówień",
+    "profilePageTitle": "Moje konto",
+    "privacyPageTitle": "Polityka prywatności i Cookies",
+    "imprintPageTitle": "Stopka",
+    "bundlesPageTitle": "Zestawy",
+    "outletPageTitle": "Produkty wycofywane",
+    "shoppingCartPageTitle": "Twój koszyk",
+    "wishlistPageTitle": "Ulubione",
+    "termsPageTitle": "Warunki",
+    "promotionPageSubTitle": "Ceny z uwzględnieniem rabatów będą widoczne w koszyku",
+    "promotion": "Promocja"
+  },
+  "common": {
+    "save": "Zapisz",
+    "edit": "Edytuj",
+    "delete": "Usuń",
+    "confirm": "Potwierdź",
+    "connected": "Połączony",
+    "noData": "Brak danych",
+    "continue": "Kontyntynuj",
+    "cancel": "Anuluj",
+    "remove": "Usuń",
+    "offline": "Offline",
+    "home": "Strona startowa",
+    "submit": "Zatwierdź",
+    "done": "Gotowe",
+    "other": "Inny",
+    "back": "Cofnij",
+    "online": "Online"
+  },
+  "httpHandlers": {
+    "sessionExpired": "Twoja sesja wygasła. Proszę, zaloguj się ponownie.",
+    "validationErrors": {
+      "missing": {
+        "card_cardType": "Wybrana karta kredytowa nie jest obsługiwana. Proszę wybrać inną.",
+        "billTo_street1": "Wprowadzony adres nie jest prawidłowy.",
+        "billTo_state": "Wprowadzone województwo jest nieprawidłowe dla tej karty kredytowej.",
+        "billTo_firstName": "Wprowadzone imię jest niepoprawne.",
+        "billTo_street2": "Wprowadzony adres nie jest prawidłowy.",
+        "card_expirationYear": "Data ważności karty kredytowej jest nieprawidłowa.",
+        "billTo_city": "Wprowadzone miasto jest nieprawidłowe dla tej karty kredytowej.",
+        "card_cvNumber": "Kod zabezpieczający jest nieprawidłowy.",
+        "billTo_country": "Wprowadzony kraj jest nieprawidłowy dla tej karty kredytowej.",
+        "card_expirationMonth": "Wprowadzona data ważności karty kredytowej jest nieprawidłowa.",
+        "card_accountNumber": "Numer karty kredytowej jest nieprawidłowy.",
+        "billTo_lastName": "Wprowadzona nazwisko nie jest prawidłowe.",
+        "billTo_postalCode": "Kod pocztowy jest nieprawidłowy dla tej karty kredytowej.",
+        "country": {
+          "isocode": "Brakuje nazwy kraju"
+        }
+      },
+      "invalid": {
+        "code": "Kod jest nieprawidłowy.",
+        "uid": "UID jest nieprawidłowy.",
+        "firstName": "Wprowadzone imię jest nieprawidłowe.",
+        "password": "Wprowadzone hasło jest nieprawidłowe.",
+        "card_expirationMonth": "Data ważności karty kredytowej jest nieprawidłowa.",
+        "lastName": "Nazwisko nie jest prawidłowe."
+      }
+    },
+    "cartNotFound": "Koszyk nie został znaleziony.",
+    "conflict": "Już istnieje",
+    "unauthorized": {
+      "invalid_client": "Nieprawidłowe dane do logowania",
+      "common": "Wystąpił nieznany błąd autoryzacji."
+    },
+    "badGateway": "Wystąpił błąd serwera. Spróbuj ponownie później.",
+    "unknownError": "Wystąpił nieznany błąd",
+    "gatewayTimeout": "Serwer nie odpowiada, spróbuj ponownie później.",
+    "badRequestPleaseLoginAgain": "{{ errorMessage }}. Proszę, zaloguj się ponownie.",
+    "forbidden": "Nie masz uprawnień, aby wykonać tę czynność. Proszę skontaktuj się z administratorem.",
+    "badRequestOldPasswordIncorrect": "Stare hasło jest nieprawidłowe.",
+    "internalServerError": "Wystąpił wewnętrzny błąd serwera. Spróbuj ponownie później.",
+    "invalidCodeProvided": "Nieprawidłowy kod"
+  },
+  "navigation": {
+    "shopAll": "Kup wszystkie {{navNode}}>"
+  },
+  "carousel": {
+    "button": "Przeglądaj wszystko"
+  },
+  "formErrors": {
+    "cxInvalidPassword": "To nie jest poprawny format hasła",
+    "date": {
+      "invalid": "Proszę wybrać poprawną datę",
+      "required": "To pole jest wymagane",
+      "max": "Data nie może być późniejsza niż {{max}}",
+      "min": "Termin ten nie może być wcześniejszy niż {{min}}",
+      "pattern": "Zastosuj format daty rrrr-mm-dd"
+    },
+    "globalMessage": "Formularz, który próbujesz wysłać zawiera błędy.",
+    "cxInvalidEmail": "To nie jest prawidłowy format adresu e-mail.",
+    "cxNoSelectedItemToCancel": "Wybierz co najmniej jeden",
+    "cxEmailsMustMatch": "Adres e-mail musi się zgadzać",
+    "cxPasswordsMustMatch": "Hasło musi się zgadzać",
+    "cxNegativeAmount": "Kwota musi być równa lub większa od zera",
+    "required": "To pole jest wymagane",
+    "cxContainsSpecialCharacters": "Pole nie może zawierać znaków specjalnych",
+    "cxStarRatingEmpty": "Pole oceny jest wymagane"
+  },
+  "errorHandlers": {
+    "refreshThePage": "Proszę odświeżyć stronę.",
+    "loadPage": "Wystąpił błąd. Za 5 sekund zostaniesz przekierowany na stronę logowania! Przepraszam za to.",
+    "scriptFailedToLoad": "Nie udało się wczyta danych."
+  },
+  "skipLink": {
+    "labels": {
+      "footer": "Stopka",
+      "productList": "Lista produktów",
+      "header": "Nagłówek",
+      "productFacets": "Produkty",
+      "main": "Strona główna"
+    },
+    "skipTo": "Przejdź do"
+  },
+  "miniCart": {
+    "count": "{{count}}",
+    "total": "{{total}}",
+    "item": "{{Count}} produkt w koszyku",
+    "item_plural": "{{Count}} poduktów w koszyku"
+  },
+  "miniLogin": {
+    "signInRegister": "Zaloguj / Zarejestruj się",
+    "userGreeting": "Cześć, {{name}}"
+  },
+  "sorting": {
+    "rma": "Numer zwrotu",
+    "replenishmentNumber": "Numer uzupełniony",
+    "orderNumber": "Numer zamówienia",
+    "date": "Data",
+    "nextOrderDate": "Następna data zamówienia"
+  },
+  "spinner": {
+    "loading": "Ładowanie..."
+  },
+  "orderDetails": {
+    "tracking": {
+      "noTrackingNumber": "Brak możliwości śledzenia",
+      "trackingNumber": "Numer śledzenia przesyłki",
+      "itemStatus": {
+        "pickedUp": "Odebrane",
+        "partiallyPickedUp": "Częściowo odebrane",
+        "delivered": "Dostarczone",
+        "exception": "Wyjątek"
+      },
+      "quantity": "Ilość",
+      "deliveryStatus": {
+        "inProcess": "W trakcie dostawy",
+        "delivered": "Dostarczone"
+      },
+      "deliveryType": "Typ dostawy",
+      "status": "Status",
+      "noTrackingResults": "Brak informacji na temat dostawy",
+      "deliveryNumber": "Numer produktu {{code}}",
+      "product": "Produkt"
+    },
+    "consignmentTracking": {
+      "dialog": {
+        "carrier": "Dostawa",
+        "header": "Informacje o śledzeniu przesyłki",
+        "shipped": "Wysłane",
+        "trackingId": "Numer przesyłki",
+        "estimate": "Przewidywany termin dostawy",
+        "loadingHeader": "Śledzenie przesyłki",
+        "noTracking": "Przesyłka nie została wysłana. Informacje o śledzeniu paczki będą dostępne po wysłaniu."
+      },
+      "action": "Śledź zamówienie"
+    },
+    "purchaseOrderId": "Zamówienie #",
+    "unit": "Jednostka",
+    "deliveryStatus_READY_FOR_PICKUP": "Gotowy do odbioru",
+    "statusE": "Wysłane",
+    "cancellationAndReturn": {
+      "item": "Pozycja",
+      "itemPrice": "Cena",
+      "cancelAction": "Anuluj pozycje",
+      "cancelQty": "Ilość do anulowania",
+      "cancelSuccess": "Twoja prośba o unieważnienie została pomyślnie przesłana",
+      "setAll": "Ustaw wszystkie ilości maksymalnie",
+      "returnSuccess": "Twoja prośba o zwrot ({{}} RMA) została przesłana",
+      "returnAction": "Prośba o zwrot",
+      "totalPrice": "Całkowity",
+      "returnQty": "Ilość do zwrotu",
+      "submit": "Złóż wniosek",
+      "quantity": "Maksymalna ilość"
+    },
+    "statusDisplay_open": "Otwarte",
+    "deliveryStatus_READY": "W trakcie",
+    "funColumn": "Nr katalogowy",
+    "invoices": "Faktury",
+    "cancelReplenishment": {
+      "description": "Anuluj uzupełnianie przyszłych zamówień?",
+      "title": "Anuluj uzupełnianie",
+      "reject": "Nie",
+      "accept": "Tak",
+      "cancelSuccess": "Uzupełnianie zamówienie # {{replenishmentOrderCode}} zostało anulowane"
+    },
+    "deliveryStatus_DELIVERING": "Wysłane",
+    "statusF": "Dostarczone",
+    "status": "Status",
+    "costCenterAndUnit": "Centrum kosztowe/ jednostka",
+    "placedBy": "Złożone przez",
+    "deliveryStatus_PICKUP_COMPLETE": "Kompletowanie zakończone",
+    "brandColumn": "Marka",
+    "orderId": "Zamówienie #",
+    "deliveryStatus_DELIVERY_REJECTED": "Dostawa odrzucona",
+    "alternativeProducts": {
+      "replaceAction": "Zamień produkt",
+      "areYouSure": "Czy na pewno zamienić produkt?",
+      "cancelAction": "Zrezygnuj",
+      "article": "Produkt FUN",
+      "productReplacedError": "Wystąpił błąd. Zamiana produktu nie została dokonana, spróbuj ponownie.",
+      "productReplacedSuccessfully": "Produkt zamieniony!",
+      "productReplacementTitle": "Zamiana produktu",
+      "checkAlternativeProducts": "Sprawdź dostępne zamienniki",
+      "replaceOrderItem": "Zamień niedostępny produkt na wybrany zamiennik",
+      "newPrice": "Cena nowa"
+    },
+    "notAvailableOnRequestDate": "Brak dostępności w wybranym terminie",
+    "statusDisplay_cancelling": "Anuluj oczekiwanie",
+    "costCenterAndUnitValue": "{{CostCenterName}} / {{unitName}}",
+    "deliveryStatus_PICKPACK": "Przygotowanie do wysyłki",
+    "statusDisplay_cancelled": "Anulowany",
+    "statusDisplay_merchant": {
+      "approved": "Zatwierdzony przez sprzedawcę",
+      "rejected": "Odrzucony przez sprzedawcę"
+    },
+    "descriptionColumn": "Opis",
+    "statusDisplay_approved": "Zatwierdzony",
+    "statusCC": "Zrealizowane",
+    "statusDisplay_error": "Oczekujący",
+    "statusColumn": "Status",
+    "costCenter": "Centrum kosztowe",
+    "shippedOn": "Wysłane do",
+    "expectedDeliveryDateColumn": "Pierwotna data dostawy",
+    "productColumn": "Produkt",
+    "tabs": {
+      "deliveries": "Dostawy",
+      "order": "Zamówienie {{orderNumber}}"
+    },
+    "materialColumn": "Materiał",
+    "statusDisplay_pending": {
+      "merchant": {
+        "approval": "W oczekiwaniu na zatwierdzenie przez sprzedawcę"
+      },
+      "approval": "W oczekiwaniu na zatwierdzenie"
+    },
+    "deliveryStatus_PAYMENT_NOT_CAPTURED": "Problem z płatnością",
+    "payByAccount": "Przelew",
+    "deliveryStatus_READY_FOR_SHIPPING": "Gotowe do wysyłki",
+    "deliveryStatus_TAX_NOT_COMMITTED": "Problem podatkowy",
+    "deliveryStatus_WAITING": "Oczekujące",
+    "statusC": "Dokument dostawy utworzony",
+    "replenishmentId": "Uzupełnienie #",
+    "cancelled": "Anulowany",
+    "statusDisplay_created": "Utworzone",
+    "statusDisplay_rejected": "Odrzucono",
+    "none": "Brak wartości {{}}",
+    "statusDisplay_processing": "W oczekiwaniu",
+    "placed": "Złożone",
+    "statusAA": "Oczekujace na potwierdzenie",
+    "paidByCreditCard": "(Płatne kartą kredytową)",
+    "deliveryStatus_CANCELLED": "Anulowano",
+    "statusD": "Spakowane",
+    "frequency": "Częstotliwość",
+    "deliveryStatus_IN_TRANSIT": "W dostawie",
+    "deliveryStatus_DELIVERY_COMPLETED": "Kompletna dostawa",
+    "startOn": "Zacznij od",
+    "statusDD": "Anulowane",
+    "quantityColumn": "Ilość",
+    "statusDisplay_Error": "Oczekujący",
+    "brandMissing": "Bez marki",
+    "nextOrderDate": "Następna data zamówienia",
+    "priceColumn": "Cena za szt",
+    "statusBB": "Częściowo zrealizowane",
+    "emptyPurchaseOrderId": "Żaden",
+    "deliveryStatus_SHIPPED": "Wysłane",
+    "statusDisplay_assigned": {
+      "admin": "Przypisane do administratora"
+    },
+    "statusDisplay_completed": "Zakończone",
+    "statusA": "Potwierdzenie zamówienia",
+    "returnToOrdersButton": "Powrót do zamówień",
+    "confirmedDeliveryDateColumn": "Oczekiwana data dostawy",
+    "statusB": "Zamówienie potwierdzone"
+  },
+  "orderHistory": {
+    "purchaseOrderNumberColumn": "Numer zamówienia",
+    "sortByMostRecent": "Sortuj od najnowszych",
+    "statusPlaceholder": "Status",
+    "noOrdersFilter": "Nie znaleziono",
+    "deliveryDateColumn": "Przewidywana data dostarczenia",
+    "past12months": "12 miesięcy",
+    "startShopping": "Rozpocznij zakupy",
+    "date": "Data",
+    "orderChannelColumn": "Kanał",
+    "orderNumberFilter": "Numer zamówienia:",
+    "noOrders": "Nie mamy zlecenia na tym koncie.",
+    "frequency": "Częstotliwość",
+    "noReplenishmentOrders": "Nie mamy zleconych zamówień na tym koncie.",
+    "startOn": "Zacznij od",
+    "nextOrderDate": "Następna data zamówienia",
+    "invoice": "Faktura",
+    "lastOrders": "Pokaż zamówienia z okresu:",
+    "cancel": "Anuluj",
+    "statusF": "Dostarczone",
+    "status": "Status",
+    "statusB": "Zamówienie potwierdzone",
+    "orderStatusFilter": "Status:",
+    "orderReferencePlaceholder": "Odniesienie",
+    "emptyPurchaseOrderId": "Żaden",
+    "statusCC": "Zrealizowane",
+    "pageOfPages": "Strona {{page}} z {{pageCount}}",
+    "statusBB": "Potwierdzone",
+    "previousPage": "Poprzednia",
+    "statusE": "Wysłane",
+    "replenishmentHistory": "Uzupełnianie historii",
+    "orderReferenceColumn": "Odniesienie",
+    "orderHistory": "Historia zamówień",
+    "notFound": "Nie znaleziono żadnych zleceń",
+    "invoiceType": "Typ faktury",
+    "orderId": "Zamówienie #",
+    "statusAA": "Oczekujace na potwierdzenie",
+    "total": "Całkowity",
+    "cancelled": "Anulowany",
+    "statusColumn": "Status",
+    "returns": "Zwroty",
+    "statusC": "Dokument dostawy utworzony",
+    "past6months": "6 miesięcy",
+    "creditNotes": "Nota kredytowa",
+    "replenishmentOrderHistory": "Uzupełnianie historii zamówień",
+    "allOrdersTab": "Wszystkie zamówienia ({{count}})",
+    "replenishmentOrderId": "Uzupełnianie #",
+    "orderType": "Typ zamówienia:",
+    "orderReferenceFilter": "Odniesienie:",
+    "orders": "Zamówienia",
+    "nextPage": "Kolejna",
+    "valueColumn": "Wartość",
+    "purchaseOrderNumber": "Zamówienie#",
+    "orderNumberColumn": "Numer zamówienia",
+    "dateFilter": "Data:",
+    "past3months": "3 miesięcy",
+    "statusA": "Potwierdzenie zamówienia",
+    "past9months": "9 miesięcy",
+    "orderAdditionalReferenceColumn": "Własna notatka",
+    "quotes": "Zapytania o cenę",
+    "statusD": "Spakowane"
+  },
+  "orderInvoices": {
+    "orderType": {
+      "value": ""
+    },
+    "invoiceNumberColumn": "Numer faktury",
+    "amountColumn": "Ilość",
+    "referenceColumn": "Odniesienie",
+    "purchaseOrderColumn": "Zamówienie",
+    "nameColumn": "Nazwa",
+    "pdfColumn": "PDF",
+    "lineItemColumn": "Pozycja",
+    "downloadPDF": "PDF",
+    "noInvoices": "nie znaleziono żadnych faktur",
+    "invoices": "Faktury nieopłacone ({{count}})",
+    "invoiceNumberFilter": "Numer faktury:",
+    "documentDateColumn": "Data",
+    "taxAmountColumn": "Wysokość podatku",
+    "orderNumberColumn": "Numer zamówienia:",
+    "textColumn": "Tekst",
+    "noInvoicesFilter": "Nie znaleziono"
+  }
+}

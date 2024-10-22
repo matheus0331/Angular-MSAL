@@ -1,0 +1,140 @@
+@mixin inspiration-wrapper {
+  margin-bottom: 26px;
+  position: relative;
+}
+
+@mixin inspiration-card {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 287px;
+  height: 333px;
+  margin-top: 20px;
+  background: var(--white);
+  box-shadow: 0px 42px 33px rgba(0, 0, 0, 0.05);
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    width: 360px;
+    height: 345px;
+    margin-top: -25px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    width: 460px;
+    height: 398px;
+    margin-top: unset;
+  }
+}
+
+@mixin inspiration-card-hover {
+  background: var(--accent-color);
+  color: var(--white);
+}
+
+@mixin inspiration-card-hover-button {
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+
+@mixin inspiration-card-text($font-size, $font-weight, $line-height, $color) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+}
+
+@mixin inspiration-card-elements-margin {
+  margin-bottom: 16px;
+}
+
+@mixin inspiration-card-center-items {
+  display: flex;
+  align-items: center;
+}
+
+@mixin inspiration-card-text-line-limit($max-lines) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $max-lines; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+@mixin inspiration-card-wrapper-category {
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+@mixin inspiration-card-options {
+  flex-direction: column;
+
+  @media only screen and (min-width: 992px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@mixin inspiration-card-options-button {
+  width: 239px;
+  height: 46px;
+  background-color: transparent;
+  border: 1px solid var(--accent-color);
+  box-sizing: border-box;
+  color: var(--accent-color);
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    width: 312px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    height: 35px;
+    width: unset;
+  }
+}
+
+@mixin inspiration-card-explore-button-hover {
+  background-color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+  color: var(--white);
+}
+
+@mixin inspiration-card-more-info-button-hover {
+  background-color: var(--white);
+  color: var(--text-color);
+  border: 1px solid var(--white);
+}
+
+@mixin inspiration-card-buttons {
+  @include inspiration-card-options-button();
+
+  @include inspiration-card-text(
+    var(--franke-s-font-size),
+    var(--font-weight-light),
+    22px,
+    var(--text-color)
+  );
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    @include inspiration-card-text(
+      var(--franke-m-font-size),
+      var(--font-weight-light),
+      22px,
+      var(--text-color)
+    );
+  }
+
+  @media only screen and (min-width: 992px) {
+    width: 48%;
+    @include inspiration-card-text(
+      var(--franke-m-font-size),
+      var(--font-weight-base),
+      22px,
+      var(--text-color)
+    );
+  }
+}
+
+@mixin inspiration-card-transition {
+  transition: all 0.2s ease-out;
+}

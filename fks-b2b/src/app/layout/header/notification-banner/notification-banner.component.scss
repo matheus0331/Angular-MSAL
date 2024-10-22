@@ -1,0 +1,35 @@
+.sage {
+  background-color: #BECDB9;
+}
+
+.sage p {
+  color: grey !important;
+}
+
+.wheat {
+  background-color: #E2B47D;
+}
+
+.wheat p {
+  color: white;
+}
+
+.rosemary {
+  background-color: #AFC3C3;
+}
+
+.rosemary p {
+  color: grey !important;
+}
+
+.notification-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .message {
+    margin-top: 24px;
+    font-weight: var(--font-weight-semi-bold);
+    height: auto;
+  }
+}

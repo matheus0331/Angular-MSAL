@@ -1,0 +1,59 @@
+<div class="item">
+  <div class="item-image">
+    <a
+      [routerLink]="{ cxRoute: 'product', params: cartEntry.product } | cxUrl"
+      tabindex="-1"
+    >
+      <cx-media
+        [container]="getThumbnailFormatImage(cartEntry.product.images)"
+      ></cx-media>
+      <div *ngIf="!cartEntry.product?.purchasable" class="purchasable-status">
+        <div class="title-container">
+          <cx-icon type="INFO"></cx-icon>
+          <p class="title">{{ 'productList.notAvailable' | cxTranslate }}</p>
+        </div>
+        <p class="description">
+          {{ 'productList.notAvailableDescription' | cxTranslate }}
+        </p>
+      </div>
+    </a>
+  </div>
+  <div class="item-info">
+    <div *ngIf="cartEntry.product.name">
+      <a
+        [routerLink]="{ cxRoute: 'product', params: cartEntry.product } | cxUrl"
+        class="item-name"
+      >{{ cartEntry.product.name }}</a
+      >
+    </div>
+    <div class="item-price">
+      <div *ngIf="cartEntry.product.price">
+        {{ cartEntry.product.price?.formattedValue }}
+      </div>
+    </div>
+    <div *ngIf="cartEntry.product.code" class="item-fun">
+      {{ 'cartItems.id' | cxTranslate }} {{ cartEntry.product.code }}
+    </div>
+  </div>
+
+  <div class="item-actions">
+    <div class="add-to-cart">
+      <app-extended-add-to-cart
+        [productCode]="cartEntry.product.code"
+        [product]="cartEntry.product"
+        [showQuantity]="false"
+        [wishlist]="true"
+      >
+      </app-extended-add-to-cart>
+    </div>
+    <div class="remove-item">
+      <button
+        (click)="removeEntry(cartEntry)"
+        [disabled]="isLoading"
+        class="remove-button"
+      >
+        {{ 'common.remove' | cxTranslate }}
+      </button>
+    </div>
+  </div>
+</div>

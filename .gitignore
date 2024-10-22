@@ -1,0 +1,62 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/fks-b2b/dist
+/fks-b2c/dist
+/fks-b2b/tmp
+/fks-b2c/tmp
+/fks-b2b/out-tsc
+/fks-b2c/out-tsc
+# Only exists if Bazel was run
+/fks-b2b/bazel-out
+/fks-b2c/bazel-out
+
+# dependencies
+/fks-b2b/node_modules
+/fks-b2c/node_modules
+/fks-b2b/reports
+/fks-b2c/reports
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+*.idea
+.project
+.classpath
+.c9/
+*.launch
+*.angular
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+*.lock
+
+# System Files
+.DS_Store
+Thumbs.db
+.vscode/launch.json
+
+*.iml
+
+# test data
+/fks-b2b/test-data

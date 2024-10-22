@@ -1,0 +1,80 @@
+<div *ngIf="isDesktop$ | async; else nonDesktop" class="order-navigation">
+  <span class="page-of-pages">
+    {{
+    'orderHistory.pageOfPages'
+      | cxTranslate: {page: page, pageCount: pageCount}
+    }}
+  </span>
+  <div
+    (click)="changePage(page - 1, $event)"
+    *ngIf="page !== 1"
+    class="prev-page"
+  >
+    <span> {{ 'orderHistory.previousPage' | cxTranslate }}</span>
+    <cx-icon type="CHEVRON_LEFT"></cx-icon>
+  </div>
+  <div *ngIf="page >= 4" class="scroll">
+    <div (click)="changePage(1, $event)" class="start-number">1</div>
+    <div (click)="changePage(page - 5, $event)" class="skip-five-button">
+      <cx-icon type="ARROW_LEFT"></cx-icon>
+    </div>
+  </div>
+
+  <div
+    (click)="changePage(pageNumber, $event)"
+    *ngFor="let pageNumber of pages"
+    [class.current]="pageNumber === page"
+    class="page"
+  >
+    {{ pageNumber }}
+  </div>
+
+  <div *ngIf="page < pageCount - 2" class="scroll">
+    <div (click)="changePage(page + 5, $event)" class="skip-five-button">
+      <cx-icon type="ARROW_RIGHT"></cx-icon>
+    </div>
+    <div (click)="changePage(pageCount, $event)" class="end-number">
+      {{ pageCount }}
+    </div>
+  </div>
+
+  <div
+    (click)="changePage(page + 1, $event)"
+    *ngIf="page !== pageCount"
+    class="next-page"
+  >
+    <span>{{ 'orderHistory.nextPage' | cxTranslate }}</span>
+    <cx-icon type="CHEVRON_RIGHT"></cx-icon>
+  </div>
+</div>
+
+<ng-template #nonDesktop>
+  <div class="order-navigation">
+    <div
+      (click)="changePage(page - 1, $event)"
+      *ngIf="page !== 1"
+      class="prev-page"
+    >
+      <span> {{ 'orderHistory.previousPage' | cxTranslate }}</span>
+      <cx-icon type="CHEVRON_LEFT"></cx-icon>
+    </div>
+
+    <div
+      (click)="changePage(pageNumber, $event)"
+      *ngFor="let pageNumber of pages"
+      [class.current]="pageNumber === page"
+      class="page"
+    >
+      {{ pageNumber }}
+    </div>
+
+    <div
+      (click)="changePage(page + 1, $event)"
+      *ngIf="page !== pageCount"
+      class="next-page"
+    >
+      <span>{{ 'orderHistory.nextPage' | cxTranslate }}</span>
+      <cx-icon type="CHEVRON_RIGHT"></cx-icon>
+    </div>
+  </div>
+</ng-template>

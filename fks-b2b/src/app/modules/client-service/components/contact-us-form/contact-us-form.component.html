@@ -1,0 +1,99 @@
+<div class="container">
+  <h5 class="text-center">{{ 'contactForm.title' | cxTranslate }}</h5>
+  <p class="text-center">{{ 'contactForm.subTitle1' | cxTranslate }}</p>
+  <p class="text-center">{{ 'contactForm.subTitle2' | cxTranslate }}</p>
+  <form (ngSubmit)="submit()" [formGroup]="contactForm">
+    <div formGroupName="fields">
+      <div *ngFor="let field of fieldsKeys | async" class="form-group required">
+        <label aria-required="true">
+          <span class="label-content required">{{
+            getCategoryFromTree(field).optionlabel
+            }}</span>
+          <ng-select
+            [clearable]="false"
+            [formControlName]="getCategoryFromTree(field).code"
+            [items]="getCategoryFromTree(field).options"
+            [searchable]="false"
+            bindLabel="label"
+            bindValue="code"
+            placeholder="Please Select"
+          >
+          </ng-select>
+          <cx-form-errors
+            [control]="contactForm.get('contactType')"
+          ></cx-form-errors>
+        </label>
+      </div>
+    </div>
+
+    <div *ngIf="shouldShowField('orderNumber')" class="form-group">
+      <label>
+        <span class="label-content required">{{
+          'contactForm.orderNumber' | cxTranslate
+          }}</span>
+        <input class="form-control" formControlName="orderNumber" type="text"/>
+        <cx-form-errors
+          [control]="contactForm.get('orderNumber')"
+        ></cx-form-errors>
+      </label>
+    </div>
+    <div *ngIf="shouldShowField('funNumber')" class="form-group">
+      <label>
+        <span class="label-content required">{{
+          'contactForm.funNumber' | cxTranslate
+          }}</span>
+        <input class="form-control" formControlName="funNumber" type="text"/>
+        <cx-form-errors
+          [control]="contactForm.get('funNumber')"
+        ></cx-form-errors>
+      </label>
+    </div>
+    <div class="form-group">
+      <label>
+        <span class="label-content required">{{
+          'contactForm.request' | cxTranslate
+          }}</span>
+        <textarea
+          class="form-control"
+          formControlName="request"
+          required
+          rows="5"
+        ></textarea>
+        <cx-form-errors [control]="contactForm.get('request')"></cx-form-errors>
+      </label>
+    </div>
+    <div class="last-form-group form-group">
+      <label>
+        <span class="label-content">{{
+          'contactForm.files' | cxTranslate
+          }}</span>
+        <div style="display: flex">
+          <input
+            (change)="onFileSelect($event)"
+            class="file-input"
+            formControlName="files"
+            id="fileInput"
+            multiple
+            name="fileToUpload"
+            type="file"
+          />
+          <button (click)="deleteFiles()" *ngIf="files" class="delete-button">
+            {{ 'contactForm.deleteFiles' | cxTranslate }}
+          </button>
+        </div>
+        <cx-form-errors [control]="contactForm.get('files')"></cx-form-errors>
+      </label>
+    </div>
+    <div class="cx-checkout-btns row">
+      <div class="col-md-12 col-lg-6">
+        <button
+          [disabled]="contactForm.invalid"
+          class="btn btn-block btn-primary"
+          type="submit"
+        >
+          {{ 'common.submit' | cxTranslate }}
+        </button>
+      </div>
+    </div>
+  </form>
+</div>

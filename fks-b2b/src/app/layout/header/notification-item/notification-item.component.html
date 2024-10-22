@@ -1,0 +1,23 @@
+<div *ngIf="notification" class="notification">
+  <div class="header">
+    <p class="order-number">
+      <ng-container *ngIf="notification.type == notificationTypes.ORDER_STATUS">
+        {{ 'notificationCenter.orderNumber' | cxTranslate: {orderNumber: notification.code} }}
+      </ng-container>
+      <ng-container *ngIf="notification.type == notificationTypes.BACK_IN_STOCK">
+        {{ 'notificationCenter.productNumber' | cxTranslate: {productCode: notification.code} }}
+      </ng-container>
+    </p>
+    <p class="notification-time">
+      {{ notification.prettyTime }}
+    </p>
+  </div>
+  <p class="message">
+    <ng-container *ngIf="notification.type == notificationTypes.ORDER_STATUS">
+      {{ 'notificationCenter.notificationMessage' | cxTranslate }}
+    </ng-container>
+    <ng-container *ngIf="notification.type == notificationTypes.BACK_IN_STOCK">
+      {{ 'notificationCenter.backInStockNotificationMessage' | cxTranslate }}
+    </ng-container>
+  </p>
+</div>

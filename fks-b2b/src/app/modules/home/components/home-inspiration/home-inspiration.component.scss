@@ -1,0 +1,125 @@
+@import './shared/home-inspiration.scss';
+
+@mixin text-style($font-size, $font-weight, $line-height) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+.inspiration-explore-message {
+  text-align: center;
+
+  @media only screen and (max-width: 767px) {
+    margin: 0 16px;
+  }
+
+  .inspiration-explore-label {
+    text-transform: uppercase;
+
+    @include inspiration-elements-center-content();
+
+    h3 {
+      margin: 0;
+
+      @include text-style(
+          var(--franke-button-font-size),
+          var(--font-weight-base),
+          21px
+      );
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include text-style(
+            var(--franke-font-size-base),
+            var(--font-weight-base),
+            24px
+        );
+      }
+
+      @media only screen and (min-width: 992px) {
+        @include text-style(
+            var(--franke-h4-font-size),
+            var(--font-weight-base),
+            34px
+        );
+      }
+    }
+  }
+
+  .inspiration-explore-description {
+    margin-top: 8px;
+    @include inspiration-elements-center-content();
+
+    @media only screen and (max-width: 767px) {
+      @media (orientation: landscape) {
+        padding: 0 80px;
+      }
+    }
+
+    @media only screen and (min-width: 992px) {
+      margin-top: 28px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin: 0;
+
+      @include text-style(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          18px
+      );
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @include text-style(
+            var(--franke-s-font-size),
+            var(--font-weight-base),
+            18px
+        );
+      }
+
+      @media only screen and (min-width: 992px) {
+        @include text-style(
+            var(--franke-font-size-base),
+            var(--font-weight-base),
+            24px
+        );
+      }
+    }
+  }
+}
+
+.container {
+  @include inspiration-display-mode();
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    padding: 0;
+    margin: 0 16px;
+    max-width: 736px;
+  }
+
+  .child {
+    @media only screen and (max-width: 991px) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .child.featured {
+    @media only screen and (min-width: 992px) {
+      position: relative;
+      margin-top: 24px;
+    }
+  }
+}
+
+app-inspiration-item-img-right {
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    margin-left: 8px;
+  }
+}
+
+app-inspiration-item-img-left {
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,31 @@
+@import '../../../../../assets/scss/typography';
+
+.item-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  @media only screen and (max-width: 991px) {
+    font-weight: var(--font-weight-light);
+    font-size: var(--franke-s-font-size);
+    line-height: 22px;
+    height: 46px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    background-color: transparent;
+    border: none;
+    padding: 12px;
+    height: 43.62px;
+    width: 100%;
+    color: var(--text-color);
+
+    &:not(.disabled):hover {
+      color: var(--white);
+      background-color: var(--brand-color);
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "searchSupport": {
+    "placeholder": "Recherchez ici...",
+    "results": "Résultats",
+    "manualTitle": "Le manuel du propriétaire",
+    "manualDownload": "Téléchargez  les spécifications produits",
+    "text": "Rechercher un FUN, un modèle ou un document",
+    "more": "Plus",
+    "allResults": "Tous les résultats",
+    "manualDescription": "Le document le plus complet sur la configuration et l'utilisation du produit.",
+    "resultsFor": "Afficher les résultats pour :"
+  },
+  "chat": {
+    "faq": "Questions du portail BTOB",
+    "message1": "Bonjour! Je suis Laurent. Comment puis-je vous aider?",
+    "title": "Assistant FRANKE",
+    "message2": "Vous pouvez sélectionner  une des questions suivantes ou poser directement votre question",
+    "contact": "Contact FRANKE",
+    "complaint": "Soumettre une réclamation"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Besoin d'aide sur votre produit ou d'une réponse rapide?",
+    "title": "Bonjour, nous sommes là pour vous aider"
+  },
+  "contactForm": {
+    "contactType": "Choisir un contact",
+    "files": "Téléchargez des images pour illustrer votre demande",
+    "funNumber": "ID",
+    "request": "Décrivez votre demande",
+    "ticketAddSucess": "Votre ticket a été créé avec succés",
+    "ticketAddFail": "Votre ticket n'a pas été créé avec succès. Veuillez réessayer",
+    "subTitle2": "Utilisez tout simplement notre formulaire!",
+    "generalContactCategories": "Choisir une catégorie",
+    "deleteFiles": "Supprimer",
+    "productSubCategories": "Choisir une sous-catégorie",
+    "title": "Plus de questions?",
+    "subTitle1": "Nous ne trouvons pas la réponse à votre question dans notre FAQs",
+    "productCategories": "Choisir un produit",
+    "orderNumber": "Numéro de commande"
+  },
+  "product": {
+    "id": "Référence"
+  },
+  "faq": {
+    "print": "Imprimer cette page",
+    "customerServicesQuestions": "Service Client",
+    "pageTitle": "Questions fréquemment posées",
+    "productQuestionsTitle": "Produits Franke",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Commandes et Expédition"
+  },
+  "videoTutorial": {
+    "title": ""
+  }
+}

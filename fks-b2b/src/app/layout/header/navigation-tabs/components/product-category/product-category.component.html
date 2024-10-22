@@ -1,0 +1,40 @@
+<div class="category">
+  <div class="category-img-background">
+    <cx-generic-link
+      (click)="closeNav()"
+      [url]="
+        productCategory?.localizedUrl
+          ? productCategory?.localizedUrl
+          : productCategory?.url
+      "
+    >
+      <img
+        [src]="apiEndpoint + productCategory?.image?.url"
+        class="category-img"
+      />
+    </cx-generic-link>
+  </div>
+
+  <cx-generic-link
+    (click)="closeNav()"
+    [url]="
+      productCategory?.localizedUrl
+        ? productCategory?.localizedUrl
+        : productCategory?.url
+    "
+    class="category-link"
+  >
+    <div [innerHtml]="productCategory?.title"></div>
+  </cx-generic-link>
+  <ng-container *ngFor="let child of productCategory?.children">
+    <div class="sub-category">
+      <cx-generic-link
+        (click)="closeNav()"
+        [url]="child?.localizedUrl ? child?.localizedUrl : child?.url"
+        class="sub-category-link"
+      >
+        <div [innerHtml]="child?.title"></div>
+      </cx-generic-link>
+    </div>
+  </ng-container>
+</div>

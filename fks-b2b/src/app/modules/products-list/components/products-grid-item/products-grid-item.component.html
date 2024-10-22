@@ -1,0 +1,75 @@
+<div class="wrapper">
+  <div
+    [routerLink]="{ cxRoute: 'product', params: product } | cxUrl"
+    class="grid-list-product"
+  >
+    <div class="product-image">
+      <div *ngIf="product.potentialPromotions[0]" class="promotion">
+        <span>{{ product.potentialPromotions[0].description }}</span>
+      </div>
+      <cx-media
+        [container]="
+          product.images?.PRIMARY?.thumbnail
+            ? product.images?.PRIMARY?.thumbnail
+            : product.images?.PRIMARY
+        "
+      ></cx-media>
+      <div *ngIf="!product.purchasable" class="purchasable-status">
+        <div class="title-container">
+          <cx-icon type="INFO"></cx-icon>
+          <p class="title">{{ 'productList.notAvailable' | cxTranslate }}</p>
+        </div>
+        <p class="description">
+          {{ 'productList.notAvailableDescription' | cxTranslate }}
+        </p>
+      </div>
+      <div *ngIf="product.isPreSeries" class="purchasable-status">
+        <div class="title-container">
+          <cx-icon type="INFO"></cx-icon>
+          <p class="title">
+            {{ 'productSummary.preLaunchTitle' | cxTranslate }}
+          </p>
+        </div>
+        <p class="description">
+          {{ 'productSummary.preLaunchBody' | cxTranslate }}
+        </p>
+      </div>
+    </div>
+    <div *ngIf="isDesktop$ | async; else nonDesktop" class="product-info">
+      <p>
+        {{ product.name }}
+      </p>
+      <div class="bottom-info">
+        <div *ngIf="product.price" class="price">
+          <span>{{ product.price?.formattedValue }}</span>
+        </div>
+        <div class="fun-number">
+          {{ 'productList.articleNumber' | cxTranslate: {fun: product.code} }}
+        </div>
+      </div>
+    </div>
+    <ng-template #nonDesktop>
+      <div class="product-info">
+        <div class="name">
+          <p>
+            {{ product.name }}
+          </p>
+        </div>
+        <div *ngIf="product.price" class="price">
+          <span>{{ product.price?.formattedValue }}</span>
+        </div>
+        <div class="fun-number">
+          {{ 'productList.articleNumber' | cxTranslate: {fun: product.code} }}
+        </div>
+      </div>
+    </ng-template>
+  </div>
+  <div class="item-button-group-control">
+    <div class="item-button-group">
+      <app-button-add-to-cart [product]="product"></app-button-add-to-cart>
+      <app-button-add-to-favorites
+        [product]="product"
+      ></app-button-add-to-favorites>
+    </div>
+  </div>
+</div>

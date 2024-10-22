@@ -1,0 +1,219 @@
+{
+  "searchSupport": {
+    "placeholder": "Cerca qui...",
+    "results": "risultati",
+    "manualTitle": "Manuale del proprietario",
+    "manualDownload": "Scarica Specifica",
+    "text": "Ricerca per codice prodotto o nome prodotto",
+    "more": "mostra di più",
+    "allResults": "tutti i risultati",
+    "manualDescription": "Il documento più completo della configurazione e l'utilizzo del prodotto.",
+    "resultsFor": "Visualizzazione dei risultati per:"
+  },
+  "chat": {
+    "faq": "Franke Partner Portal FAQ",
+    "message1": "Ciao, sono Laura. Come posso aiutarti?",
+    "title": "Personal assistant",
+    "message2": "Puoi scegliere tra le opzioni qui sotto o fare una domanda",
+    "contact": "Contatta Franke",
+    "complaint": "Invia una segnalazione"
+  },
+  "Contact Form": {},
+  "header": {
+    "description": "Hai bisogno di aiuto con il tuo prodotto o hai una domanda?",
+    "title": "Ciao, siamo qui per aiutarti"
+  },
+  "contactForm": {
+    "contactType": "Seleziona la modalità che preferisci per essere contattato",
+    "files": "Carica immagini per aiutarci a rispondere alla tua richiesta",
+    "funNumber": "Codice prodotto",
+    "request": "Descrivi la tua richiesta",
+    "ticketAddSucess": "Ticket creato!",
+    "ticketAddFail": "Errore nella creazione del ticket, prova di nuovo!",
+    "subTitle2": "Utilizza il nostro contact form!",
+    "generalContactCategories": "Seleziona la tipologia",
+    "deleteFiles": "Elimina",
+    "productSubCategories": "Seleziona la sotto tipologia",
+    "title": "Ulteriori domande?",
+    "subTitle1": "Non riesci a trovare risposte alla tua domanda nelle nostre FAQ?",
+    "productCategories": "Seleziona il prodotto",
+    "orderNumber": "Numero ordine"
+  },
+  "product": {
+    "id": "Codice Prodotto"
+  },
+  "faq": {
+    "print": "Stampa questa pagina",
+    "customerServicesQuestions": "Servizio Clienti",
+    "pageTitle": "Domande Frequenti",
+    "productQuestionsTitle": "Franke Prodotti",
+    "portalQuestionsTitle": "Franke Partner Portal",
+    "ordersAndShipmentQuestions": "Ordini e Spedizioni"
+  },
+  "videoTutorial": {
+    "title": ""
+  },
+  "addressBook": {
+    "deliveryAddressSubtitle": "È possibile avere fino a un massimo di 4 indirizzi.",
+    "updateAddress": "Aggiorna indirizzo",
+    "editShippingAddress": "Modifica indirizzo di spedizione",
+    "deliveryAddressTitle": "Indirizzo di consegna",
+    "addNewShippingAddress": "Aggiungi un nuovo indirizzo di spedizione",
+    "addAddress": "Aggiungi un indirizzo",
+    "billingAddressTitle": "Indirizzo di Fatturazione",
+    "addNewAddress": "Aggiungi un nuovo indirizzo",
+    "backToAddressList": "Torna alla lista degli indirizzi",
+    "areYouSureToDeleteAddress": "Sei sicuro di voler cancellare questo indirizzo?"
+  },
+  "addressCard": {
+    "shipTo": "Spedire a",
+    "setAsDefault": "Imposta come predefinito",
+    "billTo": "Fatturare a",
+    "selected": "Selezionato",
+    "default": "PREDEFINITO"
+  },
+  "addressForm": {
+    "lastName": {
+      "label": "Cognome",
+      "placeholder": "Cognome"
+    },
+    "aptSuite": "Scala, piano, interno",
+    "saveAsDefault": "Salva come predefinito",
+    "firstName": {
+      "label": "Nome",
+      "placeholder": "Nome"
+    },
+    "zipCode": {
+      "placeholder": "Codice Postale",
+      "label": "Cap"
+    },
+    "address1": "Indirizzo 1",
+    "setAsDefault": "Imposta come predefinito",
+    "title": "Titolo",
+    "userAddressDeleteSuccess": "Indirizzo cancellato con successo!",
+    "userAddressAddSuccess": "Nuovo indirizzo aggiunto con successo!",
+    "city": {
+      "placeholder": "Città",
+      "label": "Città"
+    },
+    "invalidAddress": "Indirizzo non valido",
+    "chooseAddress": "Scegli indirizzo",
+    "phoneNumber": {
+      "placeholder": "(555) 555-0123",
+      "label": "Numero di telefono (facoltativo)"
+    },
+    "titleRequired": "Il titolo è obbligatorio",
+    "state": "Provincia",
+    "address2": "Indirizzo 2 (opzionale)",
+    "selectOne": "Seleziona una voce ...",
+    "country": "Nazione",
+    "streetAddress": "Via",
+    "userAddressUpdateSuccess": "Indirizzo aggiornato con successo!"
+  },
+  "wishlist": {
+    "addToCart": "Aggiungi al carrello",
+    "empty": "Non ci sono prodotti nella tua wishlist"
+  },
+  "checkoutOrderConfirmation": {
+    "createAccount": "Vuoi creare un account?",
+    "invoiceHasBeenSentByEmail": "Riceverai a breve la tua fattura via email.",
+    "placedOn": "Confermato il",
+    "status": "Stato",
+    "frequency": "Frequenza",
+    "orderItems": "Articoli ordinati",
+    "orderPlacedSuccessfully": "Ordine confermato con successo",
+    "nextOrderDate": "Prossima data ordine",
+    "confirmationOfOrder": "Conferma dell'ordine:",
+    "cancelled": "Annullato",
+    "createAccountForNext": "Crea un account con <{{email}}> per un checkout più veloce alla tua prossima visita.",
+    "replenishmentNumber": "Rifornimento #",
+    "orderNumber": "Numero d'ordine",
+    "thankYou": "Grazie per il tuo ordine!",
+    "active": "Attivo"
+  },
+  "checkoutPO": {
+    "placeholder": "Inserisci P.O",
+    "poNumber": "Numero dell'ordine di acquisto",
+    "availableLabel": "Gli indirizzi di spedizione disponibili dipendono sull'unità del centro di costo",
+    "costCenter": "Centro di costo",
+    "noPoNumber": "Nessuna"
+  },
+  "checkoutReview": {
+    "autoReplenishOrder": "Ordine di rifornimento automatico",
+    "confirmThatRead": "Confermo di aver letto e accettato",
+    "termsAndConditions": "Termini e Condizioni",
+    "recurrencePeriodType_WEEKLY": "Settimana(e)",
+    "poNumber": "Numero ordine d'acquisto",
+    "dayOfMonth": "Nel giorno",
+    "every": "Ogni",
+    "placeOrder": "Invia ordine",
+    "scheduleReplenishmentOrder": "Pianifica l'ordine di rifornimento",
+    "recurrencePeriodType_DAILY": "Giorno(i)",
+    "repeatOnDays": "Ripetere nei seguenti giorni",
+    "funNumber": "CODICE: {{fun}}",
+    "editShippingAddress": "Modifica indirizzo di spedizione",
+    "startOn": "Inizia",
+    "additionalDetailsTitle": "Ulteriori dettagli dell'ordine",
+    "deliveryAddressTitle": "Indirizzo di consegna",
+    "orderType_PLACE_ORDER": "Nessuno (ordinare una sola volta)",
+    "invoiceAddressTitle": "Indirizzo di fatturazione",
+    "recurrencePeriodType_MONTHLY": "Mese",
+    "requestedDate": "Data richiesta:",
+    "orderType": "Tipo di ordine:",
+    "checkoutError": "Errore. Si prega di contattare l'assistenza clienti",
+    "itemsTitle": "Articoli da consegnare",
+    "additionalReference": "Ulteriori informazioni:",
+    "orderItems": "Articoli ordinati",
+    "quantity": "Quantità: {{count}}",
+    "reference": "Riferimento",
+    "orderNumber": "Numero d'ordine:",
+    "review": "Rivedi",
+    "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Ordine di rifornimento",
+    "deliveryDate": "Data di consegna richiesta:"
+  },
+  "checkoutProgress": {
+    "shippingAddress": "Indirizzo di spedizione",
+    "reviewOrder": "Rivedi l'ordine",
+    "paymentDetails": "Dettagli del pagamento",
+    "billingTask": "Seleziona indirizzo di fatturatione",
+    "billingAddress": "Indirizzo di fatturazione",
+    "methodOfPayment": "Metodo di pagamento",
+    "deliveryMode": "Modalità di consegna",
+    "reviewTask": "Per favore, controlla il riepilogo del tuo ordine",
+    "shippingTask": "Seleziona indirizzo di consegna",
+    "invoicePayment": "Pagamento della fattura"
+  },
+  "checkoutAddress": {
+    "defaultInvoiceAddress": "Indirizzo di fatturazione predefinito",
+    "enteredAddress": "indirizzo inserito",
+    "selectYourInvoiceAddress": "Seleziona il tuo indirizzo di fatturazione",
+    "verifyYourAddress": "Verifica il tuo indirizzo",
+    "invoiceAddress": "Indirizzo della fattura",
+    "editAddress": "Modifica indirizzo",
+    "chooseAddressToUse": "Si prega di scegliere quale indirizzo si desidera utilizzare:",
+    "shipToThisAddress": "Spedire a questo indirizzo",
+    "saveAddress": "Salva indirizzo",
+    "addNewAddress": "Aggiungi un nuovo indirizzo",
+    "defaultShippingAddress": "indirizzo di spedizione predefinito",
+    "selectInvoiceAddress": "Seleziona questo indirizzo",
+    "selectYourBillingAddress": "Seleziona il tuo indirizzo di fatturazione",
+    "suggestedAddress": "Indirizzo suggerito",
+    "billingAddress": "Indirizzo di fatturazione",
+    "selectYourShippingAddress": "Seleziona il tuo indirizzo di spedizione",
+    "shippingAddress": "indirizzo di spedizione",
+    "ensureAccuracySuggestChange": "Per garantire l'accuratezza della consegna, suggeriamo la modifica selezionata di seguito."
+  },
+  "checkoutShipping": {
+    "standardDelivery": "Consegna standard",
+    "shippingMethod": "metodo di spedizione",
+    "premiumDelivery": "Consegna Premium"
+  },
+  "checkout": {
+    "back": "Indietro",
+    "invalid": {
+      "accountType": "Il pagamento tramite questa carta non è andato a buon fine"
+    },
+    "backToCart": "Ritorna al carrello",
+    "continue": "Continua"
+  }
+}

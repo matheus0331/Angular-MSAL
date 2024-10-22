@@ -1,0 +1,58 @@
+.close {
+  padding-right: 0;
+  opacity: 0.9;
+
+  &:not(:disabled):not(.disabled):hover,
+  &:not(:disabled):not(.disabled):focus {
+    opacity: 1;
+    color: var(--brand-color);
+  }
+
+  &.cx-icon {
+    padding-top: 0.5rem;
+
+    &:hover {
+      color: var(--brand-color);
+    }
+  }
+}
+
+.subtitle {
+  font-size: var(--franke-font-size-base);
+}
+
+.product-info {
+  font-weight: var(--font-weight-base);
+  text-align: left;
+
+  .fun-number {
+    color: var(--grey);
+  }
+}
+
+.btn {
+  font-size: var(--franke-font-size-base);
+  line-height: 1;
+}
+
+.product-img {
+  height: auto;
+  max-height: 200px;
+  width: auto;
+  max-width: 100%;
+  display: flex;
+}
+
+.cx-dialog-header {
+  padding: 1.5rem 1rem 0 2rem;
+}
+
+.replacement-product {
+  padding: 3px 0;
+  display: block;
+
+  &--new {
+    background-color: #fff7e8;
+    padding: 3px 5px 0;
+  }
+}

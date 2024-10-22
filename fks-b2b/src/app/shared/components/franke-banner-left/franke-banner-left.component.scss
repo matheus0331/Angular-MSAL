@@ -1,0 +1,243 @@
+@import '../../shared/scss/franke-banner-collection.scss';
+
+.wrapper-card-right {
+  max-width: 1440px;
+  width: 100%;
+  justify-content: center;
+
+  @include inspiration-wrapper();
+  @include inspiration-card-center-items();
+
+  @media only screen and (min-width: 768px) {
+    justify-content: flex-start;
+  }
+
+  .inspiration-card {
+    @include inspiration-card();
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      left: 50%;
+    }
+
+    @media only screen and (min-width: 992px) {
+      left: 55%;
+    }
+
+    .inspiration-card-wrapper {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: space-between;
+
+      .category {
+        display: none;
+
+        @media only screen and (min-width: 768px) {
+          @include inspiration-card-wrapper-category();
+          @include inspiration-card-center-items();
+          @include inspiration-card-text-line-limit(1);
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          margin-bottom: 13px;
+          @include inspiration-card-text(
+            var(--franke-xs-font-size),
+            var(--font-weight-base),
+            15px,
+            var(--grey)
+          );
+        }
+
+        @media only screen and (min-width: 992px) {
+          @include inspiration-card-elements-margin();
+          @include inspiration-card-text(
+            var(--franke-s-font-size),
+            var(--font-weight-base),
+            18px,
+            var(--grey)
+          );
+        }
+      }
+
+      .title {
+        @include inspiration-card-center-items();
+        @include inspiration-card-elements-margin();
+        @include inspiration-card-text-line-limit(3);
+        @include inspiration-card-text(
+          var(--franke-font-size-base),
+          var(--font-weight-base),
+          24px,
+          var(--text-color)
+        );
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          @include inspiration-card-text(
+            var(--franke-h5-font-size),
+            var(--font-weight-base),
+            30px,
+            var(--text-color)
+          );
+        }
+
+        @media only screen and (min-width: 992px) {
+          @include inspiration-card-text(
+            var(--franke-banner-card-title),
+            var(--font-weight-base),
+            48px,
+            var(--text-color)
+          );
+        }
+      }
+
+      .desc {
+        margin-bottom: 11px;
+        @include inspiration-card-text(
+          var(--franke-s-font-size),
+          var(--font-weight-base),
+          18px,
+          var(--text-color)
+        );
+        @include inspiration-card-text-line-limit(4);
+
+        @media only screen and (min-width: 768px) {
+          margin-bottom: 12px;
+          @include inspiration-card-center-items();
+          @include inspiration-card-text(
+            var(--franke-m-font-size),
+            var(--font-weight-base),
+            21px,
+            var(--text-color)
+          );
+          @include inspiration-card-text-line-limit(2);
+        }
+
+        @media only screen and (min-width: 992px) {
+          @include inspiration-card-elements-margin();
+          @include inspiration-card-text(
+            var(--franke-font-size-base),
+            var(--font-weight-base),
+            24px,
+            var(--text-color)
+          );
+          @include inspiration-card-text-line-limit(4);
+        }
+      }
+
+      .options {
+        @include inspiration-card-options();
+        @include inspiration-card-center-items();
+
+        .explore-btn-only {
+          width: 100%;
+
+          @include inspiration-card-buttons();
+
+          &:hover {
+            @include inspiration-card-explore-button-hover();
+            @include inspiration-card-transition();
+          }
+          @include inspiration-card-transition();
+        }
+
+        .explore-btn {
+          @include inspiration-card-buttons();
+
+          &:hover {
+            @include inspiration-card-explore-button-hover();
+            @include inspiration-card-transition();
+          }
+          @include inspiration-card-transition();
+        }
+
+        .more-info-btn {
+          @include inspiration-card-buttons();
+
+          &:hover {
+            @include inspiration-card-more-info-button-hover();
+            @include inspiration-card-transition();
+          }
+          @include inspiration-card-transition();
+
+          @media only screen and (max-width: 991px) {
+            margin-top: 8px;
+          }
+        }
+
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          padding: 1px 6px;
+        }
+      }
+      @include inspiration-card-transition();
+    }
+
+    &:hover {
+      @include inspiration-card-hover();
+
+      .inspiration-card-wrapper {
+        .category,
+        .title,
+        .desc {
+          color: var(--white);
+        }
+        .options {
+          button,
+          a {
+            @include inspiration-card-hover-button();
+          }
+
+          cx-generic-link ::ng-deep {
+            border-color: var(--white);
+
+            a {
+              color: var(--white);
+            }
+          }
+        }
+      }
+      @include inspiration-card-transition();
+    }
+  }
+
+  cx-generic-link ::ng-deep {
+    a {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--white);
+      }
+    }
+  }
+
+  .inspiration-img {
+    display: flex;
+    justify-content: flex-start;
+    flex: 100%;
+    img {
+      overflow: hidden;
+      width: 100%;
+      height: 424px;
+      object-fit: cover;
+
+      @media only screen and (min-width: 768px) {
+        width: 491px;
+        height: 424px;
+      }
+
+      @media only screen and (min-width: 992px) {
+        width: 920px;
+        height: 692px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
